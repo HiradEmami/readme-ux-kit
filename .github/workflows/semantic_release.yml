@@ -1,4 +1,4 @@
-name: Build LaTeX Paper
+name: semantic-release
 
 permissions:
   contents: write
@@ -13,66 +13,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-    container: texlive/texlive:latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Lint LaTeX files
-        working-directory: template/{{project_slug}}
-        run: |
-          chktex -q -n22 -n30 -n24 paper.tex || true
-          find . -name "*.tex" -exec chktex -q -n22 -n30 -n24 {} + || true
-
-      - name: Validate structure
-        working-directory: template/{{project_slug}}
-        run: |
-          set -e
-
-          echo "Searching for LaTeX files"
-          if ! find . -name '*.tex' -print -quit | grep -q .; then
-            echo "ERROR: No .tex files found"
-            exit 1
-          fi
-
-          echo "Checking main tex file exists"
-          if [ ! -f "paper.tex" ]; then
-            echo "ERROR: paper.tex not found"
-            exit 1
-          fi
-
-          echo "Checking document structure"
-          grep -qF '\documentclass' paper.tex
-          grep -qF '\begin{document}' paper.tex
-          grep -qF '\end{document}' paper.tex
-
-
-  build:
-    runs-on: ubuntu-latest
-    container: texlive/texlive:latest
-    needs: validate
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Compile PDF
-      working-directory: template/{{project_slug}}
-      run: make
-
-    - name: Upload PDF artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: paper-pdf
-        path: |
-          template/{{project_slug}}/build/paper.pdf
-          template/{{project_slug}}/build/paper.log
-
-
   release:
     runs-on: ubuntu-latest
-    needs: build
     if: github.ref == 'refs/heads/master' && github.event_name == 'workflow_dispatch'
     steps:
     - name: Checkout repository
