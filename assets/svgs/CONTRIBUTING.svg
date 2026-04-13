@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 80" width="850" height="90">
+    <defs>
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.8"/>
+        </filter>
+        <clipPath id="typing-mask">
+            <rect x="0" y="0" width="0" height="90" class="mask-anim"/>
+        </clipPath>
+    </defs>
+
+    <style>
+        .code {
+            font-family: 'Courier New', Consolas, monospace;
+            font-size: 75px;
+            font-weight: 700;
+            fill: #FFFFFF;
+            stroke: #000000;
+            stroke-width: 2px;
+            stroke-linejoin: round;
+            filter: url(#shadow);
+        }
+        .mask-anim {
+            animation: typing 3.5s steps(40, end) forwards;
+        }
+        .cursor {
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 850px; }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+
+    <g clip-path="url(#typing-mask)">
+        <text x="10" y="60" class="code">&gt; CONTRIBUTING<tspan class="cursor">_</tspan></text>
+    </g>
+</svg>
