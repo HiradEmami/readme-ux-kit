@@ -13,7 +13,7 @@
             font-family: 'Courier New', Consolas, monospace;
             font-size: 75px;
             font-weight: 700;
-            fill: #22c55e;
+            fill: #a04b4b;
             stroke:#020617;
             stroke-width: 2px;
             stroke-linejoin: round;
