@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 50" width="800" height="50">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="800" height="50">
   <polyline points="0,25 100,10 200,40 300,15 400,35 500,20 600,30 700,15 800,25"
             fill="none" stroke="#22d3ee" stroke-width="2"
             stroke-dasharray="10 6">
