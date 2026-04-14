@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="800" height="60">
+  <line x1="0" y1="30" x2="800" y2="30" stroke="#1e293b" stroke-width="2"/>
+
+  <circle cx="400" cy="30" r="12" fill="none" stroke="#818cf8"/>
+
+  <circle r="4" fill="#22d3ee">
+    <animateMotion dur="3s" repeatCount="indefinite"
+      path="M388 30 A12 12 0 1 1 412 30 A12 12 0 1 1 388 30"/>
+  </circle>
+</svg>
