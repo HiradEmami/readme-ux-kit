@@ -1,6 +1,9 @@
 # idea ignores
 .idea/
 
+# local setup
+path_util.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
