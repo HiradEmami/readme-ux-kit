@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <g transform="translate(170,60)">
+    <circle r="8" fill="#22d3ee"/>
+    <ellipse rx="40" ry="16" fill="none" stroke="#818cf8" stroke-width="2"/>
+    <ellipse rx="16" ry="40" fill="none" stroke="#a855f7" stroke-width="2"/>
+  </g>
+  <text x="540" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#f8fafc">
+    MODEL OVERVIEW
+  </text>
+</svg>

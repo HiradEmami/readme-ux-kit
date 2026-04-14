@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <rect width="900" height="110" fill="#020617"/>
+  <line x1="40" y1="25" x2="860" y2="25" stroke="#1e293b" stroke-width="2"/>
+  <line x1="40" y1="85" x2="860" y2="85" stroke="#1e293b" stroke-width="2"/>
+  <rect x="120" y="15" width="50" height="10" fill="#22d3ee">
+    <animate attributeName="x" values="120;730;120" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="120" y="85" width="50" height="10" fill="#22d3ee">
+    <animate attributeName="x" values="120;730;120" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="450" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f8fafc">
+    EXAMPLES
+  </text>
+</svg>

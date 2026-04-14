@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="140" rx="18" fill="url(#bg)"/>
+  <line x1="70" y1="102" x2="830" y2="102" stroke="url(#line)" stroke-width="3"/>
+  <text x="450" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#f8fafc">
+    READ ME FIRST
+  </text>
+</svg>

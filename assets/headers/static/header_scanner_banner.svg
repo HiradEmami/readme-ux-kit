@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <defs>
+    <linearGradient id="scan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#020617"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-900 0" to="900 0" dur="2.5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="110" fill="#020617"/>
+  <rect x="0" y="44" width="900" height="20" fill="url(#scan)" opacity="0.25"/>
+  <text x="450" y="67" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#e2e8f0">
+    QUICK START
+  </text>
+</svg>
