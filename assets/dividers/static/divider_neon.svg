@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 24" width="800" height="24">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <line x1="0" y1="12" x2="800" y2="12" stroke="#0f172a" stroke-width="6"/>
+  <line x1="0" y1="12" x2="800" y2="12" stroke="#a855f7" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>
