@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <polygon points="60,20 70,60 50,60" fill="#22d3ee"/>
+  <rect x="50" y="60" width="20" height="20" fill="#1e293b"/>
+  <circle cx="60" cy="50" r="4" fill="#020617"/>
+  <rect x="55" y="80" width="10" height="10" fill="#f59e0b">
+    <animate attributeName="height" values="10;20;10" dur="0.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
