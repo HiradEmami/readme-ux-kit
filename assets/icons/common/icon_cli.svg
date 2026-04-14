@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+  <polyline points="20,20 40,30 20,40" stroke="#22d3ee" fill="none"/>
+  <rect x="50" y="25" width="20" height="5" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

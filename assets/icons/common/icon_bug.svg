@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+  <ellipse cx="30" cy="30" rx="8" ry="12" fill="#ef4444"/>
+
+  <line x1="22" y1="30" x2="15" y2="25" stroke="#ef4444"/>
+  <line x1="38" y1="30" x2="45" y2="25" stroke="#ef4444"/>
+
+  <line x1="22" y1="32" x2="15" y2="45" stroke="#ef4444"/>
+  <line x1="38" y1="32" x2="45" y2="45" stroke="#ef4444"/>
+
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;1 0;-1 0;0 0" dur="1s" repeatCount="indefinite"/>
+</svg>
