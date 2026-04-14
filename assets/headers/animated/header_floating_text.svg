@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <text x="450" y="70" text-anchor="middle" font-size="42" fill="#a855f7">
+    ANALYSIS
+    <animate attributeName="x" values="450;460;450" dur="2s" repeatCount="indefinite"/>
+  </text>
+</svg>

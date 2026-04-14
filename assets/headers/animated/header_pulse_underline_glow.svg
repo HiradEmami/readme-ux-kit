@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100">
+  <rect width="900" height="100" fill="#020617"/>
+  <text x="450" y="55" text-anchor="middle" font-size="42" fill="#f8fafc">INSTALL</text>
+  <line x1="300" y1="70" x2="600" y2="70" stroke="#22d3ee" stroke-width="3">
+    <animate attributeName="stroke-width" values="2;6;2" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+</svg>

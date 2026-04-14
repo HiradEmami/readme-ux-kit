@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <circle cx="450" cy="60" r="10" fill="#22d3ee">
+    <animate attributeName="r" values="10;30;10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="450" y="70" text-anchor="middle" font-size="42" fill="#f8fafc">ENGINE</text>
+</svg>

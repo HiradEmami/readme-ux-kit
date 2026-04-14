@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <g transform="translate(450,60)" stroke="#22d3ee">
+    <line x1="0" y1="0" x2="0" y2="-40">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <text x="450" y="70" text-anchor="middle" font-size="42" fill="#f8fafc">CORE</text>
+</svg>
