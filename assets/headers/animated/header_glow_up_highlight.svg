@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <rect width="200" height="120" fill="#22d3ee" opacity="0.1">
+    <animate attributeName="x" values="-200;900" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="450" y="70" text-anchor="middle" font-size="42" fill="#f8fafc">FLOW</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <rect width="900" height="110" fill="#020617"/>
+  <rect y="30" height="45" width="0" fill="#22d3ee">
+    <animate attributeName="width" values="0;900;0" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="450" y="65" text-anchor="middle" font-size="40" fill="#020617">SETUP</text>
+</svg>

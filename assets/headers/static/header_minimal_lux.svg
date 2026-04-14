@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100">
+  <rect width="900" height="100" fill="#020617"/>
+  <text x="450" y="58" text-anchor="middle" font-family="Times New Roman, serif" font-size="38" fill="#f8fafc">
+    License
+  </text>
+  <line x1="360" y1="70" x2="540" y2="70" stroke="#94a3b8" stroke-width="1.5"/>
+</svg>

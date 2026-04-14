@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100">
+  <style>
+    .t { font: 700 54px 'Courier New', monospace; fill: #22c55e; }
+    .c { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect width="900" height="100" rx="14" fill="#020617"/>
+  <text x="30" y="64" class="t">&gt; CONTRIBUTING<tspan class="c">_</tspan></text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <rect x="110" y="18" width="36" height="84" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="754" y="18" width="36" height="84" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#f8fafc">
+    DESIGN NOTES
+  </text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <polygon points="80,60 105,42 135,42 160,60 135,78 105,78" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <polygon points="740,60 765,42 795,42 820,60 795,78 765,78" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <line x1="160" y1="60" x2="300" y2="60" stroke="#334155" stroke-width="2"/>
+  <line x1="600" y1="60" x2="740" y2="60" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#e2e8f0">
+    ARCHITECTURE
+  </text>
+</svg>

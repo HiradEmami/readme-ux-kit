@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <defs>
+    <filter id="g">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="110" rx="16" fill="#020617"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#22d3ee" filter="url(#g)">
+    INSTALLATION
+  </text>
+</svg>

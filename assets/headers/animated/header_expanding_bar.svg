@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <rect width="900" height="110" fill="#020617"/>
+  <rect x="300" y="50" width="300" height="10" fill="#22d3ee">
+    <animate attributeName="width" values="300;600;300" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="450" y="45" text-anchor="middle" font-size="40" fill="#f8fafc">PIPELINE</text>
+</svg>

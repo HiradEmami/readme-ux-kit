@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <rect width="900" height="110" fill="#020617"/>
+  <line x1="0" y1="40" x2="900" y2="40" stroke="#22d3ee" stroke-width="2">
+    <animate attributeName="y1" values="40;70;40" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="40;70;40" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <text x="450" y="65" text-anchor="middle" font-size="42" fill="#f8fafc">STATUS</text>
+</svg>

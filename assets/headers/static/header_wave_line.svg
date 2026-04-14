@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <rect width="900" height="110" fill="#020617"/>
+  <text x="450" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#f8fafc">
+    DOCUMENTATION
+  </text>
+  <path d="M220 78 Q 260 60, 300 78 T 380 78 T 460 78 T 540 78 T 620 78 T 700 78"
+        fill="none" stroke="#22d3ee" stroke-width="3"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <polygon points="120,60 140,40 150,70" fill="#22d3ee" opacity="0.8"/>
+  <polygon points="180,55 195,35 205,65" fill="#a855f7" opacity="0.8"/>
+  <polygon points="760,65 780,45 790,75" fill="#22d3ee" opacity="0.8"/>
+  <polygon points="710,60 725,40 735,70" fill="#a855f7" opacity="0.8"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#f8fafc">
+    DEPLOYMENT
+  </text>
+</svg>

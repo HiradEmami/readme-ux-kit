@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect x="10" y="10" width="880" height="100" rx="10" fill="none" stroke="#a855f7" stroke-width="2"/>
+  <path d="M10 35 L40 10 M860 10 L890 35 M10 85 L40 110 M860 110 L890 85" stroke="#22d3ee" stroke-width="2" fill="none"/>
+  <rect width="900" height="120" fill="#020617"/>
+  <rect x="10" y="10" width="880" height="100" rx="10" fill="none" stroke="#a855f7" stroke-width="2"/>
+  <path d="M10 35 L40 10 M860 10 L890 35 M10 85 L40 110 M860 110 L890 85" stroke="#22d3ee" stroke-width="2" fill="none"/>
+  <text x="450" y="70" text-anchor="middle" font-family="Orbitron, Arial, sans-serif" font-size="40" font-weight="700" fill="#f8fafc">
+    API REFERENCE
+  </text>
+</svg>

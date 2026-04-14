@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+  <rect width="900" height="110" fill="#020617"/>
+  <rect y="0" width="900" height="20" fill="#22d3ee">
+    <animate attributeName="y" values="0;90;0" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="450" y="65" text-anchor="middle" font-size="42" fill="#f8fafc">TRACKING</text>
+</svg>

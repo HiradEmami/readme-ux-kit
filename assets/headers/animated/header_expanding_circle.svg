@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <circle cx="450" cy="60" r="10" fill="#22d3ee">
+    <animate attributeName="r" values="10;200" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="450" y="70" text-anchor="middle" font-size="42" fill="#f8fafc">OVERVIEW</text>
+</svg>

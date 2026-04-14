@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" width="100" height="40">
+  <circle r="6" fill="#22d3ee">
+    <animateMotion dur="2s" repeatCount="indefinite"
+      path="M10 20 L90 20 L90 20 L10 20"/>
+  </circle>
+</svg>

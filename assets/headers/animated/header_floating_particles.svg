@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <rect width="900" height="120" fill="#020617"/>
+  <circle cx="200" cy="80" r="4" fill="#22d3ee">
+    <animate attributeName="cy" values="80;20;80" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="20" r="4" fill="#a855f7">
+    <animate attributeName="cy" values="20;80;20" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="450" y="65" text-anchor="middle" font-size="42" fill="#f8fafc">EXAMPLES</text>
+</svg>

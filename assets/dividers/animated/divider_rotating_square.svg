@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 50" width="800" height="50">
+  <line x1="0" y1="25" x2="800" y2="25" stroke="#1e293b" stroke-width="2"/>
+
+  <g transform="translate(400,25)">
+    <polygon points="0,-10 10,0 0,10 -10,0" fill="#a855f7">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0" to="360" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+</svg>

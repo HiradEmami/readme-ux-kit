@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100">
+  <rect width="900" height="100" fill="#020617"/>
+  <text x="420" y="60" font-size="40" fill="#f8fafc">Loading</text>
+  <text x="570" y="60" font-size="40" fill="#22d3ee">
+    ...
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
