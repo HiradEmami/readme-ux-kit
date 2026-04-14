@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <path d="M36 20 H84 M36 100 H84 M40 20 Q40 40 60 60 Q80 80 80 100 M80 20 Q80 40 60 60 Q40 80 40 100"
+        fill="none" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="60" cy="34" r="4" fill="#22d3ee">
+    <animate attributeName="cy" values="34;86;34" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

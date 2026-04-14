@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <g fill="none" stroke-width="2">
+    <ellipse cx="60" cy="60" rx="42" ry="16" stroke="#22d3ee">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 60 60" to="360 60 60" dur="3s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="60" cy="60" rx="16" ry="42" stroke="#a855f7">
+      <animateTransform attributeName="transform" type="rotate"
+        from="360 60 60" to="0 60 60" dur="2.5s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+</svg>

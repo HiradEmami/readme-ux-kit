@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="8" fill="#64748b"/>
+  <g fill="#94a3b8">
+    <path d="M60 20 Q78 34 68 52 Q56 46 60 20"/>
+    <path d="M100 60 Q86 78 68 68 Q74 56 100 60"/>
+    <path d="M60 100 Q42 86 52 68 Q64 74 60 100"/>
+    <path d="M20 60 Q34 42 52 52 Q46 64 20 60"/>
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 60 60" to="360 60 60" dur="1s" repeatCount="indefinite"/>
+  </g>
+</svg>
