@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="6" fill="#22d3ee"/>
+  <g stroke="#a855f7" fill="none">
+    <circle cx="60" cy="60" r="25" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 60 60" to="360 60 60" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="60" r="40" stroke-dasharray="2 8" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate"
+        from="360 60 60" to="0 60 60" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

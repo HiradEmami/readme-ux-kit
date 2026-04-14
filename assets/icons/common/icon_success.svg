@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+  <circle cx="30" cy="30" r="10" fill="#22c55e"/>
+
+  <polyline points="24,30 28,34 36,26"
+    fill="none" stroke="white" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="stroke-dasharray" values="0,20;20,0" dur="0.6s" fill="freeze"/>
+  </polyline>
+</svg>

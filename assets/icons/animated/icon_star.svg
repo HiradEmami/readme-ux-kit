@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <polygon points="60,20 70,50 100,50 75,70 85,100 60,80 35,100 45,70 20,50 50,50"
+    fill="#facc15">
+    <animateTransform attributeName="transform" type="scale"
+      values="1;1.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </polygon>
+</svg>

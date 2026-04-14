@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="36" fill="none" stroke="#334155" stroke-width="2"/>
+  <polygon points="60,22 70,60 60,52 50,60" fill="#22d3ee">
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 60 60;20 60 60;0 60 60;-20 60 60;0 60 60" dur="2.4s" repeatCount="indefinite"/>
+  </polygon>
+</svg>

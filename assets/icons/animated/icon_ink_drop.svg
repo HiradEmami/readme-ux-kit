@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <path fill="#0ea5e9">
+    <animate attributeName="d" dur="2.2s" repeatCount="indefinite"
+      values="
+      M60 24 C72 42 84 54 84 68 C84 84 74 94 60 94 C46 94 36 84 36 68 C36 54 48 42 60 24 Z;
+      M60 20 C76 42 88 54 88 70 C88 88 74 98 60 98 C46 98 32 88 32 70 C32 54 44 42 60 20 Z;
+      M60 24 C72 42 84 54 84 68 C84 84 74 94 60 94 C46 94 36 84 36 68 C36 54 48 42 60 24 Z"/>
+  </path>
+</svg>

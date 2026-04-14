@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80">
+  <circle cx="40" cy="40" r="10" fill="#22d3ee"/>
+  <g>
+    <rect x="38" y="10" width="4" height="10" fill="#22d3ee"/>
+    <rect x="38" y="60" width="4" height="10" fill="#22d3ee"/>
+    <rect x="10" y="38" width="10" height="4" fill="#22d3ee"/>
+    <rect x="60" y="38" width="10" height="4" fill="#22d3ee"/>
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 40 40" to="360 40 40" dur="2s" repeatCount="indefinite"/>
+  </g>
+</svg>
