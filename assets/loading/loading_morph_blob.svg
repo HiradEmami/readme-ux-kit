@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#g3)" d="M60 28C77 28 92 43 92 60C92 77 77 92 60 92C43 92 28 77 28 60C28 43 43 28 60 28Z">
+    <animate attributeName="d" dur="1.8s" repeatCount="indefinite"
+      values="
+      M60 28C77 28 92 43 92 60C92 77 77 92 60 92C43 92 28 77 28 60C28 43 43 28 60 28Z;
+      M60 24C83 30 96 41 90 62C88 84 74 96 54 92C34 88 22 75 26 54C30 34 40 22 60 24Z;
+      M60 28C77 28 92 43 92 60C92 77 77 92 60 92C43 92 28 77 28 60C28 43 43 28 60 28Z"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="3s" repeatCount="indefinite"/>
+  </path>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="30" y="30" width="40" height="40" rx="8" fill="#F59E0B" transform="rotate(45 50 50)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="45 50 50;225 50 50;405 50 50" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="8;16;8" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

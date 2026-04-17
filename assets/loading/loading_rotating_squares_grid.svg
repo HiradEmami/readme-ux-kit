@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(60 60)">
+    <rect x="-34" y="-34" width="20" height="20" rx="4" fill="#38BDF8">
+      <animateTransform attributeName="transform" type="rotate" values="0 -24 -24;180 -24 -24;360 -24 -24" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="14" y="-34" width="20" height="20" rx="4" fill="#A78BFA">
+      <animateTransform attributeName="transform" type="rotate" values="0 24 -24;180 24 -24;360 24 -24" dur="1.2s" begin="0.15s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-34" y="14" width="20" height="20" rx="4" fill="#F472B6">
+      <animateTransform attributeName="transform" type="rotate" values="0 -24 24;180 -24 24;360 -24 24" dur="1.2s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="14" y="14" width="20" height="20" rx="4" fill="#FACC15">
+      <animateTransform attributeName="transform" type="rotate" values="0 24 24;180 24 24;360 24 24" dur="1.2s" begin="0.45s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

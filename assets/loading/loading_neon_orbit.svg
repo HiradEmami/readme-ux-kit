@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="28" stroke="#1f2937" stroke-width="8"/>
+  <circle cx="60" cy="60" r="28" stroke="url(#g1)" stroke-width="8" stroke-linecap="round"
+          stroke-dasharray="44 132">
+    <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="180" height="90" viewBox="0 0 180 90" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="180" y2="90">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <path d="M20 45C20 20 50 20 70 45C90 70 120 70 120 45C120 20 150 20 160 45C170 70 140 70 120 45C100 20 80 20 70 45C60 70 30 70 20 45Z"
+        stroke="#334155" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 45C20 20 50 20 70 45C90 70 120 70 120 45C120 20 150 20 160 45C170 70 140 70 120 45C100 20 80 20 70 45C60 70 30 70 20 45Z"
+        stroke="url(#g4)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+        stroke-dasharray="50 260">
+    <animate attributeName="stroke-dashoffset" from="310" to="0" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+</svg>
