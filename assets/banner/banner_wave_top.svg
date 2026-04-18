@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveTopGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#waveTopGrad)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="
+      M0,60 C300,120 900,0 1200,60 L1200,0 L0,0 Z;
+      M0,40 C300,0 900,120 1200,40 L1200,0 L0,0 Z;
+      M0,60 C300,120 900,0 1200,60 L1200,0 L0,0 Z
+      "/>
+  </path>
+</svg>
