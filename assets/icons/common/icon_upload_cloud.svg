@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+  <path d="M20 17H6A4 4 0 1 1 7 9A5 5 0 0 1 19 11"
+        stroke="#22d3ee" stroke-width="2"/>
+  <path d="M12 12V18M9 15L12 12L15 15"
+        stroke="#8b5cf6" stroke-width="2">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;0 -1;0 0" dur="1s" repeatCount="indefinite"/>
+  </path>
+</svg>

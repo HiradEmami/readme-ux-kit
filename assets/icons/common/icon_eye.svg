@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+  <path d="M2 12C4.5 7 8.5 5 12 5C15.5 5 19.5 7 22 12C19.5 17 15.5 19 12 19C8.5 19 4.5 17 2 12Z"
+        stroke="#22d3ee" stroke-width="2"/>
+  <circle cx="12" cy="12" r="3" fill="#8b5cf6">
+    <animate attributeName="r" values="3;4;3" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

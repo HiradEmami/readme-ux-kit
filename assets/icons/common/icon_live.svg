@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="20">
+  <circle cx="10" cy="10" r="5" fill="#22c55e"/>
+  <circle cx="10" cy="10" r="5" stroke="#22c55e">
+    <animate attributeName="r" values="5;10" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="20" y="14" fill="#22c55e" font-size="10">LIVE</text>
+</svg>
