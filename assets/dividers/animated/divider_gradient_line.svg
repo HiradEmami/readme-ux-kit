@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 40" width="100%">
+  <defs>
+    <linearGradient id="flow1" x1="0" x2="600">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="18" width="600" height="4" fill="url(#flow1)">
+    <animate attributeName="x" values="-600;0" dur="2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

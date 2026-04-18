@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%">
+  <rect x="0" y="18" width="10" height="4" fill="#22d3ee">
+    <animate attributeName="x" values="0;1000" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

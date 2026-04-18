@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="110">
+  <line x1="0" y1="55" x2="480" y2="55" stroke="#334155"/>
+  <line x1="720" y1="55" x2="1200" y2="55" stroke="#334155"/>
+
+  <rect x="520" y="35" width="160" height="40" rx="20" fill="#0f172a" stroke="#334155"/>
+
+  <circle cx="560" cy="55" r="6" fill="#22d3ee"/>
+  <circle cx="600" cy="55" r="6" fill="#8b5cf6"/>
+  <circle cx="640" cy="55" r="6" fill="#ec4899">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>

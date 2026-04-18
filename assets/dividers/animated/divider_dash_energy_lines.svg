@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 40" width="100%">
+  <line x1="0" y1="20" x2="600" y2="20" stroke="#22d3ee" stroke-width="4"
+    stroke-dasharray="10 10">
+    <animate attributeName="stroke-dashoffset" values="0;20" dur="1s" repeatCount="indefinite"/>
+  </line>
+</svg>
