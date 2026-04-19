@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="10">
+  <defs>
+    <linearGradient id="grad1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="10" rx="5" fill="#111827"/>
+  <rect width="150" height="10" rx="5" fill="url(#grad1)">
+    <animate attributeName="x" values="-150;300" dur="2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
