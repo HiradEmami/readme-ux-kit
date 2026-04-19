@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="800" height="40">
-  <line x1="0" y1="20" x2="800" y2="20" stroke="#38bdf8" stroke-width="2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40">
+  <line x1="0" y1="20" x2="1000" y2="20" stroke="#38bdf8" stroke-width="2">
     <animate attributeName="stroke-width" values="2;6;2" dur="2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
   </line>

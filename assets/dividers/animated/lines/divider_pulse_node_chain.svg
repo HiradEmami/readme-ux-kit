@@ -1,18 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="800" height="40">
-  <line x1="0" y1="20" x2="800" y2="20" stroke="#1e293b" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40">
+  <line x1="0" y1="20" x2="1000" y2="20" stroke="#1e293b" stroke-width="2"/>
 
   <g fill="#22d3ee">
-    <circle cx="100" cy="20" r="4">
-      <animate attributeName="r" values="4;8;4" dur="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="300" cy="20" r="4">
-      <animate attributeName="r" values="4;8;4" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="500" cy="20" r="4">
-      <animate attributeName="r" values="4;8;4" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="700" cy="20" r="4">
-      <animate attributeName="r" values="4;8;4" dur="1.5s" begin="0.9s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="125" cy="20" r="4"/>
+    <circle cx="375" cy="20" r="4"/>
+    <circle cx="625" cy="20" r="4"/>
+    <circle cx="875" cy="20" r="4"/>
   </g>
 </svg>

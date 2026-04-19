@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="800" height="40">
-  <rect x="0" y="18" width="800" height="4" fill="#1e293b"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50">
+  <rect x="0" y="18" width="1000" height="4" fill="#1e293b"/>
 
-  <rect width="100" height="4" y="18" fill="#a855f7">
-    <animate attributeName="x" values="0;700;0" dur="2.5s" repeatCount="indefinite"/>
+  <rect width="120" height="4" y="18" fill="#a855f7">
+    <animate attributeName="x" values="0;880;0" dur="2.5s" repeatCount="indefinite"/>
   </rect>
 </svg>

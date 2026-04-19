@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="800" height="50">
-  <polyline points="0,25 100,10 200,40 300,15 400,35 500,20 600,30 700,15 800,25"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50">
+  <polyline points="0,25 125,10 250,40 375,15 500,35 625,20 750,30 875,15 1000,25"
             fill="none" stroke="#22d3ee" stroke-width="2"
             stroke-dasharray="10 6">
     <animate attributeName="stroke-dashoffset" from="0" to="-64" dur="2s" repeatCount="indefinite"/>
