@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="serverRoom" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <linearGradient id="logicCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="streamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#serverRoom)"/>
+
+  <g stroke="#1e293b" stroke-width="1" opacity="0.5">
+    <line x1="200" y1="0" x2="200" y2="1024"/>
+    <line x1="824" y1="0" x2="824" y2="1024"/>
+    <line x1="200" y1="200" x2="824" y2="200"/>
+    <line x1="200" y1="824" x2="824" y2="824"/>
+  </g>
+
+  <rect x="362" y="150" width="300" height="724" rx="8" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+
+  <g transform="translate(382, 180)">
+    <circle r="4" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="20" r="4" fill="#22c55e" opacity="0.6">
+       <animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="40" y="-3" width="220" height="6" rx="3" fill="#1e293b"/>
+  </g>
+
+  <g clip-path="inset(150px 362px 150px 362px)">
+    <rect x="400" y="0" width="2" height="200" fill="url(#streamGrad)" opacity="0.4">
+      <animate attributeName="y" values="150; 874" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="512" y="0" width="2" height="300" fill="url(#streamGrad)" opacity="0.6">
+      <animate attributeName="y" values="150; 874" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="624" y="0" width="2" height="150" fill="url(#streamGrad)" opacity="0.4">
+      <animate attributeName="y" values="150; 874" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g filter="url(#neon)">
+    <rect x="432" y="450" width="160" height="160" rx="4" fill="url(#logicCore)" opacity="0.9">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <g stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.3">
+      <line x1="432" y1="490" x2="592" y2="490"/>
+      <line x1="432" y1="530" x2="592" y2="530"/>
+      <line x1="432" y1="570" x2="592" y2="570"/>
+      <line x1="472" y1="450" x2="472" y2="610"/>
+      <line x1="512" y1="450" x2="512" y2="610"/>
+      <line x1="552" y1="450" x2="552" y2="610"/>
+    </g>
+  </g>
+
+  <g opacity="0.4">
+    <path d="M412 140 Q 432 100, 452 140 T 492 140" stroke="#22d3ee" fill="none" stroke-width="2">
+       <animate attributeName="d" values="M412 140 Q 432 100, 452 140 T 492 140; M412 140 Q 432 120, 452 140 T 492 140; M412 140 Q 432 100, 452 140 T 492 140" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M532 140 Q 552 100, 572 140 T 612 140" stroke="#22d3ee" fill="none" stroke-width="2">
+       <animate attributeName="d" values="M532 140 Q 552 100, 572 140 T 612 140; M532 140 Q 552 120, 572 140 T 612 140; M532 140 Q 552 100, 572 140 T 612 140" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#8b5cf6" filter="url(#neon)">
+    <rect x="300" y="500" width="10" height="2" rx="1">
+       <animate attributeName="x" values="300; 362" dur="1s" repeatCount="indefinite"/>
+       <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="714" y="540" width="10" height="2" rx="1">
+       <animate attributeName="x" values="714; 662" dur="1.5s" repeatCount="indefinite"/>
+       <animate attributeName="opacity" values="1;0" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

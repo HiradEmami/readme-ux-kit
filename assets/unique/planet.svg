@@ -1,0 +1,110 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <radialGradient id="earthGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="hyperGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <g id="landCluster">
+      <circle r="12" fill="#c4b5fd" filter="url(#glow)"/>
+      <circle r="4" fill="#ffffff" opacity="0.8"/>
+    </g>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#spaceGrad)"/>
+
+  <g transform="translate(512 512)">
+    <circle r="420" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+    <circle r="380" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="20 150" stroke-opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="395" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="5 40" stroke-opacity="0.3">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="35s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(512 512)">
+    <circle r="260" fill="url(#earthGlow)" filter="url(#hyperGlow)"/>
+
+    <clipPath id="earthClip">
+      <circle r="250" />
+    </clipPath>
+
+    <g clip-path="url(#earthClip)">
+      <g stroke="#22d3ee" stroke-width="1" fill="none" stroke-opacity="0.3">
+        <ellipse rx="250" ry="250"/>
+        <ellipse rx="180" ry="250"/>
+        <ellipse rx="100" ry="250"/>
+        <ellipse rx="20" ry="250"/>
+      </g>
+      <g stroke="#22d3ee" stroke-width="1" fill="none" stroke-opacity="0.3">
+        <line x1="-250" y1="-150" x2="250" y2="-150"/>
+        <line x1="-250" y1="-75" x2="250" y2="-75"/>
+        <line x1="-250" y1="0" x2="250" y2="0"/>
+        <line x1="-250" y1="75" x2="250" y2="75"/>
+        <line x1="-250" y1="150" x2="250" y2="150"/>
+      </g>
+
+      <g filter="url(#glow)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="-400,0; 400,0; -400,0" dur="12s" repeatCount="indefinite" />
+
+          <use href="#landCluster" x="-50" y="-40"/>
+          <use href="#landCluster" x="-70" y="20"/>
+          <use href="#landCluster" x="-40" y="80"/>
+
+          <use href="#landCluster" x="200" y="-60"/>
+          <use href="#landCluster" x="220" y="30"/>
+          <use href="#landCluster" x="190" y="110"/>
+        </g>
+      </g>
+    </g>
+
+    <circle r="250" fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity="0.2"/>
+  </g>
+
+  <g transform="translate(512 512)" opacity="0.8">
+    <path d="M-440 0 L-460 -10 L-455 0 L-460 10 Z" fill="#67e8f9">
+       <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M440 0 L460 -10 L455 0 L460 10 Z" fill="#67e8f9" transform="rotate(180)">
+       <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g opacity="0.5">
+    <circle cx="200" cy="200" r="1.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="300" r="2" fill="#8b5cf6">
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="850" r="1.5" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

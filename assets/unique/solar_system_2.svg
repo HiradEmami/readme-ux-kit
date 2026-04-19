@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="voidGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="65%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <radialGradient id="singularityCore" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="15%" stop-color="#dff7ff"/>
+      <stop offset="38%" stop-color="#67e8f9"/>
+      <stop offset="68%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <linearGradient id="linkCyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.01"/>
+      <stop offset="50%" stop-color="#67e8f9" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.01"/>
+    </linearGradient>
+
+    <filter id="vectorBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="hardEnergy" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="22" result="blur2"/>
+      <feColorMatrix in="blur2" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.9 0"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#voidGrad)"/>
+
+  <g transform="translate(512 512)" opacity="0.3">
+    <circle r="460" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <ellipse rx="380" ry="180" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  </g>
+
+  <g transform="translate(512 512)" filter="url(#vectorBloom)" stroke-linecap="round" stroke-opacity="0.6">
+    <line x1="0" y1="0" x2="-210" y2="0" stroke="url(#linkCyanViolet)" stroke-width="3">
+       <animate attributeName="x2" values="0; -210" dur="4.2s" repeatCount="indefinite" additive="sum"/>
+       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="0" x2="430" y2="0" stroke="url(#linkCyanViolet)" stroke-width="3">
+       <animate attributeName="x2" values="0; 430" dur="20s" repeatCount="indefinite" additive="sum"/>
+       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g transform="translate(512 512)">
+    <circle r="130" fill="url(#singularityCore)" filter="url(#hardEnergy)">
+      <animate attributeName="r" values="120;140;120" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <g stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.3" fill="none">
+      <path d="M0,-80 L69,-40 L69,40 L0,80 L-69,40 L-69,-40 Z"/> <path d="M0,-80 L0,-120 L104,-60 L104,60 L0,120 L-104,60 L-104,-60 L0,-120"/> <path d="M69,-40 L104,-60 M69,40 L104,60 M-69,40 L-104,60 M-69,-40 L-104,-60"/> <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+    </g>
+
+    <circle r="60" fill="#ffffff" opacity="0.95"/>
+  </g>
+
+  <g transform="translate(512 512)" filter="url(#vectorBloom)">
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.2s" repeatCount="indefinite"/>
+      <circle cx="-210" cy="0" r="16" fill="#22d3ee">
+        <animate attributeName="r" values="14;18;14" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-210" cy="0" r="6" fill="#ffffff"/>
+      <path d="M-240 10 L-250 0 L-240 -10 Z" fill="#67e8f9" opacity="0.4"/>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+      <ellipse rx="430" ry="210" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="10 60" transform="rotate(30)" opacity="0.5"/>
+      <use href="#habitableNode" x="430" y="0">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+      </use>
+    </g>
+  </g>
+
+  <defs>
+    <g id="habitableNode">
+      <circle r="36" fill="none" stroke="#c4b5fd" stroke-width="4">
+        <animate attributeName="r" values="32;40;32" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="20" fill="#ffffff" opacity="0.9"/>
+      <circle r="8" fill="#8b5cf6"/>
+    </g>
+  </defs>
+
+  <g filter="url(#vectorBloom)" opacity="0.6">
+    <path d="M780 200 L800 210 L790 230 L770 220 Z" fill="#dff7ff">
+       <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="210" cy="180" r="2.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="812" r="3" fill="#67e8f9">
+      <animate attributeName="opacity" values="1;0.1;1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

@@ -1,0 +1,246 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="18%" stop-color="#dff7ff"/>
+      <stop offset="45%" stop-color="#22d3ee"/>
+      <stop offset="72%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <linearGradient id="spiralGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="spiralGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d0fe"/>
+      <stop offset="55%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b1"/>
+      <feMerge>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="22" result="b2"/>
+      <feColorMatrix in="b2" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 1.2 0"/>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="warp" x="-50%" y="-50%" width="200%" height="200%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.006 0.01" numOctaves="2" seed="7" result="noise">
+        <animate attributeName="baseFrequency"
+          values="0.006 0.010;0.010 0.014;0.006 0.010"
+          dur="10s"
+          repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="B"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bgGlow)"/>
+
+  <!-- ambient field -->
+  <g filter="url(#bigGlow)" opacity="0.5">
+    <circle cx="512" cy="512" r="250" fill="#22d3ee" opacity="0.08">
+      <animate attributeName="r" values="230;270;230" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.05;0.12;0.05" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="512" cy="512" r="190" fill="#8b5cf6" opacity="0.09">
+      <animate attributeName="r" values="175;220;175" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.05;0.15;0.05" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- outer halo -->
+  <g transform="translate(512 512)" filter="url(#softGlow)" opacity="0.55">
+    <circle r="320" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <circle r="290" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="12 18">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="250" fill="none" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="8 20">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="19s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- main spiral system -->
+  <g transform="translate(512 512)" filter="url(#warp)">
+    <!-- arm 1 -->
+    <path d="
+      M 0 -245
+      C 125 -238 210 -150 202 -58
+      C 194 30 126 87 44 90
+      C -18 92 -64 64 -82 27
+      C -100 -10 -90 -53 -58 -72
+      C -28 -89 9 -81 28 -58
+      C 44 -39 43 -13 31 8
+      C 20 27 0 39 -20 41
+      C -33 42 -44 37 -52 31"
+      fill="none"
+      stroke="url(#spiralGrad1)"
+      stroke-width="24"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.95"
+      filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- arm 2 -->
+    <path d="
+      M 0 -215
+      C 106 -208 176 -132 169 -54
+      C 163 18 108 72 39 74
+      C -10 76 -48 54 -64 24
+      C -77 -2 -70 -35 -46 -50
+      C -23 -63 5 -57 19 -40
+      C 31 -26 30 -7 22 8
+      C 14 22 -1 30 -15 31"
+      fill="none"
+      stroke="url(#spiralGrad2)"
+      stroke-width="12"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.92">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- arm 3 subtle -->
+    <path d="
+      M 0 -280
+      C 154 -272 252 -176 246 -72
+      C 240 24 165 103 62 109
+      C -28 114 -93 70 -121 18
+      C -147 -30 -136 -91 -89 -119
+      C -47 -145 9 -136 38 -101
+      C 65 -69 63 -24 44 11
+      C 24 47 -11 66 -44 68"
+      fill="none"
+      stroke="#67e8f9"
+      stroke-opacity="0.16"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-dasharray="1 18">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- rotating shard ring -->
+  <g transform="translate(512 512)" opacity="0.75">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="22s" repeatCount="indefinite"/>
+      <path d="M0 -338 L10 -314 L0 -290 L-10 -314 Z" fill="#dff7ff" opacity="0.75"/>
+      <path d="M314 0 L290 10 L266 0 L290 -10 Z" fill="#8b5cf6" opacity="0.65"/>
+      <path d="M0 338 L12 312 L0 286 L-12 312 Z" fill="#67e8f9" opacity="0.55"/>
+      <path d="M-338 0 L-312 12 L-286 0 L-312 -12 Z" fill="#c4b5fd" opacity="0.55"/>
+      <path d="M220 -220 L236 -198 L214 -180 L200 -204 Z" fill="#22d3ee" opacity="0.55"/>
+      <path d="M-220 220 L-236 198 L-214 180 L-200 204 Z" fill="#8b5cf6" opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- orbiters -->
+  <g transform="translate(512 512)">
+    <circle r="6" fill="#ffffff" filter="url(#softGlow)">
+      <animateMotion dur="7s" repeatCount="indefinite"
+        path="M0,-210 A210,210 0 1,1 0,210 A210,210 0 1,1 0,-210"/>
+    </circle>
+    <circle r="5" fill="#22d3ee" filter="url(#softGlow)">
+      <animateMotion dur="11s" repeatCount="indefinite"
+        path="M0,-285 A285,285 0 1,0 0,285 A285,285 0 1,0 0,-285"/>
+    </circle>
+    <circle r="4" fill="#8b5cf6" filter="url(#softGlow)">
+      <animateMotion dur="5.8s" repeatCount="indefinite"
+        path="M0,-155 A155,155 0 1,0 0,155 A155,155 0 1,0 0,-155"/>
+    </circle>
+  </g>
+
+  <!-- inner turbulence ring -->
+  <g transform="translate(512 512)" filter="url(#softGlow)">
+    <path d="
+      M 0 -118
+      C 55 -112 93 -76 91 -34
+      C 89 8 60 37 18 40
+      C -15 42 -38 28 -48 11
+      C -57 -5 -54 -25 -40 -35
+      C -24 -45 -5 -43 7 -34
+      C 17 -25 19 -12 16 -1
+      C 13 10 5 17 -5 20"
+      fill="none"
+      stroke="#ffffff"
+      stroke-opacity="0.75"
+      stroke-width="8"
+      stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="6.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- core -->
+  <g transform="translate(512 512)">
+    <circle r="112" fill="url(#coreGrad)" filter="url(#bigGlow)">
+      <animate attributeName="r" values="104;118;104" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="72" fill="#0ea5e9" opacity="0.2" filter="url(#softGlow)">
+      <animate attributeName="r" values="66;80;66" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="48" fill="#ffffff" opacity="0.96"/>
+    <ellipse cx="-16" cy="-18" rx="26" ry="18" fill="#ffffff" opacity="0.55"/>
+
+    <!-- core flare -->
+    <g opacity="0.75" filter="url(#softGlow)">
+      <path d="M0 -145 L12 -108 L0 -72 L-12 -108 Z" fill="#dff7ff">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M145 0 L108 12 L72 0 L108 -12 Z" fill="#8b5cf6">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0 145 L12 108 L0 72 L-12 108 Z" fill="#67e8f9">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-145 0 L-108 12 L-72 0 L-108 -12 Z" fill="#c4b5fd">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- tiny drifting sparks -->
+  <g opacity="0.65" filter="url(#softGlow)">
+    <circle cx="296" cy="270" r="2" fill="#ffffff">
+      <animate attributeName="cy" values="270;250;270" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="770" cy="390" r="3" fill="#67e8f9">
+      <animate attributeName="cy" values="390;410;390" dur="4.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="246" cy="660" r="2.5" fill="#8b5cf6">
+      <animate attributeName="cy" values="660;640;660" dur="6.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="6.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="676" cy="782" r="2" fill="#ffffff">
+      <animate attributeName="cy" values="782;758;782" dur="5.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="5.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
