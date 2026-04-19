@@ -7,23 +7,18 @@
     </linearGradient>
   </defs>
 
-  <path d="M0 60 H420 L470 20 H730 L780 60 H1200"
-        stroke="#1f2937" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M0 60 H420 L480 20 H720 L780 60 H1200"
+        stroke="#1f2937" stroke-width="8"/>
 
-  <path d="M0 60 H420 L470 20 H730 L780 60 H1200"
-        stroke="url(#divider-cyber-c)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+  <path d="M0 60 H420 L480 20 H720 L780 60 H1200"
+        stroke="url(#divider-cyber-c)" stroke-width="4"
         stroke-dasharray="180 1600">
     <animate attributeName="stroke-dashoffset" values="0;1780" dur="3s" repeatCount="indefinite"/>
   </path>
 
   <rect x="560" y="46" width="80" height="28" rx="14" fill="#0f172a" stroke="#334155"/>
-  <circle cx="585" cy="60" r="5" fill="#22d3ee">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="600" cy="60" r="5" fill="#8b5cf6">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="615" cy="60" r="5" fill="#ec4899">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
-  </circle>
+
+  <circle cx="585" cy="60" r="5" fill="#22d3ee"/>
+  <circle cx="600" cy="60" r="5" fill="#8b5cf6"/>
+  <circle cx="615" cy="60" r="5" fill="#ec4899"/>
 </svg>

@@ -1,26 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="800" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60">
   <g stroke="#334155" stroke-width="1.5" fill="#0ea5e9">
-    <line x1="80" y1="30" x2="200" y2="15"/>
-    <line x1="80" y1="30" x2="200" y2="45"/>
-    <line x1="200" y1="15" x2="320" y2="30"/>
-    <line x1="200" y1="45" x2="320" y2="30"/>
 
-    <line x1="480" y1="30" x2="600" y2="15"/>
-    <line x1="480" y1="30" x2="600" y2="45"/>
-    <line x1="600" y1="15" x2="720" y2="30"/>
-    <line x1="600" y1="45" x2="720" y2="30"/>
+    <!-- left cluster -->
+    <line x1="100" y1="30" x2="250" y2="15"/>
+    <line x1="100" y1="30" x2="250" y2="45"/>
+    <line x1="250" y1="15" x2="400" y2="30"/>
+    <line x1="250" y1="45" x2="400" y2="30"/>
 
-    <circle cx="80" cy="30" r="4"/>
-    <circle cx="200" cy="15" r="4"/>
-    <circle cx="200" cy="45" r="4"/>
-    <circle cx="320" cy="30" r="4"/>
-    <circle cx="480" cy="30" r="4"/>
-    <circle cx="600" cy="15" r="4"/>
-    <circle cx="600" cy="45" r="4"/>
-    <circle cx="720" cy="30" r="4"/>
+    <!-- right cluster -->
+    <line x1="600" y1="30" x2="750" y2="15"/>
+    <line x1="600" y1="30" x2="750" y2="45"/>
+    <line x1="750" y1="15" x2="900" y2="30"/>
+    <line x1="750" y1="45" x2="900" y2="30"/>
+
+    <!-- nodes -->
+    <circle cx="100" cy="30" r="4"/>
+    <circle cx="250" cy="15" r="4"/>
+    <circle cx="250" cy="45" r="4"/>
+    <circle cx="400" cy="30" r="4"/>
+
+    <circle cx="600" cy="30" r="4"/>
+    <circle cx="750" cy="15" r="4"/>
+    <circle cx="750" cy="45" r="4"/>
+    <circle cx="900" cy="30" r="4"/>
   </g>
 
-  <circle cx="80" cy="30" r="5" fill="#22d3ee">
-    <animateMotion dur="2.8s" repeatCount="indefinite" path="M30 30 L30 15 L320 30 L480 30 L600 45 L720 30"/>
+  <!-- moving signal -->
+  <circle r="5" fill="#22d3ee">
+    <animateMotion dur="3s" repeatCount="indefinite"
+      path="M100 30 L250 15 L400 30 L600 30 L750 45 L900 30"/>
   </circle>
 </svg>

@@ -1,14 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="800" height="80">
-  <line x1="0" y1="40" x2="320" y2="40" stroke="#1e293b" stroke-width="2"/>
-  <line x1="480" y1="40" x2="800" y2="40" stroke="#1e293b" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="100%" height="80">
+  <line x1="0" y1="40" x2="460" y2="40" stroke="#1e293b" stroke-width="2"/>
+  <line x1="540" y1="40" x2="1000" y2="40" stroke="#1e293b" stroke-width="2"/>
 
-  <g transform="translate(400,40)">
+  <g transform="translate(500,40)">
     <circle r="28" fill="none" stroke="#818cf8" stroke-width="2" stroke-dasharray="6 6">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate"
+        from="0" to="360" dur="8s" repeatCount="indefinite"/>
     </circle>
+
     <circle r="18" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="2 5">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate"
+        from="360" to="0" dur="5s" repeatCount="indefinite"/>
     </circle>
+
     <polygon points="0,-8 8,0 0,8 -8,0" fill="#f8fafc">
       <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
     </polygon>

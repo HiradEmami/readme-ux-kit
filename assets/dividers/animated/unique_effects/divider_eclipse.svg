@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 70" width="800" height="70">
-  <line x1="0" y1="35" x2="800" y2="35" stroke="#1e293b" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 70" width="100%" height="70">
+  <line x1="0" y1="35" x2="1000" y2="35" stroke="#1e293b" stroke-width="2"/>
 
-  <g transform="translate(400,35)">
+  <g transform="translate(500,35)">
     <circle r="22" fill="#0f172a" stroke="#475569" stroke-width="2"/>
     <circle r="22" fill="#facc15" opacity="0.9">
       <animate attributeName="cx" values="-10;10;-10" dur="3s" repeatCount="indefinite"/>

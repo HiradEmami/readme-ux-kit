@@ -1,6 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%">
-  <path d="M0 30 L50 10 L100 50 L150 10 L200 50 L250 10 L300 50 L350 10 L400 50 L450 10 L500 50 L550 10 L600 50 L650 10 L700 50 L750 10 L800 50 L850 10 L900 50 L950 10 L1000 50"
-    stroke="#f43f5e" fill="none" stroke-width="3"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60">
+  <path d="M0 30
+           L50 10 L100 50
+           L150 10 L200 50
+           L250 10 L300 50
+           L350 10 L400 50
+           L450 10 L500 50
+           L550 10 L600 50
+           L650 10 L700 50
+           L750 10 L800 50
+           L850 10 L900 50
+           L950 10 L1000 50"
+    stroke="#f43f5e"
+    fill="none"
+    stroke-width="3"
     stroke-dasharray="20 200">
     <animate attributeName="stroke-dashoffset" values="220;0" dur="1.5s" repeatCount="indefinite"/>
   </path>
