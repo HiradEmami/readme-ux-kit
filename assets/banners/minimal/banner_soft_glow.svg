@@ -1,0 +1,14 @@
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="120" fill="#020617"/>
+
+  <circle cx="600" cy="60" r="200" fill="url(#glow)">
+    <animate attributeName="r" values="150;220;150" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

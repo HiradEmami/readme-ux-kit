@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+  <path d="M17 6L11 12L17 18"
+        stroke="#22d3ee"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <path d="M12 6L6 12L12 18"
+        stroke="#8b5cf6"
+        stroke-width="2.2"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+    <animate attributeName="opacity" values="1;0.4;1" dur="0.9s" repeatCount="indefinite"/>
+  </path>
+</svg>

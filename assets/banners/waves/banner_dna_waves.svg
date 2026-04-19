@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="120" fill="#020617"/>
+
+  <path fill="none" stroke="#22d3ee" stroke-width="2">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+      values="
+      M0 60 Q300 20 600 60 T1200 60;
+      M0 60 Q300 100 600 60 T1200 60;
+      M0 60 Q300 20 600 60 T1200 60
+      "/>
+  </path>
+
+  <path fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.6">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+      values="
+      M0 60 Q300 100 600 60 T1200 60;
+      M0 60 Q300 20 600 60 T1200 60;
+      M0 60 Q300 100 600 60 T1200 60
+      "/>
+  </path>
+</svg>

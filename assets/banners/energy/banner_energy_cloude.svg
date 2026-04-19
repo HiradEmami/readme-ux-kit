@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <!-- Smoke gradient -->
+  <linearGradient id="smokeGrad" x1="0" x2="1">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Turbulence for organic motion -->
+  <filter id="smoke">
+    <feTurbulence type="fractalNoise" baseFrequency="0.01 0.04" numOctaves="3" seed="2">
+      <animate attributeName="baseFrequency"
+        values="0.01 0.04;0.02 0.06;0.01 0.04"
+        dur="12s"
+        repeatCount="indefinite"/>
+    </feTurbulence>
+
+    <feDisplacementMap in="SourceGraphic" scale="40"/>
+  </filter>
+
+  <!-- Soft blur -->
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+</defs>
+
+<!-- background -->
+<rect width="1200" height="120" fill="#020617"/>
+
+<!-- smoke layer 1 -->
+<rect x="0" y="30" width="1200" height="40"
+      fill="url(#smokeGrad)"
+      filter="url(#smoke)"
+      opacity="0.6"/>
+
+<!-- smoke layer 2 (offset for depth) -->
+<rect x="0" y="50" width="1200" height="30"
+      fill="url(#smokeGrad)"
+      filter="url(#smoke)"
+      opacity="0.4"/>
+
+<!-- soft glow center -->
+<circle cx="600" cy="60" r="40" fill="#8b5cf6" opacity="0.15" filter="url(#blur)">
+  <animate attributeName="r" values="30;50;30" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+</svg>

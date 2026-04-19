@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+  <path d="M12 4V18" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+  <path d="M7 13L12 18L17 13" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 1;0 0" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+</svg>

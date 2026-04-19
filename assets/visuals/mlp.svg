@@ -1,0 +1,105 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <!-- Node styles -->
+  <radialGradient id="nodeA">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="60%" stop-color="#22d3ee"/>
+    <stop offset="100%" stop-color="#0e7490"/>
+  </radialGradient>
+
+  <radialGradient id="nodeB">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="60%" stop-color="#8b5cf6"/>
+    <stop offset="100%" stop-color="#4c1d95"/>
+  </radialGradient>
+
+  <radialGradient id="nodeCore">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="60%" stop-color="#facc15"/>
+    <stop offset="100%" stop-color="#b45309"/>
+  </radialGradient>
+
+  <!-- Glow -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge>
+      <feMergeNode in="b"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</defs>
+
+<!-- CONNECTIONS -->
+
+<g stroke-width="2" stroke-linecap="round" opacity="0.4">
+  <!-- input → hidden -->
+  <line x1="100" y1="100" x2="350" y2="150" stroke="#22d3ee"/>
+  <line x1="100" y1="200" x2="350" y2="150" stroke="#22d3ee"/>
+  <line x1="100" y1="200" x2="350" y2="300" stroke="#22d3ee"/>
+  <line x1="100" y1="300" x2="350" y2="300" stroke="#22d3ee"/>
+  <line x1="100" y1="300" x2="350" y2="450" stroke="#22d3ee"/>
+  <line x1="100" y1="400" x2="350" y2="450" stroke="#22d3ee"/>
+
+  <!-- hidden → output -->
+  <line x1="350" y1="150" x2="700" y2="300" stroke="#8b5cf6"/>
+  <line x1="350" y1="300" x2="700" y2="300" stroke="#8b5cf6"/>
+  <line x1="350" y1="450" x2="700" y2="300" stroke="#8b5cf6"/>
+</g>
+
+<!-- SIGNAL ANIMATION -->
+
+<g>
+  <circle r="4" fill="#22d3ee" filter="url(#glow)">
+    <animateMotion dur="2s" repeatCount="indefinite"
+      path="M100,200 L350,300"/>
+  </circle>
+
+  <circle r="4" fill="#22d3ee" filter="url(#glow)">
+    <animateMotion dur="2.5s" repeatCount="indefinite"
+      path="M100,300 L350,450"/>
+  </circle>
+
+  <circle r="4" fill="#8b5cf6" filter="url(#glow)">
+    <animateMotion dur="2s" repeatCount="indefinite"
+      path="M350,300 L700,300"/>
+  </circle>
+</g>
+
+<!-- INPUT LAYER -->
+
+<g>
+  <circle cx="100" cy="100" r="18" fill="url(#nodeA)" filter="url(#glow)"/>
+  <circle cx="100" cy="200" r="18" fill="url(#nodeA)" filter="url(#glow)"/>
+  <circle cx="100" cy="300" r="18" fill="url(#nodeA)" filter="url(#glow)"/>
+  <circle cx="100" cy="400" r="18" fill="url(#nodeA)" filter="url(#glow)"/>
+</g>
+
+<!-- HIDDEN LAYER -->
+
+<g>
+  <circle cx="350" cy="150" r="20" fill="url(#nodeB)" filter="url(#glow)">
+    <animate attributeName="r" values="18;22;18" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="350" cy="300" r="24" fill="url(#nodeB)" filter="url(#glow)">
+    <animate attributeName="r" values="22;26;22" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="350" cy="450" r="20" fill="url(#nodeB)" filter="url(#glow)">
+    <animate attributeName="r" values="18;22;18" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- OUTPUT CORE -->
+
+<g>
+  <circle cx="700" cy="300" r="40" fill="url(#nodeCore)" filter="url(#glow)">
+    <animate attributeName="r" values="38;45;38" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="700" cy="300" r="18" fill="#ffffff" opacity="0.8"/>
+</g>
+
+</svg>

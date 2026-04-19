@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 70" width="800" height="70">
+  <defs>
+    <linearGradient id="serp1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="serp2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M0 35 C100 10, 200 10, 300 35 S500 60, 800 35"
+        fill="none" stroke="url(#serp1)" stroke-width="3">
+    <animate attributeName="d"
+      values="
+      M0 35 C100 10, 200 10, 300 35 S500 60, 800 35;
+      M0 35 C100 60, 200 60, 300 35 S500 10, 800 35;
+      M0 35 C100 10, 200 10, 300 35 S500 60, 800 35"
+      dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0 35 C100 60, 200 60, 300 35 S500 10, 800 35"
+        fill="none" stroke="url(#serp2)" stroke-width="3" opacity="0.8">
+    <animate attributeName="d"
+      values="
+      M0 35 C100 60, 200 60, 300 35 S500 10, 800 35;
+      M0 35 C100 10, 200 10, 300 35 S500 60, 800 35;
+      M0 35 C100 60, 200 60, 300 35 S500 10, 800 35"
+      dur="3s" repeatCount="indefinite"/>
+  </path>
+</svg>

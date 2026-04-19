@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+  <rect x="2" y="8" width="20" height="8" rx="4" fill="#334155"/>
+  <circle cx="16" cy="12" r="3" fill="#22d3ee">
+    <animate attributeName="cx" values="8;16;8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

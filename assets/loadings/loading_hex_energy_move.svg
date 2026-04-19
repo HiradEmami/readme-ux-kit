@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <polygon points="60,18 94,39 94,81 60,102 26,81 26,39" stroke="#334155" stroke-width="8" stroke-linejoin="round"/>
+  <polygon points="60,18 94,39 94,81 60,102 26,81 26,39"
+           stroke="#22C55E" stroke-width="8" stroke-linejoin="round"
+           stroke-dasharray="40 180" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="220" to="0" dur="1.3s" repeatCount="indefinite"/>
+  </polygon>
+</svg>

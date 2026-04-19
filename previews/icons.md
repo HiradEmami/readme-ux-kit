@@ -24,7 +24,7 @@
 [![icon_ai_eye_core](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/animated/icon_ai_eye_core.svg)](https://github.com/HiradEmami)
 ```
 
-## [icon_robot_head.svg](../assets/icons/animated/icon_robot_head.svg)
+## [icon_robot_head.svg](../assets/icons/data-ai/icon_robot_head.svg)
 
 [![icon_robot_head](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/animated/icon_robot_head.svg)](https://github.com/HiradEmami)
 

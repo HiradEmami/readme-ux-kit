@@ -1,0 +1,208 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shellGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f2f6ea"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ed957"/>
+      <stop offset="100%" stop-color="#3b8d23"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5ffc9"/>
+      <stop offset="100%" stop-color="#d8f08b"/>
+    </linearGradient>
+    <radialGradient id="coreGrad" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#fff7d7"/>
+      <stop offset="55%" stop-color="#ffcf48"/>
+      <stop offset="100%" stop-color="#f39a00"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer silhouette -->
+  <path d="
+    M448 956
+    C351 950 261 913 196 847
+    C136 786 102 708 102 621
+    C102 560 120 499 156 438
+    C183 393 218 353 244 309
+    C274 256 292 199 302 137
+    C313 72 353 34 417 34
+    C465 34 504 55 533 94
+    C565 137 584 193 591 261
+    C596 305 606 347 621 386
+    C641 441 673 492 719 548
+    C772 613 799 683 799 756
+    C799 812 783 861 752 901
+    C694 975 592 999 448 956
+    Z" fill="url(#shellGrad)"/>
+
+  <!-- Right-side shell shadow mass -->
+  <path d="
+    M465 950
+    C560 972 664 945 725 879
+    C759 842 777 797 777 743
+    C777 677 752 613 700 549
+    C659 499 631 450 612 397
+    C597 355 588 309 583 262
+    C577 203 559 149 530 110
+    C503 73 470 51 431 46
+    C458 35 487 30 517 30
+    C563 30 600 50 628 90
+    C659 134 676 193 684 260
+    C689 304 699 344 714 383
+    C734 435 767 486 813 542
+    C867 610 894 683 894 761
+    C894 905 787 1002 465 950
+    Z" fill="#59ac27"/>
+
+  <!-- Main inner body -->
+  <path d="
+    M469 897
+    C390 895 318 864 266 809
+    C218 759 192 695 192 619
+    C192 564 208 511 241 457
+    C264 420 291 384 314 341
+    C339 294 355 242 364 184
+    C373 122 408 90 458 90
+    C496 90 526 107 548 139
+    C573 175 587 224 593 282
+    C597 320 605 356 617 390
+    C634 438 661 484 700 534
+    C746 594 769 654 769 715
+    C769 763 755 805 728 839
+    C678 902 592 927 469 897
+    Z" fill="url(#bodyGrad)"/>
+
+  <!-- Pale central body -->
+  <path d="
+    M485 858
+    C419 858 360 833 318 789
+    C279 749 258 696 258 633
+    C258 587 271 543 297 497
+    C317 463 341 429 361 390
+    C383 349 397 301 405 250
+    C413 200 442 171 481 171
+    C511 171 534 186 551 213
+    C571 244 582 286 587 336
+    C590 368 597 399 608 427
+    C623 468 646 508 679 552
+    C718 601 737 652 737 704
+    C737 793 671 858 485 858
+    Z" fill="url(#innerGrad)"/>
+
+  <!-- Interior warm chamber -->
+  <path d="
+    M481 821
+    C431 821 388 803 358 771
+    C330 741 315 701 315 650
+    C315 613 326 578 347 541
+    C364 511 383 482 399 448
+    C417 411 428 369 434 324
+    C440 286 461 264 489 264
+    C511 264 528 276 541 298
+    C556 324 565 357 569 400
+    C572 428 578 455 587 480
+    C600 516 620 552 648 590
+    C682 635 699 681 699 728
+    C699 795 649 821 481 821
+    Z" fill="#f2f8b9"/>
+
+  <!-- Core orb -->
+  <ellipse cx="470" cy="689" rx="149" ry="139" fill="#ffffff"/>
+  <path d="
+    M579 590
+    C626 622 650 666 650 715
+    C650 791 587 853 498 853
+    C455 853 417 838 386 812
+    C467 830 559 777 579 590
+    Z" fill="#ffb000"/>
+  <ellipse cx="470" cy="689" rx="118" ry="111" fill="url(#coreGrad)"/>
+  <ellipse cx="441" cy="655" rx="48" ry="39" fill="#fffce8" opacity="0.72"/>
+
+  <!-- Upper inner cut / flame vein -->
+  <path d="
+    M428 520
+    C446 484 475 454 505 441
+    C478 467 465 492 460 528
+    C454 568 421 598 389 604
+    C395 573 408 551 428 520
+    Z" fill="#ffffff" opacity="0.42"/>
+
+  <!-- Left contour highlights -->
+  <path d="
+    M246 690
+    C244 626 262 562 298 499
+    C330 443 356 391 373 328
+    C383 289 389 253 393 223
+    C399 174 419 138 452 124
+    C431 152 420 192 415 241
+    C412 273 405 312 393 355
+    C376 420 351 475 321 529
+    C284 595 259 646 246 690
+    Z" fill="#ffffff" opacity="0.24"/>
+
+  <!-- Right contour shadow carve -->
+  <path d="
+    M618 792
+    C663 748 681 687 671 622
+    C663 567 641 516 608 463
+    C581 420 563 378 552 335
+    C544 302 539 270 536 239
+    C532 194 520 157 500 132
+    C536 147 561 181 575 234
+    C583 264 588 297 593 333
+    C600 381 614 425 636 467
+    C671 533 693 599 700 665
+    C707 736 679 791 618 792
+    Z" fill="#2a6f18" opacity="0.42"/>
+
+  <!-- Side accent arcs -->
+  <path d="M275 744 C256 684 262 627 292 577" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity="0.24"/>
+  <path d="M629 756 C649 702 646 648 619 596" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity="0.18"/>
+
+  <!-- Small living cuts -->
+  <path d="M350 833 C379 860 417 876 458 881" fill="none" stroke="#8bcf51" stroke-width="13" stroke-linecap="round" opacity="0.55"/>
+  <path d="M332 371 C350 337 361 299 367 256" fill="none" stroke="#dff7aa" stroke-width="10" stroke-linecap="round" opacity="0.65"/>
+  <path d="M592 407 C609 453 633 497 665 540" fill="none" stroke="#d2ee92" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Base / grounding shadow -->
+  <ellipse cx="457" cy="942" rx="157" ry="26" fill="#f39a00" opacity="0.14"/>
+
+  <!-- Outline strokes to sell icon-pack look -->
+  <path d="
+    M448 956
+    C351 950 261 913 196 847
+    C136 786 102 708 102 621
+    C102 560 120 499 156 438
+    C183 393 218 353 244 309
+    C274 256 292 199 302 137
+    C313 72 353 34 417 34
+    C465 34 504 55 533 94
+    C565 137 584 193 591 261
+    C596 305 606 347 621 386
+    C641 441 673 492 719 548
+    C772 613 799 683 799 756
+    C799 812 783 861 752 901
+    C694 975 592 999 448 956
+  " fill="none" stroke="#111111" stroke-width="18" stroke-linejoin="round"/>
+
+  <path d="
+    M469 897
+    C390 895 318 864 266 809
+    C218 759 192 695 192 619
+    C192 564 208 511 241 457
+    C264 420 291 384 314 341
+    C339 294 355 242 364 184
+    C373 122 408 90 458 90
+    C496 90 526 107 548 139
+    C573 175 587 224 593 282
+    C597 320 605 356 617 390
+    C634 438 661 484 700 534
+    C746 594 769 654 769 715
+    C769 763 755 805 728 839
+    C678 902 592 927 469 897
+  " fill="none" stroke="#111111" stroke-width="12" stroke-linejoin="round"/>
+
+  <ellipse cx="470" cy="689" rx="149" ry="139" fill="none" stroke="#111111" stroke-width="12"/>
+</svg>

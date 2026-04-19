@@ -1,0 +1,18 @@
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="floatGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#floatGrad)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+      M0,60 C200,90 400,30 600,60 C800,90 1000,30 1200,60 L1200,0 L0,0 Z;
+      M0,50 C200,30 400,90 600,50 C800,30 1000,90 1200,50 L1200,0 L0,0 Z;
+      M0,60 C200,90 400,30 600,60 C800,90 1000,30 1200,60 L1200,0 L0,0 Z
+      "/>
+  </path>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%">
+  <path d="M0 30 Q150 10 300 30 T1000 30" stroke="#22d3ee" fill="none"/>
+  <path d="M0 35 Q150 50 300 35 T1000 35" stroke="#f43f5e" fill="none">
+    <animate attributeName="d"
+      values="M0 35 Q150 50 300 35 T1000 35;
+              M0 35 Q150 20 300 35 T1000 35;
+              M0 35 Q150 50 300 35 T1000 35"
+      dur="2s" repeatCount="indefinite"/>
+  </path>
+</svg>

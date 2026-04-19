@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="deepVoid" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#050a15"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <linearGradient id="goldBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <linearGradient id="frostPulse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.8 0"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <symbol id="qubit">
+      <rect x="-10" y="-10" width="20" height="20" rx="2" fill="none" stroke="url(#goldBeam)" stroke-width="1.5"/>
+      <circle r="3" fill="#ffffff">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </symbol>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#deepVoid)"/>
+
+  <g opacity="0.15">
+    <rect x="256" y="0" width="1" height="1024" fill="url(#frostPulse)">
+      <animate attributeName="y" values="-1024; 1024" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="512" y="0" width="1" height="1024" fill="url(#frostPulse)">
+      <animate attributeName="y" values="-1024; 1024" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="768" y="0" width="1" height="1024" fill="url(#frostPulse)">
+      <animate attributeName="y" values="-1024; 1024" dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(512 512)">
+    <path d="M-400 -160 L-160 -400 L160 -400 L400 -160 L400 160 L160 400 L-160 400 L-400 160 Z" fill="none" stroke="#1e293b" stroke-width="2"/>
+
+    <circle r="360" fill="none" stroke="url(#goldBeam)" stroke-width="1" stroke-dasharray="1, 15" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="280" fill="none" stroke="#22d3ee" stroke-width="4" stroke-dasharray="80 300" stroke-opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(512 512)" filter="url(#bloom)">
+    <rect x="-160" y="-160" width="320" height="320" fill="#fbbf24" fill-opacity="0.05" rx="10"/>
+
+    <g transform="translate(-105, -105)">
+      <use href="#qubit" x="0" y="0"/> <use href="#qubit" x="70" y="0"/> <use href="#qubit" x="140" y="0"/> <use href="#qubit" x="210" y="0"/>
+      <use href="#qubit" x="0" y="70"/> <use href="#qubit" x="70" y="70"/> <use href="#qubit" x="140" y="70"/> <use href="#qubit" x="210" y="70"/>
+      <use href="#qubit" x="0" y="140"/> <use href="#qubit" x="70" y="140"/> <use href="#qubit" x="140" y="140"/> <use href="#qubit" x="210" y="140"/>
+      <use href="#qubit" x="0" y="210"/> <use href="#qubit" x="70" y="210"/> <use href="#qubit" x="140" y="210"/> <use href="#qubit" x="210" y="210"/>
+    </g>
+
+    <g stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.4">
+       <line x1="-105" y1="-105" x2="105" y2="105">
+         <animate attributeName="stroke-dasharray" values="0,500; 500,0; 0,500" dur="4s" repeatCount="indefinite"/>
+       </line>
+       <line x1="105" y1="-105" x2="-105" y2="105">
+         <animate attributeName="stroke-dasharray" values="500,0; 0,500; 500,0" dur="4s" repeatCount="indefinite"/>
+       </line>
+    </g>
+  </g>
+
+  <g fill="#fbbf24">
+    <circle r="1.5" cx="512" cy="512">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 400,-300" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.2" cx="512" cy="512">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -350,-400" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.8" cx="512" cy="512">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 200,450" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <path d="M300 300 L724 300 L724 724 Z" fill="#ffffff" fill-opacity="0.02"/>
+</svg>

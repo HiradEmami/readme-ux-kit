@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" width="800" height="40">
-  <text x="0" y="25" fill="#22c55e" font-family="monospace" font-size="16">
-    01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
-    <animate attributeName="opacity" values="1;0.3;1" dur="0.5s" repeatCount="indefinite"/>
-  </text>
-</svg>

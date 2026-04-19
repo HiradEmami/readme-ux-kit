@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="800" height="90">
+  <defs>
+    <filter id="gateglow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <line x1="0" y1="45" x2="290" y2="45" stroke="#334155" stroke-width="2"/>
+  <line x1="510" y1="45" x2="800" y2="45" stroke="#334155" stroke-width="2"/>
+
+  <g transform="translate(400,45)" filter="url(#gateglow)">
+    <ellipse rx="42" ry="22" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <ellipse rx="24" ry="42" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <circle r="6" fill="#f8fafc">
+      <animate attributeName="r" values="6;10;6" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

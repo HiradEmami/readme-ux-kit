@@ -1,0 +1,107 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="voidGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="60%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <radialGradient id="starGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="15%" stop-color="#dff7ff"/>
+      <stop offset="38%" stop-color="#67e8f9"/>
+      <stop offset="68%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <linearGradient id="orbitCyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="hardBloom" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="25" result="blur2"/>
+      <feColorMatrix in="blur2" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.5 0"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <g id="planet">
+      <circle r="24" fill="none" stroke="url(#orbitCyanViolet)" stroke-width="4" filter="url(#softGlow)"/>
+      <circle r="12" fill="#ffffff" opacity="0.9"/>
+    </g>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#voidGrad)"/>
+
+  <g transform="translate(512 512)" opacity="0.4">
+    <circle r="450" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <circle r="360" fill="none" stroke="#1e293b" stroke-width="1"/>
+    <circle r="280" fill="none" stroke="#1e293b" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(512 512)" filter="url(#softGlow)">
+    <circle r="200" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="8 60">
+       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <use href="#planet" transform="rotate(0) translate(200 0) scale(0.6)">
+       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite" additive="sum"/>
+    </use>
+  </g>
+
+  <g transform="translate(512 512)" filter="url(#hardBloom)">
+    <circle r="120" fill="url(#starGrad)">
+      <animate attributeName="r" values="115;130;115" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="60" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <g transform="translate(512 512)" filter="url(#softGlow)">
+    <circle r="380" fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-dasharray="60 300" stroke-opacity="0.6">
+       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="25s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="25s" repeatCount="indefinite"/>
+      <use href="#planet" x="380" y="0">
+        <circle r="30" fill="none" stroke="#67e8f9" stroke-opacity="0.3" stroke-width="2">
+          <animate attributeName="r" values="26;36;26" dur="3s" repeatCount="indefinite"/>
+        </circle>
+      </use>
+    </g>
+    <g transform="rotate(360) translate(380 0)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8s" repeatCount="indefinite" additive="sum"/>
+      <circle r="10" cx="60" fill="#c4b5fd" opacity="0.8"/>
+    </g>
+  </g>
+
+  <g transform="translate(512 512)" filter="url(#softGlow)" opacity="0.7">
+    <ellipse rx="460" ry="220" fill="none" stroke="url(#orbitCyanViolet)" stroke-width="2.5" stroke-dasharray="5 150">
+       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="50s" repeatCount="indefinite"/>
+    </ellipse>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="50s" repeatCount="indefinite"/>
+      <path d="M-474 -10 L-460 0 L-474 10 Z" fill="#dff7ff"/>
+      <path d="M474 -10 L460 0 L474 10 Z" fill="#dff7ff" transform="rotate(180)"/>
+    </g>
+  </g>
+
+  <g opacity="0.6" filter="url(#softGlow)">
+    <circle cx="146" cy="198" r="2" fill="#ffffff">
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="884" cy="212" r="3" fill="#67e8f9">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="5.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

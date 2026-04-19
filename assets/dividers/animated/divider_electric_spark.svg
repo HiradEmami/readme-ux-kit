@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 30" width="800" height="30">
-  <line x1="0" y1="15" x2="800" y2="15" stroke="#1e293b" stroke-width="3"/>
-
-  <circle r="5" fill="#38bdf8">
-    <animateMotion dur="2s" repeatCount="indefinite"
-      path="M0 15 L800 15"/>
-  </circle>
-</svg>

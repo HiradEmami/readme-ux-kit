@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1200 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="softGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#softGrad)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="
+      M0,50 C300,80 900,20 1200,50 L1200,0 L0,0 Z;
+      M0,40 C300,20 900,80 1200,40 L1200,0 L0,0 Z;
+      M0,50 C300,80 900,20 1200,50 L1200,0 L0,0 Z
+      "/>
+  </path>
+</svg>

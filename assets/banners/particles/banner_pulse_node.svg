@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="120" fill="#020617"/>
+
+  <g stroke="#1e293b" stroke-width="0.5">
+    <path d="M0 60 H1200"/>
+    <path d="M600 0 V120"/>
+  </g>
+
+  <circle cx="600" cy="60" r="4" fill="#22d3ee">
+    <animate attributeName="r" values="2;8;2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 70" width="800" height="70">
+  <line x1="0" y1="35" x2="800" y2="35" stroke="#1e293b" stroke-width="2"/>
+
+  <g transform="translate(400,35)">
+    <circle r="22" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+    <circle r="22" fill="#facc15" opacity="0.9">
+      <animate attributeName="cx" values="-10;10;-10" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;0.9;0.35" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="22" fill="#020617"/>
+  </g>
+</svg>

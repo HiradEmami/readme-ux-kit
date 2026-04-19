@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="800" height="40">
+  <line x1="0" y1="20" x2="800" y2="20" stroke="#334155" stroke-width="2"/>
+
+  <rect width="12" height="6" y="17" fill="#22c55e">
+    <animate attributeName="x" values="-20;820" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect width="12" height="6" y="17" fill="#a855f7">
+    <animate attributeName="x" values="-20;820" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+  <path d="M6 8C6 5 8 3 12 3C16 3 18 5 18 8V13L20 16H4L6 13Z"
+        stroke="#22d3ee" stroke-width="2"/>
+  <circle cx="12" cy="18" r="2" fill="#8b5cf6">
+    <animate attributeName="opacity" values="1;0.4;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>

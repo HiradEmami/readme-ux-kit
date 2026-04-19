@@ -1,0 +1,9 @@
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="120" fill="#020617"/>
+
+  <line x1="300" x2="900" y1="60" y2="60" stroke="#22d3ee" opacity="0.2"/>
+
+  <circle cx="600" cy="60" r="2" fill="#22d3ee">
+    <animate attributeName="cx" values="600;620;600" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
