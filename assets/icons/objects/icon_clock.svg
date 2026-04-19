@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <circle cx="60" cy="60" r="40" fill="none" stroke="#22d3ee"/>
-  <line x1="60" y1="60" x2="60" y2="30" stroke="#22d3ee">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+  <circle cx="12" cy="12" r="9" stroke="#22d3ee" stroke-width="2"/>
+  <path d="M12 7V12L15 14" stroke="#8b5cf6" stroke-width="2">
     <animateTransform attributeName="transform" type="rotate"
-      from="0 60 60" to="360 60 60" dur="6s" repeatCount="indefinite"/>
-  </line>
+      from="0 12 12" to="360 12 12" dur="6s" repeatCount="indefinite"/>
+  </path>
 </svg>
