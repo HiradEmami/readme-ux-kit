@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120">
+  <defs>
+    <linearGradient id="plasma" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <path d="M0 60 Q200 20 400 60 T800 60 T1200 60"
+        stroke="url(#plasma)"
+        stroke-width="4"
+        fill="none"
+        filter="url(#glow)"
+        opacity="0.8">
+    <animate attributeName="d"
+      values="
+      M0 60 Q200 20 400 60 T800 60 T1200 60;
+      M0 60 Q200 100 400 60 T800 60 T1200 60;
+      M0 60 Q200 20 400 60 T800 60 T1200 60"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </path>
+</svg>
