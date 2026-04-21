@@ -1,0 +1,109 @@
+<svg width="1600" height="320" viewBox="0 0 1600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1600" y2="320">
+      <stop offset="0%" stop-color="#07111F"/>
+      <stop offset="50%" stop-color="#0B1F35"/>
+      <stop offset="100%" stop-color="#07111F"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1600" y2="0">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+
+      <!-- animated gradient -->
+      <animateTransform attributeName="gradientTransform"
+                        type="translate"
+                        from="-400 0"
+                        to="400 0"
+                        dur="6s"
+                        repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="500" y1="90" x2="1100" y2="230">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="320" rx="28" fill="url(#bgGrad)"/>
+
+  <!-- Animated lines -->
+  <path d="M180 92H1420" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M220 230H1380" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- Pulsing nodes -->
+  <circle cx="220" cy="92" r="4" fill="#22D3EE">
+    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1380" cy="230" r="4" fill="#A78BFA">
+    <animate attributeName="r" values="3;6;3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Collaboration icon (breathing glow) -->
+  <g filter="url(#glow)">
+    <circle cx="800" cy="110" r="6" fill="#22D3EE"/>
+    <circle cx="770" cy="140" r="6" fill="#22D3EE"/>
+    <circle cx="830" cy="140" r="6" fill="#22D3EE"/>
+
+    <line x1="800" y1="110" x2="770" y2="140" stroke="#22D3EE" stroke-width="2"/>
+    <line x1="800" y1="110" x2="830" y2="140" stroke="#22D3EE" stroke-width="2"/>
+    <line x1="770" y1="140" x2="830" y2="140" stroke="#22D3EE" stroke-width="2"/>
+
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1;1.05;1"
+                      dur="3s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="800" y="170"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="24"
+        letter-spacing="6"
+        fill="#67E8F9"
+        opacity="0.85">
+    OPEN • BUILD • CONNECT
+  </text>
+
+  <!-- Main title with glow pulse -->
+  <text x="800" y="240"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="64"
+        font-weight="800"
+        letter-spacing="5"
+        fill="url(#textGrad)"
+        filter="url(#softGlow)">
+    COLLABORATION
+
+    <animate attributeName="opacity"
+             values="0.85;1;0.85"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </text>
+
+</svg>
