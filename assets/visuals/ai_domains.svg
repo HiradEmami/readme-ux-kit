@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
+  <defs>
+
+    <!-- background -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <!-- core -->
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#67e8f9"/>
+      <stop offset="60%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <!-- link -->
+    <linearGradient id="linkGrad" x1="0%" y1="0%" x2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <style>
+      .title {
+        font: 700 26px 'Segoe UI', Arial;
+        fill: #e2e8f0;
+        letter-spacing: 2px;
+      }
+      .nodeText {
+        font: 600 12px 'Segoe UI', Arial;
+        fill: #e2e8f0;
+      }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="500" height="650" fill="url(#bg)"/>
+
+  <!-- ambient energy -->
+  <g opacity="0.25" filter="url(#bigGlow)">
+    <circle cx="250" cy="320" r="200" fill="#22d3ee" opacity="0.05">
+      <animate attributeName="r" values="190;220;190" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="320" r="160" fill="#8b5cf6" opacity="0.07">
+      <animate attributeName="r" values="150;180;150" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- main system -->
+  <g transform="translate(250 320)">
+
+    <!-- rotating rings -->
+    <circle r="180" fill="none" stroke="#1e293b" stroke-width="2"/>
+    <circle r="150" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-dasharray="6 16">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="120" fill="none" stroke="#8b5cf6" stroke-opacity="0.25" stroke-dasharray="4 14">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- connections -->
+    <g stroke="url(#linkGrad)" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="0" x2="0" y2="-200"/>
+      <line x1="0" y1="0" x2="170" y2="-120"/>
+      <line x1="0" y1="0" x2="180" y2="70"/>
+      <line x1="0" y1="0" x2="0" y2="200"/>
+      <line x1="0" y1="0" x2="-180" y2="70"/>
+      <line x1="0" y1="0" x2="-170" y2="-120"/>
+    </g>
+
+    <!-- signal packets -->
+    <circle r="3" fill="#ffffff">
+      <animateMotion dur="2.8s" repeatCount="indefinite"
+        path="M0,0 C0,-100 0,-150 0,-200"/>
+    </circle>
+
+    <circle r="3" fill="#67e8f9">
+      <animateMotion dur="3.2s" repeatCount="indefinite"
+        path="M0,0 C80,-60 120,-100 170,-120"/>
+    </circle>
+
+    <!-- core -->
+    <g filter="url(#glow)">
+      <circle r="70" fill="url(#coreGrad)">
+        <animate attributeName="r" values="65;85;65" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="28" fill="#ffffff"/>
+    </g>
+
+    <!-- nodes -->
+    <g filter="url(#glow)">
+      <circle cx="0" cy="-200" r="16" fill="#67e8f9">
+        <animate attributeName="r" values="14;18;14" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="170" cy="-120" r="14" fill="#8b5cf6"/>
+      <circle cx="180" cy="70" r="14" fill="#8b5cf6"/>
+      <circle cx="0" cy="200" r="16" fill="#67e8f9"/>
+      <circle cx="-180" cy="70" r="14" fill="#8b5cf6"/>
+      <circle cx="-170" cy="-120" r="14" fill="#8b5cf6"/>
+    </g>
+
+  </g>
+
+  <!-- labels -->
+  <text x="250" y="90" text-anchor="middle" class="nodeText">ML / DL</text>
+  <text x="400" y="200" class="nodeText">GenAI</text>
+  <text x="410" y="420" class="nodeText">Multi-Agent</text>
+  <text x="250" y="610" text-anchor="middle" class="nodeText">RL</text>
+  <text x="40" y="420" class="nodeText">MLOps</text>
+  <text x="40" y="200" class="nodeText">Robotics</text>
+
+  <!-- title -->
+  <text x="250" y="45" text-anchor="middle" class="title">
+    AI DOMAINS
+  </text>
+
+</svg>
