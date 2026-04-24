@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" style="display:block">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>
+    </marker>
+
+    <style>
+      .bg { fill: #020617; }
+      .node { fill: #0f172a; stroke: url(#grad); stroke-width: 2.5; }
+      .node-release { fill: #1e1b4b; stroke: #f0abfc; stroke-width: 3; filter: url(#glow); }
+      .num { fill: #e2e8f0; font: 700 15px 'JetBrains Mono', monospace; }
+      .label { fill: #94a3b8; font: 600 12px Inter, sans-serif; letter-spacing: 0.5px; }
+      .line {
+        stroke: url(#grad);
+        stroke-width: 2.5;
+        fill: none;
+        marker-end: url(#arrow);
+        stroke-dasharray: 8 8;
+        animation: flow 10s linear infinite;
+        opacity: 0.6;
+      }
+      @keyframes flow { to { stroke-dashoffset: -160; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      .pulse-ring { animation: pulse 2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="320"/>
+
+  <path class="line" d="M60 160 C 250 130, 950 130, 1140 160" />
+
+  <g transform="translate(60,160)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">1</text>
+    <text class="label" text-anchor="middle" y="-40">RAW DATA</text>
+  </g>
+
+  <g transform="translate(195,148)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">2</text>
+    <text class="label" text-anchor="middle" y="-40">PRE-PROCESS</text>
+  </g>
+
+  <g transform="translate(330,140)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">3</text>
+    <text class="label" text-anchor="middle" y="-40">FEATURES</text>
+  </g>
+
+  <g transform="translate(465,136)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">4</text>
+    <text class="label" text-anchor="middle" y="-40">TRAIN</text>
+  </g>
+
+  <g transform="translate(600,135)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">5</text>
+    <text class="label" text-anchor="middle" y="-40">VALIDATE</text>
+  </g>
+
+  <g transform="translate(735,136)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">6</text>
+    <text class="label" text-anchor="middle" y="-40">TEST</text>
+  </g>
+
+  <g transform="translate(870,140)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">7</text>
+    <text class="label" text-anchor="middle" y="-40">MODEL</text>
+  </g>
+
+  <g transform="translate(1005,148)">
+    <circle class="node" r="24"/>
+    <text class="num" text-anchor="middle" y="5">8</text>
+    <text class="label" text-anchor="middle" y="-40">INFERENCE</text>
+  </g>
+
+  <g transform="translate(1140,160)">
+    <circle class="pulse-ring" r="34" fill="none" stroke="#f0abfc" stroke-width="1" opacity="0.3"/>
+    <circle class="node-release" r="28"/>
+    <path d="M-8 0 L8 0 M0 -8 L0 8" transform="rotate(45)" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+    <text class="label" text-anchor="middle" y="-45" fill="#f0abfc" font-weight="800">OPEN RELEASE</text>
+    <text class="label" text-anchor="middle" y="55" font-size="10" opacity="0.5">HF • GITHUB • ONNX</text>
+  </g>
+
+</svg>

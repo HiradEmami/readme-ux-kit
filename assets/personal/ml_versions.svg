@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" style="display:block" role="img" aria-label="Versioning across code, data, config, and model">
+  <defs>
+
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="18" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12"
+        fill="none"
+        stroke="url(#grad)"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+    </marker>
+
+    <style>
+      .bg { fill: #020617; }
+
+      .box {
+        fill: #0f172a;
+        stroke: url(#grad);
+        stroke-width: 1.6;
+        rx: 16;
+        filter: url(#shadow);
+      }
+
+      .box-glow {
+        fill: none;
+        stroke: #22d3ee;
+        stroke-opacity: 0.12;
+        filter: url(#glow);
+      }
+
+      .title {
+        fill: #e2e8f0;
+        font: 600 17px Inter, Arial, sans-serif;
+      }
+
+      .line {
+        stroke: url(#grad);
+        stroke-width: 2.5;
+        fill: none;
+        marker-end: url(#arrow);
+        stroke-dasharray: 6 6;
+        animation: flow 6s linear infinite;
+      }
+
+      @keyframes flow {
+        to { stroke-dashoffset: -12; }
+      }
+
+      .caption {
+        fill: #94a3b8;
+        font: 400 15px Inter, Arial, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="340"/>
+
+  <!-- ROW 1 -->
+  <g>
+    <rect class="box" x="40" y="60" width="180" height="80"/>
+    <rect class="box-glow" x="40" y="60" width="180" height="80" rx="16"/>
+    <text class="title" x="130" y="110" text-anchor="middle">Code v1.2</text>
+
+    <rect class="box" x="280" y="60" width="180" height="80"/>
+    <rect class="box-glow" x="280" y="60" width="180" height="80" rx="16"/>
+    <text class="title" x="370" y="110" text-anchor="middle">Data v3</text>
+
+    <rect class="box" x="520" y="60" width="180" height="80"/>
+    <rect class="box-glow" x="520" y="60" width="180" height="80" rx="16"/>
+    <text class="title" x="610" y="110" text-anchor="middle">Config A</text>
+
+    <rect class="box" x="780" y="60" width="300" height="80"/>
+    <rect class="box-glow" x="780" y="60" width="300" height="80" rx="16"/>
+    <text class="title" x="930" y="110" text-anchor="middle">Model v1.2-A</text>
+
+    <path class="line" d="M220 100 L280 100"/>
+    <path class="line" d="M460 100 L520 100"/>
+    <path class="line" d="M700 100 L770 100"/>
+  </g>
+
+  <!-- ROW 2 -->
+  <g>
+    <rect class="box" x="40" y="160" width="180" height="80"/>
+    <rect class="box-glow" x="40" y="160" width="180" height="80" rx="16"/>
+    <text class="title" x="130" y="210" text-anchor="middle">Code v1.3</text>
+
+    <rect class="box" x="280" y="160" width="180" height="80"/>
+    <rect class="box-glow" x="280" y="160" width="180" height="80" rx="16"/>
+    <text class="title" x="370" y="210" text-anchor="middle">Data v3</text>
+
+    <rect class="box" x="520" y="160" width="180" height="80"/>
+    <rect class="box-glow" x="520" y="160" width="180" height="80" rx="16"/>
+    <text class="title" x="610" y="210" text-anchor="middle">Config B</text>
+
+    <rect class="box" x="780" y="160" width="300" height="80"/>
+    <rect class="box-glow" x="780" y="160" width="300" height="80" rx="16"/>
+    <text class="title" x="930" y="210" text-anchor="middle">Model v1.3-B</text>
+
+    <path class="line" d="M220 200 L280 200"/>
+    <path class="line" d="M460 200 L520 200"/>
+    <path class="line" d="M700 200 L770 200"/>
+  </g>
+
+  <!-- caption -->
+  <text class="caption" x="600" y="300" text-anchor="middle">
+    Each model version is tied to a specific code, data, and configuration state
+  </text>
+
+</svg>
