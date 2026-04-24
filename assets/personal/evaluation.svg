@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" style="display:block" role="img" aria-label="Evaluation equals performance plus runtime">
+  <defs>
+
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12"
+        fill="none"
+        stroke="url(#grad)"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+    </marker>
+
+    <style>
+      .bg { fill: #020617; }
+
+      .box {
+        fill: #0f172a;
+        stroke: url(#grad);
+        stroke-width: 1.6;
+        rx: 14;
+        filter: url(#shadow);
+      }
+
+      .box-glow {
+        fill: none;
+        stroke: #22d3ee;
+        stroke-opacity: 0.12;
+        filter: url(#glow);
+      }
+
+      .title {
+        fill: #e2e8f0;
+        font: 600 18px Inter, sans-serif;
+      }
+
+      .sub {
+        fill: #94a3b8;
+        font: 400 14px Inter, sans-serif;
+      }
+
+      .line {
+        stroke: url(#grad);
+        stroke-width: 2.5;
+        fill: none;
+        marker-end: url(#arrow);
+      }
+
+      .plus {
+        fill: #cbd5e1;
+        font: 700 24px Inter, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="900" height="320"/>
+
+  <!-- Performance -->
+  <g>
+    <rect class="box" x="60" y="100" width="240" height="110"/>
+    <rect class="box-glow" x="60" y="100" width="240" height="110" rx="14"/>
+
+    <text class="title" x="180" y="140" text-anchor="middle">Performance</text>
+    <text class="sub" x="180" y="170" text-anchor="middle">Accuracy / F1 / BLEU</text>
+  </g>
+
+  <!-- Runtime -->
+  <g>
+    <rect class="box" x="600" y="100" width="240" height="110"/>
+    <rect class="box-glow" x="600" y="100" width="240" height="110" rx="14"/>
+
+    <text class="title" x="720" y="140" text-anchor="middle">Runtime</text>
+    <text class="sub" x="720" y="170" text-anchor="middle">Latency / Throughput / Memory</text>
+  </g>
+
+  <!-- plus -->
+  <text class="plus" x="450" y="165" text-anchor="middle">+</text>
+
+  <!-- Evaluation -->
+  <g>
+    <rect class="box" x="330" y="30" width="240" height="80"/>
+    <rect class="box-glow" x="330" y="30" width="240" height="80" rx="14"/>
+
+    <text class="title" x="450" y="75" text-anchor="middle">Evaluation</text>
+  </g>
+
+  <!-- connectors -->
+  <path class="line" d="M300 155 L330 110"/>
+  <path class="line" d="M600 155 L570 110"/>
+
+</svg>

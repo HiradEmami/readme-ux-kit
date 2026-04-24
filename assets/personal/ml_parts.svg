@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" style="display:block" role="img" aria-label="Connected machine learning open source system">
+  <defs>
+
+    <!-- gradients -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <!-- title gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <!-- glow -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <!-- arrow -->
+   <marker id="arrow" markerWidth="14" markerHeight="14" refX="18" refY="7" orient="auto">
+      <path d="M2,2 L12,7 L2,12"
+            fill="none"
+            stroke="url(#grad)"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            />
+    </marker>
+
+    <style>
+      .bg { fill: #020617; }
+
+      .title {
+        fill: url(#titleGrad);
+        font: 700 26px Inter, Arial, sans-serif;
+        letter-spacing: 1px;
+        filter: url(#glow);
+      }
+
+      .node {
+        fill: #0f172a;
+        stroke: url(#grad);
+        stroke-width: 1.6;
+        rx: 16;
+        filter: url(#shadow);
+      }
+
+      .node-glow {
+        fill: none;
+        stroke: #22d3ee;
+        stroke-opacity: 0.15;
+        filter: url(#glow);
+      }
+
+      .node-title {
+        fill: #e2e8f0;
+        font: 600 20px Inter, Arial, sans-serif;
+      }
+
+      .sub {
+        fill: #94a3b8;
+        font: 400 14px Inter, Arial, sans-serif;
+      }
+
+      .line {
+        stroke: url(#grad);
+        stroke-width: 2.5;
+        fill: none;
+        marker-end: url(#arrow);
+        stroke-dasharray: 6 6;
+        animation: flow 6s linear infinite;
+      }
+      @keyframes flow {
+        to { stroke-dashoffset: -12; }
+        }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect class="bg" width="1200" height="360"/>
+
+  <!-- title -->
+  <text class="title" x="600" y="55" text-anchor="middle">
+    Machine learning systems only work when these parts stay connected
+  </text>
+
+  <!-- nodes -->
+  <!-- Code -->
+  <g>
+    <rect class="node" x="40" y="140" width="180" height="90"/>
+    <rect class="node-glow" x="40" y="140" width="180" height="90" rx="16"/>
+    <text class="node-title" x="130" y="175" text-anchor="middle">Code</text>
+    <text class="sub" x="130" y="202" text-anchor="middle">train / eval / inference</text>
+  </g>
+
+  <!-- Data -->
+  <g>
+    <rect class="node" x="280" y="140" width="180" height="90"/>
+    <rect class="node-glow" x="280" y="140" width="180" height="90" rx="16"/>
+    <text class="node-title" x="370" y="175" text-anchor="middle">Data</text>
+    <text class="sub" x="370" y="202" text-anchor="middle">dataset / pipeline</text>
+  </g>
+
+  <!-- Model -->
+  <g>
+    <rect class="node" x="520" y="140" width="180" height="90"/>
+    <rect class="node-glow" x="520" y="140" width="180" height="90" rx="16"/>
+    <text class="node-title" x="610" y="175" text-anchor="middle">Model</text>
+    <text class="sub" x="610" y="202" text-anchor="middle">weights / config</text>
+  </g>
+
+  <!-- Evaluation -->
+  <g>
+    <rect class="node" x="760" y="140" width="180" height="90"/>
+    <rect class="node-glow" x="760" y="140" width="180" height="90" rx="16"/>
+    <text class="node-title" x="850" y="175" text-anchor="middle">Evaluation</text>
+    <text class="sub" x="850" y="202" text-anchor="middle">quality / runtime</text>
+  </g>
+
+  <!-- Examples -->
+  <g>
+    <rect class="node" x="1000" y="140" width="160" height="90"/>
+    <rect class="node-glow" x="1000" y="140" width="160" height="90" rx="16"/>
+    <text class="node-title" x="1080" y="175" text-anchor="middle">Examples</text>
+    <text class="sub" x="1080" y="202" text-anchor="middle">usable entry point</text>
+  </g>
+
+  <!-- connectors -->
+  <path class="line" d="M220 185 L280 185"/>
+  <path class="line" d="M460 185 L520 185"/>
+  <path class="line" d="M700 185 L760 185"/>
+  <path class="line" d="M940 185 L1000 185"/>
+
+</svg>
