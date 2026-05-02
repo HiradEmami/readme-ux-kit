@@ -20,7 +20,7 @@
   <text x="600" y="60" text-anchor="middle" fill="url(#mainGrad)" filter="url(#drawioGlow)" style="font-family: Arial, sans-serif; font-size: 36px; font-weight: 800;">RESEARCH WORKFLOW EVOLUTION</text>
 
   <g transform="translate(0, 110)">
-    <text x="120" y="20" fill="#f1f5f9" style="font-family: Arial, sans-serif; font-size: 20px; font-weight: 700;">Traditional</text>
+    <text x="40" y="20" fill="#f1f5f9" style="font-family: Arial, sans-serif; font-size: 20px; font-weight: 700;">Traditional</text>
     <g stroke="#475569" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5">
       <path d="M230 85 L280 85"/>
       <path d="M480 85 L530 85"/>
@@ -45,7 +45,7 @@
   </g>
 
   <g transform="translate(0, 280)">
-    <text x="140" y="20" fill="#67e8f9" style="font-family: monospace; font-size: 20px; font-weight: 800;">&gt;_ Engineered Pipeline</text>
+    <text x="40" y="20" fill="#67e8f9" style="font-family: monospace; font-size: 20px; font-weight: 800;">&gt;_ Engineered Pipeline</text>
 
     <g stroke="url(#mainGrad)" stroke-width="3" filter="url(#drawioGlow)" marker-end="url(#arrowEng)" fill="none">
       <path d="M200 85 L260 85" stroke-dasharray="6,6">

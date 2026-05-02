@@ -8,7 +8,7 @@
   </defs>
 
   <!-- title -->
-  <text x="450" y="60" text-anchor="middle"
+  <text x="380" y="60" text-anchor="middle"
         font-family="Arial"
         font-size="26"
         font-weight="bold"
