@@ -1,0 +1,15 @@
+<svg width="180" height="64" viewBox="0 0 180 64" xmlns="http://www.w3.org/2000/svg">
+  <path d="M18 32h144" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#22D3EE">
+    <rect x="20" y="22" width="18" height="20" rx="6">
+      <animate attributeName="x" values="20;142;20" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="22" width="18" height="20" rx="6" fill="#A78BFA">
+      <animate attributeName="x" values="20;142;20" dur="1.8s" begin=".22s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="22" width="18" height="20" rx="6" fill="#F472B6">
+      <animate attributeName="x" values="20;142;20" dur="1.8s" begin=".44s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <circle cx="18" cy="32" r="5" fill="#64748B"/><circle cx="162" cy="32" r="5" fill="#64748B"/>
+</svg>

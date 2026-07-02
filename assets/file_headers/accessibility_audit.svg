@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Accessibility file header">
+  <defs>
+    <linearGradient id="a11y-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#0b1020"/>
+  <g transform="translate(78 45)" fill="none" stroke="url(#a11y-gradient)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="-23" r="7" fill="#60a5fa" stroke="none">
+      <animate attributeName="r" values="6;9;6" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M-36 -8H36M0 -12V28M0 0l-20 28M0 0l20 28"/>
+    <circle cx="0" cy="0" r="37" stroke="#26324f" stroke-width="3"/>
+  </g>
+  <text x="150" y="58" font-family="'Courier New', Consolas, monospace" font-size="38" font-weight="700" fill="url(#a11y-gradient)">ACCESSIBILITY.md</text>
+  <path d="M606 28h202M606 45h152M606 62h184" stroke="url(#a11y-gradient)" stroke-width="3" stroke-linecap="round" opacity=".8">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+</svg>
