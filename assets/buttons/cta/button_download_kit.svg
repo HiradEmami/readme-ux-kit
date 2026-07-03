@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="18" fill="#fefce8"/>
+  <rect x="8" y="8" width="304" height="56" rx="18" stroke="#eab308" stroke-width="2"/>
+  <path d="M43 21v24m-10-9 10 10 10-10" stroke="#a16207" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 52h26" stroke="#a16207" stroke-width="3" stroke-linecap="round"/>
+  <text x="78" y="42" fill="#422006" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Download kit</text>
+  <circle cx="278" cy="36" r="8" fill="#facc15">
+    <animate attributeName="r" values="8;11;8" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
