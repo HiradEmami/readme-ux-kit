@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Knowledge graph core visual">
+  <defs>
+    <radialGradient id="kg-bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="62%" stop-color="#030712"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="kg-node">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="42%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </radialGradient>
+    <filter id="kg-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <style>
+      .kg-line { animation: kgTrace 4.2s linear infinite; }
+      .kg-core { animation: kgBreathe 3.4s ease-in-out infinite; transform-origin: 512px 512px; }
+      @keyframes kgTrace { to { stroke-dashoffset:-300; } }
+      @keyframes kgBreathe { 0%,100% { transform:scale(.96); } 50% { transform:scale(1.05); } }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#kg-bg)"/>
+  <g stroke="#1f2a44" stroke-width="2" fill="none">
+    <path d="M512 512L220 244L352 780L790 290L802 728L512 512L282 522L738 516L420 188L604 842"/>
+  </g>
+  <g stroke="#22d3ee" stroke-width="3" stroke-linecap="round" fill="none" opacity=".58">
+    <path class="kg-line" d="M220 244L512 512L790 290" stroke-dasharray="70 230"/>
+    <path class="kg-line" d="M352 780L512 512L802 728" stroke-dasharray="70 230"/>
+    <path class="kg-line" d="M282 522L738 516" stroke-dasharray="60 180"/>
+  </g>
+  <g filter="url(#kg-glow)" opacity=".55">
+    <circle cx="512" cy="512" r="96" fill="#22d3ee"/>
+  </g>
+  <circle class="kg-core" cx="512" cy="512" r="58" fill="url(#kg-node)"/>
+  <g fill="#0f172a" stroke="#67e8f9" stroke-width="3">
+    <circle cx="220" cy="244" r="24"/><circle cx="352" cy="780" r="24"/>
+    <circle cx="790" cy="290" r="24"/><circle cx="802" cy="728" r="24"/>
+    <circle cx="282" cy="522" r="18"/><circle cx="738" cy="516" r="18"/>
+    <circle cx="420" cy="188" r="16"/><circle cx="604" cy="842" r="16"/>
+  </g>
+  <g fill="#e0f2fe">
+    <circle cx="220" cy="244" r="5"/><circle cx="352" cy="780" r="5"/>
+    <circle cx="790" cy="290" r="5"/><circle cx="802" cy="728" r="5"/>
+    <circle cx="282" cy="522" r="4"/><circle cx="738" cy="516" r="4"/>
+  </g>
+</svg>

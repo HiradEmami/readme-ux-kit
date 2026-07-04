@@ -1,0 +1,11 @@
+<svg width="180" height="74" viewBox="0 0 180 74" xmlns="http://www.w3.org/2000/svg">
+  <rect x="18" y="14" width="144" height="46" rx="12" fill="#0F172A" stroke="#334155" stroke-width="3"/>
+  <g fill="#38BDF8">
+    <rect x="36" y="24" width="10" height="26" rx="3"><animate attributeName="height" values="12;30;12" dur=".85s" repeatCount="indefinite"/><animate attributeName="y" values="31;22;31" dur=".85s" repeatCount="indefinite"/></rect>
+    <rect x="56" y="24" width="10" height="26" rx="3"><animate attributeName="height" values="12;30;12" dur=".85s" begin=".1s" repeatCount="indefinite"/><animate attributeName="y" values="31;22;31" dur=".85s" begin=".1s" repeatCount="indefinite"/></rect>
+    <rect x="76" y="24" width="10" height="26" rx="3"><animate attributeName="height" values="12;30;12" dur=".85s" begin=".2s" repeatCount="indefinite"/><animate attributeName="y" values="31;22;31" dur=".85s" begin=".2s" repeatCount="indefinite"/></rect>
+    <rect x="96" y="24" width="10" height="26" rx="3"><animate attributeName="height" values="12;30;12" dur=".85s" begin=".3s" repeatCount="indefinite"/><animate attributeName="y" values="31;22;31" dur=".85s" begin=".3s" repeatCount="indefinite"/></rect>
+    <rect x="116" y="24" width="10" height="26" rx="3"><animate attributeName="height" values="12;30;12" dur=".85s" begin=".4s" repeatCount="indefinite"/><animate attributeName="y" values="31;22;31" dur=".85s" begin=".4s" repeatCount="indefinite"/></rect>
+    <rect x="136" y="24" width="10" height="26" rx="3"><animate attributeName="height" values="12;30;12" dur=".85s" begin=".5s" repeatCount="indefinite"/><animate attributeName="y" values="31;22;31" dur=".85s" begin=".5s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
