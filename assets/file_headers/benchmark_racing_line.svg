@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Benchmark file header">
+  <defs>
+    <linearGradient id="bench-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#120a02"/>
+  <path d="M456 62 C526 14 604 74 674 38 C724 14 772 18 818 24" fill="none" stroke="#431407" stroke-width="2"/>
+  <path d="M456 62 C526 14 604 74 674 38 C724 14 772 18 818 24" fill="none" stroke="url(#bench-gradient)" stroke-width="5" stroke-linecap="round" stroke-dasharray="70 430">
+    <animate attributeName="stroke-dashoffset" from="0" to="-850" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+  <g transform="translate(52 45)" stroke="#facc15" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M-18 16A25 25 0 0 1 18 16"/>
+    <path d="M0 12L14 -8">
+      <animateTransform attributeName="transform" type="rotate" values="-18;28;-18" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="102" y="58" font-family="'Courier New', Consolas, monospace" font-size="40" font-weight="700" fill="url(#bench-gradient)">BENCHMARKS.md</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Model release constellation visual">
+  <defs>
+    <radialGradient id="release-bg" cx="50%" cy="50%" r="78%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="66%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="release-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <style>
+      .release-route { animation: releaseRoute 4s linear infinite; }
+      .release-star { animation: releaseStar 2.6s ease-in-out infinite; }
+      @keyframes releaseRoute { to { stroke-dashoffset:-260; } }
+      @keyframes releaseStar { 0%,100% { opacity:.45; transform:scale(.9); } 50% { opacity:1; transform:scale(1.12); } }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#release-bg)"/>
+  <g stroke="#1e293b" stroke-width="2" fill="none">
+    <path d="M172 700L330 356L512 512L708 268L852 668"/>
+    <path d="M330 356L708 268M512 512L852 668M172 700L512 512"/>
+  </g>
+  <path class="release-route" d="M172 700L330 356L512 512L708 268L852 668" fill="none" stroke="url(#release-grad)" stroke-width="6" stroke-linecap="round" stroke-dasharray="80 60"/>
+  <g fill="#0f172a" stroke="url(#release-grad)" stroke-width="4">
+    <circle class="release-star" cx="172" cy="700" r="42"/>
+    <circle class="release-star" cx="330" cy="356" r="42" style="animation-delay:.2s"/>
+    <circle class="release-star" cx="512" cy="512" r="62" style="animation-delay:.4s"/>
+    <circle class="release-star" cx="708" cy="268" r="42" style="animation-delay:.6s"/>
+    <circle class="release-star" cx="852" cy="668" r="42" style="animation-delay:.8s"/>
+  </g>
+  <g fill="#e0f2fe">
+    <circle cx="172" cy="700" r="9"/><circle cx="330" cy="356" r="9"/>
+    <circle cx="512" cy="512" r="14"/><circle cx="708" cy="268" r="9"/><circle cx="852" cy="668" r="9"/>
+  </g>
+</svg>
