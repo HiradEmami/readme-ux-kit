@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Observability constellation visual">
+  <defs>
+    <radialGradient id="obs-bg" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="58%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="obs-flow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="48%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="obs-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .obs-ring { animation: obsSpin 36s linear infinite; transform-origin: 512px 512px; }
+      .obs-reverse { animation: obsSpin 48s linear infinite reverse; transform-origin: 512px 512px; }
+      .obs-pulse { animation: obsPulse 2.8s ease-in-out infinite; }
+      .obs-dash { animation: obsDash 4s linear infinite; }
+      @keyframes obsSpin { to { transform: rotate(360deg); } }
+      @keyframes obsPulse { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+      @keyframes obsDash { to { stroke-dashoffset:-240; } }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#obs-bg)"/>
+  <g opacity=".24" stroke="#1e293b">
+    <path d="M140 236H884M140 512H884M140 788H884M236 140V884M512 140V884M788 140V884"/>
+  </g>
+  <g fill="none" stroke="url(#obs-flow)" stroke-width="3" opacity=".62">
+    <path class="obs-dash" d="M192 680C318 398 424 312 512 512S704 690 832 288" stroke-dasharray="36 26"/>
+    <path class="obs-dash" d="M206 360C338 470 410 672 512 512S668 260 820 620" stroke-dasharray="28 34"/>
+  </g>
+  <g class="obs-ring" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".35">
+    <ellipse cx="512" cy="512" rx="382" ry="168"/>
+    <ellipse cx="512" cy="512" rx="168" ry="382"/>
+  </g>
+  <g class="obs-reverse" fill="none" stroke="#8b5cf6" stroke-width="2" opacity=".3">
+    <ellipse cx="512" cy="512" rx="424" ry="226" transform="rotate(35 512 512)"/>
+  </g>
+  <g filter="url(#obs-glow)">
+    <circle cx="512" cy="512" r="78" fill="#22d3ee" opacity=".22"/>
+    <circle cx="512" cy="512" r="34" fill="#e0f2fe"/>
+    <circle class="obs-pulse" cx="192" cy="680" r="14" fill="#38bdf8"/>
+    <circle class="obs-pulse" cx="832" cy="288" r="14" fill="#a78bfa"/>
+    <circle class="obs-pulse" cx="206" cy="360" r="12" fill="#22c55e"/>
+    <circle class="obs-pulse" cx="820" cy="620" r="12" fill="#f472b6"/>
+  </g>
+</svg>
