@@ -1,0 +1,10 @@
+<svg width="140" height="120" viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="38" y="28" width="64" height="64" rx="12" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+  <g stroke="#64748B" stroke-width="4" stroke-linecap="round">
+    <path d="M52 20v8M70 20v8M88 20v8M52 92v8M70 92v8M88 92v8M30 42h8M30 60h8M30 78h8M102 42h8M102 60h8M102 78h8"/>
+  </g>
+  <rect x="52" y="42" width="36" height="36" rx="8" fill="#1E293B"/>
+  <path d="M58 60h24" stroke="#A78BFA" stroke-width="5" stroke-linecap="round">
+    <animate attributeName="stroke-dasharray" values="4 36;24 16;4 36" dur="1.25s" repeatCount="indefinite"/>
+  </path>
+</svg>
