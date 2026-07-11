@@ -1,0 +1,16 @@
+<svg width="150" height="110" viewBox="0 0 150 110" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="prism" x1="30" y1="20" x2="120" y2="90">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <path d="M75 18 124 90H26L75 18Z" stroke="#334155" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M75 18 124 90H26L75 18Z" stroke="url(#prism)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="42 210">
+    <animate attributeName="stroke-dashoffset" values="0;-252" dur="1.45s" repeatCount="indefinite"/>
+  </path>
+  <path d="M42 75h66" stroke="url(#prism)" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="opacity" values=".25;1;.25" dur="1.45s" repeatCount="indefinite"/>
+  </path>
+</svg>
