@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="syncing status icon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .icon-line { fill: none; stroke: url(#g); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: 90px 30px; }
+      @keyframes pulse { 0%, 100% { opacity: .35; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.15); } }
+    </style>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="24" fill="#03120a"/>
+  <g class="icon-line" filter="url(#glow)">
+    <path d="M84 42a30 30 0 0 0-50-8L26 42M36 78a30 30 0 0 0 50 8l8-8"/><path d="M26 42h24M94 78H70"/>
+  </g>
+  <circle class="pulse" cx="90" cy="30" r="5" fill="url(#g)"/>
+</svg>
