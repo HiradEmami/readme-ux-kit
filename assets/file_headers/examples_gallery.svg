@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Examples file header">
+  <defs>
+    <linearGradient id="examples-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#080714"/>
+  <g transform="translate(34 22)">
+    <rect width="30" height="30" rx="5" fill="#1e1b4b" stroke="#f472b6"/>
+    <rect x="40" width="30" height="30" rx="5" fill="#082f49" stroke="#38bdf8"/>
+    <rect x="20" y="24" width="30" height="30" rx="5" fill="#052e2b" stroke="#34d399"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 35 28;5 35 28;0 35 28;-5 35 28;0 35 28" dur="3s" repeatCount="indefinite"/>
+  </g>
+  <text x="126" y="58" font-family="'Courier New', Consolas, monospace" font-size="42" font-weight="700" fill="url(#examples-gradient)">EXAMPLES.md</text>
+  <path d="M480 24H810M480 45H760M480 66H800" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+</svg>
