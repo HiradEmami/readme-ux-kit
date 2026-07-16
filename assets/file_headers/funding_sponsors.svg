@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Funding file header">
+  <defs>
+    <linearGradient id="fund-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="45%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#160912"/>
+  <g transform="translate(78 45)">
+    <path d="M0 26C-34 6-42-13-27-27c9-8 22-6 27 4 5-10 18-12 27-4C42-13 34 6 0 26Z" fill="url(#fund-gradient)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="34" cy="-24" r="5" fill="#fbbf24">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="150" y="58" font-family="'Courier New', Consolas, monospace" font-size="40" font-weight="700" fill="url(#fund-gradient)">FUNDING.md</text>
+  <path d="M420 45h388" stroke="url(#fund-gradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 14">
+    <animate attributeName="stroke-dashoffset" values="0;-88" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+</svg>

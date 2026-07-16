@@ -1,0 +1,13 @@
+<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="vortex" x1="28" y1="26" x2="102" y2="104">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <path d="M96 65c0 18-15 32-33 31-14-1-26-12-27-26-1-12 7-23 19-25 9-2 18 4 20 13 2 7-3 14-10 16-5 1-10-2-11-7" stroke="url(#vortex)" stroke-width="8" stroke-linecap="round" stroke-dasharray="38 160">
+    <animate attributeName="stroke-dashoffset" values="0;-198" dur="1.15s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 65 65" to="360 65 65" dur="2.3s" repeatCount="indefinite"/>
+  </path>
+</svg>
