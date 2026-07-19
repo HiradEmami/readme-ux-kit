@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="License file header">
+  <defs>
+    <linearGradient id="license-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <filter id="license-shadow" x="-20%" y="-50%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#fbbf24" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#080604"/>
+  <path d="M0 69 C130 40 244 94 392 62 C556 26 684 62 850 28" fill="none" stroke="url(#license-gold)" stroke-width="3" opacity=".65">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 69 C130 40 244 94 392 62 C556 26 684 62 850 28;M0 62 C130 88 244 34 392 61 C556 90 684 38 850 58;M0 69 C130 40 244 94 392 62 C556 26 684 62 850 28"/>
+  </path>
+  <path d="M24 24H826" stroke="#451a03" stroke-width="1"/>
+  <path d="M24 66H826" stroke="#451a03" stroke-width="1"/>
+  <text x="36" y="58" font-family="'Courier New', Consolas, monospace" font-size="42" font-weight="700" fill="url(#license-gold)" filter="url(#license-shadow)">LICENSE</text>
+  <text x="242" y="58" font-family="'Courier New', Consolas, monospace" font-size="22" fill="#fef3c7" opacity=".8">permissions / terms / reuse</text>
+</svg>
