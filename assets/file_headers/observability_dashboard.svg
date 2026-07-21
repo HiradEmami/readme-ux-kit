@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Observability file header">
+  <defs>
+    <linearGradient id="obs-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="42%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#071016"/>
+  <g transform="translate(38 22)" fill="none" stroke-width="3" stroke-linecap="round">
+    <rect x="0" y="0" width="96" height="46" rx="10" stroke="#1f3b4d"/>
+    <path d="M12 34l14-12 14 8 14-22 14 18 14-6" stroke="url(#obs-gradient)">
+      <animate attributeName="stroke-dasharray" values="0 160;100 60;0 160" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="82" cy="20" r="4" fill="#f59e0b">
+      <animate attributeName="opacity" values=".35;1;.35" dur=".9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="158" y="58" font-family="'Courier New', Consolas, monospace" font-size="38" font-weight="700" fill="url(#obs-gradient)">OBSERVABILITY.md</text>
+  <path d="M614 45h194" stroke="url(#obs-gradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 10">
+    <animate attributeName="stroke-dashoffset" values="0;-64" dur="1.1s" repeatCount="indefinite"/>
+  </path>
+</svg>
