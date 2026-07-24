@@ -1,0 +1,18 @@
+<svg width="160" height="80" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="thought" x1="28" y1="12" x2="132" y2="68">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="52%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <path d="M44 52C29 52 20 44 20 33c0-12 10-21 24-21h72c15 0 24 9 24 21s-10 19-24 19H90L76 66 72 52H44Z" stroke="#334155" stroke-width="3" opacity=".45"/>
+  <path d="M44 52C29 52 20 44 20 33c0-12 10-21 24-21h72c15 0 24 9 24 21s-10 19-24 19H90L76 66 72 52H44Z" stroke="url(#thought)" stroke-width="4" stroke-linecap="round" stroke-dasharray="56 260">
+    <animate attributeName="stroke-dashoffset" values="0;-316" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+  <g fill="url(#thought)">
+    <circle cx="58" cy="33" r="5"><animate attributeName="r" values="4;7;4" dur="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="80" cy="33" r="5"><animate attributeName="r" values="4;7;4" dur="1.1s" begin=".18s" repeatCount="indefinite"/></circle>
+    <circle cx="102" cy="33" r="5"><animate attributeName="r" values="4;7;4" dur="1.1s" begin=".36s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
