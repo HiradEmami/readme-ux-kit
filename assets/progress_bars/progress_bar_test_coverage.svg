@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 54" width="620" height="54" role="img" aria-label="Test coverage progress 94 percent">
+  <defs>
+    <linearGradient id="coverage" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#84cc16"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="618" height="52" rx="12" fill="#06130b" stroke="#14532d" stroke-width="2"/>
+  <text x="22" y="34" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#dcfce7">test coverage</text>
+  <rect x="210" y="17" width="326" height="20" rx="10" fill="#0f2a18"/>
+  <rect x="210" y="17" width="306" height="20" rx="10" fill="url(#coverage)"/>
+  <path d="M218 27h290" stroke="#bbf7d0" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14" opacity=".75">
+    <animate attributeName="stroke-dashoffset" values="0;-72" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+  <text x="552" y="34" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#bbf7d0">94%</text>
+</svg>
