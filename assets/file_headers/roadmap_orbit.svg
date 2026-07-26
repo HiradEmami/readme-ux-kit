@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Roadmap file header">
+  <defs>
+    <linearGradient id="roadmap-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#070817"/>
+  <path d="M392 46 C484 8 572 82 654 44 S760 16 814 46" fill="none" stroke="#27324f" stroke-width="2"/>
+  <circle cx="392" cy="46" r="5" fill="#a78bfa"/>
+  <circle cx="548" cy="55" r="5" fill="#38bdf8"/>
+  <circle cx="654" cy="44" r="5" fill="#22c55e"/>
+  <circle cx="814" cy="46" r="5" fill="#f8fafc"/>
+  <circle r="7" fill="#38bdf8">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M392 46 C484 8 572 82 654 44 S760 16 814 46"/>
+  </circle>
+  <text x="58" y="60" font-family="'Courier New', Consolas, monospace" font-size="44" font-weight="700" fill="url(#roadmap-gradient)">ROADMAP.md</text>
+</svg>
