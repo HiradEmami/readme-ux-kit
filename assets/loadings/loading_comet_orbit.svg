@@ -1,0 +1,18 @@
+<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="comet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="70" cy="70" rx="48" ry="26" stroke="#475569" stroke-width="3" opacity=".45"/>
+  <g>
+    <ellipse cx="70" cy="70" rx="48" ry="26" stroke="#FACC15" stroke-width="4" stroke-linecap="round" stroke-dasharray="24 180"/>
+    <circle cx="118" cy="70" r="6" fill="url(#comet)"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 70 70" to="360 70 70" dur="1.55s" repeatCount="indefinite"/>
+  </g>
+  <circle cx="70" cy="70" r="8" fill="#38BDF8" opacity=".6">
+    <animate attributeName="r" values="7;11;7" dur="1.55s" repeatCount="indefinite"/>
+  </circle>
+</svg>

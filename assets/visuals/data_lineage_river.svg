@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Data lineage river visual">
+  <defs>
+    <linearGradient id="lineage-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="lineage-water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <style>
+      .lineage-flow { animation: lineageDash 3s linear infinite; }
+      .lineage-node { animation: lineagePulse 2.4s ease-in-out infinite; }
+      @keyframes lineageDash { to { stroke-dashoffset:-220; } }
+      @keyframes lineagePulse { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#lineage-bg)"/>
+  <path d="M96 276C248 178 336 362 492 294C642 230 730 124 930 218" fill="none" stroke="#1e293b" stroke-width="28" stroke-linecap="round"/>
+  <path class="lineage-flow" d="M96 276C248 178 336 362 492 294C642 230 730 124 930 218" fill="none" stroke="url(#lineage-water)" stroke-width="10" stroke-linecap="round" stroke-dasharray="70 52"/>
+  <path d="M92 704C250 818 348 638 500 710C638 774 752 856 932 720" fill="none" stroke="#1e293b" stroke-width="28" stroke-linecap="round"/>
+  <path class="lineage-flow" d="M92 704C250 818 348 638 500 710C638 774 752 856 932 720" fill="none" stroke="url(#lineage-water)" stroke-width="10" stroke-linecap="round" stroke-dasharray="70 52"/>
+  <g stroke="#334155" stroke-width="3" fill="#0f172a">
+    <rect x="180" y="420" width="160" height="118" rx="18"/>
+    <rect x="432" y="420" width="160" height="118" rx="18"/>
+    <rect x="684" y="420" width="160" height="118" rx="18"/>
+  </g>
+  <g fill="none" stroke="#38bdf8" stroke-width="4">
+    <path d="M340 480H432M592 480H684"/>
+  </g>
+  <g class="lineage-node" fill="#22d3ee">
+    <circle cx="260" cy="480" r="18"/>
+    <circle cx="512" cy="480" r="18"/>
+    <circle cx="764" cy="480" r="18"/>
+  </g>
+</svg>
