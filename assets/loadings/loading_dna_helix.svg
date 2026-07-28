@@ -1,0 +1,11 @@
+<svg width="170" height="90" viewBox="0 0 170 90" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <path d="M18 25c32 40 102 40 134 0" stroke="#38BDF8" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="d" values="M18 25c32 40 102 40 134 0;M18 65c32-40 102-40 134 0;M18 25c32 40 102 40 134 0" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M18 65c32-40 102-40 134 0" stroke="#F472B6" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="d" values="M18 65c32-40 102-40 134 0;M18 25c32 40 102 40 134 0;M18 65c32-40 102-40 134 0" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+  <g stroke="#A78BFA" stroke-width="2" opacity=".7">
+    <line x1="42" y1="35" x2="42" y2="55"/><line x1="70" y1="43" x2="70" y2="47"/><line x1="100" y1="43" x2="100" y2="47"/><line x1="128" y1="35" x2="128" y2="55"/>
+  </g>
+</svg>

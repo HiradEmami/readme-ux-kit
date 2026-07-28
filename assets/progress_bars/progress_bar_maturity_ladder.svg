@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 64" width="620" height="64" role="img" aria-label="Design maturity ladder progress">
+  <rect x="1" y="1" width="618" height="62" rx="12" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="22" y="39" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#e2e8f0">maturity</text>
+  <g transform="translate(170 18)" font-family="Consolas, monospace" font-size="12" font-weight="700">
+    <rect x="0" y="12" width="104" height="20" rx="10" fill="#22c55e"/><text x="26" y="27" fill="#052e16">stable</text>
+    <rect x="116" y="12" width="104" height="20" rx="10" fill="#38bdf8"/><text x="152" y="27" fill="#082f49">draft</text>
+    <rect x="232" y="12" width="104" height="20" rx="10" fill="#4c1d95" stroke="#a78bfa" stroke-width="2"/><text x="252" y="27" fill="#ddd6fe">experimental</text>
+    <path d="M0 44h336" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 12">
+      <animate attributeName="stroke-dashoffset" values="0;-60" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

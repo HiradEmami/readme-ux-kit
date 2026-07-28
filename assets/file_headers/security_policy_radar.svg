@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Security policy file header">
+  <defs>
+    <linearGradient id="policy-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <style>
+      .radar-sweep { animation: radarSpin 3s linear infinite; transform-origin: 54px 45px; }
+      .radar-dot { animation: radarBlink 1.5s ease-in-out infinite; }
+      @keyframes radarSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes radarBlink {
+        0%, 100% { opacity: .25; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#020f0a"/>
+  <g fill="none" stroke="#166534" stroke-width="1.5">
+    <circle cx="54" cy="45" r="12"/>
+    <circle cx="54" cy="45" r="24"/>
+    <circle cx="54" cy="45" r="34"/>
+    <path d="M20 45H88M54 11V79"/>
+  </g>
+  <path class="radar-sweep" d="M54 45L86 33" stroke="#22c55e" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+  <circle class="radar-dot" cx="70" cy="30" r="4" fill="#38bdf8"/>
+  <circle class="radar-dot" cx="43" cy="58" r="3" fill="#22c55e" style="animation-delay:.35s"/>
+  <text x="112" y="58" font-family="'Courier New', Consolas, monospace" font-size="38" font-weight="700" fill="url(#policy-gradient)">SECURITY_POLICY.md</text>
+</svg>

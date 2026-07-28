@@ -1,0 +1,10 @@
+<svg width="120" height="130" viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <path d="M60 14 100 28v32c0 26-15 43-40 56-25-13-40-30-40-56V28l40-14Z" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+  <rect x="32" y="34" width="56" height="10" rx="5" fill="#22D3EE" opacity=".2">
+    <animate attributeName="y" values="34;86;34" dur="1.35s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".15;.55;.15" dur="1.35s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M43 66l11 11 25-29" stroke="#22C55E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values=".25;1;.25" dur="1.35s" repeatCount="indefinite"/>
+  </path>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="150" height="90" viewBox="0 0 150 90" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <ellipse cx="75" cy="45" rx="48" ry="24" stroke="#334155" stroke-width="3"/>
+  <g>
+    <circle cx="123" cy="45" r="6" fill="#38BDF8"/>
+    <circle cx="99" cy="24" r="5" fill="#A78BFA"/>
+    <circle cx="51" cy="66" r="5" fill="#F472B6"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 75 45" to="360 75 45" dur="1.4s" repeatCount="indefinite"/>
+  </g>
+  <rect x="58" y="32" width="34" height="26" rx="8" fill="#0F172A" stroke="#64748B" stroke-width="3"/>
+</svg>

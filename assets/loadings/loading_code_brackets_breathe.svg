@@ -1,0 +1,11 @@
+<svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <path d="M54 20 30 40l24 20" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <path d="M96 20 120 40 96 60" stroke="#F472B6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1s" begin=".2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M82 18 68 62" stroke="#A78BFA" stroke-width="7" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" values="-7 75 40;7 75 40;-7 75 40" dur="1s" repeatCount="indefinite"/>
+  </path>
+</svg>

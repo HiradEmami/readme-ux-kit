@@ -1,0 +1,12 @@
+<svg width="170" height="100" viewBox="0 0 170 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <g stroke="#334155" stroke-width="3">
+    <path d="M32 50h36l34-24 36 24"/>
+    <path d="M68 50l34 24 36-24"/>
+  </g>
+  <path d="M32 50h36l34-24 36 24M68 50l34 24 36-24" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="28 150">
+    <animate attributeName="stroke-dashoffset" values="0;-178" dur="1.35s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#A78BFA">
+    <circle cx="32" cy="50" r="8"/><circle cx="68" cy="50" r="7"/><circle cx="102" cy="26" r="7"/><circle cx="102" cy="74" r="7"/><circle cx="138" cy="50" r="8"/>
+  </g>
+</svg>

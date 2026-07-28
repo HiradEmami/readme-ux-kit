@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="README file header">
+  <defs>
+    <linearGradient id="readme-neon-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="readme-glow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="readme-mask">
+      <rect x="0" y="0" width="0" height="90">
+        <animate attributeName="width" from="0" to="850" dur="2.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect x="1" y="1" width="848" height="88" rx="10" fill="#05070d" stroke="#172033" stroke-width="2"/>
+  <path d="M22 20H828" stroke="#172033" stroke-width="1"/>
+  <path d="M22 70H828" stroke="#172033" stroke-width="1"/>
+  <circle cx="32" cy="45" r="7" fill="#22d3ee" opacity=".9">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <g clip-path="url(#readme-mask)" filter="url(#readme-glow)">
+    <text x="56" y="58" font-family="'Courier New', Consolas, monospace" font-size="42" font-weight="700" fill="url(#readme-neon-gradient)" letter-spacing="1">README.md</text>
+    <rect x="312" y="23" width="4" height="44" fill="#e5f4ff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Quickstart file header">
+  <defs>
+    <linearGradient id="quick-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#03120f"/>
+  <g transform="translate(58 46)">
+    <path d="M0 -24C18 -14 28 0 28 18C10 18 -4 8 -14 -10Z" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="4" cy="-4" r="5" fill="#22d3ee"/>
+    <path d="M-14 12C-28 20 -34 28 -36 38C-25 35 -15 29 -6 18Z" fill="#facc15">
+      <animate attributeName="opacity" values=".5;1;.5" dur=".8s" repeatCount="indefinite"/>
+    </path>
+    <animateTransform attributeName="transform" type="translate" values="58 50;70 38;58 50" dur="2.8s" repeatCount="indefinite"/>
+  </g>
+  <text x="124" y="58" font-family="'Courier New', Consolas, monospace" font-size="40" font-weight="700" fill="url(#quick-gradient)">QUICKSTART.md</text>
+  <path d="M568 45H812" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14">
+    <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+</svg>

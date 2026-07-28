@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Evaluation lens matrix visual">
+  <defs>
+    <linearGradient id="eval-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="45%" stop-color="#08111f"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="eval-good" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="eval-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <style>
+      .eval-sweep { animation: evalSweep 3.6s ease-in-out infinite; }
+      .eval-ring { animation: evalSpin 18s linear infinite; transform-origin: 512px 512px; }
+      @keyframes evalSweep { 0%,100% { transform: translateX(-190px); opacity:.1; } 50% { transform: translateX(190px); opacity:.85; } }
+      @keyframes evalSpin { to { transform: rotate(360deg); } }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#eval-bg)"/>
+  <g transform="translate(242 188)" opacity=".8">
+    <g fill="#0f172a" stroke="#1e293b">
+      <rect x="0" y="0" width="540" height="540" rx="24"/>
+    </g>
+    <g>
+      <rect x="44" y="44" width="94" height="94" rx="12" fill="#052e16" stroke="#22c55e"/>
+      <rect x="162" y="44" width="94" height="94" rx="12" fill="#082f49" stroke="#38bdf8"/>
+      <rect x="280" y="44" width="94" height="94" rx="12" fill="#1e1b4b" stroke="#8b5cf6"/>
+      <rect x="398" y="44" width="94" height="94" rx="12" fill="#450a0a" stroke="#ef4444"/>
+      <rect x="44" y="162" width="94" height="94" rx="12" fill="#082f49" stroke="#38bdf8"/>
+      <rect x="162" y="162" width="94" height="94" rx="12" fill="#052e16" stroke="#22c55e"/>
+      <rect x="280" y="162" width="94" height="94" rx="12" fill="#052e16" stroke="#22c55e"/>
+      <rect x="398" y="162" width="94" height="94" rx="12" fill="#1e1b4b" stroke="#8b5cf6"/>
+      <rect x="44" y="280" width="94" height="94" rx="12" fill="#1e1b4b" stroke="#8b5cf6"/>
+      <rect x="162" y="280" width="94" height="94" rx="12" fill="#052e16" stroke="#22c55e"/>
+      <rect x="280" y="280" width="94" height="94" rx="12" fill="#082f49" stroke="#38bdf8"/>
+      <rect x="398" y="280" width="94" height="94" rx="12" fill="#052e16" stroke="#22c55e"/>
+    </g>
+  </g>
+  <circle class="eval-ring" cx="512" cy="512" r="210" fill="none" stroke="#22d3ee" stroke-width="5" stroke-dasharray="80 60" opacity=".55"/>
+  <circle cx="512" cy="512" r="150" fill="#22d3ee" opacity=".08" filter="url(#eval-glow)"/>
+  <circle cx="512" cy="512" r="126" fill="none" stroke="url(#eval-good)" stroke-width="10"/>
+  <rect class="eval-sweep" x="316" y="320" width="16" height="384" fill="#e0f2fe" opacity=".55"/>
+</svg>

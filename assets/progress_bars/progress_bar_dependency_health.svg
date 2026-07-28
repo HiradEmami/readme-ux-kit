@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 58" width="620" height="58" role="img" aria-label="Dependency health progress">
+  <rect x="1" y="1" width="618" height="56" rx="12" fill="#11100a" stroke="#3f3516" stroke-width="2"/>
+  <text x="22" y="36" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#fef3c7">dependency health</text>
+  <g transform="translate(250 29)">
+    <rect x="0" y="-10" width="52" height="20" rx="6" fill="#22c55e"/>
+    <rect x="62" y="-10" width="52" height="20" rx="6" fill="#22c55e"/>
+    <rect x="124" y="-10" width="52" height="20" rx="6" fill="#facc15">
+      <animate attributeName="opacity" values=".55;1;.55" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="186" y="-10" width="52" height="20" rx="6" fill="#334155"/>
+  </g>
+  <text x="530" y="36" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#fde68a">3/4</text>
+</svg>

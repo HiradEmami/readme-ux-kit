@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Prompt lab crystal visual">
+  <defs>
+    <radialGradient id="prompt-bg" cx="50%" cy="45%" r="76%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="60%" stop-color="#030712"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="prompt-crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0abfc"/>
+      <stop offset="42%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="prompt-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <style>
+      .prompt-ray { animation: promptRay 3.8s ease-in-out infinite; }
+      .prompt-float { animation: promptFloat 4s ease-in-out infinite; transform-origin: 512px 512px; }
+      @keyframes promptRay { 0%,100% { opacity:.2; } 50% { opacity:.85; } }
+      @keyframes promptFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-18px); } }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#prompt-bg)"/>
+  <g class="prompt-ray" stroke="url(#prompt-crystal)" stroke-width="3" opacity=".55">
+    <path d="M512 512L164 220M512 512L860 244M512 512L832 798M512 512L188 812"/>
+  </g>
+  <g class="prompt-float">
+    <path d="M512 168L708 366L650 692L512 856L374 692L316 366Z" fill="#0f172a" stroke="url(#prompt-crystal)" stroke-width="6"/>
+    <path d="M512 168V856M316 366L650 692M708 366L374 692" stroke="#38bdf8" stroke-width="2" opacity=".45"/>
+    <path d="M512 284L612 400L590 616L512 720L434 616L412 400Z" fill="url(#prompt-crystal)" opacity=".26" filter="url(#prompt-glow)"/>
+    <circle cx="512" cy="512" r="56" fill="#e0f2fe"/>
+  </g>
+  <g fill="#0f172a" stroke="#64748b" stroke-width="2" opacity=".9">
+    <rect x="130" y="156" width="150" height="64" rx="14"/>
+    <rect x="744" y="180" width="150" height="64" rx="14"/>
+    <rect x="722" y="780" width="150" height="64" rx="14"/>
+    <rect x="152" y="792" width="150" height="64" rx="14"/>
+  </g>
+</svg>

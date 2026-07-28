@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Usage file header">
+  <defs>
+    <linearGradient id="usage-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+      <animate attributeName="x1" values="-1;1" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="2.8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#030712"/>
+  <rect x="20" y="18" width="810" height="54" rx="8" fill="#0f172a" stroke="#334155"/>
+  <circle cx="42" cy="32" r="4" fill="#ef4444"/>
+  <circle cx="56" cy="32" r="4" fill="#f59e0b"/>
+  <circle cx="70" cy="32" r="4" fill="#22c55e"/>
+  <text x="40" y="58" font-family="'Courier New', Consolas, monospace" font-size="40" font-weight="700" fill="url(#usage-gradient)">$ USAGE.md</text>
+  <path d="M462 47H792" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 12">
+    <animate attributeName="stroke-dashoffset" from="0" to="-80" dur="2s" repeatCount="indefinite"/>
+  </path>
+</svg>

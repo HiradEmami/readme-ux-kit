@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 64" width="620" height="64" role="img" aria-label="Roadmap quarterly progress">
+  <rect x="1" y="1" width="618" height="62" rx="12" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="22" y="39" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#e2e8f0">roadmap</text>
+  <g transform="translate(166 18)" font-family="Consolas, monospace" font-size="12" font-weight="700">
+    <rect x="0" y="10" width="78" height="24" rx="8" fill="#22c55e"/><text x="25" y="27" fill="#052e16">Q1</text>
+    <rect x="88" y="10" width="78" height="24" rx="8" fill="#22c55e"/><text x="113" y="27" fill="#052e16">Q2</text>
+    <rect x="176" y="10" width="78" height="24" rx="8" fill="#38bdf8"><animate attributeName="opacity" values=".65;1;.65" dur="1.5s" repeatCount="indefinite"/></rect><text x="201" y="27" fill="#082f49">Q3</text>
+    <rect x="264" y="10" width="78" height="24" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="2"/><text x="289" y="27" fill="#cbd5e1">Q4</text>
+  </g>
+</svg>

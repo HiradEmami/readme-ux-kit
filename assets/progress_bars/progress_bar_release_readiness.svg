@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 54" width="620" height="54" role="img" aria-label="Release readiness progress 88 percent">
+  <defs>
+    <linearGradient id="release-readiness" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="60%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="618" height="52" rx="12" fill="#07111f" stroke="#1e293b" stroke-width="2"/>
+  <text x="22" y="34" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#e2e8f0">release readiness</text>
+  <rect x="214" y="18" width="320" height="18" rx="9" fill="#111827"/>
+  <rect x="214" y="18" width="282" height="18" rx="9" fill="url(#release-readiness)">
+    <animate attributeName="width" values="250;282;250" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="496" cy="27" r="5" fill="#f8fafc">
+    <animate attributeName="opacity" values=".45;1;.45" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="552" y="34" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#a7f3d0">88%</text>
+</svg>

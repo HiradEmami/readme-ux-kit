@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Privacy vault shield visual">
+  <defs>
+    <radialGradient id="vault-bg" cx="50%" cy="42%" r="76%">
+      <stop offset="0%" stop-color="#102033"/>
+      <stop offset="62%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="vault-shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="vault-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .vault-orbit { animation: vaultSpin 28s linear infinite; transform-origin: 512px 512px; }
+      .vault-scan { animation: vaultScan 3.2s ease-in-out infinite; }
+      @keyframes vaultSpin { to { transform: rotate(360deg); } }
+      @keyframes vaultScan { 0%,100% { transform: translateY(-130px); opacity:0; } 50% { transform: translateY(130px); opacity:.9; } }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#vault-bg)"/>
+  <g class="vault-orbit" fill="none" stroke="#1e293b">
+    <circle cx="512" cy="512" r="390"/>
+    <circle cx="512" cy="512" r="330" stroke-dasharray="12 28"/>
+  </g>
+  <path d="M512 158L790 268V482C790 656 676 802 512 878C348 802 234 656 234 482V268Z" fill="#0f172a" stroke="url(#vault-shield)" stroke-width="8" filter="url(#vault-glow)"/>
+  <path d="M350 472H674V690H350Z" fill="#020617" stroke="#38bdf8" stroke-width="4" rx="18"/>
+  <path d="M404 472V390C404 326 452 284 512 284S620 326 620 390V472" fill="none" stroke="#93c5fd" stroke-width="24" stroke-linecap="round"/>
+  <rect class="vault-scan" x="316" y="506" width="392" height="6" fill="#22d3ee" opacity=".75"/>
+  <circle cx="512" cy="586" r="34" fill="#22d3ee"/>
+  <path d="M512 612V654" stroke="#22d3ee" stroke-width="20" stroke-linecap="round"/>
+</svg>

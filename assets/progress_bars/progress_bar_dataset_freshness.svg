@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 54" width="620" height="54" role="img" aria-label="Dataset freshness progress 7 days">
+  <rect x="1" y="1" width="618" height="52" rx="12" fill="#08111a" stroke="#1f3b57" stroke-width="2"/>
+  <text x="22" y="34" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#dbeafe">dataset freshness</text>
+  <rect x="242" y="18" width="276" height="18" rx="9" fill="#102033"/>
+  <rect x="242" y="18" width="204" height="18" rx="9" fill="#38bdf8">
+    <animate attributeName="opacity" values=".72;1;.72" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M456 16v22" stroke="#facc15" stroke-width="3" stroke-linecap="round"/>
+  <text x="534" y="34" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#bae6fd">7d</text>
+</svg>

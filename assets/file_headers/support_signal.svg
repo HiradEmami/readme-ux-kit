@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Support file header">
+  <defs>
+    <linearGradient id="support-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <style>
+      .support-ring { animation: supportPulse 2.4s ease-out infinite; transform-origin: 58px 45px; }
+      .support-wave { animation: supportDash 2.2s linear infinite; }
+      @keyframes supportPulse {
+        0% { opacity: .35; transform: scale(.72); }
+        70% { opacity: 0; transform: scale(1.15); }
+        100% { opacity: 0; transform: scale(1.15); }
+      }
+      @keyframes supportDash {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: -72; }
+      }
+    </style>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#050b18"/>
+  <circle class="support-ring" cx="58" cy="45" r="38" fill="none" stroke="#60a5fa" stroke-width="2"/>
+  <g fill="none" stroke="#60a5fa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 48V40C34 26 44 18 58 18S82 26 82 40V48"/>
+    <path d="M34 46H48V65H34Z"/>
+    <path d="M68 46H82V65H68Z"/>
+    <path d="M68 68C56 76 42 72 36 64"/>
+  </g>
+  <text x="130" y="58" font-family="'Courier New', Consolas, monospace" font-size="42" font-weight="700" fill="url(#support-gradient)">SUPPORT.md</text>
+  <text x="420" y="58" font-family="'Courier New', Consolas, monospace" font-size="20" fill="#bfdbfe" opacity=".85">issues / help / contact</text>
+  <path class="support-wave" d="M674 45H812" fill="none" stroke="#c084fc" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14" opacity=".75"/>
+</svg>

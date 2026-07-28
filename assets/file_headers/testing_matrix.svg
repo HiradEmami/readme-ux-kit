@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Testing file header">
+  <defs>
+    <linearGradient id="testing-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="55%" stop-color="#a3e635"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <style>
+      .test-cell { fill: #052e16; stroke: #166534; stroke-width: 1.5; }
+      .test-a { animation: testPulse 2.4s ease-in-out infinite; }
+      .test-b { animation: testPulse 2.4s ease-in-out .25s infinite; }
+      .test-c { animation: testPulse 2.4s ease-in-out .5s infinite; }
+      .test-line { animation: testFlow 2.6s linear infinite; }
+      @keyframes testPulse {
+        0%, 100% { fill: #052e16; }
+        50% { fill: #22c55e; }
+      }
+      @keyframes testFlow {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: -80; }
+      }
+    </style>
+  </defs>
+  <rect width="850" height="90" rx="10" fill="#03120a"/>
+  <g transform="translate(34 21)">
+    <rect class="test-cell test-a" x="0" y="0" width="16" height="16" rx="3"/>
+    <rect class="test-cell test-b" x="24" y="0" width="16" height="16" rx="3"/>
+    <rect class="test-cell test-c" x="48" y="0" width="16" height="16" rx="3"/>
+    <rect class="test-cell test-b" x="0" y="24" width="16" height="16" rx="3"/>
+    <rect class="test-cell test-c" x="24" y="24" width="16" height="16" rx="3"/>
+    <rect class="test-cell test-a" x="48" y="24" width="16" height="16" rx="3"/>
+  </g>
+  <text x="118" y="58" font-family="'Courier New', Consolas, monospace" font-size="42" font-weight="700" fill="url(#testing-gradient)">TESTING.md</text>
+  <text x="392" y="57" font-family="'Courier New', Consolas, monospace" font-size="20" fill="#bbf7d0" opacity=".82">unit / integration / regression</text>
+  <path class="test-line" d="M668 45H812" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 12" opacity=".8"/>
+</svg>

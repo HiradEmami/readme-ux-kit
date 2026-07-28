@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Governance file header">
+  <defs>
+    <linearGradient id="gov-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="55%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="848" height="88" rx="10" fill="#130d08" stroke="#4a2f16" stroke-width="2"/>
+  <g transform="translate(40 24)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 0 80 18v24c0 14-13 24-38 36C17 66 4 56 4 42V18L42 0Z" stroke="url(#gov-gradient)" stroke-width="4"/>
+    <path d="M28 32h28M28 46h28M42 20v38" stroke="#fbbf24" stroke-width="4">
+      <animate attributeName="opacity" values=".45;1;.45" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="150" y="58" font-family="'Courier New', Consolas, monospace" font-size="39" font-weight="700" fill="url(#gov-gradient)">GOVERNANCE.md</text>
+  <path d="M548 45h260" stroke="url(#gov-gradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="14 16">
+    <animate attributeName="stroke-dashoffset" values="0;-90" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+</svg>
