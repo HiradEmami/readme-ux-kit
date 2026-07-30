@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="18" fill="#fffbeb"/>
+  <rect x="8" y="8" width="304" height="56" rx="18" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M43 20l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1 5-11z" fill="#f59e0b">
+    <animate attributeName="opacity" values=".75;1;.75" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+  <text x="78" y="42" fill="#78350f" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Star project</text>
+  <path d="M258 36h24" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+</svg>
