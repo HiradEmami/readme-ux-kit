@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="#052e16"/>
+  <rect x="10" y="10" width="300" height="52" rx="14" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="43" cy="36" r="17" fill="#16a34a"/>
+  <path d="M35 37l6 6 12-14" stroke="#ecfdf5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="42" fill="#dcfce7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Build passing</text>
+  <circle cx="277" cy="36" r="5" fill="#86efac">
+    <animate attributeName="opacity" values=".45;1;.45" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
