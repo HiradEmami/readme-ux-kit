@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="#1f2937"/>
+  <circle cx="43" cy="36" r="17" fill="#374151" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M35 44l16-16M36 29l7 7M50 43l-7-7" stroke="#fde68a" stroke-width="3" stroke-linecap="round"/>
+  <text x="78" y="42" fill="#fef3c7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Maintenance mode</text>
+</svg>
