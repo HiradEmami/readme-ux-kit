@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="18" fill="#eff6ff"/>
+  <rect x="8" y="8" width="304" height="56" rx="18" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="43" cy="36" r="17" fill="#2563eb"/>
+  <path d="M34 37c8-1 14-5 20-11-1 8-4 16-12 19-4 1-7 1-10 0 4-1 7-3 9-6-3 1-5 0-7-2z" fill="#eff6ff"/>
+  <text x="78" y="42" fill="#1e3a8a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Follow updates</text>
+  <circle cx="276" cy="36" r="5" fill="#2563eb">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
