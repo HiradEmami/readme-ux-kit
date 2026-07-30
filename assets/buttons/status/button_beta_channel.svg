@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="#2e1065"/>
+  <rect x="10" y="10" width="300" height="52" rx="14" stroke="#c084fc" stroke-width="2"/>
+  <path d="M35 24h18c7 0 10 8 5 13 6 5 2 13-6 13H35V24z" fill="#581c87"/>
+  <text x="40" y="45" fill="#f3e8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="900">β</text>
+  <text x="78" y="42" fill="#f3e8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Beta channel</text>
+  <path d="M248 36h32" stroke="#e9d5ff" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 6">
+    <animate attributeName="stroke-dashoffset" values="0;-20" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+</svg>
