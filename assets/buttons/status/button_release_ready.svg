@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="#0f172a"/>
+  <path d="M43 20l8 16-8 16-8-16 8-16z" fill="#38bdf8"/>
+  <path d="M35 36h16" stroke="#e0f2fe" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="78" y="42" fill="#e0f2fe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Release ready</text>
+  <rect x="239" y="25" width="48" height="22" rx="11" fill="#083344"/>
+  <text x="252" y="41" fill="#67e8f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800">v1</text>
+</svg>
