@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="#fff7ed"/>
+  <rect x="8" y="8" width="304" height="56" rx="16" stroke="#fb923c" stroke-width="2"/>
+  <path d="M43 21l19 34H24l19-34z" fill="#ffedd5" stroke="#ea580c" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M43 32v10" stroke="#ea580c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="43" cy="48" r="2.5" fill="#ea580c"/>
+  <text x="78" y="42" fill="#7c2d12" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Needs review</text>
+</svg>
