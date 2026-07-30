@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="#111827"/>
+  <path d="M26 36c8-11 26-11 36 0-10 11-28 11-36 0z" fill="#1f2937" stroke="#93c5fd" stroke-width="2"/>
+  <circle cx="44" cy="36" r="7" fill="#60a5fa">
+    <animate attributeName="r" values="6;8;6" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="42" fill="#dbeafe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Watch repo</text>
+  <text x="242" y="41" fill="#93c5fd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800">updates</text>
+</svg>
