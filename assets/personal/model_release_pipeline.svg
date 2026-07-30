@@ -90,12 +90,14 @@
     <text class="label" text-anchor="middle" y="-40">INFERENCE</text>
   </g>
 
-  <g transform="translate(1140,160)">
+  <g transform="translate(1135,160)">
     <circle class="pulse-ring" r="34" fill="none" stroke="#f0abfc" stroke-width="1" opacity="0.3"/>
     <circle class="node-release" r="28"/>
     <path d="M-8 0 L8 0 M0 -8 L0 8" transform="rotate(45)" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
     <text class="label" text-anchor="middle" y="-45" fill="#f0abfc" font-weight="800">OPEN RELEASE</text>
-    <text class="label" text-anchor="middle" y="55" font-size="10" opacity="0.5">HF • GITHUB • ONNX</text>
+    <text class="label" text-anchor="middle" y="55" font-size="10" opacity="0.5">HuggingFace</text>
+    <text class="label" text-anchor="middle" y="75" font-size="10" opacity="0.5">GITHUB</text>
+    <text class="label" text-anchor="middle" y="95" font-size="10" opacity="0.5">ONNX</text>
   </g>
 
 </svg>
