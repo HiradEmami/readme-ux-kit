@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="#451a03"/>
+  <path d="M38 22h12v15l10 15H28l10-15V22z" fill="#92400e" stroke="#fbbf24" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="44" cy="45" r="3" fill="#fde68a">
+    <animate attributeName="cy" values="45;39;45" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="42" fill="#fef3c7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Experimental</text>
+</svg>

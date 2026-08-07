@@ -1,38 +1,51 @@
 name: semantic-release
 
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Run semantic-release without publishing a release
+        required: false
+        default: false
+        type: boolean
+
 permissions:
   contents: write
   issues: write
   pull-requests: write
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-  workflow_dispatch:
+concurrency:
+  group: semantic-release
+  cancel-in-progress: false
 
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master' && github.event_name == 'workflow_dispatch'
+    if: github.ref == 'refs/heads/master'
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '22'
-        cache: 'npm'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-    - name: Install dependencies
-      run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-    - name: Run semantic release
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: npx semantic-release
+      - name: Run quality checks
+        run: npm run check:all
+
+      - name: Run semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release ${{ inputs.dry_run && '--dry-run' || '' }}

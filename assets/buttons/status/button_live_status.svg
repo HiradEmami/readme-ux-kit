@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <rect x="8" y="8" width="304" height="56" rx="18" fill="#ecfdf5"/>
+  <rect x="8" y="8" width="304" height="56" rx="18" stroke="#10b981" stroke-width="2"/>
+  <circle cx="43" cy="36" r="10" fill="#10b981">
+    <animate attributeName="r" values="7;12;7" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".6;1;.6" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="42" fill="#064e3b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Live status</text>
+  <path d="M242 42c8-15 18-15 26 0s18 15 26 0" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+</svg>

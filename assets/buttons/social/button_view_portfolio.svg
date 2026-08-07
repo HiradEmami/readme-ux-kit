@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <defs>
+    <linearGradient id="portfolio_bg" x1="8" y1="8" x2="312" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="304" height="56" rx="16" fill="url(#portfolio_bg)"/>
+  <rect x="29" y="22" width="30" height="30" rx="8" fill="#a78bfa" opacity=".9"/>
+  <path d="M36 43l6-7 5 5 6-9" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="42" fill="#f5f3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">View portfolio</text>
+  <path d="M267 27h18v18" stroke="#ddd6fe" stroke-width="3" stroke-linecap="round"/>
+</svg>
