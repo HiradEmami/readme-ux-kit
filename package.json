@@ -5,6 +5,14 @@
   "description": "A comprehensive toolkit for beautiful readme design.",
   "type": "module",
   "scripts": {
+    "generate:previews": "python src/modules/generators/generate_asset_previews.py",
+    "check:previews": "python src/modules/generators/generate_asset_previews.py --check",
+    "check:generators": "python -m py_compile src/modules/generators/generate_asset_previews.py src/modules/generators/generate_typing_svg.py src/modules/generators/generate_readme_svg.py src/modules/generators/validate_svg_assets.py src/modules/generators/optimize_svg_assets.py && python src/modules/generators/generate_asset_previews.py --self-test && python src/modules/generators/generate_readme_svg.py --self-test",
+    "generate:readme-svg": "python src/modules/generators/generate_readme_svg.py",
+    "check:svg": "python src/modules/generators/validate_svg_assets.py",
+    "check:svg:optimize": "python src/modules/generators/optimize_svg_assets.py --check",
+    "optimize:svg": "python src/modules/generators/optimize_svg_assets.py --write",
+    "check:all": "npm run check:generators && npm run check:svg && npm run check:previews",
     "release": "semantic-release"
   },
   "devDependencies": {
