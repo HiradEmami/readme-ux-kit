@@ -1,6 +1,6 @@
-<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Banner Fracture Beam</title>
-  <desc>An animated README SVG asset illustrating Banner Fracture Beam.</desc>
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="banner_fracture_beam-title banner_fracture_beam-desc">
+  <title id="banner_fracture_beam-title">Banner Fracture Beam</title>
+  <desc id="banner_fracture_beam-desc">An animated README SVG asset illustrating Banner Fracture Beam.</desc>
   <defs>
     <linearGradient id="fracture" x1="0" x2="1">
       <stop offset="0%" stop-color="#020617"/>

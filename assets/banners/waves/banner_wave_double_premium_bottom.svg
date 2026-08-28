@@ -1,6 +1,6 @@
-<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Banner Wave Double Premium Bottom</title>
-  <desc>An animated README SVG asset illustrating Banner Wave Double Premium Bottom.</desc>
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="banner_wave_double_premium_bottom-title banner_wave_double_premium_bottom-desc">
+  <title id="banner_wave_double_premium_bottom-title">Banner Wave Double Premium Bottom</title>
+  <desc id="banner_wave_double_premium_bottom-desc">An animated README SVG asset illustrating Banner Wave Double Premium Bottom.</desc>
   <defs>
     <linearGradient id="wave1" x1="0" x2="1">
       <stop offset="0%" stop-color="#22d3ee"/>
