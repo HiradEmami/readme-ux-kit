@@ -1,4 +1,4 @@
-# Full Cta Preview
+# Full CTA Preview
 
 Primary call-to-action buttons for install, docs, launch, demo, API, and template links.
 
@@ -32,6 +32,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 | `button_view_templates` | Static or subtle motion | `button`, `cta`, `static` | [Jump](#button-view-templates) | [Source](../../../assets/buttons/cta/button_view_templates.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_templates.svg) |
 
 ## Visual previews
+
+<a id="button-copy-bundle"></a>
 
 ## button_copy_bundle
 
@@ -67,6 +69,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - [Source file](../../../assets/buttons/cta/button_copy_bundle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_copy_bundle.svg)
 
+<a id="button-download-kit"></a>
+
 ## button_download_kit
 
 [![button_download_kit](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_kit.svg)](https://github.com/HiradEmami)
@@ -100,6 +104,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - Anchor: `#button-download-kit`
 - [Source file](../../../assets/buttons/cta/button_download_kit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_kit.svg)
+
+<a id="button-explore-assets"></a>
 
 ## button_explore_assets
 
@@ -135,6 +141,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - [Source file](../../../assets/buttons/cta/button_explore_assets.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_explore_assets.svg)
 
+<a id="button-get-started"></a>
+
 ## button_get_started
 
 [![button_get_started](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_get_started.svg)](https://github.com/HiradEmami)
@@ -168,6 +176,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - Anchor: `#button-get-started`
 - [Source file](../../../assets/buttons/cta/button_get_started.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_get_started.svg)
+
+<a id="button-install-package"></a>
 
 ## button_install_package
 
@@ -203,6 +213,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - [Source file](../../../assets/buttons/cta/button_install_package.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_install_package.svg)
 
+<a id="button-launch-demo"></a>
+
 ## button_launch_demo
 
 [![button_launch_demo](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_launch_demo.svg)](https://github.com/HiradEmami)
@@ -236,6 +248,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - Anchor: `#button-launch-demo`
 - [Source file](../../../assets/buttons/cta/button_launch_demo.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_launch_demo.svg)
+
+<a id="button-open-api"></a>
 
 ## button_open_api
 
@@ -271,6 +285,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - [Source file](../../../assets/buttons/cta/button_open_api.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_api.svg)
 
+<a id="button-read-docs"></a>
+
 ## button_read_docs
 
 [![button_read_docs](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_read_docs.svg)](https://github.com/HiradEmami)
@@ -305,6 +321,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - [Source file](../../../assets/buttons/cta/button_read_docs.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_read_docs.svg)
 
+<a id="button-try-cli"></a>
+
 ## button_try_cli
 
 [![button_try_cli](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_try_cli.svg)](https://github.com/HiradEmami)
@@ -338,6 +356,8 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - Anchor: `#button-try-cli`
 - [Source file](../../../assets/buttons/cta/button_try_cli.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_try_cli.svg)
+
+<a id="button-view-templates"></a>
 
 ## button_view_templates
 
