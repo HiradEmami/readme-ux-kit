@@ -35,6 +35,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 
 ## Visual previews
 
+<a id="divider-arc-bridge"></a>
+
 ## divider_arc_bridge
 
 [![divider_arc_bridge](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_arc_bridge.svg)](https://github.com/HiradEmami)
@@ -68,6 +70,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - Anchor: `#divider-arc-bridge`
 - [Source file](../../../assets/dividers/static/divider_arc_bridge.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_arc_bridge.svg)
+
+<a id="divider-center-diamond"></a>
 
 ## divider_center_diamond
 
@@ -103,6 +107,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - [Source file](../../../assets/dividers/static/divider_center_diamond.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_center_diamond.svg)
 
+<a id="divider-dash-terminal"></a>
+
 ## divider_dash_terminal
 
 [![divider_dash_terminal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_dash_terminal.svg)](https://github.com/HiradEmami)
@@ -136,6 +142,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - Anchor: `#divider-dash-terminal`
 - [Source file](../../../assets/dividers/static/divider_dash_terminal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_dash_terminal.svg)
+
+<a id="divider-dot-center"></a>
 
 ## divider_dot_center
 
@@ -171,6 +179,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - [Source file](../../../assets/dividers/static/divider_dot_center.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_dot_center.svg)
 
+<a id="divider-hex-tech"></a>
+
 ## divider_hex_tech
 
 [![divider_hex_tech](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_hex_tech.svg)](https://github.com/HiradEmami)
@@ -204,6 +214,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - Anchor: `#divider-hex-tech`
 - [Source file](../../../assets/dividers/static/divider_hex_tech.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_hex_tech.svg)
+
+<a id="divider-minimal-clean"></a>
 
 ## divider_minimal_clean
 
@@ -239,6 +251,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - [Source file](../../../assets/dividers/static/divider_minimal_clean.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_minimal_clean.svg)
 
+<a id="divider-neon"></a>
+
 ## divider_neon
 
 [![divider_neon](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_neon.svg)](https://github.com/HiradEmami)
@@ -272,6 +286,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - Anchor: `#divider-neon`
 - [Source file](../../../assets/dividers/static/divider_neon.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_neon.svg)
+
+<a id="divider-split-gradient-blue-purple"></a>
 
 ## divider_split_gradient_blue_purple
 
@@ -307,6 +323,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - [Source file](../../../assets/dividers/static/divider_split_gradient_blue_purple.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_split_gradient_blue_purple.svg)
 
+<a id="divider-triangle-cut"></a>
+
 ## divider_triangle_cut
 
 [![divider_triangle_cut](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_triangle_cut.svg)](https://github.com/HiradEmami)
@@ -340,6 +358,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - Anchor: `#divider-triangle-cut`
 - [Source file](../../../assets/dividers/static/divider_triangle_cut.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_triangle_cut.svg)
+
+<a id="divider-two-beam-lines"></a>
 
 ## divider_two_beam_lines
 
@@ -375,6 +395,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - [Source file](../../../assets/dividers/static/divider_two_beam_lines.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_two_beam_lines.svg)
 
+<a id="divider-wave"></a>
+
 ## divider_wave
 
 [![divider_wave](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_wave.svg)](https://github.com/HiradEmami)
@@ -408,6 +430,8 @@ Top tags: `separator` (12), `static` (12), `motion` (3), `energy` (2), `animated
 - Anchor: `#divider-wave`
 - [Source file](../../../assets/dividers/static/divider_wave.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/static/divider_wave.svg)
+
+<a id="divider-zigzag"></a>
 
 ## divider_zigzag
 
