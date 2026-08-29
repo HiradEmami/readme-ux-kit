@@ -38,6 +38,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 
 ## Visual previews
 
+<a id="icon-autoscale-loop"></a>
+
 ## icon_autoscale_loop
 
 [![icon_autoscale_loop](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_autoscale_loop.svg)](https://github.com/HiradEmami)
@@ -71,6 +73,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-autoscale-loop`
 - [Source file](../../../assets/icons/devops/icon_autoscale_loop.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_autoscale_loop.svg)
+
+<a id="icon-cluster-nodes"></a>
 
 ## icon_cluster_nodes
 
@@ -106,6 +110,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_cluster_nodes.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_cluster_nodes.svg)
 
+<a id="icon-cyber-scan-line"></a>
+
 ## icon_cyber_scan_line
 
 [![icon_cyber_scan_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_cyber_scan_line.svg)](https://github.com/HiradEmami)
@@ -139,6 +145,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-cyber-scan-line`
 - [Source file](../../../assets/icons/devops/icon_cyber_scan_line.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_cyber_scan_line.svg)
+
+<a id="icon-edge-region"></a>
 
 ## icon_edge_region
 
@@ -174,6 +182,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_edge_region.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_edge_region.svg)
 
+<a id="icon-expanding-signal-grid"></a>
+
 ## icon_expanding_signal_grid
 
 [![icon_expanding_signal_grid](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_expanding_signal_grid.svg)](https://github.com/HiradEmami)
@@ -207,6 +217,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-expanding-signal-grid`
 - [Source file](../../../assets/icons/devops/icon_expanding_signal_grid.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_expanding_signal_grid.svg)
+
+<a id="icon-heartbeat-node"></a>
 
 ## icon_heartbeat_node
 
@@ -242,6 +254,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_heartbeat_node.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_heartbeat_node.svg)
 
+<a id="icon-incident-beacon"></a>
+
 ## icon_incident_beacon
 
 [![icon_incident_beacon](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_incident_beacon.svg)](https://github.com/HiradEmami)
@@ -275,6 +289,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-incident-beacon`
 - [Source file](../../../assets/icons/devops/icon_incident_beacon.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_incident_beacon.svg)
+
+<a id="icon-log-stream"></a>
 
 ## icon_log_stream
 
@@ -310,6 +326,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_log_stream.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_log_stream.svg)
 
+<a id="icon-new-scanning-eye"></a>
+
 ## icon_new_scanning_eye
 
 [![icon_new_scanning_eye](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_new_scanning_eye.svg)](https://github.com/HiradEmami)
@@ -343,6 +361,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-new-scanning-eye`
 - [Source file](../../../assets/icons/devops/icon_new_scanning_eye.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_new_scanning_eye.svg)
+
+<a id="icon-observability-scope"></a>
 
 ## icon_observability_scope
 
@@ -378,6 +398,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_observability_scope.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_observability_scope.svg)
 
+<a id="icon-reactor-spin"></a>
+
 ## icon_reactor_spin
 
 [![icon_reactor_spin](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_reactor_spin.svg)](https://github.com/HiradEmami)
@@ -411,6 +433,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-reactor-spin`
 - [Source file](../../../assets/icons/devops/icon_reactor_spin.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_reactor_spin.svg)
+
+<a id="icon-rollout-wave"></a>
 
 ## icon_rollout_wave
 
@@ -446,6 +470,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_rollout_wave.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_rollout_wave.svg)
 
+<a id="icon-runtime-pod"></a>
+
 ## icon_runtime_pod
 
 [![icon_runtime_pod](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_runtime_pod.svg)](https://github.com/HiradEmami)
@@ -480,6 +506,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_runtime_pod.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_runtime_pod.svg)
 
+<a id="icon-secret-vault"></a>
+
 ## icon_secret_vault
 
 [![icon_secret_vault](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_secret_vault.svg)](https://github.com/HiradEmami)
@@ -513,6 +541,8 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-secret-vault`
 - [Source file](../../../assets/icons/devops/icon_secret_vault.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_secret_vault.svg)
+
+<a id="icon-slo-gauge"></a>
 
 ## icon_slo_gauge
 
