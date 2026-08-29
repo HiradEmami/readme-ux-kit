@@ -9,7 +9,7 @@
 [![Build](https://img.shields.io/badge/build-passing-34d399.svg)](#)
 [![API](https://img.shields.io/badge/api-v1-38bdf8.svg)](#api)
 [![SLO](https://img.shields.io/badge/slo-99.9%25-8b5cf6.svg)](#operations)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Purpose
 
@@ -143,4 +143,4 @@ cd service-name
 
 ## License
 
-This project is licensed under the terms in [`LICENSE`](./LICENSE).
+This project is licensed under the terms in `LICENSE`.
