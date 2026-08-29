@@ -12,6 +12,8 @@ To see whether files would change without writing them:
 npm run check:svg:optimize
 ```
 
+`npm run check:svg:optimize` is strict: it exits with a failure when any SVG does not match the safe optimization profile. Because `npm run check:all` includes this check, CI fails on optimization drift.
+
 ## Why Not Aggressive SVGO By Default
 
 Many assets in this kit are animated and rely on readable IDs, gradients, masks, filters, SMIL animation, and CSS keyframes. Aggressive SVG optimization can accidentally break those details.
@@ -50,4 +52,4 @@ npm run generate:previews
 npm run check:all
 ```
 
-Use `npm run check:svg:optimize` in focused cleanup PRs when you want a non-writing report for optimization drift. It is intentionally separate from `npm run check:all` so normal asset work is not blocked by broad formatting churn.
+Use `npm run check:svg:optimize` when you want a non-writing report for optimization drift before CI runs.
