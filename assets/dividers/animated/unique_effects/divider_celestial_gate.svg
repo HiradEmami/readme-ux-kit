@@ -9,11 +9,9 @@
     </filter>
   </defs>
 
-  <!-- full width lines -->
   <line x1="0" y1="45" x2="450" y2="45" stroke="#334155" stroke-width="2"/>
   <line x1="550" y1="45" x2="1000" y2="45" stroke="#334155" stroke-width="2"/>
 
-  <!-- centered -->
   <g transform="translate(500,45)" filter="url(#gateglow)">
     <ellipse rx="42" ry="22" fill="none" stroke="#22d3ee" stroke-width="2"/>
     <ellipse rx="24" ry="42" fill="none" stroke="#a855f7" stroke-width="2"/>
