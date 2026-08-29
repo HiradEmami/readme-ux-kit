@@ -33,6 +33,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 
 ## Visual previews
 
+<a id="banner-floating-dense-particles"></a>
+
 ## banner_floating_dense_particles
 
 [![banner_floating_dense_particles](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_floating_dense_particles.svg)](https://github.com/HiradEmami)
@@ -66,6 +68,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - Anchor: `#banner-floating-dense-particles`
 - [Source file](../../../assets/banners/particles/banner_floating_dense_particles.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_floating_dense_particles.svg)
+
+<a id="banner-floating-dot"></a>
 
 ## banner_floating_dot
 
@@ -101,6 +105,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - [Source file](../../../assets/banners/particles/banner_floating_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_floating_dot.svg)
 
+<a id="banner-horizontal-drifting-particles"></a>
+
 ## banner_horizontal_drifting_particles
 
 [![banner_horizontal_drifting_particles](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_horizontal_drifting_particles.svg)](https://github.com/HiradEmami)
@@ -134,6 +140,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - Anchor: `#banner-horizontal-drifting-particles`
 - [Source file](../../../assets/banners/particles/banner_horizontal_drifting_particles.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_horizontal_drifting_particles.svg)
+
+<a id="banner-network-particles"></a>
 
 ## banner_network_particles
 
@@ -169,6 +177,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - [Source file](../../../assets/banners/particles/banner_network_particles.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_network_particles.svg)
 
+<a id="banner-orbiting-particle"></a>
+
 ## banner_orbiting_particle
 
 [![banner_orbiting_particle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_orbiting_particle.svg)](https://github.com/HiradEmami)
@@ -202,6 +212,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - Anchor: `#banner-orbiting-particle`
 - [Source file](../../../assets/banners/particles/banner_orbiting_particle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_orbiting_particle.svg)
+
+<a id="banner-pulse-glowing-stars"></a>
 
 ## banner_pulse_glowing_stars
 
@@ -237,6 +249,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - [Source file](../../../assets/banners/particles/banner_pulse_glowing_stars.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_pulse_glowing_stars.svg)
 
+<a id="banner-pulse-node"></a>
+
 ## banner_pulse_node
 
 [![banner_pulse_node](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_pulse_node.svg)](https://github.com/HiradEmami)
@@ -270,6 +284,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - Anchor: `#banner-pulse-node`
 - [Source file](../../../assets/banners/particles/banner_pulse_node.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_pulse_node.svg)
+
+<a id="banner-shooting-stars"></a>
 
 ## banner_shooting_stars
 
@@ -305,6 +321,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - [Source file](../../../assets/banners/particles/banner_shooting_stars.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_shooting_stars.svg)
 
+<a id="banner-sparkle-twinkle"></a>
+
 ## banner_sparkle_twinkle
 
 [![banner_sparkle_twinkle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_sparkle_twinkle.svg)](https://github.com/HiradEmami)
@@ -338,6 +356,8 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 - Anchor: `#banner-sparkle-twinkle`
 - [Source file](../../../assets/banners/particles/banner_sparkle_twinkle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_sparkle_twinkle.svg)
+
+<a id="banner-subtle-wave-particle"></a>
 
 ## banner_subtle_wave_particle
 
