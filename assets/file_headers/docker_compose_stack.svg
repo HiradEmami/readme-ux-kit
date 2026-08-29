@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Docker compose file header">
-  <title>Docker Compose Stack</title>
-  <desc>An animated README SVG asset illustrating Docker Compose Stack.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Docker compose file header" aria-labelledby="docker_compose_stack-title docker_compose_stack-desc">
+  <title id="docker_compose_stack-title">Docker Compose Stack</title>
+  <desc id="docker_compose_stack-desc">An animated README SVG asset illustrating Docker Compose Stack.</desc>
   <defs>
     <linearGradient id="docker-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0ea5e9"/>

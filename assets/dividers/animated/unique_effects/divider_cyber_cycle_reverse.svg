@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120" fill="none" role="img">
-  <title>Divider Cyber Cycle Reverse</title>
-  <desc>An animated README SVG asset illustrating Divider Cyber Cycle Reverse.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120" fill="none" role="img" aria-labelledby="divider_cyber_cycle_reverse-title divider_cyber_cycle_reverse-desc">
+  <title id="divider_cyber_cycle_reverse-title">Divider Cyber Cycle Reverse</title>
+  <desc id="divider_cyber_cycle_reverse-desc">An animated README SVG asset illustrating Divider Cyber Cycle Reverse.</desc>
   <defs>
     <linearGradient id="divider-cyber-c" x1="1200" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#06b6d4"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 30" width="100%" height="30" role="img">
-  <title>Divider Moving Neon Gradient</title>
-  <desc>An animated README SVG asset illustrating Divider Moving Neon Gradient.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 30" width="100%" height="30" role="img" aria-labelledby="divider_moving_neon_gradient-title divider_moving_neon_gradient-desc">
+  <title id="divider_moving_neon_gradient-title">Divider Moving Neon Gradient</title>
+  <desc id="divider_moving_neon_gradient-desc">An animated README SVG asset illustrating Divider Moving Neon Gradient.</desc>
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f5ff"/>

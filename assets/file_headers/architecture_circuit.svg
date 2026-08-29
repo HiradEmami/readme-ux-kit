@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Architecture file header">
-  <title>Architecture Circuit</title>
-  <desc>An animated README SVG asset illustrating Architecture Circuit.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Architecture file header" aria-labelledby="architecture_circuit-title architecture_circuit-desc">
+  <title id="architecture_circuit-title">Architecture Circuit</title>
+  <desc id="architecture_circuit-desc">An animated README SVG asset illustrating Architecture Circuit.</desc>
   <defs>
     <linearGradient id="architecture-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#06b6d4"/>

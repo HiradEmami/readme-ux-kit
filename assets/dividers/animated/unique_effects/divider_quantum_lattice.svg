@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60" role="img">
-  <title>Divider Quantum Lattice</title>
-  <desc>An animated README SVG asset illustrating Divider Quantum Lattice.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60" role="img" aria-labelledby="divider_quantum_lattice-title divider_quantum_lattice-desc">
+  <title id="divider_quantum_lattice-title">Divider Quantum Lattice</title>
+  <desc id="divider_quantum_lattice-desc">An animated README SVG asset illustrating Divider Quantum Lattice.</desc>
   <g stroke="#334155" stroke-width="1.5" fill="#0ea5e9">
 
     <line x1="100" y1="30" x2="250" y2="15"/>

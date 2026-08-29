@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="CI/CD file header">
-  <title>CI Cd Pipeline</title>
-  <desc>An animated README SVG asset illustrating CI Cd Pipeline.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="CI/CD file header" aria-labelledby="ci_cd_pipeline-title ci_cd_pipeline-desc">
+  <title id="ci_cd_pipeline-title">CI Cd Pipeline</title>
+  <desc id="ci_cd_pipeline-desc">An animated README SVG asset illustrating CI Cd Pipeline.</desc>
   <defs>
     <linearGradient id="ci-cd-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>

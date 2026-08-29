@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="100%" height="100" role="img">
-  <title>Divider Premium Gradient Flow</title>
-  <desc>An animated README SVG asset illustrating Divider Premium Gradient Flow.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="100%" height="100" role="img" aria-labelledby="divider_premium_gradient_flow-title divider_premium_gradient_flow-desc">
+  <title id="divider_premium_gradient_flow-title">Divider Premium Gradient Flow</title>
+  <desc id="divider_premium_gradient_flow-desc">An animated README SVG asset illustrating Divider Premium Gradient Flow.</desc>
   <defs>
     <linearGradient id="divider-flow-a" x1="0" y1="0" x2="1000" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>

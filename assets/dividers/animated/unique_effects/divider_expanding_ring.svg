@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="100%" height="100" role="img">
-  <title>Divider Expanding Ring</title>
-  <desc>An animated README SVG asset illustrating Divider Expanding Ring.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="100%" height="100" role="img" aria-labelledby="divider_expanding_ring-title divider_expanding_ring-desc">
+  <title id="divider_expanding_ring-title">Divider Expanding Ring</title>
+  <desc id="divider_expanding_ring-desc">An animated README SVG asset illustrating Divider Expanding Ring.</desc>
   <circle cx="500" cy="30" r="5" stroke="#3b82f6" fill="none">
     <animate attributeName="r" values="5;300" dur="2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0" dur="2s" repeatCount="indefinite"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50" role="img">
-  <title>Divider Sliding Segments</title>
-  <desc>An animated README SVG asset illustrating Divider Sliding Segments.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50" role="img" aria-labelledby="divider_sliding_segments-title divider_sliding_segments-desc">
+  <title id="divider_sliding_segments-title">Divider Sliding Segments</title>
+  <desc id="divider_sliding_segments-desc">An animated README SVG asset illustrating Divider Sliding Segments.</desc>
   <rect x="0" y="18" width="1000" height="4" fill="#1e293b"/>
 
   <rect width="120" height="4" y="18" fill="#a855f7">

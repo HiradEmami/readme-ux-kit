@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="100%" height="90" preserveAspectRatio="none" role="img">
-  <title>Divider Celestial Gate</title>
-  <desc>An animated README SVG asset illustrating Divider Celestial Gate.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="100%" height="90" preserveAspectRatio="none" role="img" aria-labelledby="divider_celestial_gate-title divider_celestial_gate-desc">
+  <title id="divider_celestial_gate-title">Divider Celestial Gate</title>
+  <desc id="divider_celestial_gate-desc">An animated README SVG asset illustrating Divider Celestial Gate.</desc>
   <defs>
     <filter id="gateglow">
       <feGaussianBlur stdDeviation="4" result="b"/>

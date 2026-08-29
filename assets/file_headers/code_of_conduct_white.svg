@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Code of conduct file header">
-    <title>Code Of Conduct White</title>
-    <desc>An animated README SVG asset illustrating Code Of Conduct White.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Code of conduct file header" aria-labelledby="code_of_conduct_white-title code_of_conduct_white-desc">
+    <title id="code_of_conduct_white-title">Code Of Conduct White</title>
+    <desc id="code_of_conduct_white-desc">An animated README SVG asset illustrating Code Of Conduct White.</desc>
     <defs>
         <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
             <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.8"/>

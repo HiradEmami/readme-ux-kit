@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40" role="img">
-  <title>Divider Gradient Line</title>
-  <desc>An animated README SVG asset illustrating Divider Gradient Line.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40" role="img" aria-labelledby="divider_gradient_line-title divider_gradient_line-desc">
+  <title id="divider_gradient_line-title">Divider Gradient Line</title>
+  <desc id="divider_gradient_line-desc">An animated README SVG asset illustrating Divider Gradient Line.</desc>
   <defs>
     <linearGradient id="flow1" x1="0" x2="1000">
       <stop offset="0%" stop-color="#22d3ee"/>
