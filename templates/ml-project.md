@@ -8,7 +8,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.11-3776ab.svg)](#)
 [![Model](https://img.shields.io/badge/model-experimental-8b5cf6.svg)](#model-card)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Summary
 
@@ -134,4 +134,4 @@ print(prediction)
 
 ## License
 
-This project is licensed under the terms in [`LICENSE`](./LICENSE). Dataset and model weights may have separate terms; document them here.
+This project is licensed under the terms in `LICENSE`. Dataset and model weights may have separate terms; document them here.
