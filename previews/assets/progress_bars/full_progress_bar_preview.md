@@ -38,6 +38,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 
 ## Visual previews
 
+<a id="progress-bar-classic"></a>
+
 ## progress_bar_classic
 
 [![progress_bar_classic](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_classic.svg)](https://github.com/HiradEmami)
@@ -71,6 +73,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - Anchor: `#progress-bar-classic`
 - [Source file](../../../assets/progress_bars/progress_bar_classic.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_classic.svg)
+
+<a id="progress-bar-dataset-freshness"></a>
 
 ## progress_bar_dataset_freshness
 
@@ -106,6 +110,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - [Source file](../../../assets/progress_bars/progress_bar_dataset_freshness.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_dataset_freshness.svg)
 
+<a id="progress-bar-dependency-health"></a>
+
 ## progress_bar_dependency_health
 
 [![progress_bar_dependency_health](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_dependency_health.svg)](https://github.com/HiradEmami)
@@ -139,6 +145,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - Anchor: `#progress-bar-dependency-health`
 - [Source file](../../../assets/progress_bars/progress_bar_dependency_health.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_dependency_health.svg)
+
+<a id="progress-bar-gradient-sweep"></a>
 
 ## progress_bar_gradient_sweep
 
@@ -174,6 +182,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - [Source file](../../../assets/progress_bars/progress_bar_gradient_sweep.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_gradient_sweep.svg)
 
+<a id="progress-bar-indeterminate"></a>
+
 ## progress_bar_indeterminate
 
 [![progress_bar_indeterminate](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_indeterminate.svg)](https://github.com/HiradEmami)
@@ -207,6 +217,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - Anchor: `#progress-bar-indeterminate`
 - [Source file](../../../assets/progress_bars/progress_bar_indeterminate.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_indeterminate.svg)
+
+<a id="progress-bar-maturity-ladder"></a>
 
 ## progress_bar_maturity_ladder
 
@@ -242,6 +254,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - [Source file](../../../assets/progress_bars/progress_bar_maturity_ladder.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_maturity_ladder.svg)
 
+<a id="progress-bar-migration-steps"></a>
+
 ## progress_bar_migration_steps
 
 [![progress_bar_migration_steps](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_migration_steps.svg)](https://github.com/HiradEmami)
@@ -275,6 +289,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - Anchor: `#progress-bar-migration-steps`
 - [Source file](../../../assets/progress_bars/progress_bar_migration_steps.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_migration_steps.svg)
+
+<a id="progress-bar-model-eval"></a>
 
 ## progress_bar_model_eval
 
@@ -310,6 +326,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - [Source file](../../../assets/progress_bars/progress_bar_model_eval.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_model_eval.svg)
 
+<a id="progress-bar-onboarding-completion"></a>
+
 ## progress_bar_onboarding_completion
 
 [![progress_bar_onboarding_completion](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_onboarding_completion.svg)](https://github.com/HiradEmami)
@@ -343,6 +361,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - Anchor: `#progress-bar-onboarding-completion`
 - [Source file](../../../assets/progress_bars/progress_bar_onboarding_completion.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_onboarding_completion.svg)
+
+<a id="progress-bar-release-readiness"></a>
 
 ## progress_bar_release_readiness
 
@@ -378,6 +398,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - [Source file](../../../assets/progress_bars/progress_bar_release_readiness.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_release_readiness.svg)
 
+<a id="progress-bar-roadmap-quarters"></a>
+
 ## progress_bar_roadmap_quarters
 
 [![progress_bar_roadmap_quarters](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_roadmap_quarters.svg)](https://github.com/HiradEmami)
@@ -411,6 +433,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - Anchor: `#progress-bar-roadmap-quarters`
 - [Source file](../../../assets/progress_bars/progress_bar_roadmap_quarters.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_roadmap_quarters.svg)
+
+<a id="progress-bar-segment"></a>
 
 ## progress_bar_segment
 
@@ -446,6 +470,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - [Source file](../../../assets/progress_bars/progress_bar_segment.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_segment.svg)
 
+<a id="progress-bar-smooth"></a>
+
 ## progress_bar_smooth
 
 [![progress_bar_smooth](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_smooth.svg)](https://github.com/HiradEmami)
@@ -480,6 +506,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - [Source file](../../../assets/progress_bars/progress_bar_smooth.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_smooth.svg)
 
+<a id="progress-bar-test-coverage"></a>
+
 ## progress_bar_test_coverage
 
 [![progress_bar_test_coverage](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_test_coverage.svg)](https://github.com/HiradEmami)
@@ -513,6 +541,8 @@ Top tags: `progress` (15), `status` (15), `animated` (14), `motion` (14), `testi
 - Anchor: `#progress-bar-test-coverage`
 - [Source file](../../../assets/progress_bars/progress_bar_test_coverage.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/progress_bars/progress_bar_test_coverage.svg)
+
+<a id="progress-bar-uptime-slo"></a>
 
 ## progress_bar_uptime_slo
 
