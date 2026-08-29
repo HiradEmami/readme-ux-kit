@@ -10,7 +10,6 @@
     </linearGradient>
   </defs>
 
-  <!-- extended symmetric wave -->
   <path id="wave1"
         d="M0 35 C125 10, 250 10, 375 35 S625 60, 1000 35"
         fill="none"
@@ -32,7 +31,6 @@
     <animate attributeName="stroke-dashoffset" from="0" to="44" dur="2.5s" repeatCount="indefinite"/>
   </path>
 
-  <!-- particles now travel full width -->
   <circle r="4" fill="#22d3ee">
     <animateMotion dur="3s" repeatCount="indefinite" rotate="auto">
       <mpath href="#wave1"/>
