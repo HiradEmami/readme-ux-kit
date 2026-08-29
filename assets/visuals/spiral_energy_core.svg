@@ -60,7 +60,6 @@
 
   <rect width="1024" height="1024" fill="url(#bgGlow)"/>
 
-  <!-- ambient field -->
   <g filter="url(#bigGlow)" opacity="0.5">
     <circle cx="512" cy="512" r="250" fill="#22d3ee" opacity="0.08">
       <animate attributeName="r" values="230;270;230" dur="7s" repeatCount="indefinite"/>
@@ -72,7 +71,6 @@
     </circle>
   </g>
 
-  <!-- outer halo -->
   <g transform="translate(512 512)" filter="url(#softGlow)" opacity="0.55">
     <circle r="320" fill="none" stroke="#1e293b" stroke-width="2"/>
     <circle r="290" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="12 18">
@@ -83,9 +81,8 @@
     </circle>
   </g>
 
-  <!-- main spiral system -->
   <g transform="translate(512 512)" filter="url(#warp)">
-    <!-- arm 1 -->
+
     <path d="
       M 0 -245
       C 125 -238 210 -150 202 -58
@@ -106,7 +103,6 @@
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
     </path>
 
-    <!-- arm 2 -->
     <path d="
       M 0 -215
       C 106 -208 176 -132 169 -54
@@ -125,7 +121,6 @@
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
     </path>
 
-    <!-- arm 3 subtle -->
     <path d="
       M 0 -280
       C 154 -272 252 -176 246 -72
@@ -145,7 +140,6 @@
     </path>
   </g>
 
-  <!-- rotating shard ring -->
   <g transform="translate(512 512)" opacity="0.75">
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="22s" repeatCount="indefinite"/>
@@ -158,7 +152,6 @@
     </g>
   </g>
 
-  <!-- orbiters -->
   <g transform="translate(512 512)">
     <circle r="6" fill="#ffffff" filter="url(#softGlow)">
       <animateMotion dur="7s" repeatCount="indefinite"
@@ -174,7 +167,6 @@
     </circle>
   </g>
 
-  <!-- inner turbulence ring -->
   <g transform="translate(512 512)" filter="url(#softGlow)">
     <path d="
       M 0 -118
@@ -194,7 +186,6 @@
     </path>
   </g>
 
-  <!-- core -->
   <g transform="translate(512 512)">
     <circle r="112" fill="url(#coreGrad)" filter="url(#bigGlow)">
       <animate attributeName="r" values="104;118;104" dur="4.6s" repeatCount="indefinite"/>
@@ -207,7 +198,6 @@
     <circle r="48" fill="#ffffff" opacity="0.96"/>
     <ellipse cx="-16" cy="-18" rx="26" ry="18" fill="#ffffff" opacity="0.55"/>
 
-    <!-- core flare -->
     <g opacity="0.75" filter="url(#softGlow)">
       <path d="M0 -145 L12 -108 L0 -72 L-12 -108 Z" fill="#dff7ff">
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
@@ -224,7 +214,6 @@
     </g>
   </g>
 
-  <!-- tiny drifting sparks -->
   <g opacity="0.65" filter="url(#softGlow)">
     <circle cx="296" cy="270" r="2" fill="#ffffff">
       <animate attributeName="cy" values="270;250;270" dur="5s" repeatCount="indefinite"/>
