@@ -7,7 +7,6 @@
     </linearGradient>
   </defs>
 
-  <!-- symmetric geometry -->
   <path d="M0 60 H420 L480 20 H720 L780 60 H1200"
         stroke="#1f2937" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 
@@ -17,7 +16,6 @@
     <animate attributeName="stroke-dashoffset" values="1780;0" dur="3s" repeatCount="indefinite"/>
   </path>
 
-  <!-- perfectly centered UI -->
   <rect x="560" y="46" width="80" height="28" rx="14" fill="#0f172a" stroke="#334155"/>
 
   <circle cx="585" cy="60" r="5" fill="#22d3ee"/>
