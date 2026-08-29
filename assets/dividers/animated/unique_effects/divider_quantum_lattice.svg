@@ -1,19 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60">
   <g stroke="#334155" stroke-width="1.5" fill="#0ea5e9">
 
-    <!-- left cluster -->
     <line x1="100" y1="30" x2="250" y2="15"/>
     <line x1="100" y1="30" x2="250" y2="45"/>
     <line x1="250" y1="15" x2="400" y2="30"/>
     <line x1="250" y1="45" x2="400" y2="30"/>
 
-    <!-- right cluster -->
     <line x1="600" y1="30" x2="750" y2="15"/>
     <line x1="600" y1="30" x2="750" y2="45"/>
     <line x1="750" y1="15" x2="900" y2="30"/>
     <line x1="750" y1="45" x2="900" y2="30"/>
 
-    <!-- nodes -->
     <circle cx="100" cy="30" r="4"/>
     <circle cx="250" cy="15" r="4"/>
     <circle cx="250" cy="45" r="4"/>
@@ -25,7 +22,6 @@
     <circle cx="900" cy="30" r="4"/>
   </g>
 
-  <!-- moving signal -->
   <circle r="5" fill="#22d3ee">
     <animateMotion dur="3s" repeatCount="indefinite"
       path="M100 30 L250 15 L400 30 L600 30 L750 45 L900 30"/>
