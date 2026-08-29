@@ -28,7 +28,6 @@
 
 <rect width="1024" height="1024" fill="url(#bg)"/>
 
-<!-- rotating outer rings -->
 <g transform="translate(512 512)">
   <circle r="420" stroke="#1e293b" fill="none"/>
   <circle r="380" stroke="#22d3ee" stroke-dasharray="10 30" opacity="0.3">
@@ -39,9 +38,8 @@
   </circle>
 </g>
 
-<!-- dense neural lattice -->
 <g stroke="url(#link)" stroke-width="2" opacity="0.6">
-  <!-- MANY crossing paths -->
+
   <path d="M200 400 Q512 200 824 400"/>
   <path d="M200 500 Q512 350 824 500"/>
   <path d="M200 600 Q512 800 824 600"/>
@@ -49,7 +47,6 @@
   <path d="M250 700 Q512 500 780 700"/>
 </g>
 
-<!-- signal flow -->
 <g>
   <circle r="4" fill="#22d3ee">
     <animateMotion dur="2s" repeatCount="indefinite"
@@ -62,7 +59,6 @@
   </circle>
 </g>
 
-<!-- core -->
 <g transform="translate(512 512)">
   <circle r="120" fill="url(#core)" filter="url(#glow)">
     <animate attributeName="r" values="110;130;110" dur="3s" repeatCount="indefinite"/>
