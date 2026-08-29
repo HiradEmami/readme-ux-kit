@@ -7,7 +7,6 @@
     </linearGradient>
   </defs>
 
-  <!-- title -->
   <text x="380" y="60" text-anchor="middle"
         font-family="Arial"
         font-size="26"
@@ -16,16 +15,12 @@
     CORE ML SYSTEM COMPONENTS
   </text>
 
-  <!-- === helper: isometric pillar pattern === -->
-  <!-- each pillar = 3 faces -->
-
-  <!-- CODE -->
   <g>
-    <!-- top -->
+
     <polygon points="100,120 140,100 180,120 140,140" fill="#38bdf8"/>
-    <!-- left -->
+
     <polygon points="100,120 140,140 140,260 100,240" fill="#0ea5e9"/>
-    <!-- right -->
+
     <polygon points="140,140 180,120 180,240 140,260" fill="#0284c7"/>
 
     <text x="140" y="300" text-anchor="middle"
@@ -34,7 +29,6 @@
     </text>
   </g>
 
-  <!-- MODEL -->
   <g>
     <polygon points="260,120 300,100 340,120 300,140" fill="#f59e0b"/>
     <polygon points="260,120 300,140 300,260 260,240" fill="#d97706"/>
@@ -46,7 +40,6 @@
     </text>
   </g>
 
-  <!-- DATA -->
   <g>
     <polygon points="420,120 460,100 500,120 460,140" fill="#fca5a5"/>
     <polygon points="420,120 460,140 460,260 420,240" fill="#f87171"/>
@@ -58,7 +51,6 @@
     </text>
   </g>
 
-  <!-- RESEARCH -->
   <g>
     <polygon points="580,120 620,100 660,120 620,140" fill="#cbd5e1"/>
     <polygon points="580,120 620,140 620,260 580,240" fill="#94a3b8"/>
