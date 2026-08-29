@@ -8,7 +8,6 @@
 
   <g transform="translate(0,120) scale(1,-1)">
 
-    <!-- back wave -->
     <path fill="#1e293b" opacity="0.4">
       <animate attributeName="d" dur="7s" repeatCount="indefinite"
         values="
@@ -18,7 +17,6 @@
         "/>
     </path>
 
-    <!-- front wave -->
     <path fill="url(#wave1)">
       <animate attributeName="d" dur="5s" repeatCount="indefinite"
         values="
