@@ -9,7 +9,7 @@
 [![Paper](https://img.shields.io/badge/paper-preprint-38bdf8.svg)](#citation)
 [![Code](https://img.shields.io/badge/code-reproducible-34d399.svg)](#reproducibility)
 [![Data](https://img.shields.io/badge/data-documented-8b5cf6.svg)](#data)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Abstract
 
@@ -131,4 +131,4 @@ Expected artifacts:
 
 ## License
 
-Code is licensed under the terms in [`LICENSE`](./LICENSE). Data, model weights, and third-party artifacts may have separate licenses; document those terms here.
+Code is licensed under the terms in `LICENSE`. Data, model weights, and third-party artifacts may have separate licenses; document those terms here.
