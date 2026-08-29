@@ -9,17 +9,17 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - Assets: 30
 - Groups: 3
 - Best for: README calls to action, install links, documentation links, sponsorship links, profile links, and status actions.
-- Category tags: `button`, `cta`
+- Category tags: `button`
 
 ## Tag summary
 
-`button` (30), `cta` (30), `static` (18), `animated` (12), `motion` (12), `profile` (10), `social` (10), `status` (10), `docs` (3), `build` (2), `api` (1), `code` (1)
+`button` (30), `static` (18), `animated` (12), `motion` (12), `cta` (10), `profile` (10), `social` (10), `status` (10), `docs` (3), `build` (2), `api` (1), `code` (1)
 
 ## Full previews
 
 | Group | Count | Description | Full preview |
 | --- | ---: | --- | --- |
-| Cta | 10 | Primary call-to-action buttons for install, docs, launch, demo, API, and template links. | [Open](./buttons/full_button_cta_preview.md) |
+| CTA | 10 | Primary call-to-action buttons for install, docs, launch, demo, API, and template links. | [Open](./buttons/full_button_cta_preview.md) |
 | Social | 10 | Profile, community, sponsor, portfolio, and discussion buttons. | [Open](./buttons/full_button_social_preview.md) |
 | Status | 10 | Status and alert icons for success, warning, danger, info, live, and deprecated states. | [Open](./buttons/full_button_status_preview.md) |
 
