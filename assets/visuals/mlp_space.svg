@@ -96,7 +96,6 @@
 
   <rect width="1024" height="1024" fill="url(#bgGrad)"/>
 
-  <!-- ambient cognition field -->
   <g filter="url(#bigGlow)" opacity="0.55">
     <circle cx="512" cy="512" r="320" fill="#22d3ee" opacity="0.05">
       <animate attributeName="r" values="300;340;300" dur="8s" repeatCount="indefinite"/>
@@ -110,7 +109,6 @@
     </ellipse>
   </g>
 
-  <!-- rotating cognition rings -->
   <g transform="translate(512 512)" opacity="0.7">
     <circle r="360" fill="none" stroke="#1e293b" stroke-width="2"/>
     <circle r="320" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="10 18">
@@ -124,9 +122,8 @@
     </ellipse>
   </g>
 
-  <!-- connection lattice -->
   <g opacity="0.9" filter="url(#warp)" stroke-linecap="round">
-    <!-- inputs to hidden 1 -->
+
     <line x1="210" y1="260" x2="390" y2="210" stroke="url(#linkGradA)" stroke-width="4"/>
     <line x1="210" y1="260" x2="390" y2="360" stroke="url(#linkGradA)" stroke-width="3"/>
     <line x1="210" y1="390" x2="390" y2="210" stroke="url(#linkGradA)" stroke-width="3"/>
@@ -140,7 +137,6 @@
     <line x1="210" y1="780" x2="390" y2="675" stroke="url(#linkGradA)" stroke-width="3"/>
     <line x1="210" y1="780" x2="390" y2="820" stroke="url(#linkGradA)" stroke-width="4"/>
 
-    <!-- hidden 1 to hidden 2 -->
     <line x1="390" y1="210" x2="540" y2="280" stroke="url(#linkGradB)" stroke-width="3"/>
     <line x1="390" y1="210" x2="540" y2="470" stroke="url(#linkGradB)" stroke-width="2"/>
     <line x1="390" y1="360" x2="540" y2="280" stroke="url(#linkGradB)" stroke-width="3"/>
@@ -153,13 +149,11 @@
     <line x1="390" y1="675" x2="540" y2="665" stroke="url(#linkGradB)" stroke-width="4"/>
     <line x1="390" y1="820" x2="540" y2="665" stroke="url(#linkGradB)" stroke-width="3"/>
 
-    <!-- hidden 2 to output -->
     <line x1="540" y1="280" x2="730" y2="512" stroke="url(#linkGradA)" stroke-width="3"/>
     <line x1="540" y1="470" x2="730" y2="512" stroke="url(#linkGradA)" stroke-width="5"/>
     <line x1="540" y1="665" x2="730" y2="512" stroke="url(#linkGradA)" stroke-width="3"/>
   </g>
 
-  <!-- layer halos -->
   <g opacity="0.18" filter="url(#bigGlow)">
     <ellipse cx="210" cy="520" rx="90" ry="360" fill="#22d3ee"/>
     <ellipse cx="390" cy="515" rx="110" ry="400" fill="#67e8f9"/>
@@ -167,7 +161,6 @@
     <circle cx="730" cy="512" r="120" fill="#c4b5fd"/>
   </g>
 
-  <!-- input layer -->
   <g>
     <g transform="translate(210 260)">
       <use href="#cyanNode"/>
@@ -201,7 +194,6 @@
     </g>
   </g>
 
-  <!-- hidden layer 1 -->
   <g>
     <g transform="translate(390 210)">
       <use href="#violetNode"/>
@@ -235,7 +227,6 @@
     </g>
   </g>
 
-  <!-- hidden layer 2 -->
   <g>
     <g transform="translate(540 280)">
       <use href="#violetNode"/>
@@ -257,7 +248,6 @@
     </g>
   </g>
 
-  <!-- output singularity -->
   <g transform="translate(730 512)">
     <circle r="96" fill="url(#coreGrad)" filter="url(#bigGlow)">
       <animate attributeName="r" values="88;102;88" dur="4.4s" repeatCount="indefinite"/>
@@ -272,7 +262,6 @@
     </circle>
   </g>
 
-  <!-- signal packets -->
   <g>
     <use href="#signalDotA">
       <animateMotion dur="2.7s" repeatCount="indefinite"
@@ -326,7 +315,6 @@
     </use>
   </g>
 
-  <!-- decorative shard markers -->
   <g transform="translate(512 512)" opacity="0.7" filter="url(#softGlow)">
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
@@ -340,7 +328,6 @@
     </g>
   </g>
 
-  <!-- tiny background sparks -->
   <g opacity="0.6" filter="url(#softGlow)">
     <circle cx="146" cy="198" r="2" fill="#ffffff">
       <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" repeatCount="indefinite"/>
