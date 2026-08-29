@@ -35,6 +35,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 
 ## Visual previews
 
+<a id="banner-dna-waves"></a>
+
 ## banner_dna_waves
 
 [![banner_dna_waves](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_dna_waves.svg)](https://github.com/HiradEmami)
@@ -68,6 +70,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - Anchor: `#banner-dna-waves`
 - [Source file](../../../assets/banners/waves/banner_dna_waves.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_dna_waves.svg)
+
+<a id="banner-gradient-wave"></a>
 
 ## banner_gradient_wave
 
@@ -103,6 +107,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - [Source file](../../../assets/banners/waves/banner_gradient_wave.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_gradient_wave.svg)
 
+<a id="banner-wave-bottom"></a>
+
 ## banner_wave_bottom
 
 [![banner_wave_bottom](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_bottom.svg)](https://github.com/HiradEmami)
@@ -136,6 +142,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - Anchor: `#banner-wave-bottom`
 - [Source file](../../../assets/banners/waves/banner_wave_bottom.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_bottom.svg)
+
+<a id="banner-wave-double-premium-bottom"></a>
 
 ## banner_wave_double_premium_bottom
 
@@ -171,6 +179,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - [Source file](../../../assets/banners/waves/banner_wave_double_premium_bottom.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_double_premium_bottom.svg)
 
+<a id="banner-wave-double-premium-top"></a>
+
 ## banner_wave_double_premium_top
 
 [![banner_wave_double_premium_top](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_double_premium_top.svg)](https://github.com/HiradEmami)
@@ -204,6 +214,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - Anchor: `#banner-wave-double-premium-top`
 - [Source file](../../../assets/banners/waves/banner_wave_double_premium_top.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_double_premium_top.svg)
+
+<a id="banner-wave-sharp-bottom"></a>
 
 ## banner_wave_sharp_bottom
 
@@ -239,6 +251,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - [Source file](../../../assets/banners/waves/banner_wave_sharp_bottom.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_sharp_bottom.svg)
 
+<a id="banner-wave-sharp-top"></a>
+
 ## banner_wave_sharp_top
 
 [![banner_wave_sharp_top](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_sharp_top.svg)](https://github.com/HiradEmami)
@@ -272,6 +286,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - Anchor: `#banner-wave-sharp-top`
 - [Source file](../../../assets/banners/waves/banner_wave_sharp_top.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_sharp_top.svg)
+
+<a id="banner-wave-slow-float-bottom"></a>
 
 ## banner_wave_slow_float_bottom
 
@@ -307,6 +323,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - [Source file](../../../assets/banners/waves/banner_wave_slow_float_bottom.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_slow_float_bottom.svg)
 
+<a id="banner-wave-slow-float-top"></a>
+
 ## banner_wave_slow_float_top
 
 [![banner_wave_slow_float_top](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_slow_float_top.svg)](https://github.com/HiradEmami)
@@ -340,6 +358,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - Anchor: `#banner-wave-slow-float-top`
 - [Source file](../../../assets/banners/waves/banner_wave_slow_float_top.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_slow_float_top.svg)
+
+<a id="banner-wave-soft-bottom"></a>
 
 ## banner_wave_soft_bottom
 
@@ -375,6 +395,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - [Source file](../../../assets/banners/waves/banner_wave_soft_bottom.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_soft_bottom.svg)
 
+<a id="banner-wave-soft-top"></a>
+
 ## banner_wave_soft_top
 
 [![banner_wave_soft_top](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_soft_top.svg)](https://github.com/HiradEmami)
@@ -408,6 +430,8 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - Anchor: `#banner-wave-soft-top`
 - [Source file](../../../assets/banners/waves/banner_wave_soft_top.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_soft_top.svg)
+
+<a id="banner-wave-top"></a>
 
 ## banner_wave_top
 
