@@ -1,7 +1,7 @@
 <svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
-  <!-- Organic neuron gradients -->
+
   <radialGradient id="neuronA">
     <stop offset="0%" stop-color="#fff"/>
     <stop offset="60%" stop-color="#7dd3fc"/>
@@ -20,7 +20,6 @@
     <stop offset="100%" stop-color="#92400e"/>
   </radialGradient>
 
-  <!-- soft tissue glow -->
   <filter id="bioGlow">
     <feGaussianBlur stdDeviation="3" result="b"/>
     <feMerge>
@@ -31,11 +30,8 @@
 
 </defs>
 
-<!-- ORGANIC CONNECTIONS -->
-
 <g stroke-linecap="round" fill="none" opacity="0.5">
 
-  <!-- input → hidden -->
   <path d="M120 120 Q240 80 360 160" stroke="#7dd3fc" stroke-width="3"/>
   <path d="M120 240 Q260 200 360 160" stroke="#7dd3fc" stroke-width="2"/>
   <path d="M120 240 Q260 260 360 300" stroke="#7dd3fc" stroke-width="3"/>
@@ -43,14 +39,11 @@
   <path d="M120 360 Q260 420 360 440" stroke="#7dd3fc" stroke-width="3"/>
   <path d="M120 480 Q260 460 360 440" stroke="#7dd3fc" stroke-width="2"/>
 
-  <!-- hidden → output -->
   <path d="M360 160 Q520 120 700 300" stroke="#c4b5fd" stroke-width="3"/>
   <path d="M360 300 Q540 300 700 300" stroke="#c4b5fd" stroke-width="4"/>
   <path d="M360 440 Q520 480 700 300" stroke="#c4b5fd" stroke-width="3"/>
 
 </g>
-
-<!-- SIGNAL PULSES (synaptic firing) -->
 
 <g>
   <circle r="3" fill="#7dd3fc" filter="url(#bioGlow)">
@@ -69,16 +62,12 @@
   </circle>
 </g>
 
-<!-- INPUT NEURONS -->
-
 <g>
   <circle cx="120" cy="120" r="14" fill="url(#neuronA)" filter="url(#bioGlow)"/>
   <circle cx="120" cy="240" r="16" fill="url(#neuronA)" filter="url(#bioGlow)"/>
   <circle cx="120" cy="360" r="15" fill="url(#neuronA)" filter="url(#bioGlow)"/>
   <circle cx="120" cy="480" r="14" fill="url(#neuronA)" filter="url(#bioGlow)"/>
 </g>
-
-<!-- HIDDEN NEURONS (irregular + pulsing like tissue) -->
 
 <g>
   <circle cx="360" cy="160" r="18" fill="url(#neuronB)" filter="url(#bioGlow)">
@@ -93,8 +82,6 @@
     <animate attributeName="r" values="16;20;16" dur="3.2s" repeatCount="indefinite"/>
   </circle>
 </g>
-
-<!-- OUTPUT NEURON (dominant brain core) -->
 
 <g>
   <circle cx="700" cy="300" r="45" fill="url(#coreNeuron)" filter="url(#bioGlow)">
