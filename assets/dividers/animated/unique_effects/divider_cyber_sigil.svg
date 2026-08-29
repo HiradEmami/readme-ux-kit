@@ -9,11 +9,9 @@
     </filter>
   </defs>
 
-  <!-- Full-width lines -->
   <line x1="0" y1="35" x2="420" y2="35" stroke="#334155" stroke-width="2"/>
   <line x1="580" y1="35" x2="1000" y2="35" stroke="#334155" stroke-width="2"/>
 
-  <!-- Center symbol -->
   <g transform="translate(500,35)" filter="url(#pinkglow)">
     <g stroke="#f472b6" fill="none" stroke-width="2">
       <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11"/>
