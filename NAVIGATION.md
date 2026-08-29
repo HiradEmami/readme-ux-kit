@@ -20,6 +20,7 @@ Use this page as the repository map for `readme-ux-kit`.
 | Category | Preview | Source |
 | --- | --- | --- |
 | Banners | [`previews/assets/banners.md`](./previews/assets/banners.md) | [`assets/banners/`](./assets/banners/) |
+| Buttons | [`previews/assets/buttons.md`](./previews/assets/buttons.md) | [`assets/buttons/`](./assets/buttons/) |
 | Dividers | [`previews/assets/dividers.md`](./previews/assets/dividers.md) | [`assets/dividers/`](./assets/dividers/) |
 | File headers | [`previews/assets/file_headers.md`](./previews/assets/file_headers.md) | [`assets/file_headers/`](./assets/file_headers/) |
 | Headers | [`previews/assets/headers.md`](./previews/assets/headers.md) | [`assets/headers/`](./assets/headers/) |
@@ -49,6 +50,21 @@ Use this page as the repository map for `readme-ux-kit`.
 | [`themes/cyberpunk/example.md`](./themes/cyberpunk/example.md) | Security, DevOps, infrastructure, and high-energy technical repos. |
 | [`themes/cyberpunk/colors.md`](./themes/cyberpunk/colors.md) | Cyberpunk color system. |
 | [`themes/cyberpunk/assets-map.md`](./themes/cyberpunk/assets-map.md) | Cyberpunk asset recommendations. |
+| [`themes/enterprise/example.md`](./themes/enterprise/example.md) | SaaS platforms, internal tools, and production systems. |
+| [`themes/enterprise/colors.md`](./themes/enterprise/colors.md) | Enterprise color system. |
+| [`themes/enterprise/assets-map.md`](./themes/enterprise/assets-map.md) | Enterprise asset recommendations. |
+| [`themes/docs-clean/example.md`](./themes/docs-clean/example.md) | Documentation sites, SDK guides, and API references. |
+| [`themes/docs-clean/colors.md`](./themes/docs-clean/colors.md) | Docs clean color system. |
+| [`themes/docs-clean/assets-map.md`](./themes/docs-clean/assets-map.md) | Docs clean asset recommendations. |
+| [`themes/security-ops/example.md`](./themes/security-ops/example.md) | Security tools, scanners, policies, and incident workflows. |
+| [`themes/security-ops/colors.md`](./themes/security-ops/colors.md) | Security ops color system. |
+| [`themes/security-ops/assets-map.md`](./themes/security-ops/assets-map.md) | Security ops asset recommendations. |
+| [`themes/data-lab/example.md`](./themes/data-lab/example.md) | Analytics, notebooks, pipelines, and research datasets. |
+| [`themes/data-lab/colors.md`](./themes/data-lab/colors.md) | Data lab color system. |
+| [`themes/data-lab/assets-map.md`](./themes/data-lab/assets-map.md) | Data lab asset recommendations. |
+| [`themes/open-source-classic/example.md`](./themes/open-source-classic/example.md) | Community libraries, frameworks, and starter kits. |
+| [`themes/open-source-classic/colors.md`](./themes/open-source-classic/colors.md) | Open source classic color system. |
+| [`themes/open-source-classic/assets-map.md`](./themes/open-source-classic/assets-map.md) | Open source classic asset recommendations. |
 
 ## Components
 
