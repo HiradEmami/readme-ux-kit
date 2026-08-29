@@ -44,6 +44,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 
 ## Visual previews
 
+<a id="icon-check-circle"></a>
+
 ## icon_check_circle
 
 [![icon_check_circle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_check_circle.svg)](https://github.com/HiradEmami)
@@ -77,6 +79,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-check-circle`
 - [Source file](../../../assets/icons/status/icon_check_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_check_circle.svg)
+
+<a id="icon-danger"></a>
 
 ## icon_danger
 
@@ -112,6 +116,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_danger.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_danger.svg)
 
+<a id="icon-deprecated"></a>
+
 ## icon_deprecated
 
 [![icon_deprecated](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_deprecated.svg)](https://github.com/HiradEmami)
@@ -145,6 +151,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-deprecated`
 - [Source file](../../../assets/icons/status/icon_deprecated.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_deprecated.svg)
+
+<a id="icon-info"></a>
 
 ## icon_info
 
@@ -180,6 +188,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_info.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_info.svg)
 
+<a id="icon-info-circle"></a>
+
 ## icon_info_circle
 
 [![icon_info_circle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_info_circle.svg)](https://github.com/HiradEmami)
@@ -213,6 +223,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-info-circle`
 - [Source file](../../../assets/icons/status/icon_info_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_info_circle.svg)
+
+<a id="icon-live"></a>
 
 ## icon_live
 
@@ -248,6 +260,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_live.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_live.svg)
 
+<a id="icon-notice"></a>
+
 ## icon_notice
 
 [![icon_notice](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_notice.svg)](https://github.com/HiradEmami)
@@ -281,6 +295,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-notice`
 - [Source file](../../../assets/icons/status/icon_notice.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_notice.svg)
+
+<a id="icon-status-archived"></a>
 
 ## icon_status_archived
 
@@ -316,6 +332,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_status_archived.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_archived.svg)
 
+<a id="icon-status-blocked"></a>
+
 ## icon_status_blocked
 
 [![icon_status_blocked](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_blocked.svg)](https://github.com/HiradEmami)
@@ -349,6 +367,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-status-blocked`
 - [Source file](../../../assets/icons/status/icon_status_blocked.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_blocked.svg)
+
+<a id="icon-status-experimental"></a>
 
 ## icon_status_experimental
 
@@ -384,6 +404,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_status_experimental.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_experimental.svg)
 
+<a id="icon-status-paused"></a>
+
 ## icon_status_paused
 
 [![icon_status_paused](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_paused.svg)](https://github.com/HiradEmami)
@@ -417,6 +439,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-status-paused`
 - [Source file](../../../assets/icons/status/icon_status_paused.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_paused.svg)
+
+<a id="icon-status-processing"></a>
 
 ## icon_status_processing
 
@@ -452,6 +476,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_status_processing.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_processing.svg)
 
+<a id="icon-status-queued"></a>
+
 ## icon_status_queued
 
 [![icon_status_queued](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_queued.svg)](https://github.com/HiradEmami)
@@ -485,6 +511,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-status-queued`
 - [Source file](../../../assets/icons/status/icon_status_queued.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_queued.svg)
+
+<a id="icon-status-reviewing"></a>
 
 ## icon_status_reviewing
 
@@ -520,6 +548,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_status_reviewing.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_reviewing.svg)
 
+<a id="icon-status-shipping"></a>
+
 ## icon_status_shipping
 
 [![icon_status_shipping](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_shipping.svg)](https://github.com/HiradEmami)
@@ -553,6 +583,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-status-shipping`
 - [Source file](../../../assets/icons/status/icon_status_shipping.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_shipping.svg)
+
+<a id="icon-status-syncing"></a>
 
 ## icon_status_syncing
 
@@ -588,6 +620,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_status_syncing.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_syncing.svg)
 
+<a id="icon-status-verified"></a>
+
 ## icon_status_verified
 
 [![icon_status_verified](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_verified.svg)](https://github.com/HiradEmami)
@@ -621,6 +655,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-status-verified`
 - [Source file](../../../assets/icons/status/icon_status_verified.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_verified.svg)
+
+<a id="icon-success"></a>
 
 ## icon_success
 
@@ -656,6 +692,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_success.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_success.svg)
 
+<a id="icon-warning"></a>
+
 ## icon_warning
 
 [![icon_warning](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_warning.svg)](https://github.com/HiradEmami)
@@ -690,6 +728,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - [Source file](../../../assets/icons/status/icon_warning.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_warning.svg)
 
+<a id="icon-warning-triangle"></a>
+
 ## icon_warning_triangle
 
 [![icon_warning_triangle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_warning_triangle.svg)](https://github.com/HiradEmami)
@@ -723,6 +763,8 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-warning-triangle`
 - [Source file](../../../assets/icons/status/icon_warning_triangle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_warning_triangle.svg)
+
+<a id="icon-x-circle"></a>
 
 ## icon_x_circle
 
