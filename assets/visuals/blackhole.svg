@@ -1,14 +1,12 @@
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
 <defs>
 
-<!-- background -->
 <radialGradient id="space">
   <stop offset="0%" stop-color="#020617"/>
   <stop offset="60%" stop-color="#000000"/>
   <stop offset="100%" stop-color="#000000"/>
 </radialGradient>
 
-<!-- accretion glow -->
 <radialGradient id="disk">
   <stop offset="0%" stop-color="#facc15"/>
   <stop offset="40%" stop-color="#f97316"/>
@@ -16,19 +14,16 @@
   <stop offset="100%" stop-color="#000000"/>
 </radialGradient>
 
-<!-- photon ring -->
 <radialGradient id="photon">
   <stop offset="0%" stop-color="#ffffff"/>
   <stop offset="40%" stop-color="#fde68a"/>
   <stop offset="100%" stop-color="#000000"/>
 </radialGradient>
 
-<!-- glow -->
 <filter id="glow">
   <feGaussianBlur stdDeviation="8"/>
 </filter>
 
-<!-- spacetime distortion -->
 <filter id="warp" x="-50%" y="-50%" width="200%" height="200%">
   <feTurbulence baseFrequency="0.002 0.004" numOctaves="3" seed="3">
     <animate attributeName="baseFrequency"
@@ -43,7 +38,6 @@
 
 <rect width="1024" height="1024" fill="url(#space)"/>
 
-<!-- background stars -->
 <g opacity="0.6">
   <circle cx="200" cy="200" r="2" fill="#fff"/>
   <circle cx="800" cy="300" r="2" fill="#8b5cf6"/>
@@ -52,14 +46,12 @@
 
 <g transform="translate(512 512)">
 
-<!-- warped spacetime field -->
 <g opacity="0.25" filter="url(#warp)">
   <circle r="400" fill="none" stroke="#1e293b"/>
   <circle r="320" fill="none" stroke="#22d3ee" stroke-opacity="0.2"/>
   <circle r="260" fill="none" stroke="#8b5cf6" stroke-opacity="0.2"/>
 </g>
 
-<!-- accretion disk (layered + rotating) -->
 <g filter="url(#glow)">
 
   <ellipse rx="300" ry="120" fill="url(#disk)" opacity="0.6">
@@ -72,7 +64,6 @@
 
 </g>
 
-<!-- particle streams (infalling matter) -->
 <g>
   <circle r="3" fill="#fde68a">
     <animateMotion dur="3s" repeatCount="indefinite"
@@ -85,15 +76,10 @@
   </circle>
 </g>
 
-<!-- photon ring -->
 <circle r="130" fill="url(#photon)" filter="url(#glow)" opacity="0.7"/>
 
-<!-- event horizon -->
 <circle r="110" fill="#000000"/>
 
-
-
-<!-- polar jets -->
 <g opacity="0.4" filter="url(#glow)">
   <path d="M0 -130 L10 -400 L-10 -400 Z" fill="#22d3ee">
     <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4s" repeatCount="indefinite"/>
