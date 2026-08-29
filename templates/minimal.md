@@ -6,7 +6,7 @@
 
 > One clear sentence that explains what this project does, who it is for, and why it exists.
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Status](https://img.shields.io/badge/status-active-38bdf8.svg)](#status)
 [![Version](https://img.shields.io/badge/version-0.1.0-111827.svg)](#)
 
@@ -84,4 +84,4 @@ Issues and pull requests are welcome. Before opening a larger change, create an 
 
 ## License
 
-This project is licensed under the terms in [`LICENSE`](./LICENSE).
+This project is licensed under the terms in `LICENSE`.
