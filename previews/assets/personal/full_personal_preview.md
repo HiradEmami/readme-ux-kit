@@ -32,6 +32,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 
 ## Visual previews
 
+<a id="evaluation"></a>
+
 ## evaluation
 
 [![evaluation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/evaluation.svg)](https://github.com/HiradEmami)
@@ -65,6 +67,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - Anchor: `#evaluation`
 - [Source file](../../../assets/personal/evaluation.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/evaluation.svg)
+
+<a id="four-pillars"></a>
 
 ## four_pillars
 
@@ -100,6 +104,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - [Source file](../../../assets/personal/four_pillars.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/four_pillars.svg)
 
+<a id="internal-vs-external"></a>
+
 ## internal_vs_external
 
 [![internal_vs_external](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/internal_vs_external.svg)](https://github.com/HiradEmami)
@@ -133,6 +139,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - Anchor: `#internal-vs-external`
 - [Source file](../../../assets/personal/internal_vs_external.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/internal_vs_external.svg)
+
+<a id="ml-parts"></a>
 
 ## ml_parts
 
@@ -168,6 +176,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - [Source file](../../../assets/personal/ml_parts.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/ml_parts.svg)
 
+<a id="ml-versions"></a>
+
 ## ml_versions
 
 [![ml_versions](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/ml_versions.svg)](https://github.com/HiradEmami)
@@ -201,6 +211,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - Anchor: `#ml-versions`
 - [Source file](../../../assets/personal/ml_versions.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/ml_versions.svg)
+
+<a id="model-release-pipeline"></a>
 
 ## model_release_pipeline
 
@@ -236,6 +248,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - [Source file](../../../assets/personal/model_release_pipeline.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/model_release_pipeline.svg)
 
+<a id="paper-ci"></a>
+
 ## paper_ci
 
 [![paper_ci](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/paper_ci.svg)](https://github.com/HiradEmami)
@@ -270,6 +284,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - [Source file](../../../assets/personal/paper_ci.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/paper_ci.svg)
 
+<a id="python-project"></a>
+
 ## python_project
 
 [![python_project](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/python_project.svg)](https://github.com/HiradEmami)
@@ -303,6 +319,8 @@ Top tags: `personal` (9), `profile` (9), `animated` (7), `motion` (7), `static` 
 - Anchor: `#python-project`
 - [Source file](../../../assets/personal/python_project.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/personal/python_project.svg)
+
+<a id="traditional-vs-engineered"></a>
 
 ## traditional_vs_engineered
 
