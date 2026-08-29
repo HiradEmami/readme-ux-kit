@@ -72,7 +72,6 @@
 
   <rect class="bg" width="1200" height="340"/>
 
-  <!-- ROW 1 -->
   <g>
     <rect class="box" x="40" y="60" width="180" height="80"/>
     <rect class="box-glow" x="40" y="60" width="180" height="80" rx="16"/>
@@ -95,7 +94,6 @@
     <path class="line" d="M700 100 L770 100"/>
   </g>
 
-  <!-- ROW 2 -->
   <g>
     <rect class="box" x="40" y="160" width="180" height="80"/>
     <rect class="box-glow" x="40" y="160" width="180" height="80" rx="16"/>
@@ -118,7 +116,6 @@
     <path class="line" d="M700 200 L770 200"/>
   </g>
 
-  <!-- caption -->
   <text class="caption" x="600" y="300" text-anchor="middle">
     Each model version is tied to a specific code, data, and configuration state
   </text>
