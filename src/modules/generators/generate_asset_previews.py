@@ -83,7 +83,7 @@ TAG_KEYWORDS = {
 
 CATEGORY_TAGS = {
     "banners": {"hero", "wide"},
-    "buttons": {"button", "cta"},
+    "buttons": {"button"},
     "dividers": {"separator"},
     "file_headers": {"docs", "header"},
     "headers": {"header", "title"},
@@ -124,6 +124,7 @@ def titleize(name):
         "api": "API",
         "cli": "CLI",
         "ci": "CI",
+        "cta": "CTA",
         "ui": "UI",
         "ux": "UX",
         "devops": "DevOps",
@@ -147,6 +148,10 @@ def singularize(name):
 
 def slugify(value):
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def anchor_id(value):
+    return slugify(value)
 
 
 def clean_asset_name(path):
@@ -409,7 +414,8 @@ def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_b
         url = raw_url(raw_base, repo_root, asset_path)
         rel_path = relative_asset_path(repo_root, asset_path)
         tags = asset_tags(category, unit_name, asset_path)
-        lines.append(f"| `{name}` | {animation_label(asset_path)} | {format_tags(tags)} | [Jump](#{slugify(name)}) | [Source](../../../{rel_path}) | [Raw SVG]({url}) |")
+        anchor = anchor_id(name)
+        lines.append(f"| `{name}` | {animation_label(asset_path)} | {format_tags(tags)} | [Jump](#{anchor}) | [Source](../../../{rel_path}) | [Raw SVG]({url}) |")
 
     lines.extend(
         [
@@ -424,9 +430,12 @@ def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_b
         url = raw_url(raw_base, repo_root, asset_path)
         rel_path = relative_asset_path(repo_root, asset_path)
         tags = asset_tags(category, unit_name, asset_path)
+        anchor = anchor_id(name)
 
         lines.extend(
             [
+                f'<a id="{anchor}"></a>',
+                "",
                 f"## {name}",
                 "",
                 markdown_embed(name, url, profile_url),
@@ -455,7 +464,7 @@ def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_b
                 "",
                 f"- Type: {animation_label(asset_path)}",
                 f"- Tags: {format_tags(tags)}",
-                f"- Anchor: `#{slugify(name)}`",
+                f"- Anchor: `#{anchor}`",
                 f"- [Source file](../../../{rel_path})",
                 f"- [Raw SVG]({url})",
                 "",
@@ -658,6 +667,8 @@ def print_check_failures(missing, changed, extra):
 def run_self_tests():
     assert titleize("data-ai") == "Data AI"
     assert titleize("devops") == "DevOps"
+    assert titleize("cta") == "CTA"
+    assert anchor_id("button_connect_linkedin") == "button-connect-linkedin"
     assert full_preview_filename("banners", "energy") == "full_banner_energy_preview.md"
     assert full_preview_filename("progress_bars", "progress_bars") == "full_progress_bar_preview.md"
     assert parse_category_filters(["icons,loadings", "visuals"]) == ["icons", "loadings", "visuals"]
