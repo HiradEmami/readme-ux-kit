@@ -7,7 +7,7 @@ Releases are manual and run through the `semantic-release` GitHub Actions workfl
 - Releases are triggered from **Actions -> semantic-release -> Run workflow**.
 - Releases must run from the `master` branch.
 - The workflow uses the built-in `GITHUB_TOKEN`; no separate `GH_TOKEN` secret is required.
-- The workflow runs `npm run check:all` before publishing, so stale previews, invalid SVGs, or broken generator syntax block the release.
+- The workflow runs `npm run check:all` before publishing, so stale previews, invalid SVGs, stale SVG optimization, or broken generator syntax block the release.
 - Use the `dry_run` workflow input to preview the next semantic-release result without publishing a GitHub release or updating `CHANGELOG.md`.
 
 ## Before Releasing
