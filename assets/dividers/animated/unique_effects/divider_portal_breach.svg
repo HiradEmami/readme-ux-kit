@@ -8,11 +8,9 @@
     </radialGradient>
   </defs>
 
-  <!-- symmetric lines -->
   <line x1="0" y1="40" x2="460" y2="40" stroke="#1e293b" stroke-width="2"/>
   <line x1="540" y1="40" x2="1000" y2="40" stroke="#1e293b" stroke-width="2"/>
 
-  <!-- centered portal -->
   <g transform="translate(500,40)">
     <circle r="10" fill="url(#portal)">
       <animate attributeName="r" values="10;26;10" dur="2.4s" repeatCount="indefinite"/>
