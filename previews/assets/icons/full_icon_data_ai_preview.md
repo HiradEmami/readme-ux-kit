@@ -44,6 +44,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 
 ## Visual previews
 
+<a id="icon-ai-eye-core"></a>
+
 ## icon_ai_eye_core
 
 [![icon_ai_eye_core](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_ai_eye_core.svg)](https://github.com/HiradEmami)
@@ -77,6 +79,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-ai-eye-core`
 - [Source file](../../../assets/icons/data-ai/icon_ai_eye_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_ai_eye_core.svg)
+
+<a id="icon-brain-activity"></a>
 
 ## Icon_brain_activity
 
@@ -112,6 +116,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/Icon_brain_activity.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/Icon_brain_activity.svg)
 
+<a id="icon-data-pipeline"></a>
+
 ## icon_data_pipeline
 
 [![icon_data_pipeline](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_data_pipeline.svg)](https://github.com/HiradEmami)
@@ -145,6 +151,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-data-pipeline`
 - [Source file](../../../assets/icons/data-ai/icon_data_pipeline.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_data_pipeline.svg)
+
+<a id="icon-embedding-space"></a>
 
 ## icon_embedding_space
 
@@ -180,6 +188,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_embedding_space.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_embedding_space.svg)
 
+<a id="icon-eval-harness"></a>
+
 ## icon_eval_harness
 
 [![icon_eval_harness](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_eval_harness.svg)](https://github.com/HiradEmami)
@@ -213,6 +223,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-eval-harness`
 - [Source file](../../../assets/icons/data-ai/icon_eval_harness.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_eval_harness.svg)
+
+<a id="icon-feature-store"></a>
 
 ## icon_feature_store
 
@@ -248,6 +260,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_feature_store.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_feature_store.svg)
 
+<a id="icon-inference-stream"></a>
+
 ## icon_inference_stream
 
 [![icon_inference_stream](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_inference_stream.svg)](https://github.com/HiradEmami)
@@ -281,6 +295,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-inference-stream`
 - [Source file](../../../assets/icons/data-ai/icon_inference_stream.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_inference_stream.svg)
+
+<a id="icon-model-router"></a>
 
 ## icon_model_router
 
@@ -316,6 +332,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_model_router.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_model_router.svg)
 
+<a id="icon-neural-gateway"></a>
+
 ## icon_neural_gateway
 
 [![icon_neural_gateway](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_neural_gateway.svg)](https://github.com/HiradEmami)
@@ -349,6 +367,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-neural-gateway`
 - [Source file](../../../assets/icons/data-ai/icon_neural_gateway.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_neural_gateway.svg)
+
+<a id="icon-neural-pulse-web"></a>
 
 ## icon_neural_pulse_web
 
@@ -384,6 +404,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_neural_pulse_web.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_neural_pulse_web.svg)
 
+<a id="icon-prompt-chain"></a>
+
 ## icon_prompt_chain
 
 [![icon_prompt_chain](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_prompt_chain.svg)](https://github.com/HiradEmami)
@@ -417,6 +439,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-prompt-chain`
 - [Source file](../../../assets/icons/data-ai/icon_prompt_chain.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_prompt_chain.svg)
+
+<a id="icon-radar-sweep"></a>
 
 ## icon_radar_sweep
 
@@ -452,6 +476,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_radar_sweep.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_radar_sweep.svg)
 
+<a id="icon-rag-pipeline"></a>
+
 ## icon_rag_pipeline
 
 [![icon_rag_pipeline](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_pipeline.svg)](https://github.com/HiradEmami)
@@ -485,6 +511,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-rag-pipeline`
 - [Source file](../../../assets/icons/data-ai/icon_rag_pipeline.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_pipeline.svg)
+
+<a id="icon-robot-head"></a>
 
 ## icon_robot_head
 
@@ -520,6 +548,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_robot_head.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_robot_head.svg)
 
+<a id="icon-robot-head-simple"></a>
+
 ## icon_robot_head_simple
 
 [![icon_robot_head_simple](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_robot_head_simple.svg)](https://github.com/HiradEmami)
@@ -553,6 +583,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-robot-head-simple`
 - [Source file](../../../assets/icons/data-ai/icon_robot_head_simple.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_robot_head_simple.svg)
+
+<a id="icon-server-rack"></a>
 
 ## icon_server_rack
 
@@ -588,6 +620,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_server_rack.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_server_rack.svg)
 
+<a id="icon-signal-pulse"></a>
+
 ## icon_signal_pulse
 
 [![icon_signal_pulse](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_signal_pulse.svg)](https://github.com/HiradEmami)
@@ -621,6 +655,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-signal-pulse`
 - [Source file](../../../assets/icons/data-ai/icon_signal_pulse.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_signal_pulse.svg)
+
+<a id="icon-streaming"></a>
 
 ## icon_streaming
 
@@ -656,6 +692,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_streaming.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_streaming.svg)
 
+<a id="icon-system-online"></a>
+
 ## icon_system_online
 
 [![icon_system_online](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_system_online.svg)](https://github.com/HiradEmami)
@@ -690,6 +728,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_system_online.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_system_online.svg)
 
+<a id="icon-token-window"></a>
+
 ## icon_token_window
 
 [![icon_token_window](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_token_window.svg)](https://github.com/HiradEmami)
@@ -723,6 +763,8 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-token-window`
 - [Source file](../../../assets/icons/data-ai/icon_token_window.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_token_window.svg)
+
+<a id="icon-vector-database"></a>
 
 ## icon_vector_database
 
