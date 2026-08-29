@@ -9,7 +9,7 @@
 [![Package](https://img.shields.io/badge/package-latest-38bdf8.svg)](#installation)
 [![CI](https://img.shields.io/badge/ci-passing-34d399.svg)](#testing)
 [![Coverage](https://img.shields.io/badge/coverage-90%25-8b5cf6.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Why
 
@@ -89,10 +89,10 @@ const result = await client.run({
 
 | Example | Description |
 | --- | --- |
-| [`examples/basic`](./examples/basic) | Minimal usage. |
-| [`examples/configuration`](./examples/configuration) | Custom runtime options. |
-| [`examples/error-handling`](./examples/error-handling) | Structured failure handling. |
-| [`examples/production`](./examples/production) | Recommended production setup. |
+| `examples/basic` | Minimal usage. |
+| `examples/configuration` | Custom runtime options. |
+| `examples/error-handling` | Structured failure handling. |
+| `examples/production` | Recommended production setup. |
 
 ## Compatibility
 
@@ -138,4 +138,4 @@ Do not open public issues for vulnerabilities. Report security concerns through 
 
 ## License
 
-This project is licensed under the terms in [`LICENSE`](./LICENSE).
+This project is licensed under the terms in `LICENSE`.
