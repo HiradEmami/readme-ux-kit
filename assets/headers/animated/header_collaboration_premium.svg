@@ -13,7 +13,6 @@
       <stop offset="80%" stop-color="#00E5FF"/>
       <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
 
-      <!-- flowing energy -->
       <animateTransform attributeName="gradientTransform"
                         type="translate"
                         values="-200 0;200 0;-200 0"
@@ -61,7 +60,6 @@
   <rect width="1600" height="320" rx="28" fill="url(#bgGrad)"/>
   <rect width="1600" height="320" rx="28" fill="url(#grid)"/>
 
-  <!-- Pulsing nodes -->
   <circle cx="220" cy="78" r="3" fill="#22D3EE" filter="url(#glow)">
     <animate attributeName="r" values="2.5;4;2.5" dur="2s" repeatCount="indefinite"/>
   </circle>
@@ -78,13 +76,11 @@
     <animate attributeName="r" values="2;3.5;2" dur="2.7s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Lines (now animated via gradient) -->
   <path d="M180 92H540" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
   <path d="M1060 92H1420" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
   <path d="M220 230H520" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
   <path d="M1080 230H1380" stroke="url(#lineGrad)" stroke-width="2" filter="url(#glow)"/>
 
-  <!-- Breathing boxes -->
   <g filter="url(#softGlow)">
     <rect x="130" y="70" width="84" height="84" rx="16" stroke="#22D3EE" stroke-width="2">
       <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
@@ -103,7 +99,6 @@
     </rect>
   </g>
 
-  <!-- Subtle network pulse -->
   <g opacity="0.85" filter="url(#glow)">
     <circle cx="172" cy="112" r="6" fill="#22D3EE"/>
     <circle cx="138" cy="146" r="6" fill="#22D3EE"/>
@@ -128,7 +123,6 @@
                       repeatCount="indefinite"/>
   </g>
 
-  <!-- Subtitle -->
   <text x="800" y="138"
         text-anchor="middle"
         font-family="Segoe UI, Arial, sans-serif"
@@ -139,7 +133,6 @@
     OPEN • BUILD • CONNECT
   </text>
 
-  <!-- Title shimmer -->
   <text x="800" y="208"
         text-anchor="middle"
         font-family="Segoe UI, Arial, sans-serif"
