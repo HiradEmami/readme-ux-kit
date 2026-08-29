@@ -51,6 +51,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 
 ## Visual previews
 
+<a id="agent-orchestration-hub"></a>
+
 ## agent_orchestration_hub
 
 [![agent_orchestration_hub](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/agent_orchestration_hub.svg)](https://github.com/HiradEmami)
@@ -84,6 +86,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#agent-orchestration-hub`
 - [Source file](../../../assets/visuals/agent_orchestration_hub.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/agent_orchestration_hub.svg)
+
+<a id="ai-domains"></a>
 
 ## ai_domains
 
@@ -119,6 +123,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/ai_domains.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/ai_domains.svg)
 
+<a id="avocado"></a>
+
 ## avocado
 
 [![avocado](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/avocado.svg)](https://github.com/HiradEmami)
@@ -152,6 +158,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#avocado`
 - [Source file](../../../assets/visuals/avocado.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/avocado.svg)
+
+<a id="banner-dual-core-entanglement"></a>
 
 ## banner_dual_core_entanglement
 
@@ -187,6 +195,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/banner_dual_core_entanglement.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/banner_dual_core_entanglement.svg)
 
+<a id="blackhole"></a>
+
 ## blackhole
 
 [![blackhole](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/blackhole.svg)](https://github.com/HiradEmami)
@@ -220,6 +230,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#blackhole`
 - [Source file](../../../assets/visuals/blackhole.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/blackhole.svg)
+
+<a id="collaboration"></a>
 
 ## collaboration
 
@@ -255,6 +267,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/collaboration.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/collaboration.svg)
 
+<a id="data-lineage-river"></a>
+
 ## data_lineage_river
 
 [![data_lineage_river](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/data_lineage_river.svg)](https://github.com/HiradEmami)
@@ -288,6 +302,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#data-lineage-river`
 - [Source file](../../../assets/visuals/data_lineage_river.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/data_lineage_river.svg)
+
+<a id="deployment-pipeline-orbit"></a>
 
 ## deployment_pipeline_orbit
 
@@ -323,6 +339,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/deployment_pipeline_orbit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/deployment_pipeline_orbit.svg)
 
+<a id="evaluation-lens-matrix"></a>
+
 ## evaluation_lens_matrix
 
 [![evaluation_lens_matrix](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/evaluation_lens_matrix.svg)](https://github.com/HiradEmami)
@@ -356,6 +374,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#evaluation-lens-matrix`
 - [Source file](../../../assets/visuals/evaluation_lens_matrix.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/evaluation_lens_matrix.svg)
+
+<a id="eye"></a>
 
 ## eye
 
@@ -391,6 +411,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/eye.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/eye.svg)
 
+<a id="knowledge-graph-core"></a>
+
 ## knowledge_graph_core
 
 [![knowledge_graph_core](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/knowledge_graph_core.svg)](https://github.com/HiradEmami)
@@ -424,6 +446,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#knowledge-graph-core`
 - [Source file](../../../assets/visuals/knowledge_graph_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/knowledge_graph_core.svg)
+
+<a id="mlp"></a>
 
 ## mlp
 
@@ -459,6 +483,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/mlp.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/mlp.svg)
 
+<a id="mlp-2"></a>
+
 ## mlp_2
 
 [![mlp_2](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/mlp_2.svg)](https://github.com/HiradEmami)
@@ -492,6 +518,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#mlp-2`
 - [Source file](../../../assets/visuals/mlp_2.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/mlp_2.svg)
+
+<a id="mlp-space"></a>
 
 ## mlp_space
 
@@ -527,6 +555,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/mlp_space.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/mlp_space.svg)
 
+<a id="model-release-constellation"></a>
+
 ## model_release_constellation
 
 [![model_release_constellation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/model_release_constellation.svg)](https://github.com/HiradEmami)
@@ -560,6 +590,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#model-release-constellation`
 - [Source file](../../../assets/visuals/model_release_constellation.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/model_release_constellation.svg)
+
+<a id="moving-system"></a>
 
 ## moving_system
 
@@ -595,6 +627,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/moving_system.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/moving_system.svg)
 
+<a id="neural-singularity-reactor"></a>
+
 ## neural_singularity_reactor
 
 [![neural_singularity_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/neural_singularity_reactor.svg)](https://github.com/HiradEmami)
@@ -628,6 +662,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#neural-singularity-reactor`
 - [Source file](../../../assets/visuals/neural_singularity_reactor.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/neural_singularity_reactor.svg)
+
+<a id="observability-constellation"></a>
 
 ## observability_constellation
 
@@ -663,6 +699,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/observability_constellation.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/observability_constellation.svg)
 
+<a id="planet"></a>
+
 ## planet
 
 [![planet](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/planet.svg)](https://github.com/HiradEmami)
@@ -696,6 +734,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#planet`
 - [Source file](../../../assets/visuals/planet.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/planet.svg)
+
+<a id="privacy-vault-shield"></a>
 
 ## privacy_vault_shield
 
@@ -731,6 +771,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/privacy_vault_shield.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/privacy_vault_shield.svg)
 
+<a id="prompt-lab-crystal"></a>
+
 ## prompt_lab_crystal
 
 [![prompt_lab_crystal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/prompt_lab_crystal.svg)](https://github.com/HiradEmami)
@@ -764,6 +806,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#prompt-lab-crystal`
 - [Source file](../../../assets/visuals/prompt_lab_crystal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/prompt_lab_crystal.svg)
+
+<a id="quantum-computing"></a>
 
 ## quantum_computing
 
@@ -799,6 +843,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/quantum_computing.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/quantum_computing.svg)
 
+<a id="reliability-control-room"></a>
+
 ## reliability_control_room
 
 [![reliability_control_room](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/reliability_control_room.svg)](https://github.com/HiradEmami)
@@ -832,6 +878,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#reliability-control-room`
 - [Source file](../../../assets/visuals/reliability_control_room.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/reliability_control_room.svg)
+
+<a id="server"></a>
 
 ## server
 
@@ -867,6 +915,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/server.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/server.svg)
 
+<a id="singularity"></a>
+
 ## singularity
 
 [![singularity](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/singularity.svg)](https://github.com/HiradEmami)
@@ -900,6 +950,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#singularity`
 - [Source file](../../../assets/visuals/singularity.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/singularity.svg)
+
+<a id="solar-system"></a>
 
 ## solar_system
 
@@ -935,6 +987,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - [Source file](../../../assets/visuals/solar_system.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/solar_system.svg)
 
+<a id="solar-system-2"></a>
+
 ## solar_system_2
 
 [![solar_system_2](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/solar_system_2.svg)](https://github.com/HiradEmami)
@@ -968,6 +1022,8 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#solar-system-2`
 - [Source file](../../../assets/visuals/solar_system_2.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/solar_system_2.svg)
+
+<a id="spiral-energy-core"></a>
 
 ## spiral_energy_core
 
