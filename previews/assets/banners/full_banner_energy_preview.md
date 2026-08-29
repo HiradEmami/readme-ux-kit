@@ -39,6 +39,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 
 ## Visual previews
 
+<a id="banner-arc-reactor-slit"></a>
+
 ## banner_arc_reactor_slit
 
 [![banner_arc_reactor_slit](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_arc_reactor_slit.svg)](https://github.com/HiradEmami)
@@ -72,6 +74,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-arc-reactor-slit`
 - [Source file](../../../assets/banners/energy/banner_arc_reactor_slit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_arc_reactor_slit.svg)
+
+<a id="banner-breathing-gradient"></a>
 
 ## banner_breathing_gradient
 
@@ -107,6 +111,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - [Source file](../../../assets/banners/energy/banner_breathing_gradient.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_breathing_gradient.svg)
 
+<a id="banner-controled-storm"></a>
+
 ## banner_controled_storm
 
 [![banner_controled_storm](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_controled_storm.svg)](https://github.com/HiradEmami)
@@ -140,6 +146,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-controled-storm`
 - [Source file](../../../assets/banners/energy/banner_controled_storm.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_controled_storm.svg)
+
+<a id="banner-core-energy-pulse"></a>
 
 ## banner_core_energy_pulse
 
@@ -175,6 +183,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - [Source file](../../../assets/banners/energy/banner_core_energy_pulse.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_core_energy_pulse.svg)
 
+<a id="banner-core-lightning-minimal"></a>
+
 ## banner_core_lightning_minimal
 
 [![banner_core_lightning_minimal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_core_lightning_minimal.svg)](https://github.com/HiradEmami)
@@ -208,6 +218,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-core-lightning-minimal`
 - [Source file](../../../assets/banners/energy/banner_core_lightning_minimal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_core_lightning_minimal.svg)
+
+<a id="banner-eclipse-core"></a>
 
 ## banner_eclipse_core
 
@@ -243,6 +255,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - [Source file](../../../assets/banners/energy/banner_eclipse_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_eclipse_core.svg)
 
+<a id="banner-energy-beam"></a>
+
 ## banner_energy_beam
 
 [![banner_energy_beam](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_energy_beam.svg)](https://github.com/HiradEmami)
@@ -276,6 +290,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-energy-beam`
 - [Source file](../../../assets/banners/energy/banner_energy_beam.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_energy_beam.svg)
+
+<a id="banner-energy-cloude"></a>
 
 ## banner_energy_cloude
 
@@ -311,6 +327,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - [Source file](../../../assets/banners/energy/banner_energy_cloude.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_energy_cloude.svg)
 
+<a id="banner-energy-seal"></a>
+
 ## banner_energy_seal
 
 [![banner_energy_seal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_energy_seal.svg)](https://github.com/HiradEmami)
@@ -344,6 +362,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-energy-seal`
 - [Source file](../../../assets/banners/energy/banner_energy_seal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_energy_seal.svg)
+
+<a id="banner-energy-transfer"></a>
 
 ## banner_energy_transfer
 
@@ -379,6 +399,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - [Source file](../../../assets/banners/energy/banner_energy_transfer.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_energy_transfer.svg)
 
+<a id="banner-fracture-beam"></a>
+
 ## banner_fracture_beam
 
 [![banner_fracture_beam](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_fracture_beam.svg)](https://github.com/HiradEmami)
@@ -412,6 +434,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-fracture-beam`
 - [Source file](../../../assets/banners/energy/banner_fracture_beam.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_fracture_beam.svg)
+
+<a id="banner-glowing-core"></a>
 
 ## banner_glowing_core
 
@@ -447,6 +471,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - [Source file](../../../assets/banners/energy/banner_glowing_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_glowing_core.svg)
 
+<a id="banner-gradient-cyber-line-sweep"></a>
+
 ## banner_gradient_cyber_line_sweep
 
 [![banner_gradient_cyber_line_sweep](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_gradient_cyber_line_sweep.svg)](https://github.com/HiradEmami)
@@ -480,6 +506,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-gradient-cyber-line-sweep`
 - [Source file](../../../assets/banners/energy/banner_gradient_cyber_line_sweep.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_gradient_cyber_line_sweep.svg)
+
+<a id="banner-gradient-pulse"></a>
 
 ## banner_gradient_pulse
 
@@ -515,6 +543,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - [Source file](../../../assets/banners/energy/banner_gradient_pulse.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_gradient_pulse.svg)
 
+<a id="banner-horizontal-breach"></a>
+
 ## banner_horizontal_breach
 
 [![banner_horizontal_breach](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_horizontal_breach.svg)](https://github.com/HiradEmami)
@@ -548,6 +578,8 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-horizontal-breach`
 - [Source file](../../../assets/banners/energy/banner_horizontal_breach.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_horizontal_breach.svg)
+
+<a id="banner-tethered-orb"></a>
 
 ## banner_tethered_orb
 
