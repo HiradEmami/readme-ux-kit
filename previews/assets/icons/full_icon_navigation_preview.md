@@ -34,6 +34,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 
 ## Visual previews
 
+<a id="icon-anchor-link"></a>
+
 ## icon_anchor_link
 
 [![icon_anchor_link](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anchor_link.svg)](https://github.com/HiradEmami)
@@ -67,6 +69,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-anchor-link`
 - [Source file](../../../assets/icons/navigation/icon_anchor_link.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anchor_link.svg)
+
+<a id="icon-breadcrumb-path"></a>
 
 ## icon_breadcrumb_path
 
@@ -102,6 +106,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - [Source file](../../../assets/icons/navigation/icon_breadcrumb_path.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_path.svg)
 
+<a id="icon-compass-arrow"></a>
+
 ## icon_compass_arrow
 
 [![icon_compass_arrow](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_compass_arrow.svg)](https://github.com/HiradEmami)
@@ -135,6 +141,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-compass-arrow`
 - [Source file](../../../assets/icons/navigation/icon_compass_arrow.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_compass_arrow.svg)
+
+<a id="icon-expand-route"></a>
 
 ## icon_expand_route
 
@@ -170,6 +178,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - [Source file](../../../assets/icons/navigation/icon_expand_route.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_expand_route.svg)
 
+<a id="icon-jump-target"></a>
+
 ## icon_jump_target
 
 [![icon_jump_target](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_jump_target.svg)](https://github.com/HiradEmami)
@@ -203,6 +213,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-jump-target`
 - [Source file](../../../assets/icons/navigation/icon_jump_target.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_jump_target.svg)
+
+<a id="icon-navigation-ping"></a>
 
 ## icon_navigation_ping
 
@@ -238,6 +250,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - [Source file](../../../assets/icons/navigation/icon_navigation_ping.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_navigation_ping.svg)
 
+<a id="icon-next-step"></a>
+
 ## icon_next_step
 
 [![icon_next_step](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_next_step.svg)](https://github.com/HiradEmami)
@@ -271,6 +285,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-next-step`
 - [Source file](../../../assets/icons/navigation/icon_next_step.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_next_step.svg)
+
+<a id="icon-return-path"></a>
 
 ## icon_return_path
 
@@ -306,6 +322,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - [Source file](../../../assets/icons/navigation/icon_return_path.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_return_path.svg)
 
+<a id="icon-route-map"></a>
+
 ## icon_route_map
 
 [![icon_route_map](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_route_map.svg)](https://github.com/HiradEmami)
@@ -340,6 +358,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - [Source file](../../../assets/icons/navigation/icon_route_map.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_route_map.svg)
 
+<a id="icon-sidebar-toggle"></a>
+
 ## icon_sidebar_toggle
 
 [![icon_sidebar_toggle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_sidebar_toggle.svg)](https://github.com/HiradEmami)
@@ -373,6 +393,8 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-sidebar-toggle`
 - [Source file](../../../assets/icons/navigation/icon_sidebar_toggle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_sidebar_toggle.svg)
+
+<a id="icon-waypoint-flag"></a>
 
 ## icon_waypoint_flag
 
