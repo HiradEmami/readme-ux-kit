@@ -50,6 +50,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 
 ## Visual previews
 
+<a id="icon-arrow-down"></a>
+
 ## icon_arrow_down
 
 [![icon_arrow_down](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_down.svg)](https://github.com/HiradEmami)
@@ -83,6 +85,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-arrow-down`
 - [Source file](../../../assets/icons/ui/icon_arrow_down.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_down.svg)
+
+<a id="icon-arrow-down-right"></a>
 
 ## icon_arrow_down_right
 
@@ -118,6 +122,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_arrow_down_right.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_down_right.svg)
 
+<a id="icon-arrow-left"></a>
+
 ## icon_arrow_left
 
 [![icon_arrow_left](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_left.svg)](https://github.com/HiradEmami)
@@ -151,6 +157,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-arrow-left`
 - [Source file](../../../assets/icons/ui/icon_arrow_left.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_left.svg)
+
+<a id="icon-arrow-right"></a>
 
 ## icon_arrow_right
 
@@ -186,6 +194,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_arrow_right.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_right.svg)
 
+<a id="icon-arrow-up"></a>
+
 ## icon_arrow_up
 
 [![icon_arrow_up](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_up.svg)](https://github.com/HiradEmami)
@@ -219,6 +229,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-arrow-up`
 - [Source file](../../../assets/icons/ui/icon_arrow_up.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_up.svg)
+
+<a id="icon-arrow-up-right"></a>
 
 ## icon_arrow_up_right
 
@@ -254,6 +266,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_arrow_up_right.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_arrow_up_right.svg)
 
+<a id="icon-chevron-down"></a>
+
 ## icon_chevron_down
 
 [![icon_chevron_down](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_down.svg)](https://github.com/HiradEmami)
@@ -287,6 +301,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-chevron-down`
 - [Source file](../../../assets/icons/ui/icon_chevron_down.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_down.svg)
+
+<a id="icon-chevron-left"></a>
 
 ## icon_chevron_left
 
@@ -322,6 +338,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_chevron_left.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_left.svg)
 
+<a id="icon-chevron-right"></a>
+
 ## icon_chevron_right
 
 [![icon_chevron_right](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_right.svg)](https://github.com/HiradEmami)
@@ -355,6 +373,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-chevron-right`
 - [Source file](../../../assets/icons/ui/icon_chevron_right.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_right.svg)
+
+<a id="icon-chevron-up"></a>
 
 ## icon_chevron_up
 
@@ -390,6 +410,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_chevron_up.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_up.svg)
 
+<a id="icon-command-key"></a>
+
 ## icon_command_key
 
 [![icon_command_key](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_key.svg)](https://github.com/HiradEmami)
@@ -423,6 +445,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-command-key`
 - [Source file](../../../assets/icons/ui/icon_command_key.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_key.svg)
+
+<a id="icon-context-menu"></a>
 
 ## icon_context_menu
 
@@ -458,6 +482,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_context_menu.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_context_menu.svg)
 
+<a id="icon-double-chevron-left"></a>
+
 ## icon_double_chevron_left
 
 [![icon_double_chevron_left](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_double_chevron_left.svg)](https://github.com/HiradEmami)
@@ -491,6 +517,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-double-chevron-left`
 - [Source file](../../../assets/icons/ui/icon_double_chevron_left.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_double_chevron_left.svg)
+
+<a id="icon-double-chevron-right"></a>
 
 ## icon_double_chevron_right
 
@@ -526,6 +554,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_double_chevron_right.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_double_chevron_right.svg)
 
+<a id="icon-drag-handle"></a>
+
 ## icon_drag_handle
 
 [![icon_drag_handle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_drag_handle.svg)](https://github.com/HiradEmami)
@@ -559,6 +589,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-drag-handle`
 - [Source file](../../../assets/icons/ui/icon_drag_handle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_drag_handle.svg)
+
+<a id="icon-external-link"></a>
 
 ## icon_external_link
 
@@ -594,6 +626,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_external_link.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_external_link.svg)
 
+<a id="icon-filter"></a>
+
 ## icon_filter
 
 [![icon_filter](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_filter.svg)](https://github.com/HiradEmami)
@@ -627,6 +661,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-filter`
 - [Source file](../../../assets/icons/ui/icon_filter.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_filter.svg)
+
+<a id="icon-hamburger-menu"></a>
 
 ## icon_hamburger_menu
 
@@ -662,6 +698,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_hamburger_menu.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_hamburger_menu.svg)
 
+<a id="icon-notification-dot"></a>
+
 ## icon_notification_dot
 
 [![icon_notification_dot](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_notification_dot.svg)](https://github.com/HiradEmami)
@@ -695,6 +733,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-notification-dot`
 - [Source file](../../../assets/icons/ui/icon_notification_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_notification_dot.svg)
+
+<a id="icon-panel-left"></a>
 
 ## icon_panel_left
 
@@ -730,6 +770,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_panel_left.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_panel_left.svg)
 
+<a id="icon-panel-right"></a>
+
 ## icon_panel_right
 
 [![icon_panel_right](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_panel_right.svg)](https://github.com/HiradEmami)
@@ -763,6 +805,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-panel-right`
 - [Source file](../../../assets/icons/ui/icon_panel_right.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_panel_right.svg)
+
+<a id="icon-resize-corner"></a>
 
 ## icon_resize_corner
 
@@ -798,6 +842,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_resize_corner.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_resize_corner.svg)
 
+<a id="icon-scroll-hint"></a>
+
 ## icon_scroll_hint
 
 [![icon_scroll_hint](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_scroll_hint.svg)](https://github.com/HiradEmami)
@@ -831,6 +877,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-scroll-hint`
 - [Source file](../../../assets/icons/ui/icon_scroll_hint.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_scroll_hint.svg)
+
+<a id="icon-search"></a>
 
 ## icon_search
 
@@ -866,6 +914,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_search.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_search.svg)
 
+<a id="icon-sort-ascending"></a>
+
 ## icon_sort_ascending
 
 [![icon_sort_ascending](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_sort_ascending.svg)](https://github.com/HiradEmami)
@@ -900,6 +950,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_sort_ascending.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_sort_ascending.svg)
 
+<a id="icon-sort-descending"></a>
+
 ## icon_sort_descending
 
 [![icon_sort_descending](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_sort_descending.svg)](https://github.com/HiradEmami)
@@ -933,6 +985,8 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-sort-descending`
 - [Source file](../../../assets/icons/ui/icon_sort_descending.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_sort_descending.svg)
+
+<a id="icon-view-columns"></a>
 
 ## icon_view_columns
 
