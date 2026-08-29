@@ -32,6 +32,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 
 ## Visual previews
 
+<a id="banner-breathing-dot"></a>
+
 ## banner_breathing_dot
 
 [![banner_breathing_dot](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_breathing_dot.svg)](https://github.com/HiradEmami)
@@ -65,6 +67,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - Anchor: `#banner-breathing-dot`
 - [Source file](../../../assets/banners/minimal/banner_breathing_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_breathing_dot.svg)
+
+<a id="banner-breathing-line"></a>
 
 ## banner_breathing_line
 
@@ -100,6 +104,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - [Source file](../../../assets/banners/minimal/banner_breathing_line.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_breathing_line.svg)
 
+<a id="banner-center-crosshair"></a>
+
 ## banner_center_crosshair
 
 [![banner_center_crosshair](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_center_crosshair.svg)](https://github.com/HiradEmami)
@@ -133,6 +139,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - Anchor: `#banner-center-crosshair`
 - [Source file](../../../assets/banners/minimal/banner_center_crosshair.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_center_crosshair.svg)
+
+<a id="banner-double-pulse-rings"></a>
 
 ## banner_double_pulse_rings
 
@@ -168,6 +176,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - [Source file](../../../assets/banners/minimal/banner_double_pulse_rings.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_double_pulse_rings.svg)
 
+<a id="banner-expanding-center-line"></a>
+
 ## banner_expanding_center_line
 
 [![banner_expanding_center_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_expanding_center_line.svg)](https://github.com/HiradEmami)
@@ -201,6 +211,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - Anchor: `#banner-expanding-center-line`
 - [Source file](../../../assets/banners/minimal/banner_expanding_center_line.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_expanding_center_line.svg)
+
+<a id="banner-premium-minimal-dot"></a>
 
 ## banner_premium_minimal_dot
 
@@ -236,6 +248,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - [Source file](../../../assets/banners/minimal/banner_premium_minimal_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_premium_minimal_dot.svg)
 
+<a id="banner-pulse-ring"></a>
+
 ## banner_pulse_ring
 
 [![banner_pulse_ring](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_pulse_ring.svg)](https://github.com/HiradEmami)
@@ -270,6 +284,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - [Source file](../../../assets/banners/minimal/banner_pulse_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_pulse_ring.svg)
 
+<a id="banner-rotating-ring"></a>
+
 ## banner_rotating_ring
 
 [![banner_rotating_ring](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_rotating_ring.svg)](https://github.com/HiradEmami)
@@ -303,6 +319,8 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - Anchor: `#banner-rotating-ring`
 - [Source file](../../../assets/banners/minimal/banner_rotating_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_rotating_ring.svg)
+
+<a id="banner-soft-glow"></a>
 
 ## banner_soft_glow
 
