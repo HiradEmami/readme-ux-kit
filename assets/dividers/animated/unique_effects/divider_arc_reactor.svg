@@ -9,11 +9,9 @@
     </filter>
   </defs>
 
-  <!-- full width lines -->
   <line x1="0" y1="30" x2="450" y2="30" stroke="#1e293b" stroke-width="2"/>
   <line x1="550" y1="30" x2="1000" y2="30" stroke="#1e293b" stroke-width="2"/>
 
-  <!-- perfectly centered -->
   <g transform="translate(500,30)" filter="url(#glow)">
     <circle r="16" fill="none" stroke="#22d3ee" stroke-width="2"/>
     <circle r="8" fill="#22d3ee" opacity="0.9">
