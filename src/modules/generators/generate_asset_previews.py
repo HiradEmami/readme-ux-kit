@@ -2,7 +2,6 @@ from pathlib import Path
 import argparse
 from collections import Counter
 import html
-import json
 import re
 import sys
 import tempfile
@@ -234,18 +233,6 @@ def format_tag_summary(tag_counts):
     if not tag_counts:
         return "_No tags found._"
     return ", ".join(f"`{tag}` ({count})" for tag, count in tag_counts)
-
-
-def asset_record(repo_root, category, unit_name, asset_path, raw_base):
-    return {
-        "name": clean_asset_name(asset_path),
-        "category": category,
-        "subcategory": unit_name,
-        "path": relative_asset_path(repo_root, asset_path),
-        "rawUrl": raw_url(raw_base, repo_root, asset_path),
-        "type": animation_label(asset_path),
-        "tags": asset_tags(category, unit_name, asset_path),
-    }
 
 
 def category_units(category_dir):
@@ -564,27 +551,6 @@ def generate_previews(repo_root, assets_dir, output_dir, raw_base, profile_url, 
     return len(categories), preview_root, removed_files
 
 
-def write_manifest(repo_root, assets_dir, output_file, raw_base, category_filters=None):
-    assets_root = repo_root / assets_dir
-    categories = select_categories(discover_categories(assets_root), category_filters)
-    records = []
-
-    for category_dir in categories:
-        category = category_dir.name
-        for unit_name, assets in category_units(category_dir):
-            records.extend(asset_record(repo_root, category, unit_name, asset_path, raw_base) for asset_path in assets)
-
-    payload = {
-        "assetCount": len(records),
-        "categories": [category.name for category in categories],
-        "assets": records,
-    }
-
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    output_file.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    return output_file, len(records)
-
-
 def relative_files(root):
     if not root.exists():
         return set()
@@ -664,6 +630,14 @@ def print_check_failures(missing, changed, extra):
         print()
 
 
+def manifest_helpers():
+    try:
+        from .asset_manifest import check_manifest, print_manifest_check_failure, write_manifest
+    except ImportError:
+        from asset_manifest import check_manifest, print_manifest_check_failure, write_manifest
+    return check_manifest, print_manifest_check_failure, write_manifest
+
+
 def run_self_tests():
     assert titleize("data-ai") == "Data AI"
     assert titleize("devops") == "DevOps"
@@ -680,7 +654,7 @@ def run_self_tests():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Markdown preview pages for SVG assets.")
+    parser = argparse.ArgumentParser(description="Generate Markdown preview pages and editor-ready JSON data for SVG assets.")
     parser.add_argument("--repo-root", default=".", help="Repository root path.")
     parser.add_argument("--assets-dir", default="assets", help="Asset directory relative to the repo root.")
     parser.add_argument("--output-dir", default="previews/assets", help="Output directory relative to the repo root.")
@@ -697,6 +671,15 @@ def main():
         help="Do not remove obsolete generated preview files after writing current output.",
     )
     parser.add_argument("--manifest", help="Optional JSON asset metadata output path.")
+    parser.add_argument(
+        "--manifest-only",
+        action="store_true",
+        help="Write only the JSON asset metadata output requested with --manifest.",
+    )
+    parser.add_argument(
+        "--check-manifest",
+        help="Verify a JSON asset metadata output path is current without modifying it.",
+    )
     parser.add_argument("--self-test", action="store_true", help="Run focused generator helper tests and exit.")
     parser.add_argument(
         "--check",
@@ -711,6 +694,47 @@ def main():
 
     repo_root = Path(args.repo_root).resolve()
     category_filters = parse_category_filters(args.category)
+
+    if args.check_manifest:
+        check_manifest, print_manifest_check_failure, _ = manifest_helpers()
+        manifest_path = repo_root / args.check_manifest
+        try:
+            manifest_status, manifest_errors = check_manifest(
+                repo_root,
+                Path(args.assets_dir),
+                manifest_path,
+                raw_base=args.raw_base,
+                category_filters=category_filters,
+            )
+        except (FileNotFoundError, ValueError) as error:
+            print(error, file=sys.stderr)
+            sys.exit(2)
+
+        if manifest_status:
+            print_manifest_check_failure(manifest_path, manifest_status, manifest_errors)
+            sys.exit(1)
+
+        print("Asset manifest is current.")
+        return
+
+    if args.manifest_only:
+        if not args.manifest:
+            print("--manifest-only requires --manifest.", file=sys.stderr)
+            sys.exit(2)
+        _, _, write_manifest = manifest_helpers()
+        try:
+            manifest_path, asset_total = write_manifest(
+                repo_root,
+                Path(args.assets_dir),
+                repo_root / args.manifest,
+                raw_base=args.raw_base,
+                category_filters=category_filters,
+            )
+        except (FileNotFoundError, ValueError) as error:
+            print(error, file=sys.stderr)
+            sys.exit(2)
+        print(f"Wrote manifest for {asset_total} asset(s) to {manifest_path}")
+        return
 
     if args.check:
         try:
@@ -752,11 +776,12 @@ def main():
         print(f"Removed {len(removed_files)} obsolete generated preview file(s).")
 
     if args.manifest:
+        _, _, write_manifest = manifest_helpers()
         manifest_path, asset_total = write_manifest(
             repo_root,
             Path(args.assets_dir),
             repo_root / args.manifest,
-            args.raw_base,
+            raw_base=args.raw_base,
             category_filters=category_filters,
         )
         print(f"Wrote manifest for {asset_total} asset(s) to {manifest_path}")
