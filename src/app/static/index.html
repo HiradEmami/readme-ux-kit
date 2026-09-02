@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>readme-ux-kit Local Studio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Local Studio</h1>
+      <p>Interactive local workspace for readme-ux-kit assets, checks, reports, and SVG edits.</p>
+    </div>
+    <div class="command-row">
+      <button id="run-generate" type="button">Generate Data</button>
+      <button id="run-modules" type="button">Check Modules</button>
+      <button id="run-all" type="button">Check All</button>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <aside class="sidebar" aria-label="Asset filters">
+      <section class="panel">
+        <h2>Filters</h2>
+        <label>
+          Search
+          <input id="filter-search" type="search" placeholder="asset name, tag, category">
+        </label>
+        <label>
+          Category
+          <select id="filter-category">
+            <option value="">All categories</option>
+          </select>
+        </label>
+        <label>
+          Editor quality
+          <select id="filter-quality">
+            <option value="">Any quality</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="limited">Limited</option>
+          </select>
+        </label>
+        <label>
+          Motion
+          <select id="filter-animated">
+            <option value="">Static and animated</option>
+            <option value="true">Animated only</option>
+            <option value="false">Static only</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="panel">
+        <h2>Repository</h2>
+        <dl id="summary-list" class="summary-list"></dl>
+      </section>
+
+      <section class="panel">
+        <h2>Output</h2>
+        <pre id="command-output" class="command-output">Ready.</pre>
+      </section>
+    </aside>
+
+    <section class="asset-browser" aria-label="Asset browser">
+      <div class="section-heading">
+        <div>
+          <h2>Assets</h2>
+          <p id="asset-count">Loading assets...</p>
+        </div>
+        <button id="refresh-assets" type="button">Refresh</button>
+      </div>
+      <div id="asset-grid" class="asset-grid"></div>
+    </section>
+
+    <aside class="detail" aria-label="Selected asset">
+      <section class="panel detail-panel">
+        <h2 id="detail-title">Select an asset</h2>
+        <p id="detail-path" class="muted">Choose from the asset grid to preview, copy, or edit.</p>
+        <div class="preview-frame">
+          <img id="detail-preview" alt="" hidden>
+        </div>
+        <div class="copy-row">
+          <button id="copy-markdown" type="button" disabled>Copy Markdown</button>
+          <button id="copy-html" type="button" disabled>Copy HTML</button>
+          <button id="open-editor" type="button" class="primary" disabled>Open Editor</button>
+        </div>
+      </section>
+
+      <section class="panel gif-panel">
+        <h2>GIF Export</h2>
+        <label>
+          Output folder
+          <input id="gif-output-dir" type="text" value="output/gifs" spellcheck="false">
+        </label>
+        <label>
+          File name
+          <input id="gif-file-name" type="text" placeholder="asset-name.gif" spellcheck="false">
+        </label>
+        <div class="compact-grid">
+          <label>
+            Duration
+            <input id="gif-duration" type="number" min="100" max="10000" step="100" value="1600">
+          </label>
+          <label>
+            FPS
+            <input id="gif-fps" type="number" min="1" max="30" step="1" value="16">
+          </label>
+          <label>
+            Max width
+            <input id="gif-max-width" type="number" min="64" max="1920" step="16" value="960">
+          </label>
+          <label>
+            Max height
+            <input id="gif-max-height" type="number" min="64" max="1080" step="16" value="360">
+          </label>
+        </div>
+        <label>
+          Background
+          <input id="gif-background" type="text" value="#ffffff" spellcheck="false">
+        </label>
+        <label class="checkbox-control">
+          <input id="gif-use-edited" type="checkbox" disabled>
+          <span>Use edited SVG</span>
+        </label>
+        <div class="preview-frame gif-preview-frame">
+          <img id="gif-preview" alt="Generated GIF" hidden>
+        </div>
+        <div class="copy-row">
+          <button id="gif-export" type="button" class="primary" disabled>Export GIF</button>
+          <button id="gif-copy-markdown" type="button" disabled>Copy Markdown</button>
+          <button id="gif-copy-html" type="button" disabled>Copy HTML</button>
+        </div>
+        <pre id="gif-result" class="command-output">Select an asset.</pre>
+      </section>
+    </aside>
+  </main>
+
+  <div id="editor-overlay" class="editor-overlay" role="dialog" aria-modal="true" aria-labelledby="editor-title" hidden>
+    <div class="editor-shell">
+      <header class="editor-header">
+        <div>
+          <p class="eyebrow">SVG Editor</p>
+          <h2 id="editor-title">Select an asset</h2>
+          <p id="editor-subtitle" class="muted"></p>
+          <div id="editor-meta" class="editor-meta"></div>
+        </div>
+        <button id="editor-close" type="button" class="icon-button" aria-label="Close editor">&times;</button>
+      </header>
+
+      <div class="editor-layout">
+        <section class="editor-stage" aria-label="SVG preview">
+          <div class="editor-preview-grid">
+            <div class="editor-preview-panel">
+              <div class="preview-label">Original</div>
+              <div class="editor-preview-box">
+                <img id="editor-original-preview" alt="">
+              </div>
+            </div>
+            <div class="editor-preview-panel">
+              <div class="preview-label">Edited</div>
+              <div id="editor-edited-preview" class="editor-preview-box"></div>
+            </div>
+          </div>
+          <pre id="editor-result" class="editor-result">No edits applied.</pre>
+        </section>
+
+        <aside class="editor-controls" aria-label="SVG edit controls">
+          <section class="editor-control-group">
+            <h3>Colors</h3>
+            <div id="editor-color-list" class="control-list"></div>
+          </section>
+
+          <section class="editor-control-group">
+            <h3>Text</h3>
+            <div id="editor-text-list" class="control-list"></div>
+          </section>
+
+          <section class="editor-control-group">
+            <h3>Elements</h3>
+            <div id="editor-element-list" class="control-list"></div>
+          </section>
+
+          <section class="editor-control-group">
+            <h3>Motion</h3>
+            <div class="speed-row">
+              <input id="editor-speed-range" type="range" min="0.25" max="3" step="0.25" value="1">
+              <input id="editor-speed-number" type="number" min="0.25" max="3" step="0.25" value="1">
+            </div>
+            <p id="editor-motion-status" class="muted"></p>
+          </section>
+
+          <section class="editor-control-group">
+            <details>
+              <summary>Advanced JSON</summary>
+              <textarea id="editor-advanced-json" rows="5" spellcheck="false">{}</textarea>
+            </details>
+          </section>
+        </aside>
+      </div>
+
+      <footer class="editor-footer">
+        <button id="editor-reset" type="button">Reset</button>
+        <div class="copy-row">
+          <button id="editor-apply" type="button" class="primary">Apply Preview</button>
+          <button id="editor-copy-svg" type="button" disabled>Copy SVG</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
