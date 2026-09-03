@@ -16,6 +16,12 @@ Theme examples combine assets, layout choices, and tone so a README feels consis
 
 ## Theme Extras
 
+- [Minimal colors](./minimal/colors.md)
+- [Minimal asset map](./minimal/assets-map.md)
+- [Terminal colors](./terminal/colors.md)
+- [Terminal asset map](./terminal/assets-map.md)
+- [AI neural colors](./ai-neural/colors.md)
+- [AI neural asset map](./ai-neural/assets-map.md)
 - [Color guide](./cyberpunk/colors.md)
 - [Asset map](./cyberpunk/assets-map.md)
 - [Enterprise colors](./enterprise/colors.md)
