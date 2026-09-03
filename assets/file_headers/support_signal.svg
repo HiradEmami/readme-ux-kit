@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Support file header">
+  <title>Support Signal</title>
+  <desc>An animated README SVG asset illustrating Support Signal.</desc>
   <defs>
     <linearGradient id="support-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>
