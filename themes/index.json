@@ -1,0 +1,1011 @@
+{
+  "generatedBy": "src/modules/themes/theme_index.py",
+  "schemaVersion": 1,
+  "themeCount": 9,
+  "themes": [
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_radial_core.svg",
+          "path": "assets/headers/animated/header_radial_core.svg",
+          "purpose": "Establishes a model-centric first impression.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "neural_singularity_reactor.svg",
+          "path": "assets/visuals/neural_singularity_reactor.svg",
+          "purpose": "Fits model architecture, inference, or platform overviews.",
+          "section": "Model system"
+        },
+        {
+          "exists": true,
+          "label": "model_release_pipeline.svg",
+          "path": "assets/personal/model_release_pipeline.svg",
+          "purpose": "Works for train, evaluate, package, and release flows.",
+          "section": "Pipeline"
+        },
+        {
+          "exists": true,
+          "label": "evaluation_lens_matrix.svg",
+          "path": "assets/visuals/evaluation_lens_matrix.svg",
+          "purpose": "Supports benchmark and quality sections.",
+          "section": "Evaluation"
+        },
+        {
+          "exists": true,
+          "label": "icon_eval_harness.svg",
+          "path": "assets/icons/data-ai/icon_eval_harness.svg",
+          "purpose": "Marks evaluation tables and CI checks.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_neural_pulse.svg",
+          "path": "assets/dividers/animated/lines/divider_neural_pulse.svg",
+          "purpose": "Separates research sections without feeling generic.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "ML, AI, data, and research projects",
+      "colors": [
+        {
+          "hex": "#111827",
+          "token": "Ink",
+          "use": "Dense model names, metric labels, and headings"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Signal blue",
+          "use": "Primary links, model paths, and inference flow"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Neural violet",
+          "use": "Experiments, variants, embeddings, and latent-space accents"
+        },
+        {
+          "hex": "#06b6d4",
+          "token": "Core cyan",
+          "use": "Data movement, eval traces, and active signals"
+        },
+        {
+          "hex": "#16a34a",
+          "token": "Success green",
+          "use": "Passing evaluations and promoted releases"
+        },
+        {
+          "hex": "#ca8a04",
+          "token": "Warning amber",
+          "use": "Drift, caveats, and reproducibility warnings"
+        },
+        {
+          "hex": "#dbeafe",
+          "token": "Grid",
+          "use": "Tables, diagrams, separators, and low-emphasis structure"
+        }
+      ],
+      "id": "ai-neural",
+      "name": "AI neural",
+      "paths": {
+        "assetsMap": "themes/ai-neural/assets-map.md",
+        "colors": "themes/ai-neural/colors.md",
+        "example": "themes/ai-neural/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Technical, model-centric, intelligent",
+      "tags": [
+        "ai",
+        "and",
+        "centric",
+        "data",
+        "intelligent",
+        "ml",
+        "model",
+        "neural",
+        "projects",
+        "research",
+        "technical"
+      ]
+    },
+    {
+      "assets": [],
+      "bestFor": "Security, DevOps, infrastructure, and high-energy tools",
+      "colors": [
+        {
+          "hex": "#05070d",
+          "token": "`void`",
+          "use": "Page-level dark background, deep panels, negative space"
+        },
+        {
+          "hex": "#0b1020",
+          "token": "`panel`",
+          "use": "Tables, grouped content, secondary backgrounds"
+        },
+        {
+          "hex": "#172033",
+          "token": "`grid`",
+          "use": "Lines, borders, circuit strokes, low-emphasis UI"
+        },
+        {
+          "hex": "#22d3ee",
+          "token": "`cyan`",
+          "use": "Primary neon accent, links, scan lines"
+        },
+        {
+          "hex": "#38bdf8",
+          "token": "`blue`",
+          "use": "Secondary accent, status highlights"
+        },
+        {
+          "hex": "#8b5cf6",
+          "token": "`violet`",
+          "use": "High-energy glow, active states, premium accents"
+        },
+        {
+          "hex": "#f472b6",
+          "token": "`magenta`",
+          "use": "Alert accents, hover states, rare emphasis"
+        },
+        {
+          "hex": "#fb365d",
+          "token": "`red`",
+          "use": "Danger states, security warnings, failure signals"
+        },
+        {
+          "hex": "#fbbf24",
+          "token": "`amber`",
+          "use": "Warning states, pending tasks, attention markers"
+        },
+        {
+          "hex": "#34d399",
+          "token": "`green`",
+          "use": "Success states, healthy systems, completed checks"
+        },
+        {
+          "hex": "#e5f4ff",
+          "token": "`text`",
+          "use": "Primary foreground text inside SVG assets"
+        },
+        {
+          "hex": "#94a3b8",
+          "token": "`muted`",
+          "use": "Secondary labels and low-priority annotations"
+        },
+        {
+          "hex": "#34d399",
+          "token": "Online",
+          "use": "`#22d3ee`"
+        },
+        {
+          "hex": "#38bdf8",
+          "token": "Running",
+          "use": "`#8b5cf6`"
+        },
+        {
+          "hex": "#fbbf24",
+          "token": "Warning",
+          "use": "`#fb923c`"
+        },
+        {
+          "hex": "#fb365d",
+          "token": "Danger",
+          "use": "`#f472b6`"
+        },
+        {
+          "hex": "#94a3b8",
+          "token": "Deprecated",
+          "use": "`#475569`"
+        }
+      ],
+      "id": "cyberpunk",
+      "name": "Cyberpunk",
+      "paths": {
+        "assetsMap": "themes/cyberpunk/assets-map.md",
+        "colors": "themes/cyberpunk/colors.md",
+        "example": "themes/cyberpunk/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": [
+          "few-assets"
+        ]
+      },
+      "summary": "Dark, neon, operational",
+      "tags": [
+        "and",
+        "cyberpunk",
+        "dark",
+        "devops",
+        "energy",
+        "high",
+        "infrastructure",
+        "neon",
+        "operational",
+        "security",
+        "tools"
+      ]
+    },
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_data_rail.svg",
+          "path": "assets/headers/static/header_data_rail.svg",
+          "purpose": "Establishes a pipeline and analysis tone.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "data_lineage_river.svg",
+          "path": "assets/visuals/data_lineage_river.svg",
+          "purpose": "Fits ETL, provenance, and dataset docs.",
+          "section": "Lineage"
+        },
+        {
+          "exists": true,
+          "label": "icon_feature_store.svg",
+          "path": "assets/icons/data-ai/icon_feature_store.svg",
+          "purpose": "Supports feature engineering sections.",
+          "section": "Feature store"
+        },
+        {
+          "exists": true,
+          "label": "icon_eval_harness.svg",
+          "path": "assets/icons/data-ai/icon_eval_harness.svg",
+          "purpose": "Marks benchmark and validation tables.",
+          "section": "Evaluation"
+        },
+        {
+          "exists": true,
+          "label": "icon_database_disk.svg",
+          "path": "assets/icons/objects/icon_database_disk.svg",
+          "purpose": "Works for warehouse or artifact sections.",
+          "section": "Storage"
+        },
+        {
+          "exists": true,
+          "label": "divider_data_flow.svg",
+          "path": "assets/dividers/animated/lines/divider_data_flow.svg",
+          "purpose": "Reinforces movement through a pipeline.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Analytics, notebooks, pipelines, and research datasets",
+      "colors": [
+        {
+          "hex": "#102033",
+          "token": "Ink",
+          "use": "Headings and metric labels"
+        },
+        {
+          "hex": "#475569",
+          "token": "Slate",
+          "use": "Supporting copy"
+        },
+        {
+          "hex": "#0284c7",
+          "token": "Data blue",
+          "use": "Links, pipelines, and primary metrics"
+        },
+        {
+          "hex": "#0f766e",
+          "token": "Lab teal",
+          "use": "Datasets, freshness, and valid samples"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Experiment violet",
+          "use": "Runs, variants, and candidate models"
+        },
+        {
+          "hex": "#ca8a04",
+          "token": "Warning amber",
+          "use": "Data drift and stale inputs"
+        },
+        {
+          "hex": "#dbeafe",
+          "token": "Grid",
+          "use": "Tables, rails, and separators"
+        }
+      ],
+      "id": "data-lab",
+      "name": "Data lab",
+      "paths": {
+        "assetsMap": "themes/data-lab/assets-map.md",
+        "colors": "themes/data-lab/colors.md",
+        "example": "themes/data-lab/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Evidence-led, experimental, structured",
+      "tags": [
+        "analytics",
+        "and",
+        "data",
+        "datasets",
+        "evidence",
+        "experimental",
+        "lab",
+        "led",
+        "notebooks",
+        "pipelines",
+        "research",
+        "structured"
+      ]
+    },
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_split_line.svg",
+          "path": "assets/headers/static/header_split_line.svg",
+          "purpose": "Creates a precise editorial opening.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "header_wave_line.svg",
+          "path": "assets/headers/static/header_wave_line.svg",
+          "purpose": "Adds a softer docs-oriented header.",
+          "section": "Alternative hero"
+        },
+        {
+          "exists": true,
+          "label": "icon_breadcrumb_path.svg",
+          "path": "assets/icons/navigation/icon_breadcrumb_path.svg",
+          "purpose": "Fits page maps and guide paths.",
+          "section": "Navigation"
+        },
+        {
+          "exists": true,
+          "label": "icon_docs.svg",
+          "path": "assets/icons/core/icon_docs.svg",
+          "purpose": "Marks documentation and API sections.",
+          "section": "Reference"
+        },
+        {
+          "exists": true,
+          "label": "icon_jump_target.svg",
+          "path": "assets/icons/navigation/icon_jump_target.svg",
+          "purpose": "Supports quick navigation tables.",
+          "section": "Jump links"
+        },
+        {
+          "exists": true,
+          "label": "divider_minimal_clean.svg",
+          "path": "assets/dividers/static/divider_minimal_clean.svg",
+          "purpose": "Keeps sections separated cleanly.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Documentation sites, SDK guides, and API references",
+      "colors": [
+        {
+          "hex": "#1f2937",
+          "token": "Text",
+          "use": "Primary body copy"
+        },
+        {
+          "hex": "#667085",
+          "token": "Muted",
+          "use": "Captions and helper copy"
+        },
+        {
+          "hex": "#0f62fe",
+          "token": "Link",
+          "use": "Navigation and API references"
+        },
+        {
+          "hex": "#2f855a",
+          "token": "Success",
+          "use": "Stable examples and supported versions"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Note",
+          "use": "Concept callouts and tips"
+        },
+        {
+          "hex": "#e5e7eb",
+          "token": "Rule",
+          "use": "Table borders and section separators"
+        },
+        {
+          "hex": "#ffffff",
+          "token": "Canvas",
+          "use": "Default README background"
+        }
+      ],
+      "id": "docs-clean",
+      "name": "Docs clean",
+      "paths": {
+        "assetsMap": "themes/docs-clean/assets-map.md",
+        "colors": "themes/docs-clean/colors.md",
+        "example": "themes/docs-clean/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Bright, scannable, reference-first",
+      "tags": [
+        "and",
+        "api",
+        "bright",
+        "clean",
+        "docs",
+        "documentation",
+        "first",
+        "guides",
+        "reference",
+        "references",
+        "scannable",
+        "sdk",
+        "sites"
+      ]
+    },
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_status_dashboard.svg",
+          "path": "assets/headers/static/header_status_dashboard.svg",
+          "purpose": "Establishes a calm production-dashboard tone.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "reliability_control_room.svg",
+          "path": "assets/visuals/reliability_control_room.svg",
+          "purpose": "Frames reliability as the main promise.",
+          "section": "Overview"
+        },
+        {
+          "exists": true,
+          "label": "icon_health_panel.svg",
+          "path": "assets/icons/core/icon_health_panel.svg",
+          "purpose": "Works beside uptime, health, and readiness tables.",
+          "section": "Status"
+        },
+        {
+          "exists": true,
+          "label": "icon_shield_check.svg",
+          "path": "assets/icons/core/icon_shield_check.svg",
+          "purpose": "Marks compliance or reviewed workflows.",
+          "section": "Security"
+        },
+        {
+          "exists": true,
+          "label": "icon_slo_gauge.svg",
+          "path": "assets/icons/devops/icon_slo_gauge.svg",
+          "purpose": "Supports latency, availability, and error budget sections.",
+          "section": "SLOs"
+        },
+        {
+          "exists": true,
+          "label": "divider_two_beam_lines.svg",
+          "path": "assets/dividers/static/divider_two_beam_lines.svg",
+          "purpose": "Separates sections without adding drama.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "SaaS platforms, internal tools, and production systems",
+      "colors": [
+        {
+          "hex": "#172033",
+          "token": "Ink",
+          "use": "Main headings and table labels"
+        },
+        {
+          "hex": "#4b5b73",
+          "token": "Steel",
+          "use": "Secondary copy and metadata"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Trust blue",
+          "use": "Primary links and stable status"
+        },
+        {
+          "hex": "#16a34a",
+          "token": "Signal green",
+          "use": "Passing checks and support commitments"
+        },
+        {
+          "hex": "#d97706",
+          "token": "Review amber",
+          "use": "Review, candidate, and warning states"
+        },
+        {
+          "hex": "#d7dee8",
+          "token": "Panel line",
+          "use": "Dividers and table rules"
+        },
+        {
+          "hex": "#f8fafc",
+          "token": "Canvas",
+          "use": "Light README preview backgrounds"
+        }
+      ],
+      "id": "enterprise",
+      "name": "Enterprise",
+      "paths": {
+        "assetsMap": "themes/enterprise/assets-map.md",
+        "colors": "themes/enterprise/colors.md",
+        "example": "themes/enterprise/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Trustworthy, measured, governance-ready",
+      "tags": [
+        "and",
+        "enterprise",
+        "governance",
+        "internal",
+        "measured",
+        "platforms",
+        "production",
+        "ready",
+        "saas",
+        "systems",
+        "tools",
+        "trustworthy"
+      ]
+    },
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_minimal_lux.svg",
+          "path": "assets/headers/static/header_minimal_lux.svg",
+          "purpose": "Clean opening for libraries and small tools.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "banner_premium_minimal_dot.svg",
+          "path": "assets/banners/minimal/banner_premium_minimal_dot.svg",
+          "purpose": "Adds polish without heavy visual weight.",
+          "section": "Banner"
+        },
+        {
+          "exists": true,
+          "label": "banner_breathing_line.svg",
+          "path": "assets/banners/minimal/banner_breathing_line.svg",
+          "purpose": "Subtle animated option for profile or product READMEs.",
+          "section": "Alternate banner"
+        },
+        {
+          "exists": true,
+          "label": "divider_minimal_clean.svg",
+          "path": "assets/dividers/static/divider_minimal_clean.svg",
+          "purpose": "Neutral section break for long docs.",
+          "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "progress_bar_classic.svg",
+          "path": "assets/progress_bars/progress_bar_classic.svg",
+          "purpose": "Simple progress indicator for roadmap or maturity.",
+          "section": "Status"
+        },
+        {
+          "exists": true,
+          "label": "icon_docs.svg",
+          "path": "assets/icons/core/icon_docs.svg",
+          "purpose": "Marks documentation, guides, and API reference sections.",
+          "section": "Icon"
+        }
+      ],
+      "bestFor": "Libraries, SDKs, and polished utilities",
+      "colors": [
+        {
+          "hex": "#0f172a",
+          "token": "Ink",
+          "use": "Primary headings and compact labels"
+        },
+        {
+          "hex": "#475569",
+          "token": "Slate",
+          "use": "Supporting copy and secondary table text"
+        },
+        {
+          "hex": "#f8fafc",
+          "token": "Mist",
+          "use": "Light backgrounds and calm separators"
+        },
+        {
+          "hex": "#cbd5e1",
+          "token": "Line",
+          "use": "Rules, table borders, and subtle structure"
+        },
+        {
+          "hex": "#0f766e",
+          "token": "Teal",
+          "use": "Primary success and trusted action accents"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Links, install paths, and documentation references"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Violet",
+          "use": "Optional highlight for releases or examples"
+        }
+      ],
+      "id": "minimal",
+      "name": "Minimal",
+      "paths": {
+        "assetsMap": "themes/minimal/assets-map.md",
+        "colors": "themes/minimal/colors.md",
+        "example": "themes/minimal/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Quiet, restrained, low-noise",
+      "tags": [
+        "and",
+        "libraries",
+        "low",
+        "minimal",
+        "noise",
+        "polished",
+        "quiet",
+        "restrained",
+        "sdks",
+        "utilities"
+      ]
+    },
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_hero_banner.svg",
+          "path": "assets/headers/static/header_hero_banner.svg",
+          "purpose": "Works as a broad, familiar project opener.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "icon_heart.svg",
+          "path": "assets/icons/core/icon_heart.svg",
+          "purpose": "Fits support, sponsors, and acknowledgements.",
+          "section": "Community"
+        },
+        {
+          "exists": true,
+          "label": "icon_star.svg",
+          "path": "assets/icons/core/icon_star.svg",
+          "purpose": "Useful for highlights and project appeal.",
+          "section": "Stars"
+        },
+        {
+          "exists": true,
+          "label": "icon_pull_request.svg",
+          "path": "assets/icons/dev/icon_pull_request.svg",
+          "purpose": "Supports contribution guidance.",
+          "section": "Pull requests"
+        },
+        {
+          "exists": true,
+          "label": "icon_release_tag.svg",
+          "path": "assets/icons/core/icon_release_tag.svg",
+          "purpose": "Marks version and changelog sections.",
+          "section": "Releases"
+        },
+        {
+          "exists": true,
+          "label": "divider_center_diamond.svg",
+          "path": "assets/dividers/static/divider_center_diamond.svg",
+          "purpose": "Classic separator without heavy identity.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Community libraries, frameworks, and starter kits",
+      "colors": [
+        {
+          "hex": "#24292f",
+          "token": "Text",
+          "use": "GitHub-native body copy"
+        },
+        {
+          "hex": "#57606a",
+          "token": "Muted",
+          "use": "Maintainer notes and metadata"
+        },
+        {
+          "hex": "#0969da",
+          "token": "Link",
+          "use": "Standard GitHub link color"
+        },
+        {
+          "hex": "#1a7f37",
+          "token": "Success",
+          "use": "Stable, passing, supported"
+        },
+        {
+          "hex": "#bf3989",
+          "token": "Sponsor",
+          "use": "Community and funding accents"
+        },
+        {
+          "hex": "#d0d7de",
+          "token": "Border",
+          "use": "Tables and separators"
+        },
+        {
+          "hex": "#f6f8fa",
+          "token": "Canvas",
+          "use": "Code-adjacent neutral panels"
+        }
+      ],
+      "id": "open-source-classic",
+      "name": "Open source classic",
+      "paths": {
+        "assetsMap": "themes/open-source-classic/assets-map.md",
+        "colors": "themes/open-source-classic/colors.md",
+        "example": "themes/open-source-classic/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Familiar, welcoming, contributor-friendly",
+      "tags": [
+        "and",
+        "classic",
+        "community",
+        "contributor",
+        "familiar",
+        "frameworks",
+        "friendly",
+        "kits",
+        "libraries",
+        "open",
+        "source",
+        "starter",
+        "welcoming"
+      ]
+    },
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "security_policy_radar.svg",
+          "path": "assets/file_headers/security_policy_radar.svg",
+          "purpose": "Immediately signals policy and review.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "privacy_vault_shield.svg",
+          "path": "assets/visuals/privacy_vault_shield.svg",
+          "purpose": "Supports privacy, secrets, and data boundary sections.",
+          "section": "Trust visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_secret_vault.svg",
+          "path": "assets/icons/devops/icon_secret_vault.svg",
+          "purpose": "Good for credential handling guidance.",
+          "section": "Secrets"
+        },
+        {
+          "exists": true,
+          "label": "icon_lock.svg",
+          "path": "assets/icons/core/icon_lock.svg",
+          "purpose": "Marks least-privilege notes.",
+          "section": "Permissions"
+        },
+        {
+          "exists": true,
+          "label": "icon_warning_triangle.svg",
+          "path": "assets/icons/status/icon_warning_triangle.svg",
+          "purpose": "Use only for real warning states.",
+          "section": "Alerts"
+        },
+        {
+          "exists": true,
+          "label": "divider_scanning_radar.svg",
+          "path": "assets/dividers/animated/lines/divider_scanning_radar.svg",
+          "purpose": "Adds motion that fits scanning workflows.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Security tools, scanners, policies, and incident workflows",
+      "colors": [
+        {
+          "hex": "#0b1020",
+          "token": "Base",
+          "use": "Dark preview background"
+        },
+        {
+          "hex": "#e5edf7",
+          "token": "Text",
+          "use": "Dark-mode readable copy"
+        },
+        {
+          "hex": "#38bdf8",
+          "token": "Scan blue",
+          "use": "Detection, scanning, and telemetry"
+        },
+        {
+          "hex": "#22c55e",
+          "token": "Trust green",
+          "use": "Verified and remediated states"
+        },
+        {
+          "hex": "#ef4444",
+          "token": "Alert red",
+          "use": "Critical findings only"
+        },
+        {
+          "hex": "#f59e0b",
+          "token": "Review amber",
+          "use": "Review, pending, and warning states"
+        },
+        {
+          "hex": "#334155",
+          "token": "Boundary",
+          "use": "Tables and separators"
+        }
+      ],
+      "id": "security-ops",
+      "name": "Security ops",
+      "paths": {
+        "assetsMap": "themes/security-ops/assets-map.md",
+        "colors": "themes/security-ops/colors.md",
+        "example": "themes/security-ops/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Alert-aware, precise, operational",
+      "tags": [
+        "alert",
+        "and",
+        "aware",
+        "incident",
+        "operational",
+        "ops",
+        "policies",
+        "precise",
+        "scanners",
+        "security",
+        "tools",
+        "workflows"
+      ]
+    },
+    {
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_terminal_typing.svg",
+          "path": "assets/headers/static/header_terminal_typing.svg",
+          "purpose": "Command-first opening for CLI and automation repos.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "header_data_rail.svg",
+          "path": "assets/headers/static/header_data_rail.svg",
+          "purpose": "Fits infrastructure and data automation tools.",
+          "section": "Alternate hero"
+        },
+        {
+          "exists": true,
+          "label": "icon_terminal.svg",
+          "path": "assets/icons/dev/icon_terminal.svg",
+          "purpose": "Marks shell commands and CLI surface areas.",
+          "section": "Command icon"
+        },
+        {
+          "exists": true,
+          "label": "icon_cli.svg",
+          "path": "assets/icons/dev/icon_cli.svg",
+          "purpose": "Works for usage, install, and export commands.",
+          "section": "Script icon"
+        },
+        {
+          "exists": true,
+          "label": "icon_pipeline.svg",
+          "path": "assets/icons/dev/icon_pipeline.svg",
+          "purpose": "Supports automation, CI, and workflow sections.",
+          "section": "Pipeline icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_dash_terminal.svg",
+          "path": "assets/dividers/static/divider_dash_terminal.svg",
+          "purpose": "Separates command sections without visual noise.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "CLI tools and automation workflows",
+      "colors": [
+        {
+          "hex": "#0f172a",
+          "token": "Console ink",
+          "use": "Dark shell panels, headings, and labels"
+        },
+        {
+          "hex": "#22c55e",
+          "token": "Terminal green",
+          "use": "Successful commands, prompts, and ready states"
+        },
+        {
+          "hex": "#38bdf8",
+          "token": "Command blue",
+          "use": "Flags, paths, and command names"
+        },
+        {
+          "hex": "#f59e0b",
+          "token": "Warning amber",
+          "use": "Recoverable warnings and missing optional inputs"
+        },
+        {
+          "hex": "#ef4444",
+          "token": "Failure red",
+          "use": "Blocking errors and dangerous commands"
+        },
+        {
+          "hex": "#64748b",
+          "token": "Muted gray",
+          "use": "Log metadata and secondary diagnostics"
+        },
+        {
+          "hex": "#1e293b",
+          "token": "Grid line",
+          "use": "Terminal dividers and table separators"
+        }
+      ],
+      "id": "terminal",
+      "name": "Terminal",
+      "paths": {
+        "assetsMap": "themes/terminal/assets-map.md",
+        "colors": "themes/terminal/colors.md",
+        "example": "themes/terminal/example.md"
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Command-first, practical, direct",
+      "tags": [
+        "and",
+        "automation",
+        "cli",
+        "command",
+        "direct",
+        "first",
+        "practical",
+        "terminal",
+        "tools",
+        "workflows"
+      ]
+    }
+  ]
+}
