@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
+  <title>Header Rotating Square</title>
+  <desc>An animated README SVG asset illustrating Header Rotating Square.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <g transform="translate(450,60)">
     <rect x="-30" y="-30" width="60" height="60" fill="none" stroke="#22d3ee">

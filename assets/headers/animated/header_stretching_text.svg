@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
+  <title>Header Stretching Text</title>
+  <desc>An animated README SVG asset illustrating Header Stretching Text.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <text x="450" y="65" text-anchor="middle" font-size="42" fill="#22d3ee">
     CONFIG
