@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
+  <title>Header Status Dashboard</title>
+  <desc>A static README SVG asset illustrating Header Status Dashboard.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <rect x="60" y="32" width="18" height="18" rx="4" fill="#22c55e"/>
   <rect x="86" y="32" width="18" height="18" rx="4" fill="#eab308"/>

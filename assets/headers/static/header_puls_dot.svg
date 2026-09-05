@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img">
+  <title>Header Puls Dot</title>
+  <desc>An animated README SVG asset illustrating Header Puls Dot.</desc>
   <rect width="900" height="100" fill="#020617"/>
   <circle cx="260" cy="50" r="6" fill="#22d3ee">
     <animate attributeName="r" values="6;10;6" dur="1.5s" repeatCount="indefinite"/>

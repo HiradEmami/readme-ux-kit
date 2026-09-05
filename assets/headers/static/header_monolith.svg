@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
+  <title>Header Monolith</title>
+  <desc>A static README SVG asset illustrating Header Monolith.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <rect x="110" y="18" width="36" height="84" fill="#0f172a" stroke="#334155" stroke-width="2"/>
   <rect x="754" y="18" width="36" height="84" fill="#0f172a" stroke="#334155" stroke-width="2"/>
