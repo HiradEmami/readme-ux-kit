@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" style="display:block" role="img" aria-label="Versioning across code, data, config, and model">
+  <title>ML Versions</title>
+  <desc>An animated README SVG asset illustrating ML Versions.</desc>
   <defs>
 
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
