@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" style="display:block" role="img" aria-label="Evaluation equals performance plus runtime">
+  <title>Evaluation</title>
+  <desc>A static README SVG asset illustrating Evaluation.</desc>
   <defs>
 
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
