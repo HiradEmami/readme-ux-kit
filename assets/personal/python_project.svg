@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" style="display:block" role="img" aria-label="Open Source ML Projects Breakdown">
+  <title>Python Project</title>
+  <desc>An animated README SVG asset illustrating Python Project.</desc>
   <defs>
     <filter id="drawioGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
