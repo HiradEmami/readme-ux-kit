@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" style="display:block">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" style="display:block" role="img">
+  <title>Internal Vs External</title>
+  <desc>An animated README SVG asset illustrating Internal Vs External.</desc>
   <defs>
 
     <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
