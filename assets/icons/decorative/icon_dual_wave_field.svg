@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" role="img">
+  <title>Icon Dual Wave Field</title>
+  <desc>An animated README SVG asset illustrating Icon Dual Wave Field.</desc>
   <path d="M0 30 Q30 10 60 30 T120 30" stroke="#22d3ee" fill="none">
     <animate attributeName="d"
       values="M0 30 Q30 10 60 30 T120 30;M0 30 Q30 50 60 30 T120 30;M0 30 Q30 10 60 30 T120 30"

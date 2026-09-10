@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
+  <title>Icon Glow Animation</title>
+  <desc>An animated README SVG asset illustrating Icon Glow Animation.</desc>
   <circle cx="11" cy="11" r="6" stroke="#22d3ee" stroke-width="2"/>
   <line x1="20" y1="20" x2="16.5" y2="16.5" stroke="#8b5cf6" stroke-width="2"/>
 
