@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" role="img">
+  <title>Icon Sliding Line</title>
+  <desc>An animated README SVG asset illustrating Icon Sliding Line.</desc>
 <rect width="20" height="5" fill="#22d3ee">
 <animate attributeName="x" values="0;80;0" dur="1.2s" repeatCount="indefinite"/>
 </rect>

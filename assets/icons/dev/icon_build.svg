@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <title>Icon Build</title>
+  <desc>A static README SVG asset illustrating Icon Build.</desc>
   <rect x="30" y="60" width="60" height="30" fill="#1e293b"/>
   <rect x="45" y="40" width="30" height="20" fill="#22d3ee"/>
 </svg>
