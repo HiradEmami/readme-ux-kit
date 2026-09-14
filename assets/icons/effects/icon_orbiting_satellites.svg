@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <title>Icon Orbiting Satellites</title>
+  <desc>An animated README SVG asset illustrating Icon Orbiting Satellites.</desc>
   <circle cx="60" cy="60" r="5" fill="#22d3ee"/>
   <circle cx="60" cy="20" r="4" fill="#a855f7">
     <animateTransform attributeName="transform" type="rotate"

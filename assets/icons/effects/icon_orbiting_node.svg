@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img">
+  <title>Icon Orbiting Node</title>
+  <desc>An animated README SVG asset illustrating Icon Orbiting Node.</desc>
   <circle cx="40" cy="40" r="3" fill="#94a3b8"/>
   <circle cx="40" cy="15" r="5" fill="#22d3ee">
     <animateTransform attributeName="transform" type="rotate"
