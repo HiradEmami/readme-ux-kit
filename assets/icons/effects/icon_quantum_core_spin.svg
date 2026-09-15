@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <title>Icon Quantum Core Spin</title>
+  <desc>An animated README SVG asset illustrating Icon Quantum Core Spin.</desc>
   <circle cx="60" cy="60" r="6" fill="#22d3ee"/>
   <g stroke="#a855f7" fill="none">
     <circle cx="60" cy="60" r="25" stroke-dasharray="4 6">
