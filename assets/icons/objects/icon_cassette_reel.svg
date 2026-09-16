@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <title>Icon Cassette Reel</title>
+  <desc>An animated README SVG asset illustrating Icon Cassette Reel.</desc>
   <rect x="20" y="32" width="80" height="56" rx="8" fill="#1e293b" stroke="#94a3b8" stroke-width="2"/>
   <g>
     <circle cx="44" cy="60" r="10" fill="none" stroke="#22d3ee" stroke-width="2"/>
