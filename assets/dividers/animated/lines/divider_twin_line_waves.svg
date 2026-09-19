@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" role="img">
+  <title>Divider Twin Line Waves</title>
+  <desc>An animated README SVG asset illustrating Divider Twin Line Waves.</desc>
   <path d="M0 30 Q150 10 300 30 T1000 30" stroke="#22d3ee" fill="none"/>
   <path d="M0 35 Q150 50 300 35 T1000 35" stroke="#f43f5e" fill="none">
     <animate attributeName="d"
