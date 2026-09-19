@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40" role="img">
+  <title>Divider Neon Center Dot</title>
+  <desc>An animated README SVG asset illustrating Divider Neon Center Dot.</desc>
   <line x1="0" y1="20" x2="460" y2="20" stroke="#334155" stroke-width="2"/>
   <line x1="540" y1="20" x2="1000" y2="20" stroke="#334155" stroke-width="2"/>
 
