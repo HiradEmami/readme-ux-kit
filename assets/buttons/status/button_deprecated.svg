@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Deprecated</title>
+  <desc>A static README SVG asset illustrating Button Deprecated.</desc>
   <rect x="8" y="8" width="304" height="56" rx="16" fill="#fef2f2"/>
   <rect x="8" y="8" width="304" height="56" rx="16" stroke="#ef4444" stroke-width="2"/>
   <circle cx="43" cy="36" r="17" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
