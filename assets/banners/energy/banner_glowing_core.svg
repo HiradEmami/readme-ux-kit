@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Banner Glowing Core</title>
+  <desc>An animated README SVG asset illustrating Banner Glowing Core.</desc>
   <defs>
     <radialGradient id="g">
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
