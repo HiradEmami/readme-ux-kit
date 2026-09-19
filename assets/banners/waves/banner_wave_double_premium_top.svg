@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Banner Wave Double Premium Top</title>
+  <desc>An animated README SVG asset illustrating Banner Wave Double Premium Top.</desc>
   <defs>
     <linearGradient id="wave1" x1="0" x2="1">
       <stop offset="0%" stop-color="#22d3ee"/>
