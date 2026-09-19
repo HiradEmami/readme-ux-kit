@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40" role="img">
+  <title>Divider Red Alert</title>
+  <desc>An animated README SVG asset illustrating Divider Red Alert.</desc>
   <line x1="0" y1="20" x2="1000" y2="20" stroke="#1e293b" stroke-width="2"/>
 
   <circle cx="500" cy="20" r="5" fill="#f43f5e">
