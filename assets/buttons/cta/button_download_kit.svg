@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Download Kit</title>
+  <desc>An animated README SVG asset illustrating Button Download Kit.</desc>
   <rect x="8" y="8" width="304" height="56" rx="18" fill="#fefce8"/>
   <rect x="8" y="8" width="304" height="56" rx="18" stroke="#eab308" stroke-width="2"/>
   <path d="M43 21v24m-10-9 10 10 10-10" stroke="#a16207" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
