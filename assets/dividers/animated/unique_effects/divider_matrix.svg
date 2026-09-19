@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40" role="img">
+  <title>Divider Matrix</title>
+  <desc>An animated README SVG asset illustrating Divider Matrix.</desc>
   <rect width="800" height="40" fill="#020617"/>
 
   <g stroke="#22c55e" stroke-width="2">
