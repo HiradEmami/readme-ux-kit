@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60" role="img">
+  <title>Divider Rune Pulse</title>
+  <desc>A static README SVG asset illustrating Divider Rune Pulse.</desc>
   <line x1="0" y1="30" x2="1000" y2="30" stroke="#1e293b" stroke-width="2"/>
 
   <g transform="translate(250,30)" stroke="#38bdf8" stroke-width="2" fill="none">
