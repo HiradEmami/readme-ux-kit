@@ -15,6 +15,10 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+!assets/badges/build/
+!assets/badges/build/**
+!assets/terminal_panels/build/
+!assets/terminal_panels/build/**
 develop-eggs/
 dist/
 downloads/
@@ -142,6 +146,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
@@ -211,3 +217,20 @@ __marimo__/
 
 # codex
 .codex
+
+# Local browser, test, build, and export artifacts
+.playwright-cli/
+playwright-report/
+blob-report/
+test-results/
+output/
+
+# Operating-system and editor scratch files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*~
