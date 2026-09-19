@@ -10,7 +10,7 @@ Good contributions usually fall into one of these groups:
 - improved Markdown components under `components/`
 - stronger starter templates under `templates/`
 - theme examples under `themes/`
-- generator improvements under `src/modules/generators/`
+- generator and tooling improvements under `src/modules/`
 - community showcase entries under `docs/SHOWCASE.md`
 - documentation and preview fixes
 
@@ -24,9 +24,10 @@ For the shortest command-by-command workflow, see `docs/CONTRIBUTOR_QUICKSTART.m
 2. Use an existing subcategory if one matches the asset.
 3. Create a new subcategory only when it improves discovery for future assets.
 4. Add the SVG file.
-5. Regenerate previews.
-6. Run the preview freshness check.
-7. Include a short PR note describing the asset purpose and where it should be used.
+5. Optimize safely.
+6. Regenerate previews and module data.
+7. Run the full check.
+8. Include a short PR note describing the asset purpose and where it should be used.
 
 Example:
 
@@ -40,8 +41,11 @@ assets/
 After adding the file:
 
 ```bash
-python src/modules/generators/generate_asset_previews.py
-python src/modules/generators/generate_asset_previews.py --check
+npm run optimize:svg
+npm run generate:previews
+npm run generate:gif-previews
+npm run generate:all-data
+npm run check:all
 ```
 
 ## Asset Categories
@@ -50,15 +54,24 @@ Use the existing category system unless there is a clear reason to expand it.
 
 | Category | Use |
 | --- | --- |
+| `badges/` | Compact factual state labels for builds, releases, security, quality, compatibility, and maintenance. |
 | `banners/` | Wide visual strips for hero areas and section breaks. |
+| `buttons/` | SVG call-to-action, social, status, and navigation button assets. |
+| `callouts/` | Documentation notices for information, tips, risk, security, deprecation, and compatibility. |
+| `cards/` | Standalone summaries for features, projects, metrics, teams, releases, and integrations. |
+| `charts/` | Accessible illustrative data visualizations paired with textual context. |
+| `diagrams/` | Technical relationship and flow explanations. |
 | `dividers/` | Horizontal separators between README sections. |
 | `file_headers/` | Graphics for repository files such as `SECURITY.md` and `CONTRIBUTING.md`. |
 | `headers/` | Title and section header graphics. |
 | `icons/` | Small symbols for status, UI, development, navigation, and concepts. |
 | `loadings/` | Loading indicators and motion accents. |
+| `mockups/` | Fictional product and documentation interface previews. |
 | `personal/` | Profile README, portfolio, and author/project-story visuals. |
 | `progress_bars/` | Progress, lifecycle, and completion indicators. |
 | `visuals/` | Larger conceptual illustrations. |
+| `terminal_panels/` | Readable command-session illustrations that accompany copyable Markdown commands. |
+| `workflow_panels/` | State-oriented lifecycle and process panels. |
 
 ## Naming Rules
 
@@ -97,6 +110,7 @@ Required:
 
 - Include a valid root `<svg>` element.
 - Include a `viewBox`.
+- Include `role="img"`, an accessible name through `<title>` or `aria-label`, and a useful `<desc>`.
 - Prefer scalable dimensions over hard-coded layouts that only work at one size.
 - Keep the file self-contained; no external fonts, images, scripts, or remote resources.
 - Use semantic grouping and readable IDs when practical.
@@ -122,6 +136,7 @@ Recommended checks before submitting:
 - Confirm animation loops cleanly if animated.
 - Confirm the visual meaning is obvious from the filename and category.
 - Run `npm run optimize:svg` to apply the safe non-destructive optimization profile.
+- Run `npm run normalize:svg:accessibility` to add any missing accessibility metadata.
 
 ## Markdown Component Rules
 
@@ -191,7 +206,31 @@ The `--check` mode is intended for CI. It generates previews in a temporary dire
 
 Do not hand-edit generated files under `previews/assets/`. If preview content needs to change, update `src/modules/generators/generate_asset_previews.py`, regenerate the previews, and commit both the generator change and generated output.
 
-For generated typing headers, see `docs/TYPING_SVG_EXAMPLES.md`.
+For generated typing headers, see `docs/TYPING_SVG_EXAMPLES.md`. For official animated GIF fallbacks, see `docs/GIF_EXPORTS.md`.
+
+## Regenerate Module Data
+
+The repository also commits generated metadata for manifests, static site data, themes, recipes, provenance, reports, asset packs, compatibility checks, editor capabilities, official GIF previews, and migration plans.
+
+Regenerate all module data after changing assets, templates, components, themes, recipes, bundles, provenance docs, or module code:
+
+```bash
+npm run generate:all-data
+```
+
+Check only the module data pipeline:
+
+```bash
+npm run modules:check
+```
+
+Print a short generated-data inventory:
+
+```bash
+npm run modules:report
+```
+
+For the full module map and focused commands, see [`docs/MODULES.md`](./docs/MODULES.md).
 
 ## Review Checks
 
@@ -200,21 +239,26 @@ Before requesting review, run the checks that match your change.
 For asset changes:
 
 ```bash
-python src/modules/generators/generate_asset_previews.py
-python src/modules/generators/generate_asset_previews.py --check
+npm run optimize:svg
+npm run generate:previews
+npm run generate:gif-previews
+npm run generate:all-data
+npm run check:all
 ```
 
-For generator changes:
+For generator or module changes:
 
 ```bash
-python -m py_compile src/modules/generators/generate_asset_previews.py
-python -m py_compile src/modules/generators/generate_typing_svg.py
-python src/modules/generators/generate_asset_previews.py --check
+npm run generate:all-data
+npm run check:modules
+npm run check:all
 ```
 
 For documentation-only changes:
 
 ```bash
+npm run generate:all-data
+npm run check:markdown
 git diff --check
 ```
 
@@ -222,9 +266,9 @@ PR checklist:
 
 - [ ] The change is focused and belongs in this repository.
 - [ ] New assets follow the naming rules.
-- [ ] SVGs include a `viewBox` and do not depend on external resources.
-- [ ] Generated previews were regenerated when assets changed.
-- [ ] `generate_asset_previews.py --check` passes.
+- [ ] SVGs include a `viewBox`, accessible metadata, and no external resources.
+- [ ] Generated previews, GIF fallbacks, and module data were regenerated when assets, docs, templates, recipes, themes, or module behavior changed.
+- [ ] `npm run check:all` passes.
 - [ ] Markdown examples render in GitHub-compatible Markdown.
 - [ ] New or changed links point to real files or intended external pages.
 - [ ] Third-party assets are documented in `docs/THIRD_PARTY.md` when needed.
@@ -261,7 +305,7 @@ fix(previews): regenerate stale asset previews
 chore(release): update semantic-release config
 ```
 
-Prefer scopes that keep generated changelogs readable: `assets`, `templates`, `themes`, `components`, `previews`, `generators`, `docs`, `ci`, and `release`.
+Prefer scopes that keep generated changelogs readable: `assets`, `templates`, `themes`, `components`, `previews`, `generators`, `modules`, `docs`, `ci`, and `release`.
 
 See `docs/CHANGELOG.md` for changelog discipline and release-note expectations.
 
