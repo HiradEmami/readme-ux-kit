@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Live Status</title>
+  <desc>An animated README SVG asset illustrating Button Live Status.</desc>
   <rect x="8" y="8" width="304" height="56" rx="18" fill="#ecfdf5"/>
   <rect x="8" y="8" width="304" height="56" rx="18" stroke="#10b981" stroke-width="2"/>
   <circle cx="43" cy="36" r="10" fill="#10b981">
