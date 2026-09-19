@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40" role="img">
+  <title>Divider Scanning Bar</title>
+  <desc>An animated README SVG asset illustrating Divider Scanning Bar.</desc>
   <rect x="0" y="18" width="1000" height="4" fill="#1f2937"/>
   <rect x="0" y="18" width="120" height="4" fill="#22d3ee">
     <animate attributeName="x" values="0;880" dur="1.5s" repeatCount="indefinite"/>
