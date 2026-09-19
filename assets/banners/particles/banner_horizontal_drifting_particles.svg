@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Banner Horizontal Drifting Particles</title>
+  <desc>An animated README SVG asset illustrating Banner Horizontal Drifting Particles.</desc>
   <rect width="1200" height="120" fill="#020617"/>
 
   <circle cy="40" r="2" fill="#22d3ee">
