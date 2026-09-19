@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Beta Channel</title>
+  <desc>An animated README SVG asset illustrating Button Beta Channel.</desc>
   <rect x="8" y="8" width="304" height="56" rx="16" fill="#2e1065"/>
   <rect x="10" y="10" width="300" height="52" rx="14" stroke="#c084fc" stroke-width="2"/>
   <path d="M35 24h18c7 0 10 8 5 13 6 5 2 13-6 13H35V24z" fill="#581c87"/>
