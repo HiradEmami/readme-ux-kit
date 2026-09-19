@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60" preserveAspectRatio="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="60" preserveAspectRatio="none" role="img">
+  <title>Divider Arc Reactor</title>
+  <desc>An animated README SVG asset illustrating Divider Arc Reactor.</desc>
   <defs>
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="blur"/>
