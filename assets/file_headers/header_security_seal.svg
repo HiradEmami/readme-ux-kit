@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" role="img" aria-labelledby="securityTitle securityDesc">
+  <title id="securityTitle">Security</title>
+  <desc id="securityDesc">A shield within an engraved circular seal introduces security policy and vulnerability reporting guidance. Static illustration, not a security certification.</desc>
+  <g id="securityBase" data-edit-id="base" data-edit-label="Ivory background" data-edit-lock="true">
+    <rect x="1" y="1" width="848" height="88" rx="8" fill="#faf8f3" stroke="#d6d2c8"/>
+  </g>
+  <g id="securitySeal" data-edit-id="seal" data-edit-label="Security shield seal" fill="none" stroke="#33463c" stroke-width="2">
+    <circle cx="67" cy="45" r="28"/>
+    <circle cx="67" cy="45" r="23" stroke-dasharray="1 5"/>
+    <path d="M67 28 80 33V44C80 53 74 59 67 63 60 59 54 53 54 44V33Z" fill="#e5ebe3" stroke-linejoin="round"/>
+    <path d="M67 37V49M67 54V55" stroke-linecap="round"/>
+  </g>
+  <g id="securityRules" data-edit-id="rules" data-edit-label="Engraved framing" stroke="#33463c" fill="none">
+    <path d="M113 24V66M653 30H805M653 60H805"/>
+    <path d="m718 45 10-7 10 7-10 7Z"/>
+  </g>
+  <text id="securityLabel" data-edit-id="label" data-edit-label="Document title" x="137" y="57" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#242b27">SECURITY</text>
+</svg>
