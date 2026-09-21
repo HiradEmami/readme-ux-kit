@@ -1,0 +1,826 @@
+{
+  "generatedBy": "src/modules/indexers/template_index.py",
+  "schemaVersion": 1,
+  "templateCount": 21,
+  "templates": [
+    {
+      "bestFor": "APIs and production services",
+      "compatibleThemes": [
+        "enterprise",
+        "terminal",
+        "reliability-ops"
+      ],
+      "contract": "templates/contracts/backend-service.json",
+      "id": "backend-service",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/backend-service.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "backend-service"
+      ],
+      "title": "Backend service"
+    },
+    {
+      "bestFor": "Chrome, Firefox, and Edge extensions",
+      "compatibleThemes": [
+        "launch-demo",
+        "founder-product",
+        "minimal"
+      ],
+      "contract": "templates/contracts/browser-extension.json",
+      "id": "browser-extension",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/browser-extension.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "browser-extension"
+      ],
+      "title": "Browser Extension"
+    },
+    {
+      "bestFor": "Command-line tools, automation helpers, and local developer utilities",
+      "compatibleThemes": [
+        "terminal",
+        "minimal",
+        "developer-platform"
+      ],
+      "contract": "templates/contracts/cli-tool.json",
+      "id": "cli-tool",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/cli-tool.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "cli-tool"
+      ],
+      "title": "CLI Tool"
+    },
+    {
+      "bestFor": "Learning repositories, workshops, and guided examples",
+      "compatibleThemes": [
+        "docs-clean",
+        "academic-lab",
+        "open-source-classic"
+      ],
+      "contract": "templates/contracts/course-tutorial.json",
+      "id": "course-tutorial",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/course-tutorial.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "course-tutorial"
+      ],
+      "title": "Course Tutorial"
+    },
+    {
+      "bestFor": "ETL, ELT, batch, streaming, and analytics pipelines",
+      "compatibleThemes": [
+        "data-lab",
+        "ai-neural",
+        "academic-lab"
+      ],
+      "contract": "templates/contracts/data-pipeline.json",
+      "id": "data-pipeline",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/data-pipeline.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "data-pipeline"
+      ],
+      "title": "Data Pipeline"
+    },
+    {
+      "bestFor": "Token, component, asset, and documentation systems",
+      "compatibleThemes": [
+        "docs-clean",
+        "portfolio-premium",
+        "creative-engineering"
+      ],
+      "contract": "templates/contracts/design-system.json",
+      "id": "design-system",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/design-system.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "design-system"
+      ],
+      "title": "Design System"
+    },
+    {
+      "bestFor": "Static apps, SPAs, dashboards, and browser-first tools",
+      "compatibleThemes": [
+        "launch-demo",
+        "founder-product",
+        "docs-clean"
+      ],
+      "contract": "templates/contracts/frontend-app.json",
+      "id": "frontend-app",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/frontend-app.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "frontend-app"
+      ],
+      "title": "Frontend App"
+    },
+    {
+      "bestFor": "Reusable Actions, workflow helpers, and CI automation",
+      "compatibleThemes": [
+        "open-source-classic",
+        "terminal",
+        "developer-platform"
+      ],
+      "contract": "templates/contracts/github-action.json",
+      "id": "github-action",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/github-action.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "github-action"
+      ],
+      "title": "GitHub Action"
+    },
+    {
+      "bestFor": "Terraform, Pulumi, Kubernetes, Helm, and platform modules",
+      "compatibleThemes": [
+        "infra-control-plane",
+        "reliability-ops",
+        "security-ops"
+      ],
+      "contract": "templates/contracts/infrastructure-iac.json",
+      "id": "infrastructure-iac",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/infrastructure-iac.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "infrastructure-iac"
+      ],
+      "title": "Infrastructure IaC"
+    },
+    {
+      "bestFor": "Admin panels, operations tools, and private workflow apps",
+      "compatibleThemes": [
+        "enterprise",
+        "reliability-ops",
+        "docs-clean"
+      ],
+      "contract": "templates/contracts/internal-tool.json",
+      "id": "internal-tool",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/internal-tool.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "internal-tool"
+      ],
+      "title": "Internal Tool"
+    },
+    {
+      "bestFor": "Small tools, utilities, and focused repos",
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "open-source-classic"
+      ],
+      "contract": "templates/contracts/minimal.json",
+      "id": "minimal",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/minimal.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "minimal"
+      ],
+      "title": "Minimal"
+    },
+    {
+      "bestFor": "Model training, evaluation, and inference repos",
+      "compatibleThemes": [
+        "ai-neural",
+        "data-lab",
+        "academic-lab"
+      ],
+      "contract": "templates/contracts/ml-project.json",
+      "id": "ml-project",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/ml-project.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "ml-project"
+      ],
+      "title": "ML project"
+    },
+    {
+      "bestFor": "iOS, Android, React Native, Flutter, and cross-platform apps",
+      "compatibleThemes": [
+        "launch-demo",
+        "founder-product",
+        "portfolio-premium"
+      ],
+      "contract": "templates/contracts/mobile-app.json",
+      "id": "mobile-app",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/mobile-app.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "mobile-app"
+      ],
+      "title": "Mobile App"
+    },
+    {
+      "bestFor": "Multi-package repositories with shared tooling and ownership boundaries",
+      "compatibleThemes": [
+        "developer-platform",
+        "enterprise",
+        "open-governance"
+      ],
+      "contract": "templates/contracts/monorepo.json",
+      "id": "monorepo",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/monorepo.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "monorepo"
+      ],
+      "title": "Monorepo"
+    },
+    {
+      "bestFor": "Published packages and reusable libraries",
+      "compatibleThemes": [
+        "open-source-classic",
+        "docs-clean",
+        "minimal"
+      ],
+      "contract": "templates/contracts/open-source-lib.json",
+      "id": "open-source-lib",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/open-source-lib.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "open-source-lib"
+      ],
+      "title": "Open-source library"
+    },
+    {
+      "bestFor": "Editor plugins, app extensions, and integration packages",
+      "compatibleThemes": [
+        "developer-platform",
+        "open-source-classic",
+        "creative-engineering"
+      ],
+      "contract": "templates/contracts/plugin-extension.json",
+      "id": "plugin-extension",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/plugin-extension.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "plugin-extension"
+      ],
+      "title": "Plugin Extension"
+    },
+    {
+      "bestFor": "Personal GitHub profiles, portfolios, and professional showcases",
+      "compatibleThemes": [
+        "portfolio-premium",
+        "minimal",
+        "creative-engineering"
+      ],
+      "contract": "templates/contracts/portfolio-profile.json",
+      "id": "portfolio-profile",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/portfolio-profile.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "portfolio-profile"
+      ],
+      "title": "Portfolio Profile"
+    },
+    {
+      "bestFor": "Papers, experiments, and reproducibility repos",
+      "compatibleThemes": [
+        "academic-lab",
+        "data-lab",
+        "ai-neural"
+      ],
+      "contract": "templates/contracts/research-project.json",
+      "id": "research-project",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/research-project.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "research-project"
+      ],
+      "title": "Research project"
+    },
+    {
+      "bestFor": "Product repositories with docs, operations, support, and launch context",
+      "compatibleThemes": [
+        "founder-product",
+        "enterprise",
+        "reliability-ops"
+      ],
+      "contract": "templates/contracts/saas-product.json",
+      "id": "saas-product",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/saas-product.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "saas-product"
+      ],
+      "title": "SaaS Product"
+    },
+    {
+      "bestFor": "SDKs with install, auth, API examples, and compatibility promises",
+      "compatibleThemes": [
+        "developer-platform",
+        "docs-clean",
+        "open-source-classic"
+      ],
+      "contract": "templates/contracts/sdk-reference.json",
+      "id": "sdk-reference",
+      "maturity": "stable",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/sdk-reference.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "sdk-reference"
+      ],
+      "title": "SDK Reference"
+    },
+    {
+      "bestFor": "Specifications, proposals, standards, and design docs",
+      "compatibleThemes": [
+        "open-governance",
+        "academic-lab",
+        "docs-clean"
+      ],
+      "contract": "templates/contracts/spec-rfc.json",
+      "id": "spec-rfc",
+      "maturity": "draft",
+      "optionalSections": [
+        "repository-map",
+        "configuration",
+        "support",
+        "roadmap",
+        "security",
+        "architecture"
+      ],
+      "outputDensity": "medium",
+      "path": "templates/spec-rfc.md",
+      "recommendedComponents": [
+        "navigation/start-here",
+        "navigation/repo-map",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "requiredPlaceholders": [
+        "PROJECT_NAME",
+        "TARGET_USER",
+        "PRIMARY_OUTCOME",
+        "INSTALL_COMMAND",
+        "RUN_COMMAND",
+        "TEST_COMMAND"
+      ],
+      "supportedProjectTypes": [
+        "spec-rfc"
+      ],
+      "title": "Spec RFC"
+    }
+  ]
+}
