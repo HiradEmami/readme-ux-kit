@@ -1,4 +1,4 @@
-# Model / ML Project Name
+# PROJECT_NAME
 
 > Maturity: `draft`
 
@@ -135,3 +135,10 @@ print(prediction)
 ## License
 
 This project is licensed under the terms in `LICENSE`. Dataset and model weights may have separate terms; document them here.
+
+## Copy Checklist
+
+- [ ] Replace all placeholder project names, commands, and links.
+- [ ] Remove sections that do not apply.
+- [ ] Verify local and external links.
+- [ ] Choose one compatible theme and keep assets consistent.
