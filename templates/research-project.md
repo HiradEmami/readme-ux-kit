@@ -1,4 +1,4 @@
-# Research Project Title
+# PROJECT_NAME
 
 > Maturity: `draft`
 
@@ -132,3 +132,10 @@ Expected artifacts:
 ## License
 
 Code is licensed under the terms in `LICENSE`. Data, model weights, and third-party artifacts may have separate licenses; document those terms here.
+
+## Copy Checklist
+
+- [ ] Replace all placeholder project names, commands, and links.
+- [ ] Remove sections that do not apply.
+- [ ] Verify local and external links.
+- [ ] Choose one compatible theme and keep assets consistent.
