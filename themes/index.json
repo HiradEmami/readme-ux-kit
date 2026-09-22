@@ -1,9 +1,139 @@
 {
   "generatedBy": "src/modules/themes/theme_index.py",
   "schemaVersion": 1,
-  "themeCount": 9,
+  "themeCount": 19,
   "themes": [
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_data_rail.svg",
+          "path": "assets/headers/static/header_data_rail.svg",
+          "purpose": "Structured research opener.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "evaluation_lens_matrix.svg",
+          "path": "assets/visuals/evaluation_lens_matrix.svg",
+          "purpose": "Evaluation framing.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_lab_flask.svg",
+          "path": "assets/icons/objects/icon_lab_flask.svg",
+          "purpose": "Lab sections.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_minimal_clean.svg",
+          "path": "assets/dividers/static/divider_minimal_clean.svg",
+          "purpose": "Quiet academic divider.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Papers, reproducibility packages, labs, and benchmark repos",
+      "colors": [
+        {
+          "hex": "#1f2937",
+          "token": "Ink",
+          "use": "Research headings"
+        },
+        {
+          "hex": "#1d4ed8",
+          "token": "Blue",
+          "use": "Links and artifacts"
+        },
+        {
+          "hex": "#0f766e",
+          "token": "Teal",
+          "use": "Datasets"
+        },
+        {
+          "hex": "#6d28d9",
+          "token": "Violet",
+          "use": "Experiments"
+        },
+        {
+          "hex": "#b45309",
+          "token": "Amber",
+          "use": "Limitations"
+        },
+        {
+          "hex": "#d1d5db",
+          "token": "Line",
+          "use": "Tables"
+        },
+        {
+          "hex": "#fafafa",
+          "token": "Canvas",
+          "use": "Reading surface"
+        }
+      ],
+      "density": "medium",
+      "id": "academic-lab",
+      "motionLevel": "low",
+      "name": "Academic Lab",
+      "paths": {
+        "assetsMap": "themes/academic-lab/assets-map.md",
+        "colors": "themes/academic-lab/colors.md",
+        "components": "themes/academic-lab/components.md",
+        "contrast": "themes/academic-lab/contrast.md",
+        "example": "themes/academic-lab/example.md",
+        "preview": "themes/academic-lab/preview.md",
+        "templateMatrix": "themes/academic-lab/template-matrix.md",
+        "tokens": "themes/academic-lab/tokens.json",
+        "usage": "themes/academic-lab/usage.md",
+        "voice": "themes/academic-lab/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "data-pipeline",
+          "course-tutorial"
+        ],
+        "excellent": [
+          "research-project",
+          "ml-project",
+          "spec-rfc"
+        ],
+        "poor": [
+          "launch-demo"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Scholarly, reproducible, precise",
+      "tags": [
+        "academic",
+        "and",
+        "benchmark",
+        "lab",
+        "labs",
+        "packages",
+        "papers",
+        "precise",
+        "repos",
+        "reproducibility",
+        "reproducible",
+        "scholarly"
+      ],
+      "tone": "Careful, cited, result-led"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -86,12 +216,42 @@
           "use": "Tables, diagrams, separators, and low-emphasis structure"
         }
       ],
+      "density": "medium",
       "id": "ai-neural",
-      "name": "AI neural",
+      "motionLevel": "moderate",
+      "name": "AI Neural",
       "paths": {
         "assetsMap": "themes/ai-neural/assets-map.md",
         "colors": "themes/ai-neural/colors.md",
-        "example": "themes/ai-neural/example.md"
+        "components": "themes/ai-neural/components.md",
+        "contrast": "themes/ai-neural/contrast.md",
+        "example": "themes/ai-neural/example.md",
+        "preview": "themes/ai-neural/preview.md",
+        "templateMatrix": "themes/ai-neural/template-matrix.md",
+        "tokens": "themes/ai-neural/tokens.json",
+        "usage": "themes/ai-neural/usage.md",
+        "voice": "themes/ai-neural/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "sdk-reference",
+          "portfolio-profile"
+        ],
+        "excellent": [
+          "ml-project",
+          "research-project",
+          "data-pipeline"
+        ],
+        "poor": [
+          "simple maintenance notices"
+        ]
       },
       "status": {
         "complete": true,
@@ -111,111 +271,250 @@
         "projects",
         "research",
         "technical"
-      ]
+      ],
+      "tone": "Evidence-led, precise, model-aware"
     },
     {
-      "assets": [],
-      "bestFor": "Security, DevOps, infrastructure, and high-energy tools",
-      "colors": [
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
         {
-          "hex": "#05070d",
-          "token": "`void`",
-          "use": "Page-level dark background, deep panels, negative space"
+          "exists": true,
+          "label": "header_floating_particles.svg",
+          "path": "assets/headers/animated/header_floating_particles.svg",
+          "purpose": "Creative system opener.",
+          "section": "Hero"
         },
         {
-          "hex": "#0b1020",
-          "token": "`panel`",
-          "use": "Tables, grouped content, secondary backgrounds"
+          "exists": true,
+          "label": "banner_dual_core_entanglement.svg",
+          "path": "assets/visuals/banner_dual_core_entanglement.svg",
+          "purpose": "Expressive technical center.",
+          "section": "Visual"
         },
         {
-          "hex": "#172033",
-          "token": "`grid`",
-          "use": "Lines, borders, circuit strokes, low-emphasis UI"
+          "exists": true,
+          "label": "icon_prism_star.svg",
+          "path": "assets/icons/decorative/icon_prism_star.svg",
+          "purpose": "Creative highlights.",
+          "section": "Icon"
         },
         {
-          "hex": "#22d3ee",
-          "token": "`cyan`",
-          "use": "Primary neon accent, links, scan lines"
-        },
-        {
-          "hex": "#38bdf8",
-          "token": "`blue`",
-          "use": "Secondary accent, status highlights"
-        },
-        {
-          "hex": "#8b5cf6",
-          "token": "`violet`",
-          "use": "High-energy glow, active states, premium accents"
-        },
-        {
-          "hex": "#f472b6",
-          "token": "`magenta`",
-          "use": "Alert accents, hover states, rare emphasis"
-        },
-        {
-          "hex": "#fb365d",
-          "token": "`red`",
-          "use": "Danger states, security warnings, failure signals"
-        },
-        {
-          "hex": "#fbbf24",
-          "token": "`amber`",
-          "use": "Warning states, pending tasks, attention markers"
-        },
-        {
-          "hex": "#34d399",
-          "token": "`green`",
-          "use": "Success states, healthy systems, completed checks"
-        },
-        {
-          "hex": "#e5f4ff",
-          "token": "`text`",
-          "use": "Primary foreground text inside SVG assets"
-        },
-        {
-          "hex": "#94a3b8",
-          "token": "`muted`",
-          "use": "Secondary labels and low-priority annotations"
-        },
-        {
-          "hex": "#34d399",
-          "token": "Online",
-          "use": "`#22d3ee`"
-        },
-        {
-          "hex": "#38bdf8",
-          "token": "Running",
-          "use": "`#8b5cf6`"
-        },
-        {
-          "hex": "#fbbf24",
-          "token": "Warning",
-          "use": "`#fb923c`"
-        },
-        {
-          "hex": "#fb365d",
-          "token": "Danger",
-          "use": "`#f472b6`"
-        },
-        {
-          "hex": "#94a3b8",
-          "token": "Deprecated",
-          "use": "`#475569`"
+          "exists": true,
+          "label": "divider_quantum_lattice.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_quantum_lattice.svg",
+          "purpose": "Advanced visual separator.",
+          "section": "Divider"
         }
       ],
-      "id": "cyberpunk",
-      "name": "Cyberpunk",
+      "bestFor": "Generative tools, visual systems, experiments, and interactive demos",
+      "colors": [
+        {
+          "hex": "#111827",
+          "token": "Ink",
+          "use": "Technical headings"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Main links"
+        },
+        {
+          "hex": "#06b6d4",
+          "token": "Cyan",
+          "use": "Motion and systems"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Violet",
+          "use": "Creative highlights"
+        },
+        {
+          "hex": "#db2777",
+          "token": "Pink",
+          "use": "Expressive accents"
+        },
+        {
+          "hex": "#16a34a",
+          "token": "Green",
+          "use": "Working demos"
+        },
+        {
+          "hex": "#dbeafe",
+          "token": "Line",
+          "use": "Structure"
+        }
+      ],
+      "density": "medium",
+      "id": "creative-engineering",
+      "motionLevel": "high",
+      "name": "Creative Engineering",
       "paths": {
-        "assetsMap": "themes/cyberpunk/assets-map.md",
-        "colors": "themes/cyberpunk/colors.md",
-        "example": "themes/cyberpunk/example.md"
+        "assetsMap": "themes/creative-engineering/assets-map.md",
+        "colors": "themes/creative-engineering/colors.md",
+        "components": "themes/creative-engineering/components.md",
+        "contrast": "themes/creative-engineering/contrast.md",
+        "example": "themes/creative-engineering/example.md",
+        "preview": "themes/creative-engineering/preview.md",
+        "templateMatrix": "themes/creative-engineering/template-matrix.md",
+        "tokens": "themes/creative-engineering/tokens.json",
+        "usage": "themes/creative-engineering/usage.md",
+        "voice": "themes/creative-engineering/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "frontend-app",
+          "design-system"
+        ],
+        "excellent": [
+          "design-system",
+          "portfolio-profile",
+          "frontend-app"
+        ],
+        "poor": [
+          "compliance runbooks"
+        ]
       },
       "status": {
         "complete": true,
         "missing": [],
-        "warnings": [
-          "few-assets"
+        "warnings": []
+      },
+      "summary": "Inventive, polished, technical",
+      "tags": [
+        "and",
+        "creative",
+        "demos",
+        "engineering",
+        "experiments",
+        "generative",
+        "interactive",
+        "inventive",
+        "polished",
+        "systems",
+        "technical",
+        "tools",
+        "visual"
+      ],
+      "tone": "Imaginative, concrete, craft-focused"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_cyber_frame.svg",
+          "path": "assets/headers/static/header_cyber_frame.svg",
+          "purpose": "Creates a high-energy technical opening.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "readme_neon_scan.svg",
+          "path": "assets/file_headers/readme_neon_scan.svg",
+          "purpose": "Works for security and system sections.",
+          "section": "Scanner"
+        },
+        {
+          "exists": true,
+          "label": "icon_cyber_scan_line.svg",
+          "path": "assets/icons/devops/icon_cyber_scan_line.svg",
+          "purpose": "Signals scanning or active analysis.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_moving_neon_gradient.svg",
+          "path": "assets/dividers/animated/lines/divider_moving_neon_gradient.svg",
+          "purpose": "Adds controlled neon motion.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Security, DevOps, infrastructure, and high-energy tools",
+      "colors": [
+        {
+          "hex": "#05070d",
+          "token": "Void",
+          "use": "Page-level dark background, deep panels, negative space"
+        },
+        {
+          "hex": "#0b1020",
+          "token": "Panel",
+          "use": "Tables, grouped content, secondary backgrounds"
+        },
+        {
+          "hex": "#172033",
+          "token": "Grid",
+          "use": "Lines, borders, circuit strokes, low-emphasis UI"
+        },
+        {
+          "hex": "#22d3ee",
+          "token": "Cyan",
+          "use": "Primary neon accent, links, scan lines"
+        },
+        {
+          "hex": "#38bdf8",
+          "token": "Blue",
+          "use": "Secondary accent, status highlights"
+        },
+        {
+          "hex": "#8b5cf6",
+          "token": "Violet",
+          "use": "High-energy glow, active states, premium accents"
+        },
+        {
+          "hex": "#34d399",
+          "token": "Green",
+          "use": "Success states, healthy systems, completed checks"
+        }
+      ],
+      "density": "medium",
+      "id": "cyberpunk",
+      "motionLevel": "high",
+      "name": "Cyberpunk",
+      "paths": {
+        "assetsMap": "themes/cyberpunk/assets-map.md",
+        "colors": "themes/cyberpunk/colors.md",
+        "components": "themes/cyberpunk/components.md",
+        "contrast": "themes/cyberpunk/contrast.md",
+        "example": "themes/cyberpunk/example.md",
+        "preview": "themes/cyberpunk/preview.md",
+        "templateMatrix": "themes/cyberpunk/template-matrix.md",
+        "tokens": "themes/cyberpunk/tokens.json",
+        "usage": "themes/cyberpunk/usage.md",
+        "voice": "themes/cyberpunk/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "backend-service",
+          "cli-tool"
+        ],
+        "excellent": [
+          "infrastructure-iac",
+          "backend-service",
+          "internal-tool"
+        ],
+        "poor": [
+          "minimal docs-only repositories"
         ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
       },
       "summary": "Dark, neon, operational",
       "tags": [
@@ -230,9 +529,11 @@
         "operational",
         "security",
         "tools"
-      ]
+      ],
+      "tone": "Sharp, alert, system-focused"
     },
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -315,12 +616,42 @@
           "use": "Tables, rails, and separators"
         }
       ],
+      "density": "medium",
       "id": "data-lab",
-      "name": "Data lab",
+      "motionLevel": "moderate",
+      "name": "Data Lab",
       "paths": {
         "assetsMap": "themes/data-lab/assets-map.md",
         "colors": "themes/data-lab/colors.md",
-        "example": "themes/data-lab/example.md"
+        "components": "themes/data-lab/components.md",
+        "contrast": "themes/data-lab/contrast.md",
+        "example": "themes/data-lab/example.md",
+        "preview": "themes/data-lab/preview.md",
+        "templateMatrix": "themes/data-lab/template-matrix.md",
+        "tokens": "themes/data-lab/tokens.json",
+        "usage": "themes/data-lab/usage.md",
+        "voice": "themes/data-lab/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "internal-tool",
+          "spec-rfc"
+        ],
+        "excellent": [
+          "data-pipeline",
+          "ml-project",
+          "research-project"
+        ],
+        "poor": [
+          "simple badge-only package READMEs"
+        ]
       },
       "status": {
         "complete": true,
@@ -341,9 +672,139 @@
         "pipelines",
         "research",
         "structured"
-      ]
+      ],
+      "tone": "Analytical, transparent, reproducible"
     },
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_circuit.svg",
+          "path": "assets/headers/static/header_circuit.svg",
+          "purpose": "Platform architecture opener.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "agent_orchestration_hub.svg",
+          "path": "assets/visuals/agent_orchestration_hub.svg",
+          "purpose": "Integration hub framing.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_api.svg",
+          "path": "assets/icons/dev/icon_api.svg",
+          "purpose": "API sections.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_data_flow.svg",
+          "path": "assets/dividers/animated/lines/divider_data_flow.svg",
+          "purpose": "Flow-oriented section breaks.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "SDKs, APIs, CLIs, integrations, and platform products",
+      "colors": [
+        {
+          "hex": "#111827",
+          "token": "Ink",
+          "use": "API names"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Links and commands"
+        },
+        {
+          "hex": "#06b6d4",
+          "token": "Cyan",
+          "use": "Integrations"
+        },
+        {
+          "hex": "#16a34a",
+          "token": "Green",
+          "use": "Supported flows"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Violet",
+          "use": "Extensions"
+        },
+        {
+          "hex": "#dbeafe",
+          "token": "Line",
+          "use": "Tables"
+        },
+        {
+          "hex": "#f8fafc",
+          "token": "Canvas",
+          "use": "Docs surface"
+        }
+      ],
+      "density": "medium",
+      "id": "developer-platform",
+      "motionLevel": "moderate",
+      "name": "Developer Platform",
+      "paths": {
+        "assetsMap": "themes/developer-platform/assets-map.md",
+        "colors": "themes/developer-platform/colors.md",
+        "components": "themes/developer-platform/components.md",
+        "contrast": "themes/developer-platform/contrast.md",
+        "example": "themes/developer-platform/example.md",
+        "preview": "themes/developer-platform/preview.md",
+        "templateMatrix": "themes/developer-platform/template-matrix.md",
+        "tokens": "themes/developer-platform/tokens.json",
+        "usage": "themes/developer-platform/usage.md",
+        "voice": "themes/developer-platform/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "cli-tool",
+          "github-action"
+        ],
+        "excellent": [
+          "sdk-reference",
+          "open-source-lib",
+          "sdk-reference"
+        ],
+        "poor": [
+          "academic-lab"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Technical, navigable, extensible",
+      "tags": [
+        "and",
+        "apis",
+        "clis",
+        "developer",
+        "extensible",
+        "integrations",
+        "navigable",
+        "platform",
+        "products",
+        "sdks",
+        "technical"
+      ],
+      "tone": "Builder-first, precise, example-rich"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -426,12 +887,42 @@
           "use": "Default README background"
         }
       ],
+      "density": "medium",
       "id": "docs-clean",
-      "name": "Docs clean",
+      "motionLevel": "low",
+      "name": "Docs Clean",
       "paths": {
         "assetsMap": "themes/docs-clean/assets-map.md",
         "colors": "themes/docs-clean/colors.md",
-        "example": "themes/docs-clean/example.md"
+        "components": "themes/docs-clean/components.md",
+        "contrast": "themes/docs-clean/contrast.md",
+        "example": "themes/docs-clean/example.md",
+        "preview": "themes/docs-clean/preview.md",
+        "templateMatrix": "themes/docs-clean/template-matrix.md",
+        "tokens": "themes/docs-clean/tokens.json",
+        "usage": "themes/docs-clean/usage.md",
+        "voice": "themes/docs-clean/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "design-system",
+          "course-tutorial"
+        ],
+        "excellent": [
+          "sdk-reference",
+          "minimal",
+          "open-source-lib"
+        ],
+        "poor": [
+          "high-motion launch demos"
+        ]
       },
       "status": {
         "complete": true,
@@ -453,9 +944,11 @@
         "scannable",
         "sdk",
         "sites"
-      ]
+      ],
+      "tone": "Helpful, exact, reader-first"
     },
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -538,12 +1031,42 @@
           "use": "Light README preview backgrounds"
         }
       ],
+      "density": "medium",
       "id": "enterprise",
+      "motionLevel": "low",
       "name": "Enterprise",
       "paths": {
         "assetsMap": "themes/enterprise/assets-map.md",
         "colors": "themes/enterprise/colors.md",
-        "example": "themes/enterprise/example.md"
+        "components": "themes/enterprise/components.md",
+        "contrast": "themes/enterprise/contrast.md",
+        "example": "themes/enterprise/example.md",
+        "preview": "themes/enterprise/preview.md",
+        "templateMatrix": "themes/enterprise/template-matrix.md",
+        "tokens": "themes/enterprise/tokens.json",
+        "usage": "themes/enterprise/usage.md",
+        "voice": "themes/enterprise/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "sdk-reference",
+          "monorepo"
+        ],
+        "excellent": [
+          "backend-service",
+          "internal-tool",
+          "saas-product"
+        ],
+        "poor": [
+          "personal profile portfolios"
+        ]
       },
       "status": {
         "complete": true,
@@ -564,9 +1087,404 @@
         "systems",
         "tools",
         "trustworthy"
-      ]
+      ],
+      "tone": "Measured, accountable, support-aware"
     },
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_hero_banner.svg",
+          "path": "assets/headers/static/header_hero_banner.svg",
+          "purpose": "Broad product opener.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "collaboration.svg",
+          "path": "assets/visuals/collaboration.svg",
+          "purpose": "Team and workflow framing.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_rocket_launch.svg",
+          "path": "assets/icons/objects/icon_rocket_launch.svg",
+          "purpose": "Launch sections.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_center_diamond.svg",
+          "path": "assets/dividers/static/divider_center_diamond.svg",
+          "purpose": "Classic product separator.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Launch pages, early products, demos, and business-facing projects",
+      "colors": [
+        {
+          "hex": "#111827",
+          "token": "Ink",
+          "use": "Product claims"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Primary actions"
+        },
+        {
+          "hex": "#0f766e",
+          "token": "Teal",
+          "use": "Trust signals"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Violet",
+          "use": "Launch highlights"
+        },
+        {
+          "hex": "#d97706",
+          "token": "Amber",
+          "use": "Beta notes"
+        },
+        {
+          "hex": "#d1d5db",
+          "token": "Line",
+          "use": "Structure"
+        },
+        {
+          "hex": "#ffffff",
+          "token": "Canvas",
+          "use": "Clean surface"
+        }
+      ],
+      "density": "medium",
+      "id": "founder-product",
+      "motionLevel": "moderate",
+      "name": "Founder Product",
+      "paths": {
+        "assetsMap": "themes/founder-product/assets-map.md",
+        "colors": "themes/founder-product/colors.md",
+        "components": "themes/founder-product/components.md",
+        "contrast": "themes/founder-product/contrast.md",
+        "example": "themes/founder-product/example.md",
+        "preview": "themes/founder-product/preview.md",
+        "templateMatrix": "themes/founder-product/template-matrix.md",
+        "tokens": "themes/founder-product/tokens.json",
+        "usage": "themes/founder-product/usage.md",
+        "voice": "themes/founder-product/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "frontend-app",
+          "internal-tool"
+        ],
+        "excellent": [
+          "saas-product",
+          "frontend-app",
+          "portfolio-profile"
+        ],
+        "poor": [
+          "research-project"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Confident, concise, market-aware",
+      "tags": [
+        "and",
+        "aware",
+        "business",
+        "concise",
+        "confident",
+        "demos",
+        "early",
+        "facing",
+        "founder",
+        "launch",
+        "market",
+        "pages",
+        "product",
+        "products",
+        "projects"
+      ],
+      "tone": "Outcome-led, concrete, credible"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "deployment_flow.svg",
+          "path": "assets/file_headers/deployment_flow.svg",
+          "purpose": "Infrastructure flow opener.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "deployment_pipeline_orbit.svg",
+          "path": "assets/visuals/deployment_pipeline_orbit.svg",
+          "purpose": "Deployment topology.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_cluster_nodes.svg",
+          "path": "assets/icons/devops/icon_cluster_nodes.svg",
+          "purpose": "Cluster references.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_pulse_node_chain.svg",
+          "path": "assets/dividers/animated/lines/divider_pulse_node_chain.svg",
+          "purpose": "Node-chain section movement.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Infrastructure, clusters, IaC, platform ops, and deployment systems",
+      "colors": [
+        {
+          "hex": "#0f172a",
+          "token": "Base",
+          "use": "Control plane background"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Primary links"
+        },
+        {
+          "hex": "#0891b2",
+          "token": "Cyan",
+          "use": "Network paths"
+        },
+        {
+          "hex": "#16a34a",
+          "token": "Green",
+          "use": "Healthy deployments"
+        },
+        {
+          "hex": "#d97706",
+          "token": "Amber",
+          "use": "Change windows"
+        },
+        {
+          "hex": "#dc2626",
+          "token": "Red",
+          "use": "Risk"
+        },
+        {
+          "hex": "#334155",
+          "token": "Line",
+          "use": "Topology edges"
+        }
+      ],
+      "density": "dense",
+      "id": "infra-control-plane",
+      "motionLevel": "moderate",
+      "name": "Infra Control Plane",
+      "paths": {
+        "assetsMap": "themes/infra-control-plane/assets-map.md",
+        "colors": "themes/infra-control-plane/colors.md",
+        "components": "themes/infra-control-plane/components.md",
+        "contrast": "themes/infra-control-plane/contrast.md",
+        "example": "themes/infra-control-plane/example.md",
+        "preview": "themes/infra-control-plane/preview.md",
+        "templateMatrix": "themes/infra-control-plane/template-matrix.md",
+        "tokens": "themes/infra-control-plane/tokens.json",
+        "usage": "themes/infra-control-plane/usage.md",
+        "voice": "themes/infra-control-plane/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "internal-tool",
+          "github-action"
+        ],
+        "excellent": [
+          "infrastructure-iac",
+          "backend-service",
+          "monorepo"
+        ],
+        "poor": [
+          "portfolio-profile"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Structured, networked, operational",
+      "tags": [
+        "and",
+        "clusters",
+        "control",
+        "deployment",
+        "iac",
+        "infra",
+        "infrastructure",
+        "networked",
+        "operational",
+        "ops",
+        "plane",
+        "platform",
+        "structured",
+        "systems"
+      ],
+      "tone": "Systems-oriented, exact, risk-aware"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "quickstart_launch.svg",
+          "path": "assets/file_headers/quickstart_launch.svg",
+          "purpose": "Launch-oriented opener.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "spiral_energy_core.svg",
+          "path": "assets/visuals/spiral_energy_core.svg",
+          "purpose": "High-energy visual focus.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_rocket_launch.svg",
+          "path": "assets/icons/objects/icon_rocket_launch.svg",
+          "purpose": "Demo calls to action.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_portal_breach.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_portal_breach.svg",
+          "purpose": "Expressive demo separator.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Demos, prototypes, examples, launches, and product walkthroughs",
+      "colors": [
+        {
+          "hex": "#111827",
+          "token": "Ink",
+          "use": "Main copy"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Primary actions"
+        },
+        {
+          "hex": "#06b6d4",
+          "token": "Cyan",
+          "use": "Motion cues"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Violet",
+          "use": "Demo highlights"
+        },
+        {
+          "hex": "#16a34a",
+          "token": "Green",
+          "use": "Ready states"
+        },
+        {
+          "hex": "#f59e0b",
+          "token": "Amber",
+          "use": "Beta notes"
+        },
+        {
+          "hex": "#dbeafe",
+          "token": "Line",
+          "use": "Structure"
+        }
+      ],
+      "density": "light",
+      "id": "launch-demo",
+      "motionLevel": "high",
+      "name": "Launch Demo",
+      "paths": {
+        "assetsMap": "themes/launch-demo/assets-map.md",
+        "colors": "themes/launch-demo/colors.md",
+        "components": "themes/launch-demo/components.md",
+        "contrast": "themes/launch-demo/contrast.md",
+        "example": "themes/launch-demo/example.md",
+        "preview": "themes/launch-demo/preview.md",
+        "templateMatrix": "themes/launch-demo/template-matrix.md",
+        "tokens": "themes/launch-demo/tokens.json",
+        "usage": "themes/launch-demo/usage.md",
+        "voice": "themes/launch-demo/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "portfolio-profile",
+          "plugin-extension"
+        ],
+        "excellent": [
+          "frontend-app",
+          "saas-product",
+          "mobile-app"
+        ],
+        "poor": [
+          "research-project"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Energetic, clear, action-oriented",
+      "tags": [
+        "action",
+        "and",
+        "clear",
+        "demo",
+        "demos",
+        "energetic",
+        "examples",
+        "launch",
+        "launches",
+        "oriented",
+        "product",
+        "prototypes",
+        "walkthroughs"
+      ],
+      "tone": "Action-led, concrete, fast"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -649,12 +1567,43 @@
           "use": "Optional highlight for releases or examples"
         }
       ],
+      "density": "compact",
       "id": "minimal",
+      "motionLevel": "low",
       "name": "Minimal",
       "paths": {
         "assetsMap": "themes/minimal/assets-map.md",
         "colors": "themes/minimal/colors.md",
-        "example": "themes/minimal/example.md"
+        "components": "themes/minimal/components.md",
+        "contrast": "themes/minimal/contrast.md",
+        "example": "themes/minimal/example.md",
+        "preview": "themes/minimal/preview.md",
+        "templateMatrix": "themes/minimal/template-matrix.md",
+        "tokens": "themes/minimal/tokens.json",
+        "usage": "themes/minimal/usage.md",
+        "voice": "themes/minimal/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "sdk-reference",
+          "portfolio-profile"
+        ],
+        "excellent": [
+          "minimal",
+          "open-source-lib",
+          "cli-tool"
+        ],
+        "poor": [
+          "cyberpunk demos",
+          "incident-heavy security tooling"
+        ]
       },
       "status": {
         "complete": true,
@@ -673,9 +1622,140 @@
         "restrained",
         "sdks",
         "utilities"
-      ]
+      ],
+      "tone": "Direct, calm, exact"
     },
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "governance_charter.svg",
+          "path": "assets/file_headers/governance_charter.svg",
+          "purpose": "Governance first impression.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "collaboration.svg",
+          "path": "assets/visuals/collaboration.svg",
+          "purpose": "Community coordination.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_pull_request.svg",
+          "path": "assets/icons/dev/icon_pull_request.svg",
+          "purpose": "Contribution flow.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_center_diamond.svg",
+          "path": "assets/dividers/static/divider_center_diamond.svg",
+          "purpose": "Neutral shared divider.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Community projects, foundations, standards, and public roadmaps",
+      "colors": [
+        {
+          "hex": "#24292f",
+          "token": "Ink",
+          "use": "Governance headings"
+        },
+        {
+          "hex": "#0969da",
+          "token": "Blue",
+          "use": "Links"
+        },
+        {
+          "hex": "#1a7f37",
+          "token": "Green",
+          "use": "Accepted proposals"
+        },
+        {
+          "hex": "#8250df",
+          "token": "Purple",
+          "use": "Discussion"
+        },
+        {
+          "hex": "#bf8700",
+          "token": "Amber",
+          "use": "Review"
+        },
+        {
+          "hex": "#d0d7de",
+          "token": "Border",
+          "use": "Rules"
+        },
+        {
+          "hex": "#f6f8fa",
+          "token": "Canvas",
+          "use": "Docs panels"
+        }
+      ],
+      "density": "medium",
+      "id": "open-governance",
+      "motionLevel": "low",
+      "name": "Open Governance",
+      "paths": {
+        "assetsMap": "themes/open-governance/assets-map.md",
+        "colors": "themes/open-governance/colors.md",
+        "components": "themes/open-governance/components.md",
+        "contrast": "themes/open-governance/contrast.md",
+        "example": "themes/open-governance/example.md",
+        "preview": "themes/open-governance/preview.md",
+        "templateMatrix": "themes/open-governance/template-matrix.md",
+        "tokens": "themes/open-governance/tokens.json",
+        "usage": "themes/open-governance/usage.md",
+        "voice": "themes/open-governance/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "plugin-extension",
+          "course-tutorial"
+        ],
+        "excellent": [
+          "open-source-lib",
+          "spec-rfc",
+          "monorepo"
+        ],
+        "poor": [
+          "closed SaaS support docs"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Transparent, stable, participatory",
+      "tags": [
+        "and",
+        "community",
+        "foundations",
+        "governance",
+        "open",
+        "participatory",
+        "projects",
+        "public",
+        "roadmaps",
+        "stable",
+        "standards",
+        "transparent"
+      ],
+      "tone": "Open, respectful, decision-oriented"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -758,12 +1838,42 @@
           "use": "Code-adjacent neutral panels"
         }
       ],
+      "density": "medium",
       "id": "open-source-classic",
-      "name": "Open source classic",
+      "motionLevel": "low",
+      "name": "Open Source Classic",
       "paths": {
         "assetsMap": "themes/open-source-classic/assets-map.md",
         "colors": "themes/open-source-classic/colors.md",
-        "example": "themes/open-source-classic/example.md"
+        "components": "themes/open-source-classic/components.md",
+        "contrast": "themes/open-source-classic/contrast.md",
+        "example": "themes/open-source-classic/example.md",
+        "preview": "themes/open-source-classic/preview.md",
+        "templateMatrix": "themes/open-source-classic/template-matrix.md",
+        "tokens": "themes/open-source-classic/tokens.json",
+        "usage": "themes/open-source-classic/usage.md",
+        "voice": "themes/open-source-classic/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "cli-tool",
+          "frontend-app"
+        ],
+        "excellent": [
+          "open-source-lib",
+          "github-action",
+          "plugin-extension"
+        ],
+        "poor": [
+          "closed internal runbooks"
+        ]
       },
       "status": {
         "complete": true,
@@ -785,9 +1895,400 @@
         "source",
         "starter",
         "welcoming"
-      ]
+      ],
+      "tone": "Welcoming, clear, contributor-safe"
     },
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_glow_up_highlight.svg",
+          "path": "assets/headers/animated/header_glow_up_highlight.svg",
+          "purpose": "Premium profile opener.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "prompt_lab_crystal.svg",
+          "path": "assets/visuals/prompt_lab_crystal.svg",
+          "purpose": "Creative technical focus.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_profile.svg",
+          "path": "assets/icons/core/icon_profile.svg",
+          "purpose": "Profile sections.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_celestial_gate.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_celestial_gate.svg",
+          "purpose": "Selective expressive separator.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Personal profiles, portfolios, case studies, and creative engineering",
+      "colors": [
+        {
+          "hex": "#111827",
+          "token": "Ink",
+          "use": "Profile headings"
+        },
+        {
+          "hex": "#475569",
+          "token": "Slate",
+          "use": "Context"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Links"
+        },
+        {
+          "hex": "#7c3aed",
+          "token": "Violet",
+          "use": "Highlights"
+        },
+        {
+          "hex": "#be185d",
+          "token": "Rose",
+          "use": "Personal accent"
+        },
+        {
+          "hex": "#e5e7eb",
+          "token": "Line",
+          "use": "Sections"
+        },
+        {
+          "hex": "#ffffff",
+          "token": "Canvas",
+          "use": "Clean backdrop"
+        }
+      ],
+      "density": "light",
+      "id": "portfolio-premium",
+      "motionLevel": "moderate",
+      "name": "Portfolio Premium",
+      "paths": {
+        "assetsMap": "themes/portfolio-premium/assets-map.md",
+        "colors": "themes/portfolio-premium/colors.md",
+        "components": "themes/portfolio-premium/components.md",
+        "contrast": "themes/portfolio-premium/contrast.md",
+        "example": "themes/portfolio-premium/example.md",
+        "preview": "themes/portfolio-premium/preview.md",
+        "templateMatrix": "themes/portfolio-premium/template-matrix.md",
+        "tokens": "themes/portfolio-premium/tokens.json",
+        "usage": "themes/portfolio-premium/usage.md",
+        "voice": "themes/portfolio-premium/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "open-source-lib",
+          "course-tutorial"
+        ],
+        "excellent": [
+          "portfolio-profile",
+          "frontend-app",
+          "saas-product"
+        ],
+        "poor": [
+          "security incident runbooks"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Polished, personal, selective",
+      "tags": [
+        "and",
+        "case",
+        "creative",
+        "engineering",
+        "personal",
+        "polished",
+        "portfolio",
+        "portfolios",
+        "premium",
+        "profiles",
+        "selective",
+        "studies"
+      ],
+      "tone": "Confident, selective, human"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "security_policy_radar.svg",
+          "path": "assets/file_headers/security_policy_radar.svg",
+          "purpose": "Policy-oriented first impression.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "privacy_vault_shield.svg",
+          "path": "assets/visuals/privacy_vault_shield.svg",
+          "purpose": "Privacy and boundary visual.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_lock.svg",
+          "path": "assets/icons/core/icon_lock.svg",
+          "purpose": "Permissions and data controls.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_hex_tech.svg",
+          "path": "assets/dividers/static/divider_hex_tech.svg",
+          "purpose": "Structured trust separator.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "Privacy tooling, compliance programs, policy docs, and data-boundary projects",
+      "colors": [
+        {
+          "hex": "#0b1020",
+          "token": "Base",
+          "use": "Trust background"
+        },
+        {
+          "hex": "#e5edf7",
+          "token": "Text",
+          "use": "Readable dark text"
+        },
+        {
+          "hex": "#38bdf8",
+          "token": "Blue",
+          "use": "Policy links"
+        },
+        {
+          "hex": "#22c55e",
+          "token": "Green",
+          "use": "Compliant state"
+        },
+        {
+          "hex": "#f59e0b",
+          "token": "Amber",
+          "use": "Review needed"
+        },
+        {
+          "hex": "#ef4444",
+          "token": "Red",
+          "use": "Risk"
+        },
+        {
+          "hex": "#334155",
+          "token": "Boundary",
+          "use": "Data edges"
+        }
+      ],
+      "density": "medium",
+      "id": "privacy-compliance",
+      "motionLevel": "low",
+      "name": "Privacy Compliance",
+      "paths": {
+        "assetsMap": "themes/privacy-compliance/assets-map.md",
+        "colors": "themes/privacy-compliance/colors.md",
+        "components": "themes/privacy-compliance/components.md",
+        "contrast": "themes/privacy-compliance/contrast.md",
+        "example": "themes/privacy-compliance/example.md",
+        "preview": "themes/privacy-compliance/preview.md",
+        "templateMatrix": "themes/privacy-compliance/template-matrix.md",
+        "tokens": "themes/privacy-compliance/tokens.json",
+        "usage": "themes/privacy-compliance/usage.md",
+        "voice": "themes/privacy-compliance/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "backend-service",
+          "data-pipeline"
+        ],
+        "excellent": [
+          "internal-tool",
+          "spec-rfc",
+          "infrastructure-iac"
+        ],
+        "poor": [
+          "high-motion launch demos"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Controlled, careful, trust-heavy",
+      "tags": [
+        "and",
+        "boundary",
+        "careful",
+        "compliance",
+        "controlled",
+        "data",
+        "docs",
+        "heavy",
+        "policy",
+        "privacy",
+        "programs",
+        "projects",
+        "tooling",
+        "trust"
+      ],
+      "tone": "Cautious, accountable, plain-language"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
+      "assets": [
+        {
+          "exists": true,
+          "label": "header_status_dashboard.svg",
+          "path": "assets/headers/static/header_status_dashboard.svg",
+          "purpose": "Status-oriented first impression.",
+          "section": "Hero"
+        },
+        {
+          "exists": true,
+          "label": "observability_constellation.svg",
+          "path": "assets/visuals/observability_constellation.svg",
+          "purpose": "Observability and signal grouping.",
+          "section": "Visual"
+        },
+        {
+          "exists": true,
+          "label": "icon_slo_gauge.svg",
+          "path": "assets/icons/devops/icon_slo_gauge.svg",
+          "purpose": "SLO and latency references.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_two_beam_lines.svg",
+          "path": "assets/dividers/static/divider_two_beam_lines.svg",
+          "purpose": "Quiet production separators.",
+          "section": "Divider"
+        }
+      ],
+      "bestFor": "SRE, uptime, incident, and production readiness READMEs",
+      "colors": [
+        {
+          "hex": "#101828",
+          "token": "Ink",
+          "use": "Operational headings"
+        },
+        {
+          "hex": "#2563eb",
+          "token": "Blue",
+          "use": "Primary status"
+        },
+        {
+          "hex": "#16a34a",
+          "token": "Green",
+          "use": "Healthy paths"
+        },
+        {
+          "hex": "#d97706",
+          "token": "Amber",
+          "use": "Review states"
+        },
+        {
+          "hex": "#dc2626",
+          "token": "Red",
+          "use": "Incidents"
+        },
+        {
+          "hex": "#cbd5e1",
+          "token": "Line",
+          "use": "Rules"
+        },
+        {
+          "hex": "#f8fafc",
+          "token": "Canvas",
+          "use": "Panels"
+        }
+      ],
+      "density": "dense",
+      "id": "reliability-ops",
+      "motionLevel": "low",
+      "name": "Reliability Ops",
+      "paths": {
+        "assetsMap": "themes/reliability-ops/assets-map.md",
+        "colors": "themes/reliability-ops/colors.md",
+        "components": "themes/reliability-ops/components.md",
+        "contrast": "themes/reliability-ops/contrast.md",
+        "example": "themes/reliability-ops/example.md",
+        "preview": "themes/reliability-ops/preview.md",
+        "templateMatrix": "themes/reliability-ops/template-matrix.md",
+        "tokens": "themes/reliability-ops/tokens.json",
+        "usage": "themes/reliability-ops/usage.md",
+        "voice": "themes/reliability-ops/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "monorepo",
+          "saas-product"
+        ],
+        "excellent": [
+          "backend-service",
+          "internal-tool",
+          "infrastructure-iac"
+        ],
+        "poor": [
+          "portfolio-profile"
+        ]
+      },
+      "status": {
+        "complete": true,
+        "missing": [],
+        "warnings": []
+      },
+      "summary": "Calm, measurable, incident-ready",
+      "tags": [
+        "and",
+        "calm",
+        "incident",
+        "measurable",
+        "ops",
+        "production",
+        "readiness",
+        "readmes",
+        "ready",
+        "reliability",
+        "sre",
+        "uptime"
+      ],
+      "tone": "Operational, factual, no-drama"
+    },
+    {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -870,12 +2371,42 @@
           "use": "Tables and separators"
         }
       ],
+      "density": "dense",
       "id": "security-ops",
-      "name": "Security ops",
+      "motionLevel": "moderate",
+      "name": "Security Ops",
       "paths": {
         "assetsMap": "themes/security-ops/assets-map.md",
         "colors": "themes/security-ops/colors.md",
-        "example": "themes/security-ops/example.md"
+        "components": "themes/security-ops/components.md",
+        "contrast": "themes/security-ops/contrast.md",
+        "example": "themes/security-ops/example.md",
+        "preview": "themes/security-ops/preview.md",
+        "templateMatrix": "themes/security-ops/template-matrix.md",
+        "tokens": "themes/security-ops/tokens.json",
+        "usage": "themes/security-ops/usage.md",
+        "voice": "themes/security-ops/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "internal-tool",
+          "monorepo"
+        ],
+        "excellent": [
+          "infrastructure-iac",
+          "backend-service",
+          "internal-tool"
+        ],
+        "poor": [
+          "casual personal profiles"
+        ]
       },
       "status": {
         "complete": true,
@@ -896,9 +2427,11 @@
         "security",
         "tools",
         "workflows"
-      ]
+      ],
+      "tone": "Precise, cautious, evidence-first"
     },
     {
+      "assetStrategy": "Use one header, one divider family, and no more than two animated accents in a dense README.",
       "assets": [
         {
           "exists": true,
@@ -981,12 +2514,42 @@
           "use": "Terminal dividers and table separators"
         }
       ],
+      "density": "dense",
       "id": "terminal",
+      "motionLevel": "moderate",
       "name": "Terminal",
       "paths": {
         "assetsMap": "themes/terminal/assets-map.md",
         "colors": "themes/terminal/colors.md",
-        "example": "themes/terminal/example.md"
+        "components": "themes/terminal/components.md",
+        "contrast": "themes/terminal/contrast.md",
+        "example": "themes/terminal/example.md",
+        "preview": "themes/terminal/preview.md",
+        "templateMatrix": "themes/terminal/template-matrix.md",
+        "tokens": "themes/terminal/tokens.json",
+        "usage": "themes/terminal/usage.md",
+        "voice": "themes/terminal/voice.md"
+      },
+      "recommendedComponents": [
+        "navigation/start-here",
+        "layout/hero-sections",
+        "badges/system-badges",
+        "quality/testing-strategy",
+        "trust/support-policy"
+      ],
+      "recommendedTemplates": {
+        "acceptable": [
+          "monorepo",
+          "infrastructure-iac"
+        ],
+        "excellent": [
+          "cli-tool",
+          "backend-service",
+          "github-action"
+        ],
+        "poor": [
+          "portfolio-heavy visual showcases"
+        ]
       },
       "status": {
         "complete": true,
@@ -1005,7 +2568,8 @@
         "terminal",
         "tools",
         "workflows"
-      ]
+      ],
+      "tone": "Operational, terse, command-led"
     }
   ]
 }
