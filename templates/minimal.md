@@ -12,7 +12,7 @@
 
 ## Overview
 
-`project-name` is a focused tool for `<primary audience>` who need to `<main outcome>` without `<common pain point>`.
+`PROJECT_NAME` is a focused tool for `TARGET_USER` who need to `PRIMARY_OUTCOME` without `COMMON_PAIN_POINT`.
 
 Use this section to explain the project in plain language. Keep it short enough that a new visitor can understand the value before scrolling.
 
@@ -34,10 +34,10 @@ cd project-name
 
 ```bash
 # Install dependencies
-<install command>
+INSTALL_COMMAND
 
 # Run the project
-<run command>
+RUN_COMMAND
 ```
 
 ## Example
@@ -85,3 +85,10 @@ Issues and pull requests are welcome. Before opening a larger change, create an 
 ## License
 
 This project is licensed under the terms in `LICENSE`.
+
+## Copy Checklist
+
+- [ ] Replace all placeholder project names, commands, and links.
+- [ ] Remove sections that do not apply.
+- [ ] Verify local and external links.
+- [ ] Choose one compatible theme and keep assets consistent.
