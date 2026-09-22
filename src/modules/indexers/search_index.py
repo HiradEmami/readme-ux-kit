@@ -60,6 +60,39 @@ def asset_entries(manifest):
 
 
 def template_entries(root):
+    template_index = root / "templates" / "index.json"
+    if template_index.exists():
+        entries = []
+        for template in load_json(template_index).get("templates", []):
+            path = root / template["path"]
+            info = markdown_summary(path) if path.exists() else {"headings": [], "summary": ""}
+            entries.append(
+                {
+                    "id": f"template:{template['path']}",
+                    "kind": "template",
+                    "title": template["title"],
+                    "path": template["path"],
+                    "summary": template.get("bestFor", info["summary"]),
+                    "headings": info["headings"],
+                    "maturity": template.get("maturity", ""),
+                    "compatibleThemes": template.get("compatibleThemes", []),
+                    "recommendedComponents": template.get("recommendedComponents", []),
+                    "contract": template.get("contract", ""),
+                    "outputDensity": template.get("outputDensity", ""),
+                    "tags": tokens_for(template["id"], template["title"], template.get("maturity", ""), template.get("compatibleThemes", [])),
+                    "tokens": tokens_for(
+                        template["id"],
+                        template["title"],
+                        template.get("bestFor", ""),
+                        template.get("supportedProjectTypes", []),
+                        template.get("compatibleThemes", []),
+                        template.get("recommendedComponents", []),
+                        info["headings"],
+                    ),
+                }
+            )
+        return entries
+
     entries = []
     for path in sorted((root / "templates").glob("*.md"), key=lambda item: item.name.lower()):
         if path.name == "README.md":
@@ -81,6 +114,38 @@ def template_entries(root):
 
 
 def component_entries(root):
+    component_index = root / "components" / "index.json"
+    if component_index.exists():
+        entries = []
+        for component in load_json(component_index).get("components", []):
+            path = root / component["path"]
+            info = markdown_summary(path) if path.exists() else {"headings": [], "summary": ""}
+            entries.append(
+                {
+                    "id": f"component:{component['path']}",
+                    "kind": "component",
+                    "title": component["title"],
+                    "path": component["path"],
+                    "group": component["group"],
+                    "summary": component.get("bestFor", info["summary"]),
+                    "headings": info["headings"],
+                    "maturity": component.get("maturity", ""),
+                    "compatibleTemplates": component.get("compatibleTemplates", []),
+                    "compatibleThemes": component.get("compatibleThemes", []),
+                    "tags": tokens_for(component["group"], component["id"], component["title"], component.get("maturity", "")),
+                    "tokens": tokens_for(
+                        component["group"],
+                        component["id"],
+                        component["title"],
+                        component.get("bestFor", ""),
+                        component.get("compatibleTemplates", []),
+                        component.get("compatibleThemes", []),
+                        info["headings"],
+                    ),
+                }
+            )
+        return entries
+
     entries = []
     for path in sorted((root / "components").rglob("*.md"), key=lambda item: item.as_posix().lower()):
         if path.name == "README.md":
