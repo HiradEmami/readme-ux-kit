@@ -4,7 +4,7 @@
 
 [![Service header](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/static/header_data_rail.svg)](https://github.com/HiradEmami/readme-ux-kit)
 
-> Production-oriented backend service for `<domain>` that handles `<core responsibility>` with clear operational boundaries.
+> Production-oriented backend service for `PRIMARY_DOMAIN` that handles `CORE_RESPONSIBILITY` with clear operational boundaries.
 
 [![Build](https://img.shields.io/badge/build-passing-34d399.svg)](#)
 [![API](https://img.shields.io/badge/api-v1-38bdf8.svg)](#api)
@@ -13,18 +13,18 @@
 
 ## Purpose
 
-`service-name` owns `<business capability>`. It exposes a small API for `<clients or systems>` and persists `<primary data>` in `<storage layer>`.
+`SERVICE_NAME` owns `BUSINESS_CAPABILITY`. It exposes a small API for `CLIENT_SYSTEMS` and persists `PRIMARY_DATA` in `STORAGE_LAYER`.
 
 This service should be the source of truth for:
 
-- `<responsibility one>`
-- `<responsibility two>`
-- `<responsibility three>`
+- `RESPONSIBILITY_ONE`
+- `RESPONSIBILITY_TWO`
+- `RESPONSIBILITY_THREE`
 
 It should not own:
 
-- `<explicit non-goal one>`
-- `<explicit non-goal two>`
+- `EXPLICIT_NON_GOAL_ONE`
+- `EXPLICIT_NON_GOAL_TWO`
 
 ## Architecture
 
@@ -41,10 +41,10 @@ service-name API
 
 | Layer         | Technology              | Notes                              |
 |---------------|-------------------------|------------------------------------|
-| Runtime       | `<language/framework>`  | Main application process.          |
-| Database      | `<database>`            | Durable service-owned data.        |
-| Queue         | `<queue or broker>`     | Async jobs and integration events. |
-| Observability | `<logs/metrics/traces>` | Production diagnostics.            |
+| Runtime       | `LANGUAGE_FRAMEWORK`  | Main application process.          |
+| Database      | `DATABASE_NAME`        | Durable service-owned data.        |
+| Queue         | `QUEUE_NAME`           | Async jobs and integration events. |
+| Observability | `OBSERVABILITY_STACK`  | Production diagnostics.            |
 
 [![Service divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/HiradEmami/readme-ux-kit)
 
@@ -83,9 +83,9 @@ cd service-name
 ```
 
 ```bash
-<install command>
-<start dependencies command>
-<run command>
+INSTALL_COMMAND
+START_DEPENDENCIES_COMMAND
+RUN_COMMAND
 ```
 
 ## Configuration
@@ -101,37 +101,37 @@ cd service-name
 ## Testing
 
 ```bash
-<unit test command>
-<integration test command>
+UNIT_TEST_COMMAND
+INTEGRATION_TEST_COMMAND
 ```
 
 | Suite       | Scope                              | Expected runtime |
 |-------------|------------------------------------|------------------|
-| Unit        | Business logic and handlers        | `<1 min`         |
-| Integration | Database, queue, external adapters | `<5 min`         |
-| Contract    | API compatibility                  | `<2 min`         |
+| Unit        | Business logic and handlers        | Under 1 min |
+| Integration | Database, queue, external adapters | Under 5 min |
+| Contract    | API compatibility                  | Under 2 min |
 
 ## Operations
 
 | Signal       | Target    | Alert when                        |
 |--------------|-----------|-----------------------------------|
 | Availability | `99.9%`   | Error budget burn exceeds policy. |
-| p95 latency  | `<200 ms` | Sustained over 10 minutes.        |
-| Error rate   | `<0.5%`   | Sustained over 5 minutes.         |
-| Queue lag    | `<60 s`   | Sustained over 15 minutes.        |
+| p95 latency  | `P95_LATENCY_TARGET` | Sustained over 10 minutes.        |
+| Error rate   | `ERROR_RATE_TARGET`  | Sustained over 5 minutes.         |
+| Queue lag    | `QUEUE_LAG_TARGET`   | Sustained over 15 minutes.        |
 
 ## Deployment
 
 ```bash
-<build command>
-<deploy command>
+BUILD_COMMAND
+DEPLOY_COMMAND
 ```
 
 | Environment | URL                     | Notes                         |
 |-------------|-------------------------|-------------------------------|
 | Local       | `http://localhost:8080` | Developer machine.            |
-| Staging     | `<staging url>`         | Release candidate validation. |
-| Production  | `<production url>`      | Customer traffic.             |
+| Staging     | `STAGING_URL`           | Release candidate validation. |
+| Production  | `PRODUCTION_URL`        | Customer traffic.             |
 
 ## Runbook
 
@@ -144,3 +144,10 @@ cd service-name
 ## License
 
 This project is licensed under the terms in `LICENSE`.
+
+## Copy Checklist
+
+- [ ] Replace all placeholder project names, commands, and links.
+- [ ] Remove sections that do not apply.
+- [ ] Verify local and external links.
+- [ ] Choose one compatible theme and keep assets consistent.
