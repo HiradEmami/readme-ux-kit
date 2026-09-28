@@ -1,0 +1,1445 @@
+{
+  "componentCount": 47,
+  "components": [
+    {
+      "bestFor": "Short implementation story with measurable outcome.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "adoption",
+      "id": "adoption/case-study",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/adoption/case-study.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Case Study"
+    },
+    {
+      "bestFor": "Transparent feature comparison without fake claims.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "adoption",
+      "id": "adoption/comparison-table",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/adoption/comparison-table.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Comparison Table"
+    },
+    {
+      "bestFor": "When to use, avoid, or compare against alternatives.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "adoption",
+      "id": "adoption/decision-matrix",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/adoption/decision-matrix.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Decision Matrix"
+    },
+    {
+      "bestFor": "Clear use cases and non-goals for product fit.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "adoption",
+      "id": "adoption/use-cases",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/adoption/use-cases.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Use Cases"
+    },
+    {
+      "bestFor": "Motion-forward badge patterns for READMEs that need a little energy while staying compatible with GitHub Markdown. Use animated badges sparingly: they are strongest when they highlight one or two live signals, not when every status indicator is moving.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "badges",
+      "id": "badges/animated-badges",
+      "maturity": "draft",
+      "motionLevel": "varies",
+      "optionalPlaceholders": [],
+      "path": "components/badges/animated-badges.md",
+      "requiredPlaceholders": [],
+      "title": "Animated Badges"
+    },
+    {
+      "bestFor": "High-impact badge sets for READMEs that need a more expressive visual tone: developer tools, AI projects, creative coding, portfolio repositories, demos, and experimental systems.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "badges",
+      "id": "badges/neon-badges",
+      "maturity": "experimental",
+      "motionLevel": "varies",
+      "optionalPlaceholders": [],
+      "path": "components/badges/neon-badges.md",
+      "requiredPlaceholders": [],
+      "title": "Neon Badges"
+    },
+    {
+      "bestFor": "Clean, production-oriented badge rows for READMEs that need to communicate trust quickly: build health, release maturity, license, package status, platform support, security posture, and maintenance activity.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "badges",
+      "id": "badges/system-badges",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/badges/system-badges.md",
+      "requiredPlaceholders": [],
+      "title": "System Badges"
+    },
+    {
+      "bestFor": "Issue selection, local setup, review, and release path.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "community",
+      "id": "community/contributor-journey",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/community/contributor-journey.md",
+      "requiredPlaceholders": [
+        "CONTRIBUTING_URL"
+      ],
+      "title": "Contributor Journey"
+    },
+    {
+      "bestFor": "Sponsorship, support tiers, and sustainability notes.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "community",
+      "id": "community/funding",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/community/funding.md",
+      "requiredPlaceholders": [
+        "FUNDING_URL"
+      ],
+      "title": "Funding"
+    },
+    {
+      "bestFor": "Decision-making, maintainers, and proposal flow.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "community",
+      "id": "community/governance",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/community/governance.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Governance"
+    },
+    {
+      "bestFor": "Ownership, responsibility, and escalation contacts.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "community",
+      "id": "community/maintainers",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/community/maintainers.md",
+      "requiredPlaceholders": [
+        "MAINTAINER_HANDLE"
+      ],
+      "title": "Maintainers"
+    },
+    {
+      "bestFor": "GitHub-compatible disclosure sections for READMEs that need depth without overwhelming the first scan. Use them for advanced setup, troubleshooting, API details, benchmark notes, architecture diagrams, migration notes, and long examples.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "interactive",
+      "id": "interactive/expand-collapse",
+      "maturity": "stable",
+      "motionLevel": "varies",
+      "optionalPlaceholders": [],
+      "path": "components/interactive/expand-collapse.md",
+      "requiredPlaceholders": [],
+      "title": "Expand And Collapse"
+    },
+    {
+      "bestFor": "GitHub Markdown does not support JavaScript-powered tabs, but you can create tab-like README patterns that are reliable, accessible, and easy to scan. Use these patterns for install methods, language examples, deployment targets, operating systems, and API variants.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "interactive",
+      "id": "interactive/tabs",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/interactive/tabs.md",
+      "requiredPlaceholders": [],
+      "title": "Tabs"
+    },
+    {
+      "bestFor": "README terminal blocks should feel precise, runnable, and calm. Use them for installation, quick starts, deployment commands, CLI walkthroughs, expected output, and troubleshooting.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "interactive",
+      "id": "interactive/terminal-blocks",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/interactive/terminal-blocks.md",
+      "requiredPlaceholders": [],
+      "title": "Terminal Blocks"
+    },
+    {
+      "bestFor": "Animated typing headers give a README a strong first impression without requiring JavaScript. This kit includes ready-made animated SVG headers and a generator for creating custom text.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "interactive",
+      "id": "interactive/typing-headers",
+      "maturity": "experimental",
+      "motionLevel": "varies",
+      "optionalPlaceholders": [],
+      "path": "components/interactive/typing-headers.md",
+      "requiredPlaceholders": [],
+      "title": "Typing Headers"
+    },
+    {
+      "bestFor": "FAQ sections reduce friction near the end of a README. They answer objections, clarify scope, explain compatibility, and route readers to the right next step without interrupting the main flow.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "layout",
+      "id": "layout/faq",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/layout/faq.md",
+      "requiredPlaceholders": [],
+      "title": "FAQ"
+    },
+    {
+      "bestFor": "Feature grids help readers understand the project shape quickly: capabilities, architecture, workflows, integrations, or guarantees. GitHub Markdown does not support responsive CSS grids, so use tables, compact cards, or section groups that render predictably.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "layout",
+      "id": "layout/feature-grids",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/layout/feature-grids.md",
+      "requiredPlaceholders": [],
+      "title": "Feature Grids"
+    },
+    {
+      "bestFor": "Hero sections establish what the project is, why it matters, and where a reader should go next. In a README, the best hero is compact: one strong visual, one clear positioning line, key links, and a fast path to installation or usage.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "layout",
+      "id": "layout/hero-sections",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/layout/hero-sections.md",
+      "requiredPlaceholders": [],
+      "title": "Hero Sections"
+    },
+    {
+      "bestFor": "Roadmaps show direction without promising more than the project can deliver. A good README roadmap makes status clear, separates committed work from ideas, and gives contributors a useful place to engage.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "layout",
+      "id": "layout/roadmap",
+      "maturity": "draft",
+      "motionLevel": "varies",
+      "optionalPlaceholders": [],
+      "path": "components/layout/roadmap.md",
+      "requiredPlaceholders": [],
+      "title": "Roadmap"
+    },
+    {
+      "bestFor": "Compact top-level links for docs, issues, releases, and examples.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "navigation",
+      "id": "navigation/quick-links",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/navigation/quick-links.md",
+      "requiredPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL"
+      ],
+      "title": "Quick Links"
+    },
+    {
+      "bestFor": "Folder and ownership maps for large repositories.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "navigation",
+      "id": "navigation/repo-map",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/navigation/repo-map.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Repository Map"
+    },
+    {
+      "bestFor": "Different paths for users, contributors, operators, and reviewers.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "navigation",
+      "id": "navigation/role-paths",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/navigation/role-paths.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Role Paths"
+    },
+    {
+      "bestFor": "First-screen reader routing for busy repositories.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "navigation",
+      "id": "navigation/start-here",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/navigation/start-here.md",
+      "requiredPlaceholders": [
+        "DOCS_URL",
+        "PROJECT_NAME"
+      ],
+      "title": "Start Here"
+    },
+    {
+      "bestFor": "First successful command path with expected output.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "onboarding",
+      "id": "onboarding/first-run",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/onboarding/first-run.md",
+      "requiredPlaceholders": [
+        "RUN_COMMAND"
+      ],
+      "title": "First Run"
+    },
+    {
+      "bestFor": "Package, source, Docker, and binary installation choices.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "onboarding",
+      "id": "onboarding/install-options",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/onboarding/install-options.md",
+      "requiredPlaceholders": [
+        "PACKAGE_NAME"
+      ],
+      "title": "Install Options"
+    },
+    {
+      "bestFor": "Runtime, account, toolchain, and permission requirements.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "onboarding",
+      "id": "onboarding/prerequisites",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/onboarding/prerequisites.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Prerequisites"
+    },
+    {
+      "bestFor": "Common failure paths and fixes before users open issues.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "onboarding",
+      "id": "onboarding/troubleshooting-starters",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/onboarding/troubleshooting-starters.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Troubleshooting Starters"
+    },
+    {
+      "bestFor": "Accessibility scope, checks, and known gaps.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "quality",
+      "id": "quality/accessibility-notes",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/quality/accessibility-notes.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Accessibility Notes"
+    },
+    {
+      "bestFor": "Logs, metrics, traces, dashboards, and alerts.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "quality",
+      "id": "quality/observability",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/quality/observability.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Observability"
+    },
+    {
+      "bestFor": "Performance targets and review thresholds.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "quality",
+      "id": "quality/performance-budget",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/quality/performance-budget.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Performance Budget"
+    },
+    {
+      "bestFor": "Test types, scope, commands, and ownership.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "quality",
+      "id": "quality/testing-strategy",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/quality/testing-strategy.md",
+      "requiredPlaceholders": [
+        "TEST_COMMAND"
+      ],
+      "title": "Testing Strategy"
+    },
+    {
+      "bestFor": "Endpoint and method summaries that stay readable in GitHub.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "reference",
+      "id": "reference/api-reference",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/reference/api-reference.md",
+      "requiredPlaceholders": [
+        "API_BASE_URL",
+        "PROJECT_NAME"
+      ],
+      "title": "API Reference"
+    },
+    {
+      "bestFor": "Commands, flags, examples, and output expectations.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "reference",
+      "id": "reference/cli-reference",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/reference/cli-reference.md",
+      "requiredPlaceholders": [
+        "INSTALL_COMMAND",
+        "PACKAGE_NAME"
+      ],
+      "title": "CLI Reference"
+    },
+    {
+      "bestFor": "Environment variables, defaults, and operational impact.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "reference",
+      "id": "reference/config-reference",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/reference/config-reference.md",
+      "requiredPlaceholders": [
+        "CONFIG_FILE",
+        "PROJECT_NAME"
+      ],
+      "title": "Config Reference"
+    },
+    {
+      "bestFor": "Actionable failure tables for support and troubleshooting.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "reference",
+      "id": "reference/error-codes",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/reference/error-codes.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Error Codes"
+    },
+    {
+      "bestFor": "Clear removal timelines and alternatives.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "release",
+      "id": "release/deprecation-notice",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/release/deprecation-notice.md",
+      "requiredPlaceholders": [
+        "FEATURE_NAME",
+        "REMOVAL_VERSION"
+      ],
+      "title": "Deprecation Notice"
+    },
+    {
+      "bestFor": "Readable release highlights with upgrade risk.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "release",
+      "id": "release/release-notes",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/release/release-notes.md",
+      "requiredPlaceholders": [
+        "VERSION"
+      ],
+      "title": "Release Notes"
+    },
+    {
+      "bestFor": "Migration steps and verification checks.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "release",
+      "id": "release/upgrade-guide",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/release/upgrade-guide.md",
+      "requiredPlaceholders": [
+        "NEW_VERSION",
+        "OLD_VERSION"
+      ],
+      "title": "Upgrade Guide"
+    },
+    {
+      "bestFor": "Support windows and compatibility commitments.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "release",
+      "id": "release/version-policy",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/release/version-policy.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Version Policy"
+    },
+    {
+      "bestFor": "Dataset status sections help readers trust the data behind a project. They show version, freshness, license, quality checks, lineage, and known limitations without burying the README in data documentation.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "status",
+      "id": "status/dataset-status",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/status/dataset-status.md",
+      "requiredPlaceholders": [],
+      "title": "Dataset Status"
+    },
+    {
+      "bestFor": "Deployment status sections make operational health visible without turning a README into a full status page. Use them for services, APIs, CLIs with hosted infrastructure, demos, dashboards, and internal platforms.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "status",
+      "id": "status/deployment-status",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/status/deployment-status.md",
+      "requiredPlaceholders": [],
+      "title": "Deployment Status"
+    },
+    {
+      "bestFor": "ML experiment sections make model work auditable. They should show what was tested, which data and metrics were used, what changed, and whether the result is ready for production or still exploratory.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "status",
+      "id": "status/ml-experiments",
+      "maturity": "draft",
+      "motionLevel": "varies",
+      "optionalPlaceholders": [],
+      "path": "components/status/ml-experiments.md",
+      "requiredPlaceholders": [],
+      "title": "ML Experiments"
+    },
+    {
+      "bestFor": "Version lifecycle sections explain what is stable, what is changing, and what users should do next. They are especially useful for libraries, APIs, CLIs, templates, datasets, and services with multiple supported versions.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "status",
+      "id": "status/version-lifecycle",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [],
+      "path": "components/status/version-lifecycle.md",
+      "requiredPlaceholders": [],
+      "title": "Version Lifecycle"
+    },
+    {
+      "bestFor": "Repository ownership, cadence, and lifecycle expectations.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "trust",
+      "id": "trust/maintenance-status",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/trust/maintenance-status.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Maintenance Status"
+    },
+    {
+      "bestFor": "Source, generation, license, and verification notes.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "trust",
+      "id": "trust/provenance",
+      "maturity": "draft",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/trust/provenance.md",
+      "requiredPlaceholders": [
+        "PROJECT_NAME"
+      ],
+      "title": "Provenance"
+    },
+    {
+      "bestFor": "Security boundaries, reporting paths, and reviewed controls.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "trust",
+      "id": "trust/security-posture",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/trust/security-posture.md",
+      "requiredPlaceholders": [
+        "SECURITY_CONTACT"
+      ],
+      "title": "Security Posture"
+    },
+    {
+      "bestFor": "Supported versions, channels, and response boundaries.",
+      "compatibleTemplates": [
+        "minimal",
+        "open-source-lib",
+        "backend-service",
+        "cli-tool",
+        "sdk-reference"
+      ],
+      "compatibleThemes": [
+        "minimal",
+        "docs-clean",
+        "enterprise",
+        "terminal",
+        "open-source-classic"
+      ],
+      "githubCompatibility": "Standard GitHub Markdown tables, lists, links, and code spans.",
+      "group": "trust",
+      "id": "trust/support-policy",
+      "maturity": "stable",
+      "motionLevel": "none",
+      "optionalPlaceholders": [
+        "DOCS_URL",
+        "ISSUES_URL",
+        "SUPPORT_URL"
+      ],
+      "path": "components/trust/support-policy.md",
+      "requiredPlaceholders": [
+        "SUPPORT_URL"
+      ],
+      "title": "Support Policy"
+    }
+  ],
+  "generatedBy": "src/modules/indexers/component_index.py",
+  "groups": [
+    {
+      "id": "adoption",
+      "path": "components/adoption/",
+      "purpose": "Adoption README components."
+    },
+    {
+      "id": "badges",
+      "path": "components/badges/",
+      "purpose": "Badges README components."
+    },
+    {
+      "id": "community",
+      "path": "components/community/",
+      "purpose": "Community README components."
+    },
+    {
+      "id": "interactive",
+      "path": "components/interactive/",
+      "purpose": "Interactive README components."
+    },
+    {
+      "id": "layout",
+      "path": "components/layout/",
+      "purpose": "Layout README components."
+    },
+    {
+      "id": "navigation",
+      "path": "components/navigation/",
+      "purpose": "Navigation README components."
+    },
+    {
+      "id": "onboarding",
+      "path": "components/onboarding/",
+      "purpose": "Onboarding README components."
+    },
+    {
+      "id": "quality",
+      "path": "components/quality/",
+      "purpose": "Quality README components."
+    },
+    {
+      "id": "reference",
+      "path": "components/reference/",
+      "purpose": "Reference README components."
+    },
+    {
+      "id": "release",
+      "path": "components/release/",
+      "purpose": "Release README components."
+    },
+    {
+      "id": "status",
+      "path": "components/status/",
+      "purpose": "Status README components."
+    },
+    {
+      "id": "trust",
+      "path": "components/trust/",
+      "purpose": "Trust README components."
+    }
+  ],
+  "schemaVersion": 1
+}
