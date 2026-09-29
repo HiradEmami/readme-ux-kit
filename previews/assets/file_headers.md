@@ -6,20 +6,20 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 ## At a glance
 
-- Assets: 39
+- Assets: 44
 - Groups: 1
 - Best for: Giving policy, contribution, security, support, changelog, and documentation files a polished first impression.
 - Category tags: `docs`, `header`
 
 ## Tag summary
 
-`animated` (39), `docs` (39), `header` (39), `motion` (39), `governance` (6), `architecture` (4), `code` (4), `security` (4), `energy` (3), `build` (3), `testing` (2), `data` (2)
+`docs` (44), `header` (44), `animated` (39), `motion` (39), `governance` (6), `static` (5), `security` (5), `architecture` (4), `code` (4), `testing` (3), `energy` (3), `build` (3)
 
 ## Full previews
 
 | Group | Count | Description | Full preview |
 | --- | ---: | --- | --- |
-| All File Headers | 39 | Header graphics for common repository files such as security, contributing, and code of conduct documents. | [Open](./file_headers/full_file_header_preview.md) |
+| All File Headers | 44 | Header graphics for common repository files such as security, contributing, and code of conduct documents. | [Open](./file_headers/full_file_header_preview.md) |
 
 ## Highlights
 
