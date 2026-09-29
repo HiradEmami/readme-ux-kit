@@ -16,12 +16,13 @@ These examples are not external community repositories. They are curated composi
 
 ### Polished Open-Source Library
 
-| Field | Details |
-| --- | --- |
-| Project type | Open-source library or SDK |
-| Kit pieces used | [`templates/open-source-lib.md`](../templates/open-source-lib.md), [`themes/open-source-classic/example.md`](../themes/open-source-classic/example.md), [`components/status/version-lifecycle.md`](../components/status/version-lifecycle.md) |
-| Recommended assets | [`header_hero_banner.svg`](../assets/headers/static/header_hero_banner.svg), [`divider_center_diamond.svg`](../assets/dividers/static/divider_center_diamond.svg), [`icon_pull_request.svg`](../assets/icons/dev/icon_pull_request.svg) |
-| Good example of | Familiar project introduction, contributor path, support expectations |
+**Project type:** Open-source library or SDK
+
+**Kit pieces:** [`open-source-lib.md`](../templates/open-source-lib.md), [`open-source-classic`](../themes/open-source-classic/example.md), [`version lifecycle`](../components/status/version-lifecycle.md)
+
+**Assets:** [`header_hero_banner.svg`](../assets/headers/static/header_hero_banner.svg), [`divider_center_diamond.svg`](../assets/dividers/static/divider_center_diamond.svg), [`icon_pull_request.svg`](../assets/icons/dev/icon_pull_request.svg)
+
+**Good example of:** Familiar project introduction, contributor path, and support expectations.
 
 Use this pattern when a repository needs to feel approachable without becoming decorative. The README should answer what the package does, how to install it, what version is supported, and how contributors can help.
 
@@ -39,12 +40,13 @@ Use this pattern when a repository needs to feel approachable without becoming d
 
 ### Production Backend Service
 
-| Field | Details |
-| --- | --- |
-| Project type | Backend service, platform API, or internal production system |
-| Kit pieces used | [`templates/backend-service.md`](../templates/backend-service.md), [`themes/enterprise/example.md`](../themes/enterprise/example.md), [`components/status/deployment-status.md`](../components/status/deployment-status.md) |
-| Recommended assets | [`header_status_dashboard.svg`](../assets/headers/static/header_status_dashboard.svg), [`reliability_control_room.svg`](../assets/visuals/reliability_control_room.svg), [`icon_slo_gauge.svg`](../assets/icons/devops/icon_slo_gauge.svg) |
-| Good example of | Production posture, ownership, support model, operational confidence |
+**Project type:** Backend service, platform API, or internal production system
+
+**Kit pieces:** [`backend-service.md`](../templates/backend-service.md), [`enterprise`](../themes/enterprise/example.md), [`deployment status`](../components/status/deployment-status.md)
+
+**Assets:** [`header_status_dashboard.svg`](../assets/headers/static/header_status_dashboard.svg), [`reliability_control_room.svg`](../assets/visuals/reliability_control_room.svg), [`icon_slo_gauge.svg`](../assets/icons/devops/icon_slo_gauge.svg)
+
+**Good example of:** Production posture, ownership, support model, and operational confidence.
 
 Use this pattern when readers need to know whether a service is stable, supported, observable, and safe to depend on. It works best with short status tables and explicit ownership metadata.
 
@@ -61,12 +63,13 @@ Use this pattern when readers need to know whether a service is stable, supporte
 
 ### Model or Data Research Repo
 
-| Field | Details |
-| --- | --- |
-| Project type | ML project, benchmark suite, dataset, or experiment repository |
-| Kit pieces used | [`templates/ml-project.md`](../templates/ml-project.md), [`templates/research-project.md`](../templates/research-project.md), [`themes/data-lab/example.md`](../themes/data-lab/example.md), [`components/status/ml-experiments.md`](../components/status/ml-experiments.md) |
-| Recommended assets | [`header_data_rail.svg`](../assets/headers/static/header_data_rail.svg), [`data_lineage_river.svg`](../assets/visuals/data_lineage_river.svg), [`divider_data_flow.svg`](../assets/dividers/animated/lines/divider_data_flow.svg) |
-| Good example of | Dataset status, experiment decisions, benchmark context |
+**Project type:** ML project, benchmark suite, dataset, or experiment repository
+
+**Kit pieces:** [`ml-project.md`](../templates/ml-project.md), [`research-project.md`](../templates/research-project.md), [`data-lab`](../themes/data-lab/example.md), [`ML experiments`](../components/status/ml-experiments.md)
+
+**Assets:** [`header_data_rail.svg`](../assets/headers/static/header_data_rail.svg), [`data_lineage_river.svg`](../assets/visuals/data_lineage_river.svg), [`divider_data_flow.svg`](../assets/dividers/animated/lines/divider_data_flow.svg)
+
+**Good example of:** Dataset status, experiment decisions, and benchmark context.
 
 Use this pattern when the README needs to make evidence easy to inspect. Prefer tables that include split, baseline, current metric, and decision instead of isolated performance claims.
 
@@ -82,12 +85,13 @@ Use this pattern when the README needs to make evidence easy to inspect. Prefer 
 
 ### Security Tool or Policy Repo
 
-| Field | Details |
-| --- | --- |
-| Project type | Scanner, security workflow, policy engine, or disclosure-focused repository |
-| Kit pieces used | [`themes/security-ops/example.md`](../themes/security-ops/example.md), [`components/badges/system-badges.md`](../components/badges/system-badges.md), [`components/interactive/expand-collapse.md`](../components/interactive/expand-collapse.md) |
-| Recommended assets | [`security_policy_radar.svg`](../assets/file_headers/security_policy_radar.svg), [`privacy_vault_shield.svg`](../assets/visuals/privacy_vault_shield.svg), [`divider_scanning_radar.svg`](../assets/dividers/animated/lines/divider_scanning_radar.svg) |
-| Good example of | Trust boundaries, required checks, disclosure clarity |
+**Project type:** Scanner, security workflow, policy engine, or disclosure-focused repository
+
+**Kit pieces:** [`security-ops`](../themes/security-ops/example.md), [`system badges`](../components/badges/system-badges.md), [`expand and collapse`](../components/interactive/expand-collapse.md)
+
+**Assets:** [`security_policy_radar.svg`](../assets/file_headers/security_policy_radar.svg), [`privacy_vault_shield.svg`](../assets/visuals/privacy_vault_shield.svg), [`divider_scanning_radar.svg`](../assets/dividers/animated/lines/divider_scanning_radar.svg)
+
+**Good example of:** Trust boundaries, required checks, and disclosure clarity.
 
 Use this pattern when the README must help readers understand what is checked, what is not checked, and how risk is handled. Keep alert visuals meaningful and avoid using red for ordinary status.
 
@@ -103,12 +107,13 @@ Use this pattern when the README must help readers understand what is checked, w
 
 ### Documentation Site or API Reference
 
-| Field | Details |
-| --- | --- |
-| Project type | Documentation site, API reference, SDK guide, or examples repository |
-| Kit pieces used | [`themes/docs-clean/example.md`](../themes/docs-clean/example.md), [`components/interactive/tabs.md`](../components/interactive/tabs.md), [`components/layout/faq.md`](../components/layout/faq.md) |
-| Recommended assets | [`header_split_line.svg`](../assets/headers/static/header_split_line.svg), [`icon_docs.svg`](../assets/icons/core/icon_docs.svg), [`icon_breadcrumb_path.svg`](../assets/icons/navigation/icon_breadcrumb_path.svg) |
-| Good example of | Fast navigation, clean reference structure, low-noise examples |
+**Project type:** Documentation site, API reference, SDK guide, or examples repository
+
+**Kit pieces:** [`docs-clean`](../themes/docs-clean/example.md), [`tabs`](../components/interactive/tabs.md), [`FAQ`](../components/layout/faq.md)
+
+**Assets:** [`header_split_line.svg`](../assets/headers/static/header_split_line.svg), [`icon_docs.svg`](../assets/icons/core/icon_docs.svg), [`icon_breadcrumb_path.svg`](../assets/icons/navigation/icon_breadcrumb_path.svg)
+
+**Good example of:** Fast navigation, clean reference structure, and low-noise examples.
 
 Use this pattern when the README acts as a front door for deeper docs. The strongest version starts with a route table and keeps examples close to the API concepts they explain.
 
