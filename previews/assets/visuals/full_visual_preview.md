@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `visuals`
 - Group: `visuals`
-- Asset count: 28
+- Asset count: 48
 - Best for: Large conceptual sections for architecture, AI systems, observability, security, and product narratives.
 - Group tags: `visuals`
 
 ## Compact index
 
-Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `architecture` (6), `ai` (5), `energy` (4), `static` (2), `data` (2), `build` (2)
+Top tags: `illustration` (48), `visual` (48), `animated` (34), `motion` (34), `static` (14), `ai` (7), `architecture` (6), `energy` (4), `infrastructure` (3), `security` (3)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -48,6 +48,26 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 | `solar_system` | Animated | `animated`, `architecture`, `illustration`, `motion`, `visual` | [Jump](#solar-system) | [Source](../../../assets/visuals/solar_system.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/solar_system.svg) |
 | `solar_system_2` | Animated | `animated`, `architecture`, `illustration`, `motion`, `visual` | [Jump](#solar-system-2) | [Source](../../../assets/visuals/solar_system_2.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/solar_system_2.svg) |
 | `spiral_energy_core` | Animated | `animated`, `energy`, `illustration`, `motion`, `visual` | [Jump](#spiral-energy-core) | [Source](../../../assets/visuals/spiral_energy_core.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/spiral_energy_core.svg) |
+| `visual_agent_workbench` | Animated | `ai`, `animated`, `illustration`, `motion`, `visual` | [Jump](#visual-agent-workbench) | [Source](../../../assets/visuals/visual_agent_workbench.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_agent_workbench.svg) |
+| `visual_code_review_studio` | Static or subtle motion | `code`, `illustration`, `static`, `visual` | [Jump](#visual-code-review-studio) | [Source](../../../assets/visuals/visual_code_review_studio.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_code_review_studio.svg) |
+| `visual_consent_lens` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-consent-lens) | [Source](../../../assets/visuals/visual_consent_lens.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_consent_lens.svg) |
+| `visual_event_harbor` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-event-harbor) | [Source](../../../assets/visuals/visual_event_harbor.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_event_harbor.svg) |
+| `visual_feedback_ecosystem` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-feedback-ecosystem) | [Source](../../../assets/visuals/visual_feedback_ecosystem.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_feedback_ecosystem.svg) |
+| `visual_incident_compass` | Static or subtle motion | `illustration`, `navigation`, `static`, `visual` | [Jump](#visual-incident-compass) | [Source](../../../assets/visuals/visual_incident_compass.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_incident_compass.svg) |
+| `visual_local_first_workspace` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-local-first-workspace) | [Source](../../../assets/visuals/visual_local_first_workspace.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_local_first_workspace.svg) |
+| `visual_model_reasoning_field` | Static or subtle motion | `ai`, `illustration`, `static`, `visual` | [Jump](#visual-model-reasoning-field) | [Source](../../../assets/visuals/visual_model_reasoning_field.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_model_reasoning_field.svg) |
+| `visual_modular_city` | Animated | `animated`, `illustration`, `motion`, `visual` | [Jump](#visual-modular-city) | [Source](../../../assets/visuals/visual_modular_city.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_modular_city.svg) |
+| `visual_observability_beacon` | Animated | `animated`, `illustration`, `infrastructure`, `motion`, `visual` | [Jump](#visual-observability-beacon) | [Source](../../../assets/visuals/visual_observability_beacon.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_observability_beacon.svg) |
+| `visual_package_foundry` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-package-foundry) | [Source](../../../assets/visuals/visual_package_foundry.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_package_foundry.svg) |
+| `visual_privacy_layers` | Animated | `animated`, `illustration`, `motion`, `security`, `visual` | [Jump](#visual-privacy-layers) | [Source](../../../assets/visuals/visual_privacy_layers.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_privacy_layers.svg) |
+| `visual_reliability_weather` | Animated | `animated`, `illustration`, `motion`, `visual` | [Jump](#visual-reliability-weather) | [Source](../../../assets/visuals/visual_reliability_weather.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_reliability_weather.svg) |
+| `visual_resilience_landscape` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-resilience-landscape) | [Source](../../../assets/visuals/visual_resilience_landscape.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_resilience_landscape.svg) |
+| `visual_retrieval_library` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-retrieval-library) | [Source](../../../assets/visuals/visual_retrieval_library.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_retrieval_library.svg) |
+| `visual_secret_garden` | Animated | `animated`, `illustration`, `motion`, `security`, `visual` | [Jump](#visual-secret-garden) | [Source](../../../assets/visuals/visual_secret_garden.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_secret_garden.svg) |
+| `visual_service_constellation` | Animated | `animated`, `illustration`, `motion`, `visual` | [Jump](#visual-service-constellation) | [Source](../../../assets/visuals/visual_service_constellation.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_service_constellation.svg) |
+| `visual_terminal_workshop` | Static or subtle motion | `code`, `illustration`, `static`, `visual` | [Jump](#visual-terminal-workshop) | [Source](../../../assets/visuals/visual_terminal_workshop.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_terminal_workshop.svg) |
+| `visual_toolchain_bench` | Animated | `animated`, `illustration`, `motion`, `visual` | [Jump](#visual-toolchain-bench) | [Source](../../../assets/visuals/visual_toolchain_bench.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_toolchain_bench.svg) |
+| `visual_trust_envelope` | Static or subtle motion | `illustration`, `static`, `visual` | [Jump](#visual-trust-envelope) | [Source](../../../assets/visuals/visual_trust_envelope.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_trust_envelope.svg) |
 
 ## Visual previews
 
@@ -1058,3 +1078,723 @@ Top tags: `illustration` (28), `visual` (28), `animated` (26), `motion` (26), `a
 - Anchor: `#spiral-energy-core`
 - [Source file](../../../assets/visuals/spiral_energy_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/spiral_energy_core.svg)
+
+<a id="visual-agent-workbench"></a>
+
+## visual_agent_workbench
+
+[![visual_agent_workbench](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_agent_workbench.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_agent_workbench](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_agent_workbench.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_agent_workbench.svg" alt="visual_agent_workbench" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `illustration`, `motion`, `visual`
+- Anchor: `#visual-agent-workbench`
+- [Source file](../../../assets/visuals/visual_agent_workbench.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_agent_workbench.svg)
+
+<a id="visual-code-review-studio"></a>
+
+## visual_code_review_studio
+
+[![visual_code_review_studio](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_code_review_studio.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_code_review_studio](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_code_review_studio.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_code_review_studio.svg" alt="visual_code_review_studio" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `code`, `illustration`, `static`, `visual`
+- Anchor: `#visual-code-review-studio`
+- [Source file](../../../assets/visuals/visual_code_review_studio.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_code_review_studio.svg)
+
+<a id="visual-consent-lens"></a>
+
+## visual_consent_lens
+
+[![visual_consent_lens](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_consent_lens.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_consent_lens](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_consent_lens.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_consent_lens.svg" alt="visual_consent_lens" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-consent-lens`
+- [Source file](../../../assets/visuals/visual_consent_lens.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_consent_lens.svg)
+
+<a id="visual-event-harbor"></a>
+
+## visual_event_harbor
+
+[![visual_event_harbor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_event_harbor.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_event_harbor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_event_harbor.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_event_harbor.svg" alt="visual_event_harbor" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-event-harbor`
+- [Source file](../../../assets/visuals/visual_event_harbor.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_event_harbor.svg)
+
+<a id="visual-feedback-ecosystem"></a>
+
+## visual_feedback_ecosystem
+
+[![visual_feedback_ecosystem](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_feedback_ecosystem.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_feedback_ecosystem](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_feedback_ecosystem.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_feedback_ecosystem.svg" alt="visual_feedback_ecosystem" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-feedback-ecosystem`
+- [Source file](../../../assets/visuals/visual_feedback_ecosystem.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_feedback_ecosystem.svg)
+
+<a id="visual-incident-compass"></a>
+
+## visual_incident_compass
+
+[![visual_incident_compass](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_incident_compass.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_incident_compass](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_incident_compass.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_incident_compass.svg" alt="visual_incident_compass" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `navigation`, `static`, `visual`
+- Anchor: `#visual-incident-compass`
+- [Source file](../../../assets/visuals/visual_incident_compass.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_incident_compass.svg)
+
+<a id="visual-local-first-workspace"></a>
+
+## visual_local_first_workspace
+
+[![visual_local_first_workspace](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_local_first_workspace.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_local_first_workspace](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_local_first_workspace.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_local_first_workspace.svg" alt="visual_local_first_workspace" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-local-first-workspace`
+- [Source file](../../../assets/visuals/visual_local_first_workspace.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_local_first_workspace.svg)
+
+<a id="visual-model-reasoning-field"></a>
+
+## visual_model_reasoning_field
+
+[![visual_model_reasoning_field](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_model_reasoning_field.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_model_reasoning_field](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_model_reasoning_field.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_model_reasoning_field.svg" alt="visual_model_reasoning_field" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `ai`, `illustration`, `static`, `visual`
+- Anchor: `#visual-model-reasoning-field`
+- [Source file](../../../assets/visuals/visual_model_reasoning_field.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_model_reasoning_field.svg)
+
+<a id="visual-modular-city"></a>
+
+## visual_modular_city
+
+[![visual_modular_city](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_modular_city.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_modular_city](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_modular_city.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_modular_city.svg" alt="visual_modular_city" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `illustration`, `motion`, `visual`
+- Anchor: `#visual-modular-city`
+- [Source file](../../../assets/visuals/visual_modular_city.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_modular_city.svg)
+
+<a id="visual-observability-beacon"></a>
+
+## visual_observability_beacon
+
+[![visual_observability_beacon](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_observability_beacon.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_observability_beacon](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_observability_beacon.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_observability_beacon.svg" alt="visual_observability_beacon" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `illustration`, `infrastructure`, `motion`, `visual`
+- Anchor: `#visual-observability-beacon`
+- [Source file](../../../assets/visuals/visual_observability_beacon.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_observability_beacon.svg)
+
+<a id="visual-package-foundry"></a>
+
+## visual_package_foundry
+
+[![visual_package_foundry](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_package_foundry.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_package_foundry](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_package_foundry.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_package_foundry.svg" alt="visual_package_foundry" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-package-foundry`
+- [Source file](../../../assets/visuals/visual_package_foundry.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_package_foundry.svg)
+
+<a id="visual-privacy-layers"></a>
+
+## visual_privacy_layers
+
+[![visual_privacy_layers](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_privacy_layers.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_privacy_layers](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_privacy_layers.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_privacy_layers.svg" alt="visual_privacy_layers" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `illustration`, `motion`, `security`, `visual`
+- Anchor: `#visual-privacy-layers`
+- [Source file](../../../assets/visuals/visual_privacy_layers.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_privacy_layers.svg)
+
+<a id="visual-reliability-weather"></a>
+
+## visual_reliability_weather
+
+[![visual_reliability_weather](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_reliability_weather.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_reliability_weather](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_reliability_weather.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_reliability_weather.svg" alt="visual_reliability_weather" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `illustration`, `motion`, `visual`
+- Anchor: `#visual-reliability-weather`
+- [Source file](../../../assets/visuals/visual_reliability_weather.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_reliability_weather.svg)
+
+<a id="visual-resilience-landscape"></a>
+
+## visual_resilience_landscape
+
+[![visual_resilience_landscape](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_resilience_landscape.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_resilience_landscape](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_resilience_landscape.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_resilience_landscape.svg" alt="visual_resilience_landscape" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-resilience-landscape`
+- [Source file](../../../assets/visuals/visual_resilience_landscape.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_resilience_landscape.svg)
+
+<a id="visual-retrieval-library"></a>
+
+## visual_retrieval_library
+
+[![visual_retrieval_library](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_retrieval_library.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_retrieval_library](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_retrieval_library.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_retrieval_library.svg" alt="visual_retrieval_library" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-retrieval-library`
+- [Source file](../../../assets/visuals/visual_retrieval_library.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_retrieval_library.svg)
+
+<a id="visual-secret-garden"></a>
+
+## visual_secret_garden
+
+[![visual_secret_garden](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_secret_garden.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_secret_garden](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_secret_garden.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_secret_garden.svg" alt="visual_secret_garden" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `illustration`, `motion`, `security`, `visual`
+- Anchor: `#visual-secret-garden`
+- [Source file](../../../assets/visuals/visual_secret_garden.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_secret_garden.svg)
+
+<a id="visual-service-constellation"></a>
+
+## visual_service_constellation
+
+[![visual_service_constellation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_service_constellation.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_service_constellation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_service_constellation.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_service_constellation.svg" alt="visual_service_constellation" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `illustration`, `motion`, `visual`
+- Anchor: `#visual-service-constellation`
+- [Source file](../../../assets/visuals/visual_service_constellation.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_service_constellation.svg)
+
+<a id="visual-terminal-workshop"></a>
+
+## visual_terminal_workshop
+
+[![visual_terminal_workshop](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_terminal_workshop.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_terminal_workshop](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_terminal_workshop.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_terminal_workshop.svg" alt="visual_terminal_workshop" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `code`, `illustration`, `static`, `visual`
+- Anchor: `#visual-terminal-workshop`
+- [Source file](../../../assets/visuals/visual_terminal_workshop.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_terminal_workshop.svg)
+
+<a id="visual-toolchain-bench"></a>
+
+## visual_toolchain_bench
+
+[![visual_toolchain_bench](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_toolchain_bench.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_toolchain_bench](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_toolchain_bench.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_toolchain_bench.svg" alt="visual_toolchain_bench" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `illustration`, `motion`, `visual`
+- Anchor: `#visual-toolchain-bench`
+- [Source file](../../../assets/visuals/visual_toolchain_bench.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_toolchain_bench.svg)
+
+<a id="visual-trust-envelope"></a>
+
+## visual_trust_envelope
+
+[![visual_trust_envelope](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_trust_envelope.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![visual_trust_envelope](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_trust_envelope.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_trust_envelope.svg" alt="visual_trust_envelope" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `illustration`, `static`, `visual`
+- Anchor: `#visual-trust-envelope`
+- [Source file](../../../assets/visuals/visual_trust_envelope.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/visuals/visual_trust_envelope.svg)
