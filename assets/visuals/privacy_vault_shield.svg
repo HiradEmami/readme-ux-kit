@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Privacy vault shield visual">
+  <title>Privacy Vault Shield</title>
+  <desc>An animated README SVG asset illustrating Privacy Vault Shield.</desc>
   <defs>
     <radialGradient id="vault-bg" cx="50%" cy="42%" r="76%">
       <stop offset="0%" stop-color="#102033"/>
