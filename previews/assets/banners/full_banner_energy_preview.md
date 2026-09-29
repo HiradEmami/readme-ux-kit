@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `banners`
 - Group: `energy`
-- Asset count: 16
+- Asset count: 17
 - Best for: High-energy banner assets with beams, cores, pulses, and sci-fi motion.
 - Group tags: `energy`
 
 ## Compact index
 
-Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16), `minimal` (1)
+Top tags: `animated` (17), `energy` (17), `hero` (17), `motion` (17), `wide` (17), `minimal` (1), `build` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,7 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 | `banner_gradient_cyber_line_sweep` | Animated | `animated`, `energy`, `hero`, `motion`, `wide` | [Jump](#banner-gradient-cyber-line-sweep) | [Source](../../../assets/banners/energy/banner_gradient_cyber_line_sweep.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_gradient_cyber_line_sweep.svg) |
 | `banner_gradient_pulse` | Animated | `animated`, `energy`, `hero`, `motion`, `wide` | [Jump](#banner-gradient-pulse) | [Source](../../../assets/banners/energy/banner_gradient_pulse.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_gradient_pulse.svg) |
 | `banner_horizontal_breach` | Animated | `animated`, `energy`, `hero`, `motion`, `wide` | [Jump](#banner-horizontal-breach) | [Source](../../../assets/banners/energy/banner_horizontal_breach.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_horizontal_breach.svg) |
+| `banner_release_signal` | Animated | `animated`, `build`, `energy`, `hero`, `motion`, `wide` | [Jump](#banner-release-signal) | [Source](../../../assets/banners/energy/banner_release_signal.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_release_signal.svg) |
 | `banner_tethered_orb` | Animated | `animated`, `energy`, `hero`, `motion`, `wide` | [Jump](#banner-tethered-orb) | [Source](../../../assets/banners/energy/banner_tethered_orb.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_tethered_orb.svg) |
 
 ## Visual previews
@@ -578,6 +579,42 @@ Top tags: `animated` (16), `energy` (16), `hero` (16), `motion` (16), `wide` (16
 - Anchor: `#banner-horizontal-breach`
 - [Source file](../../../assets/banners/energy/banner_horizontal_breach.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_horizontal_breach.svg)
+
+<a id="banner-release-signal"></a>
+
+## banner_release_signal
+
+[![banner_release_signal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_release_signal.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![banner_release_signal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_release_signal.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_release_signal.svg" alt="banner_release_signal" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `build`, `energy`, `hero`, `motion`, `wide`
+- Anchor: `#banner-release-signal`
+- [Source file](../../../assets/banners/energy/banner_release_signal.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/energy/banner_release_signal.svg)
 
 <a id="banner-tethered-orb"></a>
 
