@@ -10,28 +10,70 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `buttons`
 - Group: `cta`
-- Asset count: 10
+- Asset count: 16
 - Best for: Primary call-to-action buttons for install, docs, launch, demo, API, and template links.
 - Group tags: `button`, `cta`
 
 ## Compact index
 
-Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4), `api` (1), `docs` (1), `code` (1)
+Top tags: `button` (16), `cta` (16), `static` (11), `animated` (5), `motion` (5), `docs` (4), `build` (1), `api` (1), `code` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
+| `button_browse_examples` | Static or subtle motion | `button`, `cta`, `docs`, `static` | [Jump](#button-browse-examples) | [Source](../../../assets/buttons/cta/button_browse_examples.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_browse_examples.svg) |
 | `button_copy_bundle` | Animated | `animated`, `button`, `cta`, `motion` | [Jump](#button-copy-bundle) | [Source](../../../assets/buttons/cta/button_copy_bundle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_copy_bundle.svg) |
 | `button_download_kit` | Animated | `animated`, `button`, `cta`, `motion` | [Jump](#button-download-kit) | [Source](../../../assets/buttons/cta/button_download_kit.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_kit.svg) |
+| `button_download_release` | Animated | `animated`, `build`, `button`, `cta`, `motion` | [Jump](#button-download-release) | [Source](../../../assets/buttons/cta/button_download_release.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_release.svg) |
 | `button_explore_assets` | Static or subtle motion | `button`, `cta`, `static` | [Jump](#button-explore-assets) | [Source](../../../assets/buttons/cta/button_explore_assets.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_explore_assets.svg) |
 | `button_get_started` | Static or subtle motion | `button`, `cta`, `static` | [Jump](#button-get-started) | [Source](../../../assets/buttons/cta/button_get_started.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_get_started.svg) |
 | `button_install_package` | Animated | `animated`, `button`, `cta`, `motion` | [Jump](#button-install-package) | [Source](../../../assets/buttons/cta/button_install_package.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_install_package.svg) |
+| `button_join_community` | Static or subtle motion | `button`, `cta`, `static` | [Jump](#button-join-community) | [Source](../../../assets/buttons/cta/button_join_community.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_join_community.svg) |
 | `button_launch_demo` | Animated | `animated`, `button`, `cta`, `motion` | [Jump](#button-launch-demo) | [Source](../../../assets/buttons/cta/button_launch_demo.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_launch_demo.svg) |
 | `button_open_api` | Static or subtle motion | `api`, `button`, `cta`, `static` | [Jump](#button-open-api) | [Source](../../../assets/buttons/cta/button_open_api.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_api.svg) |
+| `button_open_migration_guide` | Static or subtle motion | `button`, `cta`, `docs`, `static` | [Jump](#button-open-migration-guide) | [Source](../../../assets/buttons/cta/button_open_migration_guide.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_migration_guide.svg) |
+| `button_open_playground` | Static or subtle motion | `button`, `cta`, `static` | [Jump](#button-open-playground) | [Source](../../../assets/buttons/cta/button_open_playground.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_playground.svg) |
 | `button_read_docs` | Static or subtle motion | `button`, `cta`, `docs`, `static` | [Jump](#button-read-docs) | [Source](../../../assets/buttons/cta/button_read_docs.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_read_docs.svg) |
 | `button_try_cli` | Static or subtle motion | `button`, `code`, `cta`, `static` | [Jump](#button-try-cli) | [Source](../../../assets/buttons/cta/button_try_cli.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_try_cli.svg) |
+| `button_view_changelog` | Static or subtle motion | `button`, `cta`, `docs`, `static` | [Jump](#button-view-changelog) | [Source](../../../assets/buttons/cta/button_view_changelog.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_changelog.svg) |
 | `button_view_templates` | Static or subtle motion | `button`, `cta`, `static` | [Jump](#button-view-templates) | [Source](../../../assets/buttons/cta/button_view_templates.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_templates.svg) |
 
 ## Visual previews
+
+<a id="button-browse-examples"></a>
+
+## button_browse_examples
+
+[![button_browse_examples](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_browse_examples.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_browse_examples](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_browse_examples.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_browse_examples.svg" alt="button_browse_examples" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `button`, `cta`, `docs`, `static`
+- Anchor: `#button-browse-examples`
+- [Source file](../../../assets/buttons/cta/button_browse_examples.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_browse_examples.svg)
 
 <a id="button-copy-bundle"></a>
 
@@ -104,6 +146,42 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - Anchor: `#button-download-kit`
 - [Source file](../../../assets/buttons/cta/button_download_kit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_kit.svg)
+
+<a id="button-download-release"></a>
+
+## button_download_release
+
+[![button_download_release](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_release.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_download_release](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_release.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_release.svg" alt="button_download_release" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `build`, `button`, `cta`, `motion`
+- Anchor: `#button-download-release`
+- [Source file](../../../assets/buttons/cta/button_download_release.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_release.svg)
 
 <a id="button-explore-assets"></a>
 
@@ -213,6 +291,42 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - [Source file](../../../assets/buttons/cta/button_install_package.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_install_package.svg)
 
+<a id="button-join-community"></a>
+
+## button_join_community
+
+[![button_join_community](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_join_community.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_join_community](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_join_community.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_join_community.svg" alt="button_join_community" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `button`, `cta`, `static`
+- Anchor: `#button-join-community`
+- [Source file](../../../assets/buttons/cta/button_join_community.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_join_community.svg)
+
 <a id="button-launch-demo"></a>
 
 ## button_launch_demo
@@ -285,6 +399,78 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - [Source file](../../../assets/buttons/cta/button_open_api.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_api.svg)
 
+<a id="button-open-migration-guide"></a>
+
+## button_open_migration_guide
+
+[![button_open_migration_guide](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_migration_guide.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_open_migration_guide](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_migration_guide.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_migration_guide.svg" alt="button_open_migration_guide" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `button`, `cta`, `docs`, `static`
+- Anchor: `#button-open-migration-guide`
+- [Source file](../../../assets/buttons/cta/button_open_migration_guide.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_migration_guide.svg)
+
+<a id="button-open-playground"></a>
+
+## button_open_playground
+
+[![button_open_playground](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_playground.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_open_playground](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_playground.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_playground.svg" alt="button_open_playground" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `button`, `cta`, `static`
+- Anchor: `#button-open-playground`
+- [Source file](../../../assets/buttons/cta/button_open_playground.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_playground.svg)
+
 <a id="button-read-docs"></a>
 
 ## button_read_docs
@@ -356,6 +542,42 @@ Top tags: `button` (10), `cta` (10), `static` (6), `animated` (4), `motion` (4),
 - Anchor: `#button-try-cli`
 - [Source file](../../../assets/buttons/cta/button_try_cli.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_try_cli.svg)
+
+<a id="button-view-changelog"></a>
+
+## button_view_changelog
+
+[![button_view_changelog](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_changelog.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_view_changelog](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_changelog.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_changelog.svg" alt="button_view_changelog" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `button`, `cta`, `docs`, `static`
+- Anchor: `#button-view-changelog`
+- [Source file](../../../assets/buttons/cta/button_view_changelog.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_changelog.svg)
 
 <a id="button-view-templates"></a>
 
