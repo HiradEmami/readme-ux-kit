@@ -7,15 +7,17 @@ Releases are manual and run through the `semantic-release` GitHub Actions workfl
 - Releases are triggered from **Actions -> semantic-release -> Run workflow**.
 - Releases must run from the `master` branch.
 - The workflow uses the built-in `GITHUB_TOKEN`; no separate `GH_TOKEN` secret is required.
-- The workflow runs `npm run check:all` before publishing, so stale previews, invalid SVGs, stale SVG optimization, or broken generator syntax block the release.
+- The workflow runs `npm run check:all` before publishing, so stale previews, invalid SVGs, stale SVG optimization, stale generated data, schema issues, compatibility hard errors, or broken module syntax block the release.
 - Use the `dry_run` workflow input to preview the next semantic-release result without publishing a GitHub release or updating `CHANGELOG.md`.
 
 ## Before Releasing
 
 1. Confirm the working tree intended for release is merged into `master`.
-2. Confirm generated previews are current with `npm run check:previews`.
-3. Confirm all checks pass with `npm run check:all`.
-4. Review `CHANGELOG.md` output after semantic-release opens the release commit.
+2. Regenerate committed derived data with `npm run generate:all-data` if assets, templates, themes, recipes, provenance, docs, or module code changed.
+3. Confirm generated previews are current with `npm run check:previews`.
+4. Confirm module outputs are current with `npm run modules:check`.
+5. Confirm all checks pass with `npm run check:all`.
+6. Review `CHANGELOG.md` output after semantic-release opens the release commit.
 
 ## Commit Style
 
@@ -34,6 +36,9 @@ Use scopes to keep release notes readable, for example:
 feat(assets): add loading animations
 fix(previews): correct stale generated output
 docs(templates): improve backend service template guidance
+feat(modules): add static asset pack metadata
 ```
 
 For the full changelog policy, recommended scopes, and release-note review checklist, see [Changelog discipline](./CHANGELOG.md).
+
+For the generated data pipeline and focused commands, see [Module pipeline](./MODULES.md).
