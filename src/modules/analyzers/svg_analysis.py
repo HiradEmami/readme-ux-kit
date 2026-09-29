@@ -4,7 +4,14 @@ import json
 import xml.etree.ElementTree as ET
 
 from src.modules.common.repo import load_json, rel_path, repo_root, write_json
-from src.modules.generators.svg_editor_metadata import color_stats, local_name
+from src.modules.generators.svg_editor_metadata import (
+    CSS_DECLARATION_RE,
+    colors_from_value,
+    hex_to_rgb,
+    local_name,
+    parse_number,
+    parse_view_box,
+)
 
 
 SCHEMA_VERSION = 1
@@ -14,13 +21,25 @@ VERY_COMPLEX_ELEMENTS = 120
 HIGH_MOTION_ANIMATIONS = 8
 
 
-def contrast_ratio(foreground, background):
-    fg = color_stats(foreground)
-    bg = color_stats(background)
-    if not fg or not bg:
+def relative_luminance(color):
+    rgb = hex_to_rgb(color)
+    if not rgb:
         return None
-    light = max(fg["luminance"], bg["luminance"])
-    dark = min(fg["luminance"], bg["luminance"])
+
+    channels = []
+    for channel in rgb:
+        value = channel / 255
+        channels.append(value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4)
+    return 0.2126 * channels[0] + 0.7152 * channels[1] + 0.0722 * channels[2]
+
+
+def contrast_ratio(foreground, background):
+    fg = relative_luminance(foreground)
+    bg = relative_luminance(background)
+    if fg is None or bg is None:
+        return None
+    light = max(fg, bg)
+    dark = min(fg, bg)
     return round((light + 0.05) / (dark + 0.05), 2)
 
 
@@ -42,37 +61,163 @@ def accessibility_flags(root):
     flags = []
     role = root.attrib.get("role")
     aria_label = root.attrib.get("aria-label")
+    aria_labelledby = root.attrib.get("aria-labelledby")
     title_count = sum(1 for element in root.iter() if local_name(element.tag) == "title")
     desc_count = sum(1 for element in root.iter() if local_name(element.tag) == "desc")
     if role != "img":
         flags.append("missing-img-role")
-    if not aria_label and title_count == 0:
+    if not aria_label and not aria_labelledby and title_count == 0:
         flags.append("missing-accessible-label")
     if desc_count == 0:
         flags.append("missing-desc")
     return flags
 
 
-def color_lookup(editor, role):
-    return editor.get("palette", {}).get(role, [])
+def style_property(element, property_name):
+    for declaration in CSS_DECLARATION_RE.finditer(element.attrib.get("style", "")):
+        if declaration.group("property").lower() == property_name.lower():
+            return declaration.group("value").strip()
+    return None
 
 
-def contrast_flags(editor):
+def first_literal_color(value):
+    colors = colors_from_value(value)
+    return colors[0] if colors else None
+
+
+def inherited_color(element, parent_map, property_name="fill"):
+    current = element
+    while current is not None:
+        value = style_property(current, property_name) or current.attrib.get(property_name)
+        color = first_literal_color(value)
+        if color:
+            return color
+        current = parent_map.get(current)
+    return None
+
+
+def effective_opacity(element, parent_map):
+    opacity = 1.0
+    current = element
+    while current is not None:
+        value = style_property(current, "opacity") or current.attrib.get("opacity")
+        if value is not None:
+            try:
+                opacity *= float(value)
+            except ValueError:
+                return None
+        current = parent_map.get(current)
+    return opacity
+
+
+def element_point(element, parent_map):
+    current = element
+    while current is not None and local_name(current.tag) in {"text", "tspan", "textPath"}:
+        x = parse_number(current.attrib.get("x"))
+        y = parse_number(current.attrib.get("y"))
+        if x is not None and y is not None:
+            return float(x), float(y)
+        current = parent_map.get(current)
+    return None
+
+
+def rect_contains(rect, point):
+    x = parse_number(rect.attrib.get("x")) or 0
+    y = parse_number(rect.attrib.get("y")) or 0
+    width = parse_number(rect.attrib.get("width"))
+    height = parse_number(rect.attrib.get("height"))
+    if width is None or height is None:
+        return False
+    return x <= point[0] <= x + width and y <= point[1] <= y + height
+
+
+def sibling_background(element, parent_map):
+    point = element_point(element, parent_map)
+    if point is None:
+        return None
+
+    parent = parent_map.get(element)
+    current = element
+    while parent is not None and local_name(parent.tag) in {"text", "tspan"}:
+        current = parent
+        parent = parent_map.get(parent)
+    if parent is None:
+        return None
+
+    siblings = list(parent)
+    index = next((position for position, sibling in enumerate(siblings) if sibling is current), None)
+    if index is None:
+        return None
+    for sibling in reversed(siblings[:index]):
+        if local_name(sibling.tag) != "rect" or not rect_contains(sibling, point):
+            continue
+        opacity = effective_opacity(sibling, parent_map)
+        if opacity is None or opacity < 1:
+            continue
+        color = inherited_color(sibling, parent_map)
+        if color:
+            return color
+    return None
+
+
+def canvas_background(root, parent_map):
+    style_background = style_property(root, "background-color") or style_property(root, "background")
+    color = first_literal_color(style_background)
+    if color:
+        return color
+
+    view_box = parse_view_box(root.attrib.get("viewBox") or root.attrib.get("viewbox"))
+    if not view_box:
+        return None
+    min_x, min_y, width, height = [float(value) for value in view_box]
+    for element in root.iter():
+        if local_name(element.tag) != "rect":
+            continue
+        rect_x = parse_number(element.attrib.get("x")) or 0
+        rect_y = parse_number(element.attrib.get("y")) or 0
+        rect_width = parse_number(element.attrib.get("width"))
+        rect_height = parse_number(element.attrib.get("height"))
+        if rect_width is None or rect_height is None:
+            continue
+        covers_canvas = (
+            rect_x <= min_x
+            and rect_y <= min_y
+            and rect_width >= width * 0.8
+            and rect_height >= height * 0.8
+        )
+        if covers_canvas:
+            color = inherited_color(element, parent_map)
+            if color:
+                return color
+    return None
+
+
+def contrast_flags(root):
     flags = []
-    backgrounds = color_lookup(editor, "background") + color_lookup(editor, "surface")
-    texts = color_lookup(editor, "text") + color_lookup(editor, "mutedText")
-    for text_color in texts[:3]:
-        for background in backgrounds[:3]:
-            ratio = contrast_ratio(text_color, background)
-            if ratio is not None and ratio < 4.5:
-                flags.append(
-                    {
-                        "text": text_color,
-                        "background": background,
-                        "ratio": ratio,
-                        "threshold": 4.5,
-                    }
-                )
+    seen = set()
+    parent_map = {child: parent for parent in root.iter() for child in parent}
+    fallback_background = canvas_background(root, parent_map)
+    for element in root.iter():
+        if local_name(element.tag) not in {"text", "tspan", "textPath"}:
+            continue
+        text_color = inherited_color(element, parent_map)
+        background = sibling_background(element, parent_map) or fallback_background
+        if not text_color or not background or text_color == background:
+            continue
+        pair = (text_color, background)
+        if pair in seen:
+            continue
+        seen.add(pair)
+        ratio = contrast_ratio(text_color, background)
+        if ratio is not None and ratio < 4.5:
+            flags.append(
+                {
+                    "text": text_color,
+                    "background": background,
+                    "ratio": ratio,
+                    "threshold": 4.5,
+                }
+            )
     return flags
 
 
@@ -120,7 +265,7 @@ def analyze_asset(root_dir, asset):
     if access_flags:
         flags.append("accessibility-risk")
 
-    contrast = contrast_flags(editor)
+    contrast = contrast_flags(root) if parse_error is None else []
     if contrast:
         flags.append("contrast-risk")
 
@@ -185,6 +330,16 @@ def check_analysis(output, root_dir=None, manifest_path=None):
 
 
 def run_self_tests():
+    assert contrast_ratio("#000000", "#ffffff") == 21.0
+    icon = ET.fromstring('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><circle fill="#777777" cx="5" cy="5" r="4"/></svg>')
+    assert contrast_flags(icon) == []
+    readable = ET.fromstring('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50"><rect width="100" height="50" fill="#ffffff"/><text x="10" y="25" fill="#111111">Readable</text></svg>')
+    assert contrast_flags(readable) == []
+    low_contrast = ET.fromstring('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50"><rect width="100" height="50" fill="#777777"/><text x="10" y="25" fill="#888888">Faint</text></svg>')
+    assert contrast_flags(low_contrast)[0]["ratio"] < 4.5
+    translucent_accent = ET.fromstring('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50"><rect width="100" height="50" fill="#111827"/><rect width="100" height="50" fill="#22d3ee" opacity=".12"/><text x="10" y="25" fill="#cbd5e1">Readable</text></svg>')
+    assert contrast_flags(translucent_accent) == []
+
     root = repo_root()
     manifest = root / "assets" / "manifest.json"
     if manifest.exists():
