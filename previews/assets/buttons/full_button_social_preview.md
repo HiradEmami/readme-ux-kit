@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `buttons`
 - Group: `social`
-- Asset count: 10
+- Asset count: 12
 - Best for: Profile, community, sponsor, portfolio, and discussion buttons.
 - Group tags: `profile`, `social`
 
 ## Compact index
 
-Top tags: `button` (10), `profile` (10), `social` (10), `static` (6), `animated` (4), `motion` (4), `docs` (1)
+Top tags: `button` (12), `profile` (12), `social` (12), `static` (7), `animated` (5), `motion` (5), `docs` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -24,10 +24,12 @@ Top tags: `button` (10), `profile` (10), `social` (10), `static` (6), `animated`
 | `button_follow_updates` | Animated | `animated`, `button`, `motion`, `profile`, `social` | [Jump](#button-follow-updates) | [Source](../../../assets/buttons/social/button_follow_updates.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_follow_updates.svg) |
 | `button_github_profile` | Static or subtle motion | `button`, `profile`, `social`, `static` | [Jump](#button-github-profile) | [Source](../../../assets/buttons/social/button_github_profile.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_github_profile.svg) |
 | `button_join_discussions` | Static or subtle motion | `button`, `profile`, `social`, `static` | [Jump](#button-join-discussions) | [Source](../../../assets/buttons/social/button_join_discussions.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_join_discussions.svg) |
+| `button_meet_maintainers` | Animated | `animated`, `button`, `motion`, `profile`, `social` | [Jump](#button-meet-maintainers) | [Source](../../../assets/buttons/social/button_meet_maintainers.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_meet_maintainers.svg) |
 | `button_open_community` | Static or subtle motion | `button`, `profile`, `social`, `static` | [Jump](#button-open-community) | [Source](../../../assets/buttons/social/button_open_community.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_open_community.svg) |
 | `button_share_readme` | Static or subtle motion | `button`, `docs`, `profile`, `social`, `static` | [Jump](#button-share-readme) | [Source](../../../assets/buttons/social/button_share_readme.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_share_readme.svg) |
 | `button_sponsor_project` | Animated | `animated`, `button`, `motion`, `profile`, `social` | [Jump](#button-sponsor-project) | [Source](../../../assets/buttons/social/button_sponsor_project.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_sponsor_project.svg) |
 | `button_star_project` | Animated | `animated`, `button`, `motion`, `profile`, `social` | [Jump](#button-star-project) | [Source](../../../assets/buttons/social/button_star_project.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_star_project.svg) |
+| `button_start_discussion` | Static or subtle motion | `button`, `profile`, `social`, `static` | [Jump](#button-start-discussion) | [Source](../../../assets/buttons/social/button_start_discussion.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_start_discussion.svg) |
 | `button_view_portfolio` | Static or subtle motion | `button`, `profile`, `social`, `static` | [Jump](#button-view-portfolio) | [Source](../../../assets/buttons/social/button_view_portfolio.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_view_portfolio.svg) |
 | `button_watch_repo` | Animated | `animated`, `button`, `motion`, `profile`, `social` | [Jump](#button-watch-repo) | [Source](../../../assets/buttons/social/button_watch_repo.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_watch_repo.svg) |
 
@@ -177,6 +179,42 @@ Top tags: `button` (10), `profile` (10), `social` (10), `static` (6), `animated`
 - [Source file](../../../assets/buttons/social/button_join_discussions.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_join_discussions.svg)
 
+<a id="button-meet-maintainers"></a>
+
+## button_meet_maintainers
+
+[![button_meet_maintainers](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_meet_maintainers.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_meet_maintainers](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_meet_maintainers.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_meet_maintainers.svg" alt="button_meet_maintainers" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `button`, `motion`, `profile`, `social`
+- Anchor: `#button-meet-maintainers`
+- [Source file](../../../assets/buttons/social/button_meet_maintainers.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_meet_maintainers.svg)
+
 <a id="button-open-community"></a>
 
 ## button_open_community
@@ -320,6 +358,42 @@ Top tags: `button` (10), `profile` (10), `social` (10), `static` (6), `animated`
 - Anchor: `#button-star-project`
 - [Source file](../../../assets/buttons/social/button_star_project.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_star_project.svg)
+
+<a id="button-start-discussion"></a>
+
+## button_start_discussion
+
+[![button_start_discussion](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_start_discussion.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_start_discussion](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_start_discussion.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_start_discussion.svg" alt="button_start_discussion" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Static or subtle motion
+- Tags: `button`, `profile`, `social`, `static`
+- Anchor: `#button-start-discussion`
+- [Source file](../../../assets/buttons/social/button_start_discussion.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/social/button_start_discussion.svg)
 
 <a id="button-view-portfolio"></a>
 
