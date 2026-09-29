@@ -10,7 +10,9 @@ def generate_all(root):
     from src.modules.editor.svg_editor import write_capabilities
     from src.modules.generators.asset_manifest import write_manifest
     from src.modules.generators.editor_presets import write_editor_data
+    from src.modules.indexers.component_index import write_component_index
     from src.modules.indexers.search_index import write_indexes
+    from src.modules.indexers.template_index import write_template_index
     from src.modules.markdown.markdown_quality import write_snippets
     from src.modules.migrations.migration_registry import write_plan
     from src.modules.packagers.asset_packs import write_asset_packs
@@ -24,6 +26,8 @@ def generate_all(root):
     root = Path(root).resolve()
     write_manifest(root, Path("assets"), root / "assets" / "manifest.json")
     write_manifest(root, Path("assets"), root / "site" / "data" / "assets.json")
+    write_component_index(root / "components" / "index.json", root)
+    write_template_index(root / "templates" / "index.json", root)
     write_editor_data(root / "site" / "data")
     write_capabilities(root / "site" / "data" / "editor-capabilities.json")
     write_theme_indexes(root / "themes" / "index.json", root / "site" / "data" / "themes.json", root)
@@ -54,7 +58,9 @@ def check_all(root):
     from src.modules.generators.asset_manifest import check_manifest
     from src.modules.generators.editor_presets import check_editor_data
     from src.modules.generators.generate_asset_previews import DEFAULT_PROFILE_URL, DEFAULT_REPO_RAW_BASE, check_previews
+    from src.modules.indexers.component_index import check_component_index
     from src.modules.indexers.search_index import check_indexes
+    from src.modules.indexers.template_index import check_template_index
     from src.modules.markdown.markdown_quality import check_snippets, collect_markdown_issues
     from src.modules.migrations.migration_registry import check_plan
     from src.modules.packagers.asset_packs import check_asset_packs
@@ -66,6 +72,7 @@ def check_all(root):
     from src.modules.schemas.schema_registry import check_catalog
     from src.modules.site.site_checks import collect_site_issues
     from src.modules.themes.theme_index import check_theme_indexes
+    from src.modules.validators.design_system_quality import collect_design_system_issues
     from src.modules.validators.repo_quality import collect_quality_issues
 
     root = Path(root).resolve()
@@ -76,6 +83,18 @@ def check_all(root):
             record_failure(failures, "manifest", f"{output} is {status}")
         for error in errors:
             record_failure(failures, "manifest", error)
+
+    component_status, component_errors = check_component_index(root / "components" / "index.json", root)
+    if component_status:
+        record_failure(failures, "components", f"components/index.json is {component_status}")
+    for error in component_errors:
+        record_failure(failures, "components", error)
+
+    template_status, template_errors = check_template_index(root / "templates" / "index.json", root)
+    if template_status:
+        record_failure(failures, "templates", f"templates/index.json is {template_status}")
+    for error in template_errors:
+        record_failure(failures, "templates", error)
 
     editor_failures = check_editor_data(root / "site" / "data")
     for path, status, _errors in editor_failures:
@@ -154,6 +173,7 @@ def check_all(root):
         ("markdown", collect_markdown_issues(root)),
         ("site", collect_site_issues(root)),
         ("quality", collect_quality_issues(root)),
+        ("design-system", collect_design_system_issues(root)),
         ("release", collect_release_issues(root)),
     ]:
         for item in issues:
