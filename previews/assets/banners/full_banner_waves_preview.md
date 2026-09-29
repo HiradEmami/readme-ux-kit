@@ -10,18 +10,19 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `banners`
 - Group: `waves`
-- Asset count: 12
+- Asset count: 13
 - Best for: Wave-style banners for smooth section transitions and soft hero treatments.
 - Group tags: `wave`
 
 ## Compact index
 
-Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12), `minimal` (2)
+Top tags: `animated` (13), `hero` (13), `motion` (13), `wave` (13), `wide` (13), `minimal` (2), `button` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `banner_dna_waves` | Animated | `animated`, `hero`, `motion`, `wave`, `wide` | [Jump](#banner-dna-waves) | [Source](../../../assets/banners/waves/banner_dna_waves.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_dna_waves.svg) |
 | `banner_gradient_wave` | Animated | `animated`, `hero`, `motion`, `wave`, `wide` | [Jump](#banner-gradient-wave) | [Source](../../../assets/banners/waves/banner_gradient_wave.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_gradient_wave.svg) |
+| `banner_product_launch` | Animated | `animated`, `button`, `hero`, `motion`, `wave`, `wide` | [Jump](#banner-product-launch) | [Source](../../../assets/banners/waves/banner_product_launch.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_product_launch.svg) |
 | `banner_wave_bottom` | Animated | `animated`, `hero`, `motion`, `wave`, `wide` | [Jump](#banner-wave-bottom) | [Source](../../../assets/banners/waves/banner_wave_bottom.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_bottom.svg) |
 | `banner_wave_double_premium_bottom` | Animated | `animated`, `hero`, `motion`, `wave`, `wide` | [Jump](#banner-wave-double-premium-bottom) | [Source](../../../assets/banners/waves/banner_wave_double_premium_bottom.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_double_premium_bottom.svg) |
 | `banner_wave_double_premium_top` | Animated | `animated`, `hero`, `motion`, `wave`, `wide` | [Jump](#banner-wave-double-premium-top) | [Source](../../../assets/banners/waves/banner_wave_double_premium_top.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_wave_double_premium_top.svg) |
@@ -106,6 +107,42 @@ Top tags: `animated` (12), `hero` (12), `motion` (12), `wave` (12), `wide` (12),
 - Anchor: `#banner-gradient-wave`
 - [Source file](../../../assets/banners/waves/banner_gradient_wave.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_gradient_wave.svg)
+
+<a id="banner-product-launch"></a>
+
+## banner_product_launch
+
+[![banner_product_launch](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_product_launch.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![banner_product_launch](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_product_launch.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_product_launch.svg" alt="banner_product_launch" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `button`, `hero`, `motion`, `wave`, `wide`
+- Anchor: `#banner-product-launch`
+- [Source file](../../../assets/banners/waves/banner_product_launch.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/waves/banner_product_launch.svg)
 
 <a id="banner-wave-bottom"></a>
 
