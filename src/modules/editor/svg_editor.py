@@ -232,13 +232,13 @@ def load_operations(value):
 
 
 def run_self_tests():
-    source = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" role="img" aria-label="Demo"><title>Demo</title><text id="title" fill="#2563eb">Demo</text><circle id="dot" fill="#fff" r="2"/></svg>'
+    source = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" role="img" aria-label="Demo"><title>Demo</title><desc>Demo SVG used by the editor self-test.</desc><text id="title" fill="#2563eb">Demo</text><circle id="dot" fill="#fff" r="2"/></svg>'
     output, summary = apply_operations(
         source,
         {
             "replaceColors": {"#2563eb": "#0f766e", "#fff": "#111827"},
-            "replaceText": [{"target": "0.1", "to": "Updated"}],
-            "removeElements": ["0.2"],
+            "replaceText": [{"target": "title", "to": "Updated"}],
+            "removeElements": ["dot"],
         },
     )
     assert "#0f766e" in output
