@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hirademami.github.io/readme-ux-kit/schemas/asset-manifest.schema.json",
+  "title": "README UX Kit Asset Manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "editorSchemaVersion",
+    "generatedBy",
+    "assetCount",
+    "categories",
+    "categoryCounts",
+    "assets"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "editorSchemaVersion": { "const": 2 },
+    "generatedBy": { "const": "src/modules/generators/generate_asset_manifest.py" },
+    "assetCount": { "type": "integer", "minimum": 0 },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "categoryCounts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "category",
+          "subcategory",
+          "path",
+          "localPath",
+          "rawUrl",
+          "previewPath",
+          "type",
+          "animated",
+          "tags",
+          "dimensions",
+          "editorQuality",
+          "compatibilityWarnings",
+          "editor"
+        ],
+        "properties": {
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "subcategory": { "type": "string" },
+          "path": { "type": "string" },
+          "localPath": { "type": "string" },
+          "rawUrl": { "type": "string" },
+          "previewPath": { "type": "string" },
+          "type": { "type": "string" },
+          "animated": { "type": "boolean" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "dimensions": {
+            "type": "object",
+            "required": ["width", "height", "viewBox", "aspectRatio"],
+            "properties": {
+              "width": { "type": ["number", "null"] },
+              "height": { "type": ["number", "null"] },
+              "viewBox": { "type": ["string", "null"] },
+              "aspectRatio": { "type": ["number", "null"] }
+            },
+            "additionalProperties": false
+          },
+          "editorQuality": { "enum": ["excellent", "good", "limited"] },
+          "compatibilityWarnings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["code", "severity", "message"],
+              "properties": {
+                "code": { "type": "string" },
+                "severity": { "enum": ["info", "warning"] },
+                "message": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "editor": { "$ref": "editor-metadata.schema.json" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
