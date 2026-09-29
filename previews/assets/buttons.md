@@ -6,24 +6,32 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 ## At a glance
 
-- Assets: 30
+- Assets: 40
 - Groups: 3
 - Best for: README calls to action, install links, documentation links, sponsorship links, profile links, and status actions.
 - Category tags: `button`
 
 ## Tag summary
 
-`button` (30), `static` (18), `animated` (12), `motion` (12), `cta` (10), `profile` (10), `social` (10), `status` (10), `docs` (3), `build` (2), `api` (1), `code` (1)
+`button` (40), `static` (23), `animated` (17), `motion` (17), `cta` (16), `profile` (12), `social` (12), `status` (12), `docs` (6), `build` (3), `api` (1), `code` (1)
 
 ## Full previews
 
 | Group | Count | Description | Full preview |
 | --- | ---: | --- | --- |
-| CTA | 10 | Primary call-to-action buttons for install, docs, launch, demo, API, and template links. | [Open](./buttons/full_button_cta_preview.md) |
-| Social | 10 | Profile, community, sponsor, portfolio, and discussion buttons. | [Open](./buttons/full_button_social_preview.md) |
-| Status | 10 | Status and alert icons for success, warning, danger, info, live, and deprecated states. | [Open](./buttons/full_button_status_preview.md) |
+| CTA | 16 | Primary call-to-action buttons for install, docs, launch, demo, API, and template links. | [Open](./buttons/full_button_cta_preview.md) |
+| Social | 12 | Profile, community, sponsor, portfolio, and discussion buttons. | [Open](./buttons/full_button_social_preview.md) |
+| Status | 12 | Status and alert icons for success, warning, danger, info, live, and deprecated states. | [Open](./buttons/full_button_status_preview.md) |
 
 ## Highlights
+
+### button_browse_examples
+
+[![button_browse_examples](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_browse_examples.svg)](https://github.com/HiradEmami)
+
+- Tags: `button`, `cta`, `docs`, `static`
+- [Source file](../../assets/buttons/cta/button_browse_examples.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_browse_examples.svg)
 
 ### button_copy_bundle
 
@@ -40,6 +48,14 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - Tags: `animated`, `button`, `cta`, `motion`
 - [Source file](../../assets/buttons/cta/button_download_kit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_kit.svg)
+
+### button_download_release
+
+[![button_download_release](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_release.svg)](https://github.com/HiradEmami)
+
+- Tags: `animated`, `build`, `button`, `cta`, `motion`
+- [Source file](../../assets/buttons/cta/button_download_release.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_download_release.svg)
 
 ### button_explore_assets
 
@@ -65,6 +81,14 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - [Source file](../../assets/buttons/cta/button_install_package.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_install_package.svg)
 
+### button_join_community
+
+[![button_join_community](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_join_community.svg)](https://github.com/HiradEmami)
+
+- Tags: `button`, `cta`, `static`
+- [Source file](../../assets/buttons/cta/button_join_community.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_join_community.svg)
+
 ### button_launch_demo
 
 [![button_launch_demo](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_launch_demo.svg)](https://github.com/HiradEmami)
@@ -80,27 +104,3 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - Tags: `api`, `button`, `cta`, `static`
 - [Source file](../../assets/buttons/cta/button_open_api.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_open_api.svg)
-
-### button_read_docs
-
-[![button_read_docs](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_read_docs.svg)](https://github.com/HiradEmami)
-
-- Tags: `button`, `cta`, `docs`, `static`
-- [Source file](../../assets/buttons/cta/button_read_docs.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_read_docs.svg)
-
-### button_try_cli
-
-[![button_try_cli](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_try_cli.svg)](https://github.com/HiradEmami)
-
-- Tags: `button`, `code`, `cta`, `static`
-- [Source file](../../assets/buttons/cta/button_try_cli.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_try_cli.svg)
-
-### button_view_templates
-
-[![button_view_templates](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_templates.svg)](https://github.com/HiradEmami)
-
-- Tags: `button`, `cta`, `static`
-- [Source file](../../assets/buttons/cta/button_view_templates.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/cta/button_view_templates.svg)
