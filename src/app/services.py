@@ -347,7 +347,8 @@ def run_self_tests():
         pass
     sample = (
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" role="img" aria-label="Demo">'
-        '<title>Demo</title><text id="title" fill="#2563eb">Demo</text></svg>'
+        '<title>Demo</title><desc>Demo SVG used by the local editor self-test.</desc>'
+        '<text id="title" fill="#2563eb">Demo</text></svg>'
     )
     edited = edit_svg({"source": sample, "operations": {"replaceColors": {"#2563eb": "#0f766e"}, "replaceText": [{"target": "title", "to": "Local Studio"}]}})
     assert "#0f766e" in edited["svg"]
