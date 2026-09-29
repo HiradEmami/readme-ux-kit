@@ -23,10 +23,12 @@ Use grids after the hero and before long setup details.
 ```markdown
 ## Features
 
-|  |  |
+| Feature | Outcome |
 | --- | --- |
-| <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_cli.svg" width="28" alt=""> <br><strong>CLI first</strong><br>Run common workflows from predictable commands. | <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_shield_check.svg" width="28" alt=""> <br><strong>Production checks</strong><br>Validate configuration, tests, and release readiness. |
-| <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_docs.svg" width="28" alt=""> <br><strong>Documentation ready</strong><br>Copy polished README sections without building a docs site. | <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_pipeline.svg" width="28" alt=""> <br><strong>Pipeline aware</strong><br>Expose build, deploy, and status signals where readers expect them. |
+| <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_cli.svg" width="28" alt=""> **CLI first** | Run common workflows from predictable commands. |
+| <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_shield_check.svg" width="28" alt=""> **Production checks** | Validate configuration, tests, and release readiness. |
+| <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_docs.svg" width="28" alt=""> **Documentation ready** | Copy polished README sections without a docs site. |
+| <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_pipeline.svg" width="28" alt=""> **Pipeline aware** | Show build, deploy, and status signals in expected places. |
 ```
 
 ## Capability Matrix
