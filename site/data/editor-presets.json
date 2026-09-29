@@ -1,0 +1,82 @@
+{
+  "generatedBy": "src/modules/generators/generate_editor_data.py",
+  "presets": [
+    {
+      "defaultPalette": "github-dark",
+      "description": "Replace primary and secondary accent colors while leaving structure intact.",
+      "id": "brand-swap",
+      "name": "Brand Color Swap",
+      "operations": [
+        "replaceColor"
+      ],
+      "recommendedRoles": [
+        "primaryAccent",
+        "secondaryAccent",
+        "glow"
+      ]
+    },
+    {
+      "defaultPalette": "readme-ux-kit",
+      "description": "Update title text, accent colors, and optional decorative layers for header-style SVGs.",
+      "id": "readme-header-rebrand",
+      "name": "README Header Rebrand",
+      "operations": [
+        "replaceColor",
+        "replaceText",
+        "hideElement"
+      ],
+      "recommendedRoles": [
+        "background",
+        "surface",
+        "primaryAccent",
+        "text"
+      ]
+    },
+    {
+      "defaultPalette": "github-light",
+      "description": "Slow animation timings and remove optional motion-heavy elements.",
+      "id": "low-motion",
+      "name": "Low Motion Variant",
+      "operations": [
+        "scaleAnimationSpeed",
+        "hideElement"
+      ],
+      "recommendedRoles": []
+    },
+    {
+      "defaultPalette": "security-ops",
+      "description": "Map status colors for success, warning, danger, and neutral states.",
+      "id": "status-tone",
+      "name": "Status Tone",
+      "operations": [
+        "replaceColor",
+        "replaceText"
+      ],
+      "recommendedRoles": [
+        "success",
+        "warning",
+        "danger",
+        "text"
+      ]
+    },
+    {
+      "defaultPalette": "docs-clean",
+      "description": "Convert highly stylized assets into lighter documentation-friendly colors.",
+      "id": "docs-cleanup",
+      "name": "Docs Cleanup",
+      "operations": [
+        "replaceColor",
+        "replaceText",
+        "hideElement"
+      ],
+      "recommendedRoles": [
+        "background",
+        "surface",
+        "primaryAccent",
+        "mutedText",
+        "text"
+      ]
+    }
+  ],
+  "schemaVersion": 1
+}

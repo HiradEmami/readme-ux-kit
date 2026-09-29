@@ -1,0 +1,475 @@
+{
+  "generatedBy": "src/modules/recipes/recipe_index.py",
+  "recipeCount": 5,
+  "recipes": [
+    {
+      "assetCount": 4,
+      "componentCount": 3,
+      "id": "open-source-library-readme",
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "templates/open-source-lib.md",
+          "path": "templates/open-source-lib.md",
+          "target": "../templates/open-source-lib.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "themes/minimal/example.md",
+          "path": "themes/minimal/example.md",
+          "target": "../themes/minimal/example.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/badges/system-badges.md",
+          "path": "components/badges/system-badges.md",
+          "target": "../components/badges/system-badges.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/layout/feature-grids.md",
+          "path": "components/layout/feature-grids.md",
+          "target": "../components/layout/feature-grids.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/status/version-lifecycle.md",
+          "path": "components/status/version-lifecycle.md",
+          "target": "../components/status/version-lifecycle.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/headers/static/header_minimal_lux.svg",
+          "path": "assets/headers/static/header_minimal_lux.svg",
+          "target": "../assets/headers/static/header_minimal_lux.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/dividers/static/divider_minimal_clean.svg",
+          "path": "assets/dividers/static/divider_minimal_clean.svg",
+          "target": "../assets/dividers/static/divider_minimal_clean.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/icons/dev/icon_package_box.svg",
+          "path": "assets/icons/dev/icon_package_box.svg",
+          "target": "../assets/icons/dev/icon_package_box.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/icons/core/icon_docs.svg",
+          "path": "assets/icons/core/icon_docs.svg",
+          "target": "../assets/icons/core/icon_docs.svg"
+        }
+      ],
+      "path": "docs/RECIPES.md#open-source-library-readme",
+      "summary": "Best for packages, SDKs, utilities, and reusable modules.",
+      "tags": [
+        "and",
+        "best",
+        "for",
+        "library",
+        "modules",
+        "open",
+        "packages",
+        "readme",
+        "reusable",
+        "sdks",
+        "source",
+        "utilities"
+      ],
+      "templateCount": 1,
+      "themeCount": 1,
+      "title": "Open-Source Library README"
+    },
+    {
+      "assetCount": 4,
+      "componentCount": 3,
+      "id": "machine-learning-project-readme",
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "templates/ml-project.md",
+          "path": "templates/ml-project.md",
+          "target": "../templates/ml-project.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "themes/ai-neural/example.md",
+          "path": "themes/ai-neural/example.md",
+          "target": "../themes/ai-neural/example.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/status/ml-experiments.md",
+          "path": "components/status/ml-experiments.md",
+          "target": "../components/status/ml-experiments.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/status/dataset-status.md",
+          "path": "components/status/dataset-status.md",
+          "target": "../components/status/dataset-status.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/layout/roadmap.md",
+          "path": "components/layout/roadmap.md",
+          "target": "../components/layout/roadmap.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/headers/animated/header_radial_core.svg",
+          "path": "assets/headers/animated/header_radial_core.svg",
+          "target": "../assets/headers/animated/header_radial_core.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/visuals/evaluation_lens_matrix.svg",
+          "path": "assets/visuals/evaluation_lens_matrix.svg",
+          "target": "../assets/visuals/evaluation_lens_matrix.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/visuals/model_release_constellation.svg",
+          "path": "assets/visuals/model_release_constellation.svg",
+          "target": "../assets/visuals/model_release_constellation.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/icons/data-ai/icon_eval_harness.svg",
+          "path": "assets/icons/data-ai/icon_eval_harness.svg",
+          "target": "../assets/icons/data-ai/icon_eval_harness.svg"
+        }
+      ],
+      "path": "docs/RECIPES.md#machine-learning-project-readme",
+      "summary": "Best for model repos, evaluation suites, notebooks, datasets, and inference workflows.",
+      "tags": [
+        "and",
+        "best",
+        "datasets",
+        "evaluation",
+        "for",
+        "inference",
+        "learning",
+        "machine",
+        "model",
+        "notebooks",
+        "project",
+        "readme",
+        "repos",
+        "suites",
+        "workflows"
+      ],
+      "templateCount": 1,
+      "themeCount": 1,
+      "title": "Machine Learning Project README"
+    },
+    {
+      "assetCount": 4,
+      "componentCount": 3,
+      "id": "backend-service-readme",
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "templates/backend-service.md",
+          "path": "templates/backend-service.md",
+          "target": "../templates/backend-service.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "themes/terminal/example.md",
+          "path": "themes/terminal/example.md",
+          "target": "../themes/terminal/example.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "themes/cyberpunk/example.md",
+          "path": "themes/cyberpunk/example.md",
+          "target": "../themes/cyberpunk/example.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/status/deployment-status.md",
+          "path": "components/status/deployment-status.md",
+          "target": "../components/status/deployment-status.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/interactive/terminal-blocks.md",
+          "path": "components/interactive/terminal-blocks.md",
+          "target": "../components/interactive/terminal-blocks.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/layout/faq.md",
+          "path": "components/layout/faq.md",
+          "target": "../components/layout/faq.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/headers/static/header_data_rail.svg",
+          "path": "assets/headers/static/header_data_rail.svg",
+          "target": "../assets/headers/static/header_data_rail.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/visuals/reliability_control_room.svg",
+          "path": "assets/visuals/reliability_control_room.svg",
+          "target": "../assets/visuals/reliability_control_room.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/icons/devops/icon_observability_scope.svg",
+          "path": "assets/icons/devops/icon_observability_scope.svg",
+          "target": "../assets/icons/devops/icon_observability_scope.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/dividers/animated/bars/divider_circuit_pulse_bar.svg",
+          "path": "assets/dividers/animated/bars/divider_circuit_pulse_bar.svg",
+          "target": "../assets/dividers/animated/bars/divider_circuit_pulse_bar.svg"
+        }
+      ],
+      "path": "docs/RECIPES.md#backend-service-readme",
+      "summary": "Best for APIs, workers, internal services, platform components, and production systems.",
+      "tags": [
+        "and",
+        "apis",
+        "backend",
+        "best",
+        "components",
+        "for",
+        "internal",
+        "platform",
+        "production",
+        "readme",
+        "service",
+        "services",
+        "systems",
+        "workers"
+      ],
+      "templateCount": 1,
+      "themeCount": 2,
+      "title": "Backend Service README"
+    },
+    {
+      "assetCount": 4,
+      "componentCount": 3,
+      "id": "github-profile-readme",
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "templates/minimal.md",
+          "path": "templates/minimal.md",
+          "target": "../templates/minimal.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "themes/minimal/example.md",
+          "path": "themes/minimal/example.md",
+          "target": "../themes/minimal/example.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/layout/hero-sections.md",
+          "path": "components/layout/hero-sections.md",
+          "target": "../components/layout/hero-sections.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/layout/feature-grids.md",
+          "path": "components/layout/feature-grids.md",
+          "target": "../components/layout/feature-grids.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/interactive/expand-collapse.md",
+          "path": "components/interactive/expand-collapse.md",
+          "target": "../components/interactive/expand-collapse.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/personal/four_pillars.svg",
+          "path": "assets/personal/four_pillars.svg",
+          "target": "../assets/personal/four_pillars.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/personal/traditional_vs_engineered.svg",
+          "path": "assets/personal/traditional_vs_engineered.svg",
+          "target": "../assets/personal/traditional_vs_engineered.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/visuals/collaboration.svg",
+          "path": "assets/visuals/collaboration.svg",
+          "target": "../assets/visuals/collaboration.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/icons/objects/icon_rocket_launch.svg",
+          "path": "assets/icons/objects/icon_rocket_launch.svg",
+          "target": "../assets/icons/objects/icon_rocket_launch.svg"
+        }
+      ],
+      "path": "docs/RECIPES.md#github-profile-readme",
+      "summary": "Best for personal profile READMEs, portfolio pages, and author introductions.",
+      "tags": [
+        "and",
+        "author",
+        "best",
+        "for",
+        "github",
+        "introductions",
+        "pages",
+        "personal",
+        "portfolio",
+        "profile",
+        "readme",
+        "readmes"
+      ],
+      "templateCount": 1,
+      "themeCount": 1,
+      "title": "GitHub Profile README"
+    },
+    {
+      "assetCount": 4,
+      "componentCount": 3,
+      "id": "security-focused-repository-readme",
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "templates/backend-service.md",
+          "path": "templates/backend-service.md",
+          "target": "../templates/backend-service.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "templates/open-source-lib.md",
+          "path": "templates/open-source-lib.md",
+          "target": "../templates/open-source-lib.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "themes/cyberpunk/example.md",
+          "path": "themes/cyberpunk/example.md",
+          "target": "../themes/cyberpunk/example.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/badges/system-badges.md",
+          "path": "components/badges/system-badges.md",
+          "target": "../components/badges/system-badges.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/status/deployment-status.md",
+          "path": "components/status/deployment-status.md",
+          "target": "../components/status/deployment-status.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/interactive/expand-collapse.md",
+          "path": "components/interactive/expand-collapse.md",
+          "target": "../components/interactive/expand-collapse.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/file_headers/security_policy_radar.svg",
+          "path": "assets/file_headers/security_policy_radar.svg",
+          "target": "../assets/file_headers/security_policy_radar.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/visuals/privacy_vault_shield.svg",
+          "path": "assets/visuals/privacy_vault_shield.svg",
+          "target": "../assets/visuals/privacy_vault_shield.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/icons/status/icon_warning.svg",
+          "path": "assets/icons/status/icon_warning.svg",
+          "target": "../assets/icons/status/icon_warning.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/dividers/animated/lines/divider_red_alert.svg",
+          "path": "assets/dividers/animated/lines/divider_red_alert.svg",
+          "target": "../assets/dividers/animated/lines/divider_red_alert.svg"
+        }
+      ],
+      "path": "docs/RECIPES.md#security-focused-repository-readme",
+      "summary": "Best for security tools, audit utilities, policy repos, scanners, and incident-response projects.",
+      "tags": [
+        "and",
+        "audit",
+        "best",
+        "focused",
+        "for",
+        "incident",
+        "policy",
+        "projects",
+        "readme",
+        "repos",
+        "repository",
+        "response",
+        "scanners",
+        "security",
+        "tools",
+        "utilities"
+      ],
+      "templateCount": 2,
+      "themeCount": 1,
+      "title": "Security-Focused Repository README"
+    }
+  ],
+  "schemaVersion": 1
+}

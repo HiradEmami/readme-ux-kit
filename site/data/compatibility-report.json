@@ -1,0 +1,683 @@
+{
+  "findingCount": 111,
+  "findings": [
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/banners/energy/banner_core_energy_pulse.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/banners/minimal/banner_double_pulse_rings.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/banners/particles/banner_floating_dense_particles.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/banners/particles/banner_floating_dot.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/banners/particles/banner_pulse_glowing_stars.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/banners/particles/banner_shooting_stars.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/bars/divider_data_stream.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/bars/divider_frequency_bar.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/bars/divider_glitch_bar.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/lines/divider_neural_pulse.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/unique_effects/divider_arc_reactor.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/unique_effects/divider_matrix.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/unique_effects/divider_orbit_core_divider.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/unique_effects/divider_ritual_ring.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/dividers/animated/unique_effects/divider_twin_serpant.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/ci_cd_pipeline.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/faq_pop_cards.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/funding_sponsors.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/installation_pulse.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/observability_dashboard.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/quickstart_launch.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/readme_neon_scan.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/usage_terminal_sweep.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/headers/animated/header_collaboration.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/headers/animated/header_collaboration_premium.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/headers/static/header_puls_dot.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/icons/data-ai/icon_server_rack.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_ai_thought_pulse.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_binary_rain_scan.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_bouncing_capsuls.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_constellation.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_double_pulse_ring.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_equalizer_bars.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_expanding_ripple_colored.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_expanding_square.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_four_fading_dots.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_gpu_wavefront.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_moving_gradient_bars.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_pipeline_steps.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_pulsing_dots.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_rotating_squares_grid.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/loadings/loading_triple_pulse_dot.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/personal/paper_ci.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/personal/python_project.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/personal/traditional_vs_engineered.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/ai_domains.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/blackhole.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/mlp.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/mlp_2.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/mlp_space.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/moving_system.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/neural_singularity_reactor.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/planet.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/quantum_computing.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/server.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/singularity.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/solar_system.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/solar_system_2.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/visuals/spiral_energy_core.svg",
+      "severity": "info"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <style>.",
+      "path": "components/badges/animated-badges.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <project>.",
+      "path": "docs/PLACEHOLDERS.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <animate>.",
+      "path": "docs/SVG_OPTIMIZATION.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <animatetransform>.",
+      "path": "docs/SVG_OPTIMIZATION.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <defs>.",
+      "path": "docs/SVG_OPTIMIZATION.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <script>.",
+      "path": "docs/SVG_OPTIMIZATION.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <style>.",
+      "path": "docs/SVG_OPTIMIZATION.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <https>.",
+      "path": "docs/THIRD_PARTY.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <desc>.",
+      "path": "docs/VISUAL_STYLE.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <script>.",
+      "path": "docs/VISUAL_STYLE.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <title>.",
+      "path": "docs/VISUAL_STYLE.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <batch>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <change>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <classification>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <data>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <dataset>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <domain>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <evaluation>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <failure>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <gpu>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <known>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <metric>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <model>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <primary>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <privacy>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <public>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <pytorch>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <score>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <seed>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <size>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <task>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <version>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <who>.",
+      "path": "templates/ml-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <approach>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <baselines>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <citation>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <commit>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <dataset>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <datasets>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <duration>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <ethical>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <hardware>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <known>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <link>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <main>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <method>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <metric>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <os>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <research>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <score>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <secondary>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <seed>.",
+      "path": "templates/research-project.md",
+      "severity": "warning"
+    }
+  ],
+  "generatedBy": "src/modules/compatibility/github_markdown.py",
+  "schemaVersion": 1,
+  "summary": {
+    "codeCounts": {
+      "github-html-unknown-tag": 52,
+      "high-motion-readme-cost": 59
+    },
+    "severityCounts": {
+      "info": 59,
+      "warning": 52
+    }
+  }
+}

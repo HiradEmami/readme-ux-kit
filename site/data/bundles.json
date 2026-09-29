@@ -1,0 +1,186 @@
+{
+  "bundleCount": 8,
+  "bundles": [
+    {
+      "containsTemplatePlaceholders": true,
+      "id": "polished-library",
+      "lineCount": 74,
+      "links": [],
+      "path": "docs/BUNDLES.md#polished-library",
+      "summary": "Copy this for open-source libraries, SDKs, utilities, and developer tools.",
+      "tags": [
+        "and",
+        "copy",
+        "developer",
+        "for",
+        "libraries",
+        "library",
+        "open",
+        "polished",
+        "sdks",
+        "source",
+        "this",
+        "tools",
+        "utilities"
+      ],
+      "title": "Polished Library"
+    },
+    {
+      "containsTemplatePlaceholders": true,
+      "id": "production-backend",
+      "lineCount": 73,
+      "links": [],
+      "path": "docs/BUNDLES.md#production-backend",
+      "summary": "Copy this for APIs, workers, internal services, and production-facing platform components.",
+      "tags": [
+        "and",
+        "apis",
+        "backend",
+        "components",
+        "copy",
+        "facing",
+        "for",
+        "internal",
+        "platform",
+        "production",
+        "services",
+        "this",
+        "workers"
+      ],
+      "title": "Production Backend"
+    },
+    {
+      "containsTemplatePlaceholders": true,
+      "id": "ml-experiment-kit",
+      "lineCount": 76,
+      "links": [],
+      "path": "docs/BUNDLES.md#ml-experiment-kit",
+      "summary": "Copy this for model repositories, evaluation harnesses, dataset projects, and reproducible research.",
+      "tags": [
+        "and",
+        "copy",
+        "dataset",
+        "evaluation",
+        "experiment",
+        "for",
+        "harnesses",
+        "kit",
+        "ml",
+        "model",
+        "projects",
+        "repositories",
+        "reproducible",
+        "research",
+        "this"
+      ],
+      "title": "ML Experiment Kit"
+    },
+    {
+      "containsTemplatePlaceholders": true,
+      "id": "github-profile",
+      "lineCount": 37,
+      "links": [],
+      "path": "docs/BUNDLES.md#github-profile",
+      "summary": "Copy this for profile READMEs and personal portfolio repositories.",
+      "tags": [
+        "and",
+        "copy",
+        "for",
+        "github",
+        "personal",
+        "portfolio",
+        "profile",
+        "readmes",
+        "repositories",
+        "this"
+      ],
+      "title": "GitHub Profile"
+    },
+    {
+      "containsTemplatePlaceholders": false,
+      "id": "security-tool",
+      "lineCount": 45,
+      "links": [],
+      "path": "docs/BUNDLES.md#security-tool",
+      "summary": "Copy this for scanners, policy tooling, audit utilities, and incident-response projects.",
+      "tags": [
+        "and",
+        "audit",
+        "copy",
+        "for",
+        "incident",
+        "policy",
+        "projects",
+        "response",
+        "scanners",
+        "security",
+        "this",
+        "tool",
+        "tooling",
+        "utilities"
+      ],
+      "title": "Security Tool"
+    },
+    {
+      "containsTemplatePlaceholders": false,
+      "id": "research-paper-repo",
+      "lineCount": 47,
+      "links": [],
+      "path": "docs/BUNDLES.md#research-paper-repo",
+      "summary": "Copy this for paper companion repositories and reproducibility packages.",
+      "tags": [
+        "and",
+        "companion",
+        "copy",
+        "for",
+        "packages",
+        "paper",
+        "repo",
+        "repositories",
+        "reproducibility",
+        "research",
+        "this"
+      ],
+      "title": "Research Paper Repo"
+    },
+    {
+      "containsTemplatePlaceholders": false,
+      "id": "documentation-site-repo",
+      "lineCount": 39,
+      "links": [],
+      "path": "docs/BUNDLES.md#documentation-site-repo",
+      "summary": "Copy this for documentation portals, guide repositories, and examples-first projects.",
+      "tags": [
+        "and",
+        "copy",
+        "documentation",
+        "examples",
+        "first",
+        "for",
+        "guide",
+        "portals",
+        "projects",
+        "repo",
+        "repositories",
+        "site",
+        "this"
+      ],
+      "title": "Documentation Site Repo"
+    },
+    {
+      "containsTemplatePlaceholders": false,
+      "id": "customization-checklist",
+      "lineCount": 0,
+      "links": [],
+      "path": "docs/BUNDLES.md#customization-checklist",
+      "summary": "",
+      "tags": [
+        "checklist",
+        "customization"
+      ],
+      "title": "Customization Checklist"
+    }
+  ],
+  "generatedBy": "src/modules/recipes/recipe_index.py",
+  "schemaVersion": 1
+}

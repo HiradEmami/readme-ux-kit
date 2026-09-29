@@ -1,0 +1,63 @@
+{
+  "generatedBy": "src/modules/markdown/markdown_quality.py",
+  "schemaVersion": 1,
+  "snippetCount": 8,
+  "snippets": [
+    {
+      "description": "Clickable image syntax for SVG assets in README files.",
+      "id": "asset-markdown-link",
+      "label": "Asset Markdown Link",
+      "language": "markdown",
+      "snippet": "[![ASSET_LABEL](RAW_ASSET_URL)](TARGET_URL)"
+    },
+    {
+      "description": "HTML image syntax for width control and aligned README layouts.",
+      "id": "asset-html-image",
+      "label": "Asset HTML Image",
+      "language": "html",
+      "snippet": "<p align=\"center\"><img alt=\"ASSET_LABEL\" src=\"RAW_ASSET_URL\" width=\"100%\"></p>"
+    },
+    {
+      "description": "Preview-page section for copyable Markdown usage.",
+      "id": "details-markdown-copy",
+      "label": "Collapsible Markdown Copy Block",
+      "language": "markdown",
+      "snippet": "<details>\n<summary>Markdown</summary>\n\n```markdown\nCONTENT\n```\n</details>"
+    },
+    {
+      "description": "Preview-page section for copyable HTML usage.",
+      "id": "details-html-copy",
+      "label": "Collapsible HTML Copy Block",
+      "language": "markdown",
+      "snippet": "<details>\n<summary>HTML</summary>\n\n```html\nCONTENT\n```\n</details>"
+    },
+    {
+      "description": "Compact badge group for root README headers.",
+      "id": "badge-row",
+      "label": "Centered Badge Row",
+      "language": "html",
+      "snippet": "<p align=\"center\">\n  <a href=\"URL\"><img alt=\"LABEL\" src=\"BADGE_URL\"></a>\n</p>"
+    },
+    {
+      "description": "Readable table for features, use cases, and project capability summaries.",
+      "id": "feature-table",
+      "label": "Feature Table",
+      "language": "markdown",
+      "snippet": "| Feature | Description |\n| --- | --- |\n| FEATURE_NAME | FEATURE_VALUE |"
+    },
+    {
+      "description": "Operational status table for services, datasets, releases, and docs.",
+      "id": "status-table",
+      "label": "Status Table",
+      "language": "markdown",
+      "snippet": "| Signal | Status | Notes |\n| --- | --- | --- |\n| SIGNAL_NAME | STATUS_VALUE | NOTES |"
+    },
+    {
+      "description": "Small pairing block for theme docs and recipes.",
+      "id": "theme-asset-callout",
+      "label": "Theme Asset Callout",
+      "language": "markdown",
+      "snippet": "> Theme pair: `THEME_NAME` with `ASSET_NAME` for SECTION_NAME."
+    }
+  ]
+}
