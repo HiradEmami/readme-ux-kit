@@ -10,16 +10,17 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `banners`
 - Group: `particles`
-- Asset count: 10
+- Asset count: 11
 - Best for: Particle-based banners for network, sparkle, orbit, and ambient visual effects.
 - Group tags: `particles`
 
 ## Compact index
 
-Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (9), `energy` (2), `architecture` (1), `static` (1)
+Top tags: `hero` (11), `particles` (11), `wide` (11), `animated` (10), `motion` (10), `energy` (2), `architecture` (1), `static` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
+| `banner_community_event` | Animated | `animated`, `hero`, `motion`, `particles`, `wide` | [Jump](#banner-community-event) | [Source](../../../assets/banners/particles/banner_community_event.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_community_event.svg) |
 | `banner_floating_dense_particles` | Animated | `animated`, `hero`, `motion`, `particles`, `wide` | [Jump](#banner-floating-dense-particles) | [Source](../../../assets/banners/particles/banner_floating_dense_particles.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_floating_dense_particles.svg) |
 | `banner_floating_dot` | Animated | `animated`, `hero`, `motion`, `particles`, `wide` | [Jump](#banner-floating-dot) | [Source](../../../assets/banners/particles/banner_floating_dot.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_floating_dot.svg) |
 | `banner_horizontal_drifting_particles` | Animated | `animated`, `hero`, `motion`, `particles`, `wide` | [Jump](#banner-horizontal-drifting-particles) | [Source](../../../assets/banners/particles/banner_horizontal_drifting_particles.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_horizontal_drifting_particles.svg) |
@@ -32,6 +33,42 @@ Top tags: `hero` (10), `particles` (10), `wide` (10), `animated` (9), `motion` (
 | `banner_subtle_wave_particle` | Animated | `animated`, `hero`, `motion`, `particles`, `wide` | [Jump](#banner-subtle-wave-particle) | [Source](../../../assets/banners/particles/banner_subtle_wave_particle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_subtle_wave_particle.svg) |
 
 ## Visual previews
+
+<a id="banner-community-event"></a>
+
+## banner_community_event
+
+[![banner_community_event](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_community_event.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![banner_community_event](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_community_event.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_community_event.svg" alt="banner_community_event" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `hero`, `motion`, `particles`, `wide`
+- Anchor: `#banner-community-event`
+- [Source file](../../../assets/banners/particles/banner_community_event.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/particles/banner_community_event.svg)
 
 <a id="banner-floating-dense-particles"></a>
 
