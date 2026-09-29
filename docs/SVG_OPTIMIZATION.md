@@ -49,6 +49,7 @@ After adding or editing SVG assets:
 ```bash
 npm run optimize:svg
 npm run generate:previews
+npm run generate:all-data
 npm run check:all
 ```
 
