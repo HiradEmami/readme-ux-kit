@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `banners`
 - Group: `minimal`
-- Asset count: 9
+- Asset count: 11
 - Best for: Restrained banner assets built around simple geometry, dots, lines, and subtle motion.
 - Group tags: `minimal`
 
 ## Compact index
 
-Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `energy` (3)
+Top tags: `animated` (11), `hero` (11), `minimal` (11), `motion` (11), `wide` (11), `energy` (3), `security` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -25,9 +25,11 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 | `banner_center_crosshair` | Animated | `animated`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-center-crosshair) | [Source](../../../assets/banners/minimal/banner_center_crosshair.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_center_crosshair.svg) |
 | `banner_double_pulse_rings` | Animated | `animated`, `energy`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-double-pulse-rings) | [Source](../../../assets/banners/minimal/banner_double_pulse_rings.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_double_pulse_rings.svg) |
 | `banner_expanding_center_line` | Animated | `animated`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-expanding-center-line) | [Source](../../../assets/banners/minimal/banner_expanding_center_line.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_expanding_center_line.svg) |
+| `banner_maintenance_window` | Animated | `animated`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-maintenance-window) | [Source](../../../assets/banners/minimal/banner_maintenance_window.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_maintenance_window.svg) |
 | `banner_premium_minimal_dot` | Animated | `animated`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-premium-minimal-dot) | [Source](../../../assets/banners/minimal/banner_premium_minimal_dot.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_premium_minimal_dot.svg) |
 | `banner_pulse_ring` | Animated | `animated`, `energy`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-pulse-ring) | [Source](../../../assets/banners/minimal/banner_pulse_ring.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_pulse_ring.svg) |
 | `banner_rotating_ring` | Animated | `animated`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-rotating-ring) | [Source](../../../assets/banners/minimal/banner_rotating_ring.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_rotating_ring.svg) |
+| `banner_security_advisory` | Animated | `animated`, `hero`, `minimal`, `motion`, `security`, `wide` | [Jump](#banner-security-advisory) | [Source](../../../assets/banners/minimal/banner_security_advisory.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_security_advisory.svg) |
 | `banner_soft_glow` | Animated | `animated`, `energy`, `hero`, `minimal`, `motion`, `wide` | [Jump](#banner-soft-glow) | [Source](../../../assets/banners/minimal/banner_soft_glow.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_soft_glow.svg) |
 
 ## Visual previews
@@ -212,6 +214,42 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - [Source file](../../../assets/banners/minimal/banner_expanding_center_line.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_expanding_center_line.svg)
 
+<a id="banner-maintenance-window"></a>
+
+## banner_maintenance_window
+
+[![banner_maintenance_window](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_maintenance_window.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![banner_maintenance_window](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_maintenance_window.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_maintenance_window.svg" alt="banner_maintenance_window" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `hero`, `minimal`, `motion`, `wide`
+- Anchor: `#banner-maintenance-window`
+- [Source file](../../../assets/banners/minimal/banner_maintenance_window.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_maintenance_window.svg)
+
 <a id="banner-premium-minimal-dot"></a>
 
 ## banner_premium_minimal_dot
@@ -319,6 +357,42 @@ Top tags: `animated` (9), `hero` (9), `minimal` (9), `motion` (9), `wide` (9), `
 - Anchor: `#banner-rotating-ring`
 - [Source file](../../../assets/banners/minimal/banner_rotating_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_rotating_ring.svg)
+
+<a id="banner-security-advisory"></a>
+
+## banner_security_advisory
+
+[![banner_security_advisory](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_security_advisory.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![banner_security_advisory](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_security_advisory.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_security_advisory.svg" alt="banner_security_advisory" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `hero`, `minimal`, `motion`, `security`, `wide`
+- Anchor: `#banner-security-advisory`
+- [Source file](../../../assets/banners/minimal/banner_security_advisory.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/banners/minimal/banner_security_advisory.svg)
 
 <a id="banner-soft-glow"></a>
 
