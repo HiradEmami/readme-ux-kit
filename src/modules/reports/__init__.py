@@ -1,0 +1,2 @@
+"""Repository quality report generation."""
+
