@@ -18,6 +18,7 @@ feat(templates): add production backend README sections
 fix(previews): include raw SVG links in generated pages
 docs(components): document maturity markers
 ci(release): run quality checks before publishing
+feat(modules): add asset pack metadata generation
 ```
 
 ## Recommended Scopes
@@ -30,6 +31,10 @@ ci(release): run quality checks before publishing
 | `components` | Reusable badge, layout, interactive, and status snippets. |
 | `previews` | Generated preview output or preview generator behavior. |
 | `generators` | Python scripts under `src/modules/generators/`. |
+| `modules` | Shared tooling under `src/modules/` outside a narrower generator scope. |
+| `editor` | SVG editor capability metadata or safe SVG editing behavior. |
+| `schemas` | Generated-data schema definitions or schema validation. |
+| `site` | Static site JSON, frontend-only data checks, or generated site artifacts. |
 | `docs` | Human-authored documentation. |
 | `ci` | GitHub Actions and validation workflows. |
 | `release` | semantic-release, changelog, and release policy. |
@@ -62,8 +67,10 @@ Prefer summaries that explain the result, not the implementation mechanics.
 ## Generated Output Rules
 
 - Commit generated previews with the source change that required them.
+- Commit generated module outputs with the source change that required them.
 - Use `fix(previews): ...` when the generated output itself was stale or wrong.
 - Use `feat(generators): ...` or `fix(generators): ...` when generator behavior changed.
+- Use `feat(modules): ...`, `fix(schemas): ...`, or another focused module scope when non-preview generated data behavior changed.
 - Do not hand-edit `CHANGELOG.md`; semantic-release updates it during release.
 
 ## Maintainer Release Review
