@@ -6,23 +6,23 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 ## At a glance
 
-- Assets: 47
+- Assets: 52
 - Groups: 4
 - Best for: README hero strips, project identity blocks, release announcements, and high-impact section openings.
 - Category tags: `hero`, `wide`
 
 ## Tag summary
 
-`hero` (47), `wide` (47), `animated` (46), `motion` (46), `energy` (21), `minimal` (12), `wave` (12), `particles` (10), `architecture` (1), `static` (1)
+`hero` (52), `wide` (52), `animated` (51), `motion` (51), `energy` (22), `minimal` (14), `wave` (13), `particles` (11), `build` (1), `security` (1), `architecture` (1), `static` (1)
 
 ## Full previews
 
 | Group | Count | Description | Full preview |
 | --- | ---: | --- | --- |
-| Energy | 16 | High-energy banner assets with beams, cores, pulses, and sci-fi motion. | [Open](./banners/full_banner_energy_preview.md) |
-| Minimal | 9 | Restrained banner assets built around simple geometry, dots, lines, and subtle motion. | [Open](./banners/full_banner_minimal_preview.md) |
-| Particles | 10 | Particle-based banners for network, sparkle, orbit, and ambient visual effects. | [Open](./banners/full_banner_particles_preview.md) |
-| Waves | 12 | Wave-style banners for smooth section transitions and soft hero treatments. | [Open](./banners/full_banner_waves_preview.md) |
+| Energy | 17 | High-energy banner assets with beams, cores, pulses, and sci-fi motion. | [Open](./banners/full_banner_energy_preview.md) |
+| Minimal | 11 | Restrained banner assets built around simple geometry, dots, lines, and subtle motion. | [Open](./banners/full_banner_minimal_preview.md) |
+| Particles | 11 | Particle-based banners for network, sparkle, orbit, and ambient visual effects. | [Open](./banners/full_banner_particles_preview.md) |
+| Waves | 13 | Wave-style banners for smooth section transitions and soft hero treatments. | [Open](./banners/full_banner_waves_preview.md) |
 
 ## Highlights
 
