@@ -1,0 +1,119 @@
+{
+  "dataFiles": [
+    {
+      "exists": true,
+      "path": "assets/manifest.json"
+    },
+    {
+      "exists": true,
+      "path": "assets/provenance.json"
+    },
+    {
+      "exists": true,
+      "path": "components/index.json"
+    },
+    {
+      "exists": true,
+      "path": "templates/index.json"
+    },
+    {
+      "exists": true,
+      "path": "themes/index.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/assets.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/editor-presets.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/theme-palettes.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/editor-capabilities.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/svg-analysis.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/search-index.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/templates.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/components.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/tag-index.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/markdown-snippets.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/themes.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/recipes.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/bundles.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/svg-render-smoke.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/compatibility-report.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/asset-packs.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/quality-report.json"
+    },
+    {
+      "exists": true,
+      "path": "site/data/migration-plan.json"
+    }
+  ],
+  "generatedBy": "src/modules/schemas/schema_registry.py",
+  "schemaCount": 3,
+  "schemaVersion": 1,
+  "schemas": [
+    {
+      "draft": "https://json-schema.org/draft/2020-12/schema",
+      "id": "https://hirademami.github.io/readme-ux-kit/schemas/asset-manifest.schema.json",
+      "path": "src/modules/schemas/definitions/asset-manifest.schema.json",
+      "title": "README UX Kit Asset Manifest"
+    },
+    {
+      "draft": "https://json-schema.org/draft/2020-12/schema",
+      "id": "https://hirademami.github.io/readme-ux-kit/schemas/editor-metadata.schema.json",
+      "path": "src/modules/schemas/definitions/editor-metadata.schema.json",
+      "title": "README UX Kit SVG Editor Metadata"
+    },
+    {
+      "draft": "https://json-schema.org/draft/2020-12/schema",
+      "id": "https://hirademami.github.io/readme-ux-kit/schemas/generated-data.schema.json",
+      "path": "src/modules/schemas/definitions/generated-data.schema.json",
+      "title": "README UX Kit Generated Data Contract"
+    }
+  ]
+}

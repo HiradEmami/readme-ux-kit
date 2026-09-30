@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Search, filter, favorite, preview, and copy README-ready SVG assets from readme-ux-kit."
+    />
+    <title>readme-ux-kit Showcase</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="data:," />
+    <script src="./app.js" defer></script>
+  </head>
+  <body data-cols="3">
+    <main class="app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path d="M4 5h16M4 12h16M4 19h16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div>
+            <h1>readme-ux-kit Showcase</h1>
+            <p>Search, filter, favorite, switch cards, and copy README-ready SVG assets.</p>
+          </div>
+        </div>
+        <div class="top-actions">
+          <button class="button secondary" type="button" id="favoritesOnly" aria-pressed="false">Favorites</button>
+          <button class="button secondary" type="button" id="shuffleCards">Shuffle</button>
+          <button class="button primary" type="button" id="copyBundle">Copy Bundle</button>
+        </div>
+      </header>
+
+      <section class="shell">
+        <section class="control-panel" aria-label="Search and filters">
+          <div class="search-zone">
+            <div class="search-wrap">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="6" fill="none" stroke="currentColor" stroke-width="2" />
+                <path d="M16 16l4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <input
+                class="search-input"
+                id="searchInput"
+                type="search"
+                placeholder="Search assets..."
+                autocomplete="off"
+              />
+            </div>
+            <div class="result-meta">
+              <span class="count-pill" id="resultCount">0</span>
+              <span>visible assets</span>
+            </div>
+          </div>
+
+          <div class="filter-zone">
+            <div class="filter-controls">
+              <button
+                class="filter-trigger"
+                id="categoryFilterToggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="categoryPopover"
+              >
+                <span class="filter-trigger-main">
+                  <span class="trigger-kicker">Category</span>
+                  <strong id="categoryFilterLabel">All Categories</strong>
+                </span>
+                <span class="filter-trigger-count" id="categoryFilterCount">0</span>
+              </button>
+              <button
+                class="filter-trigger"
+                id="themeFilterToggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="themePopover"
+              >
+                <span class="filter-trigger-main">
+                  <span class="trigger-kicker">Theme</span>
+                  <strong id="themeFilterLabel">All Themes</strong>
+                </span>
+                <span class="filter-trigger-count" id="themeFilterCount">0</span>
+              </button>
+            </div>
+            <div class="density-control" aria-label="Grid format">
+              <button class="grid-cycle" id="gridCycle" type="button" aria-label="Grid layout: three columns">
+                <span class="density-label">Grid</span>
+                <span class="grid-cycle-display">
+                  <span class="layout-icon triple" id="gridCycleIcon" aria-hidden="true"><span></span><span></span><span></span></span>
+                  <strong id="gridCycleText">3 columns</strong>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-popover" id="categoryPopover" hidden>
+            <div class="filter-popover-header">
+              <span>Category</span>
+              <button class="icon-button" type="button" id="categoryPopoverClose" aria-label="Close category filters">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="filter-menu" id="categoryFilters" aria-label="Suggested category filters"></div>
+          </div>
+
+          <div class="filter-popover" id="themePopover" hidden>
+            <div class="filter-popover-header">
+              <span>Theme</span>
+              <button class="icon-button" type="button" id="themePopoverClose" aria-label="Close theme filters">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="filter-menu" id="themeFilters" aria-label="Theme filters"></div>
+          </div>
+        </section>
+
+        <section class="showcase-strip" aria-label="Summary">
+          <div class="metric-card"><strong id="totalAssets">0</strong><span>validated SVG assets</span></div>
+          <div class="metric-card"><strong id="categoryCount">0</strong><span>asset categories</span></div>
+          <div class="metric-card"><strong id="favoriteCount">0</strong><span>favorites selected</span></div>
+          <div class="metric-card"><strong>1</strong><span>premium graphite theme</span></div>
+        </section>
+
+        <section class="grid-panel">
+          <header class="grid-header">
+            <div>
+              <h2>Asset Showcase</h2>
+              <p id="gridSummary">Loading generated asset data...</p>
+            </div>
+            <div class="button-row">
+              <button class="button secondary" type="button" id="actionsAll">Actions All</button>
+              <button class="button" type="button" id="previewAll">Preview All</button>
+            </div>
+          </header>
+          <div class="grid" id="assetGrid"></div>
+          <div class="empty" id="emptyState">No assets match the current search and filters.</div>
+        </section>
+      </section>
+    </main>
+
+    <div class="status" id="status" role="status" aria-live="polite">Loading generated data...</div>
+
+    <dialog class="asset-modal" id="assetModal" aria-labelledby="modalTitle">
+      <div class="modal-shell">
+        <header class="modal-header">
+          <div>
+            <span class="modal-kicker" id="modalMeta">Asset preview</span>
+            <h2 id="modalTitle">Asset preview</h2>
+          </div>
+          <button class="icon-button" type="button" id="modalClose" aria-label="Close large preview">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+            </svg>
+          </button>
+        </header>
+        <div class="modal-preview">
+          <img id="modalImage" alt="" />
+        </div>
+        <footer class="modal-footer">
+          <code class="asset-path modal-path" id="modalPath">assets/asset.svg</code>
+          <div class="modal-actions">
+            <button class="button secondary" type="button" id="modalDownload">Download</button>
+            <button class="button primary" type="button" id="modalCopyMd">Copy MD</button>
+            <button class="button secondary" type="button" id="modalCopySvg">Copy SVG</button>
+            <button class="button secondary" type="button" id="modalCopyHtml">Copy HTML</button>
+            <a class="button secondary link-button" id="modalSource" href="https://github.com/HiradEmami/readme-ux-kit" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </footer>
+      </div>
+    </dialog>
+
+    <dialog class="editor-modal" id="editorModal" aria-labelledby="editorTitle">
+      <div class="editor-shell">
+        <header class="editor-header">
+          <div>
+            <span class="modal-kicker" id="editorMeta">Static SVG editor</span>
+            <h2 id="editorTitle">SVG Editor</h2>
+            <p class="editor-subtitle" id="editorSubtitle">Select an asset to edit.</p>
+            <div class="editor-badges" id="editorBadges"></div>
+          </div>
+          <button class="icon-button" type="button" id="editorClose" aria-label="Close editor">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+            </svg>
+          </button>
+        </header>
+
+        <div class="editor-layout">
+          <section class="editor-stage" aria-label="SVG editor preview">
+            <div class="editor-preview-grid">
+              <article class="editor-preview-panel">
+                <div class="preview-label">Original</div>
+                <div class="editor-preview-box">
+                  <img id="editorOriginalImage" alt="" />
+                </div>
+              </article>
+              <article class="editor-preview-panel">
+                <div class="preview-label">Edited</div>
+                <div class="editor-preview-box">
+                  <img id="editorEditedImage" alt="" />
+                </div>
+              </article>
+            </div>
+            <pre class="editor-status" id="editorStatus">No asset selected.</pre>
+          </section>
+
+          <aside class="editor-controls" aria-label="SVG editor controls">
+            <section class="editor-control-block">
+              <h3>Palettes</h3>
+              <div class="palette-list" id="editorPaletteList"></div>
+            </section>
+
+            <section class="editor-control-block">
+              <h3>Colors</h3>
+              <div class="control-list" id="editorColorList"></div>
+            </section>
+
+            <section class="editor-control-block">
+              <h3>Text</h3>
+              <div class="control-list" id="editorTextList"></div>
+            </section>
+
+            <section class="editor-control-block">
+              <h3>Layers</h3>
+              <div class="control-list" id="editorElementList"></div>
+            </section>
+
+            <section class="editor-control-block">
+              <h3>Motion</h3>
+              <div class="speed-row">
+                <input id="editorSpeedRange" type="range" min="0.25" max="3" step="0.25" value="1" />
+                <input id="editorSpeedNumber" type="number" min="0.25" max="3" step="0.25" value="1" />
+              </div>
+              <p class="control-note" id="editorMotionStatus">No animation timing detected.</p>
+            </section>
+
+            <section class="editor-control-block">
+              <h3>GIF Handoff</h3>
+              <div class="gif-handoff-grid">
+                <label>
+                  <span>Output</span>
+                  <input id="editorGifOutputDir" type="text" value="output/gifs" spellcheck="false" />
+                </label>
+                <label>
+                  <span>File</span>
+                  <input id="editorGifFileName" type="text" placeholder="asset-name.gif" spellcheck="false" />
+                </label>
+                <label>
+                  <span>Duration</span>
+                  <input id="editorGifDuration" type="number" min="100" max="10000" step="100" value="1600" />
+                </label>
+                <label>
+                  <span>FPS</span>
+                  <input id="editorGifFps" type="number" min="1" max="30" step="1" value="16" />
+                </label>
+                <label>
+                  <span>Width</span>
+                  <input id="editorGifMaxWidth" type="number" min="64" max="1920" step="16" value="960" />
+                </label>
+                <label>
+                  <span>Height</span>
+                  <input id="editorGifMaxHeight" type="number" min="64" max="1080" step="16" value="360" />
+                </label>
+                <label class="wide-field">
+                  <span>Background</span>
+                  <input id="editorGifBackground" type="text" value="#ffffff" spellcheck="false" />
+                </label>
+              </div>
+              <div class="editor-inline-actions">
+                <button class="button secondary" type="button" id="editorCopyGifCommand">Copy GIF Command</button>
+                <button class="button secondary" type="button" id="editorCopyGifPayload">Copy GIF Payload</button>
+              </div>
+            </section>
+
+            <section class="editor-control-block">
+              <details>
+                <summary>Advanced JSON</summary>
+                <textarea id="editorAdvancedJson" rows="5" spellcheck="false">{}</textarea>
+              </details>
+            </section>
+          </aside>
+        </div>
+
+        <footer class="editor-footer">
+          <code class="asset-path editor-path" id="editorPath">assets/asset.svg</code>
+          <div class="modal-actions editor-actions">
+            <button class="button secondary" type="button" id="editorReset">Reset</button>
+            <button class="button primary" type="button" id="editorApply">Apply Preview</button>
+            <button class="button secondary" type="button" id="editorCopySvg">Copy SVG</button>
+            <button class="button secondary" type="button" id="editorDownloadSvg">Download SVG</button>
+            <button class="button secondary" type="button" id="editorCopyMd">Copy MD</button>
+            <button class="button secondary" type="button" id="editorCopyHtml">Copy HTML</button>
+          </div>
+        </footer>
+      </div>
+    </dialog>
+
+    <noscript>
+      <div class="noscript">Enable JavaScript to browse and copy generated showcase assets.</div>
+    </noscript>
+  </body>
+</html>

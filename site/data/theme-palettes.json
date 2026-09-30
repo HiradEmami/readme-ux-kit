@@ -1,0 +1,159 @@
+{
+  "generatedBy": "src/modules/generators/generate_editor_data.py",
+  "palettes": [
+    {
+      "id": "readme-ux-kit",
+      "name": "README UX Kit",
+      "roles": {
+        "background": "#020617",
+        "danger": "#ef4444",
+        "glow": "#22d3ee",
+        "mutedText": "#94a3b8",
+        "primaryAccent": "#38bdf8",
+        "secondaryAccent": "#a78bfa",
+        "stroke": "#334155",
+        "success": "#22c55e",
+        "surface": "#0f172a",
+        "text": "#f8fafc",
+        "warning": "#f59e0b"
+      }
+    },
+    {
+      "id": "github-dark",
+      "name": "GitHub Dark",
+      "roles": {
+        "background": "#0d1117",
+        "danger": "#f85149",
+        "glow": "#1f6feb",
+        "mutedText": "#8b949e",
+        "primaryAccent": "#58a6ff",
+        "secondaryAccent": "#a5d6ff",
+        "stroke": "#30363d",
+        "success": "#3fb950",
+        "surface": "#161b22",
+        "text": "#f0f6fc",
+        "warning": "#d29922"
+      }
+    },
+    {
+      "id": "github-light",
+      "name": "GitHub Light",
+      "roles": {
+        "background": "#ffffff",
+        "danger": "#cf222e",
+        "glow": "#54aeff",
+        "mutedText": "#57606a",
+        "primaryAccent": "#0969da",
+        "secondaryAccent": "#8250df",
+        "stroke": "#d0d7de",
+        "success": "#1a7f37",
+        "surface": "#f6f8fa",
+        "text": "#24292f",
+        "warning": "#9a6700"
+      }
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "roles": {
+        "background": "#05070d",
+        "danger": "#fb365d",
+        "glow": "#8b5cf6",
+        "mutedText": "#94a3b8",
+        "primaryAccent": "#22d3ee",
+        "secondaryAccent": "#f472b6",
+        "stroke": "#172033",
+        "success": "#34d399",
+        "surface": "#0b1020",
+        "text": "#e5f4ff",
+        "warning": "#fbbf24"
+      }
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "roles": {
+        "background": "#f8fafc",
+        "danger": "#dc2626",
+        "glow": "#93c5fd",
+        "mutedText": "#64748b",
+        "primaryAccent": "#2563eb",
+        "secondaryAccent": "#4b5b73",
+        "stroke": "#d7dee8",
+        "success": "#16a34a",
+        "surface": "#ffffff",
+        "text": "#172033",
+        "warning": "#d97706"
+      }
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "roles": {
+        "background": "#020617",
+        "danger": "#fb7185",
+        "glow": "#bbf7d0",
+        "mutedText": "#94a3b8",
+        "primaryAccent": "#22c55e",
+        "secondaryAccent": "#38bdf8",
+        "stroke": "#1e293b",
+        "success": "#22c55e",
+        "surface": "#07111f",
+        "text": "#e5e7eb",
+        "warning": "#facc15"
+      }
+    },
+    {
+      "id": "data-lab",
+      "name": "Data Lab",
+      "roles": {
+        "background": "#f8fafc",
+        "danger": "#dc2626",
+        "glow": "#0f766e",
+        "mutedText": "#475569",
+        "primaryAccent": "#0284c7",
+        "secondaryAccent": "#7c3aed",
+        "stroke": "#dbeafe",
+        "success": "#0f766e",
+        "surface": "#ffffff",
+        "text": "#102033",
+        "warning": "#ca8a04"
+      }
+    },
+    {
+      "id": "docs-clean",
+      "name": "Docs Clean",
+      "roles": {
+        "background": "#ffffff",
+        "danger": "#c53030",
+        "glow": "#dbeafe",
+        "mutedText": "#667085",
+        "primaryAccent": "#0f62fe",
+        "secondaryAccent": "#7c3aed",
+        "stroke": "#e5e7eb",
+        "success": "#2f855a",
+        "surface": "#f9fafb",
+        "text": "#1f2937",
+        "warning": "#b7791f"
+      }
+    },
+    {
+      "id": "security-ops",
+      "name": "Security Ops",
+      "roles": {
+        "background": "#0b1020",
+        "danger": "#ef4444",
+        "glow": "#60a5fa",
+        "mutedText": "#94a3b8",
+        "primaryAccent": "#38bdf8",
+        "secondaryAccent": "#22c55e",
+        "stroke": "#334155",
+        "success": "#22c55e",
+        "surface": "#111827",
+        "text": "#e5edf7",
+        "warning": "#f59e0b"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
