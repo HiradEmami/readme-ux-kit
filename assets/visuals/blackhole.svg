@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Blackhole</title>
+  <desc>An animated README SVG asset illustrating Blackhole.</desc>
 <defs>
 
 <radialGradient id="space">

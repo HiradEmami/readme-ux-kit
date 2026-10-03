@@ -1,4 +1,6 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Eye</title>
+  <desc>A static README SVG asset illustrating Eye.</desc>
 
 <ellipse cx="256" cy="256" rx="220" ry="160" fill="#ffffff" stroke="#111" stroke-width="12"/>
 
