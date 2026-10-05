@@ -1,4 +1,6 @@
-<svg width="180" height="74" viewBox="0 0 180 74" xmlns="http://www.w3.org/2000/svg">
+<svg width="180" height="74" viewBox="0 0 180 74" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Loading GPU Wavefront</title>
+  <desc>An animated README SVG asset illustrating Loading GPU Wavefront.</desc>
   <rect x="18" y="14" width="144" height="46" rx="12" fill="#0F172A" stroke="#334155" stroke-width="3"/>
   <g fill="#38BDF8">
     <rect x="36" y="24" width="10" height="26" rx="3"><animate attributeName="height" values="12;30;12" dur=".85s" repeatCount="indefinite"/><animate attributeName="y" values="31;22;31" dur=".85s" repeatCount="indefinite"/></rect>
