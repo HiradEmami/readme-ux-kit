@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Ring Dot Combo</title>
+  <desc>An animated README SVG asset illustrating Loading Ring Dot Combo.</desc>
   <circle cx="40" cy="40" r="20" fill="none" stroke="#334155"/>
   <circle cx="40" cy="20" r="5" fill="#22d3ee">
     <animateTransform attributeName="transform" type="rotate"
