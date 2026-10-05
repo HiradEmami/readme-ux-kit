@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Rotating Diamond Pulse</title>
+  <desc>An animated README SVG asset illustrating Loading Rotating Diamond Pulse.</desc>
   <g>
     <polygon points="40,20 60,40 40,60 20,40" fill="none" stroke="#f43f5e" stroke-width="4"/>
     <animateTransform attributeName="transform"
