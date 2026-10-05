@@ -1,4 +1,6 @@
-<svg width="170" height="70" viewBox="0 0 170 70" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="170" height="70" viewBox="0 0 170 70" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Latency Ping</title>
+  <desc>An animated README SVG asset illustrating Loading Latency Ping.</desc>
   <path d="M20 45c20-30 38-30 58 0s38 30 72 0" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
   <path d="M20 45c20-30 38-30 58 0s38 30 72 0" stroke="#34D399" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 155">
     <animate attributeName="stroke-dashoffset" values="0;-185" dur="1.1s" repeatCount="indefinite"/>
