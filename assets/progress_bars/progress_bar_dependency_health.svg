@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 58" width="620" height="58" role="img" aria-label="Dependency health progress">
+  <title>Progress Bar Dependency Health</title>
+  <desc>An animated README SVG asset illustrating Progress Bar Dependency Health.</desc>
   <rect x="1" y="1" width="618" height="56" rx="12" fill="#11100a" stroke="#3f3516" stroke-width="2"/>
   <text x="22" y="36" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#fef3c7">dependency health</text>
   <g transform="translate(250 29)">
