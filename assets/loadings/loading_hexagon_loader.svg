@@ -1,4 +1,6 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Hexagon Loader</title>
+  <desc>An animated README SVG asset illustrating Loading Hexagon Loader.</desc>
   <polygon points="60,16 98,38 98,82 60,104 22,82 22,38" stroke="#334155" stroke-width="6" stroke-linejoin="round"/>
   <polygon points="60,16 98,38 98,82 60,104 22,82 22,38" stroke="#22D3EE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="44 220">
     <animate attributeName="stroke-dashoffset" values="0;-264" dur="1.35s" repeatCount="indefinite"/>
