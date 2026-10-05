@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Four Fading Dots</title>
+  <desc>An animated README SVG asset illustrating Loading Four Fading Dots.</desc>
   <g>
     <circle cx="40" cy="16" r="5" fill="#22d3ee">
       <animate attributeName="opacity" values="1;0.2;1" dur="1s" begin="0s" repeatCount="indefinite"/>
