@@ -1,4 +1,6 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Expanding Ripple Colored</title>
+  <desc>An animated README SVG asset illustrating Loading Expanding Ripple Colored.</desc>
   <circle cx="60" cy="60" r="8" fill="#22C55E"/>
   <circle cx="60" cy="60" r="8" stroke="#22C55E" stroke-width="4">
     <animate attributeName="r" values="8;34" dur="1.6s" repeatCount="indefinite"/>
