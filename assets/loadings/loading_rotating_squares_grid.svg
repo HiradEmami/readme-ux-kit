@@ -1,4 +1,6 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Loading Rotating Squares Grid</title>
+  <desc>An animated README SVG asset illustrating Loading Rotating Squares Grid.</desc>
   <g transform="translate(60 60)">
     <rect x="-34" y="-34" width="20" height="20" rx="4" fill="#38BDF8">
       <animateTransform attributeName="transform" type="rotate" values="0 -24 -24;180 -24 -24;360 -24 -24" dur="1.2s" repeatCount="indefinite"/>
