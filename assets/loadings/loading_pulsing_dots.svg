@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" role="img">
+  <title>Loading Pulsing Dots</title>
+  <desc>An animated README SVG asset illustrating Loading Pulsing Dots.</desc>
   <circle cx="20" cy="20" r="5" fill="#a855f7">
     <animate attributeName="r" values="5;9;5" dur="1s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite"/>
