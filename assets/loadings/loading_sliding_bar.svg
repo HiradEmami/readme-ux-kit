@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 20" width="120" height="20">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 20" width="120" height="20" role="img">
+  <title>Loading Sliding Bar</title>
+  <desc>An animated README SVG asset illustrating Loading Sliding Bar.</desc>
   <rect width="20" height="10" y="5" fill="#22d3ee">
     <animate attributeName="x" values="0;100;0" dur="1.5s" repeatCount="indefinite"/>
   </rect>
