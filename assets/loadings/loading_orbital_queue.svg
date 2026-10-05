@@ -1,4 +1,6 @@
-<svg width="150" height="90" viewBox="0 0 150 90" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="150" height="90" viewBox="0 0 150 90" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Orbital Queue</title>
+  <desc>An animated README SVG asset illustrating Loading Orbital Queue.</desc>
   <ellipse cx="75" cy="45" rx="48" ry="24" stroke="#334155" stroke-width="3"/>
   <g>
     <circle cx="123" cy="45" r="6" fill="#38BDF8"/>
