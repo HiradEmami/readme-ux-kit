@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Orbiting Dots</title>
+  <desc>An animated README SVG asset illustrating Loading Orbiting Dots.</desc>
   <circle cx="40" cy="40" r="4" fill="#f8fafc"/>
   <circle cx="40" cy="20" r="5" fill="#22d3ee">
     <animateTransform attributeName="transform"
