@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Rotating Plus</title>
+  <desc>An animated README SVG asset illustrating Loading Rotating Plus.</desc>
   <g>
     <line x1="40" y1="20" x2="40" y2="60" stroke="#f43f5e" stroke-width="4"/>
     <line x1="20" y1="40" x2="60" y2="40" stroke="#f43f5e" stroke-width="4"/>
