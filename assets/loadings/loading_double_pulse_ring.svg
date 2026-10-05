@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Double Pulse Ring</title>
+  <desc>An animated README SVG asset illustrating Loading Double Pulse Ring.</desc>
   <circle cx="40" cy="40" r="10" stroke="#22d3ee" fill="none">
     <animate attributeName="r" values="10;30" dur="1.5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0" dur="1.5s" repeatCount="indefinite"/>
