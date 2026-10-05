@@ -1,4 +1,6 @@
-<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Radar Sweep</title>
+  <desc>An animated README SVG asset illustrating Loading Radar Sweep.</desc>
   <circle cx="65" cy="65" r="48" stroke="#334155" stroke-width="3"/>
   <circle cx="65" cy="65" r="30" stroke="#334155" stroke-width="2" opacity=".7"/>
   <circle cx="65" cy="65" r="10" stroke="#334155" stroke-width="2" opacity=".7"/>
