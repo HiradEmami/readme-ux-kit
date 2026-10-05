@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Expanding Square</title>
+  <desc>An animated README SVG asset illustrating Loading Expanding Square.</desc>
   <rect x="30" y="30" width="20" height="20" fill="none" stroke="#22d3ee">
     <animate attributeName="x" values="30;20;30" dur="1.5s" repeatCount="indefinite"/>
     <animate attributeName="y" values="30;20;30" dur="1.5s" repeatCount="indefinite"/>
