@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Wave Line</title>
-  <desc>A static README SVG asset illustrating Header Wave Line.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_wave_line-title header_wave_line-desc">
+  <title id="header_wave_line-title">Header Wave Line</title>
+  <desc id="header_wave_line-desc">A static README SVG asset illustrating Header Wave Line.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <text x="450" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#f8fafc">
     DOCUMENTATION

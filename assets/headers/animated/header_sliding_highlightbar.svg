@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Sliding Highlightbar</title>
-  <desc>An animated README SVG asset illustrating Header Sliding Highlightbar.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_sliding_highlightbar-title header_sliding_highlightbar-desc">
+  <title id="header_sliding_highlightbar-title">Header Sliding Highlightbar</title>
+  <desc id="header_sliding_highlightbar-desc">An animated README SVG asset illustrating Header Sliding Highlightbar.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <rect y="30" height="45" width="0" fill="#22d3ee">
     <animate attributeName="width" values="0;900;0" dur="2.5s" repeatCount="indefinite"/>

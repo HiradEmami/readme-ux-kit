@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Expanding Bar</title>
-  <desc>An animated README SVG asset illustrating Header Expanding Bar.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_expanding_bar-title header_expanding_bar-desc">
+  <title id="header_expanding_bar-title">Header Expanding Bar</title>
+  <desc id="header_expanding_bar-desc">An animated README SVG asset illustrating Header Expanding Bar.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <rect x="300" y="50" width="300" height="10" fill="#22d3ee">
     <animate attributeName="width" values="300;600;300" dur="2s" repeatCount="indefinite"/>

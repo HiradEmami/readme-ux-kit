@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Release notes file header">
-  <title>Release Notes Gradient</title>
-  <desc>An animated README SVG asset illustrating Release Notes Gradient.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Release notes file header" aria-labelledby="release_notes_gradient-title release_notes_gradient-desc">
+  <title id="release_notes_gradient-title">Release Notes Gradient</title>
+  <desc id="release_notes_gradient-desc">An animated README SVG asset illustrating Release Notes Gradient.</desc>
   <defs>
     <linearGradient id="release-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#fb7185"/>

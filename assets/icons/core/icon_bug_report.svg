@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
-  <title>Icon Bug Report</title>
-  <desc>A static README SVG asset illustrating Icon Bug Report.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img" aria-labelledby="icon_bug_report-title icon_bug_report-desc">
+  <title id="icon_bug_report-title">Icon Bug Report</title>
+  <desc id="icon_bug_report-desc">A static README SVG asset illustrating Icon Bug Report.</desc>
   <rect x="15" y="15" width="30" height="30" fill="#1e293b" stroke="#ef4444"/>
 
   <ellipse cx="30" cy="30" rx="6" ry="8" fill="#ef4444"/>

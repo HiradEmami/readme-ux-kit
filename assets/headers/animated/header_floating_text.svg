@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
-  <title>Header Floating Text</title>
-  <desc>An animated README SVG asset illustrating Header Floating Text.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-labelledby="header_floating_text-title header_floating_text-desc">
+  <title id="header_floating_text-title">Header Floating Text</title>
+  <desc id="header_floating_text-desc">An animated README SVG asset illustrating Header Floating Text.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <text x="450" y="70" text-anchor="middle" font-size="42" fill="#a855f7">
     ANALYSIS

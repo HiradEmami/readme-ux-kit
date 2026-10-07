@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img">
-  <title>Header Split Line</title>
-  <desc>A static README SVG asset illustrating Header Split Line.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img" aria-labelledby="header_split_line-title header_split_line-desc">
+  <title id="header_split_line-title">Header Split Line</title>
+  <desc id="header_split_line-desc">A static README SVG asset illustrating Header Split Line.</desc>
   <rect width="900" height="100" fill="#020617"/>
   <line x1="40" y1="50" x2="280" y2="50" stroke="#334155" stroke-width="2"/>
   <line x1="620" y1="50" x2="860" y2="50" stroke="#334155" stroke-width="2"/>

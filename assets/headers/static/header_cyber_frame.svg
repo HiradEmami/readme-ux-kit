@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
-  <title>Header Cyber Frame</title>
-  <desc>A static README SVG asset illustrating Header Cyber Frame.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-labelledby="header_cyber_frame-title header_cyber_frame-desc">
+  <title id="header_cyber_frame-title">Header Cyber Frame</title>
+  <desc id="header_cyber_frame-desc">A static README SVG asset illustrating Header Cyber Frame.</desc>
   <rect x="10" y="10" width="880" height="100" rx="10" fill="none" stroke="#a855f7" stroke-width="2"/>
   <path d="M10 35 L40 10 M860 10 L890 35 M10 85 L40 110 M860 110 L890 85" stroke="#22d3ee" stroke-width="2" fill="none"/>
   <rect width="900" height="120" fill="#020617"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Stretching Text</title>
-  <desc>An animated README SVG asset illustrating Header Stretching Text.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_stretching_text-title header_stretching_text-desc">
+  <title id="header_stretching_text-title">Header Stretching Text</title>
+  <desc id="header_stretching_text-desc">An animated README SVG asset illustrating Header Stretching Text.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <text x="450" y="65" text-anchor="middle" font-size="42" fill="#22d3ee">
     CONFIG

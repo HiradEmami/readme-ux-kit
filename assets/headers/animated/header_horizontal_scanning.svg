@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Horizontal Scanning</title>
-  <desc>An animated README SVG asset illustrating Header Horizontal Scanning.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_horizontal_scanning-title header_horizontal_scanning-desc">
+  <title id="header_horizontal_scanning-title">Header Horizontal Scanning</title>
+  <desc id="header_horizontal_scanning-desc">An animated README SVG asset illustrating Header Horizontal Scanning.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <rect y="0" width="900" height="20" fill="#22d3ee">
     <animate attributeName="y" values="0;90;0" dur="2s" repeatCount="indefinite"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img">
-  <title>Header Minimal Lux</title>
-  <desc>A static README SVG asset illustrating Header Minimal Lux.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img" aria-labelledby="header_minimal_lux-title header_minimal_lux-desc">
+  <title id="header_minimal_lux-title">Header Minimal Lux</title>
+  <desc id="header_minimal_lux-desc">A static README SVG asset illustrating Header Minimal Lux.</desc>
   <rect width="900" height="100" fill="#020617"/>
   <text x="450" y="58" text-anchor="middle" font-family="Times New Roman, serif" font-size="38" fill="#f8fafc">
     License

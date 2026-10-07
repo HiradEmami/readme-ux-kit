@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Scanner Banner</title>
-  <desc>An animated README SVG asset illustrating Header Scanner Banner.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_scanner_banner-title header_scanner_banner-desc">
+  <title id="header_scanner_banner-title">Header Scanner Banner</title>
+  <desc id="header_scanner_banner-desc">An animated README SVG asset illustrating Header Scanner Banner.</desc>
   <defs>
     <linearGradient id="scan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#020617"/>

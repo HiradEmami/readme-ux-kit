@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Scanning Status</title>
-  <desc>An animated README SVG asset illustrating Header Scanning Status.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_scanning_status-title header_scanning_status-desc">
+  <title id="header_scanning_status-title">Header Scanning Status</title>
+  <desc id="header_scanning_status-desc">An animated README SVG asset illustrating Header Scanning Status.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <line x1="0" y1="40" x2="900" y2="40" stroke="#22d3ee" stroke-width="2">
     <animate attributeName="y1" values="40;70;40" dur="2s" repeatCount="indefinite"/>

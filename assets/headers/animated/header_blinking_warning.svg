@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Blinking Warning</title>
-  <desc>An animated README SVG asset illustrating Header Blinking Warning.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_blinking_warning-title header_blinking_warning-desc">
+  <title id="header_blinking_warning-title">Header Blinking Warning</title>
+  <desc id="header_blinking_warning-desc">An animated README SVG asset illustrating Header Blinking Warning.</desc>
   <rect width="900" height="110" fill="#020617"/>
   <text x="450" y="65" text-anchor="middle" font-size="42" fill="#f43f5e">
     WARNING

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
-  <title>Icon Bug</title>
-  <desc>An animated README SVG asset illustrating Icon Bug.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img" aria-labelledby="icon_bug-title icon_bug-desc">
+  <title id="icon_bug-title">Icon Bug</title>
+  <desc id="icon_bug-desc">An animated README SVG asset illustrating Icon Bug.</desc>
   <ellipse cx="30" cy="30" rx="8" ry="12" fill="#ef4444"/>
 
   <line x1="22" y1="30" x2="15" y2="25" stroke="#ef4444"/>

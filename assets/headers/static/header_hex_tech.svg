@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
-  <title>Header Hex Tech</title>
-  <desc>A static README SVG asset illustrating Header Hex Tech.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-labelledby="header_hex_tech-title header_hex_tech-desc">
+  <title id="header_hex_tech-title">Header Hex Tech</title>
+  <desc id="header_hex_tech-desc">A static README SVG asset illustrating Header Hex Tech.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <polygon points="80,60 105,42 135,42 160,60 135,78 105,78" fill="none" stroke="#22c55e" stroke-width="2"/>
   <polygon points="740,60 765,42 795,42 820,60 795,78 765,78" fill="none" stroke="#22c55e" stroke-width="2"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
-  <title>Header Glow Up Highlight</title>
-  <desc>An animated README SVG asset illustrating Header Glow Up Highlight.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-labelledby="header_glow_up_highlight-title header_glow_up_highlight-desc">
+  <title id="header_glow_up_highlight-title">Header Glow Up Highlight</title>
+  <desc id="header_glow_up_highlight-desc">An animated README SVG asset illustrating Header Glow Up Highlight.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <rect width="200" height="120" fill="#22d3ee" opacity="0.1">
     <animate attributeName="x" values="-200;900" dur="2.5s" repeatCount="indefinite"/>

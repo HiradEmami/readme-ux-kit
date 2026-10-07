@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
-  <title>Header Expanding Circle</title>
-  <desc>An animated README SVG asset illustrating Header Expanding Circle.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-labelledby="header_expanding_circle-title header_expanding_circle-desc">
+  <title id="header_expanding_circle-title">Header Expanding Circle</title>
+  <desc id="header_expanding_circle-desc">An animated README SVG asset illustrating Header Expanding Circle.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <circle cx="450" cy="60" r="10" fill="#22d3ee">
     <animate attributeName="r" values="10;200" dur="2.5s" repeatCount="indefinite"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Lock</title>
-  <desc>A static README SVG asset illustrating Icon Lock.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_lock-title icon_lock-desc">
+  <title id="icon_lock-title">Icon Lock</title>
+  <desc id="icon_lock-desc">A static README SVG asset illustrating Icon Lock.</desc>
   <rect x="5" y="10" width="14" height="10" rx="2" stroke="#22d3ee" stroke-width="2"/>
   <path d="M8 10V7C8 5 9.5 4 12 4C14.5 4 16 5 16 7V10"
         stroke="#8b5cf6" stroke-width="2"/>

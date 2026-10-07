@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 30" width="100" height="30" role="img">
-  <title>Icon Copied</title>
-  <desc>An animated README SVG asset illustrating Icon Copied.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 30" width="100" height="30" role="img" aria-labelledby="icon_copied-title icon_copied-desc">
+  <title id="icon_copied-title">Icon Copied</title>
+  <desc id="icon_copied-desc">An animated README SVG asset illustrating Icon Copied.</desc>
   <rect x="10" y="5" width="80" height="20" rx="6" fill="#111827"/>
   <text x="50" y="20" fill="#22d3ee" font-size="12" text-anchor="middle">
     copied

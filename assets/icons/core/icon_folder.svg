@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Folder</title>
-  <desc>A static README SVG asset illustrating Icon Folder.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_folder-title icon_folder-desc">
+  <title id="icon_folder-title">Icon Folder</title>
+  <desc id="icon_folder-desc">A static README SVG asset illustrating Icon Folder.</desc>
   <path d="M3 7H9L11 9H21V18C21 19 20 20 19 20H5C4 20 3 19 3 18Z"
         stroke="#22d3ee" stroke-width="2"/>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Progress Bar</title>
-  <desc>An animated README SVG asset illustrating Icon Progress Bar.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_progress_bar-title icon_progress_bar-desc">
+  <title id="icon_progress_bar-title">Icon Progress Bar</title>
+  <desc id="icon_progress_bar-desc">An animated README SVG asset illustrating Icon Progress Bar.</desc>
   <rect x="3" y="10" width="18" height="4" rx="2" stroke="#334155"/>
   <rect x="3" y="10" width="6" height="4" rx="2" fill="#22d3ee">
     <animate attributeName="width" values="6;18;6" dur="2s" repeatCount="indefinite"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Quickstart file header">
-  <title>Quickstart Launch</title>
-  <desc>An animated README SVG asset illustrating Quickstart Launch.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Quickstart file header" aria-labelledby="quickstart_launch-title quickstart_launch-desc">
+  <title id="quickstart_launch-title">Quickstart Launch</title>
+  <desc id="quickstart_launch-desc">An animated README SVG asset illustrating Quickstart Launch.</desc>
   <defs>
     <linearGradient id="quick-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#38bdf8"/>

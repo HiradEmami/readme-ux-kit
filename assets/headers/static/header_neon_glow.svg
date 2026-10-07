@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img">
-  <title>Header Neon Glow</title>
-  <desc>A static README SVG asset illustrating Header Neon Glow.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-labelledby="header_neon_glow-title header_neon_glow-desc">
+  <title id="header_neon_glow-title">Header Neon Glow</title>
+  <desc id="header_neon_glow-desc">A static README SVG asset illustrating Header Neon Glow.</desc>
   <defs>
     <filter id="g">
       <feGaussianBlur stdDeviation="4" result="b"/>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="metric card icon">
-  <title>Icon Metric Card</title>
-  <desc>An animated README SVG asset illustrating Icon Metric Card.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="metric card icon" aria-labelledby="icon_metric_card-title icon_metric_card-desc">
+  <title id="icon_metric_card-title">Icon Metric Card</title>
+  <desc id="icon_metric_card-desc">An animated README SVG asset illustrating Icon Metric Card.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#38bdf8"/>

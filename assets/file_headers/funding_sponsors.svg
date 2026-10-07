@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Funding file header">
-  <title>Funding Sponsors</title>
-  <desc>An animated README SVG asset illustrating Funding Sponsors.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" width="850" height="90" role="img" aria-label="Funding file header" aria-labelledby="funding_sponsors-title funding_sponsors-desc">
+  <title id="funding_sponsors-title">Funding Sponsors</title>
+  <desc id="funding_sponsors-desc">An animated README SVG asset illustrating Funding Sponsors.</desc>
   <defs>
     <linearGradient id="fund-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#fb7185"/>

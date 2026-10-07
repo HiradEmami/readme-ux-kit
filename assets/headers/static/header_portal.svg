@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
-  <title>Header Portal</title>
-  <desc>An animated README SVG asset illustrating Header Portal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-labelledby="header_portal-title header_portal-desc">
+  <title id="header_portal-title">Header Portal</title>
+  <desc id="header_portal-desc">An animated README SVG asset illustrating Header Portal.</desc>
   <defs>
     <radialGradient id="p" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff"/>
