@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Star</title>
-  <desc>An animated README SVG asset illustrating Icon Star.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_star-title icon_star-desc">
+  <title id="icon_star-title">Icon Star</title>
+  <desc id="icon_star-desc">An animated README SVG asset illustrating Icon Star.</desc>
   <polygon points="60,20 70,50 100,50 75,70 85,100 60,80 35,100 45,70 20,50 50,50"
     fill="#facc15">
     <animateTransform attributeName="transform" type="scale"

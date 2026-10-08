@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" shape-rendering="crispEdges" role="img">
-  <title>Icon Retro Pixel Star</title>
-  <desc>An animated README SVG asset illustrating Icon Retro Pixel Star.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" shape-rendering="crispEdges" role="img" aria-labelledby="icon_retro_pixel_star-title icon_retro_pixel_star-desc">
+  <title id="icon_retro_pixel_star-title">Icon Retro Pixel Star</title>
+  <desc id="icon_retro_pixel_star-desc">An animated README SVG asset illustrating Icon Retro Pixel Star.</desc>
   <g fill="#facc15">
     <rect x="56" y="24" width="8" height="8"/>
     <rect x="56" y="40" width="8" height="8"/>

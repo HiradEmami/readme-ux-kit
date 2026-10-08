@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Brain Activity</title>
-  <desc>An animated README SVG asset illustrating Icon Brain Activity.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="Icon_brain_activity-title Icon_brain_activity-desc">
+  <title id="Icon_brain_activity-title">Icon Brain Activity</title>
+  <desc id="Icon_brain_activity-desc">An animated README SVG asset illustrating Icon Brain Activity.</desc>
   <path d="M60 30 C30 30 30 90 60 90 C90 90 90 30 60 30" fill="#1e293b" stroke="#22d3ee"/>
   <polyline points="30,60 45,60 50,45 60,75 70,40 80,60 90,60"
     fill="none" stroke="#22d3ee" stroke-width="2">

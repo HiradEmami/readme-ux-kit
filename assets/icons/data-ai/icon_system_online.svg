@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" role="img">
-  <title>Icon System Online</title>
-  <desc>An animated README SVG asset illustrating Icon System Online.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" role="img" aria-labelledby="icon_system_online-title icon_system_online-desc">
+  <title id="icon_system_online-title">Icon System Online</title>
+  <desc id="icon_system_online-desc">An animated README SVG asset illustrating Icon System Online.</desc>
   <circle cx="30" cy="30" r="6" fill="#22c55e">
     <animate attributeName="r" values="6;10;6" dur="1.2s" repeatCount="indefinite"/>
   </circle>

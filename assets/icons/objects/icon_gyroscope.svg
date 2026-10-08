@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Gyroscope</title>
-  <desc>An animated README SVG asset illustrating Icon Gyroscope.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_gyroscope-title icon_gyroscope-desc">
+  <title id="icon_gyroscope-title">Icon Gyroscope</title>
+  <desc id="icon_gyroscope-desc">An animated README SVG asset illustrating Icon Gyroscope.</desc>
   <g fill="none" stroke-width="2">
     <ellipse cx="60" cy="60" rx="42" ry="16" stroke="#22d3ee">
       <animateTransform attributeName="transform" type="rotate"

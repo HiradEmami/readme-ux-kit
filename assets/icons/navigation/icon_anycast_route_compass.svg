@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="icon_anycast_route_compassTitle icon_anycast_route_compassDesc">
+  <title id="icon_anycast_route_compassTitle">Anycast Route Compass</title>
+  <desc id="icon_anycast_route_compassDesc">Animated navigation icon for Anycast Route Compass.</desc>
+  <g id="icon_anycast_route_compassBase" data-edit-id="base" data-edit-label="Icon tile background" data-edit-lock="true"><rect x="4" y="4" width="112" height="112" rx="24" fill="#070c1b"/><rect x="10" y="10" width="100" height="100" rx="20" fill="#111936" stroke="#60a5fa" stroke-width="1.8"/></g>
+  <g id="icon_anycast_route_compassGlyph" data-edit-id="glyph" data-edit-label="Animated icon glyph"><path d="M28 54H46L54 32L66 74L74 54H92" fill="none" stroke="#60a5fa" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 8"><animate id="icon_anycast_route_compassWave" attributeName="stroke-dashoffset" values="40;0" dur="4s" repeatCount="indefinite"/></path><circle cx="60" cy="28" r="5" fill="#93c5fd"/></g>
+  <g id="icon_anycast_route_compassBadge" data-edit-id="badge" data-edit-label="Icon micro label"><rect x="26" y="88" width="68" height="18" rx="6" fill="#070c1b"/><text id="icon_anycast_route_compassTag" data-edit-id="tag" data-edit-label="Icon tag" x="60" y="101" text-anchor="middle" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="9.5" font-weight="750" letter-spacing="0.8" fill="#f8fafc">ROUTE</text></g>
+</svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Terminal</title>
-  <desc>An animated README SVG asset illustrating Icon Terminal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_terminal-title icon_terminal-desc">
+  <title id="icon_terminal-title">Icon Terminal</title>
+  <desc id="icon_terminal-desc">An animated README SVG asset illustrating Icon Terminal.</desc>
   <rect x="3" y="5" width="18" height="14" rx="2" stroke="#22d3ee" stroke-width="2"/>
   <path d="M7 9L10 12L7 15" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M12.5 15H16.5" stroke="#22d3ee" stroke-width="2" stroke-linecap="round">

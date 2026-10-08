@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="60" height="40" role="img">
-  <title>Icon Signal Strength</title>
-  <desc>An animated README SVG asset illustrating Icon Signal Strength.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="60" height="40" role="img" aria-labelledby="icon_signal_strength-title icon_signal_strength-desc">
+  <title id="icon_signal_strength-title">Icon Signal Strength</title>
+  <desc id="icon_signal_strength-desc">An animated README SVG asset illustrating Icon Signal Strength.</desc>
   <rect x="5" y="20" width="6" height="15" fill="#22d3ee"/>
   <rect x="15" y="15" width="6" height="20" fill="#8b5cf6"/>
   <rect x="25" y="10" width="6" height="25" fill="#22d3ee"/>

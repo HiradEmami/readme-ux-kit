@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img">
-  <title>Icon Rotating Hex</title>
-  <desc>An animated README SVG asset illustrating Icon Rotating Hex.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="icon_rotating_hex-title icon_rotating_hex-desc">
+  <title id="icon_rotating_hex-title">Icon Rotating Hex</title>
+  <desc id="icon_rotating_hex-desc">An animated README SVG asset illustrating Icon Rotating Hex.</desc>
   <polygon points="40,10 65,25 65,55 40,70 15,55 15,25"
     fill="none" stroke="#22d3ee">
     <animateTransform attributeName="transform" type="rotate"

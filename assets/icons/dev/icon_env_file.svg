@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="env file icon">
-  <title>Icon Env File</title>
-  <desc>An animated README SVG asset illustrating Icon Env File.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="env file icon" aria-labelledby="icon_env_file-title icon_env_file-desc">
+  <title id="icon_env_file-title">Icon Env File</title>
+  <desc id="icon_env_file-desc">An animated README SVG asset illustrating Icon Env File.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#60a5fa"/>

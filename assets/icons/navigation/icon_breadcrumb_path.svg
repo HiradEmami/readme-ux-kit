@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="breadcrumb path icon">
-  <title>Icon Breadcrumb Path</title>
-  <desc>An animated README SVG asset illustrating Icon Breadcrumb Path.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="breadcrumb path icon" aria-labelledby="icon_breadcrumb_path-title icon_breadcrumb_path-desc">
+  <title id="icon_breadcrumb_path-title">Icon Breadcrumb Path</title>
+  <desc id="icon_breadcrumb_path-desc">An animated README SVG asset illustrating Icon Breadcrumb Path.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#38bdf8"/>

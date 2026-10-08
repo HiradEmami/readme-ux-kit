@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
-  <title>Icon Tip</title>
-  <desc>A static README SVG asset illustrating Icon Tip.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img" aria-labelledby="icon_tip-title icon_tip-desc">
+  <title id="icon_tip-title">Icon Tip</title>
+  <desc id="icon_tip-desc">A static README SVG asset illustrating Icon Tip.</desc>
   <circle cx="30" cy="30" r="10" fill="#facc15"/>
 
   <path d="M30 20 L33 30 L27 30 Z" fill="white"/>

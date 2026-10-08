@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" role="img">
-  <title>Icon Commit Dot Pulse</title>
-  <desc>An animated README SVG asset illustrating Icon Commit Dot Pulse.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" role="img" aria-labelledby="icon_commit_dot_pulse-title icon_commit_dot_pulse-desc">
+  <title id="icon_commit_dot_pulse-title">Icon Commit Dot Pulse</title>
+  <desc id="icon_commit_dot_pulse-desc">An animated README SVG asset illustrating Icon Commit Dot Pulse.</desc>
   <circle cx="12" cy="12" r="4" fill="#8b5cf6"/>
   <circle cx="12" cy="12" r="4" stroke="#22d3ee">
     <animate attributeName="r" values="4;8" dur="1.2s" repeatCount="indefinite"/>

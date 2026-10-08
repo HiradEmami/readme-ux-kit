@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Pendulum Orb</title>
-  <desc>An animated README SVG asset illustrating Icon Pendulum Orb.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_pendulum_orb-title icon_pendulum_orb-desc">
+  <title id="icon_pendulum_orb-title">Icon Pendulum Orb</title>
+  <desc id="icon_pendulum_orb-desc">An animated README SVG asset illustrating Icon Pendulum Orb.</desc>
   <line x1="60" y1="15" x2="60" y2="65" stroke="#94a3b8" stroke-width="2"/>
   <g>
     <circle cx="60" cy="65" r="10" fill="#22d3ee"/>

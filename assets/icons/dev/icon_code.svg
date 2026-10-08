@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Code</title>
-  <desc>A static README SVG asset illustrating Icon Code.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_code-title icon_code-desc">
+  <title id="icon_code-title">Icon Code</title>
+  <desc id="icon_code-desc">A static README SVG asset illustrating Icon Code.</desc>
   <polyline points="40,30 20,60 40,90" stroke="#22d3ee" fill="none"/>
   <polyline points="80,30 100,60 80,90" stroke="#22d3ee" fill="none"/>
 </svg>

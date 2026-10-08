@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" role="img">
-  <title>Icon Data Pipeline</title>
-  <desc>An animated README SVG asset illustrating Icon Data Pipeline.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" role="img" aria-labelledby="icon_data_pipeline-title icon_data_pipeline-desc">
+  <title id="icon_data_pipeline-title">Icon Data Pipeline</title>
+  <desc id="icon_data_pipeline-desc">An animated README SVG asset illustrating Icon Data Pipeline.</desc>
   <rect x="0" y="15" width="120" height="10" fill="#1e293b"/>
   <rect x="0" y="15" width="10" height="10" fill="#22d3ee">
     <animate attributeName="x" values="0;110" dur="1.5s" repeatCount="indefinite"/>

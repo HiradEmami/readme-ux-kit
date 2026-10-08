@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Rotating Data Cube</title>
-  <desc>An animated README SVG asset illustrating Icon Rotating Data Cube.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_rotating_data_cube-title icon_rotating_data_cube-desc">
+  <title id="icon_rotating_data_cube-title">Icon Rotating Data Cube</title>
+  <desc id="icon_rotating_data_cube-desc">An animated README SVG asset illustrating Icon Rotating Data Cube.</desc>
   <rect x="40" y="40" width="40" height="40" fill="none" stroke="#22d3ee"/>
   <rect x="30" y="30" width="40" height="40" fill="none" stroke="#a855f7" opacity="0.5">
     <animateTransform attributeName="transform" type="rotate"

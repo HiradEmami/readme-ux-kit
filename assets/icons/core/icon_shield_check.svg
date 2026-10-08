@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Shield Check</title>
-  <desc>An animated README SVG asset illustrating Icon Shield Check.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_shield_check-title icon_shield_check-desc">
+  <title id="icon_shield_check-title">Icon Shield Check</title>
+  <desc id="icon_shield_check-desc">An animated README SVG asset illustrating Icon Shield Check.</desc>
   <path d="M12 3L20 7V12C20 17 12 21 12 21C12 21 4 17 4 12V7Z"
         stroke="#22d3ee" stroke-width="2"/>
   <path d="M9 12L11 14L15 10" stroke="#22c55e" stroke-width="2">

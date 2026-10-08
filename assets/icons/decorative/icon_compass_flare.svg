@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Compass Flare</title>
-  <desc>An animated README SVG asset illustrating Icon Compass Flare.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_compass_flare-title icon_compass_flare-desc">
+  <title id="icon_compass_flare-title">Icon Compass Flare</title>
+  <desc id="icon_compass_flare-desc">An animated README SVG asset illustrating Icon Compass Flare.</desc>
   <circle cx="60" cy="60" r="36" fill="none" stroke="#334155" stroke-width="2"/>
   <polygon points="60,22 70,60 60,52 50,60" fill="#22d3ee">
     <animateTransform attributeName="transform" type="rotate"

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Download Cloud</title>
-  <desc>An animated README SVG asset illustrating Icon Download Cloud.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_download_cloud-title icon_download_cloud-desc">
+  <title id="icon_download_cloud-title">Icon Download Cloud</title>
+  <desc id="icon_download_cloud-desc">An animated README SVG asset illustrating Icon Download Cloud.</desc>
   <path d="M20 17H6A4 4 0 1 1 7 9A5 5 0 0 1 19 11"
         stroke="#22d3ee" stroke-width="2"/>
   <path d="M12 18V12M9 15L12 18L15 15"

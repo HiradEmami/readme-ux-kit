@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img">
-  <title>Icon Ripple Circle</title>
-  <desc>An animated README SVG asset illustrating Icon Ripple Circle.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="icon_ripple_circle-title icon_ripple_circle-desc">
+  <title id="icon_ripple_circle-title">Icon Ripple Circle</title>
+  <desc id="icon_ripple_circle-desc">An animated README SVG asset illustrating Icon Ripple Circle.</desc>
 <circle cx="40" cy="40" r="5" stroke="#22d3ee" fill="none">
 <animate attributeName="r" values="5;35" dur="1.5s" repeatCount="indefinite"/>
 </circle>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Lightning Charge</title>
-  <desc>An animated README SVG asset illustrating Icon Lightning Charge.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_lightning_charge-title icon_lightning_charge-desc">
+  <title id="icon_lightning_charge-title">Icon Lightning Charge</title>
+  <desc id="icon_lightning_charge-desc">An animated README SVG asset illustrating Icon Lightning Charge.</desc>
   <polygon points="13 2 3 14 12 14 11 22 21 10 12 10"
     fill="#facc15">
     <animate attributeName="opacity" values="1;0.5;1" dur="0.6s" repeatCount="indefinite"/>

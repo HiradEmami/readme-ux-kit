@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Energy Portal</title>
-  <desc>An animated README SVG asset illustrating Icon Energy Portal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_energy_portal-title icon_energy_portal-desc">
+  <title id="icon_energy_portal-title">Icon Energy Portal</title>
+  <desc id="icon_energy_portal-desc">An animated README SVG asset illustrating Icon Energy Portal.</desc>
   <circle cx="60" cy="60" r="10" fill="#22d3ee"/>
   <circle cx="60" cy="60" r="30" fill="none" stroke="#a855f7" stroke-width="2">
     <animate attributeName="r" values="30;45;30" dur="2s" repeatCount="indefinite"/>

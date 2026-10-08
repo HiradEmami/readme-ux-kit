@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Magical Rune Seal</title>
-  <desc>An animated README SVG asset illustrating Icon Magical Rune Seal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_magical_rune_seal-title icon_magical_rune_seal-desc">
+  <title id="icon_magical_rune_seal-title">Icon Magical Rune Seal</title>
+  <desc id="icon_magical_rune_seal-desc">An animated README SVG asset illustrating Icon Magical Rune Seal.</desc>
   <circle cx="60" cy="60" r="36" fill="none" stroke="#a78bfa" stroke-width="2" stroke-dasharray="5 5"/>
   <polygon points="60,28 88,44 88,76 60,92 32,76 32,44" fill="none" stroke="#f472b6" stroke-width="2"/>
   <circle cx="60" cy="60" r="6" fill="#f8fafc">

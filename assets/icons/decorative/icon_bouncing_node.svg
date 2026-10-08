@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img">
-  <title>Icon Bouncing Node</title>
-  <desc>An animated README SVG asset illustrating Icon Bouncing Node.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="icon_bouncing_node-title icon_bouncing_node-desc">
+  <title id="icon_bouncing_node-title">Icon Bouncing Node</title>
+  <desc id="icon_bouncing_node-desc">An animated README SVG asset illustrating Icon Bouncing Node.</desc>
   <circle cx="40" cy="60" r="6" fill="#22d3ee">
     <animate attributeName="cy" values="60;20;60" dur="1s" repeatCount="indefinite"/>
   </circle>

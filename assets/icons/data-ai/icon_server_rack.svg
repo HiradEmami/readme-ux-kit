@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Server Rack</title>
-  <desc>An animated README SVG asset illustrating Icon Server Rack.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_server_rack-title icon_server_rack-desc">
+  <title id="icon_server_rack-title">Icon Server Rack</title>
+  <desc id="icon_server_rack-desc">An animated README SVG asset illustrating Icon Server Rack.</desc>
   <rect x="30" y="20" width="60" height="80" rx="6" fill="#020617" stroke="#334155"/>
 
   <circle cx="45" cy="40" r="3" fill="#22c55e">

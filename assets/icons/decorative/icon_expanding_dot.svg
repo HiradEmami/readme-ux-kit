@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img">
-  <title>Icon Expanding Dot</title>
-  <desc>An animated README SVG asset illustrating Icon Expanding Dot.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-labelledby="icon_expanding_dot-title icon_expanding_dot-desc">
+  <title id="icon_expanding_dot-title">Icon Expanding Dot</title>
+  <desc id="icon_expanding_dot-desc">An animated README SVG asset illustrating Icon Expanding Dot.</desc>
 <circle cx="20" cy="20" r="3" fill="#550685">
 <animate attributeName="r" values="3;10;3" dur="1s" repeatCount="indefinite"/>
 </circle>

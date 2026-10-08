@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Eclipse Orbit</title>
-  <desc>An animated README SVG asset illustrating Icon Eclipse Orbit.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_eclipse_orbit-title icon_eclipse_orbit-desc">
+  <title id="icon_eclipse_orbit-title">Icon Eclipse Orbit</title>
+  <desc id="icon_eclipse_orbit-desc">An animated README SVG asset illustrating Icon Eclipse Orbit.</desc>
   <circle cx="60" cy="60" r="26" fill="#f59e0b"/>
   <circle cx="48" cy="60" r="26" fill="#020617">
     <animate attributeName="cx" values="38;72;38" dur="3s" repeatCount="indefinite"/>

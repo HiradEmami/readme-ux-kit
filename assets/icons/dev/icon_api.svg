@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon API</title>
-  <desc>A static README SVG asset illustrating Icon API.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_api-title icon_api-desc">
+  <title id="icon_api-title">Icon API</title>
+  <desc id="icon_api-desc">A static README SVG asset illustrating Icon API.</desc>
   <circle cx="60" cy="30" r="6" fill="#22d3ee"/>
   <circle cx="30" cy="80" r="6" fill="#94a3b8"/>
   <circle cx="90" cy="80" r="6" fill="#94a3b8"/>
