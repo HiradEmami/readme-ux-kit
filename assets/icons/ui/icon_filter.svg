@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Filter</title>
-  <desc>A static README SVG asset illustrating Icon Filter.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_filter-title icon_filter-desc">
+  <title id="icon_filter-title">Icon Filter</title>
+  <desc id="icon_filter-desc">A static README SVG asset illustrating Icon Filter.</desc>
   <path d="M3 5H21L14 13V19L10 21V13Z"
         stroke="#22d3ee" stroke-width="2"/>
 </svg>

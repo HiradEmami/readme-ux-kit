@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 20" width="80" height="20" role="img">
-  <title>Icon Live</title>
-  <desc>An animated README SVG asset illustrating Icon Live.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 20" width="80" height="20" role="img" aria-labelledby="icon_live-title icon_live-desc">
+  <title id="icon_live-title">Icon Live</title>
+  <desc id="icon_live-desc">An animated README SVG asset illustrating Icon Live.</desc>
   <circle cx="10" cy="10" r="5" fill="#22c55e"/>
   <circle cx="10" cy="10" r="5" stroke="#22c55e">
     <animate attributeName="r" values="5;10" dur="1.2s" repeatCount="indefinite"/>

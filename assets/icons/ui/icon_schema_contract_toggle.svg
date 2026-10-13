@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="icon_schema_contract_toggleTitle icon_schema_contract_toggleDesc">
+  <title id="icon_schema_contract_toggleTitle">Schema Contract Toggle</title>
+  <desc id="icon_schema_contract_toggleDesc">Animated ui icon for Schema Contract Toggle.</desc>
+  <g id="icon_schema_contract_toggleBase" data-edit-id="base" data-edit-label="Icon tile background" data-edit-lock="true"><rect x="4" y="4" width="112" height="112" rx="24" fill="#07101e"/><rect x="10" y="10" width="100" height="100" rx="20" fill="#0f1d33" stroke="#38bdf8" stroke-width="1.8"/></g>
+  <g id="icon_schema_contract_toggleGlyph" data-edit-id="glyph" data-edit-label="Animated icon glyph"><polygon points="60,20 90,37 90,71 60,88 30,71 30,37" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linejoin="round"/><circle cx="60" cy="54" r="11" fill="#22d3ee"><animate id="icon_schema_contract_togglePulse" attributeName="r" values="8;14;8" dur="4s" repeatCount="indefinite"/></circle></g>
+  <g id="icon_schema_contract_toggleBadge" data-edit-id="badge" data-edit-label="Icon micro label"><rect x="26" y="88" width="68" height="18" rx="6" fill="#07101e"/><text id="icon_schema_contract_toggleTag" data-edit-id="tag" data-edit-label="Icon tag" x="60" y="101" text-anchor="middle" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="9.5" font-weight="750" letter-spacing="0.8" fill="#f8fafc">SCHEMA</text></g>
+</svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Warning Triangle</title>
-  <desc>An animated README SVG asset illustrating Icon Warning Triangle.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_warning_triangle-title icon_warning_triangle-desc">
+  <title id="icon_warning_triangle-title">Icon Warning Triangle</title>
+  <desc id="icon_warning_triangle-desc">An animated README SVG asset illustrating Icon Warning Triangle.</desc>
   <path d="M12 4L21 19H3L12 4Z" fill="#facc15"/>
   <path d="M12 9V13" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
   <circle cx="12" cy="16.5" r="1.2" fill="#111827">

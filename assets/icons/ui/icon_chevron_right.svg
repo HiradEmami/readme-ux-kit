@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Chevron Right</title>
-  <desc>An animated README SVG asset illustrating Icon Chevron Right.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_chevron_right-title icon_chevron_right-desc">
+  <title id="icon_chevron_right-title">Icon Chevron Right</title>
+  <desc id="icon_chevron_right-desc">An animated README SVG asset illustrating Icon Chevron Right.</desc>
   <path d="M9 6L15 12L9 18"
         stroke="#8b5cf6"
         stroke-width="2.2"

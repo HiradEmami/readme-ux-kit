@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
-  <title>Icon Success</title>
-  <desc>An animated README SVG asset illustrating Icon Success.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img" aria-labelledby="icon_success-title icon_success-desc">
+  <title id="icon_success-title">Icon Success</title>
+  <desc id="icon_success-desc">An animated README SVG asset illustrating Icon Success.</desc>
   <circle cx="30" cy="30" r="10" fill="#22c55e"/>
 
   <polyline points="24,30 28,34 36,26"

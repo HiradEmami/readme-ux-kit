@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
-  <title>Icon Deprecated</title>
-  <desc>An animated README SVG asset illustrating Icon Deprecated.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img" aria-labelledby="icon_deprecated-title icon_deprecated-desc">
+  <title id="icon_deprecated-title">Icon Deprecated</title>
+  <desc id="icon_deprecated-desc">An animated README SVG asset illustrating Icon Deprecated.</desc>
   <circle cx="30" cy="30" r="10" fill="#64748b">
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </circle>

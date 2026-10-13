@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Icon Industrial Fan</title>
-  <desc>An animated README SVG asset illustrating Icon Industrial Fan.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="icon_industrial_fan-title icon_industrial_fan-desc">
+  <title id="icon_industrial_fan-title">Icon Industrial Fan</title>
+  <desc id="icon_industrial_fan-desc">An animated README SVG asset illustrating Icon Industrial Fan.</desc>
   <circle cx="60" cy="60" r="8" fill="#64748b"/>
   <g fill="#94a3b8">
     <path d="M60 20 Q78 34 68 52 Q56 46 60 20"/>

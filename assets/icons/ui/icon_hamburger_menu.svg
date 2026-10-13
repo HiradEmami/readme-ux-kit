@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
-  <title>Icon Hamburger Menu</title>
-  <desc>An animated README SVG asset illustrating Icon Hamburger Menu.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img" aria-labelledby="icon_hamburger_menu-title icon_hamburger_menu-desc">
+  <title id="icon_hamburger_menu-title">Icon Hamburger Menu</title>
+  <desc id="icon_hamburger_menu-desc">An animated README SVG asset illustrating Icon Hamburger Menu.</desc>
   <line x1="4" y1="7" x2="20" y2="7" stroke="#22d3ee" stroke-width="2"/>
   <line x1="4" y1="12" x2="20" y2="12" stroke="#8b5cf6" stroke-width="2">
     <animate attributeName="x2" values="20;16;20" dur="1s" repeatCount="indefinite"/>
