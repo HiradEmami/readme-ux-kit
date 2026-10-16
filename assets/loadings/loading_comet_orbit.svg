@@ -1,6 +1,6 @@
-<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
-  <title>Loading Comet Orbit</title>
-  <desc>An animated README SVG asset illustrating Loading Comet Orbit.</desc>
+<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-labelledby="loading_comet_orbit-title loading_comet_orbit-desc">
+  <title id="loading_comet_orbit-title">Loading Comet Orbit</title>
+  <desc id="loading_comet_orbit-desc">An animated README SVG asset illustrating Loading Comet Orbit.</desc>
   <defs>
     <radialGradient id="comet" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#FFFFFF"/>

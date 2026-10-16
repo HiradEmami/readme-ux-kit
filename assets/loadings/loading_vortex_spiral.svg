@@ -1,6 +1,6 @@
-<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
-  <title>Loading Vortex Spiral</title>
-  <desc>An animated README SVG asset illustrating Loading Vortex Spiral.</desc>
+<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-labelledby="loading_vortex_spiral-title loading_vortex_spiral-desc">
+  <title id="loading_vortex_spiral-title">Loading Vortex Spiral</title>
+  <desc id="loading_vortex_spiral-desc">An animated README SVG asset illustrating Loading Vortex Spiral.</desc>
   <defs>
     <linearGradient id="vortex" x1="28" y1="26" x2="102" y2="104">
       <stop offset="0%" stop-color="#22D3EE"/>

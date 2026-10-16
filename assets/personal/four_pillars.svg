@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" style="background:#020617" role="img">
-  <title>Four Pillars</title>
-  <desc>A static README SVG asset illustrating Four Pillars.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" style="background:#020617" role="img" aria-labelledby="four_pillars-title four_pillars-desc">
+  <title id="four_pillars-title">Four Pillars</title>
+  <desc id="four_pillars-desc">A static README SVG asset illustrating Four Pillars.</desc>
 
   <defs>
     <linearGradient id="grad">

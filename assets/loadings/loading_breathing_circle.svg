@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
-  <title>Loading Breathing Circle</title>
-  <desc>An animated README SVG asset illustrating Loading Breathing Circle.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-labelledby="loading_breathing_circle-title loading_breathing_circle-desc">
+  <title id="loading_breathing_circle-title">Loading Breathing Circle</title>
+  <desc id="loading_breathing_circle-desc">An animated README SVG asset illustrating Loading Breathing Circle.</desc>
   <circle cx="40" cy="40" r="20" fill="none" stroke="#22d3ee" stroke-width="3">
     <animate attributeName="stroke-width" values="3;8;3" dur="1.5s" repeatCount="indefinite"/>
   </circle>

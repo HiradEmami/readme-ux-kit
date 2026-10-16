@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
-  <title>Loading Expanding Ripple</title>
-  <desc>An animated README SVG asset illustrating Loading Expanding Ripple.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-labelledby="loading_expanding_ripple-title loading_expanding_ripple-desc">
+  <title id="loading_expanding_ripple-title">Loading Expanding Ripple</title>
+  <desc id="loading_expanding_ripple-desc">An animated README SVG asset illustrating Loading Expanding Ripple.</desc>
   <circle cx="40" cy="40" r="6" fill="#22d3ee"/>
   <circle cx="40" cy="40" r="6" fill="none" stroke="#22d3ee" stroke-width="3">
     <animate attributeName="r" values="6;28" dur="1.5s" repeatCount="indefinite"/>

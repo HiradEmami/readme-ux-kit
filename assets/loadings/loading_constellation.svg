@@ -1,6 +1,6 @@
-<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Loading Constellation</title>
-  <desc>An animated README SVG asset illustrating Loading Constellation.</desc>
+<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="loading_constellation-title loading_constellation-desc">
+  <title id="loading_constellation-title">Loading Constellation</title>
+  <desc id="loading_constellation-desc">An animated README SVG asset illustrating Loading Constellation.</desc>
   <g fill="none" stroke="#334155" stroke-width="2" opacity="0.45">
     <line x1="70" y1="20" x2="110" y2="45"/>
     <line x1="110" y1="45" x2="95" y2="100"/>

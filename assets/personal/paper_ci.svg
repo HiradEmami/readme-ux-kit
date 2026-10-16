@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img">
-  <title>Paper CI</title>
-  <desc>An animated README SVG asset illustrating Paper CI.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="paper_ci-title paper_ci-desc">
+  <title id="paper_ci-title">Paper CI</title>
+  <desc id="paper_ci-desc">An animated README SVG asset illustrating Paper CI.</desc>
   <defs>
     <filter id="drawioGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="blur"/>

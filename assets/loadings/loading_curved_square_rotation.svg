@@ -1,6 +1,6 @@
-<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Loading Curved Square Rotation</title>
-  <desc>An animated README SVG asset illustrating Loading Curved Square Rotation.</desc>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="loading_curved_square_rotation-title loading_curved_square_rotation-desc">
+  <title id="loading_curved_square_rotation-title">Loading Curved Square Rotation</title>
+  <desc id="loading_curved_square_rotation-desc">An animated README SVG asset illustrating Loading Curved Square Rotation.</desc>
   <rect x="30" y="30" width="40" height="40" rx="8" fill="#F59E0B" transform="rotate(45 50 50)">
     <animateTransform attributeName="transform" type="rotate"
       values="45 50 50;225 50 50;405 50 50" dur="1.4s" repeatCount="indefinite"/>

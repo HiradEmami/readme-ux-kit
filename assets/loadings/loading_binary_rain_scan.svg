@@ -1,6 +1,6 @@
-<svg width="180" height="72" viewBox="0 0 180 72" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Loading Binary Rain Scan</title>
-  <desc>An animated README SVG asset illustrating Loading Binary Rain Scan.</desc>
+<svg width="180" height="72" viewBox="0 0 180 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="loading_binary_rain_scan-title loading_binary_rain_scan-desc">
+  <title id="loading_binary_rain_scan-title">Loading Binary Rain Scan</title>
+  <desc id="loading_binary_rain_scan-desc">An animated README SVG asset illustrating Loading Binary Rain Scan.</desc>
   <rect x="10" y="10" width="160" height="52" rx="14" fill="#020617"/>
   <g font-family="Consolas, monospace" font-size="10" fill="#22C55E" opacity=".72">
     <text x="24" y="25">01</text><text x="55" y="25">10</text><text x="88" y="25">11</text><text x="121" y="25">00</text>

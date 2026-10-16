@@ -1,6 +1,6 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
-  <title>Loading Arc Cheese</title>
-  <desc>An animated README SVG asset illustrating Loading Arc Cheese.</desc>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-labelledby="loading_arc_cheese-title loading_arc_cheese-desc">
+  <title id="loading_arc_cheese-title">Loading Arc Cheese</title>
+  <desc id="loading_arc_cheese-desc">An animated README SVG asset illustrating Loading Arc Cheese.</desc>
   <circle cx="60" cy="60" r="30" stroke="#1E293B" stroke-width="10"/>
   <path d="M60 30 A30 30 0 0 1 90 60" stroke="#FB7185" stroke-width="10" stroke-linecap="round">
     <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="1s" repeatCount="indefinite"/>

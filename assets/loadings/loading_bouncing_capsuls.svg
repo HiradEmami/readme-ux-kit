@@ -1,6 +1,6 @@
-<svg width="160" height="60" viewBox="0 0 160 60" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Loading Bouncing Capsuls</title>
-  <desc>An animated README SVG asset illustrating Loading Bouncing Capsuls.</desc>
+<svg width="160" height="60" viewBox="0 0 160 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="loading_bouncing_capsuls-title loading_bouncing_capsuls-desc">
+  <title id="loading_bouncing_capsuls-title">Loading Bouncing Capsuls</title>
+  <desc id="loading_bouncing_capsuls-desc">An animated README SVG asset illustrating Loading Bouncing Capsuls.</desc>
   <rect x="10" y="22" width="24" height="16" rx="8" fill="#06B6D4">
     <animate attributeName="y" values="22;10;22" dur="0.9s" repeatCount="indefinite"/>
   </rect>

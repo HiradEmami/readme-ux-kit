@@ -1,6 +1,6 @@
-<svg width="160" height="80" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
-  <title>Loading AI Thought Pulse</title>
-  <desc>An animated README SVG asset illustrating Loading AI Thought Pulse.</desc>
+<svg width="160" height="80" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-labelledby="loading_ai_thought_pulse-title loading_ai_thought_pulse-desc">
+  <title id="loading_ai_thought_pulse-title">Loading AI Thought Pulse</title>
+  <desc id="loading_ai_thought_pulse-desc">An animated README SVG asset illustrating Loading AI Thought Pulse.</desc>
   <defs>
     <linearGradient id="thought" x1="28" y1="12" x2="132" y2="68">
       <stop offset="0%" stop-color="#22D3EE"/>

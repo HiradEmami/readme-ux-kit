@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
-  <title>Loading Classic Spinner</title>
-  <desc>An animated README SVG asset illustrating Loading Classic Spinner.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img" aria-labelledby="loading_classic_spinner-title loading_classic_spinner-desc">
+  <title id="loading_classic_spinner-title">Loading Classic Spinner</title>
+  <desc id="loading_classic_spinner-desc">An animated README SVG asset illustrating Loading Classic Spinner.</desc>
   <circle cx="40" cy="40" r="24" fill="none" stroke="#334155" stroke-width="6"/>
   <path d="M40 16 A24 24 0 0 1 64 40" fill="none" stroke="#22d3ee" stroke-width="6" stroke-linecap="round">
     <animateTransform attributeName="transform"
