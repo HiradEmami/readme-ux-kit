@@ -10,23 +10,27 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `status`
-- Asset count: 21
+- Asset count: 26
 - Best for: Status and alert icons for success, warning, danger, info, live, and deprecated states.
 - Group tags: `status`
 
 ## Compact index
 
-Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1)
+Top tags: `animated` (26), `icon` (26), `motion` (26), `status` (26), `architecture` (1), `build` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
+| `icon_canary_soak_verifying` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-canary-soak-verifying) | [Source](../../../assets/icons/status/icon_canary_soak_verifying.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_canary_soak_verifying.svg) |
 | `icon_check_circle` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-check-circle) | [Source](../../../assets/icons/status/icon_check_circle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_check_circle.svg) |
+| `icon_circuit_breaker_tripped` | Animated | `animated`, `architecture`, `icon`, `motion`, `status` | [Jump](#icon-circuit-breaker-tripped) | [Source](../../../assets/icons/status/icon_circuit_breaker_tripped.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_circuit_breaker_tripped.svg) |
 | `icon_danger` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-danger) | [Source](../../../assets/icons/status/icon_danger.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_danger.svg) |
 | `icon_deprecated` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-deprecated) | [Source](../../../assets/icons/status/icon_deprecated.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_deprecated.svg) |
 | `icon_info` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-info) | [Source](../../../assets/icons/status/icon_info.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_info.svg) |
 | `icon_info_circle` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-info-circle) | [Source](../../../assets/icons/status/icon_info_circle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_info_circle.svg) |
 | `icon_live` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-live) | [Source](../../../assets/icons/status/icon_live.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_live.svg) |
 | `icon_notice` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-notice) | [Source](../../../assets/icons/status/icon_notice.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_notice.svg) |
+| `icon_quorum_lease_active` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-quorum-lease-active) | [Source](../../../assets/icons/status/icon_quorum_lease_active.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_quorum_lease_active.svg) |
+| `icon_slo_budget_healthy` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-slo-budget-healthy) | [Source](../../../assets/icons/status/icon_slo_budget_healthy.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_slo_budget_healthy.svg) |
 | `icon_status_archived` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-status-archived) | [Source](../../../assets/icons/status/icon_status_archived.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_archived.svg) |
 | `icon_status_blocked` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-status-blocked) | [Source](../../../assets/icons/status/icon_status_blocked.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_blocked.svg) |
 | `icon_status_experimental` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-status-experimental) | [Source](../../../assets/icons/status/icon_status_experimental.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_status_experimental.svg) |
@@ -41,8 +45,45 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 | `icon_warning` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-warning) | [Source](../../../assets/icons/status/icon_warning.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_warning.svg) |
 | `icon_warning_triangle` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-warning-triangle) | [Source](../../../assets/icons/status/icon_warning_triangle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_warning_triangle.svg) |
 | `icon_x_circle` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-x-circle) | [Source](../../../assets/icons/status/icon_x_circle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_x_circle.svg) |
+| `icon_zero_trust_attested` | Animated | `animated`, `icon`, `motion`, `status` | [Jump](#icon-zero-trust-attested) | [Source](../../../assets/icons/status/icon_zero_trust_attested.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_zero_trust_attested.svg) |
 
 ## Visual previews
+
+<a id="icon-canary-soak-verifying"></a>
+
+## icon_canary_soak_verifying
+
+[![icon_canary_soak_verifying](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_canary_soak_verifying.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_canary_soak_verifying](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_canary_soak_verifying.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_canary_soak_verifying.svg" alt="icon_canary_soak_verifying" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `status`
+- Anchor: `#icon-canary-soak-verifying`
+- [Source file](../../../assets/icons/status/icon_canary_soak_verifying.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_canary_soak_verifying.svg)
 
 <a id="icon-check-circle"></a>
 
@@ -79,6 +120,42 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-check-circle`
 - [Source file](../../../assets/icons/status/icon_check_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_check_circle.svg)
+
+<a id="icon-circuit-breaker-tripped"></a>
+
+## icon_circuit_breaker_tripped
+
+[![icon_circuit_breaker_tripped](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_circuit_breaker_tripped.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_circuit_breaker_tripped](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_circuit_breaker_tripped.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_circuit_breaker_tripped.svg" alt="icon_circuit_breaker_tripped" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `icon`, `motion`, `status`
+- Anchor: `#icon-circuit-breaker-tripped`
+- [Source file](../../../assets/icons/status/icon_circuit_breaker_tripped.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_circuit_breaker_tripped.svg)
 
 <a id="icon-danger"></a>
 
@@ -295,6 +372,78 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-notice`
 - [Source file](../../../assets/icons/status/icon_notice.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_notice.svg)
+
+<a id="icon-quorum-lease-active"></a>
+
+## icon_quorum_lease_active
+
+[![icon_quorum_lease_active](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_quorum_lease_active.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_quorum_lease_active](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_quorum_lease_active.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_quorum_lease_active.svg" alt="icon_quorum_lease_active" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `status`
+- Anchor: `#icon-quorum-lease-active`
+- [Source file](../../../assets/icons/status/icon_quorum_lease_active.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_quorum_lease_active.svg)
+
+<a id="icon-slo-budget-healthy"></a>
+
+## icon_slo_budget_healthy
+
+[![icon_slo_budget_healthy](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_slo_budget_healthy.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_slo_budget_healthy](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_slo_budget_healthy.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_slo_budget_healthy.svg" alt="icon_slo_budget_healthy" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `status`
+- Anchor: `#icon-slo-budget-healthy`
+- [Source file](../../../assets/icons/status/icon_slo_budget_healthy.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_slo_budget_healthy.svg)
 
 <a id="icon-status-archived"></a>
 
@@ -799,3 +948,39 @@ Top tags: `animated` (21), `icon` (21), `motion` (21), `status` (21), `build` (1
 - Anchor: `#icon-x-circle`
 - [Source file](../../../assets/icons/status/icon_x_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_x_circle.svg)
+
+<a id="icon-zero-trust-attested"></a>
+
+## icon_zero_trust_attested
+
+[![icon_zero_trust_attested](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_zero_trust_attested.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_zero_trust_attested](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_zero_trust_attested.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_zero_trust_attested.svg" alt="icon_zero_trust_attested" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `status`
+- Anchor: `#icon-zero-trust-attested`
+- [Source file](../../../assets/icons/status/icon_zero_trust_attested.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/status/icon_zero_trust_attested.svg)

@@ -17,6 +17,28 @@ from src.app import services
 
 
 LOCAL_HOSTS = {"127.0.0.1", "::1", "localhost"}
+SECURITY_HEADERS = {
+    "Content-Security-Policy": (
+        "default-src 'self'; "
+        "script-src 'self'; "
+        "style-src 'self' 'unsafe-inline'; "
+        "img-src 'self' data: blob:; "
+        "connect-src 'self'; "
+        "object-src 'none'; "
+        "base-uri 'self'; "
+        "form-action 'self'; "
+        "frame-ancestors 'none'"
+    ),
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Frame-Options": "DENY",
+}
+
+
+def apply_security_headers(response):
+    for header_name, header_value in SECURITY_HEADERS.items():
+        response.headers.setdefault(header_name, header_value)
+    return response
 
 
 def require_fastapi():
@@ -24,12 +46,32 @@ def require_fastapi():
         raise RuntimeError("FastAPI is not installed. Install the src project dependencies, then run `python -m src.app`.")
 
 
+def is_allowed_host_header(host_header: str) -> bool:
+    if not host_header:
+        return True
+    raw = host_header.strip().lower()
+    if raw.startswith("[::1]"):
+        return True
+    hostname = raw.split(":", 1)[0]
+    return hostname in LOCAL_HOSTS
+
+
+def is_allowed_origin_header(origin_header: str) -> bool:
+    if not origin_header:
+        return True
+    raw = origin_header.strip().lower()
+    for prefix in ("http://127.0.0.1", "http://localhost", "http://[::1]", "https://127.0.0.1", "https://localhost", "https://[::1]"):
+        if raw == prefix or raw.startswith(f"{prefix}:"):
+            return True
+    return False
+
+
 def create_app():
     require_fastapi()
     app = FastAPI(
         title="readme-ux-kit Local Studio",
         description="Local-only interactive wrapper around src/modules.",
-        version="0.1.0",
+        version="1.0.0",
     )
     root = services.root_path()
     static_dir = Path(__file__).resolve().parent / "static"
@@ -37,9 +79,18 @@ def create_app():
     @app.middleware("http")
     async def local_only(request: Request, call_next):
         client_host = request.client.host if request.client else ""
-        if client_host not in LOCAL_HOSTS:
-            return JSONResponse({"detail": "Local Studio only accepts localhost requests."}, status_code=403)
-        return await call_next(request)
+        host_header = request.headers.get("host", "")
+        origin_header = request.headers.get("origin", "")
+        if (
+            client_host not in LOCAL_HOSTS
+            or not is_allowed_host_header(host_header)
+            or not is_allowed_origin_header(origin_header)
+        ):
+            return apply_security_headers(
+                JSONResponse({"detail": "Local Studio only accepts localhost requests."}, status_code=403)
+            )
+        response = await call_next(request)
+        return apply_security_headers(response)
 
     @app.get("/api/health")
     def health():

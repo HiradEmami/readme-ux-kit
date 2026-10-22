@@ -32,6 +32,7 @@ Use this page as the repository map for `readme-ux-kit`.
 | File headers | [`previews/assets/file_headers.md`](./previews/assets/file_headers.md) | [`assets/file_headers/`](./assets/file_headers/) |
 | Headers | [`previews/assets/headers.md`](./previews/assets/headers.md) | [`assets/headers/`](./assets/headers/) |
 | Icons | [`previews/assets/icons.md`](./previews/assets/icons.md) | [`assets/icons/`](./assets/icons/) |
+| Isometric | [`previews/assets/isometric.md`](./previews/assets/isometric.md) | [`assets/isometric/`](./assets/isometric/) |
 | Loadings | [`previews/assets/loadings.md`](./previews/assets/loadings.md) | [`assets/loadings/`](./assets/loadings/) |
 | Mockups | [`previews/assets/mockups.md`](./previews/assets/mockups.md) | [`assets/mockups/`](./assets/mockups/) |
 | Personal | [`previews/assets/personal.md`](./previews/assets/personal.md) | [`assets/personal/`](./assets/personal/) |

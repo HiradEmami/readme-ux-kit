@@ -28,7 +28,7 @@ For the full repository map, see [`NAVIGATION.md`](./NAVIGATION.md).
 
 | Area | Use |
 | --- | --- |
-| [`assets/`](./assets/README.md) | SVG banners, badges, buttons, callouts, cards, charts, diagrams, headers, icons, loaders, mockups, panels, progress bars, and visuals. |
+| [`assets/`](./assets/README.md) | SVG banners, badges, buttons, callouts, cards, charts, diagrams, headers, icons, isometric architectures, loaders, mockups, panels, progress bars, and visuals. |
 | [`previews/assets/`](./previews/assets/README.md) | Generated visual previews with source links, raw links, tags, and copyable snippets. |
 | [`templates/`](./templates/README.md) | README foundations for libraries, services, ML projects, research projects, and minimal repos. |
 | [`components/`](./components/README.md) | Badges, layouts, status sections, terminal blocks, tabs, and collapsible patterns. |
@@ -37,7 +37,7 @@ For the full repository map, see [`NAVIGATION.md`](./NAVIGATION.md).
 | [`src/modules/`](./docs/MODULES.md) | Generators, validators, analyzers, indexes, editor metadata, reports, packs, compatibility checks, and release gates. |
 | [`src/app/`](./src/app/README.md) | Local-only browser studio for asset search, snippet copy, SVG edits, GIF exports, reports, and whitelisted checks. |
 
-Specialist asset families: [`badges/`](./assets/badges/), [`callouts/`](./assets/callouts/), [`cards/`](./assets/cards/), [`charts/`](./assets/charts/), [`diagrams/`](./assets/diagrams/), [`mockups/`](./assets/mockups/), [`terminal_panels/`](./assets/terminal_panels/), and [`workflow_panels/`](./assets/workflow_panels/).
+Specialist asset families: [`badges/`](./assets/badges/), [`callouts/`](./assets/callouts/), [`cards/`](./assets/cards/), [`charts/`](./assets/charts/), [`diagrams/`](./assets/diagrams/), [`isometric/`](./assets/isometric/), [`mockups/`](./assets/mockups/), [`terminal_panels/`](./assets/terminal_panels/), and [`workflow_panels/`](./assets/workflow_panels/).
 
 ## Quick Copy
 

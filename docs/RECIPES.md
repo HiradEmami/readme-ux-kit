@@ -23,9 +23,13 @@ Best for packages, SDKs, utilities, and reusable modules.
 ### Library Assets
 
 - [`assets/headers/static/header_minimal_lux.svg`](../assets/headers/static/header_minimal_lux.svg)
+- [`assets/headers/animated/header_cross_platform_sdk_toolchain.svg`](../assets/headers/animated/header_cross_platform_sdk_toolchain.svg)
+- [`assets/cards/releases/card_release_general_availability_v3.svg`](../assets/cards/releases/card_release_general_availability_v3.svg)
+- [`assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg`](../assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg)
 - [`assets/dividers/static/divider_minimal_clean.svg`](../assets/dividers/static/divider_minimal_clean.svg)
 - [`assets/icons/dev/icon_package_box.svg`](../assets/icons/dev/icon_package_box.svg)
 - [`assets/icons/core/icon_docs.svg`](../assets/icons/core/icon_docs.svg)
+- [`assets/loadings/loading_sdk_ir_code_generator.svg`](../assets/loadings/loading_sdk_ir_code_generator.svg)
 
 ### Library Assembly Order
 
@@ -52,9 +56,16 @@ Best for model repos, evaluation suites, notebooks, datasets, and inference work
 ### Machine Learning Assets
 
 - [`assets/headers/animated/header_radial_core.svg`](../assets/headers/animated/header_radial_core.svg)
+- [`assets/headers/animated/header_high_frequency_tensor_runtime.svg`](../assets/headers/animated/header_high_frequency_tensor_runtime.svg)
+- [`assets/isometric/ai-systems/isometric_transformer_attention_stack.svg`](../assets/isometric/ai-systems/isometric_transformer_attention_stack.svg)
+- [`assets/isometric/ai-systems/isometric_mixture_of_experts_moe_router.svg`](../assets/isometric/ai-systems/isometric_mixture_of_experts_moe_router.svg)
+- [`assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg`](../assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg)
+- [`assets/charts/radar/chart_model_eval_capability_axes.svg`](../assets/charts/radar/chart_model_eval_capability_axes.svg)
+- [`assets/cards/metrics/card_gpu_tensor_utilization_index.svg`](../assets/cards/metrics/card_gpu_tensor_utilization_index.svg)
 - [`assets/visuals/evaluation_lens_matrix.svg`](../assets/visuals/evaluation_lens_matrix.svg)
 - [`assets/visuals/model_release_constellation.svg`](../assets/visuals/model_release_constellation.svg)
 - [`assets/icons/data-ai/icon_eval_harness.svg`](../assets/icons/data-ai/icon_eval_harness.svg)
+- [`assets/loadings/loading_tensor_allreduce_ring.svg`](../assets/loadings/loading_tensor_allreduce_ring.svg)
 
 ### Machine Learning Assembly Order
 
@@ -81,9 +92,15 @@ Best for APIs, workers, internal services, platform components, and production s
 ### Backend Assets
 
 - [`assets/headers/static/header_data_rail.svg`](../assets/headers/static/header_data_rail.svg)
+- [`assets/headers/animated/header_opentelemetry_sre_command.svg`](../assets/headers/animated/header_opentelemetry_sre_command.svg)
+- [`assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg`](../assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg)
+- [`assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg`](../assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg)
+- [`assets/charts/gauge/chart_slo_availability_burn_gauge.svg`](../assets/charts/gauge/chart_slo_availability_burn_gauge.svg)
+- [`assets/cards/metrics/card_p99_tail_latency_budget.svg`](../assets/cards/metrics/card_p99_tail_latency_budget.svg)
 - [`assets/visuals/reliability_control_room.svg`](../assets/visuals/reliability_control_room.svg)
 - [`assets/icons/devops/icon_observability_scope.svg`](../assets/icons/devops/icon_observability_scope.svg)
 - [`assets/dividers/animated/bars/divider_circuit_pulse_bar.svg`](../assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)
+- [`assets/loadings/loading_otlp_span_aggregator.svg`](../assets/loadings/loading_otlp_span_aggregator.svg)
 
 ### Backend Assembly Order
 
@@ -111,8 +128,11 @@ Best for personal profile READMEs, portfolio pages, and author introductions.
 
 - [`assets/personal/four_pillars.svg`](../assets/personal/four_pillars.svg)
 - [`assets/personal/traditional_vs_engineered.svg`](../assets/personal/traditional_vs_engineered.svg)
+- [`assets/cards/projects/card_local_first_crdt_sync_sdk.svg`](../assets/cards/projects/card_local_first_crdt_sync_sdk.svg)
+- [`assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg`](../assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg)
 - [`assets/visuals/collaboration.svg`](../assets/visuals/collaboration.svg)
 - [`assets/icons/objects/icon_rocket_launch.svg`](../assets/icons/objects/icon_rocket_launch.svg)
+- [`assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg`](../assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg)
 
 ### Profile Assembly Order
 
@@ -139,9 +159,16 @@ Best for security tools, audit utilities, policy repos, scanners, and incident-r
 ### Security Assets
 
 - [`assets/file_headers/security_policy_radar.svg`](../assets/file_headers/security_policy_radar.svg)
+- [`assets/file_headers/file_header_threat_modeling_matrix.svg`](../assets/file_headers/file_header_threat_modeling_matrix.svg)
+- [`assets/headers/animated/header_zero_trust_security_enclave.svg`](../assets/headers/animated/header_zero_trust_security_enclave.svg)
+- [`assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg`](../assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg)
+- [`assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg`](../assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg)
+- [`assets/charts/radar/chart_security_defense_in_depth_radar.svg`](../assets/charts/radar/chart_security_defense_in_depth_radar.svg)
+- [`assets/cards/features/card_cryptographic_audit_provenance.svg`](../assets/cards/features/card_cryptographic_audit_provenance.svg)
 - [`assets/visuals/privacy_vault_shield.svg`](../assets/visuals/privacy_vault_shield.svg)
 - [`assets/icons/status/icon_warning.svg`](../assets/icons/status/icon_warning.svg)
 - [`assets/dividers/animated/lines/divider_red_alert.svg`](../assets/dividers/animated/lines/divider_red_alert.svg)
+- [`assets/loadings/loading_spiffe_svid_rotator.svg`](../assets/loadings/loading_spiffe_svid_rotator.svg)
 
 ### Security Assembly Order
 
@@ -150,6 +177,42 @@ Best for security tools, audit utilities, policy repos, scanners, and incident-r
 3. Document supported inputs, outputs, and limitations.
 4. Include security reporting instructions.
 5. Use warning and danger visuals only for real risk signals.
+
+## Cloud & Distributed Architecture README
+
+Best for cloud control planes, Kubernetes operators, service meshes, storage engines, and multi-region infrastructure repositories.
+
+### Cloud Architecture Ingredients
+
+| Layer | Use |
+| --- | --- |
+| Template | [`templates/infrastructure-iac.md`](../templates/infrastructure-iac.md) |
+| Theme | [`themes/infra-control-plane/example.md`](../themes/infra-control-plane/example.md) |
+| Status | [`components/status/deployment-status.md`](../components/status/deployment-status.md) |
+| Layout | [`components/layout/feature-grids.md`](../components/layout/feature-grids.md) |
+| Interactive | [`components/interactive/terminal-blocks.md`](../components/interactive/terminal-blocks.md) |
+
+### Cloud Architecture Assets
+
+- [`assets/headers/animated/header_distributed_cloud_mesh_fabric.svg`](../assets/headers/animated/header_distributed_cloud_mesh_fabric.svg)
+- [`assets/file_headers/file_header_architecture_decisions.svg`](../assets/file_headers/file_header_architecture_decisions.svg)
+- [`assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg`](../assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg)
+- [`assets/isometric/cloud-topology/isometric_geo_distributed_active_mesh.svg`](../assets/isometric/cloud-topology/isometric_geo_distributed_active_mesh.svg)
+- [`assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg`](../assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg)
+- [`assets/diagrams/deployment/diagram_multi_region_active_failover.svg`](../assets/diagrams/deployment/diagram_multi_region_active_failover.svg)
+- [`assets/charts/heatmap/chart_regional_api_latency_matrix.svg`](../assets/charts/heatmap/chart_regional_api_latency_matrix.svg)
+- [`assets/cards/projects/card_distributed_kv_consensus_engine.svg`](../assets/cards/projects/card_distributed_kv_consensus_engine.svg)
+- [`assets/dividers/animated/lines/divider_axonometric_grid_trace.svg`](../assets/dividers/animated/lines/divider_axonometric_grid_trace.svg)
+- [`assets/icons/devops/icon_gitops_reconcile_loop.svg`](../assets/icons/devops/icon_gitops_reconcile_loop.svg)
+- [`assets/loadings/loading_raft_quorum_election.svg`](../assets/loadings/loading_raft_quorum_election.svg)
+
+### Cloud Architecture Assembly Order
+
+1. Start with the infrastructure template and an animated cloud mesh header.
+2. Anchor the architecture section with a 3D isometric cluster or consensus topology diagram.
+3. Document regional failover, quorum rules, and blast-radius boundaries in a concise table.
+4. Provide copy-pasteable provisioning, plan, and verification terminal blocks.
+5. Close with drift reconciliation, disaster recovery targets, and runbook links.
 
 ## Final Check
 

@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `objects`
-- Asset count: 19
+- Asset count: 24
 - Best for: Object-based icons such as clocks, calendars, rockets, locations, and other concrete symbols.
 - Group tags: `object`
 
 ## Compact index
 
-Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (1), `data` (1), `energy` (1), `button` (1)
+Top tags: `icon` (24), `object` (24), `animated` (23), `motion` (23), `static` (1), `data` (1), `code` (1), `energy` (1), `security` (1), `button` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -26,16 +26,21 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 | `icon_calendar` | Static or subtle motion | `icon`, `object`, `static` | [Jump](#icon-calendar) | [Source](../../../assets/icons/objects/icon_calendar.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_calendar.svg) |
 | `icon_cassette_reel` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-cassette-reel) | [Source](../../../assets/icons/objects/icon_cassette_reel.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cassette_reel.svg) |
 | `icon_clock` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-clock) | [Source](../../../assets/icons/objects/icon_clock.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_clock.svg) |
+| `icon_cryptographic_ledger_slab` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-cryptographic-ledger-slab) | [Source](../../../assets/icons/objects/icon_cryptographic_ledger_slab.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cryptographic_ledger_slab.svg) |
 | `icon_database_disk` | Animated | `animated`, `data`, `icon`, `motion`, `object` | [Jump](#icon-database-disk) | [Source](../../../assets/icons/objects/icon_database_disk.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_database_disk.svg) |
+| `icon_fiber_transceiver_module` | Animated | `animated`, `code`, `icon`, `motion`, `object` | [Jump](#icon-fiber-transceiver-module) | [Source](../../../assets/icons/objects/icon_fiber_transceiver_module.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_fiber_transceiver_module.svg) |
 | `icon_gyroscope` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-gyroscope) | [Source](../../../assets/icons/objects/icon_gyroscope.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_gyroscope.svg) |
 | `icon_hourglass_flux` | Animated | `animated`, `energy`, `icon`, `motion`, `object` | [Jump](#icon-hourglass-flux) | [Source](../../../assets/icons/objects/icon_hourglass_flux.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hourglass_flux.svg) |
+| `icon_hsm_hardware_vault_key` | Animated | `animated`, `icon`, `motion`, `object`, `security` | [Jump](#icon-hsm-hardware-vault-key) | [Source](../../../assets/icons/objects/icon_hsm_hardware_vault_key.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hsm_hardware_vault_key.svg) |
 | `icon_industrial_fan` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-industrial-fan) | [Source](../../../assets/icons/objects/icon_industrial_fan.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_industrial_fan.svg) |
 | `icon_keycard` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-keycard) | [Source](../../../assets/icons/objects/icon_keycard.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_keycard.svg) |
 | `icon_lab_flask` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-lab-flask) | [Source](../../../assets/icons/objects/icon_lab_flask.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_lab_flask.svg) |
 | `icon_location` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-location) | [Source](../../../assets/icons/objects/icon_location.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_location.svg) |
 | `icon_magnet` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-magnet) | [Source](../../../assets/icons/objects/icon_magnet.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_magnet.svg) |
+| `icon_nvme_storage_wafer` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-nvme-storage-wafer) | [Source](../../../assets/icons/objects/icon_nvme_storage_wafer.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_nvme_storage_wafer.svg) |
 | `icon_rocket_launch` | Animated | `animated`, `button`, `icon`, `motion`, `object` | [Jump](#icon-rocket-launch) | [Source](../../../assets/icons/objects/icon_rocket_launch.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_rocket_launch.svg) |
 | `icon_satellite_dish` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-satellite-dish) | [Source](../../../assets/icons/objects/icon_satellite_dish.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_satellite_dish.svg) |
+| `icon_server_blade_chassis` | Animated | `animated`, `icon`, `infrastructure`, `motion`, `object` | [Jump](#icon-server-blade-chassis) | [Source](../../../assets/icons/objects/icon_server_blade_chassis.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_server_blade_chassis.svg) |
 | `icon_sprouting_seed` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-sprouting-seed) | [Source](../../../assets/icons/objects/icon_sprouting_seed.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_sprouting_seed.svg) |
 | `icon_toolbox` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-toolbox) | [Source](../../../assets/icons/objects/icon_toolbox.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_toolbox.svg) |
 | `icon_trophy_cup` | Animated | `animated`, `icon`, `motion`, `object` | [Jump](#icon-trophy-cup) | [Source](../../../assets/icons/objects/icon_trophy_cup.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_trophy_cup.svg) |
@@ -258,6 +263,42 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_clock.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_clock.svg)
 
+<a id="icon-cryptographic-ledger-slab"></a>
+
+## icon_cryptographic_ledger_slab
+
+[![icon_cryptographic_ledger_slab](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cryptographic_ledger_slab.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_cryptographic_ledger_slab](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cryptographic_ledger_slab.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cryptographic_ledger_slab.svg" alt="icon_cryptographic_ledger_slab" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `object`
+- Anchor: `#icon-cryptographic-ledger-slab`
+- [Source file](../../../assets/icons/objects/icon_cryptographic_ledger_slab.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cryptographic_ledger_slab.svg)
+
 <a id="icon-database-disk"></a>
 
 ## icon_database_disk
@@ -293,6 +334,42 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-database-disk`
 - [Source file](../../../assets/icons/objects/icon_database_disk.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_database_disk.svg)
+
+<a id="icon-fiber-transceiver-module"></a>
+
+## icon_fiber_transceiver_module
+
+[![icon_fiber_transceiver_module](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_fiber_transceiver_module.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_fiber_transceiver_module](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_fiber_transceiver_module.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_fiber_transceiver_module.svg" alt="icon_fiber_transceiver_module" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `code`, `icon`, `motion`, `object`
+- Anchor: `#icon-fiber-transceiver-module`
+- [Source file](../../../assets/icons/objects/icon_fiber_transceiver_module.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_fiber_transceiver_module.svg)
 
 <a id="icon-gyroscope"></a>
 
@@ -365,6 +442,42 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-hourglass-flux`
 - [Source file](../../../assets/icons/objects/icon_hourglass_flux.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hourglass_flux.svg)
+
+<a id="icon-hsm-hardware-vault-key"></a>
+
+## icon_hsm_hardware_vault_key
+
+[![icon_hsm_hardware_vault_key](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hsm_hardware_vault_key.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_hsm_hardware_vault_key](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hsm_hardware_vault_key.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hsm_hardware_vault_key.svg" alt="icon_hsm_hardware_vault_key" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `object`, `security`
+- Anchor: `#icon-hsm-hardware-vault-key`
+- [Source file](../../../assets/icons/objects/icon_hsm_hardware_vault_key.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hsm_hardware_vault_key.svg)
 
 <a id="icon-industrial-fan"></a>
 
@@ -546,6 +659,42 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_magnet.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_magnet.svg)
 
+<a id="icon-nvme-storage-wafer"></a>
+
+## icon_nvme_storage_wafer
+
+[![icon_nvme_storage_wafer](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_nvme_storage_wafer.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_nvme_storage_wafer](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_nvme_storage_wafer.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_nvme_storage_wafer.svg" alt="icon_nvme_storage_wafer" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `object`
+- Anchor: `#icon-nvme-storage-wafer`
+- [Source file](../../../assets/icons/objects/icon_nvme_storage_wafer.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_nvme_storage_wafer.svg)
+
 <a id="icon-rocket-launch"></a>
 
 ## icon_rocket_launch
@@ -617,6 +766,42 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-satellite-dish`
 - [Source file](../../../assets/icons/objects/icon_satellite_dish.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_satellite_dish.svg)
+
+<a id="icon-server-blade-chassis"></a>
+
+## icon_server_blade_chassis
+
+[![icon_server_blade_chassis](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_server_blade_chassis.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_server_blade_chassis](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_server_blade_chassis.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_server_blade_chassis.svg" alt="icon_server_blade_chassis" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `infrastructure`, `motion`, `object`
+- Anchor: `#icon-server-blade-chassis`
+- [Source file](../../../assets/icons/objects/icon_server_blade_chassis.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_server_blade_chassis.svg)
 
 <a id="icon-sprouting-seed"></a>
 

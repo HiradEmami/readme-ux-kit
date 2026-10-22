@@ -65,6 +65,13 @@ def stage_pages(root: Path, output_dir: Path, safe_parent: Path | None = None) -
 
     shutil.copytree(site_dir, output_dir, ignore=ignore_site_assets)
     shutil.copytree(assets_dir, output_dir / "assets")
+    for legal_doc in ("LICENSE", "THIRD_PARTY_NOTICES.md", "ACCESSIBILITY.md", "PRIVACY.md", "SECURITY.md", "ASSET_PROVENANCE.md"):
+        source_doc = root / legal_doc
+        if source_doc.is_file():
+            shutil.copy2(source_doc, output_dir / legal_doc)
+    third_party_txt = root / "licenses" / "third-party.txt"
+    if third_party_txt.is_file():
+        shutil.copy2(third_party_txt, output_dir / "THIRD_PARTY_NOTICES.txt")
     (output_dir / ".nojekyll").write_text("", encoding="utf-8")
     return validate_staged_pages(output_dir, manifest_path)
 

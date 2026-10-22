@@ -232,7 +232,7 @@ def load_operations(value):
 
 
 def run_self_tests():
-    source = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" role="img" aria-label="Demo"><title>Demo</title><desc>Demo SVG used by the editor self-test.</desc><text id="title" fill="#2563eb">Demo</text><circle id="dot" fill="#fff" r="2"/></svg>'
+    source = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" role="img" aria-label="Demo" aria-labelledby="demo-title demo-desc"><title id="demo-title">Demo</title><desc id="demo-desc">Demo SVG used by the editor self-test.</desc><text id="title" fill="#2563eb">Demo</text><circle id="dot" fill="#fff" r="2"/></svg>'
     output, summary = apply_operations(
         source,
         {

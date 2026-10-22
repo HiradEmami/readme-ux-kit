@@ -10,27 +10,34 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `diagrams`
 - Group: `data-flow`
-- Asset count: 11
+- Asset count: 18
 - Best for: Data movement diagrams for ingest, transformation, queues, caches, storage, streams, and lineage.
 - Group tags: `data`, `diagram`, `flow`
 
 ## Compact index
 
-Top tags: `architecture` (11), `data` (11), `diagram` (11), `flow` (11), `static` (7), `animated` (4), `motion` (4)
+Top tags: `architecture` (18), `data` (18), `diagram` (18), `flow` (18), `animated` (11), `motion` (11), `static` (7)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `diagram_batch_incremental_load` | Static or subtle motion | `architecture`, `data`, `diagram`, `flow`, `static` | [Jump](#diagram-batch-incremental-load) | [Source](../../../assets/diagrams/data-flow/diagram_batch_incremental_load.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_batch_incremental_load.svg) |
 | `diagram_cache_read_through` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-cache-read-through) | [Source](../../../assets/diagrams/data-flow/diagram_cache_read_through.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_cache_read_through.svg) |
 | `diagram_change_data_capture` | Static or subtle motion | `architecture`, `data`, `diagram`, `flow`, `static` | [Jump](#diagram-change-data-capture) | [Source](../../../assets/diagrams/data-flow/diagram_change_data_capture.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_change_data_capture.svg) |
+| `diagram_change_data_capture_debezium` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-change-data-capture-debezium) | [Source](../../../assets/diagrams/data-flow/diagram_change_data_capture_debezium.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_change_data_capture_debezium.svg) |
+| `diagram_columnar_parquet_compaction` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-columnar-parquet-compaction) | [Source](../../../assets/diagrams/data-flow/diagram_columnar_parquet_compaction.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_columnar_parquet_compaction.svg) |
 | `diagram_data_lineage_chain` | Static or subtle motion | `architecture`, `data`, `diagram`, `flow`, `static` | [Jump](#diagram-data-lineage-chain) | [Source](../../../assets/diagrams/data-flow/diagram_data_lineage_chain.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_data_lineage_chain.svg) |
+| `diagram_dead_letter_backoff_replay` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-dead-letter-backoff-replay) | [Source](../../../assets/diagrams/data-flow/diagram_dead_letter_backoff_replay.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_dead_letter_backoff_replay.svg) |
 | `diagram_elt_lakehouse` | Static or subtle motion | `architecture`, `data`, `diagram`, `flow`, `static` | [Jump](#diagram-elt-lakehouse) | [Source](../../../assets/diagrams/data-flow/diagram_elt_lakehouse.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_elt_lakehouse.svg) |
 | `diagram_etl_warehouse` | Static or subtle motion | `architecture`, `data`, `diagram`, `flow`, `static` | [Jump](#diagram-etl-warehouse) | [Source](../../../assets/diagrams/data-flow/diagram_etl_warehouse.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_etl_warehouse.svg) |
 | `diagram_fanout_consumers` | Static or subtle motion | `architecture`, `data`, `diagram`, `flow`, `static` | [Jump](#diagram-fanout-consumers) | [Source](../../../assets/diagrams/data-flow/diagram_fanout_consumers.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_fanout_consumers.svg) |
 | `diagram_feedback_enrichment_loop` | Static or subtle motion | `architecture`, `data`, `diagram`, `flow`, `static` | [Jump](#diagram-feedback-enrichment-loop) | [Source](../../../assets/diagrams/data-flow/diagram_feedback_enrichment_loop.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_feedback_enrichment_loop.svg) |
 | `diagram_ingest_validate_store` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-ingest-validate-store) | [Source](../../../assets/diagrams/data-flow/diagram_ingest_validate_store.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_ingest_validate_store.svg) |
+| `diagram_lambda_kappa_unified_log` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-lambda-kappa-unified-log) | [Source](../../../assets/diagrams/data-flow/diagram_lambda_kappa_unified_log.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_lambda_kappa_unified_log.svg) |
+| `diagram_medallion_lakehouse_curation` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-medallion-lakehouse-curation) | [Source](../../../assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg) |
 | `diagram_queue_retry_dead_letter` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-queue-retry-dead-letter) | [Source](../../../assets/diagrams/data-flow/diagram_queue_retry_dead_letter.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_queue_retry_dead_letter.svg) |
 | `diagram_stream_window_aggregate` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-stream-window-aggregate) | [Source](../../../assets/diagrams/data-flow/diagram_stream_window_aggregate.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_stream_window_aggregate.svg) |
+| `diagram_tiered_read_through_cache` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-tiered-read-through-cache) | [Source](../../../assets/diagrams/data-flow/diagram_tiered_read_through_cache.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_tiered_read_through_cache.svg) |
+| `diagram_windowed_stream_watermark_join` | Animated | `animated`, `architecture`, `data`, `diagram`, `flow`, `motion` | [Jump](#diagram-windowed-stream-watermark-join) | [Source](../../../assets/diagrams/data-flow/diagram_windowed_stream_watermark_join.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_windowed_stream_watermark_join.svg) |
 
 ## Visual previews
 
@@ -142,6 +149,78 @@ Top tags: `architecture` (11), `data` (11), `diagram` (11), `flow` (11), `static
 - [Source file](../../../assets/diagrams/data-flow/diagram_change_data_capture.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_change_data_capture.svg)
 
+<a id="diagram-change-data-capture-debezium"></a>
+
+## diagram_change_data_capture_debezium
+
+[![diagram_change_data_capture_debezium](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_change_data_capture_debezium.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_change_data_capture_debezium](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_change_data_capture_debezium.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_change_data_capture_debezium.svg" alt="diagram_change_data_capture_debezium" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `data`, `diagram`, `flow`, `motion`
+- Anchor: `#diagram-change-data-capture-debezium`
+- [Source file](../../../assets/diagrams/data-flow/diagram_change_data_capture_debezium.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_change_data_capture_debezium.svg)
+
+<a id="diagram-columnar-parquet-compaction"></a>
+
+## diagram_columnar_parquet_compaction
+
+[![diagram_columnar_parquet_compaction](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_columnar_parquet_compaction.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_columnar_parquet_compaction](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_columnar_parquet_compaction.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_columnar_parquet_compaction.svg" alt="diagram_columnar_parquet_compaction" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `data`, `diagram`, `flow`, `motion`
+- Anchor: `#diagram-columnar-parquet-compaction`
+- [Source file](../../../assets/diagrams/data-flow/diagram_columnar_parquet_compaction.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_columnar_parquet_compaction.svg)
+
 <a id="diagram-data-lineage-chain"></a>
 
 ## diagram_data_lineage_chain
@@ -177,6 +256,42 @@ Top tags: `architecture` (11), `data` (11), `diagram` (11), `flow` (11), `static
 - Anchor: `#diagram-data-lineage-chain`
 - [Source file](../../../assets/diagrams/data-flow/diagram_data_lineage_chain.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_data_lineage_chain.svg)
+
+<a id="diagram-dead-letter-backoff-replay"></a>
+
+## diagram_dead_letter_backoff_replay
+
+[![diagram_dead_letter_backoff_replay](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_dead_letter_backoff_replay.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_dead_letter_backoff_replay](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_dead_letter_backoff_replay.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_dead_letter_backoff_replay.svg" alt="diagram_dead_letter_backoff_replay" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `data`, `diagram`, `flow`, `motion`
+- Anchor: `#diagram-dead-letter-backoff-replay`
+- [Source file](../../../assets/diagrams/data-flow/diagram_dead_letter_backoff_replay.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_dead_letter_backoff_replay.svg)
 
 <a id="diagram-elt-lakehouse"></a>
 
@@ -358,6 +473,78 @@ Top tags: `architecture` (11), `data` (11), `diagram` (11), `flow` (11), `static
 - [Source file](../../../assets/diagrams/data-flow/diagram_ingest_validate_store.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_ingest_validate_store.svg)
 
+<a id="diagram-lambda-kappa-unified-log"></a>
+
+## diagram_lambda_kappa_unified_log
+
+[![diagram_lambda_kappa_unified_log](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_lambda_kappa_unified_log.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_lambda_kappa_unified_log](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_lambda_kappa_unified_log.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_lambda_kappa_unified_log.svg" alt="diagram_lambda_kappa_unified_log" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `data`, `diagram`, `flow`, `motion`
+- Anchor: `#diagram-lambda-kappa-unified-log`
+- [Source file](../../../assets/diagrams/data-flow/diagram_lambda_kappa_unified_log.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_lambda_kappa_unified_log.svg)
+
+<a id="diagram-medallion-lakehouse-curation"></a>
+
+## diagram_medallion_lakehouse_curation
+
+[![diagram_medallion_lakehouse_curation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_medallion_lakehouse_curation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg" alt="diagram_medallion_lakehouse_curation" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `data`, `diagram`, `flow`, `motion`
+- Anchor: `#diagram-medallion-lakehouse-curation`
+- [Source file](../../../assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg)
+
 <a id="diagram-queue-retry-dead-letter"></a>
 
 ## diagram_queue_retry_dead_letter
@@ -429,3 +616,75 @@ Top tags: `architecture` (11), `data` (11), `diagram` (11), `flow` (11), `static
 - Anchor: `#diagram-stream-window-aggregate`
 - [Source file](../../../assets/diagrams/data-flow/diagram_stream_window_aggregate.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_stream_window_aggregate.svg)
+
+<a id="diagram-tiered-read-through-cache"></a>
+
+## diagram_tiered_read_through_cache
+
+[![diagram_tiered_read_through_cache](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_tiered_read_through_cache.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_tiered_read_through_cache](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_tiered_read_through_cache.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_tiered_read_through_cache.svg" alt="diagram_tiered_read_through_cache" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `data`, `diagram`, `flow`, `motion`
+- Anchor: `#diagram-tiered-read-through-cache`
+- [Source file](../../../assets/diagrams/data-flow/diagram_tiered_read_through_cache.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_tiered_read_through_cache.svg)
+
+<a id="diagram-windowed-stream-watermark-join"></a>
+
+## diagram_windowed_stream_watermark_join
+
+[![diagram_windowed_stream_watermark_join](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_windowed_stream_watermark_join.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_windowed_stream_watermark_join](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_windowed_stream_watermark_join.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_windowed_stream_watermark_join.svg" alt="diagram_windowed_stream_watermark_join" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `data`, `diagram`, `flow`, `motion`
+- Anchor: `#diagram-windowed-stream-watermark-join`
+- [Source file](../../../assets/diagrams/data-flow/diagram_windowed_stream_watermark_join.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/data-flow/diagram_windowed_stream_watermark_join.svg)

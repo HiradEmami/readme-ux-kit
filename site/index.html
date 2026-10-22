@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="color-scheme" content="dark" />
+    <meta
       name="description"
       content="Search, filter, favorite, preview, and copy README-ready SVG assets from readme-ux-kit."
     />
@@ -13,7 +19,8 @@
     <script src="./app.js" defer></script>
   </head>
   <body data-cols="3">
-    <main class="app">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="app">
       <header class="topbar">
         <div class="brand">
           <div class="brand-mark" aria-hidden="true">
@@ -29,11 +36,28 @@
         <div class="top-actions">
           <button class="button secondary" type="button" id="favoritesOnly" aria-pressed="false">Favorites</button>
           <button class="button secondary" type="button" id="shuffleCards">Shuffle</button>
+          <button class="button secondary" type="button" id="openHelpModal" aria-label="Open Help Center and keyboard shortcuts">Help (?)</button>
+          <button class="button secondary" type="button" id="openSupportModal" aria-label="Open bug reporter, feedback, and privacy tools">Report / Feedback</button>
           <button class="button primary" type="button" id="copyBundle">Copy Bundle</button>
         </div>
       </header>
 
-      <section class="shell">
+      <section class="error-banner" id="errorBanner" role="alert" aria-live="assertive" hidden>
+        <div class="error-banner-body">
+          <strong>Runtime issue detected</strong>
+          <p id="errorBannerMessage">An unexpected issue occurred while updating the view. Your saved favorites are safe.</p>
+          <details class="error-banner-details">
+            <summary>Technical diagnostic details</summary>
+            <pre id="errorTechnicalDetails">No runtime trace recorded.</pre>
+          </details>
+        </div>
+        <div class="error-banner-actions">
+          <button class="button primary" type="button" id="errorRecoverBtn">Reset / Recover</button>
+          <button class="button secondary" type="button" id="errorReportBtn">Report This Crash</button>
+        </div>
+      </section>
+
+      <main class="shell" id="main-content" tabindex="-1">
         <section class="control-panel" aria-label="Search and filters">
           <div class="search-zone">
             <div class="search-wrap">
@@ -45,7 +69,9 @@
                 class="search-input"
                 id="searchInput"
                 type="search"
+                aria-label="Search SVG assets"
                 placeholder="Search assets..."
+                maxlength="240"
                 autocomplete="off"
               />
             </div>
@@ -131,18 +157,38 @@
           <header class="grid-header">
             <div>
               <h2>Asset Showcase</h2>
-              <p id="gridSummary">Loading generated asset data...</p>
+              <p id="gridSummary" role="status" aria-live="polite">Loading generated asset data...</p>
             </div>
             <div class="button-row">
               <button class="button secondary" type="button" id="actionsAll">Actions All</button>
               <button class="button" type="button" id="previewAll">Preview All</button>
             </div>
           </header>
+          <p class="verification-notice">
+            <strong>Mode &amp; Verification Notice:</strong> Static browser showcase (deterministic SVG catalog, zero live LLM or telemetry calls). Metrics, SLOs, telemetry numbers, and terminal outputs shown inside SVG assets are illustrative design samples and must be verified before operational, legal, financial, or production use.
+          </p>
           <div class="grid" id="assetGrid"></div>
           <div class="empty" id="emptyState">No assets match the current search and filters.</div>
         </section>
-      </section>
-    </main>
+      </main>
+
+      <footer class="app-footer">
+        <div class="footer-legal">
+          <strong>readme-ux-kit v1.0.0</strong>
+          <span>Copyright (c) 2026 Hirad Emamialagha. Released under the MIT License (provided "AS IS" without warranty).</span>
+        </div>
+        <nav class="footer-links" aria-label="Compliance, legal, and user assistance">
+          <button class="button secondary" type="button" id="footerHelpBtn">Help &amp; Shortcuts (?)</button>
+          <button class="button secondary" type="button" id="footerBugReportBtn">Report Issue / Feedback</button>
+          <button class="button secondary" type="button" id="footerExportDataBtn">Export My Data (JSON)</button>
+          <button class="button secondary" type="button" id="footerPurgeDataBtn">Purge Local Cache</button>
+          <a class="button secondary link-button" href="https://github.com/HiradEmami/readme-ux-kit/blob/master/ACCESSIBILITY.md" target="_blank" rel="noreferrer">Accessibility</a>
+          <a class="button secondary link-button" href="https://github.com/HiradEmami/readme-ux-kit/blob/master/PRIVACY.md" target="_blank" rel="noreferrer">Privacy</a>
+          <a class="button secondary link-button" href="https://github.com/HiradEmami/readme-ux-kit/blob/master/SECURITY.md" target="_blank" rel="noreferrer">Security</a>
+          <a class="button secondary link-button" href="https://github.com/HiradEmami/readme-ux-kit/blob/master/LICENSE" target="_blank" rel="noreferrer">MIT License</a>
+        </nav>
+      </footer>
+    </div>
 
     <div class="status" id="status" role="status" aria-live="polite">Loading generated data...</div>
 
@@ -160,7 +206,7 @@
           </button>
         </header>
         <div class="modal-preview">
-          <img id="modalImage" alt="" />
+          <img id="modalImage" alt="Large asset preview" />
         </div>
         <footer class="modal-footer">
           <code class="asset-path modal-path" id="modalPath">assets/asset.svg</code>
@@ -197,17 +243,17 @@
               <article class="editor-preview-panel">
                 <div class="preview-label">Original</div>
                 <div class="editor-preview-box">
-                  <img id="editorOriginalImage" alt="" />
+                  <img id="editorOriginalImage" alt="Original SVG preview" />
                 </div>
               </article>
               <article class="editor-preview-panel">
                 <div class="preview-label">Edited</div>
                 <div class="editor-preview-box">
-                  <img id="editorEditedImage" alt="" />
+                  <img id="editorEditedImage" alt="Edited SVG preview" />
                 </div>
               </article>
             </div>
-            <pre class="editor-status" id="editorStatus">No asset selected.</pre>
+            <pre class="editor-status" id="editorStatus" role="status" aria-live="polite">No asset selected.</pre>
           </section>
 
           <aside class="editor-controls" aria-label="SVG editor controls">
@@ -234,8 +280,8 @@
             <section class="editor-control-block">
               <h3>Motion</h3>
               <div class="speed-row">
-                <input id="editorSpeedRange" type="range" min="0.25" max="3" step="0.25" value="1" />
-                <input id="editorSpeedNumber" type="number" min="0.25" max="3" step="0.25" value="1" />
+                <input id="editorSpeedRange" type="range" min="0.25" max="3" step="0.25" value="1" aria-label="Animation speed multiplier slider" />
+                <input id="editorSpeedNumber" type="number" min="0.25" max="3" step="0.25" value="1" aria-label="Animation speed multiplier value" />
               </div>
               <p class="control-note" id="editorMotionStatus">No animation timing detected.</p>
             </section>
@@ -245,11 +291,11 @@
               <div class="gif-handoff-grid">
                 <label>
                   <span>Output</span>
-                  <input id="editorGifOutputDir" type="text" value="output/gifs" spellcheck="false" />
+                  <input id="editorGifOutputDir" type="text" value="output/gifs" maxlength="240" spellcheck="false" />
                 </label>
                 <label>
                   <span>File</span>
-                  <input id="editorGifFileName" type="text" placeholder="asset-name.gif" spellcheck="false" />
+                  <input id="editorGifFileName" type="text" placeholder="asset-name.gif" maxlength="160" spellcheck="false" />
                 </label>
                 <label>
                   <span>Duration</span>
@@ -269,7 +315,7 @@
                 </label>
                 <label class="wide-field">
                   <span>Background</span>
-                  <input id="editorGifBackground" type="text" value="#ffffff" spellcheck="false" />
+                  <input id="editorGifBackground" type="text" value="#ffffff" maxlength="32" spellcheck="false" />
                 </label>
               </div>
               <div class="editor-inline-actions">
@@ -281,7 +327,7 @@
             <section class="editor-control-block">
               <details>
                 <summary>Advanced JSON</summary>
-                <textarea id="editorAdvancedJson" rows="5" spellcheck="false">{}</textarea>
+                <textarea id="editorAdvancedJson" rows="5" maxlength="65536" spellcheck="false" aria-label="Advanced SVG edit operations JSON">{}</textarea>
               </details>
             </section>
           </aside>
@@ -298,6 +344,131 @@
             <button class="button secondary" type="button" id="editorCopyHtml">Copy HTML</button>
           </div>
         </footer>
+      </div>
+    </dialog>
+
+    <dialog class="support-modal" id="supportModal" aria-labelledby="supportModalTitle">
+      <div class="modal-shell support-shell">
+        <header class="modal-header">
+          <div>
+            <span class="modal-kicker">Help, Diagnostics, Feedback &amp; Privacy</span>
+            <h2 id="supportModalTitle">Help Center, Bug Reporter &amp; Data Controls</h2>
+          </div>
+          <button class="icon-button" type="button" id="supportModalClose" aria-label="Close Help and Support dialog">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+            </svg>
+          </button>
+        </header>
+
+        <div class="support-grid">
+          <section class="support-card" aria-labelledby="helpSectionTitle">
+            <h3 id="helpSectionTitle" tabindex="-1">Quick-Start &amp; Keyboard Shortcuts</h3>
+            <p class="control-note">
+              Browse 1,608 validated SVG assets across 19 categories. Filter by category or theme, favorite assets locally, inspect or customize colors/text/layers in the browser SVG editor, and copy Markdown or HTML snippets.
+            </p>
+            <div class="shortcut-list" role="list" aria-label="Keyboard shortcuts">
+              <div class="shortcut-row" role="listitem"><kbd>?</kbd><span>Open this Help Center &amp; Keyboard Shortcut Cheat-Sheet</span></div>
+              <div class="shortcut-row" role="listitem"><kbd>Tab</kbd> / <kbd>Shift+Tab</kbd><span>Move focus across controls, cards, and dialogs</span></div>
+              <div class="shortcut-row" role="listitem"><kbd>Enter</kbd> / <kbd>Space</kbd><span>Flip focused asset card between Preview and Actions</span></div>
+              <div class="shortcut-row" role="listitem"><kbd>Escape</kbd><span>Close open filter popovers or active modal dialog</span></div>
+            </div>
+            <p class="control-note">
+              <strong>Troubleshooting:</strong> If an asset preview fails to load, build the self-contained Pages bundle (<code>npm run build:pages</code>) or verify the SVG path in <code>assets/manifest.json</code>.
+            </p>
+            <div class="editor-inline-actions">
+              <a class="button secondary link-button" href="https://github.com/HiradEmami/readme-ux-kit#readme" target="_blank" rel="noreferrer">Documentation</a>
+              <a class="button secondary link-button" href="https://github.com/HiradEmami/readme-ux-kit/issues" target="_blank" rel="noreferrer">GitHub Issue Tracker</a>
+            </div>
+          </section>
+
+          <section class="support-card" aria-labelledby="bugReporterTitle">
+            <h3 id="bugReporterTitle">Contextual Bug Reporter (PII-Free Diagnostic Bundle)</h3>
+            <label class="text-control">
+              <span>Affected UI Area / Component</span>
+              <select id="bugAreaSelect">
+                <option value="Navigation & Topbar">Navigation &amp; Topbar</option>
+                <option value="Search & Category/Theme Filters">Search &amp; Category/Theme Filters</option>
+                <option value="Asset Showcase Grid & Card Flip">Asset Showcase Grid &amp; Card Flip</option>
+                <option value="Large Asset Preview Modal">Large Asset Preview Modal</option>
+                <option value="Static Browser SVG Editor">Static Browser SVG Editor</option>
+                <option value="Accessibility & Keyboard Navigation">Accessibility &amp; Keyboard Navigation</option>
+                <option value="Privacy, Local Storage & Data Export">Privacy, Local Storage &amp; Data Export</option>
+              </select>
+            </label>
+            <label class="text-control">
+              <span>Issue Summary</span>
+              <textarea id="bugDescription" rows="2" maxlength="4000" placeholder="Describe what happened and what you expected..."></textarea>
+            </label>
+            <label class="text-control">
+              <span>Reproduction Steps</span>
+              <textarea id="bugSteps" rows="2" maxlength="4000" placeholder="1. Filter by category... 2. Open card editor..."></textarea>
+            </label>
+            <pre class="diagnostic-preview" id="bugDiagnosticPreview" aria-label="PII-free diagnostic bundle preview">{}</pre>
+            <div class="editor-inline-actions">
+              <button class="button primary" type="button" id="copyDiagnosticBtn">Copy Diagnostic Bundle</button>
+              <button class="button secondary" type="button" id="downloadDiagnosticBtn">Download Diagnostic JSON</button>
+            </div>
+          </section>
+
+          <section class="support-card" aria-labelledby="feedbackWidgetTitle">
+            <h3 id="feedbackWidgetTitle">In-App User Feedback &amp; Feature Request</h3>
+            <div class="gif-handoff-grid">
+              <label class="text-control">
+                <span>Usability Rating</span>
+                <select id="feedbackRating">
+                  <option value="5">5 - Excellent</option>
+                  <option value="4">4 - Good</option>
+                  <option value="3">3 - Neutral</option>
+                  <option value="2">2 - Needs Work</option>
+                  <option value="1">1 - Blocking Issue</option>
+                </select>
+              </label>
+              <label class="text-control">
+                <span>Feedback Category</span>
+                <select id="feedbackCategory">
+                  <option value="UX & Visual Polish">UX &amp; Visual Polish</option>
+                  <option value="New SVG Asset / Category Request">New SVG Asset / Category Request</option>
+                  <option value="SVG Editor Capabilities">SVG Editor Capabilities</option>
+                  <option value="Accessibility & Inclusive Design">Accessibility &amp; Inclusive Design</option>
+                  <option value="Documentation & Recipes">Documentation &amp; Recipes</option>
+                </select>
+              </label>
+            </div>
+            <label class="text-control">
+              <span>Feedback / Suggestion</span>
+              <textarea id="feedbackComment" rows="3" maxlength="4000" placeholder="Share suggestions, missing SVG categories, or usability feedback..."></textarea>
+            </label>
+            <div class="editor-inline-actions">
+              <button class="button primary" type="button" id="copyFeedbackBtn">Copy Feedback JSON</button>
+              <button class="button secondary" type="button" id="downloadFeedbackBtn">Download Feedback JSON</button>
+            </div>
+          </section>
+
+          <section class="support-card" aria-labelledby="privacyGovernanceTitle">
+            <h3 id="privacyGovernanceTitle">Privacy, Accessibility &amp; Data Governance (GDPR / EAA)</h3>
+            <p class="control-note">
+              <strong>Zero Telemetry &amp; Local Storage Inventory:</strong> This showcase runs 100% client-side with zero tracking cookies or analytics beacons. Only one key is stored in <code>localStorage</code>: <code>readmeUxKitFavorites</code> (array of favorited asset paths, retained until you clear it).
+            </p>
+            <p class="control-note">
+              <strong>Accessibility Conformance:</strong> Designed for WCAG 2.2 Level AA and EN 301 549 compliance (full keyboard operability, skip links, focus management, reduced-motion support, and labeled controls).
+            </p>
+            <label class="text-control">
+              <span>Interface Language (<code>&lt;html lang&gt;</code>)</span>
+              <select id="interfaceLangSelect" class="select-control" aria-label="Interface language">
+                <option value="en">English (en)</option>
+                <option value="de">Deutsch (de)</option>
+                <option value="fr">Français (fr)</option>
+                <option value="es">Español (es)</option>
+                <option value="ja">日本語 (ja)</option>
+              </select>
+            </label>
+            <div class="editor-inline-actions">
+              <button class="button primary" type="button" id="exportUserDataBtn">Export My Data (JSON)</button>
+              <button class="button secondary" type="button" id="purgeUserDataBtn">Purge Local Cache &amp; Reset All Data</button>
+            </div>
+          </section>
+        </div>
       </div>
     </dialog>
 

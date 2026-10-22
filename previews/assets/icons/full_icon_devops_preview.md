@@ -10,21 +10,25 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `devops`
-- Asset count: 15
+- Asset count: 20
 - Best for: Infrastructure and operations icons for signals, scanning, heartbeat, and reactor-style states.
 - Group tags: `devops`, `infrastructure`
 
 ## Compact index
 
-Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `motion` (15), `energy` (1), `security` (1)
+Top tags: `animated` (20), `devops` (20), `icon` (20), `infrastructure` (20), `motion` (20), `energy` (1), `security` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `icon_autoscale_loop` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-autoscale-loop) | [Source](../../../assets/icons/devops/icon_autoscale_loop.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_autoscale_loop.svg) |
+| `icon_canary_traffic_dial` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-canary-traffic-dial) | [Source](../../../assets/icons/devops/icon_canary_traffic_dial.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_canary_traffic_dial.svg) |
+| `icon_chaos_fault_injector` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-chaos-fault-injector) | [Source](../../../assets/icons/devops/icon_chaos_fault_injector.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_chaos_fault_injector.svg) |
 | `icon_cluster_nodes` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-cluster-nodes) | [Source](../../../assets/icons/devops/icon_cluster_nodes.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_cluster_nodes.svg) |
 | `icon_cyber_scan_line` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-cyber-scan-line) | [Source](../../../assets/icons/devops/icon_cyber_scan_line.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_cyber_scan_line.svg) |
 | `icon_edge_region` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-edge-region) | [Source](../../../assets/icons/devops/icon_edge_region.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_edge_region.svg) |
+| `icon_ephemeral_runner_pod` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-ephemeral-runner-pod) | [Source](../../../assets/icons/devops/icon_ephemeral_runner_pod.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_ephemeral_runner_pod.svg) |
 | `icon_expanding_signal_grid` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-expanding-signal-grid) | [Source](../../../assets/icons/devops/icon_expanding_signal_grid.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_expanding_signal_grid.svg) |
+| `icon_gitops_reconcile_loop` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-gitops-reconcile-loop) | [Source](../../../assets/icons/devops/icon_gitops_reconcile_loop.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_gitops_reconcile_loop.svg) |
 | `icon_heartbeat_node` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-heartbeat-node) | [Source](../../../assets/icons/devops/icon_heartbeat_node.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_heartbeat_node.svg) |
 | `icon_incident_beacon` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-incident-beacon) | [Source](../../../assets/icons/devops/icon_incident_beacon.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_incident_beacon.svg) |
 | `icon_log_stream` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-log-stream) | [Source](../../../assets/icons/devops/icon_log_stream.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_log_stream.svg) |
@@ -35,6 +39,7 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 | `icon_runtime_pod` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-runtime-pod) | [Source](../../../assets/icons/devops/icon_runtime_pod.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_runtime_pod.svg) |
 | `icon_secret_vault` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion`, `security` | [Jump](#icon-secret-vault) | [Source](../../../assets/icons/devops/icon_secret_vault.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_secret_vault.svg) |
 | `icon_slo_gauge` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-slo-gauge) | [Source](../../../assets/icons/devops/icon_slo_gauge.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_slo_gauge.svg) |
+| `icon_terraform_state_dag` | Animated | `animated`, `devops`, `icon`, `infrastructure`, `motion` | [Jump](#icon-terraform-state-dag) | [Source](../../../assets/icons/devops/icon_terraform_state_dag.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_terraform_state_dag.svg) |
 
 ## Visual previews
 
@@ -73,6 +78,78 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-autoscale-loop`
 - [Source file](../../../assets/icons/devops/icon_autoscale_loop.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_autoscale_loop.svg)
+
+<a id="icon-canary-traffic-dial"></a>
+
+## icon_canary_traffic_dial
+
+[![icon_canary_traffic_dial](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_canary_traffic_dial.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_canary_traffic_dial](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_canary_traffic_dial.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_canary_traffic_dial.svg" alt="icon_canary_traffic_dial" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `devops`, `icon`, `infrastructure`, `motion`
+- Anchor: `#icon-canary-traffic-dial`
+- [Source file](../../../assets/icons/devops/icon_canary_traffic_dial.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_canary_traffic_dial.svg)
+
+<a id="icon-chaos-fault-injector"></a>
+
+## icon_chaos_fault_injector
+
+[![icon_chaos_fault_injector](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_chaos_fault_injector.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_chaos_fault_injector](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_chaos_fault_injector.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_chaos_fault_injector.svg" alt="icon_chaos_fault_injector" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `devops`, `icon`, `infrastructure`, `motion`
+- Anchor: `#icon-chaos-fault-injector`
+- [Source file](../../../assets/icons/devops/icon_chaos_fault_injector.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_chaos_fault_injector.svg)
 
 <a id="icon-cluster-nodes"></a>
 
@@ -182,6 +259,42 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - [Source file](../../../assets/icons/devops/icon_edge_region.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_edge_region.svg)
 
+<a id="icon-ephemeral-runner-pod"></a>
+
+## icon_ephemeral_runner_pod
+
+[![icon_ephemeral_runner_pod](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_ephemeral_runner_pod.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_ephemeral_runner_pod](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_ephemeral_runner_pod.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_ephemeral_runner_pod.svg" alt="icon_ephemeral_runner_pod" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `devops`, `icon`, `infrastructure`, `motion`
+- Anchor: `#icon-ephemeral-runner-pod`
+- [Source file](../../../assets/icons/devops/icon_ephemeral_runner_pod.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_ephemeral_runner_pod.svg)
+
 <a id="icon-expanding-signal-grid"></a>
 
 ## icon_expanding_signal_grid
@@ -217,6 +330,42 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-expanding-signal-grid`
 - [Source file](../../../assets/icons/devops/icon_expanding_signal_grid.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_expanding_signal_grid.svg)
+
+<a id="icon-gitops-reconcile-loop"></a>
+
+## icon_gitops_reconcile_loop
+
+[![icon_gitops_reconcile_loop](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_gitops_reconcile_loop.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_gitops_reconcile_loop](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_gitops_reconcile_loop.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_gitops_reconcile_loop.svg" alt="icon_gitops_reconcile_loop" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `devops`, `icon`, `infrastructure`, `motion`
+- Anchor: `#icon-gitops-reconcile-loop`
+- [Source file](../../../assets/icons/devops/icon_gitops_reconcile_loop.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_gitops_reconcile_loop.svg)
 
 <a id="icon-heartbeat-node"></a>
 
@@ -577,3 +726,39 @@ Top tags: `animated` (15), `devops` (15), `icon` (15), `infrastructure` (15), `m
 - Anchor: `#icon-slo-gauge`
 - [Source file](../../../assets/icons/devops/icon_slo_gauge.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_slo_gauge.svg)
+
+<a id="icon-terraform-state-dag"></a>
+
+## icon_terraform_state_dag
+
+[![icon_terraform_state_dag](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_terraform_state_dag.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_terraform_state_dag](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_terraform_state_dag.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_terraform_state_dag.svg" alt="icon_terraform_state_dag" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `devops`, `icon`, `infrastructure`, `motion`
+- Anchor: `#icon-terraform-state-dag`
+- [Source file](../../../assets/icons/devops/icon_terraform_state_dag.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/devops/icon_terraform_state_dag.svg)

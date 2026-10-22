@@ -33,6 +33,34 @@
           "path": "assets/dividers/static/divider_minimal_clean.svg",
           "purpose": "Quiet academic divider.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_evaluation_benchmark_arena.svg",
+          "path": "assets/isometric/ai-systems/isometric_evaluation_benchmark_arena.svg",
+          "purpose": "3D LLM evaluation benchmark and rubric pyramid.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "file_header_benchmark_reproducibility.svg",
+          "path": "assets/file_headers/file_header_benchmark_reproducibility.svg",
+          "purpose": "Reproducible harness and benchmark header.",
+          "section": "File header"
+        },
+        {
+          "exists": true,
+          "label": "chart_vector_recall_vs_latency_curve.svg",
+          "path": "assets/charts/line/chart_vector_recall_vs_latency_curve.svg",
+          "purpose": "ANN recall versus latency benchmark curve.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "card_applied_ai_research_group.svg",
+          "path": "assets/cards/team/card_applied_ai_research_group.svg",
+          "purpose": "Applied AI evaluation and alignment lab card.",
+          "section": "Card"
         }
       ],
       "bestFor": "Papers, reproducibility packages, labs, and benchmark repos",
@@ -176,6 +204,34 @@
           "path": "assets/dividers/animated/lines/divider_neural_pulse.svg",
           "purpose": "Separates research sections without feeling generic.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_transformer_attention_stack.svg",
+          "path": "assets/isometric/ai-systems/isometric_transformer_attention_stack.svg",
+          "purpose": "3D multi-head attention and QKV projection reactor.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "diagram_hybrid_rag_reranker_flow.svg",
+          "path": "assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg",
+          "purpose": "Animated hybrid RAG and cross-encoder reranking flow.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "chart_model_eval_capability_axes.svg",
+          "path": "assets/charts/radar/chart_model_eval_capability_axes.svg",
+          "purpose": "Multi-axis LLM evaluation capability radar.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "card_gpu_tensor_utilization_index.svg",
+          "path": "assets/cards/metrics/card_gpu_tensor_utilization_index.svg",
+          "purpose": "High-water FP8 tensor duty cycle metric card.",
+          "section": "Card"
         }
       ],
       "bestFor": "ML, AI, data, and research projects",
@@ -304,6 +360,34 @@
           "path": "assets/dividers/animated/unique_effects/divider_quantum_lattice.svg",
           "purpose": "Advanced visual separator.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_multimodal_vision_language_stack.svg",
+          "path": "assets/isometric/ai-systems/isometric_multimodal_vision_language_stack.svg",
+          "purpose": "Animated 3D multimodal vision-language projection stack.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "icon_axonometric_crystal_prism.svg",
+          "path": "assets/icons/decorative/icon_axonometric_crystal_prism.svg",
+          "purpose": "Animated axonometric crystal prism icon.",
+          "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "divider_tesseract_projection_axis.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_tesseract_projection_axis.svg",
+          "purpose": "Tesseract projection axis animated divider.",
+          "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "loading_quantum_qubit_entangler.svg",
+          "path": "assets/loadings/loading_quantum_qubit_entangler.svg",
+          "purpose": "Quantum qubit entangler animated loader.",
+          "section": "Loading"
         }
       ],
       "bestFor": "Generative tools, visual systems, experiments, and interactive demos",
@@ -433,6 +517,34 @@
           "label": "divider_moving_neon_gradient.svg",
           "path": "assets/dividers/animated/lines/divider_moving_neon_gradient.svg",
           "purpose": "Adds controlled neon motion.",
+          "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_ebpf_runtime_syscall_sentinel.svg",
+          "path": "assets/isometric/security-zero-trust/isometric_ebpf_runtime_syscall_sentinel.svg",
+          "purpose": "Animated 3D eBPF kernel syscall security terraces.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "header_ebpf_kernel_packet_inspector.svg",
+          "path": "assets/headers/animated/header_ebpf_kernel_packet_inspector.svg",
+          "purpose": "High-energy XDP wire-speed packet inspector header.",
+          "section": "Header"
+        },
+        {
+          "exists": true,
+          "label": "diagram_ebpf_xdp_ddos_mitigator.svg",
+          "path": "assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg",
+          "purpose": "Animated eBPF XDP packet scrubber topology.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "divider_cybernetic_logic_chevron.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_cybernetic_logic_chevron.svg",
+          "purpose": "Neon cybernetic logic gate divider.",
           "section": "Divider"
         }
       ],
@@ -576,6 +688,34 @@
           "path": "assets/dividers/animated/lines/divider_data_flow.svg",
           "purpose": "Reinforces movement through a pipeline.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_lakehouse_medallion_tiers.svg",
+          "path": "assets/isometric/data-pipelines/isometric_lakehouse_medallion_tiers.svg",
+          "purpose": "3D Bronze, Silver, and Gold medallion lakehouse terraces.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "diagram_medallion_lakehouse_curation.svg",
+          "path": "assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg",
+          "purpose": "Animated medallion lakehouse curation pipeline.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "chart_streaming_ingest_backlog.svg",
+          "path": "assets/charts/area/chart_streaming_ingest_backlog.svg",
+          "purpose": "Streaming ingest backlog and throughput curve.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "card_s3_parquet_iceberg_catalog.svg",
+          "path": "assets/cards/integrations/card_s3_parquet_iceberg_catalog.svg",
+          "purpose": "ACID Iceberg table snapshot integration card.",
+          "section": "Card"
         }
       ],
       "bestFor": "Analytics, notebooks, pipelines, and research datasets",
@@ -705,6 +845,34 @@
           "path": "assets/dividers/animated/lines/divider_data_flow.svg",
           "purpose": "Flow-oriented section breaks.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_lsp_ast_analysis_engine.svg",
+          "path": "assets/isometric/developer-workstations/isometric_lsp_ast_analysis_engine.svg",
+          "purpose": "Animated 3D incremental AST and LSP engine.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "header_developer_platform_golden_path.svg",
+          "path": "assets/headers/animated/header_developer_platform_golden_path.svg",
+          "purpose": "Self-service developer platform golden-path header.",
+          "section": "Header"
+        },
+        {
+          "exists": true,
+          "label": "diagram_microkernel_wasm_plugin_bus.svg",
+          "path": "assets/diagrams/architecture/diagram_microkernel_wasm_plugin_bus.svg",
+          "purpose": "WASM plugin host bus architecture diagram.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "card_developer_experience_platform.svg",
+          "path": "assets/cards/team/card_developer_experience_platform.svg",
+          "purpose": "Developer experience and SDK ergonomics card.",
+          "section": "Card"
         }
       ],
       "bestFor": "SDKs, APIs, CLIs, integrations, and platform products",
@@ -847,6 +1015,34 @@
           "path": "assets/dividers/static/divider_minimal_clean.svg",
           "purpose": "Keeps sections separated cleanly.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_docs_static_site_compiler.svg",
+          "path": "assets/isometric/developer-workstations/isometric_docs_static_site_compiler.svg",
+          "purpose": "3D MDX documentation compiler and search index grid.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "file_header_architecture_decisions.svg",
+          "path": "assets/file_headers/file_header_architecture_decisions.svg",
+          "purpose": "Animated ADR documentation header.",
+          "section": "File header"
+        },
+        {
+          "exists": true,
+          "label": "card_documentation_ux_editorial.svg",
+          "path": "assets/cards/team/card_documentation_ux_editorial.svg",
+          "purpose": "Editorial and API reference stewardship card.",
+          "section": "Card"
+        },
+        {
+          "exists": true,
+          "label": "icon_command_palette_trigger.svg",
+          "path": "assets/icons/ui/icon_command_palette_trigger.svg",
+          "purpose": "Quick-jump command palette navigation icon.",
+          "section": "Icon"
         }
       ],
       "bestFor": "Documentation sites, SDK guides, and API references",
@@ -991,6 +1187,34 @@
           "path": "assets/dividers/static/divider_two_beam_lines.svg",
           "purpose": "Separates sections without adding drama.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_multi_tenant_cell_isolation.svg",
+          "path": "assets/isometric/platform-architecture/isometric_multi_tenant_cell_isolation.svg",
+          "purpose": "3D stamp-based multi-tenant cell isolation architecture.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "diagram_cell_based_tenant_isolation.svg",
+          "path": "assets/diagrams/architecture/diagram_cell_based_tenant_isolation.svg",
+          "purpose": "Animated cell-router blast-radius containment diagram.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "chart_slo_availability_burn_gauge.svg",
+          "path": "assets/charts/gauge/chart_slo_availability_burn_gauge.svg",
+          "purpose": "Production SLO availability reserve gauge.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "card_multi_tenant_quota_governor.svg",
+          "path": "assets/cards/features/card_multi_tenant_quota_governor.svg",
+          "purpose": "Per-organization quota governance card.",
+          "section": "Card"
         }
       ],
       "bestFor": "SaaS platforms, internal tools, and production systems",
@@ -1120,6 +1344,34 @@
           "path": "assets/dividers/static/divider_center_diamond.svg",
           "purpose": "Classic product separator.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_usage_metering_aggregation_pipe.svg",
+          "path": "assets/isometric/platform-architecture/isometric_usage_metering_aggregation_pipe.svg",
+          "purpose": "3D usage-based billing and metering ring.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "header_feature_flag_experimentation_lab.svg",
+          "path": "assets/headers/animated/header_feature_flag_experimentation_lab.svg",
+          "purpose": "Cohort bucketing and experimentation header.",
+          "section": "Header"
+        },
+        {
+          "exists": true,
+          "label": "card_deployment_frequency_velocity.svg",
+          "path": "assets/cards/metrics/card_deployment_frequency_velocity.svg",
+          "purpose": "Elite delivery cadence and velocity card.",
+          "section": "Card"
+        },
+        {
+          "exists": true,
+          "label": "chart_compute_cost_attribution_ring.svg",
+          "path": "assets/charts/donut/chart_compute_cost_attribution_ring.svg",
+          "purpose": "Unit economics and compute cost attribution chart.",
+          "section": "Chart"
         }
       ],
       "bestFor": "Launch pages, early products, demos, and business-facing projects",
@@ -1252,6 +1504,34 @@
           "path": "assets/dividers/animated/lines/divider_pulse_node_chain.svg",
           "purpose": "Node-chain section movement.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_multi_region_active_cluster.svg",
+          "path": "assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg",
+          "purpose": "Animated 3D multi-region active cloud cluster.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "isometric_geo_distributed_active_mesh.svg",
+          "path": "assets/isometric/cloud-topology/isometric_geo_distributed_active_mesh.svg",
+          "purpose": "Animated 3D geo-distributed anycast cloud mesh.",
+          "section": "Isometric mesh"
+        },
+        {
+          "exists": true,
+          "label": "diagram_gitops_pull_reconciliation.svg",
+          "path": "assets/diagrams/deployment/diagram_gitops_pull_reconciliation.svg",
+          "purpose": "GitOps pull reconciliation control loop.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "card_declarative_iac_drift_scanner.svg",
+          "path": "assets/cards/projects/card_declarative_iac_drift_scanner.svg",
+          "purpose": "Cloud drift reconciler project card.",
+          "section": "Card"
         }
       ],
       "bestFor": "Infrastructure, clusters, IaC, platform ops, and deployment systems",
@@ -1383,6 +1663,34 @@
           "path": "assets/dividers/animated/unique_effects/divider_portal_breach.svg",
           "purpose": "Expressive demo separator.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_wasm_browser_playground_bridge.svg",
+          "path": "assets/isometric/developer-workstations/isometric_wasm_browser_playground_bridge.svg",
+          "purpose": "Animated 3D in-browser WASM sandbox playground.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "header_wasm_edge_compute_workers.svg",
+          "path": "assets/headers/animated/header_wasm_edge_compute_workers.svg",
+          "purpose": "Sub-millisecond WebAssembly edge workers header.",
+          "section": "Header"
+        },
+        {
+          "exists": true,
+          "label": "card_edge_wasm_isolate_runtime.svg",
+          "path": "assets/cards/features/card_edge_wasm_isolate_runtime.svg",
+          "purpose": "Edge WASM isolate cold-start card.",
+          "section": "Card"
+        },
+        {
+          "exists": true,
+          "label": "loading_wasm_isolate_coldboot.svg",
+          "path": "assets/loadings/loading_wasm_isolate_coldboot.svg",
+          "purpose": "Animated WASM isolate cold-boot indicator.",
+          "section": "Loading"
         }
       ],
       "bestFor": "Demos, prototypes, examples, launches, and product walkthroughs",
@@ -1527,6 +1835,34 @@
           "path": "assets/icons/core/icon_docs.svg",
           "purpose": "Marks documentation, guides, and API reference sections.",
           "section": "Icon"
+        },
+        {
+          "exists": true,
+          "label": "isometric_hexagonal_ports_adapters.svg",
+          "path": "assets/isometric/platform-architecture/isometric_hexagonal_ports_adapters.svg",
+          "purpose": "Clean 3D hexagonal ports-and-adapters core.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "card_release_general_availability_v3.svg",
+          "path": "assets/cards/releases/card_release_general_availability_v3.svg",
+          "purpose": "Compact GA release highlight card.",
+          "section": "Release card"
+        },
+        {
+          "exists": true,
+          "label": "chart_build_cache_hit_sparkline.svg",
+          "path": "assets/charts/sparkline/chart_build_cache_hit_sparkline.svg",
+          "purpose": "Lightweight build cache hit trend.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "loading_ast_type_inferencer.svg",
+          "path": "assets/loadings/loading_ast_type_inferencer.svg",
+          "purpose": "Subtle type-check status indicator.",
+          "section": "Loading"
         }
       ],
       "bestFor": "Libraries, SDKs, and polished utilities",
@@ -1655,6 +1991,34 @@
           "path": "assets/dividers/static/divider_center_diamond.svg",
           "purpose": "Neutral shared divider.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_release_approval_gates.svg",
+          "path": "assets/isometric/ci-cd-devops/isometric_release_approval_gates.svg",
+          "purpose": "3D multi-tier release governance and sign-off pyramid.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "file_header_open_source_maintainers.svg",
+          "path": "assets/file_headers/file_header_open_source_maintainers.svg",
+          "purpose": "Code owners and maintainer stewardship header.",
+          "section": "File header"
+        },
+        {
+          "exists": true,
+          "label": "card_core_architecture_council.svg",
+          "path": "assets/cards/team/card_core_architecture_council.svg",
+          "purpose": "RFC design stewardship and ADR council card.",
+          "section": "Card"
+        },
+        {
+          "exists": true,
+          "label": "diagram_sbom_slsa_provenance_verifier.svg",
+          "path": "assets/diagrams/security/diagram_sbom_slsa_provenance_verifier.svg",
+          "purpose": "SLSA provenance and SBOM attestation diagram.",
+          "section": "Diagram"
         }
       ],
       "bestFor": "Community projects, foundations, standards, and public roadmaps",
@@ -1798,6 +2162,34 @@
           "path": "assets/dividers/static/divider_center_diamond.svg",
           "purpose": "Classic separator without heavy identity.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_cross_target_sdk_generator.svg",
+          "path": "assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg",
+          "purpose": "3D multi-language SDK codegen cascade.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "header_cross_platform_sdk_toolchain.svg",
+          "path": "assets/headers/animated/header_cross_platform_sdk_toolchain.svg",
+          "purpose": "Cross-platform SDK toolchain animated header.",
+          "section": "Header"
+        },
+        {
+          "exists": true,
+          "label": "card_open_source_community_triage.svg",
+          "path": "assets/cards/team/card_open_source_community_triage.svg",
+          "purpose": "OSS maintainer triage and contributor onboarding card.",
+          "section": "Card"
+        },
+        {
+          "exists": true,
+          "label": "chart_test_pyramid_suite_coverage.svg",
+          "path": "assets/charts/donut/chart_test_pyramid_suite_coverage.svg",
+          "purpose": "Test pyramid suite coverage breakdown ring.",
+          "section": "Chart"
         }
       ],
       "bestFor": "Community libraries, frameworks, and starter kits",
@@ -1928,6 +2320,34 @@
           "path": "assets/dividers/animated/unique_effects/divider_celestial_gate.svg",
           "purpose": "Selective expressive separator.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_cloud_cde_remote_dev_workspace.svg",
+          "path": "assets/isometric/developer-workstations/isometric_cloud_cde_remote_dev_workspace.svg",
+          "purpose": "Animated 3D cloud development workstation hub.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "card_local_first_crdt_sync_sdk.svg",
+          "path": "assets/cards/projects/card_local_first_crdt_sync_sdk.svg",
+          "purpose": "Local-first CRDT sync engine showcase card.",
+          "section": "Card"
+        },
+        {
+          "exists": true,
+          "label": "chart_dx_toolchain_ergonomics_radar.svg",
+          "path": "assets/charts/radar/chart_dx_toolchain_ergonomics_radar.svg",
+          "purpose": "Developer toolchain ergonomics radar.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "divider_crystalline_lattice_seam.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg",
+          "purpose": "Crystalline lattice section divider.",
+          "section": "Divider"
         }
       ],
       "bestFor": "Personal profiles, portfolios, case studies, and creative engineering",
@@ -2057,6 +2477,34 @@
           "path": "assets/dividers/static/divider_hex_tech.svg",
           "purpose": "Structured trust separator.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_differential_privacy_noise_stack.svg",
+          "path": "assets/isometric/security-zero-trust/isometric_differential_privacy_noise_stack.svg",
+          "purpose": "Animated 3D differential privacy query and noise stack.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "isometric_policy_driven_data_residency_stack.svg",
+          "path": "assets/isometric/platform-architecture/isometric_policy_driven_data_residency_stack.svg",
+          "purpose": "3D sovereign data residency control planes.",
+          "section": "Isometric residency"
+        },
+        {
+          "exists": true,
+          "label": "file_header_compliance_audit_controls.svg",
+          "path": "assets/file_headers/file_header_compliance_audit_controls.svg",
+          "purpose": "SOC2 and ISO27001 evidence map header.",
+          "section": "File header"
+        },
+        {
+          "exists": true,
+          "label": "diagram_kms_envelope_encryption_hierarchy.svg",
+          "path": "assets/diagrams/security/diagram_kms_envelope_encryption_hierarchy.svg",
+          "purpose": "KMS envelope encryption hierarchy diagram.",
+          "section": "Diagram"
         }
       ],
       "bestFor": "Privacy tooling, compliance programs, policy docs, and data-boundary projects",
@@ -2188,6 +2636,34 @@
           "path": "assets/dividers/static/divider_two_beam_lines.svg",
           "purpose": "Quiet production separators.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_slo_error_budget_reactor.svg",
+          "path": "assets/isometric/observability-sre/isometric_slo_error_budget_reactor.svg",
+          "purpose": "Animated 3D SLO error-budget burn reactor.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "diagram_progressive_canary_flagger.svg",
+          "path": "assets/diagrams/deployment/diagram_progressive_canary_flagger.svg",
+          "purpose": "Progressive canary rollout and auto-rollback gate.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "chart_regional_api_latency_matrix.svg",
+          "path": "assets/charts/heatmap/chart_regional_api_latency_matrix.svg",
+          "purpose": "Regional API latency matrix heatmap.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "card_mean_time_to_recovery_slo.svg",
+          "path": "assets/cards/metrics/card_mean_time_to_recovery_slo.svg",
+          "purpose": "MTTR automated fault isolation metric card.",
+          "section": "Card"
         }
       ],
       "bestFor": "SRE, uptime, incident, and production readiness READMEs",
@@ -2331,6 +2807,34 @@
           "path": "assets/dividers/animated/lines/divider_scanning_radar.svg",
           "purpose": "Adds motion that fits scanning workflows.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_zero_trust_microsegmentation.svg",
+          "path": "assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg",
+          "purpose": "Animated 3D zero-trust identity perimeter and policy broker.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "diagram_spiffe_spire_mtls_rotation.svg",
+          "path": "assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg",
+          "purpose": "Short-lived SPIFFE X.509 SVID rotation diagram.",
+          "section": "Diagram"
+        },
+        {
+          "exists": true,
+          "label": "chart_security_defense_in_depth_radar.svg",
+          "path": "assets/charts/radar/chart_security_defense_in_depth_radar.svg",
+          "purpose": "Defense-in-depth security posture radar.",
+          "section": "Chart"
+        },
+        {
+          "exists": true,
+          "label": "card_cryptographic_audit_provenance.svg",
+          "path": "assets/cards/features/card_cryptographic_audit_provenance.svg",
+          "purpose": "Tamper-evident Merkle audit log card.",
+          "section": "Card"
         }
       ],
       "bestFor": "Security tools, scanners, policies, and incident workflows",
@@ -2474,6 +2978,34 @@
           "path": "assets/dividers/static/divider_dash_terminal.svg",
           "purpose": "Separates command sections without visual noise.",
           "section": "Divider"
+        },
+        {
+          "exists": true,
+          "label": "isometric_cli_command_execution_deck.svg",
+          "path": "assets/isometric/developer-workstations/isometric_cli_command_execution_deck.svg",
+          "purpose": "3D POSIX CLI command execution terraces.",
+          "section": "Isometric 3D"
+        },
+        {
+          "exists": true,
+          "label": "file_header_local_devcontainer_setup.svg",
+          "path": "assets/file_headers/file_header_local_devcontainer_setup.svg",
+          "purpose": "Hermetic workspace and CLI setup banner.",
+          "section": "File header"
+        },
+        {
+          "exists": true,
+          "label": "card_zero_copy_serialization.svg",
+          "path": "assets/cards/features/card_zero_copy_serialization.svg",
+          "purpose": "Wire-speed binary framing feature card.",
+          "section": "Card"
+        },
+        {
+          "exists": true,
+          "label": "loading_devcontainer_layer_puller.svg",
+          "path": "assets/loadings/loading_devcontainer_layer_puller.svg",
+          "purpose": "Animated container layer pull indicator.",
+          "section": "Loading"
         }
       ],
       "bestFor": "CLI tools and automation workflows",

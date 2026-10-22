@@ -1,0 +1,19 @@
+THIRD-PARTY SOFTWARE AND ASSET NOTICES FOR README-UX-KIT
+========================================================
+
+1. First-Party Code and SVG Catalog
+   License: MIT License (SPDX-License-Identifier: MIT)
+   Copyright (c) 2026 Hirad Emamialagha
+
+2. Derived File Header SVGs (9 assets under assets/file_headers/)
+   Upstream Source: https://github.com/OstinUA/Promt-AI-Helper
+   Upstream License: The Unlicense (Public Domain Dedication)
+   Details: See docs/THIRD_PARTY.md and assets/provenance.json
+
+3. Optional Local Studio & Release Tooling Dependencies
+   - FastAPI (>=0.116.0) - MIT License
+   - Uvicorn (>=0.35.0) - BSD-3-Clause License
+   - Pillow (>=11.0.0) - MIT-CMU License
+   - Playwright (>=1.46.0) - Apache-2.0 License
+   - tzdata (>=2026.3) - Apache-2.0 License
+   - semantic-release and plugins (^25.0.3) - MIT License

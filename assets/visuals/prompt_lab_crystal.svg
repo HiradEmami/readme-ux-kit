@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Prompt lab crystal visual">
-  <title>Prompt Lab Crystal</title>
-  <desc>An animated README SVG asset illustrating Prompt Lab Crystal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Prompt lab crystal visual" aria-labelledby="prompt_lab_crystal-title prompt_lab_crystal-desc">
+  <title id="prompt_lab_crystal-title">Prompt Lab Crystal</title>
+  <desc id="prompt_lab_crystal-desc">An animated README SVG asset illustrating Prompt Lab Crystal.</desc>
   <defs>
     <radialGradient id="prompt-bg" cx="50%" cy="45%" r="76%">
       <stop offset="0%" stop-color="#111827"/>

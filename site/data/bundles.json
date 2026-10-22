@@ -1,11 +1,47 @@
 {
-  "bundleCount": 8,
+  "bundleCount": 9,
   "bundles": [
     {
       "containsTemplatePlaceholders": true,
       "id": "polished-library",
       "lineCount": 74,
-      "links": [],
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "header_minimal_lux.svg",
+          "path": "assets/headers/static/header_minimal_lux.svg",
+          "target": "../assets/headers/static/header_minimal_lux.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "header_cross_platform_sdk_toolchain.svg",
+          "path": "assets/headers/animated/header_cross_platform_sdk_toolchain.svg",
+          "target": "../assets/headers/animated/header_cross_platform_sdk_toolchain.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "card_release_general_availability_v3.svg",
+          "path": "assets/cards/releases/card_release_general_availability_v3.svg",
+          "target": "../assets/cards/releases/card_release_general_availability_v3.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_cross_target_sdk_generator.svg",
+          "path": "assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg",
+          "target": "../assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "divider_minimal_clean.svg",
+          "path": "assets/dividers/static/divider_minimal_clean.svg",
+          "target": "../assets/dividers/static/divider_minimal_clean.svg"
+        }
+      ],
       "path": "docs/BUNDLES.md#polished-library",
       "summary": "Copy this for open-source libraries, SDKs, utilities, and developer tools.",
       "tags": [
@@ -29,7 +65,50 @@
       "containsTemplatePlaceholders": true,
       "id": "production-backend",
       "lineCount": 73,
-      "links": [],
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "banner_core_energy_pulse.svg",
+          "path": "assets/banners/energy/banner_core_energy_pulse.svg",
+          "target": "../assets/banners/energy/banner_core_energy_pulse.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "header_opentelemetry_sre_command.svg",
+          "path": "assets/headers/animated/header_opentelemetry_sre_command.svg",
+          "target": "../assets/headers/animated/header_opentelemetry_sre_command.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_cqrs_command_query_segregation.svg",
+          "path": "assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg",
+          "target": "../assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "diagram_hexagonal_domain_kernel.svg",
+          "path": "assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg",
+          "target": "../assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "chart_slo_availability_burn_gauge.svg",
+          "path": "assets/charts/gauge/chart_slo_availability_burn_gauge.svg",
+          "target": "../assets/charts/gauge/chart_slo_availability_burn_gauge.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "reliability_control_room.svg",
+          "path": "assets/visuals/reliability_control_room.svg",
+          "target": "../assets/visuals/reliability_control_room.svg"
+        }
+      ],
       "path": "docs/BUNDLES.md#production-backend",
       "summary": "Copy this for APIs, workers, internal services, and production-facing platform components.",
       "tags": [
@@ -53,7 +132,50 @@
       "containsTemplatePlaceholders": true,
       "id": "ml-experiment-kit",
       "lineCount": 76,
-      "links": [],
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "evaluation_lens_matrix.svg",
+          "path": "assets/visuals/evaluation_lens_matrix.svg",
+          "target": "../assets/visuals/evaluation_lens_matrix.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "header_high_frequency_tensor_runtime.svg",
+          "path": "assets/headers/animated/header_high_frequency_tensor_runtime.svg",
+          "target": "../assets/headers/animated/header_high_frequency_tensor_runtime.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_transformer_attention_stack.svg",
+          "path": "assets/isometric/ai-systems/isometric_transformer_attention_stack.svg",
+          "target": "../assets/isometric/ai-systems/isometric_transformer_attention_stack.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "diagram_hybrid_rag_reranker_flow.svg",
+          "path": "assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg",
+          "target": "../assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "chart_model_eval_capability_axes.svg",
+          "path": "assets/charts/radar/chart_model_eval_capability_axes.svg",
+          "target": "../assets/charts/radar/chart_model_eval_capability_axes.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "card_gpu_tensor_utilization_index.svg",
+          "path": "assets/cards/metrics/card_gpu_tensor_utilization_index.svg",
+          "target": "../assets/cards/metrics/card_gpu_tensor_utilization_index.svg"
+        }
+      ],
       "path": "docs/BUNDLES.md#ml-experiment-kit",
       "summary": "Copy this for model repositories, evaluation harnesses, dataset projects, and reproducible research.",
       "tags": [
@@ -79,7 +201,36 @@
       "containsTemplatePlaceholders": true,
       "id": "github-profile",
       "lineCount": 37,
-      "links": [],
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "four_pillars.svg",
+          "path": "assets/personal/four_pillars.svg",
+          "target": "../assets/personal/four_pillars.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_devcontainer_workspace_pod.svg",
+          "path": "assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg",
+          "target": "../assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "card_local_first_crdt_sync_sdk.svg",
+          "path": "assets/cards/projects/card_local_first_crdt_sync_sdk.svg",
+          "target": "../assets/cards/projects/card_local_first_crdt_sync_sdk.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "divider_crystalline_lattice_seam.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg",
+          "target": "../assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg"
+        }
+      ],
       "path": "docs/BUNDLES.md#github-profile",
       "summary": "Copy this for profile READMEs and personal portfolio repositories.",
       "tags": [
@@ -100,7 +251,43 @@
       "containsTemplatePlaceholders": false,
       "id": "security-tool",
       "lineCount": 45,
-      "links": [],
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "privacy_vault_shield.svg",
+          "path": "assets/visuals/privacy_vault_shield.svg",
+          "target": "../assets/visuals/privacy_vault_shield.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "file_header_threat_modeling_matrix.svg",
+          "path": "assets/file_headers/file_header_threat_modeling_matrix.svg",
+          "target": "../assets/file_headers/file_header_threat_modeling_matrix.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_zero_trust_microsegmentation.svg",
+          "path": "assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg",
+          "target": "../assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "diagram_spiffe_spire_mtls_rotation.svg",
+          "path": "assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg",
+          "target": "../assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "chart_security_defense_in_depth_radar.svg",
+          "path": "assets/charts/radar/chart_security_defense_in_depth_radar.svg",
+          "target": "../assets/charts/radar/chart_security_defense_in_depth_radar.svg"
+        }
+      ],
       "path": "docs/BUNDLES.md#security-tool",
       "summary": "Copy this for scanners, policy tooling, audit utilities, and incident-response projects.",
       "tags": [
@@ -125,7 +312,36 @@
       "containsTemplatePlaceholders": false,
       "id": "research-paper-repo",
       "lineCount": 47,
-      "links": [],
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "knowledge_graph_core.svg",
+          "path": "assets/visuals/knowledge_graph_core.svg",
+          "target": "../assets/visuals/knowledge_graph_core.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "file_header_benchmark_reproducibility.svg",
+          "path": "assets/file_headers/file_header_benchmark_reproducibility.svg",
+          "target": "../assets/file_headers/file_header_benchmark_reproducibility.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_evaluation_benchmark_arena.svg",
+          "path": "assets/isometric/ai-systems/isometric_evaluation_benchmark_arena.svg",
+          "target": "../assets/isometric/ai-systems/isometric_evaluation_benchmark_arena.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "chart_vector_recall_vs_latency_curve.svg",
+          "path": "assets/charts/line/chart_vector_recall_vs_latency_curve.svg",
+          "target": "../assets/charts/line/chart_vector_recall_vs_latency_curve.svg"
+        }
+      ],
       "path": "docs/BUNDLES.md#research-paper-repo",
       "summary": "Copy this for paper companion repositories and reproducibility packages.",
       "tags": [
@@ -147,7 +363,36 @@
       "containsTemplatePlaceholders": false,
       "id": "documentation-site-repo",
       "lineCount": 39,
-      "links": [],
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "readme_neon_scan.svg",
+          "path": "assets/file_headers/readme_neon_scan.svg",
+          "target": "../assets/file_headers/readme_neon_scan.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "file_header_architecture_decisions.svg",
+          "path": "assets/file_headers/file_header_architecture_decisions.svg",
+          "target": "../assets/file_headers/file_header_architecture_decisions.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_docs_static_site_compiler.svg",
+          "path": "assets/isometric/developer-workstations/isometric_docs_static_site_compiler.svg",
+          "target": "../assets/isometric/developer-workstations/isometric_docs_static_site_compiler.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "card_documentation_ux_editorial.svg",
+          "path": "assets/cards/team/card_documentation_ux_editorial.svg",
+          "target": "../assets/cards/team/card_documentation_ux_editorial.svg"
+        }
+      ],
       "path": "docs/BUNDLES.md#documentation-site-repo",
       "summary": "Copy this for documentation portals, guide repositories, and examples-first projects.",
       "tags": [
@@ -166,6 +411,90 @@
         "this"
       ],
       "title": "Documentation Site Repo"
+    },
+    {
+      "containsTemplatePlaceholders": true,
+      "id": "cloud-and-distributed-systems",
+      "lineCount": 45,
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "header_distributed_cloud_mesh_fabric.svg",
+          "path": "assets/headers/animated/header_distributed_cloud_mesh_fabric.svg",
+          "target": "../assets/headers/animated/header_distributed_cloud_mesh_fabric.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_multi_region_active_cluster.svg",
+          "path": "assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg",
+          "target": "../assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "isometric_raft_consensus_quorum_ring.svg",
+          "path": "assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg",
+          "target": "../assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "diagram_multi_region_active_failover.svg",
+          "path": "assets/diagrams/deployment/diagram_multi_region_active_failover.svg",
+          "target": "../assets/diagrams/deployment/diagram_multi_region_active_failover.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "chart_regional_api_latency_matrix.svg",
+          "path": "assets/charts/heatmap/chart_regional_api_latency_matrix.svg",
+          "target": "../assets/charts/heatmap/chart_regional_api_latency_matrix.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "card_distributed_kv_consensus_engine.svg",
+          "path": "assets/cards/projects/card_distributed_kv_consensus_engine.svg",
+          "target": "../assets/cards/projects/card_distributed_kv_consensus_engine.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "divider_axonometric_grid_trace.svg",
+          "path": "assets/dividers/animated/lines/divider_axonometric_grid_trace.svg",
+          "target": "../assets/dividers/animated/lines/divider_axonometric_grid_trace.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "loading_raft_quorum_election.svg",
+          "path": "assets/loadings/loading_raft_quorum_election.svg",
+          "target": "../assets/loadings/loading_raft_quorum_election.svg"
+        }
+      ],
+      "path": "docs/BUNDLES.md#cloud-and-distributed-systems",
+      "summary": "Copy this for multi-region cloud infrastructure, Kubernetes operators, service meshes, and distributed storage engines.",
+      "tags": [
+        "and",
+        "cloud",
+        "copy",
+        "distributed",
+        "engines",
+        "for",
+        "infrastructure",
+        "kubernetes",
+        "meshes",
+        "multi",
+        "operators",
+        "region",
+        "service",
+        "storage",
+        "systems",
+        "this"
+      ],
+      "title": "Cloud and Distributed Systems"
     },
     {
       "containsTemplatePlaceholders": false,

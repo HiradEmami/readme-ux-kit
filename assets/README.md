@@ -15,6 +15,7 @@ Use the generated preview catalog first when browsing assets:
 - [Dividers](../previews/assets/dividers.md)
 - [Headers](../previews/assets/headers.md)
 - [Icons](../previews/assets/icons.md)
+- [Isometric](../previews/assets/isometric.md)
 - [Loadings](../previews/assets/loadings.md)
 - [Mockups](../previews/assets/mockups.md)
 - [File headers](../previews/assets/file_headers.md)
@@ -39,6 +40,7 @@ Use the generated preview catalog first when browsing assets:
 | `file_headers/` | Header graphics for repository files such as `README.md`, `SECURITY.md`, and `CHANGELOG.md`. | [Preview](../previews/assets/file_headers.md) |
 | `headers/` | Title and section header graphics. | [Preview](../previews/assets/headers.md) |
 | `icons/` | Small symbols for UI, status, data, development, effects, and navigation. | [Preview](../previews/assets/icons.md) |
+| `isometric/` | Deep 3D axonometric system illustrations across cloud, data, AI, DevOps, security, SRE, dev tooling, networking, storage, and platform architecture. | [Preview](../previews/assets/isometric.md) |
 | `loadings/` | Animated loading indicators and motion accents. | [Preview](../previews/assets/loadings.md) |
 | `mockups/` | Fictional browser, mobile, dashboard, API, documentation, and package interface previews. | [Preview](../previews/assets/mockups.md) |
 | `personal/` | Profile README, portfolio, and project-story visuals. | [Preview](../previews/assets/personal.md) |

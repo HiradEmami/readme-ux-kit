@@ -10,28 +10,71 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `diagrams`
 - Group: `network`
-- Asset count: 10
+- Asset count: 17
 - Best for: Network diagrams for gateways, meshes, routing, boundaries, balancing, and service connectivity.
 - Group tags: `diagram`, `infrastructure`, `network`
 
 ## Compact index
 
-Top tags: `architecture` (10), `diagram` (10), `infrastructure` (10), `network` (10), `static` (7), `animated` (3), `motion` (3), `api` (1), `navigation` (1)
+Top tags: `architecture` (17), `diagram` (17), `infrastructure` (17), `network` (17), `animated` (10), `motion` (10), `static` (7), `api` (1), `navigation` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
+| `diagram_anycast_bgp_ecmp_routing` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-anycast-bgp-ecmp-routing) | [Source](../../../assets/diagrams/network/diagram_anycast_bgp_ecmp_routing.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_anycast_bgp_ecmp_routing.svg) |
 | `diagram_api_gateway_routing` | Animated | `animated`, `api`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-api-gateway-routing) | [Source](../../../assets/diagrams/network/diagram_api_gateway_routing.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_api_gateway_routing.svg) |
 | `diagram_dns_resolution_chain` | Static or subtle motion | `architecture`, `diagram`, `infrastructure`, `network`, `static` | [Jump](#diagram-dns-resolution-chain) | [Source](../../../assets/diagrams/network/diagram_dns_resolution_chain.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_dns_resolution_chain.svg) |
+| `diagram_ebpf_xdp_ddos_mitigator` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-ebpf-xdp-ddos-mitigator) | [Source](../../../assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg) |
 | `diagram_edge_origin_route` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `navigation`, `network` | [Jump](#diagram-edge-origin-route) | [Source](../../../assets/diagrams/network/diagram_edge_origin_route.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_edge_origin_route.svg) |
+| `diagram_envoy_xds_sidecar_dataplane` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-envoy-xds-sidecar-dataplane) | [Source](../../../assets/diagrams/network/diagram_envoy_xds_sidecar_dataplane.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_envoy_xds_sidecar_dataplane.svg) |
+| `diagram_graphql_federated_supergraph` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-graphql-federated-supergraph) | [Source](../../../assets/diagrams/network/diagram_graphql_federated_supergraph.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_graphql_federated_supergraph.svg) |
+| `diagram_grpc_http2_stream_multiplex` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-grpc-http2-stream-multiplex) | [Source](../../../assets/diagrams/network/diagram_grpc_http2_stream_multiplex.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_grpc_http2_stream_multiplex.svg) |
 | `diagram_load_balancer_fanout` | Static or subtle motion | `architecture`, `diagram`, `infrastructure`, `network`, `static` | [Jump](#diagram-load-balancer-fanout) | [Source](../../../assets/diagrams/network/diagram_load_balancer_fanout.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_load_balancer_fanout.svg) |
 | `diagram_multi_zone_connectivity` | Static or subtle motion | `architecture`, `diagram`, `infrastructure`, `network`, `static` | [Jump](#diagram-multi-zone-connectivity) | [Source](../../../assets/diagrams/network/diagram_multi_zone_connectivity.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_multi_zone_connectivity.svg) |
 | `diagram_private_public_boundary` | Static or subtle motion | `architecture`, `diagram`, `infrastructure`, `network`, `static` | [Jump](#diagram-private-public-boundary) | [Source](../../../assets/diagrams/network/diagram_private_public_boundary.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_private_public_boundary.svg) |
 | `diagram_service_mesh_calls` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-service-mesh-calls) | [Source](../../../assets/diagrams/network/diagram_service_mesh_calls.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_service_mesh_calls.svg) |
 | `diagram_vpn_access_path` | Static or subtle motion | `architecture`, `diagram`, `infrastructure`, `network`, `static` | [Jump](#diagram-vpn-access-path) | [Source](../../../assets/diagrams/network/diagram_vpn_access_path.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_vpn_access_path.svg) |
 | `diagram_websocket_channel` | Static or subtle motion | `architecture`, `diagram`, `infrastructure`, `network`, `static` | [Jump](#diagram-websocket-channel) | [Source](../../../assets/diagrams/network/diagram_websocket_channel.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_websocket_channel.svg) |
+| `diagram_websocket_sharded_pubsub_hub` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-websocket-sharded-pubsub-hub) | [Source](../../../assets/diagrams/network/diagram_websocket_sharded_pubsub_hub.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_websocket_sharded_pubsub_hub.svg) |
+| `diagram_wireguard_cryptkey_mesh` | Animated | `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network` | [Jump](#diagram-wireguard-cryptkey-mesh) | [Source](../../../assets/diagrams/network/diagram_wireguard_cryptkey_mesh.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_wireguard_cryptkey_mesh.svg) |
 | `diagram_zero_trust_proxy` | Static or subtle motion | `architecture`, `diagram`, `infrastructure`, `network`, `static` | [Jump](#diagram-zero-trust-proxy) | [Source](../../../assets/diagrams/network/diagram_zero_trust_proxy.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_zero_trust_proxy.svg) |
 
 ## Visual previews
+
+<a id="diagram-anycast-bgp-ecmp-routing"></a>
+
+## diagram_anycast_bgp_ecmp_routing
+
+[![diagram_anycast_bgp_ecmp_routing](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_anycast_bgp_ecmp_routing.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_anycast_bgp_ecmp_routing](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_anycast_bgp_ecmp_routing.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_anycast_bgp_ecmp_routing.svg" alt="diagram_anycast_bgp_ecmp_routing" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network`
+- Anchor: `#diagram-anycast-bgp-ecmp-routing`
+- [Source file](../../../assets/diagrams/network/diagram_anycast_bgp_ecmp_routing.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_anycast_bgp_ecmp_routing.svg)
 
 <a id="diagram-api-gateway-routing"></a>
 
@@ -105,6 +148,42 @@ Top tags: `architecture` (10), `diagram` (10), `infrastructure` (10), `network` 
 - [Source file](../../../assets/diagrams/network/diagram_dns_resolution_chain.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_dns_resolution_chain.svg)
 
+<a id="diagram-ebpf-xdp-ddos-mitigator"></a>
+
+## diagram_ebpf_xdp_ddos_mitigator
+
+[![diagram_ebpf_xdp_ddos_mitigator](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_ebpf_xdp_ddos_mitigator](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg" alt="diagram_ebpf_xdp_ddos_mitigator" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network`
+- Anchor: `#diagram-ebpf-xdp-ddos-mitigator`
+- [Source file](../../../assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_ebpf_xdp_ddos_mitigator.svg)
+
 <a id="diagram-edge-origin-route"></a>
 
 ## diagram_edge_origin_route
@@ -140,6 +219,114 @@ Top tags: `architecture` (10), `diagram` (10), `infrastructure` (10), `network` 
 - Anchor: `#diagram-edge-origin-route`
 - [Source file](../../../assets/diagrams/network/diagram_edge_origin_route.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_edge_origin_route.svg)
+
+<a id="diagram-envoy-xds-sidecar-dataplane"></a>
+
+## diagram_envoy_xds_sidecar_dataplane
+
+[![diagram_envoy_xds_sidecar_dataplane](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_envoy_xds_sidecar_dataplane.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_envoy_xds_sidecar_dataplane](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_envoy_xds_sidecar_dataplane.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_envoy_xds_sidecar_dataplane.svg" alt="diagram_envoy_xds_sidecar_dataplane" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network`
+- Anchor: `#diagram-envoy-xds-sidecar-dataplane`
+- [Source file](../../../assets/diagrams/network/diagram_envoy_xds_sidecar_dataplane.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_envoy_xds_sidecar_dataplane.svg)
+
+<a id="diagram-graphql-federated-supergraph"></a>
+
+## diagram_graphql_federated_supergraph
+
+[![diagram_graphql_federated_supergraph](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_graphql_federated_supergraph.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_graphql_federated_supergraph](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_graphql_federated_supergraph.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_graphql_federated_supergraph.svg" alt="diagram_graphql_federated_supergraph" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network`
+- Anchor: `#diagram-graphql-federated-supergraph`
+- [Source file](../../../assets/diagrams/network/diagram_graphql_federated_supergraph.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_graphql_federated_supergraph.svg)
+
+<a id="diagram-grpc-http2-stream-multiplex"></a>
+
+## diagram_grpc_http2_stream_multiplex
+
+[![diagram_grpc_http2_stream_multiplex](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_grpc_http2_stream_multiplex.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_grpc_http2_stream_multiplex](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_grpc_http2_stream_multiplex.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_grpc_http2_stream_multiplex.svg" alt="diagram_grpc_http2_stream_multiplex" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network`
+- Anchor: `#diagram-grpc-http2-stream-multiplex`
+- [Source file](../../../assets/diagrams/network/diagram_grpc_http2_stream_multiplex.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_grpc_http2_stream_multiplex.svg)
 
 <a id="diagram-load-balancer-fanout"></a>
 
@@ -356,6 +543,78 @@ Top tags: `architecture` (10), `diagram` (10), `infrastructure` (10), `network` 
 - Anchor: `#diagram-websocket-channel`
 - [Source file](../../../assets/diagrams/network/diagram_websocket_channel.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_websocket_channel.svg)
+
+<a id="diagram-websocket-sharded-pubsub-hub"></a>
+
+## diagram_websocket_sharded_pubsub_hub
+
+[![diagram_websocket_sharded_pubsub_hub](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_websocket_sharded_pubsub_hub.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_websocket_sharded_pubsub_hub](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_websocket_sharded_pubsub_hub.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_websocket_sharded_pubsub_hub.svg" alt="diagram_websocket_sharded_pubsub_hub" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network`
+- Anchor: `#diagram-websocket-sharded-pubsub-hub`
+- [Source file](../../../assets/diagrams/network/diagram_websocket_sharded_pubsub_hub.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_websocket_sharded_pubsub_hub.svg)
+
+<a id="diagram-wireguard-cryptkey-mesh"></a>
+
+## diagram_wireguard_cryptkey_mesh
+
+[![diagram_wireguard_cryptkey_mesh](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_wireguard_cryptkey_mesh.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![diagram_wireguard_cryptkey_mesh](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_wireguard_cryptkey_mesh.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_wireguard_cryptkey_mesh.svg" alt="diagram_wireguard_cryptkey_mesh" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `diagram`, `infrastructure`, `motion`, `network`
+- Anchor: `#diagram-wireguard-cryptkey-mesh`
+- [Source file](../../../assets/diagrams/network/diagram_wireguard_cryptkey_mesh.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/network/diagram_wireguard_cryptkey_mesh.svg)
 
 <a id="diagram-zero-trust-proxy"></a>
 

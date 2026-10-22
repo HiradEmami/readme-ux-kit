@@ -8,6 +8,10 @@
 | Evaluation | [`icon_eval_harness.svg`](../../assets/icons/data-ai/icon_eval_harness.svg) | Marks benchmark and validation tables. |
 | Storage | [`icon_database_disk.svg`](../../assets/icons/objects/icon_database_disk.svg) | Works for warehouse or artifact sections. |
 | Divider | [`divider_data_flow.svg`](../../assets/dividers/animated/lines/divider_data_flow.svg) | Reinforces movement through a pipeline. |
+| Isometric 3D | [`isometric_lakehouse_medallion_tiers.svg`](../../assets/isometric/data-pipelines/isometric_lakehouse_medallion_tiers.svg) | 3D Bronze, Silver, and Gold medallion lakehouse terraces. |
+| Diagram | [`diagram_medallion_lakehouse_curation.svg`](../../assets/diagrams/data-flow/diagram_medallion_lakehouse_curation.svg) | Animated medallion lakehouse curation pipeline. |
+| Chart | [`chart_streaming_ingest_backlog.svg`](../../assets/charts/area/chart_streaming_ingest_backlog.svg) | Streaming ingest backlog and throughput curve. |
+| Card | [`card_s3_parquet_iceberg_catalog.svg`](../../assets/cards/integrations/card_s3_parquet_iceberg_catalog.svg) | ACID Iceberg table snapshot integration card. |
 
 ## Best Pairings
 

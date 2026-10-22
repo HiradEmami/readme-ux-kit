@@ -1,8 +1,10 @@
 from pathlib import Path
 import argparse
+import ipaddress
 import json
 import re
 import subprocess
+from urllib.parse import urlparse
 
 from src.modules.common.repo import load_json, rel_path, repo_root
 from src.modules.editor.svg_editor import apply_operations
@@ -22,6 +24,117 @@ from src.modules.reports.quality_report import build_quality_report
 
 
 SAFE_FILE_RE = re.compile(r"[^A-Za-z0-9._-]+")
+SAFE_RASTER_DATA_URI_RE = re.compile(r"^data:image/(?:png|jpeg|jpg|webp|gif);base64,[A-Za-z0-9+/=]+$", re.IGNORECASE)
+BLOCKED_UPLOAD_EXTENSIONS = {
+    ".exe",
+    ".bat",
+    ".cmd",
+    ".sh",
+    ".ps1",
+    ".msi",
+    ".dll",
+    ".scr",
+    ".vbs",
+    ".jar",
+    ".com",
+    ".pif",
+}
+ALLOWED_ASSET_EXTENSIONS = {".svg", ".gif", ".png", ".jpg", ".jpeg", ".webp", ".json", ".md"}
+MAX_SVG_BYTES = 524_288
+MAX_JSON_OPERATIONS_BYTES = 65_536
+FORBIDDEN_KEYS = {"__proto__", "constructor", "prototype"}
+DANGEROUS_URL_PREFIXES = ("javascript:", "vbscript:", "data:text/html", "file:")
+
+
+def validate_safe_json_object(value, max_depth=16, _depth=0):
+    if _depth > max_depth:
+        raise ValueError("JSON payload exceeds maximum nesting depth.")
+    if isinstance(value, dict):
+        for key, item in value.items():
+            key_str = str(key)
+            if key_str in FORBIDDEN_KEYS:
+                raise ValueError(f"Forbidden key in JSON payload: {key_str}")
+            validate_safe_json_object(item, max_depth=max_depth, _depth=_depth + 1)
+    elif isinstance(value, list):
+        for item in value:
+            validate_safe_json_object(item, max_depth=max_depth, _depth=_depth + 1)
+    return value
+
+
+def is_safe_asset_url(url: str) -> bool:
+    raw = str(url or "").strip()
+    if not raw or len(raw) > 2048:
+        return False
+    lower = raw.lower()
+    if any(lower.startswith(prefix) for prefix in DANGEROUS_URL_PREFIXES):
+        return False
+    if SAFE_RASTER_DATA_URI_RE.match(raw):
+        return True
+    if lower.startswith("data:"):
+        return False
+    if "\\" in raw or ".." in raw or raw.startswith("//"):
+        return False
+    if "://" in raw:
+        parsed = urlparse(raw)
+        if parsed.scheme not in {"https"}:
+            return False
+        if parsed.username or parsed.password or not parsed.netloc:
+            return False
+        return True
+    return raw.startswith("assets/") or raw.startswith("/local-assets/") or raw.startswith("./assets/")
+
+
+def validate_webhook_endpoint(endpoint_url: str) -> bool:
+    raw = str(endpoint_url or "").strip()
+    if not raw or len(raw) > 2048:
+        return False
+    try:
+        parsed = urlparse(raw)
+    except ValueError:
+        return False
+    if parsed.scheme != "https" or parsed.username or parsed.password:
+        return False
+    host = (parsed.hostname or "").strip().lower()
+    if not host or host in {"localhost", "127.0.0.1", "::1", "0.0.0.0"}:
+        return False
+    if host.startswith("localhost.") or host.endswith(".local") or host.endswith(".internal") or host.endswith(".localhost"):
+        return False
+    try:
+        ip = ipaddress.ip_address(host)
+        if ip.is_loopback or ip.is_private or ip.is_link_local or ip.is_multicast or ip.is_reserved or ip.is_unspecified:
+            return False
+    except ValueError:
+        pass
+    return "." in host
+
+
+def is_allowed_upload_filename(filename: str) -> bool:
+    raw = str(filename or "").strip()
+    if not raw or len(raw) > 240 or "\x00" in raw:
+        return False
+    if ".." in raw or "/" in raw or "\\" in raw:
+        return False
+    if any(ch in raw for ch in ("<", ">", '"', "'", "&")):
+        return False
+    lower = raw.lower()
+    for ext in BLOCKED_UPLOAD_EXTENSIONS:
+        if lower.endswith(ext) or f"{ext}." in lower:
+            return False
+    suffix = Path(raw).suffix.lower()
+    return suffix in ALLOWED_ASSET_EXTENSIONS
+
+
+def sanitize_attachment_filename(filename: str, fallback: str = "attachment.json") -> str:
+    raw = str(filename or fallback).replace("\x00", "").strip()
+    raw = re.sub(r"[<>\"'&/\\]+", "-", raw)
+    while ".." in raw:
+        raw = raw.replace("..", "-")
+    name = Path(raw).name or fallback
+    stem = SAFE_FILE_RE.sub("-", Path(name).stem).strip("._-").lower() or Path(fallback).stem
+    suffix = Path(name).suffix.lower()
+    if suffix in BLOCKED_UPLOAD_EXTENSIONS or suffix not in ALLOWED_ASSET_EXTENSIONS:
+        suffix = Path(fallback).suffix.lower() or ".json"
+    return f"{stem}{suffix}"
 
 DATA_FILES = {
     "assets": "site/data/assets.json",
@@ -210,8 +323,18 @@ def asset_detail(asset_path, root=None):
 
 def edit_svg(payload, root=None):
     root = root_path(root)
+    if not isinstance(payload, dict):
+        raise ValueError("Payload must be a JSON object.")
+    validate_safe_json_object(payload)
+    operations = payload.get("operations", {})
+    if not isinstance(operations, dict):
+        raise ValueError("operations must be a JSON object.")
+    if len(json.dumps(operations).encode("utf-8")) > MAX_JSON_OPERATIONS_BYTES:
+        raise ValueError(f"operations payload exceeds {MAX_JSON_OPERATIONS_BYTES} bytes.")
     if payload.get("source"):
-        source = payload["source"]
+        source = str(payload["source"])
+        if len(source.encode("utf-8")) > MAX_SVG_BYTES:
+            raise ValueError(f"SVG source exceeds maximum allowed size of {MAX_SVG_BYTES} bytes.")
         source_path = None
     elif payload.get("path"):
         detail = asset_detail(payload["path"], root)
@@ -220,7 +343,7 @@ def edit_svg(payload, root=None):
     else:
         raise ValueError("Provide either `path` or `source`.")
 
-    edited, summary = apply_operations(source, payload.get("operations", {}))
+    edited, summary = apply_operations(source, operations)
     return {
         "sourcePath": source_path,
         "summary": summary,
@@ -231,10 +354,15 @@ def edit_svg(payload, root=None):
 
 def gif_export_source(payload, root=None):
     root = root_path(root)
+    if not isinstance(payload, dict):
+        raise ValueError("Payload must be a JSON object.")
+    validate_safe_json_object(payload)
     if payload.get("source"):
         source = str(payload["source"])
         if not source.strip():
             raise ValueError("source cannot be empty.")
+        if len(source.encode("utf-8")) > MAX_SVG_BYTES:
+            raise ValueError(f"SVG source exceeds maximum allowed size of {MAX_SVG_BYTES} bytes.")
         source_path = payload.get("sourcePath")
         fallback_label = Path(source_path or "custom-svg").stem
         return source, source_path, payload.get("name") or fallback_label
@@ -340,19 +468,56 @@ def run_self_tests():
     assert "assets" in DATA_FILES
     assert safe_output_dir("output/gifs")[1] == "output/gifs"
     assert safe_gif_file_name("../Demo GIF.svg", "fallback.gif") == "demo-gif.gif"
+    assert is_safe_asset_url("assets/cards/glass_card.svg")
+    assert is_safe_asset_url("/local-assets/cards/glass_card.svg")
+    assert is_safe_asset_url("https://raw.githubusercontent.com/ example".split()[0])
+    assert is_safe_asset_url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=")
+    assert not is_safe_asset_url("javascript:alert(1)")
+    assert not is_safe_asset_url("data:text/html,<script>alert(1)</script>")
+    assert not is_safe_asset_url("data:image/svg+xml;base64,PHN2Zz48L3N2Zz4=")
+    assert not is_safe_asset_url("assets/../../etc/passwd")
+    assert not is_safe_asset_url("//evil.example/a.svg")
+    assert not is_safe_asset_url("https://user:pass@example.com/a.svg")
+    assert validate_webhook_endpoint("https://api.github.com/repos/HiradEmami/readme-ux-kit")
+    assert not validate_webhook_endpoint("http://api.github.com/repos")
+    assert not validate_webhook_endpoint("https://user:pass@api.github.com/repos")
+    assert not validate_webhook_endpoint("https://localhost.evil.com/hook")
+    assert not validate_webhook_endpoint("https://127.0.0.1/hook")
+    assert not validate_webhook_endpoint("https://10.0.0.1/hook")
+    assert not validate_webhook_endpoint("https://172.16.0.1/hook")
+    assert not validate_webhook_endpoint("https://192.168.1.1/hook")
+    assert not validate_webhook_endpoint("https://169.254.169.254/latest/meta-data/")
+    assert not validate_webhook_endpoint("https://service.internal/hook")
+    assert is_allowed_upload_filename("banner_header.svg")
+    assert not is_allowed_upload_filename("payload.exe")
+    assert not is_allowed_upload_filename("script.ps1")
+    assert not is_allowed_upload_filename("../secret.svg")
+    assert not is_allowed_upload_filename("bad\x00file.svg")
+    assert sanitize_attachment_filename("../<script>evil.exe", "export.json") == "script-evil.json"
+    for forbidden_key in ("__proto__", "constructor", "prototype"):
+        try:
+            validate_safe_json_object({"operations": {forbidden_key: {"polluted": True}}})
+            raise AssertionError(f"{forbidden_key} should be rejected")
+        except ValueError:
+            pass
     try:
         safe_output_dir(".git/hooks")
         raise AssertionError(".git output path should be rejected")
     except ValueError:
         pass
     sample = (
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" role="img" aria-label="Demo">'
-        '<title>Demo</title><desc>Demo SVG used by the local editor self-test.</desc>'
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" role="img" aria-label="Demo" aria-labelledby="demo-title demo-desc">'
+        '<title id="demo-title">Demo</title><desc id="demo-desc">Demo SVG used by the local editor self-test.</desc>'
         '<text id="title" fill="#2563eb">Demo</text></svg>'
     )
     edited = edit_svg({"source": sample, "operations": {"replaceColors": {"#2563eb": "#0f766e"}, "replaceText": [{"target": "title", "to": "Local Studio"}]}})
     assert "#0f766e" in edited["svg"]
     assert "Local Studio" in edited["svg"]
+    try:
+        edit_svg({"source": sample + (" " * (MAX_SVG_BYTES + 10)), "operations": {}})
+        raise AssertionError("Oversized SVG source should be rejected")
+    except ValueError:
+        pass
     if (root_path() / "assets" / "manifest.json").exists():
         assert list_assets(limit=1)["assetCount"] >= 1
     print("src.app.services self-tests passed.")

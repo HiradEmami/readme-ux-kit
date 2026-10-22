@@ -8,21 +8,22 @@
   ],
   "schemaVersion": 1,
   "summary": {
-    "assetCount": 1058,
-    "bundleCount": 8,
+    "assetCount": 1608,
+    "bundleCount": 9,
     "categoryCounts": {
       "badges": 35,
       "banners": 52,
       "buttons": 40,
       "callouts": 45,
-      "cards": 55,
-      "charts": 50,
-      "diagrams": 75,
-      "dividers": 64,
-      "file_headers": 44,
-      "headers": 51,
-      "icons": 238,
-      "loadings": 62,
+      "cards": 105,
+      "charts": 100,
+      "diagrams": 125,
+      "dividers": 114,
+      "file_headers": 94,
+      "headers": 101,
+      "icons": 288,
+      "isometric": 150,
+      "loadings": 112,
       "mockups": 40,
       "personal": 34,
       "progress_bars": 35,
@@ -32,26 +33,26 @@
     },
     "compatibility": {
       "codeCounts": {
-        "github-html-unknown-tag": 52,
-        "high-motion-readme-cost": 59
+        "github-html-unknown-tag": 54,
+        "high-motion-readme-cost": 109
       },
       "severityCounts": {
-        "info": 59,
-        "warning": 52
+        "info": 109,
+        "warning": 54
       }
     },
     "provenance": {
-      "assetCount": 1058,
+      "assetCount": 1608,
       "derivedAssetCount": 9,
       "originCounts": {
-        "first-party": 1049,
+        "first-party": 1599,
         "third-party-derived": 9
       }
     },
-    "recipeCount": 5,
+    "recipeCount": 6,
     "svgFlagCounts": {
       "duplicate-heavy-palette": 70,
-      "high-motion": 59,
+      "high-motion": 109,
       "very-complex": 1
     },
     "themeCount": 19
@@ -145,7 +146,7 @@
     ],
     "largest": [
       {
-        "fileSize": 15738,
+        "fileSize": 15828,
         "flags": [
           "duplicate-heavy-palette",
           "high-motion",
@@ -155,73 +156,58 @@
         "path": "assets/visuals/mlp_space.svg"
       },
       {
-        "fileSize": 9736,
-        "flags": [
-          "duplicate-heavy-palette",
-          "high-motion"
-        ],
-        "name": "spiral_energy_core",
-        "path": "assets/visuals/spiral_energy_core.svg"
-      },
-      {
-        "fileSize": 6079,
+        "fileSize": 10194,
         "flags": [],
-        "name": "avocado",
-        "path": "assets/visuals/avocado.svg"
+        "name": "isometric_sandboxed_code_interpreter_bridge",
+        "path": "assets/isometric/ai-systems/isometric_sandboxed_code_interpreter_bridge.svg"
       },
       {
-        "fileSize": 6013,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "header_collaboration_premium",
-        "path": "assets/headers/animated/header_collaboration_premium.svg"
-      },
-      {
-        "fileSize": 5868,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "traditional_vs_engineered",
-        "path": "assets/personal/traditional_vs_engineered.svg"
-      },
-      {
-        "fileSize": 5340,
+        "fileSize": 10180,
         "flags": [],
-        "name": "internal_vs_external",
-        "path": "assets/personal/internal_vs_external.svg"
+        "name": "isometric_canary_baseline_mann_whitney_rig",
+        "path": "assets/isometric/observability-sre/isometric_canary_baseline_mann_whitney_rig.svg"
       },
       {
-        "fileSize": 5241,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "solar_system_2",
-        "path": "assets/visuals/solar_system_2.svg"
+        "fileSize": 10166,
+        "flags": [],
+        "name": "isometric_synthetic_data_distillation_pipe",
+        "path": "assets/isometric/ai-systems/isometric_synthetic_data_distillation_pipe.svg"
       },
       {
-        "fileSize": 5139,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "python_project",
-        "path": "assets/personal/python_project.svg"
+        "fileSize": 10166,
+        "flags": [],
+        "name": "isometric_production_traffic_shadow_bridge",
+        "path": "assets/isometric/ci-cd-devops/isometric_production_traffic_shadow_bridge.svg"
       },
       {
-        "fileSize": 5033,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "quantum_computing",
-        "path": "assets/visuals/quantum_computing.svg"
+        "fileSize": 10158,
+        "flags": [],
+        "name": "isometric_bloom_filter_sstable_lookup_pipe",
+        "path": "assets/isometric/storage-databases/isometric_bloom_filter_sstable_lookup_pipe.svg"
       },
       {
-        "fileSize": 4917,
-        "flags": [
-          "duplicate-heavy-palette"
-        ],
-        "name": "workflow_detect_acknowledge",
-        "path": "assets/workflow_panels/incident/workflow_detect_acknowledge.svg"
+        "fileSize": 10135,
+        "flags": [],
+        "name": "isometric_private_link_vpc_peering_bridge",
+        "path": "assets/isometric/cloud-topology/isometric_private_link_vpc_peering_bridge.svg"
+      },
+      {
+        "fileSize": 10117,
+        "flags": [],
+        "name": "isometric_cross_domain_data_diode_bridge",
+        "path": "assets/isometric/security-zero-trust/isometric_cross_domain_data_diode_bridge.svg"
+      },
+      {
+        "fileSize": 10111,
+        "flags": [],
+        "name": "isometric_pii_tokenization_scrubbing_pipe",
+        "path": "assets/isometric/data-pipelines/isometric_pii_tokenization_scrubbing_pipe.svg"
+      },
+      {
+        "fileSize": 10110,
+        "flags": [],
+        "name": "isometric_idempotent_payment_ledger_pipe",
+        "path": "assets/isometric/platform-architecture/isometric_idempotent_payment_ledger_pipe.svg"
       }
     ],
     "mostComplex": [
@@ -253,60 +239,46 @@
         "path": "assets/visuals/solar_system_2.svg"
       },
       {
-        "complexityScore": 111,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "header_collaboration_premium",
-        "path": "assets/headers/animated/header_collaboration_premium.svg"
+        "complexityScore": 113,
+        "flags": [],
+        "name": "isometric_sandboxed_code_interpreter_bridge",
+        "path": "assets/isometric/ai-systems/isometric_sandboxed_code_interpreter_bridge.svg"
       },
       {
-        "complexityScore": 103,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "planet",
-        "path": "assets/visuals/planet.svg"
+        "complexityScore": 113,
+        "flags": [],
+        "name": "isometric_production_traffic_shadow_bridge",
+        "path": "assets/isometric/ci-cd-devops/isometric_production_traffic_shadow_bridge.svg"
       },
       {
-        "complexityScore": 102,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "solar_system",
-        "path": "assets/visuals/solar_system.svg"
+        "complexityScore": 113,
+        "flags": [],
+        "name": "isometric_private_link_vpc_peering_bridge",
+        "path": "assets/isometric/cloud-topology/isometric_private_link_vpc_peering_bridge.svg"
       },
       {
-        "complexityScore": 101,
-        "flags": [
-          "duplicate-heavy-palette"
-        ],
-        "name": "header_collaboration_static",
-        "path": "assets/headers/static/header_collaboration_static.svg"
+        "complexityScore": 113,
+        "flags": [],
+        "name": "isometric_zero_etl_oltp_to_olap_bridge",
+        "path": "assets/isometric/data-pipelines/isometric_zero_etl_oltp_to_olap_bridge.svg"
       },
       {
-        "complexityScore": 100,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "quantum_computing",
-        "path": "assets/visuals/quantum_computing.svg"
+        "complexityScore": 113,
+        "flags": [],
+        "name": "isometric_wasm_browser_playground_bridge",
+        "path": "assets/isometric/developer-workstations/isometric_wasm_browser_playground_bridge.svg"
       },
       {
-        "complexityScore": 96,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "traditional_vs_engineered",
-        "path": "assets/personal/traditional_vs_engineered.svg"
+        "complexityScore": 113,
+        "flags": [],
+        "name": "isometric_consistent_hash_ring_balancer",
+        "path": "assets/isometric/networking-mesh/isometric_consistent_hash_ring_balancer.svg"
       },
       {
-        "complexityScore": 94,
-        "flags": [
-          "high-motion"
-        ],
-        "name": "python_project",
-        "path": "assets/personal/python_project.svg"
+        "complexityScore": 113,
+        "flags": [],
+        "name": "isometric_canary_baseline_mann_whitney_rig",
+        "path": "assets/isometric/observability-sre/isometric_canary_baseline_mann_whitney_rig.svg"
       }
     ]
   }

@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `effects`
-- Asset count: 31
+- Asset count: 36
 - Best for: Motion and special-effect icons such as orbits, portals, glitches, ripples, and spinners.
 - Group tags: `effects`, `motion`
 
 ## Compact index
 
-Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` (7), `data` (1)
+Top tags: `animated` (36), `effects` (36), `icon` (36), `motion` (36), `energy` (8), `data` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -32,14 +32,17 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 | `icon_lightning_charge` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-lightning-charge) | [Source](../../../assets/icons/effects/icon_lightning_charge.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_lightning_charge.svg) |
 | `icon_liquid_blob` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-liquid-blob) | [Source](../../../assets/icons/effects/icon_liquid_blob.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_liquid_blob.svg) |
 | `icon_magical_rune_seal` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-magical-rune-seal) | [Source](../../../assets/icons/effects/icon_magical_rune_seal.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magical_rune_seal.svg) |
+| `icon_magnetic_flux_torus` | Animated | `animated`, `effects`, `energy`, `icon`, `motion` | [Jump](#icon-magnetic-flux-torus) | [Source](../../../assets/icons/effects/icon_magnetic_flux_torus.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magnetic_flux_torus.svg) |
 | `icon_orbit_ring` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-orbit-ring) | [Source](../../../assets/icons/effects/icon_orbit_ring.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbit_ring.svg) |
 | `icon_orbiting_node` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-orbiting-node) | [Source](../../../assets/icons/effects/icon_orbiting_node.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbiting_node.svg) |
 | `icon_orbiting_satellites` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-orbiting-satellites) | [Source](../../../assets/icons/effects/icon_orbiting_satellites.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbiting_satellites.svg) |
 | `icon_origami_spinner` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-origami-spinner) | [Source](../../../assets/icons/effects/icon_origami_spinner.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_origami_spinner.svg) |
 | `icon_particle_burst` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-particle-burst) | [Source](../../../assets/icons/effects/icon_particle_burst.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_particle_burst.svg) |
 | `icon_phase_portal` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-phase-portal) | [Source](../../../assets/icons/effects/icon_phase_portal.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_phase_portal.svg) |
+| `icon_photon_beam_splitter` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-photon-beam-splitter) | [Source](../../../assets/icons/effects/icon_photon_beam_splitter.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_photon_beam_splitter.svg) |
 | `icon_plasma_core` | Animated | `animated`, `effects`, `energy`, `icon`, `motion` | [Jump](#icon-plasma-core) | [Source](../../../assets/icons/effects/icon_plasma_core.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_plasma_core.svg) |
 | `icon_quantum_core_spin` | Animated | `animated`, `effects`, `energy`, `icon`, `motion` | [Jump](#icon-quantum-core-spin) | [Source](../../../assets/icons/effects/icon_quantum_core_spin.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_core_spin.svg) |
+| `icon_quantum_phase_vortex` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-quantum-phase-vortex) | [Source](../../../assets/icons/effects/icon_quantum_phase_vortex.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_phase_vortex.svg) |
 | `icon_quantum_spark` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-quantum-spark) | [Source](../../../assets/icons/effects/icon_quantum_spark.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_spark.svg) |
 | `icon_ripple_circle` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-ripple-circle) | [Source](../../../assets/icons/effects/icon_ripple_circle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_ripple_circle.svg) |
 | `icon_rotating_arc_field` | Animated | `animated`, `effects`, `energy`, `icon`, `motion` | [Jump](#icon-rotating-arc-field) | [Source](../../../assets/icons/effects/icon_rotating_arc_field.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_arc_field.svg) |
@@ -49,7 +52,9 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 | `icon_rotating_hex` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-rotating-hex) | [Source](../../../assets/icons/effects/icon_rotating_hex.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_hex.svg) |
 | `icon_rotating_plus` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-rotating-plus) | [Source](../../../assets/icons/effects/icon_rotating_plus.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_plus.svg) |
 | `icon_rotating_triangle` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-rotating-triangle) | [Source](../../../assets/icons/effects/icon_rotating_triangle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_triangle.svg) |
+| `icon_sonar_ping_aperture` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-sonar-ping-aperture) | [Source](../../../assets/icons/effects/icon_sonar_ping_aperture.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_sonar_ping_aperture.svg) |
 | `icon_spinning_ring` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-spinning-ring) | [Source](../../../assets/icons/effects/icon_spinning_ring.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_spinning_ring.svg) |
+| `icon_synaptic_spark_cascade` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-synaptic-spark-cascade) | [Source](../../../assets/icons/effects/icon_synaptic_spark_cascade.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_synaptic_spark_cascade.svg) |
 | `icon_time_ripple` | Animated | `animated`, `effects`, `icon`, `motion` | [Jump](#icon-time-ripple) | [Source](../../../assets/icons/effects/icon_time_ripple.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_time_ripple.svg) |
 
 ## Visual previews
@@ -486,6 +491,42 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_magical_rune_seal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magical_rune_seal.svg)
 
+<a id="icon-magnetic-flux-torus"></a>
+
+## icon_magnetic_flux_torus
+
+[![icon_magnetic_flux_torus](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magnetic_flux_torus.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_magnetic_flux_torus](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magnetic_flux_torus.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magnetic_flux_torus.svg" alt="icon_magnetic_flux_torus" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `effects`, `energy`, `icon`, `motion`
+- Anchor: `#icon-magnetic-flux-torus`
+- [Source file](../../../assets/icons/effects/icon_magnetic_flux_torus.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magnetic_flux_torus.svg)
+
 <a id="icon-orbit-ring"></a>
 
 ## icon_orbit_ring
@@ -702,6 +743,42 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_phase_portal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_phase_portal.svg)
 
+<a id="icon-photon-beam-splitter"></a>
+
+## icon_photon_beam_splitter
+
+[![icon_photon_beam_splitter](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_photon_beam_splitter.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_photon_beam_splitter](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_photon_beam_splitter.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_photon_beam_splitter.svg" alt="icon_photon_beam_splitter" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `effects`, `icon`, `motion`
+- Anchor: `#icon-photon-beam-splitter`
+- [Source file](../../../assets/icons/effects/icon_photon_beam_splitter.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_photon_beam_splitter.svg)
+
 <a id="icon-plasma-core"></a>
 
 ## icon_plasma_core
@@ -773,6 +850,42 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-quantum-core-spin`
 - [Source file](../../../assets/icons/effects/icon_quantum_core_spin.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_core_spin.svg)
+
+<a id="icon-quantum-phase-vortex"></a>
+
+## icon_quantum_phase_vortex
+
+[![icon_quantum_phase_vortex](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_phase_vortex.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_quantum_phase_vortex](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_phase_vortex.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_phase_vortex.svg" alt="icon_quantum_phase_vortex" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `effects`, `icon`, `motion`
+- Anchor: `#icon-quantum-phase-vortex`
+- [Source file](../../../assets/icons/effects/icon_quantum_phase_vortex.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_phase_vortex.svg)
 
 <a id="icon-quantum-spark"></a>
 
@@ -1098,6 +1211,42 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_rotating_triangle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_triangle.svg)
 
+<a id="icon-sonar-ping-aperture"></a>
+
+## icon_sonar_ping_aperture
+
+[![icon_sonar_ping_aperture](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_sonar_ping_aperture.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_sonar_ping_aperture](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_sonar_ping_aperture.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_sonar_ping_aperture.svg" alt="icon_sonar_ping_aperture" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `effects`, `icon`, `motion`
+- Anchor: `#icon-sonar-ping-aperture`
+- [Source file](../../../assets/icons/effects/icon_sonar_ping_aperture.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_sonar_ping_aperture.svg)
+
 <a id="icon-spinning-ring"></a>
 
 ## icon_spinning_ring
@@ -1133,6 +1282,42 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-spinning-ring`
 - [Source file](../../../assets/icons/effects/icon_spinning_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_spinning_ring.svg)
+
+<a id="icon-synaptic-spark-cascade"></a>
+
+## icon_synaptic_spark_cascade
+
+[![icon_synaptic_spark_cascade](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_synaptic_spark_cascade.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_synaptic_spark_cascade](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_synaptic_spark_cascade.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_synaptic_spark_cascade.svg" alt="icon_synaptic_spark_cascade" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `effects`, `icon`, `motion`
+- Anchor: `#icon-synaptic-spark-cascade`
+- [Source file](../../../assets/icons/effects/icon_synaptic_spark_cascade.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_synaptic_spark_cascade.svg)
 
 <a id="icon-time-ripple"></a>
 

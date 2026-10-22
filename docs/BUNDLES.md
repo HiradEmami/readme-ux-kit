@@ -15,10 +15,13 @@ Use them when you want a paste-ready first draft instead of assembling sections 
 | [Security Tool](#security-tool) | Scanners, audit tools, policy repos | Security-first, clear warnings |
 | [Research Paper Repo](#research-paper-repo) | Reproducibility repos and paper artifacts | Academic, traceable, citation-ready |
 | [Documentation Site Repo](#documentation-site-repo) | Docs portals, guides, examples | Navigation-first, support-focused |
+| [Cloud and Distributed Systems](#cloud-and-distributed-systems) | Multi-region clusters, service meshes, storage engines | 3D isometric topology, high-signal telemetry |
 
 ## Polished Library
 
 Copy this for open-source libraries, SDKs, utilities, and developer tools.
+
+**Included assets:** [`header_minimal_lux.svg`](../assets/headers/static/header_minimal_lux.svg), [`header_cross_platform_sdk_toolchain.svg`](../assets/headers/animated/header_cross_platform_sdk_toolchain.svg), [`card_release_general_availability_v3.svg`](../assets/cards/releases/card_release_general_availability_v3.svg), [`isometric_cross_target_sdk_generator.svg`](../assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg), [`divider_minimal_clean.svg`](../assets/dividers/static/divider_minimal_clean.svg)
 
 ````markdown
 # PROJECT_NAME
@@ -101,6 +104,8 @@ MIT
 
 Copy this for APIs, workers, internal services, and production-facing platform components.
 
+**Included assets:** [`banner_core_energy_pulse.svg`](../assets/banners/energy/banner_core_energy_pulse.svg), [`header_opentelemetry_sre_command.svg`](../assets/headers/animated/header_opentelemetry_sre_command.svg), [`isometric_cqrs_command_query_segregation.svg`](../assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg), [`diagram_hexagonal_domain_kernel.svg`](../assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg), [`chart_slo_availability_burn_gauge.svg`](../assets/charts/gauge/chart_slo_availability_burn_gauge.svg), [`reliability_control_room.svg`](../assets/visuals/reliability_control_room.svg)
+
 ````markdown
 # SERVICE_NAME
 
@@ -180,6 +185,8 @@ Report vulnerabilities through `SECURITY.md`. Do not open public issues for sens
 ## ML Experiment Kit
 
 Copy this for model repositories, evaluation harnesses, dataset projects, and reproducible research.
+
+**Included assets:** [`evaluation_lens_matrix.svg`](../assets/visuals/evaluation_lens_matrix.svg), [`header_high_frequency_tensor_runtime.svg`](../assets/headers/animated/header_high_frequency_tensor_runtime.svg), [`isometric_transformer_attention_stack.svg`](../assets/isometric/ai-systems/isometric_transformer_attention_stack.svg), [`diagram_hybrid_rag_reranker_flow.svg`](../assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg), [`chart_model_eval_capability_axes.svg`](../assets/charts/radar/chart_model_eval_capability_axes.svg), [`card_gpu_tensor_utilization_index.svg`](../assets/cards/metrics/card_gpu_tensor_utilization_index.svg)
 
 ````markdown
 # PROJECT_NAME
@@ -264,6 +271,8 @@ python -m src.evaluate \
 
 Copy this for profile READMEs and personal portfolio repositories.
 
+**Included assets:** [`four_pillars.svg`](../assets/personal/four_pillars.svg), [`isometric_devcontainer_workspace_pod.svg`](../assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg), [`card_local_first_crdt_sync_sdk.svg`](../assets/cards/projects/card_local_first_crdt_sync_sdk.svg), [`divider_crystalline_lattice_seam.svg`](../assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg)
+
 ````markdown
 # Hi, I'm YOUR_NAME
 
@@ -307,6 +316,8 @@ I build `PRIMARY_FOCUS` with an emphasis on `PRINCIPLE_ONE`, `PRINCIPLE_TWO`, an
 ## Security Tool
 
 Copy this for scanners, policy tooling, audit utilities, and incident-response projects.
+
+**Included assets:** [`privacy_vault_shield.svg`](../assets/visuals/privacy_vault_shield.svg), [`file_header_threat_modeling_matrix.svg`](../assets/file_headers/file_header_threat_modeling_matrix.svg), [`isometric_zero_trust_microsegmentation.svg`](../assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg), [`diagram_spiffe_spire_mtls_rotation.svg`](../assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg), [`chart_security_defense_in_depth_radar.svg`](../assets/charts/radar/chart_security_defense_in_depth_radar.svg)
 
 ````markdown
 # TOOL_NAME
@@ -359,6 +370,8 @@ tool-name scan ./src --format markdown --output security-report.md
 ## Research Paper Repo
 
 Copy this for paper companion repositories and reproducibility packages.
+
+**Included assets:** [`knowledge_graph_core.svg`](../assets/visuals/knowledge_graph_core.svg), [`file_header_benchmark_reproducibility.svg`](../assets/file_headers/file_header_benchmark_reproducibility.svg), [`isometric_evaluation_benchmark_arena.svg`](../assets/isometric/ai-systems/isometric_evaluation_benchmark_arena.svg), [`chart_vector_recall_vs_latency_curve.svg`](../assets/charts/line/chart_vector_recall_vs_latency_curve.svg)
 
 ````markdown
 # PAPER_TITLE
@@ -414,6 +427,8 @@ python scripts/reproduce.py --config configs/main.yaml
 
 Copy this for documentation portals, guide repositories, and examples-first projects.
 
+**Included assets:** [`readme_neon_scan.svg`](../assets/file_headers/readme_neon_scan.svg), [`file_header_architecture_decisions.svg`](../assets/file_headers/file_header_architecture_decisions.svg), [`isometric_docs_static_site_compiler.svg`](../assets/isometric/developer-workstations/isometric_docs_static_site_compiler.svg), [`card_documentation_ux_editorial.svg`](../assets/cards/team/card_documentation_ux_editorial.svg)
+
 ````markdown
 # DOCS_NAME
 
@@ -454,6 +469,60 @@ npm run docs:dev
 - Prefer short pages with clear next steps.
 - Link every concept page to at least one practical example.
 - Update this README when adding a major documentation section.
+````
+
+## Cloud and Distributed Systems
+
+Copy this for multi-region cloud infrastructure, Kubernetes operators, service meshes, and distributed storage engines.
+
+**Included assets:** [`header_distributed_cloud_mesh_fabric.svg`](../assets/headers/animated/header_distributed_cloud_mesh_fabric.svg), [`isometric_multi_region_active_cluster.svg`](../assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg), [`isometric_raft_consensus_quorum_ring.svg`](../assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg), [`diagram_multi_region_active_failover.svg`](../assets/diagrams/deployment/diagram_multi_region_active_failover.svg), [`chart_regional_api_latency_matrix.svg`](../assets/charts/heatmap/chart_regional_api_latency_matrix.svg), [`card_distributed_kv_consensus_engine.svg`](../assets/cards/projects/card_distributed_kv_consensus_engine.svg), [`divider_axonometric_grid_trace.svg`](../assets/dividers/animated/lines/divider_axonometric_grid_trace.svg), [`loading_raft_quorum_election.svg`](../assets/loadings/loading_raft_quorum_election.svg)
+
+````markdown
+# PROJECT_NAME
+
+<p align="center">
+  <img alt="PROJECT_NAME header" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_distributed_cloud_mesh_fabric.svg">
+</p>
+
+<p align="center">
+  Geo-distributed control plane and storage runtime for <code>PRIMARY_DOMAIN</code> with automated failover and zero-trust workload identity.
+</p>
+
+## 3D Architecture Topology
+
+<p align="center">
+  <img alt="Multi-region active cluster" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg">
+</p>
+
+| Plane | Responsibility | Target Guarantee |
+| --- | --- | --- |
+| Edge Ingress | Anycast BGP + Envoy mTLS termination | `< 15ms` regional RTT |
+| Control Plane | Declarative reconciliation & cell routing | `99.99%` API availability |
+| Consensus Engine | Raft quorum across 3 availability zones | `RPO = 0`, `RTO < 5s` |
+
+## Failover & Consensus Flow
+
+<p align="center">
+  <img alt="Multi-region active failover diagram" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/diagrams/deployment/diagram_multi_region_active_failover.svg">
+</p>
+
+## Provisioning & Verification
+
+```bash
+terraform init && terraform plan -out=tfplan
+terraform apply tfplan
+kubectl get cells -A
+```
+
+<p align="center">
+  <img alt="Divider" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_axonometric_grid_trace.svg">
+</p>
+
+## Regional Latency & SLO Matrix
+
+<p align="center">
+  <img alt="Regional API latency matrix" src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/charts/heatmap/chart_regional_api_latency_matrix.svg">
+</p>
 ````
 
 ## Customization Checklist

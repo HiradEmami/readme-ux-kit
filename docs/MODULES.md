@@ -21,7 +21,7 @@ The module pipeline is now a first-class part of the repository setup.
 
 ## Static Gallery Serving
 
-The committed `site/` directory is the source shell, not the complete deployment artifact. It deliberately does not duplicate the 1,058 SVG sources.
+The committed `site/` directory is the source shell, not the complete deployment artifact. It deliberately does not duplicate the 1,608 SVG sources.
 
 For source-tree development, serve the repository root and open `/site/`:
 

@@ -10,17 +10,18 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `core`
-- Asset count: 45
+- Asset count: 50
 - Best for: General-purpose interface and project icons.
 - Group tags: `core`
 
 ## Compact index
 
-Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29), `static` (16), `testing` (1), `code` (1), `docs` (1), `button` (1)
+Top tags: `core` (50), `energy` (50), `icon` (50), `animated` (34), `motion` (34), `static` (16), `status` (2), `testing` (1), `code` (1), `docs` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `icon_activity_feed` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-activity-feed) | [Source](../../../assets/icons/core/icon_activity_feed.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_activity_feed.svg) |
+| `icon_atomic_state_kernel` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-atomic-state-kernel) | [Source](../../../assets/icons/core/icon_atomic_state_kernel.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_atomic_state_kernel.svg) |
 | `icon_bell` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-bell) | [Source](../../../assets/icons/core/icon_bell.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_bell.svg) |
 | `icon_benchmark` | Static or subtle motion | `core`, `energy`, `icon`, `static`, `testing` | [Jump](#icon-benchmark) | [Source](../../../assets/icons/core/icon_benchmark.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_benchmark.svg) |
 | `icon_box` | Static or subtle motion | `core`, `energy`, `icon`, `static` | [Jump](#icon-box) | [Source](../../../assets/icons/core/icon_box.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_box.svg) |
@@ -40,10 +41,12 @@ Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29
 | `icon_grid_colored` | Static or subtle motion | `core`, `energy`, `icon`, `static` | [Jump](#icon-grid-colored) | [Source](../../../assets/icons/core/icon_grid_colored.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_grid_colored.svg) |
 | `icon_health_panel` | Animated | `animated`, `core`, `energy`, `icon`, `motion`, `status` | [Jump](#icon-health-panel) | [Source](../../../assets/icons/core/icon_health_panel.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_health_panel.svg) |
 | `icon_heart` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-heart) | [Source](../../../assets/icons/core/icon_heart.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_heart.svg) |
+| `icon_immutable_config_lock` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-immutable-config-lock) | [Source](../../../assets/icons/core/icon_immutable_config_lock.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_immutable_config_lock.svg) |
 | `icon_list` | Static or subtle motion | `core`, `energy`, `icon`, `static` | [Jump](#icon-list) | [Source](../../../assets/icons/core/icon_list.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_list.svg) |
 | `icon_loading_dots` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-loading-dots) | [Source](../../../assets/icons/core/icon_loading_dots.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_loading_dots.svg) |
 | `icon_lock` | Static or subtle motion | `core`, `energy`, `icon`, `static` | [Jump](#icon-lock) | [Source](../../../assets/icons/core/icon_lock.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_lock.svg) |
 | `icon_metric_card` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-metric-card) | [Source](../../../assets/icons/core/icon_metric_card.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_metric_card.svg) |
+| `icon_modular_workspace_grid` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-modular-workspace-grid) | [Source](../../../assets/icons/core/icon_modular_workspace_grid.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_modular_workspace_grid.svg) |
 | `icon_pause` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-pause) | [Source](../../../assets/icons/core/icon_pause.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_pause.svg) |
 | `icon_play` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-play) | [Source](../../../assets/icons/core/icon_play.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_play.svg) |
 | `icon_profile` | Animated | `animated`, `core`, `energy`, `icon`, `motion`, `profile` | [Jump](#icon-profile) | [Source](../../../assets/icons/core/icon_profile.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_profile.svg) |
@@ -60,10 +63,12 @@ Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29
 | `icon_signal_strength` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-signal-strength) | [Source](../../../assets/icons/core/icon_signal_strength.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_signal_strength.svg) |
 | `icon_star` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-star) | [Source](../../../assets/icons/core/icon_star.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_star.svg) |
 | `icon_task_checkpoint` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-task-checkpoint) | [Source](../../../assets/icons/core/icon_task_checkpoint.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_task_checkpoint.svg) |
+| `icon_telemetry_pulse_beacon` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-telemetry-pulse-beacon) | [Source](../../../assets/icons/core/icon_telemetry_pulse_beacon.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_telemetry_pulse_beacon.svg) |
 | `icon_tip` | Static or subtle motion | `core`, `energy`, `icon`, `static` | [Jump](#icon-tip) | [Source](../../../assets/icons/core/icon_tip.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_tip.svg) |
 | `icon_toggle_sign` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-toggle-sign) | [Source](../../../assets/icons/core/icon_toggle_sign.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_toggle_sign.svg) |
 | `icon_trash` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-trash) | [Source](../../../assets/icons/core/icon_trash.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_trash.svg) |
 | `icon_unlock` | Static or subtle motion | `core`, `energy`, `icon`, `static` | [Jump](#icon-unlock) | [Source](../../../assets/icons/core/icon_unlock.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_unlock.svg) |
+| `icon_verified_contract_seal` | Animated | `animated`, `core`, `energy`, `icon`, `motion`, `status` | [Jump](#icon-verified-contract-seal) | [Source](../../../assets/icons/core/icon_verified_contract_seal.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_verified_contract_seal.svg) |
 | `icon_workspace_grid` | Animated | `animated`, `core`, `energy`, `icon`, `motion` | [Jump](#icon-workspace-grid) | [Source](../../../assets/icons/core/icon_workspace_grid.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_workspace_grid.svg) |
 
 ## Visual previews
@@ -103,6 +108,42 @@ Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29
 - Anchor: `#icon-activity-feed`
 - [Source file](../../../assets/icons/core/icon_activity_feed.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_activity_feed.svg)
+
+<a id="icon-atomic-state-kernel"></a>
+
+## icon_atomic_state_kernel
+
+[![icon_atomic_state_kernel](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_atomic_state_kernel.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_atomic_state_kernel](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_atomic_state_kernel.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_atomic_state_kernel.svg" alt="icon_atomic_state_kernel" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `core`, `energy`, `icon`, `motion`
+- Anchor: `#icon-atomic-state-kernel`
+- [Source file](../../../assets/icons/core/icon_atomic_state_kernel.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_atomic_state_kernel.svg)
 
 <a id="icon-bell"></a>
 
@@ -788,6 +829,42 @@ Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29
 - [Source file](../../../assets/icons/core/icon_heart.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_heart.svg)
 
+<a id="icon-immutable-config-lock"></a>
+
+## icon_immutable_config_lock
+
+[![icon_immutable_config_lock](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_immutable_config_lock.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_immutable_config_lock](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_immutable_config_lock.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_immutable_config_lock.svg" alt="icon_immutable_config_lock" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `core`, `energy`, `icon`, `motion`
+- Anchor: `#icon-immutable-config-lock`
+- [Source file](../../../assets/icons/core/icon_immutable_config_lock.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_immutable_config_lock.svg)
+
 <a id="icon-list"></a>
 
 ## icon_list
@@ -931,6 +1008,42 @@ Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29
 - Anchor: `#icon-metric-card`
 - [Source file](../../../assets/icons/core/icon_metric_card.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_metric_card.svg)
+
+<a id="icon-modular-workspace-grid"></a>
+
+## icon_modular_workspace_grid
+
+[![icon_modular_workspace_grid](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_modular_workspace_grid.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_modular_workspace_grid](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_modular_workspace_grid.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_modular_workspace_grid.svg" alt="icon_modular_workspace_grid" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `core`, `energy`, `icon`, `motion`
+- Anchor: `#icon-modular-workspace-grid`
+- [Source file](../../../assets/icons/core/icon_modular_workspace_grid.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_modular_workspace_grid.svg)
 
 <a id="icon-pause"></a>
 
@@ -1508,6 +1621,42 @@ Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29
 - [Source file](../../../assets/icons/core/icon_task_checkpoint.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_task_checkpoint.svg)
 
+<a id="icon-telemetry-pulse-beacon"></a>
+
+## icon_telemetry_pulse_beacon
+
+[![icon_telemetry_pulse_beacon](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_telemetry_pulse_beacon.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_telemetry_pulse_beacon](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_telemetry_pulse_beacon.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_telemetry_pulse_beacon.svg" alt="icon_telemetry_pulse_beacon" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `core`, `energy`, `icon`, `motion`
+- Anchor: `#icon-telemetry-pulse-beacon`
+- [Source file](../../../assets/icons/core/icon_telemetry_pulse_beacon.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_telemetry_pulse_beacon.svg)
+
 <a id="icon-tip"></a>
 
 ## icon_tip
@@ -1651,6 +1800,42 @@ Top tags: `core` (45), `energy` (45), `icon` (45), `animated` (29), `motion` (29
 - Anchor: `#icon-unlock`
 - [Source file](../../../assets/icons/core/icon_unlock.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_unlock.svg)
+
+<a id="icon-verified-contract-seal"></a>
+
+## icon_verified_contract_seal
+
+[![icon_verified_contract_seal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_verified_contract_seal.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_verified_contract_seal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_verified_contract_seal.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_verified_contract_seal.svg" alt="icon_verified_contract_seal" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `core`, `energy`, `icon`, `motion`, `status`
+- Anchor: `#icon-verified-contract-seal`
+- [Source file](../../../assets/icons/core/icon_verified_contract_seal.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/core/icon_verified_contract_seal.svg)
 
 <a id="icon-workspace-grid"></a>
 

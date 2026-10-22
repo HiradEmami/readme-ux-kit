@@ -10,17 +10,18 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `dev`
-- Asset count: 24
+- Asset count: 29
 - Best for: Developer workflow icons for code, CLI, builds, commits, downloads, and pipelines.
 - Group tags: `code`, `developer`
 
 ## Compact index
 
-Top tags: `code` (24), `developer` (24), `icon` (24), `animated` (17), `motion` (17), `static` (7), `build` (2), `api` (1), `energy` (1), `infrastructure` (1)
+Top tags: `code` (29), `developer` (29), `icon` (29), `animated` (22), `motion` (22), `static` (7), `build` (2), `api` (1), `energy` (1), `infrastructure` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `icon_api` | Static or subtle motion | `api`, `code`, `developer`, `icon`, `static` | [Jump](#icon-api) | [Source](../../../assets/icons/dev/icon_api.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_api.svg) |
+| `icon_ast_syntax_tree_branch` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-ast-syntax-tree-branch) | [Source](../../../assets/icons/dev/icon_ast_syntax_tree_branch.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_ast_syntax_tree_branch.svg) |
 | `icon_branch_merge` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-branch-merge) | [Source](../../../assets/icons/dev/icon_branch_merge.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_branch_merge.svg) |
 | `icon_build` | Static or subtle motion | `build`, `code`, `developer`, `icon`, `static` | [Jump](#icon-build) | [Source](../../../assets/icons/dev/icon_build.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_build.svg) |
 | `icon_cli` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-cli) | [Source](../../../assets/icons/dev/icon_cli.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_cli.svg) |
@@ -32,9 +33,11 @@ Top tags: `code` (24), `developer` (24), `icon` (24), `animated` (17), `motion` 
 | `icon_download_cloud` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-download-cloud) | [Source](../../../assets/icons/dev/icon_download_cloud.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_download_cloud.svg) |
 | `icon_env_file` | Animated | `animated`, `code`, `developer`, `icon`, `infrastructure`, `motion` | [Jump](#icon-env-file) | [Source](../../../assets/icons/dev/icon_env_file.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_env_file.svg) |
 | `icon_git_branch` | Static or subtle motion | `code`, `developer`, `icon`, `static` | [Jump](#icon-git-branch) | [Source](../../../assets/icons/dev/icon_git_branch.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_git_branch.svg) |
+| `icon_hot_reload_delta_spark` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-hot-reload-delta-spark) | [Source](../../../assets/icons/dev/icon_hot_reload_delta_spark.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_hot_reload_delta_spark.svg) |
 | `icon_install` | Static or subtle motion | `code`, `developer`, `icon`, `static` | [Jump](#icon-install) | [Source](../../../assets/icons/dev/icon_install.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_install.svg) |
 | `icon_lint_brush` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-lint-brush) | [Source](../../../assets/icons/dev/icon_lint_brush.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_lint_brush.svg) |
 | `icon_module_blocks` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-module-blocks) | [Source](../../../assets/icons/dev/icon_module_blocks.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_module_blocks.svg) |
+| `icon_monorepo_cache_hash` | Animated | `animated`, `code`, `data`, `developer`, `icon`, `motion` | [Jump](#icon-monorepo-cache-hash) | [Source](../../../assets/icons/dev/icon_monorepo_cache_hash.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_monorepo_cache_hash.svg) |
 | `icon_package_box` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-package-box) | [Source](../../../assets/icons/dev/icon_package_box.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_package_box.svg) |
 | `icon_pipeline` | Static or subtle motion | `architecture`, `code`, `developer`, `icon`, `static` | [Jump](#icon-pipeline) | [Source](../../../assets/icons/dev/icon_pipeline.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_pipeline.svg) |
 | `icon_pull_request` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-pull-request) | [Source](../../../assets/icons/dev/icon_pull_request.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_pull_request.svg) |
@@ -44,6 +47,8 @@ Top tags: `code` (24), `developer` (24), `icon` (24), `animated` (17), `motion` 
 | `icon_test_tube` | Animated | `animated`, `code`, `developer`, `icon`, `motion`, `testing` | [Jump](#icon-test-tube) | [Source](../../../assets/icons/dev/icon_test_tube.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_test_tube.svg) |
 | `icon_upload` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-upload) | [Source](../../../assets/icons/dev/icon_upload.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_upload.svg) |
 | `icon_upload_cloud` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-upload-cloud) | [Source](../../../assets/icons/dev/icon_upload_cloud.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_upload_cloud.svg) |
+| `icon_wasm_sandbox_module` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-wasm-sandbox-module) | [Source](../../../assets/icons/dev/icon_wasm_sandbox_module.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_wasm_sandbox_module.svg) |
+| `icon_zero_copy_buffer_ring` | Animated | `animated`, `code`, `developer`, `icon`, `motion` | [Jump](#icon-zero-copy-buffer-ring) | [Source](../../../assets/icons/dev/icon_zero_copy_buffer_ring.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_zero_copy_buffer_ring.svg) |
 
 ## Visual previews
 
@@ -82,6 +87,42 @@ Top tags: `code` (24), `developer` (24), `icon` (24), `animated` (17), `motion` 
 - Anchor: `#icon-api`
 - [Source file](../../../assets/icons/dev/icon_api.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_api.svg)
+
+<a id="icon-ast-syntax-tree-branch"></a>
+
+## icon_ast_syntax_tree_branch
+
+[![icon_ast_syntax_tree_branch](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_ast_syntax_tree_branch.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_ast_syntax_tree_branch](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_ast_syntax_tree_branch.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_ast_syntax_tree_branch.svg" alt="icon_ast_syntax_tree_branch" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `code`, `developer`, `icon`, `motion`
+- Anchor: `#icon-ast-syntax-tree-branch`
+- [Source file](../../../assets/icons/dev/icon_ast_syntax_tree_branch.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_ast_syntax_tree_branch.svg)
 
 <a id="icon-branch-merge"></a>
 
@@ -479,6 +520,42 @@ Top tags: `code` (24), `developer` (24), `icon` (24), `animated` (17), `motion` 
 - [Source file](../../../assets/icons/dev/icon_git_branch.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_git_branch.svg)
 
+<a id="icon-hot-reload-delta-spark"></a>
+
+## icon_hot_reload_delta_spark
+
+[![icon_hot_reload_delta_spark](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_hot_reload_delta_spark.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_hot_reload_delta_spark](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_hot_reload_delta_spark.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_hot_reload_delta_spark.svg" alt="icon_hot_reload_delta_spark" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `code`, `developer`, `icon`, `motion`
+- Anchor: `#icon-hot-reload-delta-spark`
+- [Source file](../../../assets/icons/dev/icon_hot_reload_delta_spark.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_hot_reload_delta_spark.svg)
+
 <a id="icon-install"></a>
 
 ## icon_install
@@ -586,6 +663,42 @@ Top tags: `code` (24), `developer` (24), `icon` (24), `animated` (17), `motion` 
 - Anchor: `#icon-module-blocks`
 - [Source file](../../../assets/icons/dev/icon_module_blocks.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_module_blocks.svg)
+
+<a id="icon-monorepo-cache-hash"></a>
+
+## icon_monorepo_cache_hash
+
+[![icon_monorepo_cache_hash](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_monorepo_cache_hash.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_monorepo_cache_hash](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_monorepo_cache_hash.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_monorepo_cache_hash.svg" alt="icon_monorepo_cache_hash" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `code`, `data`, `developer`, `icon`, `motion`
+- Anchor: `#icon-monorepo-cache-hash`
+- [Source file](../../../assets/icons/dev/icon_monorepo_cache_hash.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_monorepo_cache_hash.svg)
 
 <a id="icon-package-box"></a>
 
@@ -910,3 +1023,75 @@ Top tags: `code` (24), `developer` (24), `icon` (24), `animated` (17), `motion` 
 - Anchor: `#icon-upload-cloud`
 - [Source file](../../../assets/icons/dev/icon_upload_cloud.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_upload_cloud.svg)
+
+<a id="icon-wasm-sandbox-module"></a>
+
+## icon_wasm_sandbox_module
+
+[![icon_wasm_sandbox_module](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_wasm_sandbox_module.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_wasm_sandbox_module](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_wasm_sandbox_module.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_wasm_sandbox_module.svg" alt="icon_wasm_sandbox_module" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `code`, `developer`, `icon`, `motion`
+- Anchor: `#icon-wasm-sandbox-module`
+- [Source file](../../../assets/icons/dev/icon_wasm_sandbox_module.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_wasm_sandbox_module.svg)
+
+<a id="icon-zero-copy-buffer-ring"></a>
+
+## icon_zero_copy_buffer_ring
+
+[![icon_zero_copy_buffer_ring](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_zero_copy_buffer_ring.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_zero_copy_buffer_ring](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_zero_copy_buffer_ring.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_zero_copy_buffer_ring.svg" alt="icon_zero_copy_buffer_ring" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `code`, `developer`, `icon`, `motion`
+- Anchor: `#icon-zero-copy-buffer-ring`
+- [Source file](../../../assets/icons/dev/icon_zero_copy_buffer_ring.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/dev/icon_zero_copy_buffer_ring.svg)

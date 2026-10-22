@@ -6,23 +6,39 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 ## At a glance
 
-- Assets: 64
+- Assets: 114
 - Groups: 2
 - Best for: Breaking long README pages into readable sections without adding heavy layout components.
 - Category tags: `separator`
 
 ## Tag summary
 
-`separator` (64), `motion` (55), `animated` (54), `energy` (16), `static` (12), `data` (5), `testing` (2), `architecture` (1), `ai` (1), `security` (1), `code` (1), `minimal` (1)
+`separator` (114), `motion` (105), `animated` (104), `energy` (18), `static` (12), `data` (6), `testing` (3), `architecture` (3), `ai` (3), `security` (3), `build` (1), `infrastructure` (1)
 
 ## Full previews
 
 | Group | Count | Description | Full preview |
 | --- | ---: | --- | --- |
-| Animated | 52 | Animated variants for motion-first README accents. | [Open](./dividers/full_divider_animated_preview.md) |
+| Animated | 102 | Animated variants for motion-first README accents. | [Open](./dividers/full_divider_animated_preview.md) |
 | Static | 12 | Static variants for cleaner, low-motion README layouts. | [Open](./dividers/full_divider_static_preview.md) |
 
 ## Highlights
+
+### divider_build_matrix_lane_bar
+
+[![divider_build_matrix_lane_bar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_build_matrix_lane_bar.svg)](https://github.com/HiradEmami)
+
+- Tags: `animated`, `build`, `data`, `motion`, `separator`, `testing`
+- [Source file](../../assets/dividers/animated/bars/divider_build_matrix_lane_bar.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_build_matrix_lane_bar.svg)
+
+### divider_canary_rollout_bar
+
+[![divider_canary_rollout_bar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_canary_rollout_bar.svg)](https://github.com/HiradEmami)
+
+- Tags: `animated`, `motion`, `separator`
+- [Source file](../../assets/dividers/animated/bars/divider_canary_rollout_bar.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_canary_rollout_bar.svg)
 
 ### divider_circuit_pulse_bar
 
@@ -56,6 +72,14 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - [Source file](../../assets/dividers/animated/bars/divider_dual_energy_tracks.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)
 
+### divider_edge_pop_backhaul_bar
+
+[![divider_edge_pop_backhaul_bar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_edge_pop_backhaul_bar.svg)](https://github.com/HiradEmami)
+
+- Tags: `animated`, `infrastructure`, `motion`, `separator`
+- [Source file](../../assets/dividers/animated/bars/divider_edge_pop_backhaul_bar.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_edge_pop_backhaul_bar.svg)
+
 ### divider_frequency_bar
 
 [![divider_frequency_bar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_frequency_bar.svg)](https://github.com/HiradEmami)
@@ -72,34 +96,10 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - [Source file](../../assets/dividers/animated/bars/divider_glitch_bar.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_glitch_bar.svg)
 
-### divider_scanning_bar
+### divider_grpc_frame_mux_bar
 
-[![divider_scanning_bar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_scanning_bar.svg)](https://github.com/HiradEmami)
-
-- Tags: `animated`, `motion`, `separator`
-- [Source file](../../assets/dividers/animated/bars/divider_scanning_bar.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_scanning_bar.svg)
-
-### divider_breathing_line
-
-[![divider_breathing_line](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_breathing_line.svg)](https://github.com/HiradEmami)
+[![divider_grpc_frame_mux_bar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_grpc_frame_mux_bar.svg)](https://github.com/HiradEmami)
 
 - Tags: `animated`, `motion`, `separator`
-- [Source file](../../assets/dividers/animated/lines/divider_breathing_line.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_breathing_line.svg)
-
-### divider_dash_energy_lines
-
-[![divider_dash_energy_lines](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_dash_energy_lines.svg)](https://github.com/HiradEmami)
-
-- Tags: `animated`, `energy`, `motion`, `separator`
-- [Source file](../../assets/dividers/animated/lines/divider_dash_energy_lines.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_dash_energy_lines.svg)
-
-### divider_data_flow
-
-[![divider_data_flow](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_data_flow.svg)](https://github.com/HiradEmami)
-
-- Tags: `animated`, `data`, `motion`, `separator`
-- [Source file](../../assets/dividers/animated/lines/divider_data_flow.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/lines/divider_data_flow.svg)
+- [Source file](../../assets/dividers/animated/bars/divider_grpc_frame_mux_bar.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_grpc_frame_mux_bar.svg)

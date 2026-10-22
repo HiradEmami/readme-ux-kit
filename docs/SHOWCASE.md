@@ -20,7 +20,7 @@ These examples are not external community repositories. They are curated composi
 
 **Kit pieces:** [`open-source-lib.md`](../templates/open-source-lib.md), [`open-source-classic`](../themes/open-source-classic/example.md), [`version lifecycle`](../components/status/version-lifecycle.md)
 
-**Assets:** [`header_hero_banner.svg`](../assets/headers/static/header_hero_banner.svg), [`divider_center_diamond.svg`](../assets/dividers/static/divider_center_diamond.svg), [`icon_pull_request.svg`](../assets/icons/dev/icon_pull_request.svg)
+**Assets:** [`header_hero_banner.svg`](../assets/headers/static/header_hero_banner.svg), [`header_cross_platform_sdk_toolchain.svg`](../assets/headers/animated/header_cross_platform_sdk_toolchain.svg), [`card_release_general_availability_v3.svg`](../assets/cards/releases/card_release_general_availability_v3.svg), [`isometric_cross_target_sdk_generator.svg`](../assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg), [`divider_center_diamond.svg`](../assets/dividers/static/divider_center_diamond.svg), [`icon_pull_request.svg`](../assets/icons/dev/icon_pull_request.svg)
 
 **Good example of:** Familiar project introduction, contributor path, and support expectations.
 
@@ -44,7 +44,7 @@ Use this pattern when a repository needs to feel approachable without becoming d
 
 **Kit pieces:** [`backend-service.md`](../templates/backend-service.md), [`enterprise`](../themes/enterprise/example.md), [`deployment status`](../components/status/deployment-status.md)
 
-**Assets:** [`header_status_dashboard.svg`](../assets/headers/static/header_status_dashboard.svg), [`reliability_control_room.svg`](../assets/visuals/reliability_control_room.svg), [`icon_slo_gauge.svg`](../assets/icons/devops/icon_slo_gauge.svg)
+**Assets:** [`header_status_dashboard.svg`](../assets/headers/static/header_status_dashboard.svg), [`header_opentelemetry_sre_command.svg`](../assets/headers/animated/header_opentelemetry_sre_command.svg), [`isometric_cqrs_command_query_segregation.svg`](../assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg), [`diagram_hexagonal_domain_kernel.svg`](../assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg), [`chart_slo_availability_burn_gauge.svg`](../assets/charts/gauge/chart_slo_availability_burn_gauge.svg), [`card_p99_tail_latency_budget.svg`](../assets/cards/metrics/card_p99_tail_latency_budget.svg), [`reliability_control_room.svg`](../assets/visuals/reliability_control_room.svg), [`icon_slo_gauge.svg`](../assets/icons/devops/icon_slo_gauge.svg)
 
 **Good example of:** Production posture, ownership, support model, and operational confidence.
 
@@ -67,7 +67,7 @@ Use this pattern when readers need to know whether a service is stable, supporte
 
 **Kit pieces:** [`ml-project.md`](../templates/ml-project.md), [`research-project.md`](../templates/research-project.md), [`data-lab`](../themes/data-lab/example.md), [`ML experiments`](../components/status/ml-experiments.md)
 
-**Assets:** [`header_data_rail.svg`](../assets/headers/static/header_data_rail.svg), [`data_lineage_river.svg`](../assets/visuals/data_lineage_river.svg), [`divider_data_flow.svg`](../assets/dividers/animated/lines/divider_data_flow.svg)
+**Assets:** [`header_data_rail.svg`](../assets/headers/static/header_data_rail.svg), [`header_high_frequency_tensor_runtime.svg`](../assets/headers/animated/header_high_frequency_tensor_runtime.svg), [`isometric_rag_retrieval_pipeline.svg`](../assets/isometric/ai-systems/isometric_rag_retrieval_pipeline.svg), [`diagram_hybrid_rag_reranker_flow.svg`](../assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg), [`chart_model_eval_capability_axes.svg`](../assets/charts/radar/chart_model_eval_capability_axes.svg), [`card_neural_rag_search_orchestrator.svg`](../assets/cards/projects/card_neural_rag_search_orchestrator.svg), [`data_lineage_river.svg`](../assets/visuals/data_lineage_river.svg), [`divider_data_flow.svg`](../assets/dividers/animated/lines/divider_data_flow.svg)
 
 **Good example of:** Dataset status, experiment decisions, and benchmark context.
 
@@ -89,7 +89,7 @@ Use this pattern when the README needs to make evidence easy to inspect. Prefer 
 
 **Kit pieces:** [`security-ops`](../themes/security-ops/example.md), [`system badges`](../components/badges/system-badges.md), [`expand and collapse`](../components/interactive/expand-collapse.md)
 
-**Assets:** [`security_policy_radar.svg`](../assets/file_headers/security_policy_radar.svg), [`privacy_vault_shield.svg`](../assets/visuals/privacy_vault_shield.svg), [`divider_scanning_radar.svg`](../assets/dividers/animated/lines/divider_scanning_radar.svg)
+**Assets:** [`security_policy_radar.svg`](../assets/file_headers/security_policy_radar.svg), [`file_header_threat_modeling_matrix.svg`](../assets/file_headers/file_header_threat_modeling_matrix.svg), [`isometric_zero_trust_microsegmentation.svg`](../assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg), [`diagram_spiffe_spire_mtls_rotation.svg`](../assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg), [`chart_security_defense_in_depth_radar.svg`](../assets/charts/radar/chart_security_defense_in_depth_radar.svg), [`privacy_vault_shield.svg`](../assets/visuals/privacy_vault_shield.svg), [`divider_scanning_radar.svg`](../assets/dividers/animated/lines/divider_scanning_radar.svg)
 
 **Good example of:** Trust boundaries, required checks, and disclosure clarity.
 
@@ -111,7 +111,7 @@ Use this pattern when the README must help readers understand what is checked, w
 
 **Kit pieces:** [`docs-clean`](../themes/docs-clean/example.md), [`tabs`](../components/interactive/tabs.md), [`FAQ`](../components/layout/faq.md)
 
-**Assets:** [`header_split_line.svg`](../assets/headers/static/header_split_line.svg), [`icon_docs.svg`](../assets/icons/core/icon_docs.svg), [`icon_breadcrumb_path.svg`](../assets/icons/navigation/icon_breadcrumb_path.svg)
+**Assets:** [`header_split_line.svg`](../assets/headers/static/header_split_line.svg), [`file_header_architecture_decisions.svg`](../assets/file_headers/file_header_architecture_decisions.svg), [`isometric_docs_static_site_compiler.svg`](../assets/isometric/developer-workstations/isometric_docs_static_site_compiler.svg), [`card_documentation_ux_editorial.svg`](../assets/cards/team/card_documentation_ux_editorial.svg), [`icon_docs.svg`](../assets/icons/core/icon_docs.svg), [`icon_breadcrumb_path.svg`](../assets/icons/navigation/icon_breadcrumb_path.svg)
 
 **Good example of:** Fast navigation, clean reference structure, and low-noise examples.
 
@@ -126,6 +126,31 @@ Use this pattern when the README acts as a front door for deeper docs. The stron
 | --- | --- |
 | Install | Quick start |
 | Learn API | Reference |
+```
+
+### Cloud & Distributed Systems Architecture
+
+**Project type:** Multi-region cloud control plane, Kubernetes operator, service mesh, or distributed storage engine
+
+**Kit pieces:** [`infrastructure-iac.md`](../templates/infrastructure-iac.md), [`infra-control-plane`](../themes/infra-control-plane/example.md), [`deployment status`](../components/status/deployment-status.md)
+
+**Assets:** [`header_distributed_cloud_mesh_fabric.svg`](../assets/headers/animated/header_distributed_cloud_mesh_fabric.svg), [`isometric_multi_region_active_cluster.svg`](../assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg), [`isometric_geo_distributed_active_mesh.svg`](../assets/isometric/cloud-topology/isometric_geo_distributed_active_mesh.svg), [`diagram_multi_region_active_failover.svg`](../assets/diagrams/deployment/diagram_multi_region_active_failover.svg), [`chart_regional_api_latency_matrix.svg`](../assets/charts/heatmap/chart_regional_api_latency_matrix.svg), [`card_distributed_kv_consensus_engine.svg`](../assets/cards/projects/card_distributed_kv_consensus_engine.svg), [`divider_axonometric_grid_trace.svg`](../assets/dividers/animated/lines/divider_axonometric_grid_trace.svg), [`loading_raft_quorum_election.svg`](../assets/loadings/loading_raft_quorum_election.svg)
+
+**Good example of:** 3D axonometric system topology, failover readiness, and multi-region telemetry.
+
+Use this pattern when an infrastructure or distributed systems repository needs an immediate architectural anchor before diving into Terraform modules, operator CRDs, or consensus protocols.
+
+```markdown
+[![Cloud mesh header](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_distributed_cloud_mesh_fabric.svg)](https://github.com/HiradEmami/readme-ux-kit)
+
+[![Multi-region active cluster](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg)](https://github.com/HiradEmami/readme-ux-kit)
+
+## Topology Summary
+
+| Plane | Strategy | Target SLO |
+| --- | --- | --- |
+| Ingress | Anycast BGP + Envoy mTLS | `< 15ms` regional RTT |
+| State | Raft quorum across 3 AZs | `RPO = 0`, `RTO < 5s` |
 ```
 
 ## Submission Rules

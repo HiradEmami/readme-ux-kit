@@ -1,0 +1,6 @@
+Contact: https://github.com/HiradEmami/readme-ux-kit/security/advisories/new
+Contact: https://github.com/HiradEmami/readme-ux-kit/issues
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://hirademami.github.io/readme-ux-kit/.well-known/security.txt
+Policy: https://github.com/HiradEmami/readme-ux-kit/blob/master/SECURITY.md

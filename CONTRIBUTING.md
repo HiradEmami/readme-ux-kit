@@ -43,7 +43,6 @@ After adding the file:
 ```bash
 npm run optimize:svg
 npm run generate:previews
-npm run generate:gif-previews
 npm run generate:all-data
 npm run check:all
 ```
@@ -65,6 +64,7 @@ Use the existing category system unless there is a clear reason to expand it.
 | `file_headers/` | Graphics for repository files such as `SECURITY.md` and `CONTRIBUTING.md`. |
 | `headers/` | Title and section header graphics. |
 | `icons/` | Small symbols for status, UI, development, navigation, and concepts. |
+| `isometric/` | Deep 3D axonometric system illustrations for cloud, data, AI, DevOps, security, SRE, dev tooling, networking, storage, and platform architecture. |
 | `loadings/` | Loading indicators and motion accents. |
 | `mockups/` | Fictional product and documentation interface previews. |
 | `personal/` | Profile README, portfolio, and author/project-story visuals. |
@@ -241,7 +241,6 @@ For asset changes:
 ```bash
 npm run optimize:svg
 npm run generate:previews
-npm run generate:gif-previews
 npm run generate:all-data
 npm run check:all
 ```

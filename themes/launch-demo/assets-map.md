@@ -6,6 +6,10 @@
 | Visual | [`spiral_energy_core.svg`](../../assets/visuals/spiral_energy_core.svg) | High-energy visual focus. |
 | Icon | [`icon_rocket_launch.svg`](../../assets/icons/objects/icon_rocket_launch.svg) | Demo calls to action. |
 | Divider | [`divider_portal_breach.svg`](../../assets/dividers/animated/unique_effects/divider_portal_breach.svg) | Expressive demo separator. |
+| Isometric 3D | [`isometric_wasm_browser_playground_bridge.svg`](../../assets/isometric/developer-workstations/isometric_wasm_browser_playground_bridge.svg) | Animated 3D in-browser WASM sandbox playground. |
+| Header | [`header_wasm_edge_compute_workers.svg`](../../assets/headers/animated/header_wasm_edge_compute_workers.svg) | Sub-millisecond WebAssembly edge workers header. |
+| Card | [`card_edge_wasm_isolate_runtime.svg`](../../assets/cards/features/card_edge_wasm_isolate_runtime.svg) | Edge WASM isolate cold-start card. |
+| Loading | [`loading_wasm_isolate_coldboot.svg`](../../assets/loadings/loading_wasm_isolate_coldboot.svg) | Animated WASM isolate cold-boot indicator. |
 
 ## Best Pairings
 

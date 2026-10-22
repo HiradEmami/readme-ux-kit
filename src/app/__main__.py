@@ -1,12 +1,15 @@
 import argparse
+import os
 
 from src.app.services import run_self_tests
 
 
 def main():
+    default_host = os.environ.get("README_UX_KIT_HOST", "127.0.0.1")
+    default_port = int(os.environ.get("README_UX_KIT_PORT", "8787"))
     parser = argparse.ArgumentParser(description="Run the readme-ux-kit Local Studio.")
-    parser.add_argument("--host", default="127.0.0.1", help="Bind host. Keep 127.0.0.1 for local-only use.")
-    parser.add_argument("--port", default=8787, type=int, help="Bind port.")
+    parser.add_argument("--host", default=default_host, help="Bind host. Keep 127.0.0.1 for local-only use.")
+    parser.add_argument("--port", default=default_port, type=int, help="Bind port.")
     parser.add_argument("--reload", action="store_true", help="Enable uvicorn reload for app development.")
     parser.add_argument("--self-test", action="store_true", help="Run dependency-light app self-tests and exit.")
     args = parser.parse_args()

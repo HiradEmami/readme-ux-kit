@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `data-ai`
-- Asset count: 21
+- Asset count: 26
 - Best for: Data, AI, robotics, neural, server, and signal-themed icons.
 - Group tags: `ai`, `data`
 
 ## Compact index
 
-Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `energy` (3), `architecture` (3), `testing` (1), `security` (1), `minimal` (1)
+Top tags: `ai` (26), `animated` (26), `data` (26), `icon` (26), `motion` (26), `energy` (4), `architecture` (3), `testing` (1), `security` (1), `minimal` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -27,11 +27,13 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 | `icon_eval_harness` | Animated | `ai`, `animated`, `data`, `icon`, `motion`, `testing` | [Jump](#icon-eval-harness) | [Source](../../../assets/icons/data-ai/icon_eval_harness.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_eval_harness.svg) |
 | `icon_feature_store` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-feature-store) | [Source](../../../assets/icons/data-ai/icon_feature_store.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_feature_store.svg) |
 | `icon_inference_stream` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-inference-stream) | [Source](../../../assets/icons/data-ai/icon_inference_stream.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_inference_stream.svg) |
+| `icon_medallion_stream_silo` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-medallion-stream-silo) | [Source](../../../assets/icons/data-ai/icon_medallion_stream_silo.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_medallion_stream_silo.svg) |
 | `icon_model_router` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-model-router) | [Source](../../../assets/icons/data-ai/icon_model_router.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_model_router.svg) |
 | `icon_neural_gateway` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-neural-gateway) | [Source](../../../assets/icons/data-ai/icon_neural_gateway.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_neural_gateway.svg) |
 | `icon_neural_pulse_web` | Animated | `ai`, `animated`, `data`, `energy`, `icon`, `motion` | [Jump](#icon-neural-pulse-web) | [Source](../../../assets/icons/data-ai/icon_neural_pulse_web.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_neural_pulse_web.svg) |
 | `icon_prompt_chain` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-prompt-chain) | [Source](../../../assets/icons/data-ai/icon_prompt_chain.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_prompt_chain.svg) |
 | `icon_radar_sweep` | Animated | `ai`, `animated`, `data`, `icon`, `motion`, `security` | [Jump](#icon-radar-sweep) | [Source](../../../assets/icons/data-ai/icon_radar_sweep.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_radar_sweep.svg) |
+| `icon_rag_context_grounding` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-rag-context-grounding) | [Source](../../../assets/icons/data-ai/icon_rag_context_grounding.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_context_grounding.svg) |
 | `icon_rag_pipeline` | Animated | `ai`, `animated`, `architecture`, `data`, `icon`, `motion` | [Jump](#icon-rag-pipeline) | [Source](../../../assets/icons/data-ai/icon_rag_pipeline.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_pipeline.svg) |
 | `icon_robot_head` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-robot-head) | [Source](../../../assets/icons/data-ai/icon_robot_head.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_robot_head.svg) |
 | `icon_robot_head_simple` | Animated | `ai`, `animated`, `data`, `icon`, `minimal`, `motion` | [Jump](#icon-robot-head-simple) | [Source](../../../assets/icons/data-ai/icon_robot_head_simple.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_robot_head_simple.svg) |
@@ -39,8 +41,11 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 | `icon_signal_pulse` | Animated | `ai`, `animated`, `data`, `energy`, `icon`, `motion` | [Jump](#icon-signal-pulse) | [Source](../../../assets/icons/data-ai/icon_signal_pulse.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_signal_pulse.svg) |
 | `icon_streaming` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-streaming) | [Source](../../../assets/icons/data-ai/icon_streaming.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_streaming.svg) |
 | `icon_system_online` | Animated | `ai`, `animated`, `architecture`, `data`, `icon`, `motion` | [Jump](#icon-system-online) | [Source](../../../assets/icons/data-ai/icon_system_online.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_system_online.svg) |
+| `icon_tensor_fp8_core` | Animated | `ai`, `animated`, `data`, `energy`, `icon`, `motion` | [Jump](#icon-tensor-fp8-core) | [Source](../../../assets/icons/data-ai/icon_tensor_fp8_core.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_tensor_fp8_core.svg) |
 | `icon_token_window` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-token-window) | [Source](../../../assets/icons/data-ai/icon_token_window.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_token_window.svg) |
+| `icon_transformer_attention_head` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-transformer-attention-head) | [Source](../../../assets/icons/data-ai/icon_transformer_attention_head.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_transformer_attention_head.svg) |
 | `icon_vector_database` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-vector-database) | [Source](../../../assets/icons/data-ai/icon_vector_database.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_vector_database.svg) |
+| `icon_vector_hnsw_manifold` | Animated | `ai`, `animated`, `data`, `icon`, `motion` | [Jump](#icon-vector-hnsw-manifold) | [Source](../../../assets/icons/data-ai/icon_vector_hnsw_manifold.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_vector_hnsw_manifold.svg) |
 
 ## Visual previews
 
@@ -296,6 +301,42 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_inference_stream.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_inference_stream.svg)
 
+<a id="icon-medallion-stream-silo"></a>
+
+## icon_medallion_stream_silo
+
+[![icon_medallion_stream_silo](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_medallion_stream_silo.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_medallion_stream_silo](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_medallion_stream_silo.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_medallion_stream_silo.svg" alt="icon_medallion_stream_silo" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `data`, `icon`, `motion`
+- Anchor: `#icon-medallion-stream-silo`
+- [Source file](../../../assets/icons/data-ai/icon_medallion_stream_silo.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_medallion_stream_silo.svg)
+
 <a id="icon-model-router"></a>
 
 ## icon_model_router
@@ -475,6 +516,42 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-radar-sweep`
 - [Source file](../../../assets/icons/data-ai/icon_radar_sweep.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_radar_sweep.svg)
+
+<a id="icon-rag-context-grounding"></a>
+
+## icon_rag_context_grounding
+
+[![icon_rag_context_grounding](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_context_grounding.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_rag_context_grounding](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_context_grounding.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_context_grounding.svg" alt="icon_rag_context_grounding" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `data`, `icon`, `motion`
+- Anchor: `#icon-rag-context-grounding`
+- [Source file](../../../assets/icons/data-ai/icon_rag_context_grounding.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_rag_context_grounding.svg)
 
 <a id="icon-rag-pipeline"></a>
 
@@ -728,6 +805,42 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_system_online.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_system_online.svg)
 
+<a id="icon-tensor-fp8-core"></a>
+
+## icon_tensor_fp8_core
+
+[![icon_tensor_fp8_core](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_tensor_fp8_core.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_tensor_fp8_core](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_tensor_fp8_core.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_tensor_fp8_core.svg" alt="icon_tensor_fp8_core" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `data`, `energy`, `icon`, `motion`
+- Anchor: `#icon-tensor-fp8-core`
+- [Source file](../../../assets/icons/data-ai/icon_tensor_fp8_core.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_tensor_fp8_core.svg)
+
 <a id="icon-token-window"></a>
 
 ## icon_token_window
@@ -764,6 +877,42 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - [Source file](../../../assets/icons/data-ai/icon_token_window.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_token_window.svg)
 
+<a id="icon-transformer-attention-head"></a>
+
+## icon_transformer_attention_head
+
+[![icon_transformer_attention_head](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_transformer_attention_head.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_transformer_attention_head](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_transformer_attention_head.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_transformer_attention_head.svg" alt="icon_transformer_attention_head" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `data`, `icon`, `motion`
+- Anchor: `#icon-transformer-attention-head`
+- [Source file](../../../assets/icons/data-ai/icon_transformer_attention_head.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_transformer_attention_head.svg)
+
 <a id="icon-vector-database"></a>
 
 ## icon_vector_database
@@ -799,3 +948,39 @@ Top tags: `ai` (21), `animated` (21), `data` (21), `icon` (21), `motion` (21), `
 - Anchor: `#icon-vector-database`
 - [Source file](../../../assets/icons/data-ai/icon_vector_database.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_vector_database.svg)
+
+<a id="icon-vector-hnsw-manifold"></a>
+
+## icon_vector_hnsw_manifold
+
+[![icon_vector_hnsw_manifold](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_vector_hnsw_manifold.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_vector_hnsw_manifold](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_vector_hnsw_manifold.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_vector_hnsw_manifold.svg" alt="icon_vector_hnsw_manifold" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `data`, `icon`, `motion`
+- Anchor: `#icon-vector-hnsw-manifold`
+- [Source file](../../../assets/icons/data-ai/icon_vector_hnsw_manifold.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/data-ai/icon_vector_hnsw_manifold.svg)

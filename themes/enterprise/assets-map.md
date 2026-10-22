@@ -8,6 +8,10 @@
 | Security | [`icon_shield_check.svg`](../../assets/icons/core/icon_shield_check.svg) | Marks compliance or reviewed workflows. |
 | SLOs | [`icon_slo_gauge.svg`](../../assets/icons/devops/icon_slo_gauge.svg) | Supports latency, availability, and error budget sections. |
 | Divider | [`divider_two_beam_lines.svg`](../../assets/dividers/static/divider_two_beam_lines.svg) | Separates sections without adding drama. |
+| Isometric 3D | [`isometric_multi_tenant_cell_isolation.svg`](../../assets/isometric/platform-architecture/isometric_multi_tenant_cell_isolation.svg) | 3D stamp-based multi-tenant cell isolation architecture. |
+| Diagram | [`diagram_cell_based_tenant_isolation.svg`](../../assets/diagrams/architecture/diagram_cell_based_tenant_isolation.svg) | Animated cell-router blast-radius containment diagram. |
+| Chart | [`chart_slo_availability_burn_gauge.svg`](../../assets/charts/gauge/chart_slo_availability_burn_gauge.svg) | Production SLO availability reserve gauge. |
+| Card | [`card_multi_tenant_quota_governor.svg`](../../assets/cards/features/card_multi_tenant_quota_governor.svg) | Per-organization quota governance card. |
 
 ## Best Pairings
 

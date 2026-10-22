@@ -120,10 +120,15 @@ def contact_sheet_html(root, manifest_path):
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
   <title>readme-ux-kit SVG Contact Sheet</title>
   <style>
     :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     body { margin: 0; background: #f8fafc; color: #0f172a; }
+    .skip-link { position: fixed; top: 10px; left: 16px; z-index: 10; padding: 8px 12px; border-radius: 6px; border: 2px solid #0f172a; background: #ffffff; color: #0f172a; font-weight: 700; text-decoration: none; transform: translateY(-160%); }
+    .skip-link:focus, .skip-link:focus-visible { transform: translateY(0); outline: 3px solid #2563eb; outline-offset: 2px; }
     header { position: sticky; top: 0; z-index: 1; padding: 18px 24px; border-bottom: 1px solid #dbe3ef; background: rgba(248, 250, 252, 0.94); backdrop-filter: blur(10px); }
     h1 { margin: 0; font-size: 20px; }
     header p { margin: 6px 0 0; color: #475569; font-size: 13px; }
@@ -131,18 +136,24 @@ def contact_sheet_html(root, manifest_path):
     .card { min-height: 230px; padding: 14px; border: 1px solid #dbe3ef; border-radius: 8px; background: white; box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04); }
     img { display: block; width: 100%; height: 132px; object-fit: contain; border: 1px solid #e2e8f0; border-radius: 6px; background: #ffffff; }
     h2 { margin: 12px 0 4px; font-size: 14px; line-height: 1.3; }
-    p { margin: 0 0 10px; color: #64748b; font-size: 12px; }
+    p { margin: 0 0 10px; color: #475569; font-size: 12px; }
     code { display: block; overflow-wrap: anywhere; color: #334155; font-size: 11px; }
+    .app-footer { padding: 16px 24px; border-top: 1px solid #dbe3ef; color: #475569; font-size: 12px; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }
   </style>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header>
     <h1>readme-ux-kit SVG Contact Sheet</h1>
     <p>Generated from assets/manifest.json for fast visual smoke review.</p>
   </header>
-  <main>
+  <main id="main-content" tabindex="-1">
 """ + "\n".join(cards) + """
   </main>
+  <footer class="app-footer">
+    <strong>readme-ux-kit v1.0.0</strong> — Copyright (c) 2026 Hirad Emamialagha. Released under the MIT License.
+  </footer>
 </body>
 </html>
 """

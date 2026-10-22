@@ -140,10 +140,80 @@ def pages_workflow_issues(root):
     return issues
 
 
+def security_and_accessibility_issues(root):
+    issues = []
+    html_targets = [
+        ("site/index.html", root / "site" / "index.html"),
+        ("src/app/static/index.html", root / "src" / "app" / "static" / "index.html"),
+    ]
+    required_html_tokens = {
+        'http-equiv="Content-Security-Policy"': "Missing Content-Security-Policy meta tag.",
+        "script-src 'self'": "CSP must restrict script-src to 'self'.",
+        "object-src 'none'": "CSP must set object-src to 'none'.",
+        'name="referrer"': "Missing Referrer-Policy meta tag.",
+        'name="color-scheme"': "Missing color-scheme meta tag.",
+        'href="#main-content"': "Missing Skip to main content link.",
+        'id="main-content"': "Missing #main-content landmark target.",
+        'class="app-footer"': "Missing semantic app-footer landmark.",
+        'role="status"': "Missing polite live region role='status'.",
+        'role="alert"': "Missing assertive error boundary role='alert'.",
+    }
+    for rel, path in html_targets:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        for token, message in required_html_tokens.items():
+            if token not in text:
+                issues.append(issue("missing-html-compliance-token", rel, message))
+
+    js_targets = [
+        ("site/app.js", root / "site" / "app.js"),
+        ("src/app/static/app.js", root / "src" / "app" / "static" / "app.js"),
+    ]
+    for rel, path in js_targets:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        if ".innerHTML" in text:
+            issues.append(issue("unsafe-innerhtml", rel, "Avoid innerHTML in client scripts; use safe DOM construction or Blob URLs."))
+        for token in ("@module", "isSafeAssetUrl", "sanitizeJsonObject"):
+            if token not in text:
+                issues.append(issue("missing-js-compliance-helper", rel, f"Expected `{token}` in {rel}."))
+
+    css_targets = [
+        ("site/styles.css", root / "site" / "styles.css"),
+        ("src/app/static/styles.css", root / "src" / "app" / "static" / "styles.css"),
+    ]
+    for rel, path in css_targets:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        for token in (".skip-link", ":focus-visible", "prefers-reduced-motion: reduce"):
+            if token not in text:
+                issues.append(issue("missing-css-a11y-rule", rel, f"Expected `{token}` in {rel}."))
+
+    sec_txt = root / "site" / ".well-known" / "security.txt"
+    if not sec_txt.exists():
+        issues.append(issue("missing-security-txt", "site/.well-known/security.txt", "Missing RFC 9116 security.txt in site/.well-known/."))
+    else:
+        sec_content = sec_txt.read_text(encoding="utf-8")
+        for field in ("Contact:", "Expires:"):
+            if field not in sec_content:
+                issues.append(issue("incomplete-security-txt", "site/.well-known/security.txt", f"security.txt must include `{field}`."))
+    return issues
+
+
 def collect_site_issues(root=None):
     root = Path(root or repo_root()).resolve()
     issues = []
-    for check in [json_file_issues, parity_issues, frontend_only_issues, static_shell_issues, pages_workflow_issues]:
+    for check in [
+        json_file_issues,
+        parity_issues,
+        frontend_only_issues,
+        static_shell_issues,
+        pages_workflow_issues,
+        security_and_accessibility_issues,
+    ]:
         issues.extend(check(root))
     return sorted(issues, key=lambda item: (item["severity"], item["path"], item["code"]))
 

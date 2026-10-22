@@ -14,12 +14,39 @@ REQUIRED_SCRIPTS = (
     "check:site-data",
     "check:svg",
     "check:svg:optimize",
+    "quality:gate",
     "release",
 )
-REQUIRED_DOCS = ("docs/RELEASE.md", "docs/CHANGELOG.md", "CONTRIBUTING.md")
+REQUIRED_DOCS = (
+    "docs/RELEASE.md",
+    "docs/CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "SECURITY.md",
+    "ACCESSIBILITY.md",
+    "PRIVACY.md",
+    "THIRD_PARTY_NOTICES.md",
+    "ASSET_PROVENANCE.md",
+    "ARCHITECTURE.md",
+    "AGENTS.md",
+    "AGENT.md",
+    "CLAUDE.md",
+    "SKILL.md",
+    ".mcp.json",
+    ".well-known/security.txt",
+    "licenses/third-party.txt",
+    ".env.example",
+    ".gitattributes",
+    ".nvmrc",
+    ".editorconfig",
+    "tsconfig.json",
+    ".github/workflows/ci.yml",
+)
 REQUIRED_GENERATED_OUTPUTS = (
     "assets/manifest.json",
     "assets/provenance.json",
+    "ASSET_PROVENANCE.json",
     "previews/assets/README.md",
     "site/data/assets.json",
     "site/data/editor-presets.json",
@@ -50,6 +77,10 @@ def package_script_issues(root):
     for script in REQUIRED_SCRIPTS:
         if script not in scripts:
             issues.append(problem("missing-release-script", f"Missing package script `{script}`.", "package.json"))
+    if package.get("license") != "MIT":
+        issues.append(problem("missing-package-license", "package.json must declare `\"license\": \"MIT\"`.", "package.json"))
+    if not isinstance(package.get("engines"), dict) or "node" not in package.get("engines", {}):
+        issues.append(problem("missing-package-engines", "package.json must declare `engines.node`.", "package.json"))
     return issues
 
 
@@ -81,6 +112,8 @@ def docs_issues(root):
         issues.append(problem("release-doc-missing-check-all", "Release docs should require npm run check:all.", "docs/RELEASE.md"))
     if (root / "docs" / "CHANGELOG.md").exists() and "Generated Output Rules" not in (root / "docs" / "CHANGELOG.md").read_text(encoding="utf-8"):
         issues.append(problem("changelog-doc-missing-generated-rules", "Changelog docs should document generated output rules.", "docs/CHANGELOG.md"))
+    if (root / "CHANGELOG.md").exists() and len((root / "CHANGELOG.md").read_text(encoding="utf-8").strip()) < 100:
+        issues.append(problem("empty-root-changelog", "Root CHANGELOG.md must contain structured release history.", "CHANGELOG.md"))
     return issues
 
 

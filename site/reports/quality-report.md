@@ -4,32 +4,32 @@ Generated from repository manifests and analysis data.
 
 ## Summary
 
-- Assets: 1058
+- Assets: 1608
 - Themes: 19
-- Recipes: 5
-- Copy-all bundles: 8
-- Provenance origins: {'first-party': 1049, 'third-party-derived': 9}
+- Recipes: 6
+- Copy-all bundles: 9
+- Provenance origins: {'first-party': 1599, 'third-party-derived': 9}
 
 ## SVG Signals
 
 - duplicate-heavy-palette: 70
-- high-motion: 59
+- high-motion: 109
 - very-complex: 1
 
 ## Largest Assets
 
 | Asset | Size | Flags |
 | --- | ---: | --- |
-| `assets/visuals/mlp_space.svg` | 15738 | duplicate-heavy-palette, high-motion, very-complex |
-| `assets/visuals/spiral_energy_core.svg` | 9736 | duplicate-heavy-palette, high-motion |
-| `assets/visuals/avocado.svg` | 6079 | none |
-| `assets/headers/animated/header_collaboration_premium.svg` | 6013 | high-motion |
-| `assets/personal/traditional_vs_engineered.svg` | 5868 | high-motion |
-| `assets/personal/internal_vs_external.svg` | 5340 | none |
-| `assets/visuals/solar_system_2.svg` | 5241 | high-motion |
-| `assets/personal/python_project.svg` | 5139 | high-motion |
-| `assets/visuals/quantum_computing.svg` | 5033 | high-motion |
-| `assets/workflow_panels/incident/workflow_detect_acknowledge.svg` | 4917 | duplicate-heavy-palette |
+| `assets/visuals/mlp_space.svg` | 15828 | duplicate-heavy-palette, high-motion, very-complex |
+| `assets/isometric/ai-systems/isometric_sandboxed_code_interpreter_bridge.svg` | 10194 | none |
+| `assets/isometric/observability-sre/isometric_canary_baseline_mann_whitney_rig.svg` | 10180 | none |
+| `assets/isometric/ai-systems/isometric_synthetic_data_distillation_pipe.svg` | 10166 | none |
+| `assets/isometric/ci-cd-devops/isometric_production_traffic_shadow_bridge.svg` | 10166 | none |
+| `assets/isometric/storage-databases/isometric_bloom_filter_sstable_lookup_pipe.svg` | 10158 | none |
+| `assets/isometric/cloud-topology/isometric_private_link_vpc_peering_bridge.svg` | 10135 | none |
+| `assets/isometric/security-zero-trust/isometric_cross_domain_data_diode_bridge.svg` | 10117 | none |
+| `assets/isometric/data-pipelines/isometric_pii_tokenization_scrubbing_pipe.svg` | 10111 | none |
+| `assets/isometric/platform-architecture/isometric_idempotent_payment_ledger_pipe.svg` | 10110 | none |
 
 ## Review Checklist
 

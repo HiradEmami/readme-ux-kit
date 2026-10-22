@@ -1,9 +1,9 @@
 {
   "generatedBy": "src/modules/recipes/recipe_index.py",
-  "recipeCount": 5,
+  "recipeCount": 6,
   "recipes": [
     {
-      "assetCount": 4,
+      "assetCount": 8,
       "componentCount": 3,
       "id": "open-source-library-readme",
       "links": [
@@ -52,6 +52,27 @@
         {
           "anchor": "",
           "exists": true,
+          "label": "assets/headers/animated/header_cross_platform_sdk_toolchain.svg",
+          "path": "assets/headers/animated/header_cross_platform_sdk_toolchain.svg",
+          "target": "../assets/headers/animated/header_cross_platform_sdk_toolchain.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/cards/releases/card_release_general_availability_v3.svg",
+          "path": "assets/cards/releases/card_release_general_availability_v3.svg",
+          "target": "../assets/cards/releases/card_release_general_availability_v3.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg",
+          "path": "assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg",
+          "target": "../assets/isometric/developer-workstations/isometric_cross_target_sdk_generator.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
           "label": "assets/dividers/static/divider_minimal_clean.svg",
           "path": "assets/dividers/static/divider_minimal_clean.svg",
           "target": "../assets/dividers/static/divider_minimal_clean.svg"
@@ -69,6 +90,13 @@
           "label": "assets/icons/core/icon_docs.svg",
           "path": "assets/icons/core/icon_docs.svg",
           "target": "../assets/icons/core/icon_docs.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/loadings/loading_sdk_ir_code_generator.svg",
+          "path": "assets/loadings/loading_sdk_ir_code_generator.svg",
+          "target": "../assets/loadings/loading_sdk_ir_code_generator.svg"
         }
       ],
       "path": "docs/RECIPES.md#open-source-library-readme",
@@ -92,7 +120,7 @@
       "title": "Open-Source Library README"
     },
     {
-      "assetCount": 4,
+      "assetCount": 11,
       "componentCount": 3,
       "id": "machine-learning-project-readme",
       "links": [
@@ -141,6 +169,48 @@
         {
           "anchor": "",
           "exists": true,
+          "label": "assets/headers/animated/header_high_frequency_tensor_runtime.svg",
+          "path": "assets/headers/animated/header_high_frequency_tensor_runtime.svg",
+          "target": "../assets/headers/animated/header_high_frequency_tensor_runtime.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/ai-systems/isometric_transformer_attention_stack.svg",
+          "path": "assets/isometric/ai-systems/isometric_transformer_attention_stack.svg",
+          "target": "../assets/isometric/ai-systems/isometric_transformer_attention_stack.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/ai-systems/isometric_mixture_of_experts_moe_router.svg",
+          "path": "assets/isometric/ai-systems/isometric_mixture_of_experts_moe_router.svg",
+          "target": "../assets/isometric/ai-systems/isometric_mixture_of_experts_moe_router.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg",
+          "path": "assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg",
+          "target": "../assets/diagrams/ml-systems/diagram_hybrid_rag_reranker_flow.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/charts/radar/chart_model_eval_capability_axes.svg",
+          "path": "assets/charts/radar/chart_model_eval_capability_axes.svg",
+          "target": "../assets/charts/radar/chart_model_eval_capability_axes.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/cards/metrics/card_gpu_tensor_utilization_index.svg",
+          "path": "assets/cards/metrics/card_gpu_tensor_utilization_index.svg",
+          "target": "../assets/cards/metrics/card_gpu_tensor_utilization_index.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
           "label": "assets/visuals/evaluation_lens_matrix.svg",
           "path": "assets/visuals/evaluation_lens_matrix.svg",
           "target": "../assets/visuals/evaluation_lens_matrix.svg"
@@ -158,6 +228,13 @@
           "label": "assets/icons/data-ai/icon_eval_harness.svg",
           "path": "assets/icons/data-ai/icon_eval_harness.svg",
           "target": "../assets/icons/data-ai/icon_eval_harness.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/loadings/loading_tensor_allreduce_ring.svg",
+          "path": "assets/loadings/loading_tensor_allreduce_ring.svg",
+          "target": "../assets/loadings/loading_tensor_allreduce_ring.svg"
         }
       ],
       "path": "docs/RECIPES.md#machine-learning-project-readme",
@@ -184,7 +261,7 @@
       "title": "Machine Learning Project README"
     },
     {
-      "assetCount": 4,
+      "assetCount": 10,
       "componentCount": 3,
       "id": "backend-service-readme",
       "links": [
@@ -240,6 +317,41 @@
         {
           "anchor": "",
           "exists": true,
+          "label": "assets/headers/animated/header_opentelemetry_sre_command.svg",
+          "path": "assets/headers/animated/header_opentelemetry_sre_command.svg",
+          "target": "../assets/headers/animated/header_opentelemetry_sre_command.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg",
+          "path": "assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg",
+          "target": "../assets/isometric/platform-architecture/isometric_cqrs_command_query_segregation.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg",
+          "path": "assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg",
+          "target": "../assets/diagrams/architecture/diagram_hexagonal_domain_kernel.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/charts/gauge/chart_slo_availability_burn_gauge.svg",
+          "path": "assets/charts/gauge/chart_slo_availability_burn_gauge.svg",
+          "target": "../assets/charts/gauge/chart_slo_availability_burn_gauge.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/cards/metrics/card_p99_tail_latency_budget.svg",
+          "path": "assets/cards/metrics/card_p99_tail_latency_budget.svg",
+          "target": "../assets/cards/metrics/card_p99_tail_latency_budget.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
           "label": "assets/visuals/reliability_control_room.svg",
           "path": "assets/visuals/reliability_control_room.svg",
           "target": "../assets/visuals/reliability_control_room.svg"
@@ -257,6 +369,13 @@
           "label": "assets/dividers/animated/bars/divider_circuit_pulse_bar.svg",
           "path": "assets/dividers/animated/bars/divider_circuit_pulse_bar.svg",
           "target": "../assets/dividers/animated/bars/divider_circuit_pulse_bar.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/loadings/loading_otlp_span_aggregator.svg",
+          "path": "assets/loadings/loading_otlp_span_aggregator.svg",
+          "target": "../assets/loadings/loading_otlp_span_aggregator.svg"
         }
       ],
       "path": "docs/RECIPES.md#backend-service-readme",
@@ -282,7 +401,7 @@
       "title": "Backend Service README"
     },
     {
-      "assetCount": 4,
+      "assetCount": 7,
       "componentCount": 3,
       "id": "github-profile-readme",
       "links": [
@@ -338,6 +457,20 @@
         {
           "anchor": "",
           "exists": true,
+          "label": "assets/cards/projects/card_local_first_crdt_sync_sdk.svg",
+          "path": "assets/cards/projects/card_local_first_crdt_sync_sdk.svg",
+          "target": "../assets/cards/projects/card_local_first_crdt_sync_sdk.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg",
+          "path": "assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg",
+          "target": "../assets/isometric/developer-workstations/isometric_devcontainer_workspace_pod.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
           "label": "assets/visuals/collaboration.svg",
           "path": "assets/visuals/collaboration.svg",
           "target": "../assets/visuals/collaboration.svg"
@@ -348,6 +481,13 @@
           "label": "assets/icons/objects/icon_rocket_launch.svg",
           "path": "assets/icons/objects/icon_rocket_launch.svg",
           "target": "../assets/icons/objects/icon_rocket_launch.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg",
+          "path": "assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg",
+          "target": "../assets/dividers/animated/unique_effects/divider_crystalline_lattice_seam.svg"
         }
       ],
       "path": "docs/RECIPES.md#github-profile-readme",
@@ -371,7 +511,7 @@
       "title": "GitHub Profile README"
     },
     {
-      "assetCount": 4,
+      "assetCount": 11,
       "componentCount": 3,
       "id": "security-focused-repository-readme",
       "links": [
@@ -427,6 +567,48 @@
         {
           "anchor": "",
           "exists": true,
+          "label": "assets/file_headers/file_header_threat_modeling_matrix.svg",
+          "path": "assets/file_headers/file_header_threat_modeling_matrix.svg",
+          "target": "../assets/file_headers/file_header_threat_modeling_matrix.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/headers/animated/header_zero_trust_security_enclave.svg",
+          "path": "assets/headers/animated/header_zero_trust_security_enclave.svg",
+          "target": "../assets/headers/animated/header_zero_trust_security_enclave.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg",
+          "path": "assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg",
+          "target": "../assets/isometric/security-zero-trust/isometric_zero_trust_microsegmentation.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg",
+          "path": "assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg",
+          "target": "../assets/diagrams/security/diagram_spiffe_spire_mtls_rotation.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/charts/radar/chart_security_defense_in_depth_radar.svg",
+          "path": "assets/charts/radar/chart_security_defense_in_depth_radar.svg",
+          "target": "../assets/charts/radar/chart_security_defense_in_depth_radar.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/cards/features/card_cryptographic_audit_provenance.svg",
+          "path": "assets/cards/features/card_cryptographic_audit_provenance.svg",
+          "target": "../assets/cards/features/card_cryptographic_audit_provenance.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
           "label": "assets/visuals/privacy_vault_shield.svg",
           "path": "assets/visuals/privacy_vault_shield.svg",
           "target": "../assets/visuals/privacy_vault_shield.svg"
@@ -444,6 +626,13 @@
           "label": "assets/dividers/animated/lines/divider_red_alert.svg",
           "path": "assets/dividers/animated/lines/divider_red_alert.svg",
           "target": "../assets/dividers/animated/lines/divider_red_alert.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/loadings/loading_spiffe_svid_rotator.svg",
+          "path": "assets/loadings/loading_spiffe_svid_rotator.svg",
+          "target": "../assets/loadings/loading_spiffe_svid_rotator.svg"
         }
       ],
       "path": "docs/RECIPES.md#security-focused-repository-readme",
@@ -469,6 +658,151 @@
       "templateCount": 2,
       "themeCount": 1,
       "title": "Security-Focused Repository README"
+    },
+    {
+      "assetCount": 11,
+      "componentCount": 3,
+      "id": "cloud-distributed-architecture-readme",
+      "links": [
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "templates/infrastructure-iac.md",
+          "path": "templates/infrastructure-iac.md",
+          "target": "../templates/infrastructure-iac.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "themes/infra-control-plane/example.md",
+          "path": "themes/infra-control-plane/example.md",
+          "target": "../themes/infra-control-plane/example.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/status/deployment-status.md",
+          "path": "components/status/deployment-status.md",
+          "target": "../components/status/deployment-status.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/layout/feature-grids.md",
+          "path": "components/layout/feature-grids.md",
+          "target": "../components/layout/feature-grids.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "components/interactive/terminal-blocks.md",
+          "path": "components/interactive/terminal-blocks.md",
+          "target": "../components/interactive/terminal-blocks.md"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/headers/animated/header_distributed_cloud_mesh_fabric.svg",
+          "path": "assets/headers/animated/header_distributed_cloud_mesh_fabric.svg",
+          "target": "../assets/headers/animated/header_distributed_cloud_mesh_fabric.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/file_headers/file_header_architecture_decisions.svg",
+          "path": "assets/file_headers/file_header_architecture_decisions.svg",
+          "target": "../assets/file_headers/file_header_architecture_decisions.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg",
+          "path": "assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg",
+          "target": "../assets/isometric/cloud-topology/isometric_multi_region_active_cluster.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/cloud-topology/isometric_geo_distributed_active_mesh.svg",
+          "path": "assets/isometric/cloud-topology/isometric_geo_distributed_active_mesh.svg",
+          "target": "../assets/isometric/cloud-topology/isometric_geo_distributed_active_mesh.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg",
+          "path": "assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg",
+          "target": "../assets/isometric/storage-databases/isometric_raft_consensus_quorum_ring.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/diagrams/deployment/diagram_multi_region_active_failover.svg",
+          "path": "assets/diagrams/deployment/diagram_multi_region_active_failover.svg",
+          "target": "../assets/diagrams/deployment/diagram_multi_region_active_failover.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/charts/heatmap/chart_regional_api_latency_matrix.svg",
+          "path": "assets/charts/heatmap/chart_regional_api_latency_matrix.svg",
+          "target": "../assets/charts/heatmap/chart_regional_api_latency_matrix.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/cards/projects/card_distributed_kv_consensus_engine.svg",
+          "path": "assets/cards/projects/card_distributed_kv_consensus_engine.svg",
+          "target": "../assets/cards/projects/card_distributed_kv_consensus_engine.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/dividers/animated/lines/divider_axonometric_grid_trace.svg",
+          "path": "assets/dividers/animated/lines/divider_axonometric_grid_trace.svg",
+          "target": "../assets/dividers/animated/lines/divider_axonometric_grid_trace.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/icons/devops/icon_gitops_reconcile_loop.svg",
+          "path": "assets/icons/devops/icon_gitops_reconcile_loop.svg",
+          "target": "../assets/icons/devops/icon_gitops_reconcile_loop.svg"
+        },
+        {
+          "anchor": "",
+          "exists": true,
+          "label": "assets/loadings/loading_raft_quorum_election.svg",
+          "path": "assets/loadings/loading_raft_quorum_election.svg",
+          "target": "../assets/loadings/loading_raft_quorum_election.svg"
+        }
+      ],
+      "path": "docs/RECIPES.md#cloud-distributed-architecture-readme",
+      "summary": "Best for cloud control planes, Kubernetes operators, service meshes, storage engines, and multi-region infrastructure repositories.",
+      "tags": [
+        "and",
+        "architecture",
+        "best",
+        "cloud",
+        "control",
+        "distributed",
+        "engines",
+        "for",
+        "infrastructure",
+        "kubernetes",
+        "meshes",
+        "multi",
+        "operators",
+        "planes",
+        "readme",
+        "region",
+        "repositories",
+        "service",
+        "storage"
+      ],
+      "templateCount": 1,
+      "themeCount": 1,
+      "title": "Cloud & Distributed Architecture README"
     }
   ],
   "schemaVersion": 1

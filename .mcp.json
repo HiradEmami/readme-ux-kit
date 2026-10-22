@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "readme-ux-kit-cli": {
+      "command": "uv",
+      "args": [
+        "--no-cache",
+        "run",
+        "--project",
+        "src",
+        "python",
+        "-m",
+        "src.modules.cli",
+        "report"
+      ],
+      "env": {
+        "PYTHONUTF8": "1"
+      }
+    }
+  }
+}

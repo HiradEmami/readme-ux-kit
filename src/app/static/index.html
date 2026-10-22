@@ -3,10 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="dark">
   <title>readme-ux-kit Local Studio</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="topbar">
     <div>
       <h1>Local Studio</h1>
@@ -16,16 +20,33 @@
       <button id="run-generate" type="button">Generate Data</button>
       <button id="run-modules" type="button">Check Modules</button>
       <button id="run-all" type="button">Check All</button>
+      <button id="studio-open-help" type="button" aria-label="Open Help Center and keyboard shortcuts">Help (?)</button>
+      <button id="studio-open-support" type="button" aria-label="Open bug reporter, feedback, and privacy controls">Report / Feedback</button>
     </div>
   </header>
 
-  <main class="workspace">
+  <section id="studio-error-banner" class="error-banner" role="alert" aria-live="assertive" hidden>
+    <div class="error-banner-body">
+      <strong>Runtime fault caught by Local Studio Error Boundary</strong>
+      <p id="studio-error-message">An unexpected error occurred. You can reset the view state or copy a crash report.</p>
+      <details class="error-banner-details">
+        <summary>Technical diagnostic trace</summary>
+        <pre id="studio-error-details">No runtime trace recorded.</pre>
+      </details>
+    </div>
+    <div class="command-row">
+      <button id="studio-error-recover" type="button" class="primary">Reset / Recover</button>
+      <button id="studio-error-report" type="button">Report This Crash</button>
+    </div>
+  </section>
+
+  <main id="main-content" class="workspace" tabindex="-1">
     <aside class="sidebar" aria-label="Asset filters">
       <section class="panel">
         <h2>Filters</h2>
         <label>
           Search
-          <input id="filter-search" type="search" placeholder="asset name, tag, category">
+          <input id="filter-search" type="search" maxlength="240" placeholder="asset name, tag, category">
         </label>
         <label>
           Category
@@ -59,7 +80,7 @@
 
       <section class="panel">
         <h2>Output</h2>
-        <pre id="command-output" class="command-output">Ready.</pre>
+        <pre id="command-output" class="command-output" role="status" aria-live="polite">Ready.</pre>
       </section>
     </aside>
 
@@ -67,10 +88,13 @@
       <div class="section-heading">
         <div>
           <h2>Assets</h2>
-          <p id="asset-count">Loading assets...</p>
+          <p id="asset-count" role="status" aria-live="polite">Loading assets...</p>
         </div>
         <button id="refresh-assets" type="button">Refresh</button>
       </div>
+      <p class="verification-notice">
+        <strong>Mode &amp; Verification Notice:</strong> Local-only studio mode (loopback FastAPI server, zero live AI/LLM or external network telemetry). Metrics, SLOs, and terminal outputs in SVG assets are illustrative placeholders and must be verified before operational or production use.
+      </p>
       <div id="asset-grid" class="asset-grid"></div>
     </section>
 
@@ -79,7 +103,7 @@
         <h2 id="detail-title">Select an asset</h2>
         <p id="detail-path" class="muted">Choose from the asset grid to preview, copy, or edit.</p>
         <div class="preview-frame">
-          <img id="detail-preview" alt="" hidden>
+          <img id="detail-preview" alt="Selected asset preview" hidden>
         </div>
         <div class="copy-row">
           <button id="copy-markdown" type="button" disabled>Copy Markdown</button>
@@ -92,11 +116,11 @@
         <h2>GIF Export</h2>
         <label>
           Output folder
-          <input id="gif-output-dir" type="text" value="output/gifs" spellcheck="false">
+          <input id="gif-output-dir" type="text" value="output/gifs" maxlength="240" spellcheck="false">
         </label>
         <label>
           File name
-          <input id="gif-file-name" type="text" placeholder="asset-name.gif" spellcheck="false">
+          <input id="gif-file-name" type="text" placeholder="asset-name.gif" maxlength="160" spellcheck="false">
         </label>
         <div class="compact-grid">
           <label>
@@ -118,7 +142,7 @@
         </div>
         <label>
           Background
-          <input id="gif-background" type="text" value="#ffffff" spellcheck="false">
+          <input id="gif-background" type="text" value="#ffffff" maxlength="32" spellcheck="false">
         </label>
         <label class="checkbox-control">
           <input id="gif-use-edited" type="checkbox" disabled>
@@ -132,10 +156,27 @@
           <button id="gif-copy-markdown" type="button" disabled>Copy Markdown</button>
           <button id="gif-copy-html" type="button" disabled>Copy HTML</button>
         </div>
-        <pre id="gif-result" class="command-output">Select an asset.</pre>
+        <pre id="gif-result" class="command-output" role="status" aria-live="polite">Select an asset.</pre>
       </section>
     </aside>
   </main>
+
+  <footer class="app-footer">
+    <div class="footer-legal">
+      <strong>readme-ux-kit Local Studio v1.0.0</strong>
+      <span>Copyright (c) 2026 Hirad Emamialagha. Released under the MIT License (provided "AS IS" without warranty).</span>
+    </div>
+    <nav class="command-row" aria-label="Studio assistance, privacy, and legal controls">
+      <button id="studio-footer-help" type="button">Help &amp; Shortcuts (?)</button>
+      <button id="studio-footer-bug" type="button">Report Issue / Feedback</button>
+      <button id="studio-footer-export" type="button">Export My Data (JSON)</button>
+      <button id="studio-footer-purge" type="button">Purge Local Cache</button>
+      <a href="https://github.com/HiradEmami/readme-ux-kit/blob/master/ACCESSIBILITY.md" target="_blank" rel="noreferrer">Accessibility</a>
+      <a href="https://github.com/HiradEmami/readme-ux-kit/blob/master/PRIVACY.md" target="_blank" rel="noreferrer">Privacy</a>
+      <a href="https://github.com/HiradEmami/readme-ux-kit/blob/master/SECURITY.md" target="_blank" rel="noreferrer">Security</a>
+      <a href="https://github.com/HiradEmami/readme-ux-kit/blob/master/LICENSE" target="_blank" rel="noreferrer">MIT License</a>
+    </nav>
+  </footer>
 
   <div id="editor-overlay" class="editor-overlay" role="dialog" aria-modal="true" aria-labelledby="editor-title" hidden>
     <div class="editor-shell">
@@ -155,15 +196,17 @@
             <div class="editor-preview-panel">
               <div class="preview-label">Original</div>
               <div class="editor-preview-box">
-                <img id="editor-original-preview" alt="">
+                <img id="editor-original-preview" alt="Original SVG preview">
               </div>
             </div>
             <div class="editor-preview-panel">
               <div class="preview-label">Edited</div>
-              <div id="editor-edited-preview" class="editor-preview-box"></div>
+              <div class="editor-preview-box">
+                <img id="editor-edited-preview" alt="Edited SVG preview">
+              </div>
             </div>
           </div>
-          <pre id="editor-result" class="editor-result">No edits applied.</pre>
+          <pre id="editor-result" class="editor-result" role="status" aria-live="polite">No edits applied.</pre>
         </section>
 
         <aside class="editor-controls" aria-label="SVG edit controls">
@@ -185,8 +228,8 @@
           <section class="editor-control-group">
             <h3>Motion</h3>
             <div class="speed-row">
-              <input id="editor-speed-range" type="range" min="0.25" max="3" step="0.25" value="1">
-              <input id="editor-speed-number" type="number" min="0.25" max="3" step="0.25" value="1">
+              <input id="editor-speed-range" type="range" min="0.25" max="3" step="0.25" value="1" aria-label="Animation speed multiplier slider">
+              <input id="editor-speed-number" type="number" min="0.25" max="3" step="0.25" value="1" aria-label="Animation speed multiplier value">
             </div>
             <p id="editor-motion-status" class="muted"></p>
           </section>
@@ -194,7 +237,7 @@
           <section class="editor-control-group">
             <details>
               <summary>Advanced JSON</summary>
-              <textarea id="editor-advanced-json" rows="5" spellcheck="false">{}</textarea>
+              <textarea id="editor-advanced-json" rows="5" maxlength="65536" spellcheck="false" aria-label="Advanced SVG edit operations JSON">{}</textarea>
             </details>
           </section>
         </aside>
@@ -209,6 +252,128 @@
       </footer>
     </div>
   </div>
+
+  <dialog id="studio-support-modal" class="support-modal" aria-labelledby="studio-support-title">
+    <div class="editor-shell support-shell">
+      <header class="editor-header">
+        <div>
+          <p class="eyebrow">User Assistance, Diagnostics &amp; Data Governance</p>
+          <h2 id="studio-support-title">Local Studio Help, Bug Reporter &amp; Privacy Controls</h2>
+        </div>
+        <button id="studio-support-close" type="button" class="icon-button" aria-label="Close Help and Support dialog">&times;</button>
+      </header>
+      <div class="support-grid">
+        <section class="panel support-card" aria-labelledby="studio-help-heading">
+          <h3 id="studio-help-heading" tabindex="-1">Quick-Start &amp; Keyboard Shortcuts</h3>
+          <p class="muted">
+            Select any asset in the grid to inspect metadata, customize SVG tokens, or export animated GIFs via local loopback endpoints.
+          </p>
+          <div class="shortcut-list" role="list" aria-label="Keyboard shortcuts">
+            <div class="shortcut-row" role="listitem"><kbd>?</kbd><span>Open Help Center &amp; Shortcut Cheat-Sheet</span></div>
+            <div class="shortcut-row" role="listitem"><kbd>Tab</kbd> / <kbd>Shift+Tab</kbd><span>Navigate filters, cards, and modal controls</span></div>
+            <div class="shortcut-row" role="listitem"><kbd>Enter</kbd> / <kbd>Space</kbd><span>Select focused asset card</span></div>
+            <div class="shortcut-row" role="listitem"><kbd>Escape</kbd><span>Close SVG Editor or Help dialog and restore focus</span></div>
+          </div>
+          <p class="muted">
+            <strong>Troubleshooting:</strong> If asset counts or previews appear stale, click <em>Refresh</em> or <em>Generate Data</em> in the top toolbar, or use <em>Purge Local Cache &amp; Reset All Data</em> below.
+          </p>
+          <div class="copy-row">
+            <a href="https://github.com/HiradEmami/readme-ux-kit#readme" target="_blank" rel="noreferrer">Documentation</a>
+            <a href="https://github.com/HiradEmami/readme-ux-kit/issues" target="_blank" rel="noreferrer">GitHub Issue Tracker</a>
+          </div>
+        </section>
+
+        <section class="panel support-card" aria-labelledby="studio-bug-heading">
+          <h3 id="studio-bug-heading">Contextual Bug Reporter (PII-Free Diagnostic Bundle)</h3>
+          <label>
+            Affected Studio Area
+            <select id="studio-bug-area">
+              <option value="Asset Browser & Filters">Asset Browser &amp; Filters</option>
+              <option value="SVG Editor Overlay">SVG Editor Overlay</option>
+              <option value="GIF Export Pipeline">GIF Export Pipeline</option>
+              <option value="Quality & Module Commands">Quality &amp; Module Commands</option>
+              <option value="Accessibility & Keyboard Support">Accessibility &amp; Keyboard Support</option>
+            </select>
+          </label>
+          <label>
+            Issue Summary
+            <textarea id="studio-bug-desc" rows="2" maxlength="4000" placeholder="Describe the unexpected behavior..."></textarea>
+          </label>
+          <label>
+            Reproduction Steps
+            <textarea id="studio-bug-steps" rows="2" maxlength="4000" placeholder="1. Select asset... 2. Run operation..."></textarea>
+          </label>
+          <pre id="studio-bug-preview" class="command-output" aria-label="Diagnostic bundle JSON preview">{}</pre>
+          <div class="copy-row">
+            <button id="studio-copy-diagnostic" type="button" class="primary">Copy Diagnostic Bundle</button>
+            <button id="studio-download-diagnostic" type="button">Download Diagnostic JSON</button>
+          </div>
+        </section>
+
+        <section class="panel support-card" aria-labelledby="studio-feedback-heading">
+          <h3 id="studio-feedback-heading">In-App User Feedback Widget</h3>
+          <div class="compact-grid">
+            <label>
+              Usability Rating
+              <select id="studio-feedback-rating">
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Good</option>
+                <option value="3">3 - Neutral</option>
+                <option value="2">2 - Needs Work</option>
+                <option value="1">1 - Blocking</option>
+              </select>
+            </label>
+            <label>
+              Category
+              <select id="studio-feedback-category">
+                <option value="Local Studio UX">Local Studio UX</option>
+                <option value="SVG Editor">SVG Editor</option>
+                <option value="GIF Export">GIF Export</option>
+                <option value="Accessibility">Accessibility</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Feedback Comment
+            <textarea id="studio-feedback-comment" rows="3" maxlength="4000" placeholder="Share suggestions or workflow improvements..."></textarea>
+          </label>
+          <div class="copy-row">
+            <button id="studio-copy-feedback" type="button" class="primary">Copy Feedback JSON</button>
+            <button id="studio-download-feedback" type="button">Download Feedback JSON</button>
+          </div>
+        </section>
+
+        <section class="panel support-card" aria-labelledby="studio-privacy-heading">
+          <h3 id="studio-privacy-heading">Privacy, Accessibility &amp; Data Rights (GDPR / EAA)</h3>
+          <p class="muted">
+            Local Studio binds strictly to <code>127.0.0.1</code> / <code>localhost</code> and sends zero external telemetry. Use the controls below to export your active workspace state as JSON or purge all client storage.
+          </p>
+          <p class="muted">
+            <strong>Accessibility Conformance:</strong> Targets WCAG 2.2 Level AA &amp; EN 301 549 (semantic landmarks, keyboard operability, modal focus restoration, screen-reader live regions, and reduced-motion support).
+          </p>
+          <label>
+            Interface Language (<code>&lt;html lang&gt;</code>)
+            <select id="studio-lang-select" aria-label="Interface language">
+              <option value="en">English (en)</option>
+              <option value="de">Deutsch (de)</option>
+              <option value="fr">Français (fr)</option>
+              <option value="es">Español (es)</option>
+              <option value="ja">日本語 (ja)</option>
+            </select>
+          </label>
+          <div class="copy-row">
+            <button id="studio-export-data" type="button" class="primary">Export My Data (JSON)</button>
+            <button id="studio-purge-data" type="button">Purge Local Cache &amp; Reset All Data</button>
+          </div>
+          <div class="copy-row">
+            <a href="https://github.com/HiradEmami/readme-ux-kit/blob/master/ACCESSIBILITY.md" target="_blank" rel="noreferrer">Accessibility Statement</a>
+            <a href="https://github.com/HiradEmami/readme-ux-kit/blob/master/PRIVACY.md" target="_blank" rel="noreferrer">Privacy Policy</a>
+            <a href="https://github.com/HiradEmami/readme-ux-kit/blob/master/ASSET_PROVENANCE.md" target="_blank" rel="noreferrer">Asset Provenance</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </dialog>
 
   <script src="/app.js" type="module"></script>
 </body>

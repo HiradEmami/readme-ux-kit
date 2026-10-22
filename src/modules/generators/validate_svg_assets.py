@@ -35,8 +35,12 @@ def validate_svg(path):
         issues.append('missing role="img"')
     if not aria_label and not aria_labelledby and not title_elements:
         issues.append("missing accessible name")
-    if aria_labelledby and not all(reference in element_ids for reference in aria_labelledby.split()):
+    if not aria_labelledby:
+        issues.append("missing aria-labelledby")
+    elif not all(reference in element_ids for reference in aria_labelledby.split()):
         issues.append("aria-labelledby references a missing element")
+    if not title_elements:
+        issues.append("missing <title>")
     if not desc_elements:
         issues.append("missing <desc>")
 

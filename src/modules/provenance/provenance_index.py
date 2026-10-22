@@ -1,5 +1,6 @@
 from pathlib import Path
 import argparse
+import hashlib
 import json
 import re
 import tempfile
@@ -50,6 +51,16 @@ def manifest_assets(root, manifest_path):
     return load_json(manifest_path).get("assets", [])
 
 
+def asset_file_digest(root, local_path):
+    if not local_path:
+        return False, 0, ""
+    file_path = root / local_path
+    if not file_path.is_file():
+        return False, 0, ""
+    raw = file_path.read_bytes()
+    return True, len(raw), hashlib.sha256(raw).hexdigest()
+
+
 def build_provenance(root=None, manifest_path=None):
     root = Path(root or repo_root()).resolve()
     manifest_path = Path(manifest_path or root / "assets" / "manifest.json")
@@ -58,9 +69,19 @@ def build_provenance(root=None, manifest_path=None):
     assets = []
     for asset in manifest_assets(root, manifest_path):
         local_path = asset.get("localPath") or asset.get("path")
+        exists, byte_length, sha256_hex = asset_file_digest(root, local_path)
         derived_entry = derived_by_path.get(local_path)
         if derived_entry:
-            assets.append({**derived_entry, "category": asset.get("category"), "subcategory": asset.get("subcategory")})
+            assets.append(
+                {
+                    **derived_entry,
+                    "category": asset.get("category"),
+                    "subcategory": asset.get("subcategory"),
+                    "exists": exists,
+                    "byteLength": byte_length,
+                    "sha256": sha256_hex,
+                }
+            )
         else:
             assets.append(
                 {
@@ -73,7 +94,9 @@ def build_provenance(root=None, manifest_path=None):
                     "license": "MIT",
                     "status": "Maintained first-party asset",
                     "notes": "Covered by the repository license unless a future provenance entry says otherwise.",
-                    "exists": bool(local_path and (root / local_path).exists()),
+                    "exists": exists,
+                    "byteLength": byte_length,
+                    "sha256": sha256_hex,
                 }
             )
     origin_counts = {}
@@ -118,11 +141,17 @@ def validation_errors(root=None, manifest_path=None):
 
 
 def write_provenance(output, root=None, manifest_path=None):
+    root = Path(root or repo_root()).resolve()
     payload = build_provenance(root, manifest_path)
-    return write_json(output, payload), payload["summary"]["assetCount"]
+    written = write_json(output, payload)
+    default_output = (root / "assets" / "provenance.json").resolve()
+    if Path(output).resolve() == default_output:
+        write_json(root / "ASSET_PROVENANCE.json", payload)
+    return written, payload["summary"]["assetCount"]
 
 
 def check_provenance(output, root=None, manifest_path=None):
+    root = Path(root or repo_root()).resolve()
     payload = build_provenance(root, manifest_path)
     expected = json.dumps(payload, indent=2, sort_keys=True) + "\n"
     output = Path(output)
@@ -131,6 +160,13 @@ def check_provenance(output, root=None, manifest_path=None):
         status = "missing"
     elif output.read_text(encoding="utf-8") != expected:
         status = "changed"
+    default_output = (root / "assets" / "provenance.json").resolve()
+    root_mirror = root / "ASSET_PROVENANCE.json"
+    if status is None and output.resolve() == default_output:
+        if not root_mirror.exists():
+            status = "missing"
+        elif root_mirror.read_text(encoding="utf-8") != expected:
+            status = "changed"
     return status, validation_errors(root, manifest_path)
 
 
@@ -154,6 +190,8 @@ def run_self_tests():
         )
         payload = build_provenance(root)
         assert payload["summary"]["derivedAssetCount"] == 1
+        assert payload["assets"][0]["byteLength"] == 6
+        assert len(payload["assets"][0]["sha256"]) == 64
         assert validation_errors(root) == []
     print("provenance_index.py self-tests passed.")
 

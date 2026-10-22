@@ -4,7 +4,7 @@
 
 | Layer | Purpose |
 | --- | --- |
-| Assets | SVG visuals, icons, headers, dividers, buttons, loading states, and progress bars. |
+| Assets | SVG isometric 3D architectures, diagrams, charts, cards, callouts, badges, mockups, terminal & workflow panels, visuals, icons, headers, dividers, buttons, loading states, and progress bars. |
 | Components | Copy-ready Markdown sections for specific jobs. |
 | Templates | Full README foundations for project types. |
 | Themes | Visual, tonal, and asset direction. |

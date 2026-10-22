@@ -1,9 +1,19 @@
+/**
+ * @module site/app
+ * @description Self-contained static browser showcase, interactive SVG editor,
+ * diagnostic reporter, and local data governance controller for readme-ux-kit.
+ */
+
+const APP_VERSION = "1.0.0";
 const REPO_OWNER = "HiradEmami";
 const REPO_NAME = "readme-ux-kit";
 const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 const RAW_BASE = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/master`;
 const FAVORITES_KEY = "readmeUxKitFavorites";
 const GRID_OPTIONS = ["1", "2", "3", "5", "7"];
+const MAX_SVG_BYTES = 524288;
+const MAX_JSON_BYTES = 65536;
+const FORBIDDEN_KEYS = new Set(["__proto__", "constructor", "prototype"]);
 const DEFAULT_GIF_SETTINGS = {
   outputDir: "output/gifs",
   durationMs: 1600,
@@ -15,6 +25,7 @@ const DEFAULT_GIF_SETTINGS = {
 
 const STYLE_FILTERS = [
   "All Themes",
+  "Architecture",
   "Interface",
   "Motion",
   "Terminal",
@@ -40,6 +51,10 @@ const state = {
   editorPalettes: [],
   editorPresets: [],
   svgCache: new Map(),
+  modalLastFocus: null,
+  supportLastFocus: null,
+  reducedMotion: false,
+  lastError: null,
   editor: {
     item: null,
     source: "",
@@ -80,6 +95,17 @@ const nodes = {
   emptyState: document.getElementById("emptyState"),
   favoritesOnly: document.getElementById("favoritesOnly"),
   shuffleCards: document.getElementById("shuffleCards"),
+  openHelpModal: document.getElementById("openHelpModal"),
+  openSupportModal: document.getElementById("openSupportModal"),
+  footerHelpBtn: document.getElementById("footerHelpBtn"),
+  footerBugReportBtn: document.getElementById("footerBugReportBtn"),
+  footerExportDataBtn: document.getElementById("footerExportDataBtn"),
+  footerPurgeDataBtn: document.getElementById("footerPurgeDataBtn"),
+  errorBanner: document.getElementById("errorBanner"),
+  errorBannerMessage: document.getElementById("errorBannerMessage"),
+  errorTechnicalDetails: document.getElementById("errorTechnicalDetails"),
+  errorRecoverBtn: document.getElementById("errorRecoverBtn"),
+  errorReportBtn: document.getElementById("errorReportBtn"),
   copyBundle: document.getElementById("copyBundle"),
   actionsAll: document.getElementById("actionsAll"),
   previewAll: document.getElementById("previewAll"),
@@ -127,9 +153,29 @@ const nodes = {
   editorDownloadSvg: document.getElementById("editorDownloadSvg"),
   editorCopyMd: document.getElementById("editorCopyMd"),
   editorCopyHtml: document.getElementById("editorCopyHtml"),
+  supportModal: document.getElementById("supportModal"),
+  supportModalClose: document.getElementById("supportModalClose"),
+  bugAreaSelect: document.getElementById("bugAreaSelect"),
+  bugDescription: document.getElementById("bugDescription"),
+  bugSteps: document.getElementById("bugSteps"),
+  bugDiagnosticPreview: document.getElementById("bugDiagnosticPreview"),
+  copyDiagnosticBtn: document.getElementById("copyDiagnosticBtn"),
+  downloadDiagnosticBtn: document.getElementById("downloadDiagnosticBtn"),
+  feedbackRating: document.getElementById("feedbackRating"),
+  feedbackCategory: document.getElementById("feedbackCategory"),
+  feedbackComment: document.getElementById("feedbackComment"),
+  copyFeedbackBtn: document.getElementById("copyFeedbackBtn"),
+  downloadFeedbackBtn: document.getElementById("downloadFeedbackBtn"),
+  exportUserDataBtn: document.getElementById("exportUserDataBtn"),
+  purgeUserDataBtn: document.getElementById("purgeUserDataBtn"),
+  interfaceLangSelect: document.getElementById("interfaceLangSelect"),
 };
 
 async function boot() {
+  setupReducedMotionListener();
+  attachImageFallback(nodes.modalImage, "Large asset preview");
+  attachImageFallback(nodes.editorOriginalImage, "Original SVG preview");
+  attachImageFallback(nodes.editorEditedImage, "Edited SVG preview");
   bindEvents();
   setDensity(state.cols);
   setControlsDisabled(true);
@@ -257,6 +303,7 @@ function inferStyleThemes(asset) {
   ].join(" ").toLowerCase();
 
   const matches = [];
+  addStyle(matches, "Architecture", haystack, ["isometric", "3d", "architecture", "topology", "diagram", "cloud", "mesh", "pipeline", "storage", "cluster", "axonometric"]);
   addStyle(matches, "Terminal", haystack, ["terminal", "cli", "command", "console", "shell", "code"]);
   addStyle(matches, "Security", haystack, ["security", "privacy", "shield", "vault", "auth", "secret", "policy", "incident", "danger", "alert", "cyber"]);
   addStyle(matches, "Progress", haystack, ["progress", "roadmap", "status", "maturity", "coverage", "release", "dataset", "lifecycle", "readiness"]);
@@ -447,18 +494,21 @@ function buildCard(item) {
   const flipper = document.createElement("div");
   flipper.className = "card-flip";
 
+  const isFlipped = state.flipped.has(item.key);
   const front = document.createElement("div");
   front.className = "card-face card-front";
+  front.inert = isFlipped;
 
   const preview = document.createElement("div");
   preview.className = "preview";
   preview.dataset.previewShape = item.previewShape;
   const image = document.createElement("img");
   image.src = assetDisplayUrl(item);
-  image.alt = "";
+  image.alt = item.label;
   image.loading = "lazy";
   image.decoding = "async";
   applyImageMetadata(image, item);
+  attachImageFallback(image, item.label);
   preview.append(image);
 
   const bodyEl = document.createElement("div");
@@ -475,11 +525,16 @@ function buildCard(item) {
   const flip = document.createElement("button");
   flip.type = "button";
   flip.className = "button secondary flip-button";
-  flip.textContent = state.flipped.has(item.key) ? "Preview" : "Actions";
+  flip.textContent = isFlipped ? "Preview" : "Actions";
   flip.addEventListener("click", (event) => {
     event.stopPropagation();
-    toggleFlipped(item.key, "pointer");
-    releaseCardFocus(card);
+    const isKeyboard = event.detail === 0;
+    toggleFlipped(item.key, isKeyboard ? "keyboard" : "pointer");
+    if (isKeyboard) {
+      backButton.focus();
+    } else {
+      releaseCardFocus(card);
+    }
   });
   switchRow.append(hint, flip);
 
@@ -488,6 +543,7 @@ function buildCard(item) {
 
   const back = document.createElement("div");
   back.className = "card-face card-back";
+  back.inert = !isFlipped;
 
   const backHead = document.createElement("div");
   backHead.className = "back-head";
@@ -495,11 +551,16 @@ function buildCard(item) {
   backButton.type = "button";
   backButton.className = "icon-button";
   backButton.setAttribute("aria-label", `Return to ${item.label} preview`);
-  backButton.innerHTML = closeIcon();
+  backButton.replaceChildren(createSvgIcon("close"));
   backButton.addEventListener("click", (event) => {
     event.stopPropagation();
-    toggleFlipped(item.key, "pointer");
-    releaseCardFocus(card);
+    const isKeyboard = event.detail === 0;
+    toggleFlipped(item.key, isKeyboard ? "keyboard" : "pointer");
+    if (isKeyboard) {
+      flip.focus();
+    } else {
+      releaseCardFocus(card);
+    }
   });
   backHead.append(titleBlock(item), backButton);
 
@@ -606,7 +667,7 @@ function actionLink(label, href) {
   const link = document.createElement("a");
   link.className = "card-action";
   link.dataset.action = slugify(label);
-  link.href = href;
+  link.href = isSafeAssetUrl(href) ? href : REPO_URL;
   link.target = "_blank";
   link.rel = "noreferrer";
   link.textContent = label;
@@ -624,7 +685,7 @@ function toggleFavorite(item, card, button) {
     setStatus(`${item.label} removed from favorites.`);
   }
   saveFavorites();
-  button.innerHTML = nextFavorite ? starFilled() : starOutline();
+  button.replaceChildren(createSvgIcon(nextFavorite ? "star-filled" : "star-outline"));
   button.setAttribute("aria-pressed", String(nextFavorite));
   card.classList.toggle("is-favorite", nextFavorite);
   updateFilterTriggers();
@@ -654,6 +715,10 @@ function setCardFlipped(key, flipped, source = "programmatic") {
   const card = cardForKey(key);
   if (!card) return;
   card.classList.toggle("is-flipped", flipped);
+  const frontFace = card.querySelector(".card-front");
+  const backFace = card.querySelector(".card-back");
+  if (frontFace) frontFace.inert = flipped;
+  if (backFace) backFace.inert = !flipped;
   if (flipped) {
     card.dataset.flipSource = source;
   } else {
@@ -686,15 +751,17 @@ function cardForKey(key) {
 }
 
 function openBigger(item) {
+  state.modalLastFocus = document.activeElement;
   nodes.assetModal.dataset.assetKey = item.key;
   nodes.assetModal.dataset.previewShape = item.previewShape;
   nodes.modalTitle.textContent = item.label;
   nodes.modalMeta.textContent = `${item.categoryLabel} / ${item.subcategoryLabel} / ${item.theme}`;
+  delete nodes.modalImage.dataset.fallbackApplied;
   nodes.modalImage.src = assetDisplayUrl(item);
   nodes.modalImage.alt = item.label;
   applyImageMetadata(nodes.modalImage, item);
   nodes.modalPath.textContent = item.path;
-  nodes.modalSource.href = item.sourceUrl;
+  nodes.modalSource.href = isSafeAssetUrl(item.sourceUrl) ? item.sourceUrl : REPO_URL;
 
   if (typeof nodes.assetModal.showModal === "function") {
     nodes.assetModal.showModal();
@@ -761,6 +828,8 @@ function renderEditorShell(item) {
   nodes.editorMeta.textContent = `${item.categoryLabel} / ${item.subcategoryLabel} / ${item.theme}`;
   nodes.editorSubtitle.textContent = item.path;
   nodes.editorPath.textContent = item.path;
+  delete nodes.editorOriginalImage.dataset.fallbackApplied;
+  delete nodes.editorEditedImage.dataset.fallbackApplied;
   nodes.editorOriginalImage.src = assetDisplayUrl(item);
   nodes.editorOriginalImage.alt = item.label;
   nodes.editorEditedImage.src = assetDisplayUrl(item);
@@ -906,6 +975,7 @@ function renderEditorColorControls(editor) {
 
     const hex = document.createElement("input");
     hex.type = "text";
+    hex.maxLength = 7;
     hex.value = token.value;
     hex.className = "color-hex";
     hex.spellcheck = false;
@@ -941,6 +1011,7 @@ function renderEditorTextControls(editor) {
     caption.textContent = item.editLabel || item.id || item.nodePath || "Text";
     const input = document.createElement("input");
     input.type = "text";
+    input.maxLength = 512;
     input.value = item.value || "";
     input.dataset.original = item.value || "";
     input.dataset.target = item.editId || item.id || item.nodePath || item.value || "";
@@ -1107,8 +1178,12 @@ function readEditorOperations() {
   if (speed && Math.abs(speed - 1) > 0.001) operations.scaleAnimationSpeed = speed;
 
   const advancedText = nodes.editorAdvancedJson.value.trim();
+  if (advancedText.length > MAX_JSON_BYTES) {
+    throw new Error(`Advanced JSON exceeds maximum size of ${MAX_JSON_BYTES} bytes.`);
+  }
   if (advancedText && advancedText !== "{}") {
-    operations = mergeAdvancedOperations(operations, JSON.parse(advancedText));
+    const parsedAdvanced = sanitizeJsonObject(JSON.parse(advancedText));
+    operations = mergeAdvancedOperations(operations, parsedAdvanced);
   }
   return normalizeOperationsObject(operations);
 }
@@ -1154,6 +1229,7 @@ function normalizeOperationsObject(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) {
     throw new Error("Advanced JSON must be an object.");
   }
+  sanitizeJsonObject(value);
 
   const replaceColors = { ...(value.replaceColors || {}), ...(value.replaceColor || {}) };
   const replaceText = Array.isArray(value.replaceText) ? value.replaceText : [];
@@ -1170,6 +1246,9 @@ function normalizeOperationsObject(value) {
 }
 
 function applyStaticSvgOperations(source, rawOperations) {
+  if (typeof source !== "string" || source.length > MAX_SVG_BYTES) {
+    throw new Error(`SVG source exceeds maximum allowed size (${MAX_SVG_BYTES} bytes).`);
+  }
   const operations = normalizeOperationsObject(rawOperations);
   const summary = { colorsChanged: false, textNodesChanged: 0, elementsRemoved: 0, animationScaled: false };
   let output = source;
@@ -1447,6 +1526,7 @@ function setEditorStatus(text) {
 }
 
 function showDialog(dialog) {
+  if (!dialog || dialog.open || dialog.hasAttribute("open")) return;
   if (typeof dialog.showModal === "function") {
     dialog.showModal();
   } else {
@@ -1614,21 +1694,28 @@ function openFilterPopover(trigger, popover) {
   trigger.setAttribute("aria-expanded", "true");
 }
 
-function closeFilterPopovers() {
+function closeFilterPopovers({ restoreFocus = false } = {}) {
+  let focusTarget = null;
   [
     [nodes.categoryPopover, nodes.categoryFilterToggle],
     [nodes.themePopover, nodes.themeFilterToggle],
   ].forEach(([popover, trigger]) => {
     if (!popover || !trigger) return;
+    if (!popover.hidden && restoreFocus) {
+      focusTarget = trigger;
+    }
     popover.hidden = true;
     trigger.setAttribute("aria-expanded", "false");
   });
+  if (focusTarget instanceof HTMLElement) {
+    focusTarget.focus();
+  }
 }
 
 function positionFilterPopover(trigger, popover) {
   const panelRect = nodes.controlPanel.getBoundingClientRect();
   const triggerRect = trigger.getBoundingClientRect();
-  const width = Math.min(560, Math.max(320, panelRect.width - 28));
+  const width = Math.min(560, Math.max(240, panelRect.width - 28));
   const rightLimit = panelRect.width - width - 14;
   const left = Math.max(14, Math.min(triggerRect.left - panelRect.left, rightLimit));
   popover.style.setProperty("--popover-left", `${left}px`);
@@ -1680,8 +1767,8 @@ function bindEvents() {
     toggleFilterPopover("theme");
   });
 
-  nodes.categoryPopoverClose.addEventListener("click", closeFilterPopovers);
-  nodes.themePopoverClose.addEventListener("click", closeFilterPopovers);
+  nodes.categoryPopoverClose.addEventListener("click", () => closeFilterPopovers({ restoreFocus: true }));
+  nodes.themePopoverClose.addEventListener("click", () => closeFilterPopovers({ restoreFocus: true }));
 
   [nodes.categoryPopover, nodes.themePopover].forEach((popover) => {
     popover.addEventListener("click", (event) => event.stopPropagation());
@@ -1689,9 +1776,74 @@ function bindEvents() {
 
   document.addEventListener("click", () => closeFilterPopovers());
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeFilterPopovers();
+    if (event.key === "Escape") {
+      closeFilterPopovers({ restoreFocus: true });
+    } else if (event.key === "?" && !isTypingInEditableField(event.target)) {
+      event.preventDefault();
+      openSupportModal("helpSectionTitle");
+    }
   });
-  window.addEventListener("resize", closeFilterPopovers);
+  window.addEventListener("resize", () => closeFilterPopovers());
+  window.addEventListener("error", (event) => {
+    showRuntimeError(event.error || new Error(event.message || "Unhandled script error"), "window.onerror");
+  });
+  window.addEventListener("unhandledrejection", (event) => {
+    showRuntimeError(event.reason || new Error("Unhandled promise rejection"), "unhandledrejection");
+  });
+
+  if (nodes.openHelpModal) {
+    nodes.openHelpModal.addEventListener("click", () => openSupportModal("helpSectionTitle"));
+  }
+  if (nodes.openSupportModal) {
+    nodes.openSupportModal.addEventListener("click", () => openSupportModal("bugAreaSelect"));
+  }
+  if (nodes.footerHelpBtn) {
+    nodes.footerHelpBtn.addEventListener("click", () => openSupportModal("helpSectionTitle"));
+  }
+  if (nodes.footerBugReportBtn) {
+    nodes.footerBugReportBtn.addEventListener("click", () => openSupportModal("bugAreaSelect"));
+  }
+  if (nodes.footerExportDataBtn) {
+    nodes.footerExportDataBtn.addEventListener("click", exportUserDataJson);
+  }
+  if (nodes.footerPurgeDataBtn) {
+    nodes.footerPurgeDataBtn.addEventListener("click", purgeAllLocalData);
+  }
+  if (nodes.supportModalClose) {
+    nodes.supportModalClose.addEventListener("click", closeSupportModal);
+  }
+  if (nodes.supportModal) {
+    nodes.supportModal.addEventListener("click", (event) => {
+      if (event.target === nodes.supportModal) closeSupportModal();
+    });
+    nodes.supportModal.addEventListener("close", restoreSupportModalFocus);
+  }
+  if (nodes.bugAreaSelect) nodes.bugAreaSelect.addEventListener("change", updateDiagnosticPreview);
+  if (nodes.bugDescription) nodes.bugDescription.addEventListener("input", updateDiagnosticPreview);
+  if (nodes.bugSteps) nodes.bugSteps.addEventListener("input", updateDiagnosticPreview);
+  if (nodes.copyDiagnosticBtn) nodes.copyDiagnosticBtn.addEventListener("click", copyDiagnosticBundle);
+  if (nodes.downloadDiagnosticBtn) nodes.downloadDiagnosticBtn.addEventListener("click", downloadDiagnosticBundle);
+  if (nodes.copyFeedbackBtn) nodes.copyFeedbackBtn.addEventListener("click", copyFeedbackPayload);
+  if (nodes.downloadFeedbackBtn) nodes.downloadFeedbackBtn.addEventListener("click", downloadFeedbackPayload);
+  if (nodes.exportUserDataBtn) nodes.exportUserDataBtn.addEventListener("click", exportUserDataJson);
+  if (nodes.purgeUserDataBtn) nodes.purgeUserDataBtn.addEventListener("click", purgeAllLocalData);
+  if (nodes.interfaceLangSelect) {
+    nodes.interfaceLangSelect.addEventListener("change", () => {
+      const lang = nodes.interfaceLangSelect.value || "en";
+      document.documentElement.lang = lang;
+      updateDiagnosticPreview();
+      setStatus(`Interface language updated to ${lang}.`);
+    });
+  }
+  if (nodes.errorRecoverBtn) nodes.errorRecoverBtn.addEventListener("click", recoverFromError);
+  if (nodes.errorReportBtn) {
+    nodes.errorReportBtn.addEventListener("click", () => {
+      if (state.lastError && nodes.bugDescription) {
+        nodes.bugDescription.value = `Crash recovery report: ${state.lastError.message}`;
+      }
+      openSupportModal("bugAreaSelect");
+    });
+  }
 
   nodes.favoritesOnly.addEventListener("click", () => {
     state.favoritesOnly = !state.favoritesOnly;
@@ -1722,6 +1874,10 @@ function bindEvents() {
     state.flipped.clear();
     nodes.assetGrid.querySelectorAll(".asset-card").forEach((card) => {
       card.classList.remove("is-flipped");
+      const frontFace = card.querySelector(".card-front");
+      const backFace = card.querySelector(".card-back");
+      if (frontFace) frontFace.inert = false;
+      if (backFace) backFace.inert = true;
       const flipButton = card.querySelector(".flip-button");
       if (flipButton) flipButton.textContent = "Actions";
     });
@@ -1732,6 +1888,7 @@ function bindEvents() {
   nodes.assetModal.addEventListener("click", (event) => {
     if (event.target === nodes.assetModal) closeModal();
   });
+  nodes.assetModal.addEventListener("close", restoreAssetModalFocus);
 
   nodes.modalDownload.addEventListener("click", () => {
     const item = selectedModalAsset();
@@ -1753,6 +1910,11 @@ function bindEvents() {
   nodes.editorClose.addEventListener("click", closeEditor);
   nodes.editorModal.addEventListener("click", (event) => {
     if (event.target === nodes.editorModal) closeEditor();
+  });
+  nodes.editorModal.addEventListener("close", () => {
+    if (state.editor.lastFocus instanceof HTMLElement) {
+      state.editor.lastFocus.focus();
+    }
   });
   nodes.editorApply.addEventListener("click", applyEditorPreview);
   nodes.editorReset.addEventListener("click", resetEditorControls);
@@ -1792,6 +1954,14 @@ function closeModal() {
   } else {
     nodes.assetModal.removeAttribute("open");
   }
+  restoreAssetModalFocus();
+}
+
+function restoreAssetModalFocus() {
+  if (state.modalLastFocus instanceof HTMLElement) {
+    state.modalLastFocus.focus();
+    state.modalLastFocus = null;
+  }
 }
 
 function shuffleOrder() {
@@ -1807,11 +1977,13 @@ function updateOrderIndex() {
 }
 
 function markdownSnippet(item) {
-  return `[![${item.name}](${item.rawUrl})](${REPO_URL})`;
+  const safeUrl = isSafeAssetUrl(item.rawUrl) ? item.rawUrl : REPO_URL;
+  return `[![${item.name}](${safeUrl})](${REPO_URL})`;
 }
 
 function htmlSnippet(item) {
-  return `<a href="${REPO_URL}"><img src="${item.rawUrl}" alt="${escapeAttribute(item.label)}" /></a>`;
+  const safeUrl = isSafeAssetUrl(item.rawUrl) ? item.rawUrl : REPO_URL;
+  return `<a href="${REPO_URL}"><img src="${escapeAttribute(safeUrl)}" alt="${escapeAttribute(item.label)}" /></a>`;
 }
 
 async function copySvgMarkup(item) {
@@ -1862,16 +2034,18 @@ async function downloadAsset(item) {
 function triggerDownload(href, filename) {
   const link = document.createElement("a");
   link.href = href;
-  link.download = filename;
+  link.download = sanitizeAttachmentFilename(filename);
   document.body.append(link);
   link.click();
   link.remove();
 }
 
 function assetDisplayUrl(item) {
-  if (!item.path) return item.rawUrl || "";
+  if (!item.path) return isSafeAssetUrl(item.rawUrl) ? item.rawUrl : "";
+  const candidate = String(item.path).replace(/^\/+/, "");
+  if (!isSafeAssetUrl(candidate)) return "";
   const sourceTreeSite = location.protocol === "file:" || location.pathname.includes("/site/");
-  return `${sourceTreeSite ? "../" : "./"}${item.path}`;
+  return `${sourceTreeSite ? "../" : "./"}${candidate}`;
 }
 
 function sourceUrl(path) {
@@ -1930,20 +2104,349 @@ function iconButton(className, svg, label) {
   button.type = "button";
   button.className = `icon-button ${className}`;
   button.setAttribute("aria-label", label);
-  button.innerHTML = svg;
+  button.replaceChildren(typeof svg === "string" ? createSvgIcon(svg) : svg);
   return button;
 }
 
+function createSvgIcon(kind) {
+  const ns = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(ns, "svg");
+  svg.setAttribute("class", "icon");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("aria-hidden", "true");
+  const path = document.createElementNS(ns, "path");
+  if (kind === "star-filled") {
+    path.setAttribute("d", "M12 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2 7.5 14 3 9.6l6.2-.9L12 3z");
+    path.setAttribute("fill", "currentColor");
+  } else if (kind === "star-outline") {
+    path.setAttribute("d", "M12 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2 7.5 14 3 9.6l6.2-.9L12 3z");
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", "currentColor");
+    path.setAttribute("stroke-width", "2");
+    path.setAttribute("stroke-linejoin", "round");
+  } else {
+    path.setAttribute("d", "M6 6l12 12M18 6L6 18");
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", "currentColor");
+    path.setAttribute("stroke-width", "2.2");
+    path.setAttribute("stroke-linecap", "round");
+  }
+  svg.append(path);
+  return svg;
+}
+
 function starOutline() {
-  return '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2 7.5 14 3 9.6l6.2-.9L12 3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>';
+  return "star-outline";
 }
 
 function starFilled() {
-  return '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2 7.5 14 3 9.6l6.2-.9L12 3z" fill="currentColor"/></svg>';
+  return "star-filled";
 }
 
-function closeIcon() {
-  return '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
+function isSafeAssetUrl(url) {
+  const raw = String(url || "").trim();
+  if (!raw || raw.length > 2048) return false;
+  const lower = raw.toLowerCase();
+  if (lower.startsWith("javascript:") || lower.startsWith("vbscript:") || lower.startsWith("data:text/html") || lower.startsWith("file:")) {
+    return false;
+  }
+  if (/^data:image\/(?:png|jpeg|jpg|webp|gif);base64,[a-z0-9+/=]+$/i.test(raw)) {
+    return true;
+  }
+  if (lower.startsWith("data:")) {
+    return false;
+  }
+  if (raw.includes("\\") || raw.includes("..") || raw.startsWith("//")) {
+    return false;
+  }
+  if (raw.includes("://")) {
+    try {
+      const parsed = new URL(raw);
+      return parsed.protocol === "https:" && !parsed.username && !parsed.password;
+    } catch {
+      return false;
+    }
+  }
+  return raw.startsWith("assets/") || raw.startsWith("./assets/");
+}
+
+function sanitizeJsonObject(value, depth = 0) {
+  if (depth > 16) {
+    throw new Error("JSON operations exceed maximum allowed nesting depth.");
+  }
+  if (Array.isArray(value)) {
+    for (const item of value) sanitizeJsonObject(item, depth + 1);
+    return value;
+  }
+  if (value && typeof value === "object") {
+    for (const key of Object.keys(value)) {
+      if (!Object.prototype.hasOwnProperty.call(value, key)) continue;
+      if (FORBIDDEN_KEYS.has(key)) {
+        throw new Error(`Forbidden key in JSON payload: ${key}`);
+      }
+      sanitizeJsonObject(value[key], depth + 1);
+    }
+  }
+  return value;
+}
+
+function sanitizeAttachmentFilename(filename, fallback = "readme-ux-export.json") {
+  const raw = String(filename || fallback).replace(/\0/g, "").replace(/[<>"'&/\\]+/g, "-").replace(/\.\.+/g, "-").trim();
+  const blocked = /\.(?:exe|bat|cmd|sh|ps1|msi|dll|scr|vbs|jar|com|pif)(?:\.|$)/i;
+  if (!raw || blocked.test(raw)) return fallback;
+  return raw.slice(0, 160);
+}
+
+function attachImageFallback(image, label) {
+  if (!image) return;
+  image.addEventListener("load", () => {
+    if (!String(image.src || "").startsWith("data:image/svg+xml")) {
+      delete image.dataset.fallbackApplied;
+    }
+  });
+  image.addEventListener("error", () => {
+    if (image.dataset.fallbackApplied === "true") return;
+    image.dataset.fallbackApplied = "true";
+    const safeTitle = escapeAttribute(label || "SVG asset preview unavailable");
+    const fallbackSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img" aria-label="${safeTitle}"><rect width="480" height="200" rx="14" fill="#111827" stroke="#334155" stroke-width="2"/><text x="240" y="96" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="15" font-weight="700" text-anchor="middle">${safeTitle}</text><text x="240" y="124" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="12" text-anchor="middle">Preview fallback active</text></svg>`;
+    image.src = `data:image/svg+xml;utf8,${encodeURIComponent(fallbackSvg)}`;
+  });
+}
+
+function setupReducedMotionListener() {
+  if (typeof window.matchMedia !== "function") return;
+  const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const applyPreference = () => {
+    state.reducedMotion = Boolean(media.matches);
+    document.body.dataset.reducedMotion = String(state.reducedMotion);
+  };
+  applyPreference();
+  if (typeof media.addEventListener === "function") {
+    media.addEventListener("change", applyPreference);
+  }
+}
+
+function isTypingInEditableField(target) {
+  if (!(target instanceof HTMLElement)) return false;
+  const tag = target.tagName;
+  return tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || target.isContentEditable;
+}
+
+function openSupportModal(focusTargetId) {
+  closeFilterPopovers();
+  updateDiagnosticPreview();
+  if (nodes.supportModal) {
+    const alreadyOpen = Boolean(nodes.supportModal.open || nodes.supportModal.hasAttribute("open"));
+    if (!alreadyOpen) {
+      state.supportLastFocus = document.activeElement;
+      showDialog(nodes.supportModal);
+    }
+    const target = focusTargetId ? document.getElementById(focusTargetId) : nodes.supportModalClose;
+    if (target instanceof HTMLElement) target.focus();
+  }
+  setStatus("Opened Help Center, Bug Reporter, and Privacy Controls.");
+}
+
+function closeSupportModal() {
+  if (!nodes.supportModal) return;
+  if (typeof nodes.supportModal.close === "function") {
+    nodes.supportModal.close();
+  } else {
+    nodes.supportModal.removeAttribute("open");
+  }
+  restoreSupportModalFocus();
+}
+
+function restoreSupportModalFocus() {
+  if (state.supportLastFocus instanceof HTMLElement) {
+    state.supportLastFocus.focus();
+    state.supportLastFocus = null;
+  }
+}
+
+function buildDiagnosticBundle() {
+  return {
+    schemaVersion: 1,
+    app: "readme-ux-kit-showcase",
+    appVersion: APP_VERSION,
+    mode: "static-browser-showcase",
+    piiFree: true,
+    timestamp: new Date().toISOString(),
+    locale: document.documentElement.lang || navigator.language || "en",
+    viewport: {
+      width: window.innerWidth,
+      height: window.innerHeight,
+      reducedMotion: state.reducedMotion,
+    },
+    viewState: {
+      activeCategory: state.category,
+      activeTheme: state.theme,
+      gridColumns: state.cols,
+      favoritesOnly: state.favoritesOnly,
+      favoritesCount: state.favorites.size,
+      totalAssetsLoaded: state.assets.length,
+      visibleAssetsCount: nodes.assetGrid ? nodes.assetGrid.querySelectorAll(".asset-card").length : 0,
+    },
+    issueReport: {
+      affectedArea: nodes.bugAreaSelect ? nodes.bugAreaSelect.value : "General",
+      summary: nodes.bugDescription ? nodes.bugDescription.value.trim().slice(0, 4000) : "",
+      reproductionSteps: nodes.bugSteps ? nodes.bugSteps.value.trim().slice(0, 4000) : "",
+      lastRuntimeError: state.lastError ? state.lastError.message : null,
+    },
+  };
+}
+
+function updateDiagnosticPreview() {
+  if (!nodes.bugDiagnosticPreview) return;
+  nodes.bugDiagnosticPreview.textContent = JSON.stringify(buildDiagnosticBundle(), null, 2);
+}
+
+async function copyDiagnosticBundle() {
+  const bundle = JSON.stringify(buildDiagnosticBundle(), null, 2);
+  await copyText(bundle, "PII-free diagnostic bundle copied to clipboard.");
+}
+
+function downloadDiagnosticBundle() {
+  const bundle = JSON.stringify(buildDiagnosticBundle(), null, 2);
+  const objectUrl = URL.createObjectURL(new Blob([bundle], { type: "application/json" }));
+  triggerDownload(objectUrl, "readme-ux-kit-diagnostic-bundle.json");
+  URL.revokeObjectURL(objectUrl);
+  setStatus("PII-free diagnostic bundle downloaded.");
+}
+
+function buildFeedbackPayload() {
+  return {
+    schemaVersion: 1,
+    app: "readme-ux-kit-showcase",
+    appVersion: APP_VERSION,
+    timestamp: new Date().toISOString(),
+    rating: Number(nodes.feedbackRating?.value || 5),
+    category: nodes.feedbackCategory?.value || "UX & Visual Polish",
+    comment: (nodes.feedbackComment?.value || "").trim().slice(0, 4000),
+    context: {
+      activeCategory: state.category,
+      activeTheme: state.theme,
+      gridColumns: state.cols,
+    },
+  };
+}
+
+async function copyFeedbackPayload() {
+  const payload = JSON.stringify(buildFeedbackPayload(), null, 2);
+  await copyText(payload, "Structured user feedback JSON copied to clipboard.");
+}
+
+function downloadFeedbackPayload() {
+  const payload = JSON.stringify(buildFeedbackPayload(), null, 2);
+  const objectUrl = URL.createObjectURL(new Blob([payload], { type: "application/json" }));
+  triggerDownload(objectUrl, "readme-ux-kit-feedback.json");
+  URL.revokeObjectURL(objectUrl);
+  setStatus("Structured user feedback JSON downloaded.");
+}
+
+function exportUserDataJson() {
+  const exportArchive = {
+    schemaVersion: 1,
+    exportType: "GDPR-Article-15-20-SAR-Data-Export",
+    app: "readme-ux-kit-showcase",
+    appVersion: APP_VERSION,
+    exportedAt: new Date().toISOString(),
+    storageInventory: {
+      localStorage: {
+        [FAVORITES_KEY]: [...state.favorites],
+      },
+      sessionStorage: {},
+      cookies: [],
+    },
+    preferences: {
+      gridColumns: state.cols,
+      activeCategory: state.category,
+      activeTheme: state.theme,
+      favoritesOnly: state.favoritesOnly,
+      reducedMotion: state.reducedMotion,
+    },
+  };
+  const jsonText = JSON.stringify(exportArchive, null, 2);
+  const objectUrl = URL.createObjectURL(new Blob([jsonText], { type: "application/json" }));
+  triggerDownload(objectUrl, "readme-ux-kit-user-data-export.json");
+  URL.revokeObjectURL(objectUrl);
+  setStatus("Exported local user data archive (JSON).");
+}
+
+function purgeAllLocalData() {
+  revokeEditorPreviewUrl();
+  try {
+    localStorage.removeItem(FAVORITES_KEY);
+    localStorage.clear();
+    sessionStorage.clear();
+  } catch {
+    // Storage access may be restricted in private sandboxes.
+  }
+  state.favorites.clear();
+  state.flipped.clear();
+  state.svgCache.clear();
+  state.lastError = null;
+  state.editor.item = null;
+  state.editor.source = "";
+  state.editor.editedSvg = "";
+  state.editor.lastOperations = {};
+  state.editor.gifFileNameTouched = false;
+  state.query = "";
+  state.category = "all";
+  state.theme = "All Themes";
+  state.favoritesOnly = false;
+  if (nodes.searchInput) nodes.searchInput.value = "";
+  if (nodes.bugDescription) nodes.bugDescription.value = "";
+  if (nodes.bugSteps) nodes.bugSteps.value = "";
+  if (nodes.feedbackComment) nodes.feedbackComment.value = "";
+  if (nodes.interfaceLangSelect) nodes.interfaceLangSelect.value = "en";
+  document.documentElement.lang = "en";
+  if (nodes.favoritesOnly) {
+    nodes.favoritesOnly.setAttribute("aria-pressed", "false");
+    nodes.favoritesOnly.classList.remove("primary");
+    nodes.favoritesOnly.classList.add("secondary");
+  }
+  setDensity("3");
+  render();
+  updateDiagnosticPreview();
+  setStatus("Purged all local storage keys and reset showcase preferences to defaults.");
+}
+
+function showRuntimeError(error, sourceLabel = "runtime") {
+  const message = error instanceof Error ? error.message : String(error || "Unknown runtime error");
+  const stack = error instanceof Error && error.stack ? error.stack : `${sourceLabel}: ${message}`;
+  state.lastError = { message, stack, sourceLabel, timestamp: new Date().toISOString() };
+  if (nodes.errorBannerMessage) {
+    nodes.errorBannerMessage.textContent = `A recoverable error occurred (${message}). Use Reset / Recover to restore the default view.`;
+  }
+  if (nodes.errorTechnicalDetails) {
+    nodes.errorTechnicalDetails.textContent = stack;
+  }
+  if (nodes.errorBanner) {
+    nodes.errorBanner.hidden = false;
+  }
+  setStatus(`Runtime error caught: ${message}`);
+}
+
+function recoverFromError() {
+  state.lastError = null;
+  if (nodes.errorBanner) nodes.errorBanner.hidden = true;
+  closeFilterPopovers();
+  if (nodes.assetModal?.hasAttribute("open")) closeModal();
+  if (nodes.editorModal?.hasAttribute("open")) closeEditor();
+  if (nodes.supportModal?.hasAttribute("open")) closeSupportModal();
+  state.query = "";
+  state.category = "all";
+  state.theme = "All Themes";
+  state.favoritesOnly = false;
+  if (nodes.searchInput) nodes.searchInput.value = "";
+  if (nodes.favoritesOnly) {
+    nodes.favoritesOnly.setAttribute("aria-pressed", "false");
+    nodes.favoritesOnly.classList.remove("primary");
+    nodes.favoritesOnly.classList.add("secondary");
+  }
+  render();
+  setStatus("Recovered workspace state cleanly.");
 }
 
 boot();

@@ -1,5 +1,5 @@
 {
-  "findingCount": 111,
+  "findingCount": 163,
   "findings": [
     {
       "code": "high-motion-readme-cost",
@@ -101,6 +101,306 @@
       "code": "high-motion-readme-cost",
       "message": "High-motion SVG should be used sparingly in README pages.",
       "path": "assets/file_headers/faq_pop_cards.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_accessibility_wcag_compliance.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_agent_tool_permissions.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_api_deprecation_policy.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_architecture_decisions.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_benchmark_reproducibility.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_caching_invalidation_rules.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_canary_analysis_metrics.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_chaos_engineering_experiments.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_ci_build_matrix_guide.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_compliance_audit_controls.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_concurrency_lock_hierarchy.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_cost_attribution_finops.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_cryptographic_provenance.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_data_lineage_contracts.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_database_migrations.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_dependency_update_policy.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_disaster_recovery_plan.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_edge_compute_routing.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_feature_flag_governance.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_fuzzing_corpus_persistent.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_graphql_supergraph_schema.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_green_software_efficiency.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_incident_runbook_guide.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_internationalization_l10n.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_kubernetes_operator_crds.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_license_third_party_notices.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_local_devcontainer_setup.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_model_card_evaluation.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_monorepo_workspace_layout.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_multi_tenant_isolation.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_network_mesh_topology.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_observability_dashboards.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_offline_sync_resolution.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_open_source_maintainers.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_plugin_abi_reference.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_postmortem_blameless_culture.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_privacy_pii_redaction.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_protocol_wire_framing.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_quorum_consensus_tuning.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_rate_limiting_quotas.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_release_train_checklist.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_sdk_codegen_targets.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_secret_rotation_schedule.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_slo_error_budgets.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_storage_engine_internals.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_telemetry_schema_spec.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_threat_modeling_matrix.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_vector_index_tuning.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_webhook_signing_spec.svg",
+      "severity": "info"
+    },
+    {
+      "code": "high-motion-readme-cost",
+      "message": "High-motion SVG should be used sparingly in README pages.",
+      "path": "assets/file_headers/file_header_zero_copy_io_buffers.svg",
       "severity": "info"
     },
     {
@@ -359,6 +659,18 @@
       "code": "github-html-unknown-tag",
       "message": "Review GitHub support for <style>.",
       "path": "components/badges/animated-badges.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <desc>.",
+      "path": "docs/ACCESSIBILITY.md",
+      "severity": "warning"
+    },
+    {
+      "code": "github-html-unknown-tag",
+      "message": "Review GitHub support for <title>.",
+      "path": "docs/ACCESSIBILITY.md",
       "severity": "warning"
     },
     {
@@ -672,12 +984,12 @@
   "schemaVersion": 1,
   "summary": {
     "codeCounts": {
-      "github-html-unknown-tag": 52,
-      "high-motion-readme-cost": 59
+      "github-html-unknown-tag": 54,
+      "high-motion-readme-cost": 109
     },
     "severityCounts": {
-      "info": 59,
-      "warning": 52
+      "info": 109,
+      "warning": 54
     }
   }
 }

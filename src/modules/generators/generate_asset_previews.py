@@ -22,6 +22,7 @@ CATEGORY_DESCRIPTIONS = {
     "file_headers": "Header graphics for common repository files such as security, contributing, and code of conduct documents.",
     "headers": "Title and section header graphics for stronger README hierarchy.",
     "icons": "Small SVG symbols for UI, status, development, data, effects, and navigation use cases.",
+    "isometric": "Deep 3D axonometric system illustrations for cloud topology, data pipelines, AI systems, DevOps, security, observability, networking, storage, and platform architecture.",
     "loadings": "Animated loading indicators and motion accents for status-heavy README sections.",
     "mockups": "Fictional interface mockups for browser, mobile, dashboard, API console, documentation, and package experiences.",
     "personal": "Personal portfolio and project-story visuals for profile READMEs and author pages.",
@@ -43,6 +44,7 @@ BEST_FOR = {
     "file_headers": "Giving policy, contribution, security, support, changelog, and documentation files a polished first impression.",
     "headers": "Replacing plain section titles with richer visual anchors in showcase READMEs and profile pages.",
     "icons": "Inline metadata, feature lists, status rows, navigation cues, and compact UI-style README sections.",
+    "isometric": "Spatial 3D architectural overviews, multi-layer infrastructure cutaways, data and AI topologies, and deep system explanations in technical READMEs.",
     "loadings": "Build, deployment, async workflow, roadmap, and live-status sections where motion communicates activity.",
     "mockups": "Showing fictional product states, documentation layouts, API interactions, package details, and responsive interface concepts.",
     "personal": "Profile READMEs, portfolio intros, maintainer pages, and personal project storytelling.",
@@ -125,6 +127,16 @@ SUBCATEGORY_DESCRIPTIONS = {
     "badges/quality": "Quality badges for testing, coverage, accessibility, documentation, optimization, and validation.",
     "badges/compatibility": "Compatibility badges for runtime, platform, browser, API, version, and format support.",
     "badges/maintenance": "Maintenance badges for active, limited, community, paused, and end-of-life states.",
+    "isometric/cloud-topology": "3D isometric cloud topologies for multi-region clusters, VPC tiers, load balancers, serverless meshes, edge POPs, and failover zones.",
+    "isometric/data-pipelines": "3D isometric data pipeline structures for streaming ingestion, medallion lakehouses, vector indexing, ETL stages, sharding, and CDC sync.",
+    "isometric/ai-systems": "3D isometric AI system architectures for transformer stacks, RAG retrieval, GPU tensor fabrics, multi-agent hubs, and inference routers.",
+    "isometric/ci-cd-devops": "3D isometric delivery and DevOps rigs for parallel build matrices, artifact vaults, canary splitters, blue-green decks, and GitOps loops.",
+    "isometric/security-zero-trust": "3D isometric security architectures for zero-trust microsegmentation, mTLS authorities, HSM enclaves, WAF walls, and policy engines.",
+    "isometric/observability-sre": "3D isometric observability and SRE decks for OpenTelemetry hubs, trace waterfalls, SLO error-budget reactors, and canary probe grids.",
+    "isometric/developer-workstations": "3D isometric developer tooling environments for devcontainers, CLI decks, LSP engines, monorepo cache graphs, and SDK generators.",
+    "isometric/networking-mesh": "3D isometric networking and service-mesh planes for Envoy sidecars, Anycast BGP, DNS trees, gRPC muxes, and eBPF packet filters.",
+    "isometric/storage-databases": "3D isometric storage and database internals for B-tree pyramids, LSM compaction tiers, Raft quorum rings, WAL journals, and object vaults.",
+    "isometric/platform-architecture": "3D isometric software architecture patterns for hexagonal ports, CQRS splits, saga orchestrators, multi-tenant cells, and modular monoliths.",
 }
 
 TAG_KEYWORDS = {
@@ -162,6 +174,7 @@ CATEGORY_TAGS = {
     "file_headers": {"docs", "header"},
     "headers": {"header", "title"},
     "icons": {"icon"},
+    "isometric": {"isometric", "architecture", "3d"},
     "loadings": {"loading", "motion"},
     "mockups": {"mockup", "ui"},
     "personal": {"personal", "profile"},
@@ -245,6 +258,16 @@ SUBCATEGORY_TAGS = {
     "badges/quality": {"badge", "quality"},
     "badges/compatibility": {"badge", "compatibility"},
     "badges/maintenance": {"badge", "maintenance"},
+    "isometric/cloud-topology": {"isometric", "architecture", "infrastructure", "cloud"},
+    "isometric/data-pipelines": {"isometric", "data", "pipeline", "architecture"},
+    "isometric/ai-systems": {"isometric", "ai", "ml", "architecture"},
+    "isometric/ci-cd-devops": {"isometric", "build", "devops", "deployment"},
+    "isometric/security-zero-trust": {"isometric", "security", "architecture"},
+    "isometric/observability-sre": {"isometric", "observability", "infrastructure", "status"},
+    "isometric/developer-workstations": {"isometric", "code", "developer", "terminal"},
+    "isometric/networking-mesh": {"isometric", "network", "infrastructure", "architecture"},
+    "isometric/storage-databases": {"isometric", "data", "database", "storage"},
+    "isometric/platform-architecture": {"isometric", "architecture", "system"},
 }
 
 

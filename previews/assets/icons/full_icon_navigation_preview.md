@@ -10,26 +10,31 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `navigation`
-- Asset count: 11
+- Asset count: 16
 - Best for: Navigation-oriented symbols and movement cues.
 - Group tags: `navigation`
 
 ## Compact index
 
-Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
+Top tags: `animated` (16), `icon` (16), `motion` (16), `navigation` (16), `ai` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `icon_anchor_link` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-anchor-link) | [Source](../../../assets/icons/navigation/icon_anchor_link.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anchor_link.svg) |
+| `icon_anycast_route_compass` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-anycast-route-compass) | [Source](../../../assets/icons/navigation/icon_anycast_route_compass.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anycast_route_compass.svg) |
 | `icon_breadcrumb_path` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-breadcrumb-path) | [Source](../../../assets/icons/navigation/icon_breadcrumb_path.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_path.svg) |
+| `icon_breadcrumb_trace_vector` | Animated | `ai`, `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-breadcrumb-trace-vector) | [Source](../../../assets/icons/navigation/icon_breadcrumb_trace_vector.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_trace_vector.svg) |
 | `icon_compass_arrow` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-compass-arrow) | [Source](../../../assets/icons/navigation/icon_compass_arrow.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_compass_arrow.svg) |
 | `icon_expand_route` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-expand-route) | [Source](../../../assets/icons/navigation/icon_expand_route.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_expand_route.svg) |
+| `icon_ingress_gateway_switch` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-ingress-gateway-switch) | [Source](../../../assets/icons/navigation/icon_ingress_gateway_switch.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_ingress_gateway_switch.svg) |
 | `icon_jump_target` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-jump-target) | [Source](../../../assets/icons/navigation/icon_jump_target.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_jump_target.svg) |
 | `icon_navigation_ping` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-navigation-ping) | [Source](../../../assets/icons/navigation/icon_navigation_ping.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_navigation_ping.svg) |
 | `icon_next_step` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-next-step) | [Source](../../../assets/icons/navigation/icon_next_step.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_next_step.svg) |
 | `icon_return_path` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-return-path) | [Source](../../../assets/icons/navigation/icon_return_path.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_return_path.svg) |
 | `icon_route_map` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-route-map) | [Source](../../../assets/icons/navigation/icon_route_map.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_route_map.svg) |
 | `icon_sidebar_toggle` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-sidebar-toggle) | [Source](../../../assets/icons/navigation/icon_sidebar_toggle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_sidebar_toggle.svg) |
+| `icon_subgraph_federation_node` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-subgraph-federation-node) | [Source](../../../assets/icons/navigation/icon_subgraph_federation_node.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_subgraph_federation_node.svg) |
+| `icon_topology_jump_portal` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-topology-jump-portal) | [Source](../../../assets/icons/navigation/icon_topology_jump_portal.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_topology_jump_portal.svg) |
 | `icon_waypoint_flag` | Animated | `animated`, `icon`, `motion`, `navigation` | [Jump](#icon-waypoint-flag) | [Source](../../../assets/icons/navigation/icon_waypoint_flag.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_waypoint_flag.svg) |
 
 ## Visual previews
@@ -70,6 +75,42 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - [Source file](../../../assets/icons/navigation/icon_anchor_link.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anchor_link.svg)
 
+<a id="icon-anycast-route-compass"></a>
+
+## icon_anycast_route_compass
+
+[![icon_anycast_route_compass](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anycast_route_compass.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_anycast_route_compass](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anycast_route_compass.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anycast_route_compass.svg" alt="icon_anycast_route_compass" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `navigation`
+- Anchor: `#icon-anycast-route-compass`
+- [Source file](../../../assets/icons/navigation/icon_anycast_route_compass.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_anycast_route_compass.svg)
+
 <a id="icon-breadcrumb-path"></a>
 
 ## icon_breadcrumb_path
@@ -105,6 +146,42 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-breadcrumb-path`
 - [Source file](../../../assets/icons/navigation/icon_breadcrumb_path.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_path.svg)
+
+<a id="icon-breadcrumb-trace-vector"></a>
+
+## icon_breadcrumb_trace_vector
+
+[![icon_breadcrumb_trace_vector](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_trace_vector.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_breadcrumb_trace_vector](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_trace_vector.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_trace_vector.svg" alt="icon_breadcrumb_trace_vector" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `icon`, `motion`, `navigation`
+- Anchor: `#icon-breadcrumb-trace-vector`
+- [Source file](../../../assets/icons/navigation/icon_breadcrumb_trace_vector.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_breadcrumb_trace_vector.svg)
 
 <a id="icon-compass-arrow"></a>
 
@@ -177,6 +254,42 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-expand-route`
 - [Source file](../../../assets/icons/navigation/icon_expand_route.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_expand_route.svg)
+
+<a id="icon-ingress-gateway-switch"></a>
+
+## icon_ingress_gateway_switch
+
+[![icon_ingress_gateway_switch](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_ingress_gateway_switch.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_ingress_gateway_switch](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_ingress_gateway_switch.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_ingress_gateway_switch.svg" alt="icon_ingress_gateway_switch" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `navigation`
+- Anchor: `#icon-ingress-gateway-switch`
+- [Source file](../../../assets/icons/navigation/icon_ingress_gateway_switch.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_ingress_gateway_switch.svg)
 
 <a id="icon-jump-target"></a>
 
@@ -393,6 +506,78 @@ Top tags: `animated` (11), `icon` (11), `motion` (11), `navigation` (11)
 - Anchor: `#icon-sidebar-toggle`
 - [Source file](../../../assets/icons/navigation/icon_sidebar_toggle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_sidebar_toggle.svg)
+
+<a id="icon-subgraph-federation-node"></a>
+
+## icon_subgraph_federation_node
+
+[![icon_subgraph_federation_node](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_subgraph_federation_node.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_subgraph_federation_node](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_subgraph_federation_node.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_subgraph_federation_node.svg" alt="icon_subgraph_federation_node" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `navigation`
+- Anchor: `#icon-subgraph-federation-node`
+- [Source file](../../../assets/icons/navigation/icon_subgraph_federation_node.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_subgraph_federation_node.svg)
+
+<a id="icon-topology-jump-portal"></a>
+
+## icon_topology_jump_portal
+
+[![icon_topology_jump_portal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_topology_jump_portal.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_topology_jump_portal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_topology_jump_portal.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_topology_jump_portal.svg" alt="icon_topology_jump_portal" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `navigation`
+- Anchor: `#icon-topology-jump-portal`
+- [Source file](../../../assets/icons/navigation/icon_topology_jump_portal.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/navigation/icon_topology_jump_portal.svg)
 
 <a id="icon-waypoint-flag"></a>
 

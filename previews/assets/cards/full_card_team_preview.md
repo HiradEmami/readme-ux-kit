@@ -10,26 +10,70 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `cards`
 - Group: `team`
-- Asset count: 8
+- Asset count: 16
 - Best for: Team cards for maintainers, ownership, support, contributors, working groups, and contact paths.
 - Group tags: `card`, `team`
 
 ## Compact index
 
-Top tags: `card` (8), `summary` (8), `team` (8), `static` (6), `animated` (2), `motion` (2), `code` (1), `build` (1), `security` (1)
+Top tags: `card` (16), `summary` (16), `team` (16), `animated` (10), `motion` (10), `static` (6), `security` (2), `ai` (1), `code` (1), `architecture` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
+| `card_applied_ai_research_group` | Animated | `ai`, `animated`, `card`, `motion`, `summary`, `team` | [Jump](#card-applied-ai-research-group) | [Source](../../../assets/cards/team/card_applied_ai_research_group.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_applied_ai_research_group.svg) |
 | `card_code_owners` | Animated | `animated`, `card`, `code`, `motion`, `summary`, `team` | [Jump](#card-code-owners) | [Source](../../../assets/cards/team/card_code_owners.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_code_owners.svg) |
 | `card_contributor_paths` | Static or subtle motion | `card`, `static`, `summary`, `team` | [Jump](#card-contributor-paths) | [Source](../../../assets/cards/team/card_contributor_paths.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_contributor_paths.svg) |
+| `card_core_architecture_council` | Animated | `animated`, `architecture`, `card`, `energy`, `motion`, `summary`, `team` | [Jump](#card-core-architecture-council) | [Source](../../../assets/cards/team/card_core_architecture_council.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_core_architecture_council.svg) |
+| `card_data_platform_stewards` | Animated | `animated`, `card`, `data`, `motion`, `summary`, `team` | [Jump](#card-data-platform-stewards) | [Source](../../../assets/cards/team/card_data_platform_stewards.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_data_platform_stewards.svg) |
+| `card_developer_experience_platform` | Animated | `animated`, `card`, `motion`, `summary`, `team` | [Jump](#card-developer-experience-platform) | [Source](../../../assets/cards/team/card_developer_experience_platform.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_developer_experience_platform.svg) |
 | `card_documentation_stewards` | Static or subtle motion | `card`, `static`, `summary`, `team` | [Jump](#card-documentation-stewards) | [Source](../../../assets/cards/team/card_documentation_stewards.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_documentation_stewards.svg) |
+| `card_documentation_ux_editorial` | Animated | `animated`, `card`, `motion`, `summary`, `team` | [Jump](#card-documentation-ux-editorial) | [Source](../../../assets/cards/team/card_documentation_ux_editorial.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_documentation_ux_editorial.svg) |
 | `card_maintainer_rotation` | Animated | `animated`, `card`, `motion`, `summary`, `team` | [Jump](#card-maintainer-rotation) | [Source](../../../assets/cards/team/card_maintainer_rotation.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_maintainer_rotation.svg) |
+| `card_open_source_community_triage` | Animated | `animated`, `button`, `card`, `motion`, `summary`, `team` | [Jump](#card-open-source-community-triage) | [Source](../../../assets/cards/team/card_open_source_community_triage.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_open_source_community_triage.svg) |
 | `card_release_captains` | Static or subtle motion | `build`, `card`, `static`, `summary`, `team` | [Jump](#card-release-captains) | [Source](../../../assets/cards/team/card_release_captains.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_release_captains.svg) |
 | `card_security_contact` | Static or subtle motion | `card`, `security`, `static`, `summary`, `team` | [Jump](#card-security-contact) | [Source](../../../assets/cards/team/card_security_contact.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_security_contact.svg) |
+| `card_security_red_team_advisory` | Animated | `animated`, `card`, `motion`, `security`, `summary`, `team` | [Jump](#card-security-red-team-advisory) | [Source](../../../assets/cards/team/card_security_red_team_advisory.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_security_red_team_advisory.svg) |
+| `card_sre_oncall_reliability_rotation` | Animated | `animated`, `card`, `motion`, `summary`, `team` | [Jump](#card-sre-oncall-reliability-rotation) | [Source](../../../assets/cards/team/card_sre_oncall_reliability_rotation.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_sre_oncall_reliability_rotation.svg) |
 | `card_support_hours` | Static or subtle motion | `card`, `static`, `summary`, `team` | [Jump](#card-support-hours) | [Source](../../../assets/cards/team/card_support_hours.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_support_hours.svg) |
 | `card_working_group` | Static or subtle motion | `card`, `static`, `summary`, `team` | [Jump](#card-working-group) | [Source](../../../assets/cards/team/card_working_group.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_working_group.svg) |
 
 ## Visual previews
+
+<a id="card-applied-ai-research-group"></a>
+
+## card_applied_ai_research_group
+
+[![card_applied_ai_research_group](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_applied_ai_research_group.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_applied_ai_research_group](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_applied_ai_research_group.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_applied_ai_research_group.svg" alt="card_applied_ai_research_group" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `ai`, `animated`, `card`, `motion`, `summary`, `team`
+- Anchor: `#card-applied-ai-research-group`
+- [Source file](../../../assets/cards/team/card_applied_ai_research_group.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_applied_ai_research_group.svg)
 
 <a id="card-code-owners"></a>
 
@@ -103,6 +147,114 @@ Top tags: `card` (8), `summary` (8), `team` (8), `static` (6), `animated` (2), `
 - [Source file](../../../assets/cards/team/card_contributor_paths.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_contributor_paths.svg)
 
+<a id="card-core-architecture-council"></a>
+
+## card_core_architecture_council
+
+[![card_core_architecture_council](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_core_architecture_council.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_core_architecture_council](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_core_architecture_council.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_core_architecture_council.svg" alt="card_core_architecture_council" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `card`, `energy`, `motion`, `summary`, `team`
+- Anchor: `#card-core-architecture-council`
+- [Source file](../../../assets/cards/team/card_core_architecture_council.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_core_architecture_council.svg)
+
+<a id="card-data-platform-stewards"></a>
+
+## card_data_platform_stewards
+
+[![card_data_platform_stewards](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_data_platform_stewards.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_data_platform_stewards](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_data_platform_stewards.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_data_platform_stewards.svg" alt="card_data_platform_stewards" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `card`, `data`, `motion`, `summary`, `team`
+- Anchor: `#card-data-platform-stewards`
+- [Source file](../../../assets/cards/team/card_data_platform_stewards.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_data_platform_stewards.svg)
+
+<a id="card-developer-experience-platform"></a>
+
+## card_developer_experience_platform
+
+[![card_developer_experience_platform](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_developer_experience_platform.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_developer_experience_platform](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_developer_experience_platform.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_developer_experience_platform.svg" alt="card_developer_experience_platform" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `card`, `motion`, `summary`, `team`
+- Anchor: `#card-developer-experience-platform`
+- [Source file](../../../assets/cards/team/card_developer_experience_platform.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_developer_experience_platform.svg)
+
 <a id="card-documentation-stewards"></a>
 
 ## card_documentation_stewards
@@ -139,6 +291,42 @@ Top tags: `card` (8), `summary` (8), `team` (8), `static` (6), `animated` (2), `
 - [Source file](../../../assets/cards/team/card_documentation_stewards.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_documentation_stewards.svg)
 
+<a id="card-documentation-ux-editorial"></a>
+
+## card_documentation_ux_editorial
+
+[![card_documentation_ux_editorial](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_documentation_ux_editorial.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_documentation_ux_editorial](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_documentation_ux_editorial.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_documentation_ux_editorial.svg" alt="card_documentation_ux_editorial" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `card`, `motion`, `summary`, `team`
+- Anchor: `#card-documentation-ux-editorial`
+- [Source file](../../../assets/cards/team/card_documentation_ux_editorial.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_documentation_ux_editorial.svg)
+
 <a id="card-maintainer-rotation"></a>
 
 ## card_maintainer_rotation
@@ -174,6 +362,42 @@ Top tags: `card` (8), `summary` (8), `team` (8), `static` (6), `animated` (2), `
 - Anchor: `#card-maintainer-rotation`
 - [Source file](../../../assets/cards/team/card_maintainer_rotation.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_maintainer_rotation.svg)
+
+<a id="card-open-source-community-triage"></a>
+
+## card_open_source_community_triage
+
+[![card_open_source_community_triage](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_open_source_community_triage.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_open_source_community_triage](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_open_source_community_triage.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_open_source_community_triage.svg" alt="card_open_source_community_triage" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `button`, `card`, `motion`, `summary`, `team`
+- Anchor: `#card-open-source-community-triage`
+- [Source file](../../../assets/cards/team/card_open_source_community_triage.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_open_source_community_triage.svg)
 
 <a id="card-release-captains"></a>
 
@@ -246,6 +470,78 @@ Top tags: `card` (8), `summary` (8), `team` (8), `static` (6), `animated` (2), `
 - Anchor: `#card-security-contact`
 - [Source file](../../../assets/cards/team/card_security_contact.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_security_contact.svg)
+
+<a id="card-security-red-team-advisory"></a>
+
+## card_security_red_team_advisory
+
+[![card_security_red_team_advisory](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_security_red_team_advisory.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_security_red_team_advisory](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_security_red_team_advisory.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_security_red_team_advisory.svg" alt="card_security_red_team_advisory" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `card`, `motion`, `security`, `summary`, `team`
+- Anchor: `#card-security-red-team-advisory`
+- [Source file](../../../assets/cards/team/card_security_red_team_advisory.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_security_red_team_advisory.svg)
+
+<a id="card-sre-oncall-reliability-rotation"></a>
+
+## card_sre_oncall_reliability_rotation
+
+[![card_sre_oncall_reliability_rotation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_sre_oncall_reliability_rotation.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![card_sre_oncall_reliability_rotation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_sre_oncall_reliability_rotation.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_sre_oncall_reliability_rotation.svg" alt="card_sre_oncall_reliability_rotation" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `card`, `motion`, `summary`, `team`
+- Anchor: `#card-sre-oncall-reliability-rotation`
+- [Source file](../../../assets/cards/team/card_sre_oncall_reliability_rotation.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/cards/team/card_sre_oncall_reliability_rotation.svg)
 
 <a id="card-support-hours"></a>
 

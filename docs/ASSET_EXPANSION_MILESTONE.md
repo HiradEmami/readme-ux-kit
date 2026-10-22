@@ -1,19 +1,49 @@
-# 1,000+ Asset Expansion Milestone
+# 1,608-Asset Isometric & Animated Expansion Milestone
 
-Completed on 2026-09-05 from the recorded 578-asset baseline.
+Updated on 2026-10-24 from the 1,058-asset milestone (and original 578-asset baseline).
 
-## Outcome
+## Phase 2 Outcome: 3D Isometric Category & 450 Animated Expansion
+
+- New top-level category added: [`assets/isometric/`](../assets/isometric/) across 10 domain subcategories
+- Accepted Phase 2 additions: 550 unique SVG designs (100 initial 3D isometric + 450 new animated across 9 categories)
+- Rejected designs: 0
+- Replaced designs: 0
+- Added static assets in Phase 2: 60
+- Added animated assets in Phase 2: 490 (40 in initial isometric cohort + 450 across 9 categories)
+- Final manifest total: 1,608 SVG assets across 19 categories
+- Full-library totals: 460 static and 1,148 animated assets
+
+### Phase 2 Additions by Category
+
+| Category | Prior Total | Added Static | Added Animated | New Total |
+| --- | ---: | ---: | ---: | ---: |
+| Isometric (`assets/isometric/`) | 0 | 60 | 90 | 150 |
+| Cards (`assets/cards/`) | 55 | 0 | 50 | 105 |
+| Charts (`assets/charts/`) | 50 | 0 | 50 | 100 |
+| Diagrams (`assets/diagrams/`) | 75 | 0 | 50 | 125 |
+| Dividers (`assets/dividers/`) | 64 | 0 | 50 | 114 |
+| File headers (`assets/file_headers/`) | 44 | 0 | 50 | 94 |
+| Headers (`assets/headers/`) | 51 | 0 | 50 | 101 |
+| Icons (`assets/icons/`) | 238 | 0 | 50 | 288 |
+| Loadings (`assets/loadings/`) | 62 | 0 | 50 | 112 |
+| **Phase 2 Subtotal** | **639** | **60** | **490** | **1,189** |
+| All other 10 categories | 419 | 0 | 0 | 419 |
+| **Full Library Total (19 categories)** | **1,058** | **60** | **490** | **1,608** |
+
+---
+
+## Phase 1 Outcome (1,058-Asset Milestone on 2026-09-05)
 
 - Accepted additions: 480 unique SVG designs
 - Rejected designs: 0
 - Replaced designs: 0
 - Added static assets: 320
 - Added animated assets: 160
-- Final manifest total: 1,058 SVG assets
-- Full-library totals: 400 static and 658 animated assets
+- Phase 1 manifest total: 1,058 SVG assets
+- Phase 1 library totals: 400 static and 658 animated assets
 - Curated GIFs added: 0
 
-## Accepted Additions
+### Phase 1 Accepted Additions
 
 | Category | Added | Static | Animated | Final total |
 | --- | ---: | ---: | ---: | ---: |
@@ -35,7 +65,7 @@ Completed on 2026-09-05 from the recorded 578-asset baseline.
 
 ## Documentation and Discovery
 
-The expansion added navigation and preview metadata for badges, callouts, cards, charts, diagrams, mockups, terminal panels, and workflow panels. Category links are present in the root README, asset guide, generated preview index, and repository navigation.
+The expansion added navigation and preview metadata for isometric 3D architectures, badges, callouts, cards, charts, diagrams, mockups, terminal panels, and workflow panels. Category links are present in the root README, asset guide, generated preview index, showcase, recipes, copy-all bundles, theme catalogs, and repository navigation.
 
 The durable expansion record is this milestone together with the generated [asset manifest](../assets/manifest.json) and [preview catalog](../previews/assets/README.md). Every terminal command is also available as copyable text in [the terminal command reference](./TERMINAL_PANEL_COMMANDS.md).
 
@@ -56,14 +86,14 @@ The standard generation pipeline refreshed:
 ## Verification
 
 - `npm run optimize:svg`: passed; all SVGs match the safe optimization profile.
-- `npm run check:svg`: passed; 1,058 SVGs validated.
-- `npm run generate:previews`: completed for 18 categories.
+- `npm run check:svg`: passed; 1,608 SVGs validated.
+- `npm run generate:previews`: completed for 19 categories.
 - `npm run generate:all-data`: completed.
 - `npm run check:all`: passed.
-- Expansion-specific acceptance checks passed for all 480 additions.
+- Expansion-specific acceptance checks passed for all Phase 1 (480) and Phase 2 (550) additions.
 - `git diff --check`: passed; only Git line-ending notices were emitted.
-- Manifest, preview headings, and contact-sheet entries each account for all 480 additions exactly once.
-- All 480 additions passed color replacement, text replacement, element hiding, and applicable animation-speed edits.
+- Manifest, preview headings, and contact-sheet entries each account for all 1,608 assets across 19 categories.
+- All 550 Phase 2 additions achieved 10/10 (`excellent`) editor quality scores with 0 analysis flags.
 - All 45 terminal commands match their Markdown source.
 - New accessibility findings: 0.
 - New contrast findings: 0.

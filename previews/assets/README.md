@@ -17,6 +17,7 @@ Generated preview indexes for the SVG asset library. Do not edit these files by 
 | File Headers | [`file_headers.md`](./file_headers.md) | Giving policy, contribution, security, support, changelog, and documentation files a polished first impression. |
 | Headers | [`headers.md`](./headers.md) | Replacing plain section titles with richer visual anchors in showcase READMEs and profile pages. |
 | Icons | [`icons.md`](./icons.md) | Inline metadata, feature lists, status rows, navigation cues, and compact UI-style README sections. |
+| Isometric | [`isometric.md`](./isometric.md) | Spatial 3D architectural overviews, multi-layer infrastructure cutaways, data and AI topologies, and deep system explanations in technical READMEs. |
 | Loadings | [`loadings.md`](./loadings.md) | Build, deployment, async workflow, roadmap, and live-status sections where motion communicates activity. |
 | Mockups | [`mockups.md`](./mockups.md) | Showing fictional product states, documentation layouts, API interactions, package details, and responsive interface concepts. |
 | Personal | [`personal.md`](./personal.md) | Profile READMEs, portfolio intros, maintainer pages, and personal project storytelling. |

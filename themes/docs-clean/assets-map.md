@@ -8,6 +8,10 @@
 | Reference | [`icon_docs.svg`](../../assets/icons/core/icon_docs.svg) | Marks documentation and API sections. |
 | Jump links | [`icon_jump_target.svg`](../../assets/icons/navigation/icon_jump_target.svg) | Supports quick navigation tables. |
 | Divider | [`divider_minimal_clean.svg`](../../assets/dividers/static/divider_minimal_clean.svg) | Keeps sections separated cleanly. |
+| Isometric 3D | [`isometric_docs_static_site_compiler.svg`](../../assets/isometric/developer-workstations/isometric_docs_static_site_compiler.svg) | 3D MDX documentation compiler and search index grid. |
+| File header | [`file_header_architecture_decisions.svg`](../../assets/file_headers/file_header_architecture_decisions.svg) | Animated ADR documentation header. |
+| Card | [`card_documentation_ux_editorial.svg`](../../assets/cards/team/card_documentation_ux_editorial.svg) | Editorial and API reference stewardship card. |
+| Icon | [`icon_command_palette_trigger.svg`](../../assets/icons/ui/icon_command_palette_trigger.svg) | Quick-jump command palette navigation icon. |
 
 ## Best Pairings
 

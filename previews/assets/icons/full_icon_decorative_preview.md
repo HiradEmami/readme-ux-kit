@@ -10,26 +10,31 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `decorative`
-- Asset count: 24
+- Asset count: 29
 - Best for: Decorative accents for visual rhythm and lightweight ornamentation.
 - Group tags: `decorative`
 
 ## Compact index
 
-Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energy` (4), `navigation` (1), `minimal` (1)
+Top tags: `animated` (29), `decorative` (29), `icon` (29), `motion` (29), `energy` (4), `navigation` (1), `minimal` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `icon_arc_flare` | Animated | `animated`, `decorative`, `energy`, `icon`, `motion` | [Jump](#icon-arc-flare) | [Source](../../../assets/icons/decorative/icon_arc_flare.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_arc_flare.svg) |
+| `icon_aurora_harmonic_crest` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-aurora-harmonic-crest) | [Source](../../../assets/icons/decorative/icon_aurora_harmonic_crest.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_aurora_harmonic_crest.svg) |
+| `icon_axonometric_crystal_prism` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-axonometric-crystal-prism) | [Source](../../../assets/icons/decorative/icon_axonometric_crystal_prism.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_axonometric_crystal_prism.svg) |
 | `icon_bouncing_node` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-bouncing-node) | [Source](../../../assets/icons/decorative/icon_bouncing_node.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_bouncing_node.svg) |
 | `icon_breathing_square` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-breathing-square) | [Source](../../../assets/icons/decorative/icon_breathing_square.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_breathing_square.svg) |
+| `icon_celestial_quorum_halo` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-celestial-quorum-halo) | [Source](../../../assets/icons/decorative/icon_celestial_quorum_halo.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_celestial_quorum_halo.svg) |
 | `icon_compass_flare` | Animated | `animated`, `decorative`, `icon`, `motion`, `navigation` | [Jump](#icon-compass-flare) | [Source](../../../assets/icons/decorative/icon_compass_flare.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_compass_flare.svg) |
 | `icon_crown_mark` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-crown-mark) | [Source](../../../assets/icons/decorative/icon_crown_mark.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_crown_mark.svg) |
 | `icon_dual_wave_field` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-dual-wave-field) | [Source](../../../assets/icons/decorative/icon_dual_wave_field.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_dual_wave_field.svg) |
 | `icon_expanding_dot` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-expanding-dot) | [Source](../../../assets/icons/decorative/icon_expanding_dot.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_expanding_dot.svg) |
 | `icon_flicker_dot` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-flicker-dot) | [Source](../../../assets/icons/decorative/icon_flicker_dot.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_flicker_dot.svg) |
+| `icon_geometric_tesseract_node` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-geometric-tesseract-node) | [Source](../../../assets/icons/decorative/icon_geometric_tesseract_node.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_geometric_tesseract_node.svg) |
 | `icon_glow_animation` | Animated | `animated`, `decorative`, `energy`, `icon`, `motion` | [Jump](#icon-glow-animation) | [Source](../../../assets/icons/decorative/icon_glow_animation.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_glow_animation.svg) |
 | `icon_ink_drop` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-ink-drop) | [Source](../../../assets/icons/decorative/icon_ink_drop.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_ink_drop.svg) |
+| `icon_kinetic_wave_rosette` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-kinetic-wave-rosette) | [Source](../../../assets/icons/decorative/icon_kinetic_wave_rosette.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_kinetic_wave_rosette.svg) |
 | `icon_lux_diamond` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-lux-diamond) | [Source](../../../assets/icons/decorative/icon_lux_diamond.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_lux_diamond.svg) |
 | `icon_micro_glimmer` | Animated | `animated`, `decorative`, `icon`, `motion` | [Jump](#icon-micro-glimmer) | [Source](../../../assets/icons/decorative/icon_micro_glimmer.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_micro_glimmer.svg) |
 | `icon_neon_leaf` | Animated | `animated`, `decorative`, `energy`, `icon`, `motion` | [Jump](#icon-neon-leaf) | [Source](../../../assets/icons/decorative/icon_neon_leaf.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_neon_leaf.svg) |
@@ -82,6 +87,78 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-arc-flare`
 - [Source file](../../../assets/icons/decorative/icon_arc_flare.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_arc_flare.svg)
+
+<a id="icon-aurora-harmonic-crest"></a>
+
+## icon_aurora_harmonic_crest
+
+[![icon_aurora_harmonic_crest](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_aurora_harmonic_crest.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_aurora_harmonic_crest](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_aurora_harmonic_crest.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_aurora_harmonic_crest.svg" alt="icon_aurora_harmonic_crest" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `decorative`, `icon`, `motion`
+- Anchor: `#icon-aurora-harmonic-crest`
+- [Source file](../../../assets/icons/decorative/icon_aurora_harmonic_crest.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_aurora_harmonic_crest.svg)
+
+<a id="icon-axonometric-crystal-prism"></a>
+
+## icon_axonometric_crystal_prism
+
+[![icon_axonometric_crystal_prism](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_axonometric_crystal_prism.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_axonometric_crystal_prism](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_axonometric_crystal_prism.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_axonometric_crystal_prism.svg" alt="icon_axonometric_crystal_prism" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `decorative`, `icon`, `motion`
+- Anchor: `#icon-axonometric-crystal-prism`
+- [Source file](../../../assets/icons/decorative/icon_axonometric_crystal_prism.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_axonometric_crystal_prism.svg)
 
 <a id="icon-bouncing-node"></a>
 
@@ -154,6 +231,42 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-breathing-square`
 - [Source file](../../../assets/icons/decorative/icon_breathing_square.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_breathing_square.svg)
+
+<a id="icon-celestial-quorum-halo"></a>
+
+## icon_celestial_quorum_halo
+
+[![icon_celestial_quorum_halo](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_celestial_quorum_halo.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_celestial_quorum_halo](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_celestial_quorum_halo.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_celestial_quorum_halo.svg" alt="icon_celestial_quorum_halo" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `decorative`, `icon`, `motion`
+- Anchor: `#icon-celestial-quorum-halo`
+- [Source file](../../../assets/icons/decorative/icon_celestial_quorum_halo.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_celestial_quorum_halo.svg)
 
 <a id="icon-compass-flare"></a>
 
@@ -335,6 +448,42 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_flicker_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_flicker_dot.svg)
 
+<a id="icon-geometric-tesseract-node"></a>
+
+## icon_geometric_tesseract_node
+
+[![icon_geometric_tesseract_node](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_geometric_tesseract_node.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_geometric_tesseract_node](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_geometric_tesseract_node.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_geometric_tesseract_node.svg" alt="icon_geometric_tesseract_node" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `decorative`, `icon`, `motion`
+- Anchor: `#icon-geometric-tesseract-node`
+- [Source file](../../../assets/icons/decorative/icon_geometric_tesseract_node.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_geometric_tesseract_node.svg)
+
 <a id="icon-glow-animation"></a>
 
 ## icon_glow_animation
@@ -406,6 +555,42 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-ink-drop`
 - [Source file](../../../assets/icons/decorative/icon_ink_drop.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_ink_drop.svg)
+
+<a id="icon-kinetic-wave-rosette"></a>
+
+## icon_kinetic_wave_rosette
+
+[![icon_kinetic_wave_rosette](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_kinetic_wave_rosette.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_kinetic_wave_rosette](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_kinetic_wave_rosette.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_kinetic_wave_rosette.svg" alt="icon_kinetic_wave_rosette" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `decorative`, `icon`, `motion`
+- Anchor: `#icon-kinetic-wave-rosette`
+- [Source file](../../../assets/icons/decorative/icon_kinetic_wave_rosette.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_kinetic_wave_rosette.svg)
 
 <a id="icon-lux-diamond"></a>
 

@@ -10,13 +10,13 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `icons`
 - Group: `ui`
-- Asset count: 27
+- Asset count: 32
 - Best for: Common UI icons such as arrows, chevrons, filters, search, and menu controls.
 - Group tags: `ui`
 
 ## Compact index
 
-Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), `code` (1), `security` (1), `button` (1)
+Top tags: `icon` (32), `ui` (32), `animated` (30), `motion` (30), `code` (2), `static` (2), `security` (1), `status` (1), `architecture` (1), `button` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
@@ -31,6 +31,7 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 | `icon_chevron_right` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-chevron-right) | [Source](../../../assets/icons/ui/icon_chevron_right.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_right.svg) |
 | `icon_chevron_up` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-chevron-up) | [Source](../../../assets/icons/ui/icon_chevron_up.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_chevron_up.svg) |
 | `icon_command_key` | Animated | `animated`, `code`, `icon`, `motion`, `security`, `ui` | [Jump](#icon-command-key) | [Source](../../../assets/icons/ui/icon_command_key.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_key.svg) |
+| `icon_command_palette_trigger` | Animated | `animated`, `code`, `icon`, `motion`, `ui` | [Jump](#icon-command-palette-trigger) | [Source](../../../assets/icons/ui/icon_command_palette_trigger.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_palette_trigger.svg) |
 | `icon_context_menu` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-context-menu) | [Source](../../../assets/icons/ui/icon_context_menu.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_context_menu.svg) |
 | `icon_double_chevron_left` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-double-chevron-left) | [Source](../../../assets/icons/ui/icon_double_chevron_left.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_double_chevron_left.svg) |
 | `icon_double_chevron_right` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-double-chevron-right) | [Source](../../../assets/icons/ui/icon_double_chevron_right.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_double_chevron_right.svg) |
@@ -38,14 +39,18 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 | `icon_external_link` | Static or subtle motion | `icon`, `static`, `ui` | [Jump](#icon-external-link) | [Source](../../../assets/icons/ui/icon_external_link.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_external_link.svg) |
 | `icon_filter` | Static or subtle motion | `icon`, `static`, `ui` | [Jump](#icon-filter) | [Source](../../../assets/icons/ui/icon_filter.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_filter.svg) |
 | `icon_hamburger_menu` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-hamburger-menu) | [Source](../../../assets/icons/ui/icon_hamburger_menu.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_hamburger_menu.svg) |
+| `icon_live_log_tail_filter` | Animated | `animated`, `icon`, `motion`, `status`, `ui` | [Jump](#icon-live-log-tail-filter) | [Source](../../../assets/icons/ui/icon_live_log_tail_filter.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_live_log_tail_filter.svg) |
 | `icon_notification_dot` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-notification-dot) | [Source](../../../assets/icons/ui/icon_notification_dot.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_notification_dot.svg) |
 | `icon_panel_left` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-panel-left) | [Source](../../../assets/icons/ui/icon_panel_left.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_panel_left.svg) |
 | `icon_panel_right` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-panel-right) | [Source](../../../assets/icons/ui/icon_panel_right.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_panel_right.svg) |
 | `icon_resize_corner` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-resize-corner) | [Source](../../../assets/icons/ui/icon_resize_corner.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_resize_corner.svg) |
+| `icon_schema_contract_toggle` | Animated | `animated`, `architecture`, `icon`, `motion`, `ui` | [Jump](#icon-schema-contract-toggle) | [Source](../../../assets/icons/ui/icon_schema_contract_toggle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_schema_contract_toggle.svg) |
 | `icon_scroll_hint` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-scroll-hint) | [Source](../../../assets/icons/ui/icon_scroll_hint.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_scroll_hint.svg) |
 | `icon_search` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-search) | [Source](../../../assets/icons/ui/icon_search.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_search.svg) |
 | `icon_sort_ascending` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-sort-ascending) | [Source](../../../assets/icons/ui/icon_sort_ascending.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_sort_ascending.svg) |
 | `icon_sort_descending` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-sort-descending) | [Source](../../../assets/icons/ui/icon_sort_descending.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_sort_descending.svg) |
+| `icon_split_diff_inspector` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-split-diff-inspector) | [Source](../../../assets/icons/ui/icon_split_diff_inspector.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_split_diff_inspector.svg) |
+| `icon_telemetry_span_drawer` | Animated | `animated`, `icon`, `motion`, `ui` | [Jump](#icon-telemetry-span-drawer) | [Source](../../../assets/icons/ui/icon_telemetry_span_drawer.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_telemetry_span_drawer.svg) |
 | `icon_view_columns` | Animated | `animated`, `button`, `icon`, `motion`, `ui` | [Jump](#icon-view-columns) | [Source](../../../assets/icons/ui/icon_view_columns.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_view_columns.svg) |
 
 ## Visual previews
@@ -446,6 +451,42 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_command_key.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_key.svg)
 
+<a id="icon-command-palette-trigger"></a>
+
+## icon_command_palette_trigger
+
+[![icon_command_palette_trigger](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_palette_trigger.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_command_palette_trigger](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_palette_trigger.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_palette_trigger.svg" alt="icon_command_palette_trigger" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `code`, `icon`, `motion`, `ui`
+- Anchor: `#icon-command-palette-trigger`
+- [Source file](../../../assets/icons/ui/icon_command_palette_trigger.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_command_palette_trigger.svg)
+
 <a id="icon-context-menu"></a>
 
 ## icon_context_menu
@@ -698,6 +739,42 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_hamburger_menu.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_hamburger_menu.svg)
 
+<a id="icon-live-log-tail-filter"></a>
+
+## icon_live_log_tail_filter
+
+[![icon_live_log_tail_filter](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_live_log_tail_filter.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_live_log_tail_filter](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_live_log_tail_filter.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_live_log_tail_filter.svg" alt="icon_live_log_tail_filter" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `status`, `ui`
+- Anchor: `#icon-live-log-tail-filter`
+- [Source file](../../../assets/icons/ui/icon_live_log_tail_filter.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_live_log_tail_filter.svg)
+
 <a id="icon-notification-dot"></a>
 
 ## icon_notification_dot
@@ -842,6 +919,42 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - [Source file](../../../assets/icons/ui/icon_resize_corner.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_resize_corner.svg)
 
+<a id="icon-schema-contract-toggle"></a>
+
+## icon_schema_contract_toggle
+
+[![icon_schema_contract_toggle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_schema_contract_toggle.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_schema_contract_toggle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_schema_contract_toggle.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_schema_contract_toggle.svg" alt="icon_schema_contract_toggle" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `architecture`, `icon`, `motion`, `ui`
+- Anchor: `#icon-schema-contract-toggle`
+- [Source file](../../../assets/icons/ui/icon_schema_contract_toggle.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_schema_contract_toggle.svg)
+
 <a id="icon-scroll-hint"></a>
 
 ## icon_scroll_hint
@@ -985,6 +1098,78 @@ Top tags: `icon` (27), `ui` (27), `animated` (25), `motion` (25), `static` (2), 
 - Anchor: `#icon-sort-descending`
 - [Source file](../../../assets/icons/ui/icon_sort_descending.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_sort_descending.svg)
+
+<a id="icon-split-diff-inspector"></a>
+
+## icon_split_diff_inspector
+
+[![icon_split_diff_inspector](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_split_diff_inspector.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_split_diff_inspector](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_split_diff_inspector.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_split_diff_inspector.svg" alt="icon_split_diff_inspector" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `ui`
+- Anchor: `#icon-split-diff-inspector`
+- [Source file](../../../assets/icons/ui/icon_split_diff_inspector.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_split_diff_inspector.svg)
+
+<a id="icon-telemetry-span-drawer"></a>
+
+## icon_telemetry_span_drawer
+
+[![icon_telemetry_span_drawer](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_telemetry_span_drawer.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![icon_telemetry_span_drawer](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_telemetry_span_drawer.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_telemetry_span_drawer.svg" alt="icon_telemetry_span_drawer" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `icon`, `motion`, `ui`
+- Anchor: `#icon-telemetry-span-drawer`
+- [Source file](../../../assets/icons/ui/icon_telemetry_span_drawer.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/ui/icon_telemetry_span_drawer.svg)
 
 <a id="icon-view-columns"></a>
 
