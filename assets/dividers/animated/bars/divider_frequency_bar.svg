@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50" role="img">
+  <title>Divider Frequency Bar</title>
+  <desc>An animated README SVG asset illustrating Divider Frequency Bar.</desc>
   <g fill="#22d3ee">
     <rect x="465" y="20" width="6" height="10">
       <animate attributeName="height" values="10;35;10" dur="1s" repeatCount="indefinite"/>

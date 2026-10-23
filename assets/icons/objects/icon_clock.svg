@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" role="img">
+  <title>Icon Clock</title>
+  <desc>An animated README SVG asset illustrating Icon Clock.</desc>
   <circle cx="12" cy="12" r="9" stroke="#22d3ee" stroke-width="2"/>
   <path d="M12 7V12L15 14" stroke="#8b5cf6" stroke-width="2">
     <animateTransform attributeName="transform" type="rotate"

@@ -21,15 +21,15 @@ The following file-header assets were originally picked up from the upstream sou
 
 | Asset | Local path | Status | Notes |
 | --- | --- | --- | --- |
-| Code of Conduct green header | [`assets/file_headers/code_of_conduct_green.svg`](../assets/file_headers/code_of_conduct_green.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Code of Conduct red header | [`assets/file_headers/code_of_conduct_red.svg`](../assets/file_headers/code_of_conduct_red.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Code of Conduct white header | [`assets/file_headers/code_of_conduct_white.svg`](../assets/file_headers/code_of_conduct_white.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Contributing green header | [`assets/file_headers/contributing_green.svg`](../assets/file_headers/contributing_green.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Contributing red header | [`assets/file_headers/contributing_red.svg`](../assets/file_headers/contributing_red.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Contributing white header | [`assets/file_headers/contributing_white.svg`](../assets/file_headers/contributing_white.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Security green header | [`assets/file_headers/security_green.svg`](../assets/file_headers/security_green.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Security red header | [`assets/file_headers/security_red.svg`](../assets/file_headers/security_red.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
-| Security white header | [`assets/file_headers/security_white.svg`](../assets/file_headers/security_white.svg) | Modified derivative | Normalized to the repo file-header sizing and SVG quality expectations. |
+| Code of Conduct green | [`code_of_conduct_green.svg`](../assets/file_headers/code_of_conduct_green.svg) | Modified derivative | Normalized for this kit. |
+| Code of Conduct red | [`code_of_conduct_red.svg`](../assets/file_headers/code_of_conduct_red.svg) | Modified derivative | Normalized for this kit. |
+| Code of Conduct white | [`code_of_conduct_white.svg`](../assets/file_headers/code_of_conduct_white.svg) | Modified derivative | Normalized for this kit. |
+| Contributing green | [`contributing_green.svg`](../assets/file_headers/contributing_green.svg) | Modified derivative | Normalized for this kit. |
+| Contributing red | [`contributing_red.svg`](../assets/file_headers/contributing_red.svg) | Modified derivative | Normalized for this kit. |
+| Contributing white | [`contributing_white.svg`](../assets/file_headers/contributing_white.svg) | Modified derivative | Normalized for this kit. |
+| Security green | [`security_green.svg`](../assets/file_headers/security_green.svg) | Modified derivative | Normalized for this kit. |
+| Security red | [`security_red.svg`](../assets/file_headers/security_red.svg) | Modified derivative | Normalized for this kit. |
+| Security white | [`security_white.svg`](../assets/file_headers/security_white.svg) | Modified derivative | Normalized for this kit. |
 
 ## First-Party File Header Assets
 
@@ -72,7 +72,7 @@ Before adding a third-party asset, confirm:
 - The asset does not require attribution that conflicts with README usage.
 - The source URL, license, local files, and modification status are added to this document.
 - The asset passes `npm run check:svg`.
-- Generated previews are regenerated when the asset is added.
+- Generated previews and module data are regenerated when the asset is added.
 
 Do not add assets from sources with unclear licensing, non-commercial restrictions, no-derivatives restrictions, or attribution terms that would be hard for downstream README users to preserve.
 

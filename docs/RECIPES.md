@@ -10,7 +10,7 @@ For paste-ready complete starters, use [Copy-all README bundles](./BUNDLES.md).
 
 Best for packages, SDKs, utilities, and reusable modules.
 
-### Ingredients
+### Library Ingredients
 
 | Layer | Use |
 | --- | --- |
@@ -20,14 +20,14 @@ Best for packages, SDKs, utilities, and reusable modules.
 | Layout | [`components/layout/feature-grids.md`](../components/layout/feature-grids.md) |
 | Status | [`components/status/version-lifecycle.md`](../components/status/version-lifecycle.md) |
 
-### Recommended Assets
+### Library Assets
 
 - [`assets/headers/static/header_minimal_lux.svg`](../assets/headers/static/header_minimal_lux.svg)
 - [`assets/dividers/static/divider_minimal_clean.svg`](../assets/dividers/static/divider_minimal_clean.svg)
 - [`assets/icons/dev/icon_package_box.svg`](../assets/icons/dev/icon_package_box.svg)
 - [`assets/icons/core/icon_docs.svg`](../assets/icons/core/icon_docs.svg)
 
-### Assembly Order
+### Library Assembly Order
 
 1. Copy the open-source library template.
 2. Add the minimal header and a compact badge row.
@@ -39,7 +39,7 @@ Best for packages, SDKs, utilities, and reusable modules.
 
 Best for model repos, evaluation suites, notebooks, datasets, and inference workflows.
 
-### Ingredients
+### Machine Learning Ingredients
 
 | Layer | Use |
 | --- | --- |
@@ -49,14 +49,14 @@ Best for model repos, evaluation suites, notebooks, datasets, and inference work
 | Status | [`components/status/dataset-status.md`](../components/status/dataset-status.md) |
 | Layout | [`components/layout/roadmap.md`](../components/layout/roadmap.md) |
 
-### Recommended Assets
+### Machine Learning Assets
 
 - [`assets/headers/animated/header_radial_core.svg`](../assets/headers/animated/header_radial_core.svg)
 - [`assets/visuals/evaluation_lens_matrix.svg`](../assets/visuals/evaluation_lens_matrix.svg)
 - [`assets/visuals/model_release_constellation.svg`](../assets/visuals/model_release_constellation.svg)
 - [`assets/icons/data-ai/icon_eval_harness.svg`](../assets/icons/data-ai/icon_eval_harness.svg)
 
-### Assembly Order
+### Machine Learning Assembly Order
 
 1. Start with the ML project template.
 2. Put the task, dataset, metric, and current best result in the first table.
@@ -68,7 +68,7 @@ Best for model repos, evaluation suites, notebooks, datasets, and inference work
 
 Best for APIs, workers, internal services, platform components, and production systems.
 
-### Ingredients
+### Backend Ingredients
 
 | Layer | Use |
 | --- | --- |
@@ -78,14 +78,14 @@ Best for APIs, workers, internal services, platform components, and production s
 | Interactive | [`components/interactive/terminal-blocks.md`](../components/interactive/terminal-blocks.md) |
 | Layout | [`components/layout/faq.md`](../components/layout/faq.md) |
 
-### Recommended Assets
+### Backend Assets
 
 - [`assets/headers/static/header_data_rail.svg`](../assets/headers/static/header_data_rail.svg)
 - [`assets/visuals/reliability_control_room.svg`](../assets/visuals/reliability_control_room.svg)
 - [`assets/icons/devops/icon_observability_scope.svg`](../assets/icons/devops/icon_observability_scope.svg)
 - [`assets/dividers/animated/bars/divider_circuit_pulse_bar.svg`](../assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)
 
-### Assembly Order
+### Backend Assembly Order
 
 1. Start with service purpose, ownership boundaries, and architecture.
 2. Show health and primary endpoints early.
@@ -97,7 +97,7 @@ Best for APIs, workers, internal services, platform components, and production s
 
 Best for personal profile READMEs, portfolio pages, and author introductions.
 
-### Ingredients
+### Profile Ingredients
 
 | Layer | Use |
 | --- | --- |
@@ -107,14 +107,14 @@ Best for personal profile READMEs, portfolio pages, and author introductions.
 | Layout | [`components/layout/feature-grids.md`](../components/layout/feature-grids.md) |
 | Interactive | [`components/interactive/expand-collapse.md`](../components/interactive/expand-collapse.md) |
 
-### Recommended Assets
+### Profile Assets
 
 - [`assets/personal/four_pillars.svg`](../assets/personal/four_pillars.svg)
 - [`assets/personal/traditional_vs_engineered.svg`](../assets/personal/traditional_vs_engineered.svg)
 - [`assets/visuals/collaboration.svg`](../assets/visuals/collaboration.svg)
 - [`assets/icons/objects/icon_rocket_launch.svg`](../assets/icons/objects/icon_rocket_launch.svg)
 
-### Assembly Order
+### Profile Assembly Order
 
 1. Use a short hero with your name, role, and current focus.
 2. Add three to five pillars instead of a long autobiography.
@@ -126,7 +126,7 @@ Best for personal profile READMEs, portfolio pages, and author introductions.
 
 Best for security tools, audit utilities, policy repos, scanners, and incident-response projects.
 
-### Ingredients
+### Security Ingredients
 
 | Layer | Use |
 | --- | --- |
@@ -136,14 +136,14 @@ Best for security tools, audit utilities, policy repos, scanners, and incident-r
 | Status | [`components/status/deployment-status.md`](../components/status/deployment-status.md) |
 | Interactive | [`components/interactive/expand-collapse.md`](../components/interactive/expand-collapse.md) |
 
-### Recommended Assets
+### Security Assets
 
 - [`assets/file_headers/security_policy_radar.svg`](../assets/file_headers/security_policy_radar.svg)
 - [`assets/visuals/privacy_vault_shield.svg`](../assets/visuals/privacy_vault_shield.svg)
 - [`assets/icons/status/icon_warning.svg`](../assets/icons/status/icon_warning.svg)
 - [`assets/dividers/animated/lines/divider_red_alert.svg`](../assets/dividers/animated/lines/divider_red_alert.svg)
 
-### Assembly Order
+### Security Assembly Order
 
 1. State scope and threat model clearly.
 2. Put install and safe usage instructions before advanced configuration.

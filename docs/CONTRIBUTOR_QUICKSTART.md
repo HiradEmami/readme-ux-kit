@@ -16,6 +16,7 @@ Expected result:
 generate_asset_previews.py self-tests passed.
 Validated ... SVG assets.
 Asset previews are current.
+Module checks passed.
 ```
 
 Keep the pull request focused. Asset additions, component rewrites, template changes, and generator changes should usually be separate PRs.
@@ -40,6 +41,7 @@ Commands:
 ```bash
 npm run optimize:svg
 npm run generate:previews
+npm run generate:all-data
 npm run check:all
 ```
 
@@ -49,6 +51,7 @@ Expected result:
 Generated previews for 9 asset categories in .../previews/assets
 Validated ... SVG assets.
 Asset previews are current.
+Search indexes are current.
 ```
 
 For faster local iteration on one category:
@@ -84,6 +87,7 @@ Example maturity marker:
 Commands:
 
 ```bash
+npm run generate:all-data
 npm run check:all
 git diff --check
 ```
@@ -137,6 +141,7 @@ command goes here
 Commands:
 
 ```bash
+npm run generate:all-data
 npm run check:all
 git diff --check
 ```
@@ -148,16 +153,16 @@ Before opening the PR:
 - Include install or quick start near the top.
 - Include security, license, or maintenance sections when relevant.
 
-## Change A Generator
+## Change A Generator Or Module
 
-Generator changes affect committed output, so update both the script and generated files.
+Generator and module changes can affect committed previews, manifests, static site data, reports, packs, schemas, and quality gates. Update both the source code and generated files.
 
 Commands:
 
 ```bash
-python -m py_compile src/modules/generators/generate_asset_previews.py
-python src/modules/generators/generate_asset_previews.py --self-test
+npm run check:modules
 npm run generate:previews
+npm run generate:all-data
 npm run check:all
 ```
 
@@ -166,13 +171,17 @@ Expected result:
 ```text
 generate_asset_previews.py self-tests passed.
 Asset previews are current.
+Module checks passed.
 ```
 
 Before opening the PR:
 
 - Explain whether generated output changed.
-- Keep generated files under `previews/assets/` committed.
+- Keep generated files under `previews/assets/`, `assets/*.json`, `themes/index.json`, `site/data/`, `site/packages/`, and `site/reports/` committed.
+- Keep local GIF exports under `output/gifs/` or another intentionally ignored local folder.
 - Do not hand-edit generated preview files.
+
+For the full module map, generated output list, and focused commands, see [`MODULES.md`](./MODULES.md).
 
 ## PR Checklist
 
@@ -180,5 +189,6 @@ Before opening the PR:
 - [ ] New assets follow naming and SVG safety rules.
 - [ ] Components/templates include maturity markers when relevant.
 - [ ] Generated previews were regenerated when assets or generator behavior changed.
+- [ ] Module data was regenerated when assets, themes, templates, recipes, bundles, provenance, or module behavior changed.
 - [ ] `npm run check:all` passes.
 - [ ] Third-party sources are documented in `docs/THIRD_PARTY.md` when relevant.

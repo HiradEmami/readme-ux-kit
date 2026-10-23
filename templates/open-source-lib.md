@@ -1,19 +1,19 @@
-# Library Name
+# PROJECT_NAME
 
 > Maturity: `stable`
 
 [![Library header](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/static/header_hero_banner.svg)](https://github.com/HiradEmami/readme-ux-kit)
 
-> A concise, dependable library for `<problem>` in `<ecosystem>`.
+> A concise, dependable library for `PRIMARY_PROBLEM` in `PACKAGE_ECOSYSTEM`.
 
 [![Package](https://img.shields.io/badge/package-latest-38bdf8.svg)](#installation)
 [![CI](https://img.shields.io/badge/ci-passing-34d399.svg)](#testing)
 [![Coverage](https://img.shields.io/badge/coverage-90%25-8b5cf6.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Why
 
-`library-name` exists because `<problem>` is usually handled with `<common workaround>`, which becomes difficult when `<scaling or maintenance issue>`.
+`PACKAGE_NAME` exists because `PRIMARY_PROBLEM` is usually handled with `COMMON_WORKAROUND`, which becomes difficult when `SCALING_OR_MAINTENANCE_ISSUE`.
 
 This library focuses on:
 
@@ -89,24 +89,24 @@ const result = await client.run({
 
 | Example | Description |
 | --- | --- |
-| [`examples/basic`](./examples/basic) | Minimal usage. |
-| [`examples/configuration`](./examples/configuration) | Custom runtime options. |
-| [`examples/error-handling`](./examples/error-handling) | Structured failure handling. |
-| [`examples/production`](./examples/production) | Recommended production setup. |
+| `examples/basic` | Minimal usage. |
+| `examples/configuration` | Custom runtime options. |
+| `examples/error-handling` | Structured failure handling. |
+| `examples/production` | Recommended production setup. |
 
 ## Compatibility
 
 | Runtime | Supported |
 | --- | --- |
-| Node.js `<version>` | Yes |
-| Browser | `<yes/no/partial>` |
-| Python `<version>` | Yes |
+| Node.js `NODE_VERSION` | Yes |
+| Browser | `BROWSER_SUPPORT` |
+| Python `PYTHON_VERSION` | Yes |
 | Linux/macOS/Windows | Yes |
 
 ## Testing
 
 ```bash
-<test command>
+TEST_COMMAND
 ```
 
 | Suite | Purpose |
@@ -134,8 +134,15 @@ Contributions are welcome. Please include:
 
 ## Security
 
-Do not open public issues for vulnerabilities. Report security concerns through `<security contact or SECURITY.md>`.
+Do not open public issues for vulnerabilities. Report security concerns through `SECURITY_CONTACT`.
 
 ## License
 
-This project is licensed under the terms in [`LICENSE`](./LICENSE).
+This project is licensed under the terms in `LICENSE`.
+
+## Copy Checklist
+
+- [ ] Replace all placeholder project names, commands, and links.
+- [ ] Remove sections that do not apply.
+- [ ] Verify local and external links.
+- [ ] Choose one compatible theme and keep assets consistent.

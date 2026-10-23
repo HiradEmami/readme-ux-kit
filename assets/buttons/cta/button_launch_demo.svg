@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Launch Demo</title>
+  <desc>An animated README SVG asset illustrating Button Launch Demo.</desc>
   <defs>
     <linearGradient id="launch_demo_bg" x1="20" y1="8" x2="300" y2="64" gradientUnits="userSpaceOnUse">
       <stop stop-color="#06b6d4"/>

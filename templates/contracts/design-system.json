@@ -1,0 +1,79 @@
+{
+  "bestFor": "Token, component, asset, and documentation systems",
+  "compatibleThemes": [
+    "docs-clean",
+    "portfolio-premium",
+    "creative-engineering"
+  ],
+  "id": "design-system",
+  "maturity": "draft",
+  "optionalMetadata": [
+    "OWNER",
+    "REPO",
+    "LICENSE",
+    "DOCS_URL",
+    "SUPPORT_URL",
+    "SECURITY_CONTACT"
+  ],
+  "optionalSections": [
+    "repository-map",
+    "configuration",
+    "support",
+    "roadmap",
+    "security",
+    "architecture"
+  ],
+  "placeholderDefaults": {
+    "BUILD_COMMAND": "npm run build",
+    "INSTALL_COMMAND": "npm install",
+    "LINT_COMMAND": "npm run lint",
+    "RUN_COMMAND": "npm run dev",
+    "TEST_COMMAND": "npm test"
+  },
+  "qualityChecks": [
+    "replace-placeholders",
+    "verify-links",
+    "choose-one-theme",
+    "remove-irrelevant-sections"
+  ],
+  "recommendedAssetCategories": [
+    "headers",
+    "dividers",
+    "icons"
+  ],
+  "recommendedComponents": [
+    "navigation/start-here",
+    "navigation/repo-map",
+    "quality/testing-strategy",
+    "trust/support-policy"
+  ],
+  "requiredMetadata": [
+    "PROJECT_NAME",
+    "TARGET_USER",
+    "PRIMARY_OUTCOME"
+  ],
+  "requiredPlaceholders": [
+    "PROJECT_NAME",
+    "TARGET_USER",
+    "PRIMARY_OUTCOME",
+    "INSTALL_COMMAND",
+    "RUN_COMMAND",
+    "TEST_COMMAND"
+  ],
+  "requiredSections": [
+    "overview",
+    "start-here",
+    "usage",
+    "quality",
+    "license"
+  ],
+  "schemaVersion": 1,
+  "sectionsToRemoveWhenNotRelevant": [
+    "configuration",
+    "support",
+    "roadmap",
+    "security",
+    "architecture"
+  ],
+  "title": "Design System"
+}

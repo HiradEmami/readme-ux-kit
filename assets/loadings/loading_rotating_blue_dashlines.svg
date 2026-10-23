@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="90">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="90" role="img">
+  <title>Loading Rotating Blue Dashlines</title>
+  <desc>An animated README SVG asset illustrating Loading Rotating Blue Dashlines.</desc>
   <circle cx="60" cy="60" r="35" stroke="#22d3ee" stroke-width="4" fill="none"
     stroke-dasharray="10 15">
     <animateTransform attributeName="transform" type="rotate"

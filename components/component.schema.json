@@ -1,0 +1,32 @@
+{
+  "$id": "https://hirademami.github.io/readme-ux-kit/schemas/component.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "componentCount": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "components": {
+      "items": {
+        "required": [
+          "path",
+          "group",
+          "title",
+          "maturity"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schemaVersion": {
+      "const": 1
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "componentCount",
+    "components"
+  ],
+  "title": "README UX Kit Component Index",
+  "type": "object"
+}

@@ -10,28 +10,32 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `buttons`
 - Group: `status`
-- Asset count: 10
+- Asset count: 12
 - Best for: Status and alert icons for success, warning, danger, info, live, and deprecated states.
 - Group tags: `status`
 
 ## Compact index
 
-Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4), `motion` (4), `build` (2), `docs` (1), `security` (1)
+Top tags: `button` (12), `status` (12), `animated` (7), `motion` (7), `static` (5), `build` (2), `docs` (1), `security` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
-| `button_beta_channel` | Animated | `animated`, `button`, `cta`, `motion`, `status` | [Jump](#button-beta-channel) | [Source](../../../assets/buttons/status/button_beta_channel.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_beta_channel.svg) |
-| `button_build_passing` | Animated | `animated`, `build`, `button`, `cta`, `motion`, `status` | [Jump](#button-build-passing) | [Source](../../../assets/buttons/status/button_build_passing.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_build_passing.svg) |
-| `button_deprecated` | Static or subtle motion | `button`, `cta`, `static`, `status` | [Jump](#button-deprecated) | [Source](../../../assets/buttons/status/button_deprecated.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_deprecated.svg) |
-| `button_docs_current` | Static or subtle motion | `button`, `cta`, `docs`, `static`, `status` | [Jump](#button-docs-current) | [Source](../../../assets/buttons/status/button_docs_current.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_docs_current.svg) |
-| `button_experimental` | Animated | `animated`, `button`, `cta`, `motion`, `status` | [Jump](#button-experimental) | [Source](../../../assets/buttons/status/button_experimental.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_experimental.svg) |
-| `button_live_status` | Animated | `animated`, `button`, `cta`, `motion`, `status` | [Jump](#button-live-status) | [Source](../../../assets/buttons/status/button_live_status.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_live_status.svg) |
-| `button_maintenance_mode` | Static or subtle motion | `button`, `cta`, `static`, `status` | [Jump](#button-maintenance-mode) | [Source](../../../assets/buttons/status/button_maintenance_mode.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_maintenance_mode.svg) |
-| `button_needs_review` | Static or subtle motion | `button`, `cta`, `static`, `status` | [Jump](#button-needs-review) | [Source](../../../assets/buttons/status/button_needs_review.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_needs_review.svg) |
-| `button_release_ready` | Static or subtle motion | `build`, `button`, `cta`, `static`, `status` | [Jump](#button-release-ready) | [Source](../../../assets/buttons/status/button_release_ready.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_release_ready.svg) |
-| `button_security_reviewed` | Static or subtle motion | `button`, `cta`, `security`, `static`, `status` | [Jump](#button-security-reviewed) | [Source](../../../assets/buttons/status/button_security_reviewed.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_security_reviewed.svg) |
+| `button_beta_channel` | Animated | `animated`, `button`, `motion`, `status` | [Jump](#button-beta-channel) | [Source](../../../assets/buttons/status/button_beta_channel.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_beta_channel.svg) |
+| `button_build_passing` | Animated | `animated`, `build`, `button`, `motion`, `status` | [Jump](#button-build-passing) | [Source](../../../assets/buttons/status/button_build_passing.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_build_passing.svg) |
+| `button_deprecated` | Static or subtle motion | `button`, `static`, `status` | [Jump](#button-deprecated) | [Source](../../../assets/buttons/status/button_deprecated.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_deprecated.svg) |
+| `button_docs_current` | Static or subtle motion | `button`, `docs`, `static`, `status` | [Jump](#button-docs-current) | [Source](../../../assets/buttons/status/button_docs_current.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_docs_current.svg) |
+| `button_experimental` | Animated | `animated`, `button`, `motion`, `status` | [Jump](#button-experimental) | [Source](../../../assets/buttons/status/button_experimental.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_experimental.svg) |
+| `button_live_status` | Animated | `animated`, `button`, `motion`, `status` | [Jump](#button-live-status) | [Source](../../../assets/buttons/status/button_live_status.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_live_status.svg) |
+| `button_maintenance_mode` | Animated | `animated`, `button`, `motion`, `status` | [Jump](#button-maintenance-mode) | [Source](../../../assets/buttons/status/button_maintenance_mode.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_maintenance_mode.svg) |
+| `button_needs_review` | Static or subtle motion | `button`, `static`, `status` | [Jump](#button-needs-review) | [Source](../../../assets/buttons/status/button_needs_review.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_needs_review.svg) |
+| `button_open_incident_update` | Animated | `animated`, `button`, `motion`, `status` | [Jump](#button-open-incident-update) | [Source](../../../assets/buttons/status/button_open_incident_update.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_open_incident_update.svg) |
+| `button_release_ready` | Static or subtle motion | `build`, `button`, `static`, `status` | [Jump](#button-release-ready) | [Source](../../../assets/buttons/status/button_release_ready.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_release_ready.svg) |
+| `button_review_status` | Animated | `animated`, `button`, `motion`, `status` | [Jump](#button-review-status) | [Source](../../../assets/buttons/status/button_review_status.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_review_status.svg) |
+| `button_security_reviewed` | Static or subtle motion | `button`, `security`, `static`, `status` | [Jump](#button-security-reviewed) | [Source](../../../assets/buttons/status/button_security_reviewed.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_security_reviewed.svg) |
 
 ## Visual previews
+
+<a id="button-beta-channel"></a>
 
 ## button_beta_channel
 
@@ -62,10 +66,12 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Animated
-- Tags: `animated`, `button`, `cta`, `motion`, `status`
+- Tags: `animated`, `button`, `motion`, `status`
 - Anchor: `#button-beta-channel`
 - [Source file](../../../assets/buttons/status/button_beta_channel.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_beta_channel.svg)
+
+<a id="button-build-passing"></a>
 
 ## button_build_passing
 
@@ -96,10 +102,12 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Animated
-- Tags: `animated`, `build`, `button`, `cta`, `motion`, `status`
+- Tags: `animated`, `build`, `button`, `motion`, `status`
 - Anchor: `#button-build-passing`
 - [Source file](../../../assets/buttons/status/button_build_passing.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_build_passing.svg)
+
+<a id="button-deprecated"></a>
 
 ## button_deprecated
 
@@ -130,10 +138,12 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Static or subtle motion
-- Tags: `button`, `cta`, `static`, `status`
+- Tags: `button`, `static`, `status`
 - Anchor: `#button-deprecated`
 - [Source file](../../../assets/buttons/status/button_deprecated.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_deprecated.svg)
+
+<a id="button-docs-current"></a>
 
 ## button_docs_current
 
@@ -164,10 +174,12 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Static or subtle motion
-- Tags: `button`, `cta`, `docs`, `static`, `status`
+- Tags: `button`, `docs`, `static`, `status`
 - Anchor: `#button-docs-current`
 - [Source file](../../../assets/buttons/status/button_docs_current.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_docs_current.svg)
+
+<a id="button-experimental"></a>
 
 ## button_experimental
 
@@ -198,10 +210,12 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Animated
-- Tags: `animated`, `button`, `cta`, `motion`, `status`
+- Tags: `animated`, `button`, `motion`, `status`
 - Anchor: `#button-experimental`
 - [Source file](../../../assets/buttons/status/button_experimental.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_experimental.svg)
+
+<a id="button-live-status"></a>
 
 ## button_live_status
 
@@ -232,10 +246,12 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Animated
-- Tags: `animated`, `button`, `cta`, `motion`, `status`
+- Tags: `animated`, `button`, `motion`, `status`
 - Anchor: `#button-live-status`
 - [Source file](../../../assets/buttons/status/button_live_status.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_live_status.svg)
+
+<a id="button-maintenance-mode"></a>
 
 ## button_maintenance_mode
 
@@ -265,11 +281,13 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 
 ### Details
 
-- Type: Static or subtle motion
-- Tags: `button`, `cta`, `static`, `status`
+- Type: Animated
+- Tags: `animated`, `button`, `motion`, `status`
 - Anchor: `#button-maintenance-mode`
 - [Source file](../../../assets/buttons/status/button_maintenance_mode.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_maintenance_mode.svg)
+
+<a id="button-needs-review"></a>
 
 ## button_needs_review
 
@@ -300,10 +318,48 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Static or subtle motion
-- Tags: `button`, `cta`, `static`, `status`
+- Tags: `button`, `static`, `status`
 - Anchor: `#button-needs-review`
 - [Source file](../../../assets/buttons/status/button_needs_review.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_needs_review.svg)
+
+<a id="button-open-incident-update"></a>
+
+## button_open_incident_update
+
+[![button_open_incident_update](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_open_incident_update.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_open_incident_update](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_open_incident_update.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_open_incident_update.svg" alt="button_open_incident_update" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `button`, `motion`, `status`
+- Anchor: `#button-open-incident-update`
+- [Source file](../../../assets/buttons/status/button_open_incident_update.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_open_incident_update.svg)
+
+<a id="button-release-ready"></a>
 
 ## button_release_ready
 
@@ -334,10 +390,48 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Static or subtle motion
-- Tags: `build`, `button`, `cta`, `static`, `status`
+- Tags: `build`, `button`, `static`, `status`
 - Anchor: `#button-release-ready`
 - [Source file](../../../assets/buttons/status/button_release_ready.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_release_ready.svg)
+
+<a id="button-review-status"></a>
+
+## button_review_status
+
+[![button_review_status](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_review_status.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![button_review_status](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_review_status.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_review_status.svg" alt="button_review_status" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `button`, `motion`, `status`
+- Anchor: `#button-review-status`
+- [Source file](../../../assets/buttons/status/button_review_status.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_review_status.svg)
+
+<a id="button-security-reviewed"></a>
 
 ## button_security_reviewed
 
@@ -368,7 +462,7 @@ Top tags: `button` (10), `cta` (10), `status` (10), `static` (6), `animated` (4)
 ### Details
 
 - Type: Static or subtle motion
-- Tags: `button`, `cta`, `security`, `static`, `status`
+- Tags: `button`, `security`, `static`, `status`
 - Anchor: `#button-security-reviewed`
 - [Source file](../../../assets/buttons/status/button_security_reviewed.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/buttons/status/button_security_reviewed.svg)

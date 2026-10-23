@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" role="img">
+  <title>Icon Loading Dots</title>
+  <desc>An animated README SVG asset illustrating Icon Loading Dots.</desc>
   <circle cx="6" cy="12" r="2" fill="#22d3ee">
     <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
   </circle>

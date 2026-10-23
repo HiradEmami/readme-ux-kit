@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%" role="img">
+  <title>Collaboration</title>
+  <desc>An animated README SVG asset illustrating Collaboration.</desc>
   <defs>
     <radialGradient id="bg" cx="50%" cy="50%" r="75%">
       <stop offset="0%" stop-color="#0b1220"/>
@@ -24,26 +26,21 @@
 
   <rect width="500" height="650" fill="url(#bg)"/>
 
-  <!-- energy sources -->
   <circle cx="120" cy="260" r="30" fill="#22d3ee" opacity="0.7" filter="url(#glow)"/>
   <circle cx="380" cy="260" r="30" fill="#8b5cf6" opacity="0.7" filter="url(#glow)"/>
 
-  <!-- flowing energy -->
   <path d="M120 260 Q250 180 250 260" stroke="#22d3ee" stroke-opacity="0.3" fill="none"/>
   <path d="M380 260 Q250 340 250 260" stroke="#8b5cf6" stroke-opacity="0.3" fill="none"/>
 
-  <!-- forming core -->
   <g transform="translate(250,260)">
     <circle r="70" fill="url(#energy)" opacity="0.25" filter="url(#glow)">
       <animate attributeName="r" values="60;85;60" dur="4s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- broken rings -->
     <circle r="90" fill="none" stroke="#67e8f9" stroke-opacity="0.2" stroke-dasharray="40 20"/>
     <circle r="110" fill="none" stroke="#8b5cf6" stroke-opacity="0.15" stroke-dasharray="60 30"/>
   </g>
 
-  <!-- text -->
   <text x="250" y="430" text-anchor="middle" class="title">
     COLLABORATION
   </text>

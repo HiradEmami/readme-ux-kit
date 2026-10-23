@@ -6,20 +6,20 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 ## At a glance
 
-- Assets: 28
+- Assets: 48
 - Groups: 1
 - Best for: Large conceptual sections for architecture, AI systems, observability, security, and product narratives.
 - Category tags: `illustration`, `visual`
 
 ## Tag summary
 
-`illustration` (28), `visual` (28), `animated` (26), `motion` (26), `architecture` (6), `ai` (5), `energy` (4), `static` (2), `data` (2), `build` (2), `infrastructure` (2), `testing` (1)
+`illustration` (48), `visual` (48), `animated` (34), `motion` (34), `static` (14), `ai` (7), `architecture` (6), `energy` (4), `infrastructure` (3), `security` (3), `data` (2), `build` (2)
 
 ## Full previews
 
 | Group | Count | Description | Full preview |
 | --- | ---: | --- | --- |
-| All Visuals | 28 | Larger conceptual illustrations for AI, systems, infrastructure, collaboration, and product storytelling. | [Open](./visuals/full_visual_preview.md) |
+| All Visuals | 48 | Larger conceptual illustrations for AI, systems, infrastructure, collaboration, and product storytelling. | [Open](./visuals/full_visual_preview.md) |
 
 ## Highlights
 

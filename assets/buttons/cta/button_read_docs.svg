@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Read Docs</title>
+  <desc>A static README SVG asset illustrating Button Read Docs.</desc>
   <rect x="9" y="9" width="302" height="54" rx="14" fill="#ffffff"/>
   <rect x="9" y="9" width="302" height="54" rx="14" stroke="#d0d7de" stroke-width="2"/>
   <path d="M35 23h23a8 8 0 0 1 8 8v20H43a8 8 0 0 0-8 8V23z" fill="#eff6ff" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>

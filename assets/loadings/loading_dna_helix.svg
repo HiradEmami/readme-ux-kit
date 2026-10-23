@@ -1,4 +1,6 @@
-<svg width="170" height="90" viewBox="0 0 170 90" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="170" height="90" viewBox="0 0 170 90" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Dna Helix</title>
+  <desc>An animated README SVG asset illustrating Loading Dna Helix.</desc>
   <path d="M18 25c32 40 102 40 134 0" stroke="#38BDF8" stroke-width="4" stroke-linecap="round">
     <animate attributeName="d" values="M18 25c32 40 102 40 134 0;M18 65c32-40 102-40 134 0;M18 25c32 40 102 40 134 0" dur="1.6s" repeatCount="indefinite"/>
   </path>

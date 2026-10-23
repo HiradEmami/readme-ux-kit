@@ -42,6 +42,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 
 ## Visual previews
 
+<a id="icon-archive-box"></a>
+
 ## icon_archive_box
 
 [![icon_archive_box](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_archive_box.svg)](https://github.com/HiradEmami)
@@ -75,6 +77,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-archive-box`
 - [Source file](../../../assets/icons/objects/icon_archive_box.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_archive_box.svg)
+
+<a id="icon-beaker-bubbles"></a>
 
 ## icon_beaker_bubbles
 
@@ -110,6 +114,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_beaker_bubbles.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_beaker_bubbles.svg)
 
+<a id="icon-blueprint"></a>
+
 ## icon_blueprint
 
 [![icon_blueprint](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_blueprint.svg)](https://github.com/HiradEmami)
@@ -143,6 +149,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-blueprint`
 - [Source file](../../../assets/icons/objects/icon_blueprint.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_blueprint.svg)
+
+<a id="icon-calendar"></a>
 
 ## icon_calendar
 
@@ -178,6 +186,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_calendar.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_calendar.svg)
 
+<a id="icon-cassette-reel"></a>
+
 ## icon_cassette_reel
 
 [![icon_cassette_reel](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cassette_reel.svg)](https://github.com/HiradEmami)
@@ -211,6 +221,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-cassette-reel`
 - [Source file](../../../assets/icons/objects/icon_cassette_reel.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_cassette_reel.svg)
+
+<a id="icon-clock"></a>
 
 ## icon_clock
 
@@ -246,6 +258,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_clock.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_clock.svg)
 
+<a id="icon-database-disk"></a>
+
 ## icon_database_disk
 
 [![icon_database_disk](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_database_disk.svg)](https://github.com/HiradEmami)
@@ -279,6 +293,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-database-disk`
 - [Source file](../../../assets/icons/objects/icon_database_disk.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_database_disk.svg)
+
+<a id="icon-gyroscope"></a>
 
 ## icon_gyroscope
 
@@ -314,6 +330,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_gyroscope.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_gyroscope.svg)
 
+<a id="icon-hourglass-flux"></a>
+
 ## icon_hourglass_flux
 
 [![icon_hourglass_flux](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hourglass_flux.svg)](https://github.com/HiradEmami)
@@ -347,6 +365,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-hourglass-flux`
 - [Source file](../../../assets/icons/objects/icon_hourglass_flux.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_hourglass_flux.svg)
+
+<a id="icon-industrial-fan"></a>
 
 ## icon_industrial_fan
 
@@ -382,6 +402,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_industrial_fan.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_industrial_fan.svg)
 
+<a id="icon-keycard"></a>
+
 ## icon_keycard
 
 [![icon_keycard](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_keycard.svg)](https://github.com/HiradEmami)
@@ -415,6 +437,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-keycard`
 - [Source file](../../../assets/icons/objects/icon_keycard.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_keycard.svg)
+
+<a id="icon-lab-flask"></a>
 
 ## icon_lab_flask
 
@@ -450,6 +474,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_lab_flask.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_lab_flask.svg)
 
+<a id="icon-location"></a>
+
 ## icon_location
 
 [![icon_location](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_location.svg)](https://github.com/HiradEmami)
@@ -483,6 +509,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-location`
 - [Source file](../../../assets/icons/objects/icon_location.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_location.svg)
+
+<a id="icon-magnet"></a>
 
 ## icon_magnet
 
@@ -518,6 +546,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_magnet.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_magnet.svg)
 
+<a id="icon-rocket-launch"></a>
+
 ## icon_rocket_launch
 
 [![icon_rocket_launch](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_rocket_launch.svg)](https://github.com/HiradEmami)
@@ -551,6 +581,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-rocket-launch`
 - [Source file](../../../assets/icons/objects/icon_rocket_launch.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_rocket_launch.svg)
+
+<a id="icon-satellite-dish"></a>
 
 ## icon_satellite_dish
 
@@ -586,6 +618,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_satellite_dish.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_satellite_dish.svg)
 
+<a id="icon-sprouting-seed"></a>
+
 ## icon_sprouting_seed
 
 [![icon_sprouting_seed](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_sprouting_seed.svg)](https://github.com/HiradEmami)
@@ -620,6 +654,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - [Source file](../../../assets/icons/objects/icon_sprouting_seed.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_sprouting_seed.svg)
 
+<a id="icon-toolbox"></a>
+
 ## icon_toolbox
 
 [![icon_toolbox](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_toolbox.svg)](https://github.com/HiradEmami)
@@ -653,6 +689,8 @@ Top tags: `icon` (19), `object` (19), `animated` (18), `motion` (18), `static` (
 - Anchor: `#icon-toolbox`
 - [Source file](../../../assets/icons/objects/icon_toolbox.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/objects/icon_toolbox.svg)
+
+<a id="icon-trophy-cup"></a>
 
 ## icon_trophy_cup
 

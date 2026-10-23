@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
+  <title>Header Orbiting Dots</title>
+  <desc>An animated README SVG asset illustrating Header Orbiting Dots.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <circle r="4" fill="#a855f7">
     <animateMotion dur="3s" repeatCount="indefinite"

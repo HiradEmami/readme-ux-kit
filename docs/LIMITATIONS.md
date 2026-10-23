@@ -32,6 +32,20 @@ Recommended approach:
 - Keep animated heroes, loaders, and dividers purposeful.
 - Check important visuals in GitHub light and dark mode.
 
+## GIF Fallbacks
+
+- GIFs lose SVG scalability and usually produce larger files.
+- GIF color palettes are limited, so gradients and glow effects can band.
+- Transparent GIF edges can look rough because GIF transparency is not full alpha.
+- Browser-rendered GIF capture requires Playwright, Chromium, and Pillow.
+
+Recommended approach:
+
+- Keep SVG as the primary copy format.
+- Generate GIFs locally only when a specific README or preview surface needs one.
+- Use a solid background when visual polish matters.
+- Keep exported GIFs out of the committed repository unless you explicitly intend to publish them.
+
 ## External Badges
 
 - Shields and workflow badges depend on third-party or GitHub-hosted endpoints.
@@ -69,6 +83,40 @@ Recommended approach:
 - Run `npm run generate:previews` after asset changes.
 - Run `npm run check:previews` before committing.
 
+## Static Gallery Asset Delivery
+
+- The committed `site/` directory contains the static shell and generated data, but not duplicate copies of `assets/`.
+- GitHub Pages deployment runs `npm run build:pages` and uploads `build/pages/`, which includes all manifest SVGs under a same-origin `assets/` directory.
+- To preview the source shell, serve the repository root and open `/site/`.
+- To serve a standalone document root, run `npm run build:pages` and serve `build/pages/`.
+- Gallery images, editor sources, and downloads use bundled or repository-local SVGs. They do not depend on unauthenticated raw GitHub access.
+- Copyable README snippets may still contain raw GitHub URLs; those URLs require the repository and referenced revision to be publicly readable.
+
+## Generated Module Data
+
+- Files under `site/data/`, `site/reports/`, `site/packages/`, `assets/manifest.json`, `assets/provenance.json`, and `themes/index.json` are generated from repository source files.
+- Generated JSON is designed for a frontend-only static site and local quality checks, not as a public API with backward compatibility guarantees.
+- Some reports intentionally emit warnings for valid but imperfect docs, such as wide tables or duplicate subsection anchors.
+
+Recommended approach:
+
+- Run `npm run generate:all-data` after source changes.
+- Run `npm run modules:check` for generated data freshness.
+- Treat `docs/MODULES.md` as the source of truth for module outputs and focused commands.
+
+## Local Studio
+
+- `src/app/` is intended for local repository maintenance, not public hosting.
+- The app has no authentication layer because it is expected to bind to `127.0.0.1`.
+- Command execution is intentionally limited to a small whitelist.
+- Edited SVGs are returned for copy/paste; the app does not save edited SVGs to disk.
+
+Recommended approach:
+
+- Keep the server on localhost.
+- Run it only from a trusted checkout.
+- Use the static future GitHub Pages lane for public showcases, not `src/app/`.
+
 ## Asset Quality
 
 - The library is broad and visual QA is still an ongoing task.
@@ -80,4 +128,3 @@ Recommended approach:
 - Browse generated previews before choosing assets.
 - Prefer curated bundles and recipes when you want a faster path.
 - Report visual clipping, distracting animation, or naming issues through focused issues or pull requests.
-

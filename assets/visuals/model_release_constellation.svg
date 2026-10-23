@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Model release constellation visual">
+  <title>Model Release Constellation</title>
+  <desc>An animated README SVG asset illustrating Model Release Constellation.</desc>
   <defs>
     <radialGradient id="release-bg" cx="50%" cy="50%" r="78%">
       <stop offset="0%" stop-color="#0f172a"/>

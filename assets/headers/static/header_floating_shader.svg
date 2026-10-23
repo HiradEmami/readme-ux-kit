@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img">
+  <title>Header Floating Shader</title>
+  <desc>A static README SVG asset illustrating Header Floating Shader.</desc>
   <rect width="900" height="120" fill="#020617"/>
   <polygon points="120,60 140,40 150,70" fill="#22d3ee" opacity="0.8"/>
   <polygon points="180,55 195,35 205,65" fill="#a855f7" opacity="0.8"/>

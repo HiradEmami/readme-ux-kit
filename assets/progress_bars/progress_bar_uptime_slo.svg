@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 54" width="620" height="54" role="img" aria-label="Uptime SLO progress 99.95 percent">
+  <title>Progress Bar Uptime Slo</title>
+  <desc>An animated README SVG asset illustrating Progress Bar Uptime Slo.</desc>
   <rect x="1" y="1" width="618" height="52" rx="12" fill="#05110d" stroke="#164e3a" stroke-width="2"/>
   <text x="22" y="34" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#d1fae5">uptime SLO</text>
   <rect x="184" y="17" width="344" height="20" rx="10" fill="#0f2f25"/>

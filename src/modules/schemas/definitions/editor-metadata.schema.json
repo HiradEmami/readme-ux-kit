@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hirademami.github.io/readme-ux-kit/schemas/editor-metadata.schema.json",
+  "title": "README UX Kit SVG Editor Metadata",
+  "type": "object",
+  "required": [
+    "editable",
+    "quality",
+    "capabilities",
+    "operations",
+    "nodePathMode",
+    "palette",
+    "colorTokens",
+    "textNodes",
+    "removableElements",
+    "animation",
+    "warnings"
+  ],
+  "properties": {
+    "editable": { "type": "boolean" },
+    "quality": {
+      "type": "object",
+      "required": ["level", "score", "reasons"],
+      "properties": {
+        "level": { "enum": ["excellent", "good", "limited"] },
+        "score": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "reasons": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "capabilities": {
+      "type": "array",
+      "items": { "enum": ["colors", "text", "visibility", "animationSpeed"] },
+      "uniqueItems": true
+    },
+    "operations": {
+      "type": "array",
+      "items": { "enum": ["replaceColor", "replaceText", "hideElement", "scaleAnimationSpeed"] },
+      "uniqueItems": true
+    },
+    "nodePathMode": { "const": "element-child-index" },
+    "palette": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "colorTokens": { "type": "array" },
+    "textNodes": { "type": "array" },
+    "removableElements": { "type": "array" },
+    "animation": { "type": "object" },
+    "warnings": { "type": "array" },
+    "parseError": { "type": "string" }
+  },
+  "additionalProperties": false
+}
+

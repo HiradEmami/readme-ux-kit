@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Quantum Computing</title>
+  <desc>An animated README SVG asset illustrating Quantum Computing.</desc>
   <defs>
     <radialGradient id="deepVoid" cx="50%" cy="50%" r="75%">
       <stop offset="0%" stop-color="#050a15"/>

@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
+  <title>Icon Warning</title>
+  <desc>An animated README SVG asset illustrating Icon Warning.</desc>
   <polygon points="30,10 50,50 10,50" fill="#f59e0b"/>
 
   <rect x="28" y="25" width="4" height="12" fill="white"/>

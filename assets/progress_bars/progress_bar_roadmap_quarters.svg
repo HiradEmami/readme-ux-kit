@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 64" width="620" height="64" role="img" aria-label="Roadmap quarterly progress">
+  <title>Progress Bar Roadmap Quarters</title>
+  <desc>An animated README SVG asset illustrating Progress Bar Roadmap Quarters.</desc>
   <rect x="1" y="1" width="618" height="62" rx="12" fill="#111827" stroke="#334155" stroke-width="2"/>
   <text x="22" y="39" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#e2e8f0">roadmap</text>
   <g transform="translate(166 18)" font-family="Consolas, monospace" font-size="12" font-weight="700">

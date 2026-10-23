@@ -19,6 +19,8 @@ def split_items(value, fallback):
 
 def svg(width, height, body, label):
     return f"""<svg xmlns="{SVG_NS}" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-label="{esc(label)}">
+  <title>{esc(label)}</title>
+  <desc>A generated README SVG for {esc(label)}.</desc>
 {body}
 </svg>
 """

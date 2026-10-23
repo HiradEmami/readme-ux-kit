@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <title>Icon Ink Drop</title>
+  <desc>An animated README SVG asset illustrating Icon Ink Drop.</desc>
   <path fill="#0ea5e9">
     <animate attributeName="d" dur="2.2s" repeatCount="indefinite"
       values="

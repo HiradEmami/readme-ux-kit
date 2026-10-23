@@ -1,0 +1,46 @@
+{
+  "generatedBy": "src/modules/editor/svg_editor.py",
+  "operationCount": 4,
+  "operations": [
+    {
+      "description": "Replace hex color tokens across SVG attributes and embedded style text.",
+      "id": "replaceColors",
+      "input": {
+        "#2563eb": "#0f766e"
+      },
+      "label": "Replace Colors"
+    },
+    {
+      "description": "Replace text nodes by edit id, element id, node path, or exact text.",
+      "id": "replaceText",
+      "input": [
+        {
+          "target": "title",
+          "to": "New title"
+        }
+      ],
+      "label": "Replace Text"
+    },
+    {
+      "description": "Remove optional SVG elements by edit id, element id, or node path.",
+      "id": "removeElements",
+      "input": [
+        "decorative-orbit"
+      ],
+      "label": "Remove Elements"
+    },
+    {
+      "description": "Scale animation timing while preserving safe SVG markup.",
+      "id": "scaleAnimationSpeed",
+      "input": 1.25,
+      "label": "Scale Animation Speed"
+    }
+  ],
+  "safety": {
+    "blocksExternalReferences": true,
+    "blocksScripts": true,
+    "outputFormat": "svg",
+    "validatesSvg": true
+  },
+  "schemaVersion": 1
+}

@@ -30,7 +30,7 @@ Avoid renaming long-standing assets without a migration note.
 ## Deprecation Process
 
 1. Add or identify the replacement asset.
-2. Regenerate previews.
+2. Regenerate previews and module data.
 3. Document the old and new paths in the pull request.
 4. Keep the old asset for at least one release cycle when practical.
 5. Mention the deprecation in release notes.
@@ -72,7 +72,8 @@ After deprecating, replacing, renaming, or removing an asset:
 
 ```bash
 npm run generate:previews
+npm run generate:all-data
 npm run check:all
 ```
 
-Generated previews should reflect the final asset tree.
+Generated previews, manifests, provenance data, static site data, packs, and reports should reflect the final asset tree.

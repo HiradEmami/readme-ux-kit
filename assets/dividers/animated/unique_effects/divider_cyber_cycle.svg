@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120" fill="none" role="img">
+  <title>Divider Cyber Cycle</title>
+  <desc>An animated README SVG asset illustrating Divider Cyber Cycle.</desc>
   <defs>
     <linearGradient id="divider-cyber-a" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#06b6d4"/>
@@ -7,7 +9,6 @@
     </linearGradient>
   </defs>
 
-  <!-- symmetric geometry -->
   <path d="M0 60 H420 L480 20 H720 L780 60 H1200"
         stroke="#1f2937" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 
@@ -17,7 +18,6 @@
     <animate attributeName="stroke-dashoffset" values="1780;0" dur="3s" repeatCount="indefinite"/>
   </path>
 
-  <!-- perfectly centered UI -->
   <rect x="560" y="46" width="80" height="28" rx="14" fill="#0f172a" stroke="#334155"/>
 
   <circle cx="585" cy="60" r="5" fill="#22d3ee"/>

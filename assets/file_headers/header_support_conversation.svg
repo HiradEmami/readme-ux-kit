@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 90" role="img" aria-labelledby="supportTitle supportDesc">
+  <title id="supportTitle">Support</title>
+  <desc id="supportDesc">Two offset speech bubbles frame a support heading, representing a question and a reply. Static illustration.</desc>
+  <g id="supportBase" data-edit-id="base" data-edit-label="Soft blue background" data-edit-lock="true">
+    <rect x="1" y="1" width="848" height="88" rx="8" fill="#f1f6fb" stroke="#c5d3e1"/>
+  </g>
+  <g id="supportQuestion" data-edit-id="question" data-edit-label="Question bubble" fill="none" stroke="#355b7a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M47 23H101Q108 23 108 30V53Q108 60 101 60H70L55 70V60H47Q40 60 40 53V30Q40 23 47 23Z" fill="#dde9f3"/>
+    <path d="M57 36H91M57 46H79"/>
+  </g>
+  <text id="supportLabel" data-edit-id="label" data-edit-label="Document title" x="143" y="57" font-family="Inter, ui-sans-serif, system-ui, 'Segoe UI', sans-serif" font-size="34" font-weight="650" fill="#233b50">SUPPORT</text>
+  <g id="supportReply" data-edit-id="reply" data-edit-label="Reply bubble" fill="none" stroke="#355b7a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M724 22H800Q808 22 808 30V52Q808 60 800 60H793V69L778 60H724Q716 60 716 52V30Q716 22 724 22Z"/>
+    <path d="M733 36H791M733 46H771"/>
+  </g>
+</svg>

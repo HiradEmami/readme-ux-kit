@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" role="img">
+  <title>Divider Split Gradient Blue Purple</title>
+  <desc>A static README SVG asset illustrating Divider Split Gradient Blue Purple.</desc>
   <defs>
     <linearGradient id="grad">
       <stop offset="0%" stop-color="#22d3ee"/>

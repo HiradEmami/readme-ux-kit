@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80" role="img" aria-label="Complex sample">
+  <defs>
+    <style>
+      .sweep { animation: sweep 2.4s linear infinite; }
+      @keyframes sweep {
+        from { transform: translateX(-20px); }
+        to { transform: translateX(40px); }
+      }
+    </style>
+    <linearGradient id="g1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#f472b6"/></linearGradient>
+    <linearGradient id="g2"><stop offset="0%" stop-color="#22c55e"/><stop offset="50%" stop-color="#14b8a6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="g3"><stop offset="0%" stop-color="#f59e0b"/><stop offset="50%" stop-color="#ef4444"/><stop offset="100%" stop-color="#f97316"/></linearGradient>
+    <linearGradient id="g4"><stop offset="0%" stop-color="#e2e8f0"/><stop offset="50%" stop-color="#94a3b8"/><stop offset="100%" stop-color="#475569"/></linearGradient>
+    <clipPath id="clip"><rect x="12" y="12" width="216" height="56" rx="12"/></clipPath>
+    <mask id="fade"><rect width="240" height="80" fill="#ffffff"/></mask>
+    <filter id="glow"><feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#38bdf8"/></filter>
+  </defs>
+  <g clip-path="url(#clip)" mask="url(#fade)" filter="url(#glow)">
+    <rect width="240" height="80" fill="#020617"/>
+    <path class="sweep" d="M0 60C60 10 140 90 240 24" fill="none" stroke="url(#g1)" stroke-width="8"/>
+  </g>
+</svg>

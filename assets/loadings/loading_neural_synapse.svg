@@ -1,4 +1,6 @@
-<svg width="170" height="100" viewBox="0 0 170 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="170" height="100" viewBox="0 0 170 100" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Neural Synapse</title>
+  <desc>An animated README SVG asset illustrating Loading Neural Synapse.</desc>
   <g stroke="#334155" stroke-width="3">
     <path d="M32 50h36l34-24 36 24"/>
     <path d="M68 50l34 24 36-24"/>

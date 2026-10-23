@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img" aria-labelledby="button_review_statusTitle button_review_statusDesc">
+  <title id="button_review_statusTitle">Review status button</title>
+  <desc id="button_review_statusDesc">A light review status control with a checklist document, completion label, and a five-step progress indicator showing three completed checks.</desc>
+  <defs>
+    <linearGradient id="button_review_statusSurface" x1="8" y1="8" x2="312" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="button_review_statusIcon" x1="24" y1="19" x2="60" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <g id="button_review_statusBackground" data-edit-id="background" data-edit-label="Button background" data-edit-lock="true">
+    <rect x="8" y="8" width="304" height="56" rx="16" fill="url(#button_review_statusSurface)" stroke="#6366F1" stroke-width="2"/>
+    <path d="M24 63h272" stroke="#C7D2FE" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g id="button_review_statusIcon" data-edit-id="icon" data-edit-label="Review checklist icon">
+    <path d="M28 19h23l8 8v26H28V19Z" fill="url(#button_review_statusIcon)"/>
+    <path d="M51 19v9h8" fill="#C4B5FD"/>
+    <path d="m34 32 2 2 4-5M34 42l2 2 4-5M44 32h9M44 42h9" stroke="#EEF2FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="button_review_statusCopy" data-edit-id="copy" data-edit-label="Button copy">
+    <text x="72" y="36" fill="#1E1B4B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800">Review status</text>
+    <text x="73" y="49" fill="#6366F1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="7.5" font-weight="700" letter-spacing="1.1">3 OF 5 CHECKS COMPLETE</text>
+  </g>
+  <g id="button_review_statusProgress" data-edit-id="progress" data-edit-label="Review progress">
+    <rect x="248" y="28" width="7" height="16" rx="3.5" fill="#2563EB"/>
+    <rect x="258" y="25" width="7" height="19" rx="3.5" fill="#4F46E5"/>
+    <rect x="268" y="21" width="7" height="23" rx="3.5" fill="#7C3AED"/>
+    <rect x="278" y="31" width="7" height="13" rx="3.5" fill="#C7D2FE"/>
+    <rect x="288" y="34" width="7" height="10" rx="3.5" fill="#C7D2FE"/>
+    <circle cx="291.5" cy="19" r="2.5" fill="#7C3AED">
+      <animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

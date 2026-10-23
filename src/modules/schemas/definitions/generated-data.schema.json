@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hirademami.github.io/readme-ux-kit/schemas/generated-data.schema.json",
+  "title": "README UX Kit Generated Data Contract",
+  "type": "object",
+  "required": ["schemaVersion", "generatedBy"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "generatedBy": { "type": "string" }
+  }
+}
+

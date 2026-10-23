@@ -85,6 +85,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 
 ## Visual previews
 
+<a id="loading-ai-thought-pulse"></a>
+
 ## loading_ai_thought_pulse
 
 [![loading_ai_thought_pulse](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_ai_thought_pulse.svg)](https://github.com/HiradEmami)
@@ -118,6 +120,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-ai-thought-pulse`
 - [Source file](../../../assets/loadings/loading_ai_thought_pulse.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_ai_thought_pulse.svg)
+
+<a id="loading-arc-cheese"></a>
 
 ## loading_arc_cheese
 
@@ -153,6 +157,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_arc_cheese.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_arc_cheese.svg)
 
+<a id="loading-binary-rain-scan"></a>
+
 ## loading_binary_rain_scan
 
 [![loading_binary_rain_scan](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_binary_rain_scan.svg)](https://github.com/HiradEmami)
@@ -186,6 +192,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-binary-rain-scan`
 - [Source file](../../../assets/loadings/loading_binary_rain_scan.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_binary_rain_scan.svg)
+
+<a id="loading-bouncing-capsuls"></a>
 
 ## loading_bouncing_capsuls
 
@@ -221,6 +229,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_bouncing_capsuls.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_bouncing_capsuls.svg)
 
+<a id="loading-bouncing-dots"></a>
+
 ## loading_bouncing_dots
 
 [![loading_bouncing_dots](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_bouncing_dots.svg)](https://github.com/HiradEmami)
@@ -254,6 +264,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-bouncing-dots`
 - [Source file](../../../assets/loadings/loading_bouncing_dots.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_bouncing_dots.svg)
+
+<a id="loading-bouncing-dots-colored"></a>
 
 ## loading_bouncing_dots_colored
 
@@ -289,6 +301,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_bouncing_dots_colored.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_bouncing_dots_colored.svg)
 
+<a id="loading-breathing-circle"></a>
+
 ## loading_breathing_circle
 
 [![loading_breathing_circle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_breathing_circle.svg)](https://github.com/HiradEmami)
@@ -322,6 +336,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-breathing-circle`
 - [Source file](../../../assets/loadings/loading_breathing_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_breathing_circle.svg)
+
+<a id="loading-circuit-trace"></a>
 
 ## loading_circuit_trace
 
@@ -357,6 +373,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_circuit_trace.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_circuit_trace.svg)
 
+<a id="loading-classic-spinner"></a>
+
 ## loading_classic_spinner
 
 [![loading_classic_spinner](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_classic_spinner.svg)](https://github.com/HiradEmami)
@@ -390,6 +408,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-classic-spinner`
 - [Source file](../../../assets/loadings/loading_classic_spinner.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_classic_spinner.svg)
+
+<a id="loading-code-brackets-breathe"></a>
 
 ## loading_code_brackets_breathe
 
@@ -425,6 +445,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_code_brackets_breathe.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_code_brackets_breathe.svg)
 
+<a id="loading-comet-orbit"></a>
+
 ## loading_comet_orbit
 
 [![loading_comet_orbit](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_comet_orbit.svg)](https://github.com/HiradEmami)
@@ -458,6 +480,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-comet-orbit`
 - [Source file](../../../assets/loadings/loading_comet_orbit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_comet_orbit.svg)
+
+<a id="loading-constellation"></a>
 
 ## loading_constellation
 
@@ -493,6 +517,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_constellation.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_constellation.svg)
 
+<a id="loading-curved-square-rotation"></a>
+
 ## loading_curved_square_rotation
 
 [![loading_curved_square_rotation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_curved_square_rotation.svg)](https://github.com/HiradEmami)
@@ -526,6 +552,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-curved-square-rotation`
 - [Source file](../../../assets/loadings/loading_curved_square_rotation.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_curved_square_rotation.svg)
+
+<a id="loading-data-packet-train"></a>
 
 ## loading_data_packet_train
 
@@ -561,6 +589,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_data_packet_train.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_data_packet_train.svg)
 
+<a id="loading-dna-helix"></a>
+
 ## loading_dna_helix
 
 [![loading_dna_helix](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_dna_helix.svg)](https://github.com/HiradEmami)
@@ -594,6 +624,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-dna-helix`
 - [Source file](../../../assets/loadings/loading_dna_helix.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_dna_helix.svg)
+
+<a id="loading-double-pulse-ring"></a>
 
 ## loading_double_pulse_ring
 
@@ -629,6 +661,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_double_pulse_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_double_pulse_ring.svg)
 
+<a id="loading-dual-ring-reactor"></a>
+
 ## loading_dual_ring_reactor
 
 [![loading_dual_ring_reactor](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_dual_ring_reactor.svg)](https://github.com/HiradEmami)
@@ -662,6 +696,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-dual-ring-reactor`
 - [Source file](../../../assets/loadings/loading_dual_ring_reactor.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_dual_ring_reactor.svg)
+
+<a id="loading-equalizer-bars"></a>
 
 ## loading_equalizer_bars
 
@@ -697,6 +733,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_equalizer_bars.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_equalizer_bars.svg)
 
+<a id="loading-expanding-circle"></a>
+
 ## loading_expanding_circle
 
 [![loading_expanding_circle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_expanding_circle.svg)](https://github.com/HiradEmami)
@@ -730,6 +768,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-expanding-circle`
 - [Source file](../../../assets/loadings/loading_expanding_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_expanding_circle.svg)
+
+<a id="loading-expanding-ripple"></a>
 
 ## loading_expanding_ripple
 
@@ -765,6 +805,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_expanding_ripple.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_expanding_ripple.svg)
 
+<a id="loading-expanding-ripple-colored"></a>
+
 ## loading_expanding_ripple_colored
 
 [![loading_expanding_ripple_colored](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_expanding_ripple_colored.svg)](https://github.com/HiradEmami)
@@ -798,6 +840,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-expanding-ripple-colored`
 - [Source file](../../../assets/loadings/loading_expanding_ripple_colored.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_expanding_ripple_colored.svg)
+
+<a id="loading-expanding-square"></a>
 
 ## loading_expanding_square
 
@@ -833,6 +877,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_expanding_square.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_expanding_square.svg)
 
+<a id="loading-fading-circle"></a>
+
 ## loading_fading_circle
 
 [![loading_fading_circle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_fading_circle.svg)](https://github.com/HiradEmami)
@@ -866,6 +912,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-fading-circle`
 - [Source file](../../../assets/loadings/loading_fading_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_fading_circle.svg)
+
+<a id="loading-four-fading-dots"></a>
 
 ## loading_four_fading_dots
 
@@ -901,6 +949,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_four_fading_dots.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_four_fading_dots.svg)
 
+<a id="loading-gpu-wavefront"></a>
+
 ## loading_gpu_wavefront
 
 [![loading_gpu_wavefront](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_gpu_wavefront.svg)](https://github.com/HiradEmami)
@@ -934,6 +984,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-gpu-wavefront`
 - [Source file](../../../assets/loadings/loading_gpu_wavefront.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_gpu_wavefront.svg)
+
+<a id="loading-hex-energy-move"></a>
 
 ## loading_hex_energy_move
 
@@ -969,6 +1021,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_hex_energy_move.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_hex_energy_move.svg)
 
+<a id="loading-hexagon-loader"></a>
+
 ## loading_hexagon_loader
 
 [![loading_hexagon_loader](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_hexagon_loader.svg)](https://github.com/HiradEmami)
@@ -1002,6 +1056,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-hexagon-loader`
 - [Source file](../../../assets/loadings/loading_hexagon_loader.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_hexagon_loader.svg)
+
+<a id="loading-infinity-energy"></a>
 
 ## loading_infinity_energy
 
@@ -1037,6 +1093,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_infinity_energy.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_infinity_energy.svg)
 
+<a id="loading-latency-ping"></a>
+
 ## loading_latency_ping
 
 [![loading_latency_ping](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_latency_ping.svg)](https://github.com/HiradEmami)
@@ -1070,6 +1128,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-latency-ping`
 - [Source file](../../../assets/loadings/loading_latency_ping.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_latency_ping.svg)
+
+<a id="loading-microchip-boot"></a>
 
 ## loading_microchip_boot
 
@@ -1105,6 +1165,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_microchip_boot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_microchip_boot.svg)
 
+<a id="loading-morph-blob"></a>
+
 ## loading_morph_blob
 
 [![loading_morph_blob](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_morph_blob.svg)](https://github.com/HiradEmami)
@@ -1138,6 +1200,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-morph-blob`
 - [Source file](../../../assets/loadings/loading_morph_blob.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_morph_blob.svg)
+
+<a id="loading-moving-dash-line"></a>
 
 ## loading_moving_dash_line
 
@@ -1173,6 +1237,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_moving_dash_line.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_moving_dash_line.svg)
 
+<a id="loading-moving-gradient-bars"></a>
+
 ## loading_moving_gradient_bars
 
 [![loading_moving_gradient_bars](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_moving_gradient_bars.svg)](https://github.com/HiradEmami)
@@ -1206,6 +1272,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-moving-gradient-bars`
 - [Source file](../../../assets/loadings/loading_moving_gradient_bars.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_moving_gradient_bars.svg)
+
+<a id="loading-neon-orbit"></a>
 
 ## loading_neon_orbit
 
@@ -1241,6 +1309,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_neon_orbit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_neon_orbit.svg)
 
+<a id="loading-neural-synapse"></a>
+
 ## loading_neural_synapse
 
 [![loading_neural_synapse](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_neural_synapse.svg)](https://github.com/HiradEmami)
@@ -1274,6 +1344,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-neural-synapse`
 - [Source file](../../../assets/loadings/loading_neural_synapse.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_neural_synapse.svg)
+
+<a id="loading-orbital-queue"></a>
 
 ## loading_orbital_queue
 
@@ -1309,6 +1381,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_orbital_queue.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_orbital_queue.svg)
 
+<a id="loading-orbiting-dots"></a>
+
 ## loading_orbiting_dots
 
 [![loading_orbiting_dots](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_orbiting_dots.svg)](https://github.com/HiradEmami)
@@ -1342,6 +1416,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-orbiting-dots`
 - [Source file](../../../assets/loadings/loading_orbiting_dots.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_orbiting_dots.svg)
+
+<a id="loading-pipeline-steps"></a>
 
 ## loading_pipeline_steps
 
@@ -1377,6 +1453,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_pipeline_steps.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_pipeline_steps.svg)
 
+<a id="loading-prism-sweep"></a>
+
 ## loading_prism_sweep
 
 [![loading_prism_sweep](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_prism_sweep.svg)](https://github.com/HiradEmami)
@@ -1410,6 +1488,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-prism-sweep`
 - [Source file](../../../assets/loadings/loading_prism_sweep.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_prism_sweep.svg)
+
+<a id="loading-pulsing-dots"></a>
 
 ## loading_pulsing_dots
 
@@ -1445,6 +1525,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_pulsing_dots.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_pulsing_dots.svg)
 
+<a id="loading-pulsing-ring-blue"></a>
+
 ## loading_pulsing_ring_blue
 
 [![loading_pulsing_ring_blue](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_pulsing_ring_blue.svg)](https://github.com/HiradEmami)
@@ -1478,6 +1560,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-pulsing-ring-blue`
 - [Source file](../../../assets/loadings/loading_pulsing_ring_blue.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_pulsing_ring_blue.svg)
+
+<a id="loading-radar-sweep"></a>
 
 ## loading_radar_sweep
 
@@ -1513,6 +1597,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_radar_sweep.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_radar_sweep.svg)
 
+<a id="loading-ring-dot-combo"></a>
+
 ## loading_ring_dot_combo
 
 [![loading_ring_dot_combo](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_ring_dot_combo.svg)](https://github.com/HiradEmami)
@@ -1546,6 +1632,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-ring-dot-combo`
 - [Source file](../../../assets/loadings/loading_ring_dot_combo.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_ring_dot_combo.svg)
+
+<a id="loading-rotating-arc-double-line"></a>
 
 ## loading_rotating_arc_double_line
 
@@ -1581,6 +1669,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_rotating_arc_double_line.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_arc_double_line.svg)
 
+<a id="loading-rotating-blue-dashlines"></a>
+
 ## loading_rotating_blue_dashlines
 
 [![loading_rotating_blue_dashlines](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_blue_dashlines.svg)](https://github.com/HiradEmami)
@@ -1614,6 +1704,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-rotating-blue-dashlines`
 - [Source file](../../../assets/loadings/loading_rotating_blue_dashlines.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_blue_dashlines.svg)
+
+<a id="loading-rotating-dash"></a>
 
 ## loading_rotating_dash
 
@@ -1649,6 +1741,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_rotating_dash.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_dash.svg)
 
+<a id="loading-rotating-diamond-pulse"></a>
+
 ## loading_rotating_diamond_pulse
 
 [![loading_rotating_diamond_pulse](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_diamond_pulse.svg)](https://github.com/HiradEmami)
@@ -1682,6 +1776,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-rotating-diamond-pulse`
 - [Source file](../../../assets/loadings/loading_rotating_diamond_pulse.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_diamond_pulse.svg)
+
+<a id="loading-rotating-plus"></a>
 
 ## loading_rotating_plus
 
@@ -1717,6 +1813,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_rotating_plus.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_plus.svg)
 
+<a id="loading-rotating-square"></a>
+
 ## loading_rotating_square
 
 [![loading_rotating_square](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_square.svg)](https://github.com/HiradEmami)
@@ -1750,6 +1848,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-rotating-square`
 - [Source file](../../../assets/loadings/loading_rotating_square.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_square.svg)
+
+<a id="loading-rotating-squares-grid"></a>
 
 ## loading_rotating_squares_grid
 
@@ -1785,6 +1885,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_rotating_squares_grid.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_squares_grid.svg)
 
+<a id="loading-rotating-triangle"></a>
+
 ## loading_rotating_triangle
 
 [![loading_rotating_triangle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_triangle.svg)](https://github.com/HiradEmami)
@@ -1818,6 +1920,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-rotating-triangle`
 - [Source file](../../../assets/loadings/loading_rotating_triangle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_rotating_triangle.svg)
+
+<a id="loading-secure-handshake"></a>
 
 ## loading_secure_handshake
 
@@ -1853,6 +1957,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_secure_handshake.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_secure_handshake.svg)
 
+<a id="loading-shield-scan"></a>
+
 ## loading_shield_scan
 
 [![loading_shield_scan](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_shield_scan.svg)](https://github.com/HiradEmami)
@@ -1886,6 +1992,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-shield-scan`
 - [Source file](../../../assets/loadings/loading_shield_scan.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_shield_scan.svg)
+
+<a id="loading-sliding-bar"></a>
 
 ## loading_sliding_bar
 
@@ -1921,6 +2029,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_sliding_bar.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_sliding_bar.svg)
 
+<a id="loading-sliding-dot"></a>
+
 ## loading_sliding_dot
 
 [![loading_sliding_dot](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_sliding_dot.svg)](https://github.com/HiradEmami)
@@ -1954,6 +2064,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-sliding-dot`
 - [Source file](../../../assets/loadings/loading_sliding_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_sliding_dot.svg)
+
+<a id="loading-spinner-arc"></a>
 
 ## loading_spinner_arc
 
@@ -1989,6 +2101,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_spinner_arc.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_spinner_arc.svg)
 
+<a id="loading-terminal-cursor-wave"></a>
+
 ## loading_terminal_cursor_wave
 
 [![loading_terminal_cursor_wave](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_terminal_cursor_wave.svg)](https://github.com/HiradEmami)
@@ -2022,6 +2136,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-terminal-cursor-wave`
 - [Source file](../../../assets/loadings/loading_terminal_cursor_wave.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_terminal_cursor_wave.svg)
+
+<a id="loading-triple-pulse-dot"></a>
 
 ## loading_triple_pulse_dot
 
@@ -2057,6 +2173,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_triple_pulse_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_triple_pulse_dot.svg)
 
+<a id="loading-two-bouncing-balls"></a>
+
 ## loading_two_bouncing_balls
 
 [![loading_two_bouncing_balls](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_two_bouncing_balls.svg)](https://github.com/HiradEmami)
@@ -2090,6 +2208,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-two-bouncing-balls`
 - [Source file](../../../assets/loadings/loading_two_bouncing_balls.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_two_bouncing_balls.svg)
+
+<a id="loading-vertical-pulse-bars"></a>
 
 ## loading_vertical_pulse_bars
 
@@ -2125,6 +2245,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - [Source file](../../../assets/loadings/loading_vertical_pulse_bars.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_vertical_pulse_bars.svg)
 
+<a id="loading-vortex-spiral"></a>
+
 ## loading_vortex_spiral
 
 [![loading_vortex_spiral](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_vortex_spiral.svg)](https://github.com/HiradEmami)
@@ -2158,6 +2280,8 @@ Top tags: `animated` (62), `loading` (62), `motion` (62), `energy` (13), `securi
 - Anchor: `#loading-vortex-spiral`
 - [Source file](../../../assets/loadings/loading_vortex_spiral.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/loadings/loading_vortex_spiral.svg)
+
+<a id="loading-zigzag-energy"></a>
 
 ## loading_zigzag_energy
 

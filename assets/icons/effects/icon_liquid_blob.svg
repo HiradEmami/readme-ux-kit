@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <title>Icon Liquid Blob</title>
+  <desc>An animated README SVG asset illustrating Icon Liquid Blob.</desc>
   <path fill="#22d3ee">
     <animate attributeName="d" dur="3s" repeatCount="indefinite"
       values="

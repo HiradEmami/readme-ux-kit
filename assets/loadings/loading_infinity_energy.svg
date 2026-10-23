@@ -1,4 +1,6 @@
-<svg width="180" height="90" viewBox="0 0 180 90" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="180" height="90" viewBox="0 0 180 90" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Infinity Energy</title>
+  <desc>An animated README SVG asset illustrating Loading Infinity Energy.</desc>
   <defs>
     <linearGradient id="g4" x1="0" y1="0" x2="180" y2="90">
       <stop offset="0%" stop-color="#06B6D4"/>

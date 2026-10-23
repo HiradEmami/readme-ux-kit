@@ -1,0 +1,313 @@
+{
+  "generatedBy": "src/modules/reports/quality_report.py",
+  "reviewChecklist": [
+    "Run npm run check:all before release.",
+    "Preview generated Markdown on GitHub when adding new HTML patterns.",
+    "Review high-motion and high-complexity SVGs before promoting them in README examples.",
+    "Update third-party provenance when adding externally sourced assets."
+  ],
+  "schemaVersion": 1,
+  "summary": {
+    "assetCount": 1058,
+    "bundleCount": 8,
+    "categoryCounts": {
+      "badges": 35,
+      "banners": 52,
+      "buttons": 40,
+      "callouts": 45,
+      "cards": 55,
+      "charts": 50,
+      "diagrams": 75,
+      "dividers": 64,
+      "file_headers": 44,
+      "headers": 51,
+      "icons": 238,
+      "loadings": 62,
+      "mockups": 40,
+      "personal": 34,
+      "progress_bars": 35,
+      "terminal_panels": 45,
+      "visuals": 48,
+      "workflow_panels": 45
+    },
+    "compatibility": {
+      "codeCounts": {
+        "github-html-unknown-tag": 52,
+        "high-motion-readme-cost": 59
+      },
+      "severityCounts": {
+        "info": 59,
+        "warning": 52
+      }
+    },
+    "provenance": {
+      "assetCount": 1058,
+      "derivedAssetCount": 9,
+      "originCounts": {
+        "first-party": 1049,
+        "third-party-derived": 9
+      }
+    },
+    "recipeCount": 5,
+    "svgFlagCounts": {
+      "duplicate-heavy-palette": 70,
+      "high-motion": 59,
+      "very-complex": 1
+    },
+    "themeCount": 19
+  },
+  "themeWarnings": [],
+  "topAssets": {
+    "highestMotion": [
+      {
+        "flags": [
+          "duplicate-heavy-palette",
+          "high-motion",
+          "very-complex"
+        ],
+        "motionScore": 117,
+        "name": "mlp_space",
+        "path": "assets/visuals/mlp_space.svg"
+      },
+      {
+        "flags": [
+          "duplicate-heavy-palette",
+          "high-motion"
+        ],
+        "motionScore": 76,
+        "name": "spiral_energy_core",
+        "path": "assets/visuals/spiral_energy_core.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 74,
+        "name": "divider_matrix",
+        "path": "assets/dividers/animated/unique_effects/divider_matrix.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 40,
+        "name": "header_collaboration_premium",
+        "path": "assets/headers/animated/header_collaboration_premium.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 37,
+        "name": "quantum_computing",
+        "path": "assets/visuals/quantum_computing.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 36,
+        "name": "solar_system_2",
+        "path": "assets/visuals/solar_system_2.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 32,
+        "name": "server",
+        "path": "assets/visuals/server.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 30,
+        "name": "solar_system",
+        "path": "assets/visuals/solar_system.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 26,
+        "name": "moving_system",
+        "path": "assets/visuals/moving_system.svg"
+      },
+      {
+        "flags": [
+          "high-motion"
+        ],
+        "motionScore": 25,
+        "name": "loading_gpu_wavefront",
+        "path": "assets/loadings/loading_gpu_wavefront.svg"
+      }
+    ],
+    "largest": [
+      {
+        "fileSize": 15738,
+        "flags": [
+          "duplicate-heavy-palette",
+          "high-motion",
+          "very-complex"
+        ],
+        "name": "mlp_space",
+        "path": "assets/visuals/mlp_space.svg"
+      },
+      {
+        "fileSize": 9736,
+        "flags": [
+          "duplicate-heavy-palette",
+          "high-motion"
+        ],
+        "name": "spiral_energy_core",
+        "path": "assets/visuals/spiral_energy_core.svg"
+      },
+      {
+        "fileSize": 6079,
+        "flags": [],
+        "name": "avocado",
+        "path": "assets/visuals/avocado.svg"
+      },
+      {
+        "fileSize": 6013,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "header_collaboration_premium",
+        "path": "assets/headers/animated/header_collaboration_premium.svg"
+      },
+      {
+        "fileSize": 5868,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "traditional_vs_engineered",
+        "path": "assets/personal/traditional_vs_engineered.svg"
+      },
+      {
+        "fileSize": 5340,
+        "flags": [],
+        "name": "internal_vs_external",
+        "path": "assets/personal/internal_vs_external.svg"
+      },
+      {
+        "fileSize": 5241,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "solar_system_2",
+        "path": "assets/visuals/solar_system_2.svg"
+      },
+      {
+        "fileSize": 5139,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "python_project",
+        "path": "assets/personal/python_project.svg"
+      },
+      {
+        "fileSize": 5033,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "quantum_computing",
+        "path": "assets/visuals/quantum_computing.svg"
+      },
+      {
+        "fileSize": 4917,
+        "flags": [
+          "duplicate-heavy-palette"
+        ],
+        "name": "workflow_detect_acknowledge",
+        "path": "assets/workflow_panels/incident/workflow_detect_acknowledge.svg"
+      }
+    ],
+    "mostComplex": [
+      {
+        "complexityScore": 284,
+        "flags": [
+          "duplicate-heavy-palette",
+          "high-motion",
+          "very-complex"
+        ],
+        "name": "mlp_space",
+        "path": "assets/visuals/mlp_space.svg"
+      },
+      {
+        "complexityScore": 177,
+        "flags": [
+          "duplicate-heavy-palette",
+          "high-motion"
+        ],
+        "name": "spiral_energy_core",
+        "path": "assets/visuals/spiral_energy_core.svg"
+      },
+      {
+        "complexityScore": 114,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "solar_system_2",
+        "path": "assets/visuals/solar_system_2.svg"
+      },
+      {
+        "complexityScore": 111,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "header_collaboration_premium",
+        "path": "assets/headers/animated/header_collaboration_premium.svg"
+      },
+      {
+        "complexityScore": 103,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "planet",
+        "path": "assets/visuals/planet.svg"
+      },
+      {
+        "complexityScore": 102,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "solar_system",
+        "path": "assets/visuals/solar_system.svg"
+      },
+      {
+        "complexityScore": 101,
+        "flags": [
+          "duplicate-heavy-palette"
+        ],
+        "name": "header_collaboration_static",
+        "path": "assets/headers/static/header_collaboration_static.svg"
+      },
+      {
+        "complexityScore": 100,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "quantum_computing",
+        "path": "assets/visuals/quantum_computing.svg"
+      },
+      {
+        "complexityScore": 96,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "traditional_vs_engineered",
+        "path": "assets/personal/traditional_vs_engineered.svg"
+      },
+      {
+        "complexityScore": 94,
+        "flags": [
+          "high-motion"
+        ],
+        "name": "python_project",
+        "path": "assets/personal/python_project.svg"
+      }
+    ]
+  }
+}

@@ -6,21 +6,21 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 ## At a glance
 
-- Assets: 41
+- Assets: 51
 - Groups: 2
 - Best for: Replacing plain section titles with richer visual anchors in showcase READMEs and profile pages.
 - Category tags: `header`, `title`
 
 ## Tag summary
 
-`header` (41), `title` (41), `motion` (28), `animated` (26), `static` (20), `energy` (6), `status` (2), `data` (2), `architecture` (1), `testing` (1), `minimal` (1), `code` (1)
+`header` (51), `title` (51), `motion` (33), `animated` (31), `static` (25), `energy` (6), `data` (3), `status` (2), `architecture` (2), `build` (1), `api` (1), `testing` (1)
 
 ## Full previews
 
 | Group | Count | Description | Full preview |
 | --- | ---: | --- | --- |
-| Animated | 21 | Animated variants for motion-first README accents. | [Open](./headers/full_header_animated_preview.md) |
-| Static | 20 | Static variants for cleaner, low-motion README layouts. | [Open](./headers/full_header_static_preview.md) |
+| Animated | 26 | Animated variants for motion-first README accents. | [Open](./headers/full_header_animated_preview.md) |
+| Static | 25 | Static variants for cleaner, low-motion README layouts. | [Open](./headers/full_header_static_preview.md) |
 
 ## Highlights
 
@@ -48,6 +48,14 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - [Source file](../../assets/headers/animated/header_blinking_warning.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_warning.svg)
 
+### header_browser_extension
+
+[![header_browser_extension](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_browser_extension.svg)](https://github.com/HiradEmami)
+
+- Tags: `animated`, `header`, `motion`, `title`
+- [Source file](../../assets/headers/animated/header_browser_extension.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_browser_extension.svg)
+
 ### header_center_glow
 
 [![header_center_glow](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_center_glow.svg)](https://github.com/HiradEmami)
@@ -72,6 +80,22 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - [Source file](../../assets/headers/animated/header_collaboration_premium.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_collaboration_premium.svg)
 
+### header_community_projects
+
+[![header_community_projects](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_community_projects.svg)](https://github.com/HiradEmami)
+
+- Tags: `animated`, `header`, `motion`, `title`
+- [Source file](../../assets/headers/animated/header_community_projects.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_community_projects.svg)
+
+### header_data_platform
+
+[![header_data_platform](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_data_platform.svg)](https://github.com/HiradEmami)
+
+- Tags: `animated`, `data`, `header`, `motion`, `title`
+- [Source file](../../assets/headers/animated/header_data_platform.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_data_platform.svg)
+
 ### header_expanding_bar
 
 [![header_expanding_bar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_bar.svg)](https://github.com/HiradEmami)
@@ -79,27 +103,3 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 - Tags: `animated`, `header`, `motion`, `title`
 - [Source file](../../assets/headers/animated/header_expanding_bar.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_bar.svg)
-
-### header_expanding_circle
-
-[![header_expanding_circle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_circle.svg)](https://github.com/HiradEmami)
-
-- Tags: `animated`, `header`, `motion`, `title`
-- [Source file](../../assets/headers/animated/header_expanding_circle.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_circle.svg)
-
-### header_floating_particles
-
-[![header_floating_particles](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_particles.svg)](https://github.com/HiradEmami)
-
-- Tags: `animated`, `header`, `motion`, `title`
-- [Source file](../../assets/headers/animated/header_floating_particles.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_particles.svg)
-
-### header_floating_text
-
-[![header_floating_text](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_text.svg)](https://github.com/HiradEmami)
-
-- Tags: `animated`, `header`, `motion`, `title`
-- [Source file](../../assets/headers/animated/header_floating_text.svg)
-- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_text.svg)

@@ -2,7 +2,6 @@ from pathlib import Path
 import argparse
 from collections import Counter
 import html
-import json
 import re
 import sys
 import tempfile
@@ -12,29 +11,45 @@ DEFAULT_REPO_RAW_BASE = "https://raw.githubusercontent.com/HiradEmami/readme-ux-
 DEFAULT_PROFILE_URL = "https://github.com/HiradEmami"
 
 CATEGORY_DESCRIPTIONS = {
+    "badges": "Compact state labels for build, release, security, quality, compatibility, and maintenance signals.",
     "banners": "Wide visual strips for README hero areas, section breaks, and decorative project branding.",
     "buttons": "Clickable-looking SVG button assets for README calls to action, profile links, social links, and status actions.",
+    "callouts": "Prominent documentation notices for information, tips, warnings, danger, security, deprecation, and compatibility guidance.",
+    "cards": "Standalone summary cards for features, projects, metrics, teams, releases, and integrations.",
+    "charts": "Accessible illustrative charts for comparisons, trends, composition, readiness, activity, and compact signals.",
+    "diagrams": "Technical diagrams that explain architecture, data flow, sequences, deployment, networking, security, and ML systems.",
     "dividers": "Horizontal separators that split README sections with static or animated visual treatments.",
     "file_headers": "Header graphics for common repository files such as security, contributing, and code of conduct documents.",
     "headers": "Title and section header graphics for stronger README hierarchy.",
     "icons": "Small SVG symbols for UI, status, development, data, effects, and navigation use cases.",
     "loadings": "Animated loading indicators and motion accents for status-heavy README sections.",
+    "mockups": "Fictional interface mockups for browser, mobile, dashboard, API console, documentation, and package experiences.",
     "personal": "Personal portfolio and project-story visuals for profile READMEs and author pages.",
     "progress_bars": "Progress indicators for roadmaps, milestones, lifecycle states, and completion summaries.",
     "visuals": "Larger conceptual illustrations for AI, systems, infrastructure, collaboration, and product storytelling.",
+    "terminal_panels": "Terminal session illustrations for install, command, build, test, deploy, log, and error documentation.",
+    "workflow_panels": "State-oriented workflow panels for delivery, release, contribution, review, incident, data, and model lifecycles.",
 }
 
 BEST_FOR = {
+    "badges": "Compact, factual status rows where a reusable visual signal is more expressive than a plain text label.",
     "banners": "README hero strips, project identity blocks, release announcements, and high-impact section openings.",
     "buttons": "README calls to action, install links, documentation links, sponsorship links, profile links, and status actions.",
+    "callouts": "Surfacing constraints, risks, references, migration notes, and compatibility guidance inside technical documentation.",
+    "cards": "Feature summaries, project galleries, release notes, ownership blocks, and integration overviews that work as single embeds.",
+    "charts": "Illustrative performance, quality, capacity, allocation, readiness, and activity explanations paired with accessible text.",
+    "diagrams": "Explaining technical relationships and flows in architecture, deployment, networking, security, data, and ML documentation.",
     "dividers": "Breaking long README pages into readable sections without adding heavy layout components.",
     "file_headers": "Giving policy, contribution, security, support, changelog, and documentation files a polished first impression.",
     "headers": "Replacing plain section titles with richer visual anchors in showcase READMEs and profile pages.",
     "icons": "Inline metadata, feature lists, status rows, navigation cues, and compact UI-style README sections.",
     "loadings": "Build, deployment, async workflow, roadmap, and live-status sections where motion communicates activity.",
+    "mockups": "Showing fictional product states, documentation layouts, API interactions, package details, and responsive interface concepts.",
     "personal": "Profile READMEs, portfolio intros, maintainer pages, and personal project storytelling.",
     "progress_bars": "Roadmaps, maturity markers, skill indicators, rollout status, and project completion summaries.",
     "visuals": "Large conceptual sections for architecture, AI systems, observability, security, and product narratives.",
+    "terminal_panels": "Install guides, CLI examples, build and test walkthroughs, deploy instructions, logs, and troubleshooting sections.",
+    "workflow_panels": "Lifecycle overviews, delivery pipelines, review gates, incident response, data operations, and model operations.",
 }
 
 SUBCATEGORY_DESCRIPTIONS = {
@@ -56,6 +71,60 @@ SUBCATEGORY_DESCRIPTIONS = {
     "status": "Status and alert icons for success, warning, danger, info, live, and deprecated states.",
     "social": "Profile, community, sponsor, portfolio, and discussion buttons.",
     "ui": "Common UI icons such as arrows, chevrons, filters, search, and menu controls.",
+    "diagrams/architecture": "System structure diagrams for services, modules, events, edge, plugins, and local-first applications.",
+    "diagrams/data-flow": "Data movement diagrams for ingest, transformation, queues, caches, storage, streams, and lineage.",
+    "diagrams/sequence": "Ordered interaction diagrams for authentication, requests, webhooks, retries, jobs, reviews, and deployments.",
+    "diagrams/deployment": "Deployment topology and release-path diagrams for containers, static sites, regions, canaries, and rollback.",
+    "diagrams/network": "Network diagrams for gateways, meshes, routing, boundaries, balancing, and service connectivity.",
+    "diagrams/security": "Security diagrams for trust boundaries, secrets, authorization, policy, controls, and incident response.",
+    "diagrams/ml-systems": "ML system diagrams for training, evaluation, inference, retrieval, features, registries, monitoring, and feedback.",
+    "cards/features": "Feature cards for capabilities, workflows, platform properties, performance, security, and developer experience.",
+    "cards/projects": "Project cards for repositories, portfolios, case studies, demos, research, and internal tools.",
+    "cards/metrics": "Illustrative metric cards for performance, quality, adoption, reliability, coverage, releases, and experiments.",
+    "cards/team": "Team cards for maintainers, ownership, support, contributors, working groups, and contact paths.",
+    "cards/releases": "Release cards for stable, beta, candidate, migration, deprecation, maintenance, and support-window states.",
+    "cards/integrations": "Integration cards for APIs, webhooks, plugins, data sources, cloud services, packages, and platforms.",
+    "callouts/info": "Informational callouts for context, requirements, references, scope, and implementation notes.",
+    "callouts/tip": "Practical tips for best practices, shortcuts, optimization, migration, and developer workflows.",
+    "callouts/warning": "Calm warning callouts for breaking changes, configuration risk, unsupported modes, and operational caution.",
+    "callouts/danger": "High-priority callouts for destructive actions, exposure, data loss, and irreversible migration.",
+    "callouts/security": "Security callouts for disclosure, credentials, permissions, trust boundaries, and privacy.",
+    "callouts/deprecated": "Deprecation callouts for APIs, sunset windows, replacement paths, and unsupported versions.",
+    "callouts/compatibility": "Compatibility callouts for runtimes, browsers, platforms, versions, and feature support.",
+    "terminal_panels/install": "Terminal panels for package managers, containers, binaries, and source installation.",
+    "terminal_panels/commands": "Terminal panels for help, configuration, generation, validation, migration, and export commands.",
+    "terminal_panels/build": "Terminal panels for compilation, bundles, packages, artifacts, caches, and multi-stage builds.",
+    "terminal_panels/tests": "Terminal panels for unit, integration, end-to-end, accessibility, performance, and matrix tests.",
+    "terminal_panels/deploy": "Terminal panels for preview, staging, production, rollback, static, container, and infrastructure deploys.",
+    "terminal_panels/logs": "Terminal panels for structured logs, traces, queues, requests, jobs, and observability.",
+    "terminal_panels/errors": "Terminal panels for validation, configuration, permission, network, dependency, and recovery errors.",
+    "workflow_panels/ci-cd": "Delivery workflows covering validation, tests, builds, packaging, previews, deployment, and rollback.",
+    "workflow_panels/release": "Release workflows covering versions, changelogs, candidates, approval, publishing, verification, and support.",
+    "workflow_panels/contribution": "Contribution workflows covering issues, discussions, forks, branches, pull requests, reviews, and merges.",
+    "workflow_panels/review": "Review workflows for design, code, security, documentation, accessibility, and release gates.",
+    "workflow_panels/incident": "Incident workflows covering detection, acknowledgement, triage, mitigation, recovery, communication, and learning.",
+    "workflow_panels/data": "Data workflows covering ingestion, validation, transformation, storage, publication, monitoring, and backfills.",
+    "workflow_panels/model-lifecycle": "Model workflows covering preparation, training, evaluation, registration, deployment, monitoring, and retirement.",
+    "charts/bar": "Bar charts for illustrative comparisons, benchmarks, groups, stacks, progress, and distributions.",
+    "charts/line": "Line charts for illustrative trends in latency, throughput, quality, adoption, and experiments.",
+    "charts/area": "Area charts for illustrative capacity, utilization, volume, cumulative output, and confidence ranges.",
+    "charts/donut": "Donut charts for illustrative composition, coverage, allocation, completion, and category shares.",
+    "charts/radar": "Radar charts for illustrative capability, maturity, quality, skill, and system-dimension comparisons.",
+    "charts/heatmap": "Heatmaps for illustrative activity, test matrices, latency, risk, coverage, and compatibility density.",
+    "charts/gauge": "Gauges for illustrative readiness, health, budgets, quality, saturation, and thresholds.",
+    "charts/sparkline": "Compact sparklines for illustrative trends, pulses, activity, errors, releases, and usage.",
+    "mockups/browser": "Fictional browser frames for landing pages, docs, dashboards, settings, extensions, and local tools.",
+    "mockups/mobile": "Fictional mobile frames for onboarding, feeds, details, settings, status, and developer tools.",
+    "mockups/dashboard": "Fictional dashboards for operations, analytics, security, data, projects, and system health.",
+    "mockups/api-console": "Fictional API consoles for requests, responses, authentication, schemas, webhooks, and errors.",
+    "mockups/documentation": "Fictional documentation views for guides, references, search, navigation, examples, and troubleshooting.",
+    "mockups/package": "Fictional package views for registries, releases, dependencies, installs, compatibility, and artifacts.",
+    "badges/build": "Build-state badges for passing, failing, queued, running, skipped, and unknown states.",
+    "badges/release": "Release-state badges for stable, beta, candidate, latest, deprecated, and archived states.",
+    "badges/security": "Security-state badges for policy, scan, review, advisory, disclosure, and update requirements.",
+    "badges/quality": "Quality badges for testing, coverage, accessibility, documentation, optimization, and validation.",
+    "badges/compatibility": "Compatibility badges for runtime, platform, browser, API, version, and format support.",
+    "badges/maintenance": "Maintenance badges for active, limited, community, paused, and end-of-life states.",
 }
 
 TAG_KEYWORDS = {
@@ -82,16 +151,24 @@ TAG_KEYWORDS = {
 }
 
 CATEGORY_TAGS = {
+    "badges": {"badge", "status"},
     "banners": {"hero", "wide"},
-    "buttons": {"button", "cta"},
+    "buttons": {"button"},
+    "callouts": {"callout", "docs"},
+    "cards": {"card", "summary"},
+    "charts": {"chart", "data"},
+    "diagrams": {"diagram", "architecture"},
     "dividers": {"separator"},
     "file_headers": {"docs", "header"},
     "headers": {"header", "title"},
     "icons": {"icon"},
     "loadings": {"loading", "motion"},
+    "mockups": {"mockup", "ui"},
     "personal": {"personal", "profile"},
     "progress_bars": {"progress", "status"},
     "visuals": {"illustration", "visual"},
+    "terminal_panels": {"terminal", "code"},
+    "workflow_panels": {"workflow", "status"},
 }
 
 SUBCATEGORY_TAGS = {
@@ -114,7 +191,79 @@ SUBCATEGORY_TAGS = {
     "status": {"status"},
     "social": {"social", "profile"},
     "ui": {"ui"},
+    "diagrams/architecture": {"architecture", "diagram"},
+    "diagrams/data-flow": {"data", "diagram", "flow"},
+    "diagrams/sequence": {"diagram", "sequence"},
+    "diagrams/deployment": {"build", "deployment", "diagram"},
+    "diagrams/network": {"diagram", "infrastructure", "network"},
+    "diagrams/security": {"diagram", "security"},
+    "diagrams/ml-systems": {"ai", "diagram", "ml"},
+    "cards/features": {"card", "feature"},
+    "cards/projects": {"card", "project"},
+    "cards/metrics": {"card", "data", "metrics"},
+    "cards/team": {"card", "team"},
+    "cards/releases": {"build", "card", "release"},
+    "cards/integrations": {"card", "integration"},
+    "callouts/info": {"callout", "info"},
+    "callouts/tip": {"callout", "tip"},
+    "callouts/warning": {"callout", "warning"},
+    "callouts/danger": {"callout", "danger"},
+    "callouts/security": {"callout", "security"},
+    "callouts/deprecated": {"callout", "deprecated"},
+    "callouts/compatibility": {"callout", "compatibility"},
+    "terminal_panels/install": {"install", "terminal"},
+    "terminal_panels/commands": {"code", "terminal"},
+    "terminal_panels/build": {"build", "terminal"},
+    "terminal_panels/tests": {"terminal", "testing"},
+    "terminal_panels/deploy": {"build", "deployment", "terminal"},
+    "terminal_panels/logs": {"logs", "observability", "terminal"},
+    "terminal_panels/errors": {"error", "terminal"},
+    "workflow_panels/ci-cd": {"build", "ci", "workflow"},
+    "workflow_panels/release": {"build", "release", "workflow"},
+    "workflow_panels/contribution": {"contribution", "workflow"},
+    "workflow_panels/review": {"review", "workflow"},
+    "workflow_panels/incident": {"incident", "workflow"},
+    "workflow_panels/data": {"data", "workflow"},
+    "workflow_panels/model-lifecycle": {"ai", "ml", "workflow"},
+    "charts/bar": {"bar", "chart"},
+    "charts/line": {"chart", "line"},
+    "charts/area": {"area", "chart"},
+    "charts/donut": {"chart", "donut"},
+    "charts/radar": {"chart", "radar"},
+    "charts/heatmap": {"chart", "heatmap"},
+    "charts/gauge": {"chart", "gauge"},
+    "charts/sparkline": {"chart", "sparkline"},
+    "mockups/browser": {"browser", "mockup"},
+    "mockups/mobile": {"mobile", "mockup"},
+    "mockups/dashboard": {"dashboard", "mockup"},
+    "mockups/api-console": {"api", "mockup"},
+    "mockups/documentation": {"docs", "mockup"},
+    "mockups/package": {"mockup", "package"},
+    "badges/build": {"badge", "build"},
+    "badges/release": {"badge", "release"},
+    "badges/security": {"badge", "security"},
+    "badges/quality": {"badge", "quality"},
+    "badges/compatibility": {"badge", "compatibility"},
+    "badges/maintenance": {"badge", "maintenance"},
 }
+
+
+def subcategory_key(category, unit_name):
+    return f"{category}/{unit_name}"
+
+
+def subcategory_description(category, unit_name):
+    return SUBCATEGORY_DESCRIPTIONS.get(
+        subcategory_key(category, unit_name),
+        SUBCATEGORY_DESCRIPTIONS.get(unit_name),
+    )
+
+
+def subcategory_tags(category, unit_name):
+    return SUBCATEGORY_TAGS.get(
+        subcategory_key(category, unit_name),
+        SUBCATEGORY_TAGS.get(unit_name, set()),
+    )
 
 
 def titleize(name):
@@ -124,6 +273,7 @@ def titleize(name):
         "api": "API",
         "cli": "CLI",
         "ci": "CI",
+        "cta": "CTA",
         "ui": "UI",
         "ux": "UX",
         "devops": "DevOps",
@@ -147,6 +297,10 @@ def singularize(name):
 
 def slugify(value):
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def anchor_id(value):
+    return slugify(value)
 
 
 def clean_asset_name(path):
@@ -173,7 +327,7 @@ def animation_label(asset_path):
 def asset_tags(category, unit_name, asset_path):
     tags = set()
     tags.update(CATEGORY_TAGS.get(category, set()))
-    tags.update(SUBCATEGORY_TAGS.get(unit_name, set()))
+    tags.update(subcategory_tags(category, unit_name))
 
     if animation_label(asset_path) == "Animated":
         tags.update({"animated", "motion"})
@@ -229,18 +383,6 @@ def format_tag_summary(tag_counts):
     if not tag_counts:
         return "_No tags found._"
     return ", ".join(f"`{tag}` ({count})" for tag, count in tag_counts)
-
-
-def asset_record(repo_root, category, unit_name, asset_path, raw_base):
-    return {
-        "name": clean_asset_name(asset_path),
-        "category": category,
-        "subcategory": unit_name,
-        "path": relative_asset_path(repo_root, asset_path),
-        "rawUrl": raw_url(raw_base, repo_root, asset_path),
-        "type": animation_label(asset_path),
-        "tags": asset_tags(category, unit_name, asset_path),
-    }
 
 
 def category_units(category_dir):
@@ -343,7 +485,7 @@ def write_category_page(repo_root, preview_root, category_dir, raw_base, profile
     for unit_name, assets in units:
         preview_file = preview_category_dir / full_preview_filename(category, unit_name)
         label = titleize(unit_name) if unit_name != category else f"All {titleize(category)}"
-        description = SUBCATEGORY_DESCRIPTIONS.get(unit_name, CATEGORY_DESCRIPTIONS.get(category, "SVG asset previews."))
+        description = subcategory_description(category, unit_name) or CATEGORY_DESCRIPTIONS.get(category, "SVG asset previews.")
         lines.append(f"| {label} | {len(assets)} | {description} | [Open](./{category}/{preview_file.name}) |")
 
     if highlights:
@@ -378,7 +520,7 @@ def write_category_page(repo_root, preview_root, category_dir, raw_base, profile
 
 def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_base, profile_url):
     label = titleize(unit_name) if unit_name != category else titleize(category)
-    description = SUBCATEGORY_DESCRIPTIONS.get(unit_name, CATEGORY_DESCRIPTIONS.get(category, "SVG asset previews."))
+    description = subcategory_description(category, unit_name) or CATEGORY_DESCRIPTIONS.get(category, "SVG asset previews.")
     lines = [
         f"# Full {label} Preview",
         "",
@@ -393,8 +535,8 @@ def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_b
         f"- Category: `{category}`",
         f"- Group: `{unit_name}`",
         f"- Asset count: {len(assets)}",
-        f"- Best for: {SUBCATEGORY_DESCRIPTIONS.get(unit_name, BEST_FOR.get(category, 'README visual composition and reusable SVG previews.'))}",
-        f"- Group tags: {format_tags(sorted(SUBCATEGORY_TAGS.get(unit_name, {unit_name})))}",
+        f"- Best for: {subcategory_description(category, unit_name) or BEST_FOR.get(category, 'README visual composition and reusable SVG previews.')}",
+        f"- Group tags: {format_tags(sorted(subcategory_tags(category, unit_name) or {unit_name}))}",
         "",
         "## Compact index",
         "",
@@ -409,7 +551,8 @@ def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_b
         url = raw_url(raw_base, repo_root, asset_path)
         rel_path = relative_asset_path(repo_root, asset_path)
         tags = asset_tags(category, unit_name, asset_path)
-        lines.append(f"| `{name}` | {animation_label(asset_path)} | {format_tags(tags)} | [Jump](#{slugify(name)}) | [Source](../../../{rel_path}) | [Raw SVG]({url}) |")
+        anchor = anchor_id(name)
+        lines.append(f"| `{name}` | {animation_label(asset_path)} | {format_tags(tags)} | [Jump](#{anchor}) | [Source](../../../{rel_path}) | [Raw SVG]({url}) |")
 
     lines.extend(
         [
@@ -424,9 +567,12 @@ def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_b
         url = raw_url(raw_base, repo_root, asset_path)
         rel_path = relative_asset_path(repo_root, asset_path)
         tags = asset_tags(category, unit_name, asset_path)
+        anchor = anchor_id(name)
 
         lines.extend(
             [
+                f'<a id="{anchor}"></a>',
+                "",
                 f"## {name}",
                 "",
                 markdown_embed(name, url, profile_url),
@@ -455,7 +601,7 @@ def write_full_preview(repo_root, output_dir, category, unit_name, assets, raw_b
                 "",
                 f"- Type: {animation_label(asset_path)}",
                 f"- Tags: {format_tags(tags)}",
-                f"- Anchor: `#{slugify(name)}`",
+                f"- Anchor: `#{anchor}`",
                 f"- [Source file](../../../{rel_path})",
                 f"- [Raw SVG]({url})",
                 "",
@@ -555,27 +701,6 @@ def generate_previews(repo_root, assets_dir, output_dir, raw_base, profile_url, 
     return len(categories), preview_root, removed_files
 
 
-def write_manifest(repo_root, assets_dir, output_file, raw_base, category_filters=None):
-    assets_root = repo_root / assets_dir
-    categories = select_categories(discover_categories(assets_root), category_filters)
-    records = []
-
-    for category_dir in categories:
-        category = category_dir.name
-        for unit_name, assets in category_units(category_dir):
-            records.extend(asset_record(repo_root, category, unit_name, asset_path, raw_base) for asset_path in assets)
-
-    payload = {
-        "assetCount": len(records),
-        "categories": [category.name for category in categories],
-        "assets": records,
-    }
-
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    output_file.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    return output_file, len(records)
-
-
 def relative_files(root):
     if not root.exists():
         return set()
@@ -655,9 +780,19 @@ def print_check_failures(missing, changed, extra):
         print()
 
 
+def manifest_helpers():
+    try:
+        from .asset_manifest import check_manifest, print_manifest_check_failure, write_manifest
+    except ImportError:
+        from asset_manifest import check_manifest, print_manifest_check_failure, write_manifest
+    return check_manifest, print_manifest_check_failure, write_manifest
+
+
 def run_self_tests():
     assert titleize("data-ai") == "Data AI"
     assert titleize("devops") == "DevOps"
+    assert titleize("cta") == "CTA"
+    assert anchor_id("button_connect_linkedin") == "button-connect-linkedin"
     assert full_preview_filename("banners", "energy") == "full_banner_energy_preview.md"
     assert full_preview_filename("progress_bars", "progress_bars") == "full_progress_bar_preview.md"
     assert parse_category_filters(["icons,loadings", "visuals"]) == ["icons", "loadings", "visuals"]
@@ -669,7 +804,7 @@ def run_self_tests():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Markdown preview pages for SVG assets.")
+    parser = argparse.ArgumentParser(description="Generate Markdown preview pages and editor-ready JSON data for SVG assets.")
     parser.add_argument("--repo-root", default=".", help="Repository root path.")
     parser.add_argument("--assets-dir", default="assets", help="Asset directory relative to the repo root.")
     parser.add_argument("--output-dir", default="previews/assets", help="Output directory relative to the repo root.")
@@ -686,6 +821,15 @@ def main():
         help="Do not remove obsolete generated preview files after writing current output.",
     )
     parser.add_argument("--manifest", help="Optional JSON asset metadata output path.")
+    parser.add_argument(
+        "--manifest-only",
+        action="store_true",
+        help="Write only the JSON asset metadata output requested with --manifest.",
+    )
+    parser.add_argument(
+        "--check-manifest",
+        help="Verify a JSON asset metadata output path is current without modifying it.",
+    )
     parser.add_argument("--self-test", action="store_true", help="Run focused generator helper tests and exit.")
     parser.add_argument(
         "--check",
@@ -700,6 +844,47 @@ def main():
 
     repo_root = Path(args.repo_root).resolve()
     category_filters = parse_category_filters(args.category)
+
+    if args.check_manifest:
+        check_manifest, print_manifest_check_failure, _ = manifest_helpers()
+        manifest_path = repo_root / args.check_manifest
+        try:
+            manifest_status, manifest_errors = check_manifest(
+                repo_root,
+                Path(args.assets_dir),
+                manifest_path,
+                raw_base=args.raw_base,
+                category_filters=category_filters,
+            )
+        except (FileNotFoundError, ValueError) as error:
+            print(error, file=sys.stderr)
+            sys.exit(2)
+
+        if manifest_status:
+            print_manifest_check_failure(manifest_path, manifest_status, manifest_errors)
+            sys.exit(1)
+
+        print("Asset manifest is current.")
+        return
+
+    if args.manifest_only:
+        if not args.manifest:
+            print("--manifest-only requires --manifest.", file=sys.stderr)
+            sys.exit(2)
+        _, _, write_manifest = manifest_helpers()
+        try:
+            manifest_path, asset_total = write_manifest(
+                repo_root,
+                Path(args.assets_dir),
+                repo_root / args.manifest,
+                raw_base=args.raw_base,
+                category_filters=category_filters,
+            )
+        except (FileNotFoundError, ValueError) as error:
+            print(error, file=sys.stderr)
+            sys.exit(2)
+        print(f"Wrote manifest for {asset_total} asset(s) to {manifest_path}")
+        return
 
     if args.check:
         try:
@@ -741,11 +926,12 @@ def main():
         print(f"Removed {len(removed_files)} obsolete generated preview file(s).")
 
     if args.manifest:
+        _, _, write_manifest = manifest_helpers()
         manifest_path, asset_total = write_manifest(
             repo_root,
             Path(args.assets_dir),
             repo_root / args.manifest,
-            args.raw_base,
+            raw_base=args.raw_base,
             category_filters=category_filters,
         )
         print(f"Wrote manifest for {asset_total} asset(s) to {manifest_path}")

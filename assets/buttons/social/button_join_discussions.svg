@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Join Discussions</title>
+  <desc>A static README SVG asset illustrating Button Join Discussions.</desc>
   <rect x="8" y="8" width="304" height="56" rx="16" fill="#f0fdf4"/>
   <rect x="8" y="8" width="304" height="56" rx="16" stroke="#22c55e" stroke-width="2"/>
   <path d="M28 26h34v23H45l-8 7v-7h-9V26z" fill="#dcfce7" stroke="#16a34a" stroke-width="2" stroke-linejoin="round"/>

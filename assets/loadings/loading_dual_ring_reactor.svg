@@ -1,4 +1,6 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Dual Ring Reactor</title>
+  <desc>An animated README SVG asset illustrating Loading Dual Ring Reactor.</desc>
   <circle cx="60" cy="60" r="34" stroke="#334155" stroke-width="6"/>
   <circle cx="60" cy="60" r="34" stroke="#38BDF8" stroke-width="6" stroke-dasharray="32 182" stroke-linecap="round">
     <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="1.4s" repeatCount="indefinite"/>

@@ -47,6 +47,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 
 ## Visual previews
 
+<a id="icon-arc-flare"></a>
+
 ## icon_arc_flare
 
 [![icon_arc_flare](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_arc_flare.svg)](https://github.com/HiradEmami)
@@ -80,6 +82,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-arc-flare`
 - [Source file](../../../assets/icons/decorative/icon_arc_flare.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_arc_flare.svg)
+
+<a id="icon-bouncing-node"></a>
 
 ## icon_bouncing_node
 
@@ -115,6 +119,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_bouncing_node.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_bouncing_node.svg)
 
+<a id="icon-breathing-square"></a>
+
 ## icon_breathing_square
 
 [![icon_breathing_square](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_breathing_square.svg)](https://github.com/HiradEmami)
@@ -148,6 +154,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-breathing-square`
 - [Source file](../../../assets/icons/decorative/icon_breathing_square.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_breathing_square.svg)
+
+<a id="icon-compass-flare"></a>
 
 ## icon_compass_flare
 
@@ -183,6 +191,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_compass_flare.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_compass_flare.svg)
 
+<a id="icon-crown-mark"></a>
+
 ## icon_crown_mark
 
 [![icon_crown_mark](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_crown_mark.svg)](https://github.com/HiradEmami)
@@ -216,6 +226,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-crown-mark`
 - [Source file](../../../assets/icons/decorative/icon_crown_mark.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_crown_mark.svg)
+
+<a id="icon-dual-wave-field"></a>
 
 ## icon_dual_wave_field
 
@@ -251,6 +263,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_dual_wave_field.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_dual_wave_field.svg)
 
+<a id="icon-expanding-dot"></a>
+
 ## icon_expanding_dot
 
 [![icon_expanding_dot](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_expanding_dot.svg)](https://github.com/HiradEmami)
@@ -284,6 +298,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-expanding-dot`
 - [Source file](../../../assets/icons/decorative/icon_expanding_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_expanding_dot.svg)
+
+<a id="icon-flicker-dot"></a>
 
 ## icon_flicker_dot
 
@@ -319,6 +335,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_flicker_dot.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_flicker_dot.svg)
 
+<a id="icon-glow-animation"></a>
+
 ## icon_glow_animation
 
 [![icon_glow_animation](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_glow_animation.svg)](https://github.com/HiradEmami)
@@ -352,6 +370,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-glow-animation`
 - [Source file](../../../assets/icons/decorative/icon_glow_animation.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_glow_animation.svg)
+
+<a id="icon-ink-drop"></a>
 
 ## icon_ink_drop
 
@@ -387,6 +407,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_ink_drop.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_ink_drop.svg)
 
+<a id="icon-lux-diamond"></a>
+
 ## icon_lux_diamond
 
 [![icon_lux_diamond](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_lux_diamond.svg)](https://github.com/HiradEmami)
@@ -420,6 +442,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-lux-diamond`
 - [Source file](../../../assets/icons/decorative/icon_lux_diamond.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_lux_diamond.svg)
+
+<a id="icon-micro-glimmer"></a>
 
 ## icon_micro_glimmer
 
@@ -455,6 +479,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_micro_glimmer.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_micro_glimmer.svg)
 
+<a id="icon-neon-leaf"></a>
+
 ## icon_neon_leaf
 
 [![icon_neon_leaf](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_neon_leaf.svg)](https://github.com/HiradEmami)
@@ -488,6 +514,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-neon-leaf`
 - [Source file](../../../assets/icons/decorative/icon_neon_leaf.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_neon_leaf.svg)
+
+<a id="icon-orbital-flower"></a>
 
 ## icon_orbital_flower
 
@@ -523,6 +551,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_orbital_flower.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_orbital_flower.svg)
 
+<a id="icon-pendulum-orb"></a>
+
 ## icon_pendulum_orb
 
 [![icon_pendulum_orb](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_pendulum_orb.svg)](https://github.com/HiradEmami)
@@ -556,6 +586,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-pendulum-orb`
 - [Source file](../../../assets/icons/decorative/icon_pendulum_orb.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_pendulum_orb.svg)
+
+<a id="icon-pixel-twinkle"></a>
 
 ## icon_pixel_twinkle
 
@@ -591,6 +623,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_pixel_twinkle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_pixel_twinkle.svg)
 
+<a id="icon-prism-star"></a>
+
 ## icon_prism_star
 
 [![icon_prism_star](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_prism_star.svg)](https://github.com/HiradEmami)
@@ -624,6 +658,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-prism-star`
 - [Source file](../../../assets/icons/decorative/icon_prism_star.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_prism_star.svg)
+
+<a id="icon-pulsing-core"></a>
 
 ## icon_pulsing_core
 
@@ -659,6 +695,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_pulsing_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_pulsing_core.svg)
 
+<a id="icon-pulsing-ring"></a>
+
 ## icon_pulsing_ring
 
 [![icon_pulsing_ring](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_pulsing_ring.svg)](https://github.com/HiradEmami)
@@ -692,6 +730,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-pulsing-ring`
 - [Source file](../../../assets/icons/decorative/icon_pulsing_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_pulsing_ring.svg)
+
+<a id="icon-retro-pixel-star"></a>
 
 ## icon_retro_pixel_star
 
@@ -727,6 +767,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_retro_pixel_star.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_retro_pixel_star.svg)
 
+<a id="icon-ribbon-wave"></a>
+
 ## icon_ribbon_wave
 
 [![icon_ribbon_wave](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_ribbon_wave.svg)](https://github.com/HiradEmami)
@@ -760,6 +802,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-ribbon-wave`
 - [Source file](../../../assets/icons/decorative/icon_ribbon_wave.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_ribbon_wave.svg)
+
+<a id="icon-sliding-line"></a>
 
 ## icon_sliding_line
 
@@ -795,6 +839,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - [Source file](../../../assets/icons/decorative/icon_sliding_line.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_sliding_line.svg)
 
+<a id="icon-soft-spark"></a>
+
 ## icon_soft_spark
 
 [![icon_soft_spark](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_soft_spark.svg)](https://github.com/HiradEmami)
@@ -828,6 +874,8 @@ Top tags: `animated` (24), `decorative` (24), `icon` (24), `motion` (24), `energ
 - Anchor: `#icon-soft-spark`
 - [Source file](../../../assets/icons/decorative/icon_soft_spark.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/decorative/icon_soft_spark.svg)
+
+<a id="icon-star"></a>
 
 ## icon_star
 

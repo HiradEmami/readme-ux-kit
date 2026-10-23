@@ -54,6 +54,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 
 ## Visual previews
 
+<a id="icon-echo-rings"></a>
+
 ## icon_echo_rings
 
 [![icon_echo_rings](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_echo_rings.svg)](https://github.com/HiradEmami)
@@ -87,6 +89,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-echo-rings`
 - [Source file](../../../assets/icons/effects/icon_echo_rings.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_echo_rings.svg)
+
+<a id="icon-eclipse-orbit"></a>
 
 ## icon_eclipse_orbit
 
@@ -122,6 +126,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_eclipse_orbit.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_eclipse_orbit.svg)
 
+<a id="icon-energy-portal"></a>
+
 ## icon_energy_portal
 
 [![icon_energy_portal](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_energy_portal.svg)](https://github.com/HiradEmami)
@@ -155,6 +161,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-energy-portal`
 - [Source file](../../../assets/icons/effects/icon_energy_portal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_energy_portal.svg)
+
+<a id="icon-energy-vortex"></a>
 
 ## icon_energy_vortex
 
@@ -190,6 +198,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_energy_vortex.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_energy_vortex.svg)
 
+<a id="icon-flux-triangle"></a>
+
 ## icon_flux_triangle
 
 [![icon_flux_triangle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_flux_triangle.svg)](https://github.com/HiradEmami)
@@ -223,6 +233,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-flux-triangle`
 - [Source file](../../../assets/icons/effects/icon_flux_triangle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_flux_triangle.svg)
+
+<a id="icon-glitch-core"></a>
 
 ## icon_glitch_core
 
@@ -258,6 +270,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_glitch_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_glitch_core.svg)
 
+<a id="icon-glitch-square"></a>
+
 ## icon_glitch_square
 
 [![icon_glitch_square](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_glitch_square.svg)](https://github.com/HiradEmami)
@@ -291,6 +305,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-glitch-square`
 - [Source file](../../../assets/icons/effects/icon_glitch_square.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_glitch_square.svg)
+
+<a id="icon-gravity-wave"></a>
 
 ## icon_gravity_wave
 
@@ -326,6 +342,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_gravity_wave.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_gravity_wave.svg)
 
+<a id="icon-light-prism"></a>
+
 ## icon_light_prism
 
 [![icon_light_prism](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_light_prism.svg)](https://github.com/HiradEmami)
@@ -359,6 +377,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-light-prism`
 - [Source file](../../../assets/icons/effects/icon_light_prism.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_light_prism.svg)
+
+<a id="icon-lightning-charge"></a>
 
 ## icon_lightning_charge
 
@@ -394,6 +414,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_lightning_charge.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_lightning_charge.svg)
 
+<a id="icon-liquid-blob"></a>
+
 ## icon_liquid_blob
 
 [![icon_liquid_blob](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_liquid_blob.svg)](https://github.com/HiradEmami)
@@ -427,6 +449,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-liquid-blob`
 - [Source file](../../../assets/icons/effects/icon_liquid_blob.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_liquid_blob.svg)
+
+<a id="icon-magical-rune-seal"></a>
 
 ## icon_magical_rune_seal
 
@@ -462,6 +486,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_magical_rune_seal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_magical_rune_seal.svg)
 
+<a id="icon-orbit-ring"></a>
+
 ## icon_orbit_ring
 
 [![icon_orbit_ring](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbit_ring.svg)](https://github.com/HiradEmami)
@@ -495,6 +521,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-orbit-ring`
 - [Source file](../../../assets/icons/effects/icon_orbit_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbit_ring.svg)
+
+<a id="icon-orbiting-node"></a>
 
 ## icon_orbiting_node
 
@@ -530,6 +558,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_orbiting_node.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbiting_node.svg)
 
+<a id="icon-orbiting-satellites"></a>
+
 ## icon_orbiting_satellites
 
 [![icon_orbiting_satellites](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbiting_satellites.svg)](https://github.com/HiradEmami)
@@ -563,6 +593,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-orbiting-satellites`
 - [Source file](../../../assets/icons/effects/icon_orbiting_satellites.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_orbiting_satellites.svg)
+
+<a id="icon-origami-spinner"></a>
 
 ## icon_origami_spinner
 
@@ -598,6 +630,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_origami_spinner.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_origami_spinner.svg)
 
+<a id="icon-particle-burst"></a>
+
 ## icon_particle_burst
 
 [![icon_particle_burst](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_particle_burst.svg)](https://github.com/HiradEmami)
@@ -631,6 +665,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-particle-burst`
 - [Source file](../../../assets/icons/effects/icon_particle_burst.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_particle_burst.svg)
+
+<a id="icon-phase-portal"></a>
 
 ## icon_phase_portal
 
@@ -666,6 +702,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_phase_portal.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_phase_portal.svg)
 
+<a id="icon-plasma-core"></a>
+
 ## icon_plasma_core
 
 [![icon_plasma_core](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_plasma_core.svg)](https://github.com/HiradEmami)
@@ -699,6 +737,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-plasma-core`
 - [Source file](../../../assets/icons/effects/icon_plasma_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_plasma_core.svg)
+
+<a id="icon-quantum-core-spin"></a>
 
 ## icon_quantum_core_spin
 
@@ -734,6 +774,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_quantum_core_spin.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_core_spin.svg)
 
+<a id="icon-quantum-spark"></a>
+
 ## icon_quantum_spark
 
 [![icon_quantum_spark](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_spark.svg)](https://github.com/HiradEmami)
@@ -767,6 +809,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-quantum-spark`
 - [Source file](../../../assets/icons/effects/icon_quantum_spark.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_quantum_spark.svg)
+
+<a id="icon-ripple-circle"></a>
 
 ## icon_ripple_circle
 
@@ -802,6 +846,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_ripple_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_ripple_circle.svg)
 
+<a id="icon-rotating-arc-field"></a>
+
 ## icon_rotating_arc_field
 
 [![icon_rotating_arc_field](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_arc_field.svg)](https://github.com/HiradEmami)
@@ -835,6 +881,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-rotating-arc-field`
 - [Source file](../../../assets/icons/effects/icon_rotating_arc_field.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_arc_field.svg)
+
+<a id="icon-rotating-cube"></a>
 
 ## icon_rotating_cube
 
@@ -870,6 +918,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_rotating_cube.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_cube.svg)
 
+<a id="icon-rotating-data-cube"></a>
+
 ## icon_rotating_data_cube
 
 [![icon_rotating_data_cube](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_data_cube.svg)](https://github.com/HiradEmami)
@@ -903,6 +953,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-rotating-data-cube`
 - [Source file](../../../assets/icons/effects/icon_rotating_data_cube.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_data_cube.svg)
+
+<a id="icon-rotating-gear"></a>
 
 ## icon_rotating_gear
 
@@ -938,6 +990,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_rotating_gear.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_gear.svg)
 
+<a id="icon-rotating-hex"></a>
+
 ## icon_rotating_hex
 
 [![icon_rotating_hex](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_hex.svg)](https://github.com/HiradEmami)
@@ -971,6 +1025,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-rotating-hex`
 - [Source file](../../../assets/icons/effects/icon_rotating_hex.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_hex.svg)
+
+<a id="icon-rotating-plus"></a>
 
 ## icon_rotating_plus
 
@@ -1006,6 +1062,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_rotating_plus.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_plus.svg)
 
+<a id="icon-rotating-triangle"></a>
+
 ## icon_rotating_triangle
 
 [![icon_rotating_triangle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_triangle.svg)](https://github.com/HiradEmami)
@@ -1040,6 +1098,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - [Source file](../../../assets/icons/effects/icon_rotating_triangle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_rotating_triangle.svg)
 
+<a id="icon-spinning-ring"></a>
+
 ## icon_spinning_ring
 
 [![icon_spinning_ring](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_spinning_ring.svg)](https://github.com/HiradEmami)
@@ -1073,6 +1133,8 @@ Top tags: `animated` (31), `effects` (31), `icon` (31), `motion` (31), `energy` 
 - Anchor: `#icon-spinning-ring`
 - [Source file](../../../assets/icons/effects/icon_spinning_ring.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/icons/effects/icon_spinning_ring.svg)
+
+<a id="icon-time-ripple"></a>
 
 ## icon_time_ripple
 

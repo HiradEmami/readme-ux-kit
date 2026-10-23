@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Rotating Arc Double Line</title>
+  <desc>An animated README SVG asset illustrating Loading Rotating Arc Double Line.</desc>
   <g>
     <path d="M40 10 A30 30 0 0 1 70 40" stroke="#22d3ee" fill="none" stroke-width="4"/>
     <path d="M40 70 A30 30 0 0 1 10 40" stroke="#a855f7" fill="none" stroke-width="4"/>

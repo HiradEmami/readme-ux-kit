@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1200 80" width="100%" height="80" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 80" width="100%" height="80" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Banner Energy Beam</title>
+  <desc>An animated README SVG asset illustrating Banner Energy Beam.</desc>
   <defs>
     <linearGradient id="beam" x1="0" x2="1">
       <stop offset="0%" stop-color="transparent"/>

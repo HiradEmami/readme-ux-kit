@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" style="display:block" role="img" aria-label="Versioning across code, data, config, and model">
+  <title>ML Versions</title>
+  <desc>An animated README SVG asset illustrating ML Versions.</desc>
   <defs>
 
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -72,7 +74,6 @@
 
   <rect class="bg" width="1200" height="340"/>
 
-  <!-- ROW 1 -->
   <g>
     <rect class="box" x="40" y="60" width="180" height="80"/>
     <rect class="box-glow" x="40" y="60" width="180" height="80" rx="16"/>
@@ -95,7 +96,6 @@
     <path class="line" d="M700 100 L770 100"/>
   </g>
 
-  <!-- ROW 2 -->
   <g>
     <rect class="box" x="40" y="160" width="180" height="80"/>
     <rect class="box-glow" x="40" y="160" width="180" height="80" rx="16"/>
@@ -118,7 +118,6 @@
     <path class="line" d="M700 200 L770 200"/>
   </g>
 
-  <!-- caption -->
   <text class="caption" x="600" y="300" text-anchor="middle">
     Each model version is tied to a specific code, data, and configuration state
   </text>

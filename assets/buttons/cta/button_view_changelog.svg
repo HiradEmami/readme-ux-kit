@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-labelledby="button_view_changelogTitle button_view_changelogDesc">
+  <title id="button_view_changelogTitle">View Changelog Button</title>
+  <desc id="button_view_changelogDesc">A changelog button with a vertical release timeline and a compact count of new entries.</desc>
+  <rect id="button_view_changelogBackground" data-edit-id="background" data-edit-label="Button background" data-edit-lock="true" x="8" y="8" width="304" height="56" rx="12" fill="#052e2b" stroke="#34d399" stroke-width="2"/>
+  <g id="button_view_changelogTimeline" data-edit-id="icon" data-edit-label="Release timeline icon"><path d="M39 19v34" stroke="#6ee7b7" stroke-width="2.5"/><circle cx="39" cy="23" r="5" fill="#34d399"/><circle cx="39" cy="36" r="4" fill="#0f766e" stroke="#a7f3d0"/><circle cx="39" cy="50" r="4" fill="#0f766e"/><path d="M48 23h14M48 36h10M48 50h14" stroke="#99f6e4" stroke-width="2" stroke-linecap="round"/></g>
+  <text id="button_view_changelogLabel" data-edit-id="label" data-edit-label="Button label" x="78" y="42" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="20" font-weight="800" fill="#ecfdf5">View changelog</text>
+  <g id="button_view_changelogCount" data-edit-id="meta" data-edit-label="New entry count"><rect x="254" y="24" width="43" height="24" rx="12" fill="#064e3b"/><text x="275.5" y="40" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" font-weight="800" fill="#6ee7b7">12 NEW</text></g>
+</svg>

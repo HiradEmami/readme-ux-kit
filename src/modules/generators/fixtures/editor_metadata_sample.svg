@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80" role="img" aria-label="Editable sample">
+  <rect data-edit-id="background" data-edit-label="Background" width="240" height="80" rx="10" fill="#020617"/>
+  <g data-edit-id="content" data-edit-label="Content group">
+    <rect x="14" y="14" width="212" height="52" rx="8" fill="#0f172a" stroke="#38bdf8"/>
+    <text data-edit-id="title" data-edit-label="Title text" x="28" y="48" font-family="Consolas, monospace" font-size="22" font-weight="700" fill="#f8fafc">Docs Ready</text>
+  </g>
+  <circle data-edit-id="spark" data-edit-label="Locked pulse" data-edit-lock="true" cx="208" cy="40" r="7" fill="#38bdf8">
+    <animate attributeName="opacity" values="1;.35;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

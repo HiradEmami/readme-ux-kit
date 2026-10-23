@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button Build Passing</title>
+  <desc>An animated README SVG asset illustrating Button Build Passing.</desc>
   <rect x="8" y="8" width="304" height="56" rx="16" fill="#052e16"/>
   <rect x="10" y="10" width="300" height="52" rx="14" stroke="#22c55e" stroke-width="2"/>
   <circle cx="43" cy="36" r="17" fill="#16a34a"/>

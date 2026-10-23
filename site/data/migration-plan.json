@@ -1,0 +1,29 @@
+{
+  "current": {
+    "assetManifestSchemaVersion": 2,
+    "editorSchemaVersion": 2,
+    "repositoryManifestVersion": 2
+  },
+  "generatedBy": "src/modules/migrations/migration_registry.py",
+  "migrations": [
+    {
+      "changes": [
+        "Backfill localPath from path.",
+        "Backfill animated from type.",
+        "Backfill previewPath when missing.",
+        "Add empty editor metadata as a temporary migration bridge.",
+        "Recompute categoryCounts and assetCount."
+      ],
+      "followUp": "Regenerate assets/manifest.json for complete editor metadata after migrating.",
+      "from": {
+        "assetManifestSchemaVersion": 1
+      },
+      "id": "manifest-v1-to-v2",
+      "to": {
+        "assetManifestSchemaVersion": 2,
+        "editorSchemaVersion": 2
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

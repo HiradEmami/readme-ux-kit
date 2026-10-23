@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+  <title>Icon Origami Spinner</title>
+  <desc>An animated README SVG asset illustrating Icon Origami Spinner.</desc>
   <g>
     <polygon points="60,18 84,60 60,50" fill="#22d3ee"/>
     <polygon points="102,60 60,84 70,60" fill="#a855f7"/>

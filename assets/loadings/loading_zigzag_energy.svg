@@ -1,4 +1,6 @@
-<svg width="140" height="60" viewBox="0 0 140 60" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="140" height="60" viewBox="0 0 140 60" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
+  <title>Loading Zigzag Energy</title>
+  <desc>An animated README SVG asset illustrating Loading Zigzag Energy.</desc>
   <path d="M10 30 L30 15 L50 45 L70 15 L90 45 L110 15 L130 30"
         stroke="#475569" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M10 30 L30 15 L50 45 L70 15 L90 45 L110 15 L130 30"

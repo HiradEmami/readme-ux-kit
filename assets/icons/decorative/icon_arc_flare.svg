@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="arc flare icon">
+  <title>Icon Arc Flare</title>
+  <desc>An animated README SVG asset illustrating Icon Arc Flare.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f472b6"/>

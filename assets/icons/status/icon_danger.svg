@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
+  <title>Icon Danger</title>
+  <desc>An animated README SVG asset illustrating Icon Danger.</desc>
   <circle cx="30" cy="30" r="10" fill="#ef4444"/>
 
   <line x1="25" y1="25" x2="35" y2="35" stroke="white" stroke-width="2"/>

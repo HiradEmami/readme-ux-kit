@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 50" width="100%" height="50" role="img">
+  <title>Divider Signal Wave Scanner</title>
+  <desc>An animated README SVG asset illustrating Divider Signal Wave Scanner.</desc>
   <polyline points="0,25 125,10 250,40 375,15 500,35 625,20 750,30 875,15 1000,25"
             fill="none" stroke="#22d3ee" stroke-width="2"
             stroke-dasharray="10 6">

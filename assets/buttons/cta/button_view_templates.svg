@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none" role="img">
+  <title>Button View Templates</title>
+  <desc>A static README SVG asset illustrating Button View Templates.</desc>
   <rect x="8" y="8" width="304" height="56" rx="16" fill="#f8fafc"/>
   <rect x="8" y="8" width="304" height="56" rx="16" stroke="#94a3b8" stroke-width="2"/>
   <rect x="31" y="22" width="16" height="16" rx="4" fill="#0ea5e9"/>

@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" style="display:block" role="img" aria-label="Evaluation equals performance plus runtime">
+  <title>Evaluation</title>
+  <desc>A static README SVG asset illustrating Evaluation.</desc>
   <defs>
 
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -67,7 +69,6 @@
 
   <rect class="bg" width="900" height="320"/>
 
-  <!-- Performance -->
   <g>
     <rect class="box" x="60" y="100" width="240" height="110"/>
     <rect class="box-glow" x="60" y="100" width="240" height="110" rx="14"/>
@@ -76,7 +77,6 @@
     <text class="sub" x="180" y="170" text-anchor="middle">Accuracy / F1 / BLEU</text>
   </g>
 
-  <!-- Runtime -->
   <g>
     <rect class="box" x="600" y="100" width="240" height="110"/>
     <rect class="box-glow" x="600" y="100" width="240" height="110" rx="14"/>
@@ -85,10 +85,8 @@
     <text class="sub" x="720" y="170" text-anchor="middle">Latency / Throughput / Memory</text>
   </g>
 
-  <!-- plus -->
   <text class="plus" x="450" y="165" text-anchor="middle">+</text>
 
-  <!-- Evaluation -->
   <g>
     <rect class="box" x="330" y="30" width="240" height="80"/>
     <rect class="box-glow" x="330" y="30" width="240" height="80" rx="14"/>
@@ -96,7 +94,6 @@
     <text class="title" x="450" y="75" text-anchor="middle">Evaluation</text>
   </g>
 
-  <!-- connectors -->
   <path class="line" d="M300 155 L330 110"/>
   <path class="line" d="M600 155 L570 110"/>
 

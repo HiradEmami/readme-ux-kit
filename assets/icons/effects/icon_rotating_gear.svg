@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" role="img">
+  <title>Icon Rotating Gear</title>
+  <desc>An animated README SVG asset illustrating Icon Rotating Gear.</desc>
   <circle cx="40" cy="40" r="10" fill="#22d3ee"/>
   <g>
     <rect x="38" y="10" width="4" height="10" fill="#22d3ee"/>

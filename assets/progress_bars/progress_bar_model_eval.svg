@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 58" width="620" height="58" role="img" aria-label="Model evaluation progress">
+  <title>Progress Bar Model Eval</title>
+  <desc>An animated README SVG asset illustrating Progress Bar Model Eval.</desc>
   <defs>
     <linearGradient id="model-eval" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>

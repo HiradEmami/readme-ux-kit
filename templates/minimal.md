@@ -6,13 +6,13 @@
 
 > One clear sentence that explains what this project does, who it is for, and why it exists.
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Status](https://img.shields.io/badge/status-active-38bdf8.svg)](#status)
 [![Version](https://img.shields.io/badge/version-0.1.0-111827.svg)](#)
 
 ## Overview
 
-`project-name` is a focused tool for `<primary audience>` who need to `<main outcome>` without `<common pain point>`.
+`PROJECT_NAME` is a focused tool for `TARGET_USER` who need to `PRIMARY_OUTCOME` without `COMMON_PAIN_POINT`.
 
 Use this section to explain the project in plain language. Keep it short enough that a new visitor can understand the value before scrolling.
 
@@ -34,10 +34,10 @@ cd project-name
 
 ```bash
 # Install dependencies
-<install command>
+INSTALL_COMMAND
 
 # Run the project
-<run command>
+RUN_COMMAND
 ```
 
 ## Example
@@ -84,4 +84,11 @@ Issues and pull requests are welcome. Before opening a larger change, create an 
 
 ## License
 
-This project is licensed under the terms in [`LICENSE`](./LICENSE).
+This project is licensed under the terms in `LICENSE`.
+
+## Copy Checklist
+
+- [ ] Replace all placeholder project names, commands, and links.
+- [ ] Remove sections that do not apply.
+- [ ] Verify local and external links.
+- [ ] Choose one compatible theme and keep assets consistent.

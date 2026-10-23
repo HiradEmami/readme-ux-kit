@@ -67,8 +67,9 @@ Allowed patterns:
 
 ## Accessibility
 
-- Add meaningful `aria-label` values to standalone SVGs when practical.
-- Keep contrast high for text-based SVGs.
+- Give every standalone SVG `role="img"` and an accessible name through `<title>` or `aria-label`.
+- Include a useful `<desc>` that explains the visual rather than repeating its filename verbatim.
+- Keep text contrast at or above WCAG AA's `4.5:1` threshold for normal text.
 - Avoid relying on color alone for status meaning when a label can clarify it.
 - Avoid aggressive flashing animation.
 
@@ -80,6 +81,7 @@ Allowed patterns:
 - [ ] It parses as XML.
 - [ ] It has no `<script>`.
 - [ ] It has no external `href` or `src` references.
+- [ ] It includes `role="img"`, an accessible name, and a useful `<desc>`.
 - [ ] Text and animation do not overlap.
 - [ ] It renders cleanly in the generated preview.
 - [ ] It fits the category style.

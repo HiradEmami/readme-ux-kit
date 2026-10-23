@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Banner Wave Double Premium Bottom</title>
+  <desc>An animated README SVG asset illustrating Banner Wave Double Premium Bottom.</desc>
   <defs>
     <linearGradient id="wave1" x1="0" x2="1">
       <stop offset="0%" stop-color="#22d3ee"/>
@@ -8,7 +10,6 @@
 
   <g transform="translate(0,120) scale(1,-1)">
 
-    <!-- back wave -->
     <path fill="#1e293b" opacity="0.4">
       <animate attributeName="d" dur="7s" repeatCount="indefinite"
         values="
@@ -18,7 +19,6 @@
         "/>
     </path>
 
-    <!-- front wave -->
     <path fill="url(#wave1)">
       <animate attributeName="d" dur="5s" repeatCount="indefinite"
         values="

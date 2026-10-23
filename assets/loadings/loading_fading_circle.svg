@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" role="img">
+  <title>Loading Fading Circle</title>
+  <desc>An animated README SVG asset illustrating Loading Fading Circle.</desc>
   <circle cx="40" cy="40" r="15" fill="#22d3ee">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
   </circle>

@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" role="img">
+  <title>Icon Info</title>
+  <desc>An animated README SVG asset illustrating Icon Info.</desc>
   <circle cx="30" cy="30" r="10" fill="#0ea5e9"/>
 
   <rect x="29" y="28" width="2" height="10" fill="white"/>

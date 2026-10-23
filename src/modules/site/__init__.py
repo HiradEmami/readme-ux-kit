@@ -1,0 +1,2 @@
+"""Static site data validation."""
+

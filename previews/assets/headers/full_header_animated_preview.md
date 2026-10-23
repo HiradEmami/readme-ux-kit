@@ -10,31 +10,36 @@ Generated from `assets/`. Do not edit this page directly; run `npm run generate:
 
 - Category: `headers`
 - Group: `animated`
-- Asset count: 21
+- Asset count: 26
 - Best for: Animated variants for motion-first README accents.
 - Group tags: `animated`, `motion`
 
 ## Compact index
 
-Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` (4), `status` (1)
+Top tags: `animated` (26), `header` (26), `motion` (26), `title` (26), `energy` (4), `data` (1), `build` (1), `status` (1)
 
 | Asset | Type | Tags | Preview | Source | Raw |
 | --- | --- | --- | --- | --- | --- |
 | `header_blinking_danger` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-blinking-danger) | [Source](../../../assets/headers/animated/header_blinking_danger.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_danger.svg) |
 | `header_blinking_info` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-blinking-info) | [Source](../../../assets/headers/animated/header_blinking_info.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_info.svg) |
 | `header_blinking_warning` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-blinking-warning) | [Source](../../../assets/headers/animated/header_blinking_warning.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_warning.svg) |
+| `header_browser_extension` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-browser-extension) | [Source](../../../assets/headers/animated/header_browser_extension.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_browser_extension.svg) |
 | `header_center_glow` | Animated | `animated`, `energy`, `header`, `motion`, `title` | [Jump](#header-center-glow) | [Source](../../../assets/headers/animated/header_center_glow.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_center_glow.svg) |
 | `header_collaboration` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-collaboration) | [Source](../../../assets/headers/animated/header_collaboration.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_collaboration.svg) |
 | `header_collaboration_premium` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-collaboration-premium) | [Source](../../../assets/headers/animated/header_collaboration_premium.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_collaboration_premium.svg) |
+| `header_community_projects` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-community-projects) | [Source](../../../assets/headers/animated/header_community_projects.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_community_projects.svg) |
+| `header_data_platform` | Animated | `animated`, `data`, `header`, `motion`, `title` | [Jump](#header-data-platform) | [Source](../../../assets/headers/animated/header_data_platform.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_data_platform.svg) |
 | `header_expanding_bar` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-expanding-bar) | [Source](../../../assets/headers/animated/header_expanding_bar.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_bar.svg) |
 | `header_expanding_circle` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-expanding-circle) | [Source](../../../assets/headers/animated/header_expanding_circle.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_circle.svg) |
 | `header_floating_particles` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-floating-particles) | [Source](../../../assets/headers/animated/header_floating_particles.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_particles.svg) |
 | `header_floating_text` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-floating-text) | [Source](../../../assets/headers/animated/header_floating_text.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_text.svg) |
 | `header_glow_up_highlight` | Animated | `animated`, `energy`, `header`, `motion`, `title` | [Jump](#header-glow-up-highlight) | [Source](../../../assets/headers/animated/header_glow_up_highlight.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_glow_up_highlight.svg) |
 | `header_horizontal_scanning` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-horizontal-scanning) | [Source](../../../assets/headers/animated/header_horizontal_scanning.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_horizontal_scanning.svg) |
+| `header_local_tools` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-local-tools) | [Source](../../../assets/headers/animated/header_local_tools.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_local_tools.svg) |
 | `header_orbiting_dots` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-orbiting-dots) | [Source](../../../assets/headers/animated/header_orbiting_dots.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_orbiting_dots.svg) |
 | `header_pulse_underline_glow` | Animated | `animated`, `energy`, `header`, `motion`, `title` | [Jump](#header-pulse-underline-glow) | [Source](../../../assets/headers/animated/header_pulse_underline_glow.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_pulse_underline_glow.svg) |
 | `header_radial_core` | Animated | `animated`, `energy`, `header`, `motion`, `title` | [Jump](#header-radial-core) | [Source](../../../assets/headers/animated/header_radial_core.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_radial_core.svg) |
+| `header_release_engineering` | Animated | `animated`, `build`, `header`, `motion`, `title` | [Jump](#header-release-engineering) | [Source](../../../assets/headers/animated/header_release_engineering.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_release_engineering.svg) |
 | `header_rotating_square` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-rotating-square) | [Source](../../../assets/headers/animated/header_rotating_square.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_rotating_square.svg) |
 | `header_scanning_status` | Animated | `animated`, `header`, `motion`, `status`, `title` | [Jump](#header-scanning-status) | [Source](../../../assets/headers/animated/header_scanning_status.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_scanning_status.svg) |
 | `header_sliding_highlightbar` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-sliding-highlightbar) | [Source](../../../assets/headers/animated/header_sliding_highlightbar.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_sliding_highlightbar.svg) |
@@ -43,6 +48,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 | `header_wave_distortion` | Animated | `animated`, `header`, `motion`, `title` | [Jump](#header-wave-distortion) | [Source](../../../assets/headers/animated/header_wave_distortion.svg) | [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_wave_distortion.svg) |
 
 ## Visual previews
+
+<a id="header-blinking-danger"></a>
 
 ## header_blinking_danger
 
@@ -78,6 +85,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_blinking_danger.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_danger.svg)
 
+<a id="header-blinking-info"></a>
+
 ## header_blinking_info
 
 [![header_blinking_info](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_info.svg)](https://github.com/HiradEmami)
@@ -111,6 +120,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-blinking-info`
 - [Source file](../../../assets/headers/animated/header_blinking_info.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_info.svg)
+
+<a id="header-blinking-warning"></a>
 
 ## header_blinking_warning
 
@@ -146,6 +157,44 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_blinking_warning.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_blinking_warning.svg)
 
+<a id="header-browser-extension"></a>
+
+## header_browser_extension
+
+[![header_browser_extension](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_browser_extension.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![header_browser_extension](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_browser_extension.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_browser_extension.svg" alt="header_browser_extension" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `header`, `motion`, `title`
+- Anchor: `#header-browser-extension`
+- [Source file](../../../assets/headers/animated/header_browser_extension.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_browser_extension.svg)
+
+<a id="header-center-glow"></a>
+
 ## header_center_glow
 
 [![header_center_glow](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_center_glow.svg)](https://github.com/HiradEmami)
@@ -179,6 +228,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-center-glow`
 - [Source file](../../../assets/headers/animated/header_center_glow.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_center_glow.svg)
+
+<a id="header-collaboration"></a>
 
 ## header_collaboration
 
@@ -214,6 +265,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_collaboration.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_collaboration.svg)
 
+<a id="header-collaboration-premium"></a>
+
 ## header_collaboration_premium
 
 [![header_collaboration_premium](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_collaboration_premium.svg)](https://github.com/HiradEmami)
@@ -247,6 +300,80 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-collaboration-premium`
 - [Source file](../../../assets/headers/animated/header_collaboration_premium.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_collaboration_premium.svg)
+
+<a id="header-community-projects"></a>
+
+## header_community_projects
+
+[![header_community_projects](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_community_projects.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![header_community_projects](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_community_projects.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_community_projects.svg" alt="header_community_projects" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `header`, `motion`, `title`
+- Anchor: `#header-community-projects`
+- [Source file](../../../assets/headers/animated/header_community_projects.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_community_projects.svg)
+
+<a id="header-data-platform"></a>
+
+## header_data_platform
+
+[![header_data_platform](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_data_platform.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![header_data_platform](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_data_platform.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_data_platform.svg" alt="header_data_platform" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `data`, `header`, `motion`, `title`
+- Anchor: `#header-data-platform`
+- [Source file](../../../assets/headers/animated/header_data_platform.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_data_platform.svg)
+
+<a id="header-expanding-bar"></a>
 
 ## header_expanding_bar
 
@@ -282,6 +409,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_expanding_bar.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_bar.svg)
 
+<a id="header-expanding-circle"></a>
+
 ## header_expanding_circle
 
 [![header_expanding_circle](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_circle.svg)](https://github.com/HiradEmami)
@@ -315,6 +444,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-expanding-circle`
 - [Source file](../../../assets/headers/animated/header_expanding_circle.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_expanding_circle.svg)
+
+<a id="header-floating-particles"></a>
 
 ## header_floating_particles
 
@@ -350,6 +481,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_floating_particles.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_particles.svg)
 
+<a id="header-floating-text"></a>
+
 ## header_floating_text
 
 [![header_floating_text](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_text.svg)](https://github.com/HiradEmami)
@@ -383,6 +516,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-floating-text`
 - [Source file](../../../assets/headers/animated/header_floating_text.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_floating_text.svg)
+
+<a id="header-glow-up-highlight"></a>
 
 ## header_glow_up_highlight
 
@@ -418,6 +553,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_glow_up_highlight.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_glow_up_highlight.svg)
 
+<a id="header-horizontal-scanning"></a>
+
 ## header_horizontal_scanning
 
 [![header_horizontal_scanning](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_horizontal_scanning.svg)](https://github.com/HiradEmami)
@@ -451,6 +588,44 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-horizontal-scanning`
 - [Source file](../../../assets/headers/animated/header_horizontal_scanning.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_horizontal_scanning.svg)
+
+<a id="header-local-tools"></a>
+
+## header_local_tools
+
+[![header_local_tools](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_local_tools.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![header_local_tools](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_local_tools.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_local_tools.svg" alt="header_local_tools" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `header`, `motion`, `title`
+- Anchor: `#header-local-tools`
+- [Source file](../../../assets/headers/animated/header_local_tools.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_local_tools.svg)
+
+<a id="header-orbiting-dots"></a>
 
 ## header_orbiting_dots
 
@@ -486,6 +661,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_orbiting_dots.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_orbiting_dots.svg)
 
+<a id="header-pulse-underline-glow"></a>
+
 ## header_pulse_underline_glow
 
 [![header_pulse_underline_glow](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_pulse_underline_glow.svg)](https://github.com/HiradEmami)
@@ -519,6 +696,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-pulse-underline-glow`
 - [Source file](../../../assets/headers/animated/header_pulse_underline_glow.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_pulse_underline_glow.svg)
+
+<a id="header-radial-core"></a>
 
 ## header_radial_core
 
@@ -554,6 +733,44 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_radial_core.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_radial_core.svg)
 
+<a id="header-release-engineering"></a>
+
+## header_release_engineering
+
+[![header_release_engineering](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_release_engineering.svg)](https://github.com/HiradEmami)
+
+### Copy this asset
+
+<details>
+<summary>Markdown</summary>
+
+```markdown
+[![header_release_engineering](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_release_engineering.svg)](https://github.com/HiradEmami)
+```
+
+</details>
+
+<details>
+<summary>HTML</summary>
+
+```html
+<a href="https://github.com/HiradEmami">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_release_engineering.svg" alt="header_release_engineering" />
+</a>
+```
+
+</details>
+
+### Details
+
+- Type: Animated
+- Tags: `animated`, `build`, `header`, `motion`, `title`
+- Anchor: `#header-release-engineering`
+- [Source file](../../../assets/headers/animated/header_release_engineering.svg)
+- [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_release_engineering.svg)
+
+<a id="header-rotating-square"></a>
+
 ## header_rotating_square
 
 [![header_rotating_square](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_rotating_square.svg)](https://github.com/HiradEmami)
@@ -587,6 +804,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-rotating-square`
 - [Source file](../../../assets/headers/animated/header_rotating_square.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_rotating_square.svg)
+
+<a id="header-scanning-status"></a>
 
 ## header_scanning_status
 
@@ -622,6 +841,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_scanning_status.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_scanning_status.svg)
 
+<a id="header-sliding-highlightbar"></a>
+
 ## header_sliding_highlightbar
 
 [![header_sliding_highlightbar](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_sliding_highlightbar.svg)](https://github.com/HiradEmami)
@@ -655,6 +876,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-sliding-highlightbar`
 - [Source file](../../../assets/headers/animated/header_sliding_highlightbar.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_sliding_highlightbar.svg)
+
+<a id="header-stretching-text"></a>
 
 ## header_stretching_text
 
@@ -690,6 +913,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - [Source file](../../../assets/headers/animated/header_stretching_text.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_stretching_text.svg)
 
+<a id="header-typing-dots"></a>
+
 ## header_typing_dots
 
 [![header_typing_dots](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_typing_dots.svg)](https://github.com/HiradEmami)
@@ -723,6 +948,8 @@ Top tags: `animated` (21), `header` (21), `motion` (21), `title` (21), `energy` 
 - Anchor: `#header-typing-dots`
 - [Source file](../../../assets/headers/animated/header_typing_dots.svg)
 - [Raw SVG](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/headers/animated/header_typing_dots.svg)
+
+<a id="header-wave-distortion"></a>
 
 ## header_wave_distortion
 

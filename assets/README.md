@@ -6,27 +6,48 @@ Use the generated preview catalog first when browsing assets:
 
 - [Asset preview index](../previews/assets/README.md)
 - [Banners](../previews/assets/banners.md)
+- [Badges](../previews/assets/badges.md)
 - [Buttons](../previews/assets/buttons.md)
+- [Callouts](../previews/assets/callouts.md)
+- [Cards](../previews/assets/cards.md)
+- [Charts](../previews/assets/charts.md)
+- [Diagrams](../previews/assets/diagrams.md)
 - [Dividers](../previews/assets/dividers.md)
 - [Headers](../previews/assets/headers.md)
 - [Icons](../previews/assets/icons.md)
 - [Loadings](../previews/assets/loadings.md)
+- [Mockups](../previews/assets/mockups.md)
 - [File headers](../previews/assets/file_headers.md)
+- [Personal](../previews/assets/personal.md)
+- [Progress bars](../previews/assets/progress_bars.md)
+- [Terminal panels](../previews/assets/terminal_panels.md)
+- [Visuals](../previews/assets/visuals.md)
+- [Workflow panels](../previews/assets/workflow_panels.md)
 
 ## Categories
 
 | Category | Purpose | Preview |
 | --- | --- | --- |
+| `badges/` | Compact build, release, security, quality, compatibility, and maintenance states. | [Preview](../previews/assets/badges.md) |
 | `banners/` | Wide visual strips for hero areas, section breaks, and visual identity. | [Preview](../previews/assets/banners.md) |
 | `buttons/` | SVG call-to-action, social, profile, and status buttons for README links. | [Preview](../previews/assets/buttons.md) |
+| `callouts/` | Prominent information, tip, warning, danger, security, deprecation, and compatibility notices. | [Preview](../previews/assets/callouts.md) |
+| `cards/` | Standalone feature, project, metric, team, release, and integration summaries. | [Preview](../previews/assets/cards.md) |
+| `charts/` | Accessible illustrative data visualizations for README evidence and comparisons. | [Preview](../previews/assets/charts.md) |
+| `diagrams/` | Technical architecture, data, sequence, deployment, network, security, and ML explanations. | [Preview](../previews/assets/diagrams.md) |
 | `dividers/` | Static and animated separators between README sections. | [Preview](../previews/assets/dividers.md) |
 | `file_headers/` | Header graphics for repository files such as `README.md`, `SECURITY.md`, and `CHANGELOG.md`. | [Preview](../previews/assets/file_headers.md) |
 | `headers/` | Title and section header graphics. | [Preview](../previews/assets/headers.md) |
 | `icons/` | Small symbols for UI, status, data, development, effects, and navigation. | [Preview](../previews/assets/icons.md) |
 | `loadings/` | Animated loading indicators and motion accents. | [Preview](../previews/assets/loadings.md) |
+| `mockups/` | Fictional browser, mobile, dashboard, API, documentation, and package interface previews. | [Preview](../previews/assets/mockups.md) |
 | `personal/` | Profile README, portfolio, and project-story visuals. | [Preview](../previews/assets/personal.md) |
 | `progress_bars/` | Progress, lifecycle, and completion indicators. | [Preview](../previews/assets/progress_bars.md) |
 | `visuals/` | Larger conceptual illustrations for systems, AI, infrastructure, and collaboration. | [Preview](../previews/assets/visuals.md) |
+| `terminal_panels/` | Terminal sessions for install, commands, builds, tests, deploys, logs, and errors. | [Preview](../previews/assets/terminal_panels.md) |
+| `workflow_panels/` | State-oriented delivery, release, contribution, review, incident, data, and model workflows. | [Preview](../previews/assets/workflow_panels.md) |
+
+Terminal-panel commands are duplicated as real Markdown text in [`docs/TERMINAL_PANEL_COMMANDS.md`](../docs/TERMINAL_PANEL_COMMANDS.md) so the SVG is never their only copyable source.
 
 ## Usage
 

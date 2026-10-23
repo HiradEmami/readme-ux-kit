@@ -1,4 +1,6 @@
-<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Server</title>
+  <desc>An animated README SVG asset illustrating Server.</desc>
   <defs>
     <radialGradient id="serverRoom" cx="50%" cy="50%" r="80%">
       <stop offset="0%" stop-color="#020617"/>

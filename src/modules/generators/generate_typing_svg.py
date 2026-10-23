@@ -2,7 +2,9 @@ from pathlib import Path
 import argparse
 import html
 
-TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} 80" width="{width}" height="90">
+TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} 80" width="{width}" height="90" role="img" aria-label="{text}">
+    <title>{text}</title>
+    <desc>An animated typing header displaying {text}.</desc>
     <defs>
         <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
             <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.8"/>
